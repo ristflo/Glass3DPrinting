@@ -1,0 +1,586 @@
+{
+ "id": "https://openalex.org/W2948339499",
+ "doi": "https://doi.org/10.1364/oft.2019.ot2a.3",
+ "title": "Glass Printing for Optics and Photonics Applications using a Filament-Fed Laser-Heated Process",
+ "display_name": "Glass Printing for Optics and Photonics Applications using a Filament-Fed Laser-Heated Process",
+ "relevance_score": 934.7593,
+ "publication_year": 2019,
+ "publication_date": "2019-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2948339499",
+  "doi": "https://doi.org/10.1364/oft.2019.ot2a.3",
+  "mag": "2948339499"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1364/oft.2019.ot2a.3",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1364/oft.2019.ot2a.3",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Optical Design and Fabrication 2019 (Freeform, OFT)",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5134442203",
+    "display_name": "Nicholas E. Capps",
+    "orcid": "https://orcid.org/0009-0002-3495-5078"
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Nicholas Capps",
+   "raw_affiliation_strings": [
+    "Aerospace and Mechanical Engineering, 365 Fitzpatrick Hall, Notre Dame, IN 46556"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Aerospace and Mechanical Engineering, 365 Fitzpatrick Hall, Notre Dame, IN 46556",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5005550970",
+    "display_name": "Jason E. Johnson",
+    "orcid": "https://orcid.org/0000-0002-6916-3567"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Jason Johnson",
+   "raw_affiliation_strings": [
+    "Mechanical and Aerospace Engineering, 400 W. 13th St., Rolla, MO 65409"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical and Aerospace Engineering, 400 W. 13th St., Rolla, MO 65409",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101865717",
+    "display_name": "Jonathan T. Goldstein",
+    "orcid": "https://orcid.org/0000-0002-6111-4613"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I2799950915",
+     "display_name": "Wright-Patterson Air Force Base",
+     "ror": "https://ror.org/0097e1k27",
+     "country_code": "US",
+     "type": "other",
+     "lineage": [
+      "https://openalex.org/I1330347796",
+      "https://openalex.org/I2799950915",
+      "https://openalex.org/I4210089612",
+      "https://openalex.org/I4210102105"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Jonathan Goldstein",
+   "raw_affiliation_strings": [
+    "Air Force Research Laboratory, Wright-Patterson Air Force Base, OH 45433"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Air Force Research Laboratory, Wright-Patterson Air Force Base, OH 45433",
+     "institution_ids": [
+      "https://openalex.org/I2799950915"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5002415526",
+    "display_name": "Edward C. Kinzel",
+    "orcid": "https://orcid.org/0000-0002-4492-8682"
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Edward Kinzel",
+   "raw_affiliation_strings": [
+    "Aerospace and Mechanical Engineering, 365 Fitzpatrick Hall, Notre Dame, IN 46556"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Aerospace and Mechanical Engineering, 365 Fitzpatrick Hall, Notre Dame, IN 46556",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002415526",
+  "https://openalex.org/A5005550970",
+  "https://openalex.org/A5101865717",
+  "https://openalex.org/A5134442203"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I20382870",
+  "https://openalex.org/I2799950915"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.4895,
+ "has_fulltext": false,
+ "cited_by_count": 2,
+ "citation_normalized_percentile": {
+  "value": 0.54209531,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 94
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "OT2A.3",
+  "last_page": "OT2A.3"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11788",
+  "display_name": "Nonlinear Optical Materials Studies",
+  "score": 0.9901000261306763,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.9901000261306763,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9807000160217285,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9754999876022339,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.6649566888809204
+  },
+  {
+   "id": "https://openalex.org/keywords/protein-filament",
+   "display_name": "Protein filament",
+   "score": 0.6452720761299133
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.6106033325195312
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.5894996523857117
+  },
+  {
+   "id": "https://openalex.org/keywords/photonics",
+   "display_name": "Photonics",
+   "score": 0.5839396715164185
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.5616273880004883
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-glass",
+   "display_name": "Optical glass",
+   "score": 0.5014891624450684
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.42910903692245483
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-process",
+   "display_name": "Manufacturing process",
+   "score": 0.42394983768463135
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.207358717918396
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.19332873821258545
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.09779846668243408
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.6649566888809204
+  },
+  {
+   "id": "https://openalex.org/C14228908",
+   "wikidata": "https://www.wikidata.org/wiki/Q2920483",
+   "display_name": "Protein filament",
+   "level": 2,
+   "score": 0.6452720761299133
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.6106033325195312
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.5894996523857117
+  },
+  {
+   "id": "https://openalex.org/C20788544",
+   "wikidata": "https://www.wikidata.org/wiki/Q467054",
+   "display_name": "Photonics",
+   "level": 2,
+   "score": 0.5839396715164185
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.5616273880004883
+  },
+  {
+   "id": "https://openalex.org/C2984142464",
+   "wikidata": "https://www.wikidata.org/wiki/Q11469",
+   "display_name": "Optical glass",
+   "level": 2,
+   "score": 0.5014891624450684
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.42910903692245483
+  },
+  {
+   "id": "https://openalex.org/C2987875673",
+   "wikidata": "https://www.wikidata.org/wiki/Q187939",
+   "display_name": "Manufacturing process",
+   "level": 2,
+   "score": 0.42394983768463135
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.207358717918396
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.19332873821258545
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.09779846668243408
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1364/oft.2019.ot2a.3",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1364/oft.2019.ot2a.3",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Optical Design and Fabrication 2019 (Freeform, OFT)",
+   "raw_type": "proceedings-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 5,
+ "referenced_works": [
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2889830791"
+ ],
+ "related_works": [
+  "https://openalex.org/W2804858172",
+  "https://openalex.org/W3192258530",
+  "https://openalex.org/W4389312381",
+  "https://openalex.org/W1997541089",
+  "https://openalex.org/W2027807448",
+  "https://openalex.org/W4389073315",
+  "https://openalex.org/W2065944068",
+  "https://openalex.org/W1539494608",
+  "https://openalex.org/W2654885930",
+  "https://openalex.org/W2041406541"
+ ],
+ "abstract_inverted_index": {
+  "Glass": [
+   0
+  ],
+  "poses": [
+   1
+  ],
+  "unique": [
+   2
+  ],
+  "challenges": [
+   3
+  ],
+  "for": [
+   4,
+   18
+  ],
+  "additive": [
+   5
+  ],
+  "manufacturing.": [
+   6
+  ],
+  "A": [
+   7
+  ],
+  "Laser-Heated": [
+   8
+  ],
+  "Filament-Fed": [
+   9
+  ],
+  "process": [
+   10,
+   28
+  ],
+  "has": [
+   11
+  ],
+  "been": [
+   12
+  ],
+  "developed": [
+   13
+  ],
+  "to": [
+   14
+  ],
+  "deposit": [
+   15
+  ],
+  "transparent": [
+   16
+  ],
+  "glass": [
+   17
+  ],
+  "both": [
+   19
+  ],
+  "refractive": [
+   20
+  ],
+  "free-form": [
+   21
+  ],
+  "optics": [
+   22
+  ],
+  "and": [
+   23
+  ],
+  "free-standing": [
+   24
+  ],
+  "light-guiding": [
+   25
+  ],
+  "structures.": [
+   26
+  ],
+  "The": [
+   27
+  ],
+  "is": [
+   29
+  ],
+  "discussed": [
+   30
+  ],
+  "with": [
+   31
+  ],
+  "examples": [
+   32
+  ],
+  "of": [
+   33
+  ],
+  "capabilities.": [
+   34
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

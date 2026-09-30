@@ -1,0 +1,5 @@
+glass	A	B_K	T0_degC	dlog10eta_dT_at_1000C
+Soda-lime float	-2.391	5210	206	-0.0083
+Borosilicate (BOROFLOAT 33)	-1.681	6578	112	-0.0083
+Boro-aluminosilicate (EAGLE XG)	-1.930	6947	250	-0.0123
+Fused quartz (lamp grade)	-1.930	13351	317	-0.0286

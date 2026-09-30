@@ -1,0 +1,1298 @@
+{
+ "id": "https://openalex.org/W4361275587",
+ "doi": "https://doi.org/10.3390/photonics10040378",
+ "title": "Fiber-Fed 3D Printing of Germanate Glass Optics",
+ "display_name": "Fiber-Fed 3D Printing of Germanate Glass Optics",
+ "publication_year": 2023,
+ "publication_date": "2023-03-29",
+ "ids": {
+  "openalex": "https://openalex.org/W4361275587",
+  "doi": "https://doi.org/10.3390/photonics10040378"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/photonics10040378",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/photonics10040378",
+  "pdf_url": "https://www.mdpi.com/2304-6732/10/4/378/pdf?version=1680182399",
+  "source": {
+   "id": "https://openalex.org/S2738274844",
+   "display_name": "Photonics",
+   "issn_l": "2304-6732",
+   "issn": [
+    "2304-6732"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Photonics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2304-6732/10/4/378/pdf?version=1680182399",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5031791981",
+    "display_name": "Zhihan Hong",
+    "orcid": "https://orcid.org/0000-0002-7948-1024",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7948-1024"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138006243",
+     "display_name": "University of Arizona",
+     "ror": "https://ror.org/03m2x1q45",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138006243"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Zhihan Hong",
+   "raw_affiliation_strings": [
+    "Wyant College of Optical Sciences, The University of Arizona, 1630 E University Blvd, Tucson, AZ 85721, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Wyant College of Optical Sciences, The University of Arizona, 1630 E University Blvd, Tucson, AZ 85721, USA",
+     "institution_ids": [
+      "https://openalex.org/I138006243"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101631595",
+    "display_name": "Tao Luo",
+    "orcid": "https://orcid.org/0000-0002-4861-3397",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4861-3397"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210092718",
+     "display_name": "AdValue Photonics (United States)",
+     "ror": "https://ror.org/00dmrtz93",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210092718"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tao Luo",
+   "raw_affiliation_strings": [
+    "Advalue Photonics Inc., 2700 E Bilby Rd., Tucson, AZ 85706, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Advalue Photonics Inc., 2700 E Bilby Rd., Tucson, AZ 85706, USA",
+     "institution_ids": [
+      "https://openalex.org/I4210092718"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5037789784",
+    "display_name": "Shibin Jiang",
+    "orcid": "https://orcid.org/0000-0001-6187-1713",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6187-1713"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210092718",
+     "display_name": "AdValue Photonics (United States)",
+     "ror": "https://ror.org/00dmrtz93",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210092718"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shibin Jiang",
+   "raw_affiliation_strings": [
+    "Advalue Photonics Inc., 2700 E Bilby Rd., Tucson, AZ 85706, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Advalue Photonics Inc., 2700 E Bilby Rd., Tucson, AZ 85706, USA",
+     "institution_ids": [
+      "https://openalex.org/I4210092718"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5060024996",
+    "display_name": "Rongguang Liang",
+    "orcid": "https://orcid.org/0000-0003-2792-3457",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2792-3457",
+     "https://orcid.org/0009-0006-4935-5314"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138006243",
+     "display_name": "University of Arizona",
+     "ror": "https://ror.org/03m2x1q45",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138006243"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Rongguang Liang",
+   "raw_affiliation_strings": [
+    "Wyant College of Optical Sciences, The University of Arizona, 1630 E University Blvd, Tucson, AZ 85721, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Wyant College of Optical Sciences, The University of Arizona, 1630 E University Blvd, Tucson, AZ 85721, USA",
+     "institution_ids": [
+      "https://openalex.org/I138006243"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5031791981",
+  "https://openalex.org/A5060024996"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I138006243"
+ ],
+ "apc_list": {
+  "value": 1800,
+  "currency": "CHF",
+  "value_usd": 2002
+ },
+ "apc_paid": {
+  "value": 1800,
+  "currency": "CHF",
+  "value_usd": 2002
+ },
+ "fwci": 1.0857,
+ "has_fulltext": false,
+ "cited_by_count": 14,
+ "citation_normalized_percentile": {
+  "value": 0.72498382,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "10",
+  "issue": "4",
+  "first_page": "378",
+  "last_page": "378"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11788",
+  "display_name": "Nonlinear Optical Materials Studies",
+  "score": 0.9991999864578247,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.9991999864578247,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11569",
+   "display_name": "Optical Coherence Tomography Applications",
+   "score": 0.9882000088691711,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11315",
+   "display_name": "Phase-change materials and chalcogenides",
+   "score": 0.9850999712944031,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7552957534790039
+  },
+  {
+   "id": "https://openalex.org/keywords/germanate",
+   "display_name": "Germanate",
+   "score": 0.7338122725486755
+  },
+  {
+   "id": "https://openalex.org/keywords/chalcogenide-glass",
+   "display_name": "Chalcogenide glass",
+   "score": 0.6934082508087158
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.5823497772216797
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-fiber",
+   "display_name": "Optical fiber",
+   "score": 0.4811731278896332
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.4773288369178772
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.45376694202423096
+  },
+  {
+   "id": "https://openalex.org/keywords/chalcogenide",
+   "display_name": "Chalcogenide",
+   "score": 0.3610072135925293
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7552957534790039
+  },
+  {
+   "id": "https://openalex.org/C2780993342",
+   "wikidata": "https://www.wikidata.org/wiki/Q5551886",
+   "display_name": "Germanate",
+   "level": 3,
+   "score": 0.7338122725486755
+  },
+  {
+   "id": "https://openalex.org/C112234648",
+   "wikidata": "https://www.wikidata.org/wiki/Q5068626",
+   "display_name": "Chalcogenide glass",
+   "level": 3,
+   "score": 0.6934082508087158
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.5823497772216797
+  },
+  {
+   "id": "https://openalex.org/C194232370",
+   "wikidata": "https://www.wikidata.org/wiki/Q162",
+   "display_name": "Optical fiber",
+   "level": 2,
+   "score": 0.4811731278896332
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.4773288369178772
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.45376694202423096
+  },
+  {
+   "id": "https://openalex.org/C2778177714",
+   "wikidata": "https://www.wikidata.org/wiki/Q898920",
+   "display_name": "Chalcogenide",
+   "level": 2,
+   "score": 0.3610072135925293
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C57863236",
+   "wikidata": "https://www.wikidata.org/wiki/Q1130571",
+   "display_name": "Doping",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.3390/photonics10040378",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/photonics10040378",
+   "pdf_url": "https://www.mdpi.com/2304-6732/10/4/378/pdf?version=1680182399",
+   "source": {
+    "id": "https://openalex.org/S2738274844",
+    "display_name": "Photonics",
+    "issn_l": "2304-6732",
+    "issn": [
+     "2304-6732"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Photonics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:4fbdc810065340149aeb80cadb6e919c",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/4fbdc810065340149aeb80cadb6e919c",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Photonics, Vol 10, Iss 4, p 378 (2023)",
+   "raw_type": "article"
+  },
+  {
+   "id": "pmh:oai:repository.arizona.edu:10150/674314",
+   "is_oa": true,
+   "landing_page_url": "http://hdl.handle.net/10150/674314",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400271",
+    "display_name": "UA Campus Repository (The University of Arizona)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I138006243",
+    "host_organization_name": "University of Arizona",
+    "host_organization_lineage": [
+     "https://openalex.org/I138006243"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Photonics",
+   "raw_type": "Article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/photonics10040378",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/photonics10040378",
+  "pdf_url": "https://www.mdpi.com/2304-6732/10/4/378/pdf?version=1680182399",
+  "source": {
+   "id": "https://openalex.org/S2738274844",
+   "display_name": "Photonics",
+   "issn_l": "2304-6732",
+   "issn": [
+    "2304-6732"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Photonics",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.4300000071525574
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G3064825845",
+   "display_name": null,
+   "funder_award_id": "AFRL-2023-0530",
+   "funder_id": "https://openalex.org/F4320332467",
+   "funder_display_name": "U.S. Air Force"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320332467",
+   "display_name": "U.S. Air Force",
+   "ror": "https://ror.org/006gmme17"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": false
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4361275587.pdf"
+ },
+ "referenced_works_count": 41,
+ "referenced_works": [
+  "https://openalex.org/W1655034548",
+  "https://openalex.org/W1983524488",
+  "https://openalex.org/W1990975174",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2017419066",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2037445218",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2061120615",
+  "https://openalex.org/W2073377558",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2094161853",
+  "https://openalex.org/W2095137652",
+  "https://openalex.org/W2097669478",
+  "https://openalex.org/W2124693925",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2218190479",
+  "https://openalex.org/W2461999262",
+  "https://openalex.org/W2482629727",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2565565386",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2739533428",
+  "https://openalex.org/W2793887430",
+  "https://openalex.org/W2892903321",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2939121473",
+  "https://openalex.org/W2978048521",
+  "https://openalex.org/W2993507898",
+  "https://openalex.org/W3049020273",
+  "https://openalex.org/W3058574727",
+  "https://openalex.org/W3097775222",
+  "https://openalex.org/W3121478804",
+  "https://openalex.org/W3146972801",
+  "https://openalex.org/W3170380770",
+  "https://openalex.org/W3217729868",
+  "https://openalex.org/W4224436694",
+  "https://openalex.org/W4323268199",
+  "https://openalex.org/W6731973348",
+  "https://openalex.org/W6755091958"
+ ],
+ "related_works": [
+  "https://openalex.org/W589840713",
+  "https://openalex.org/W4210342135",
+  "https://openalex.org/W1485395888",
+  "https://openalex.org/W647748641",
+  "https://openalex.org/W2374200147",
+  "https://openalex.org/W2095363637",
+  "https://openalex.org/W574024483",
+  "https://openalex.org/W3088751286",
+  "https://openalex.org/W2130683785",
+  "https://openalex.org/W2730113340"
+ ],
+ "abstract_inverted_index": {
+  "In": [
+   0,
+   161,
+   187
+  ],
+  "recent": [
+   1
+  ],
+  "years,": [
+   2
+  ],
+  "3D": [
+   3,
+   39,
+   234,
+   263
+  ],
+  "printing": [
+   4,
+   35,
+   40,
+   50,
+   55,
+   235,
+   243,
+   264
+  ],
+  "glass": [
+   5,
+   16,
+   41,
+   54,
+   68,
+   87,
+   89,
+   94,
+   109,
+   150,
+   167,
+   209,
+   260
+  ],
+  "optics": [
+   6,
+   42,
+   141,
+   210
+  ],
+  "has": [
+   7,
+   37,
+   69,
+   95,
+   110
+  ],
+  "gained": [
+   8
+  ],
+  "massive": [
+   9
+  ],
+  "attention": [
+   10
+  ],
+  "in": [
+   11,
+   114,
+   241
+  ],
+  "industry": [
+   12
+  ],
+  "and": [
+   13,
+   34,
+   77,
+   90,
+   100,
+   103,
+   120,
+   131,
+   135,
+   142,
+   156,
+   218,
+   221,
+   237,
+   248,
+   265
+  ],
+  "academia": [
+   14
+  ],
+  "since": [
+   15
+  ],
+  "could": [
+   17
+  ],
+  "be": [
+   18,
+   212
+  ],
+  "an": [
+   19,
+   183,
+   198
+  ],
+  "ideal": [
+   20
+  ],
+  "material": [
+   21
+  ],
+  "to": [
+   22,
+   127,
+   152,
+   181,
+   203
+  ],
+  "make": [
+   23
+  ],
+  "optical": [
+   24,
+   134,
+   154,
+   185,
+   206,
+   261
+  ],
+  "elements,": [
+   25
+  ],
+  "including": [
+   26
+  ],
+  "the": [
+   27,
+   30,
+   192,
+   232,
+   238,
+   242,
+   255,
+   258
+  ],
+  "lens.": [
+   28
+  ],
+  "However,": [
+   29,
+   123
+  ],
+  "limitation": [
+   31
+  ],
+  "of": [
+   32,
+   57,
+   172,
+   257
+  ],
+  "materials": [
+   33
+  ],
+  "methods": [
+   36
+  ],
+  "prevented": [
+   38
+  ],
+  "progress.": [
+   43
+  ],
+  "Therefore,": [
+   44
+  ],
+  "we": [
+   45,
+   164,
+   190,
+   245
+  ],
+  "have": [
+   46,
+   147
+  ],
+  "developed": [
+   47
+  ],
+  "a": [
+   48,
+   104,
+   170,
+   222
+  ],
+  "novel": [
+   49
+  ],
+  "strategy": [
+   51
+  ],
+  "for": [
+   52,
+   72,
+   133,
+   269
+  ],
+  "germanate": [
+   53,
+   67,
+   93,
+   149,
+   166
+  ],
+  "instead": [
+   56
+  ],
+  "pure": [
+   58
+  ],
+  "silica.": [
+   59
+  ],
+  "Moreover,": [
+   60
+  ],
+  "compared": [
+   61,
+   84
+  ],
+  "with": [
+   62,
+   85,
+   169,
+   197,
+   214,
+   225
+  ],
+  "traditional": [
+   63
+  ],
+  "multi-component": [
+   64
+  ],
+  "quartz": [
+   65
+  ],
+  "glass,": [
+   66
+  ],
+  "unmatched": [
+   70
+  ],
+  "advantages": [
+   71
+  ],
+  "its": [
+   73,
+   267
+  ],
+  "mid-infrared": [
+   74
+  ],
+  "(MIR)": [
+   75
+  ],
+  "transparency": [
+   76,
+   220
+  ],
+  "outstanding": [
+   78
+  ],
+  "visible": [
+   79,
+   216
+  ],
+  "light": [
+   80,
+   217
+  ],
+  "imaging": [
+   81,
+   140
+  ],
+  "performance.": [
+   82
+  ],
+  "Furthermore,": [
+   83
+  ],
+  "non-oxide": [
+   86
+  ],
+  "(fluoride": [
+   88
+  ],
+  "chalcogenide": [
+   91
+  ],
+  "glass),": [
+   92
+  ],
+  "much": [
+   96
+  ],
+  "better": [
+   97
+  ],
+  "mechanical,": [
+   98
+  ],
+  "physical,": [
+   99
+  ],
+  "chemical": [
+   101
+  ],
+  "properties": [
+   102
+  ],
+  "high": [
+   105
+  ],
+  "refractive": [
+   106
+  ],
+  "index.": [
+   107
+  ],
+  "Germanate": [
+   108,
+   208
+  ],
+  "been": [
+   111
+  ],
+  "widely": [
+   112
+  ],
+  "applied": [
+   113
+  ],
+  "remote": [
+   115
+  ],
+  "sensing,": [
+   116
+  ],
+  "ranging,": [
+   117
+  ],
+  "environmental": [
+   118
+  ],
+  "detection,": [
+   119
+  ],
+  "biomedical": [
+   121
+  ],
+  "detection.": [
+   122
+  ],
+  "it": [
+   124
+  ],
+  "is": [
+   125
+  ],
+  "difficult": [
+   126
+  ],
+  "shape,": [
+   128
+  ],
+  "cast,": [
+   129
+  ],
+  "polish,": [
+   130
+  ],
+  "grind": [
+   132
+  ],
+  "photonics": [
+   136
+  ],
+  "applications": [
+   137
+  ],
+  "such": [
+   138
+  ],
+  "as": [
+   139
+  ],
+  "laser-collimation": [
+   143
+  ],
+  "optics.": [
+   144,
+   271
+  ],
+  "These": [
+   145
+  ],
+  "drawbacks": [
+   146
+  ],
+  "made": [
+   148
+  ],
+  "inaccessible": [
+   151
+  ],
+  "complex": [
+   153
+  ],
+  "elements": [
+   155,
+   262
+  ],
+  "greatly": [
+   157
+  ],
+  "increased": [
+   158
+  ],
+  "their": [
+   159
+  ],
+  "cost.": [
+   160
+  ],
+  "this": [
+   162,
+   188
+  ],
+  "report,": [
+   163
+  ],
+  "use": [
+   165
+  ],
+  "fibers": [
+   168
+  ],
+  "diameter": [
+   171
+  ],
+  "125": [
+   173
+  ],
+  "\u00b5m": [
+   174
+  ],
+  "based": [
+   175
+  ],
+  "on": [
+   176
+  ],
+  "fiber-fed": [
+   177,
+   193
+  ],
+  "laser": [
+   178,
+   194
+  ],
+  "heating": [
+   179,
+   195
+  ],
+  "technology": [
+   180,
+   196
+  ],
+  "fabricate": [
+   182
+  ],
+  "mm-size": [
+   184,
+   259
+  ],
+  "application.": [
+   186
+  ],
+  "paper,": [
+   189
+  ],
+  "combine": [
+   191
+  ],
+  "optimized": [
+   199
+  ],
+  "temperature": [
+   200
+  ],
+  "control": [
+   201
+  ],
+  "process": [
+   202,
+   236
+  ],
+  "manufacture": [
+   204
+  ],
+  "high-precision": [
+   205
+  ],
+  "elements.": [
+   207
+  ],
+  "can": [
+   211
+  ],
+  "printed": [
+   213
+  ],
+  "excellent": [
+   215
+  ],
+  "IR": [
+   219,
+   270
+  ],
+  "smooth": [
+   223
+  ],
+  "surface": [
+   224,
+   250
+  ],
+  "roughness": [
+   226
+  ],
+  "under": [
+   227
+  ],
+  "4": [
+   228
+  ],
+  "nm.": [
+   229
+  ],
+  "By": [
+   230
+  ],
+  "optimizing": [
+   231
+  ],
+  "layer-by-layer": [
+   233
+  ],
+  "thermal": [
+   239
+  ],
+  "feedback": [
+   240
+  ],
+  "process,": [
+   244
+  ],
+  "avoid": [
+   246
+  ],
+  "cracks": [
+   247
+  ],
+  "minimize": [
+   249
+  ],
+  "deformation.": [
+   251
+  ],
+  "This": [
+   252
+  ],
+  "work": [
+   253
+  ],
+  "shows": [
+   254
+  ],
+  "possibility": [
+   256
+  ],
+  "widens": [
+   266
+  ],
+  "application": [
+   268
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

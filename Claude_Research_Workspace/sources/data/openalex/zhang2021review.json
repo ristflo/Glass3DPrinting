@@ -1,0 +1,1157 @@
+{
+ "id": "https://openalex.org/W3041745003",
+ "doi": "https://doi.org/10.1007/s12200-020-1009-z",
+ "title": "3D printing of glass by additive manufacturing techniques: a review",
+ "display_name": "3D printing of glass by additive manufacturing techniques: a review",
+ "publication_year": 2020,
+ "publication_date": "2020-07-10",
+ "ids": {
+  "openalex": "https://openalex.org/W3041745003",
+  "doi": "https://doi.org/10.1007/s12200-020-1009-z",
+  "mag": "3041745003",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/36637727"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s12200-020-1009-z",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1007/s12200-020-1009-z",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764983751",
+   "display_name": "Frontiers of Optoelectronics",
+   "issn_l": "2095-2759",
+   "issn": [
+    "2095-2759",
+    "2095-2767"
+   ],
+   "is_oa": false,
+   "is_in_doaj": true,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310311889",
+   "host_organization_name": "Higher Education Press",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310311889"
+   ],
+   "host_organization_lineage_names": [
+    "Higher Education Press"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Frontiers of Optoelectronics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9743845",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5024940884",
+    "display_name": "Dao Zhang",
+    "orcid": "https://orcid.org/0000-0002-0120-1707"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4391767668",
+     "display_name": "State Key Laboratory of Modern Optical Instruments",
+     "ror": "https://ror.org/018fpas51",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4391767668",
+      "https://openalex.org/I76130692"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I76130692",
+     "display_name": "Zhejiang University",
+     "ror": "https://ror.org/00a2xv884",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I76130692"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dao Zhang",
+   "raw_affiliation_strings": [
+    "State Key Laboratory of Modern Optical Instrumentation and School of Optical Science and Engineering, Zhejiang University, Hangzhou, 310027, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "State Key Laboratory of Modern Optical Instrumentation and School of Optical Science and Engineering, Zhejiang University, Hangzhou, 310027, China",
+     "institution_ids": [
+      "https://openalex.org/I4391767668",
+      "https://openalex.org/I76130692"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100359279",
+    "display_name": "Xiaofeng Liu",
+    "orcid": "https://orcid.org/0000-0001-8562-9198"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I76130692",
+     "display_name": "Zhejiang University",
+     "ror": "https://ror.org/00a2xv884",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I76130692"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Xiaofeng Liu",
+   "raw_affiliation_strings": [
+    "School of Materials Science and Engineering, Zhejiang University, Hangzhou, 310027, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Materials Science and Engineering, Zhejiang University, Hangzhou, 310027, China",
+     "institution_ids": [
+      "https://openalex.org/I76130692"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5019618023",
+    "display_name": "Jianrong Qiu",
+    "orcid": "https://orcid.org/0000-0003-3148-2500"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210138186",
+     "display_name": "Wuhan National Laboratory for Optoelectronics",
+     "ror": "https://ror.org/03c9ncn37",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210138186"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I47720641",
+     "display_name": "Huazhong University of Science and Technology",
+     "ror": "https://ror.org/00p991c53",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I47720641"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I76130692",
+     "display_name": "Zhejiang University",
+     "ror": "https://ror.org/00a2xv884",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I76130692"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Jianrong Qiu",
+   "raw_affiliation_strings": [
+    "State Key Laboratory of Modern Optical Instrumentation and School of Optical Science and Engineering, Zhejiang University, Hangzhou, 310027, China. qjr@zju.edu.cn",
+    "Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, 430074, China. qjr@zju.edu.cn",
+    "Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, 430074, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "State Key Laboratory of Modern Optical Instrumentation and School of Optical Science and Engineering, Zhejiang University, Hangzhou, 310027, China. qjr@zju.edu.cn",
+     "institution_ids": [
+      "https://openalex.org/I76130692"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, 430074, China. qjr@zju.edu.cn",
+     "institution_ids": [
+      "https://openalex.org/I4210138186"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, 430074, China",
+     "institution_ids": [
+      "https://openalex.org/I4210138186",
+      "https://openalex.org/I47720641"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5019618023"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I4210138186",
+  "https://openalex.org/I47720641",
+  "https://openalex.org/I76130692"
+ ],
+ "apc_list": {
+  "value": 1990,
+  "currency": "USD",
+  "value_usd": 1990
+ },
+ "apc_paid": null,
+ "fwci": 5.0777,
+ "has_fulltext": false,
+ "cited_by_count": 127,
+ "citation_normalized_percentile": {
+  "value": 0.96076666,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "14",
+  "issue": "3",
+  "first_page": "263",
+  "last_page": "277"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9997000098228455,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9997000098228455,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10648",
+   "display_name": "Virtual Reality Applications and Impacts",
+   "score": 0.975600004196167,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1709",
+    "display_name": "Human-Computer Interaction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12570",
+   "display_name": "Photopolymerization techniques and applications",
+   "score": 0.9710999727249146,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1605",
+    "display_name": "Organic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/stereolithography",
+   "display_name": "Stereolithography",
+   "score": 0.9496984481811523
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.8810555338859558
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-sintering",
+   "display_name": "Selective laser sintering",
+   "score": 0.7606110572814941
+  },
+  {
+   "id": "https://openalex.org/keywords/fused-deposition-modeling",
+   "display_name": "Fused deposition modeling",
+   "score": 0.7290684580802917
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.5700134634971619
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.5618722438812256
+  },
+  {
+   "id": "https://openalex.org/keywords/inkwell",
+   "display_name": "Inkwell",
+   "score": 0.5359116196632385
+  },
+  {
+   "id": "https://openalex.org/keywords/rapid-prototyping",
+   "display_name": "Rapid prototyping",
+   "score": 0.5321390628814697
+  },
+  {
+   "id": "https://openalex.org/keywords/layer",
+   "display_name": "Layer (electronics)",
+   "score": 0.521870493888855
+  },
+  {
+   "id": "https://openalex.org/keywords/three-dimensional-printing",
+   "display_name": "Three dimensional printing",
+   "score": 0.4753120541572571
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.4688469171524048
+  },
+  {
+   "id": "https://openalex.org/keywords/focus",
+   "display_name": "Focus (optics)",
+   "score": 0.43266820907592773
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.41655489802360535
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering-drawing",
+   "display_name": "Engineering drawing",
+   "score": 0.41653239727020264
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.41031086444854736
+  },
+  {
+   "id": "https://openalex.org/keywords/process-engineering",
+   "display_name": "Process engineering",
+   "score": 0.35532695055007935
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-engineering",
+   "display_name": "Manufacturing engineering",
+   "score": 0.31804317235946655
+  },
+  {
+   "id": "https://openalex.org/keywords/sintering",
+   "display_name": "Sintering",
+   "score": 0.29001498222351074
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.20752617716789246
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.14663809537887573
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.09731864929199219
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779154291",
+   "wikidata": "https://www.wikidata.org/wiki/Q1022471",
+   "display_name": "Stereolithography",
+   "level": 2,
+   "score": 0.9496984481811523
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.8810555338859558
+  },
+  {
+   "id": "https://openalex.org/C54237361",
+   "wikidata": "https://www.wikidata.org/wiki/Q428412",
+   "display_name": "Selective laser sintering",
+   "level": 3,
+   "score": 0.7606110572814941
+  },
+  {
+   "id": "https://openalex.org/C2780329122",
+   "wikidata": "https://www.wikidata.org/wiki/Q18349149",
+   "display_name": "Fused deposition modeling",
+   "level": 3,
+   "score": 0.7290684580802917
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.5700134634971619
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5618722438812256
+  },
+  {
+   "id": "https://openalex.org/C109693293",
+   "wikidata": "https://www.wikidata.org/wiki/Q1496072",
+   "display_name": "Inkwell",
+   "level": 2,
+   "score": 0.5359116196632385
+  },
+  {
+   "id": "https://openalex.org/C2780395129",
+   "wikidata": "https://www.wikidata.org/wiki/Q1128971",
+   "display_name": "Rapid prototyping",
+   "level": 2,
+   "score": 0.5321390628814697
+  },
+  {
+   "id": "https://openalex.org/C2779227376",
+   "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+   "display_name": "Layer (electronics)",
+   "level": 2,
+   "score": 0.521870493888855
+  },
+  {
+   "id": "https://openalex.org/C2983112114",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "Three dimensional printing",
+   "level": 3,
+   "score": 0.4753120541572571
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.4688469171524048
+  },
+  {
+   "id": "https://openalex.org/C192209626",
+   "wikidata": "https://www.wikidata.org/wiki/Q190909",
+   "display_name": "Focus (optics)",
+   "level": 2,
+   "score": 0.43266820907592773
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.41655489802360535
+  },
+  {
+   "id": "https://openalex.org/C199639397",
+   "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+   "display_name": "Engineering drawing",
+   "level": 1,
+   "score": 0.41653239727020264
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.41031086444854736
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.35532695055007935
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.31804317235946655
+  },
+  {
+   "id": "https://openalex.org/C2777581544",
+   "wikidata": "https://www.wikidata.org/wiki/Q844613",
+   "display_name": "Sintering",
+   "level": 2,
+   "score": 0.29001498222351074
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.20752617716789246
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.14663809537887573
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.09731864929199219
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1007/s12200-020-1009-z",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1007/s12200-020-1009-z",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764983751",
+    "display_name": "Frontiers of Optoelectronics",
+    "issn_l": "2095-2759",
+    "issn": [
+     "2095-2759",
+     "2095-2767"
+    ],
+    "is_oa": false,
+    "is_in_doaj": true,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310311889",
+    "host_organization_name": "Higher Education Press",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310311889"
+    ],
+    "host_organization_lineage_names": [
+     "Higher Education Press"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Frontiers of Optoelectronics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:36637727",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36637727",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Frontiers of optoelectronics",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:9743845",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9743845",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Front Optoelectron",
+   "raw_type": "Text"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:pubmedcentral.nih.gov:9743845",
+  "is_oa": true,
+  "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9743845",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764455111",
+   "display_name": "PubMed Central",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": "https://openalex.org/I1299303238",
+   "host_organization_name": "National Institutes of Health",
+   "host_organization_lineage": [
+    "https://openalex.org/I1299303238"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": "Front Optoelectron",
+  "raw_type": "Text"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 87,
+ "referenced_works": [
+  "https://openalex.org/W1022778776",
+  "https://openalex.org/W1837197540",
+  "https://openalex.org/W1915531950",
+  "https://openalex.org/W1926069809",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2017545194",
+  "https://openalex.org/W2018137465",
+  "https://openalex.org/W2019915382",
+  "https://openalex.org/W2024859618",
+  "https://openalex.org/W2025138352",
+  "https://openalex.org/W2034722366",
+  "https://openalex.org/W2039599218",
+  "https://openalex.org/W2043704558",
+  "https://openalex.org/W2047459256",
+  "https://openalex.org/W2057889193",
+  "https://openalex.org/W2064299621",
+  "https://openalex.org/W2085929598",
+  "https://openalex.org/W2091109366",
+  "https://openalex.org/W2095576930",
+  "https://openalex.org/W2111205813",
+  "https://openalex.org/W2129732265",
+  "https://openalex.org/W2145664580",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2172143926",
+  "https://openalex.org/W2192772080",
+  "https://openalex.org/W2288894485",
+  "https://openalex.org/W2290063375",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2319334792",
+  "https://openalex.org/W2329719920",
+  "https://openalex.org/W2342593170",
+  "https://openalex.org/W2342973494",
+  "https://openalex.org/W2345451752",
+  "https://openalex.org/W2461999262",
+  "https://openalex.org/W2462305146",
+  "https://openalex.org/W2484917747",
+  "https://openalex.org/W2525203296",
+  "https://openalex.org/W2533904575",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2553221934",
+  "https://openalex.org/W2587363740",
+  "https://openalex.org/W2588550473",
+  "https://openalex.org/W2590172821",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608947055",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2725552457",
+  "https://openalex.org/W2730977680",
+  "https://openalex.org/W2731043983",
+  "https://openalex.org/W2737505856",
+  "https://openalex.org/W2744437678",
+  "https://openalex.org/W2744779281",
+  "https://openalex.org/W2746548674",
+  "https://openalex.org/W2771135651",
+  "https://openalex.org/W2772098495",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2786377226",
+  "https://openalex.org/W2790160798",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2802504186",
+  "https://openalex.org/W2803400344",
+  "https://openalex.org/W2883016740",
+  "https://openalex.org/W2886906487",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2898016015",
+  "https://openalex.org/W2901272870",
+  "https://openalex.org/W2912027467",
+  "https://openalex.org/W2924373750",
+  "https://openalex.org/W2927742238",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2944571847",
+  "https://openalex.org/W2953743301",
+  "https://openalex.org/W2966899298",
+  "https://openalex.org/W2968377105",
+  "https://openalex.org/W2968663450",
+  "https://openalex.org/W2982083323",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W2991158120",
+  "https://openalex.org/W2992344706",
+  "https://openalex.org/W2995696514",
+  "https://openalex.org/W2998989194",
+  "https://openalex.org/W2999729355",
+  "https://openalex.org/W3000373857",
+  "https://openalex.org/W3013722267",
+  "https://openalex.org/W4205530313"
+ ],
+ "related_works": [
+  "https://openalex.org/W2201226327",
+  "https://openalex.org/W1998524096",
+  "https://openalex.org/W2516537537",
+  "https://openalex.org/W1569518525",
+  "https://openalex.org/W2029991833",
+  "https://openalex.org/W3134834125",
+  "https://openalex.org/W2900621920",
+  "https://openalex.org/W3200088187",
+  "https://openalex.org/W2384464911",
+  "https://openalex.org/W3162516691"
+ ],
+ "abstract_inverted_index": {
+  "Additive": [
+   0
+  ],
+  "manufacturing": [
+   1,
+   68
+  ],
+  "(AM),": [
+   2
+  ],
+  "which": [
+   3
+  ],
+  "is": [
+   4,
+   93
+  ],
+  "also": [
+   5
+  ],
+  "known": [
+   6
+  ],
+  "as": [
+   7
+  ],
+  "three-dimensional": [
+   8
+  ],
+  "(3D)": [
+   9
+  ],
+  "printing,": [
+   10
+  ],
+  "uses": [
+   11
+  ],
+  "computer-aided": [
+   12
+  ],
+  "design": [
+   13
+  ],
+  "to": [
+   14
+  ],
+  "build": [
+   15
+  ],
+  "objects": [
+   16
+  ],
+  "layer": [
+   17
+  ],
+  "by": [
+   18,
+   95
+  ],
+  "layer.": [
+   19
+  ],
+  "Here,": [
+   20
+  ],
+  "we": [
+   21,
+   75
+  ],
+  "focus": [
+   22
+  ],
+  "on": [
+   23
+  ],
+  "the": [
+   24,
+   28,
+   67,
+   77,
+   99,
+   105,
+   109
+  ],
+  "recent": [
+   25
+  ],
+  "progress": [
+   26
+  ],
+  "in": [
+   27
+  ],
+  "development": [
+   29,
+   107
+  ],
+  "of": [
+   30,
+   35,
+   69,
+   80,
+   86,
+   98,
+   108
+  ],
+  "techniques": [
+   31
+  ],
+  "for": [
+   32,
+   66,
+   104
+  ],
+  "3D": [
+   33,
+   57,
+   81,
+   87,
+   110
+  ],
+  "printing": [
+   34,
+   58,
+   83,
+   112
+  ],
+  "glass,": [
+   36
+  ],
+  "an": [
+   37
+  ],
+  "important": [
+   38
+  ],
+  "optoelectronic": [
+   39
+  ],
+  "material,": [
+   40
+  ],
+  "including": [
+   41
+  ],
+  "fused": [
+   42
+  ],
+  "deposition": [
+   43
+  ],
+  "modeling,": [
+   44
+  ],
+  "selective": [
+   45
+  ],
+  "laser": [
+   46
+  ],
+  "sintering/melting,": [
+   47
+  ],
+  "stereolithography": [
+   48
+  ],
+  "(SLA)": [
+   49
+  ],
+  "and": [
+   50,
+   60,
+   64,
+   84,
+   102
+  ],
+  "direct": [
+   51
+  ],
+  "ink": [
+   52
+  ],
+  "writing.": [
+   53
+  ],
+  "We": [
+   54
+  ],
+  "compare": [
+   55
+  ],
+  "these": [
+   56
+  ],
+  "methods": [
+   59
+  ],
+  "analyze": [
+   61
+  ],
+  "their": [
+   62
+  ],
+  "benefits": [
+   63
+  ],
+  "problems": [
+   65
+  ],
+  "functional": [
+   70
+  ],
+  "glass": [
+   71,
+   82,
+   89,
+   111
+  ],
+  "objects.": [
+   72,
+   90
+  ],
+  "In": [
+   73
+  ],
+  "addition,": [
+   74
+  ],
+  "discuss": [
+   76
+  ],
+  "technological": [
+   78
+  ],
+  "principles": [
+   79
+  ],
+  "applications": [
+   85
+  ],
+  "printed": [
+   88
+  ],
+  "This": [
+   91
+  ],
+  "review": [
+   92
+  ],
+  "finalized": [
+   94
+  ],
+  "a": [
+   96
+  ],
+  "summary": [
+   97
+  ],
+  "current": [
+   100
+  ],
+  "achievements": [
+   101
+  ],
+  "perspectives": [
+   103
+  ],
+  "future": [
+   106
+  ],
+  "technique.": [
+   113
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 15
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 26
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 24
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 26
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 22
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-08-28T12:50:07.497085",
+ "created_date": "2025-10-10T00:00:00"
+}

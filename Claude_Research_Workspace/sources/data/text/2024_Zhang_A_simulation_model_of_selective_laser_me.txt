@@ -1,0 +1,818 @@
+Vol.:(0123456789)
+The International Journal of Advanced Manufacturing Technology 
+https://doi.org/10.1007/s00170-024-13076-y
+ORIGINAL ARTICLE
+A simulation model of selective laser melting (SLM) of glass silica 
+monolayer
+Wanrui Zhang1 
+Received: 20 September 2023 / Accepted: 21 January 2024  
+© The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature 2024
+Abstract
+Although experimental research demonstrates the feasibility of processing glass via selective laser melting (SLM), achiev -
+ing SLM precision manufacturing of fused silica is still a challenging but promising field. Therefore, a numerical model 
+was developed in this work to predict the densification kinetics of glass powder monolayer under SLM, which provided a 
+simulation tool for the optimization design of processing parameters. To be particular, the relative neck diameter and density 
+of the powder bed under SLM were calculated using a cluster model to simulate the degree of consolidation, from which the 
+thermal diffusivity of the powder bed was determined and the corresponding results of heat transfer were obtained through 
+the numerical model implemented by using finite difference method (FDM). The experimental results for the SLM of glass 
+with different processing parameters from other references validated the simulation results with a prediction error of less 
+than 2%. Hence, the effects of processing settings, such as the influence of particle size and preheating temperature, could 
+be accurately investigated by using this numerical modelling method. It was found that using powders with smaller particle 
+sizes and setting a higher preheat temperature could improve the manufacturing quality of the obtained glass parts. From the 
+densification results of the numerical modelling, we also introduced a novel optimization criterion, which could be utilized 
+to optimise the processing parameters and fabricate the high-purity glass parts via SLM.
+Keywords Selective laser melting (SLM) · Silica glass · Simulation model · Processing optimisation
+1 Introduction
+Additive manufacturing (AM), or 3D printing, is a manu-
+facturing technology in which a three-dimensional object is 
+constructed by adding material layer by layer [ 1]. The AM 
+technique in this study is selective laser melting (SLM) which 
+melts the powder bed from bottom to upper and produces 
+a fully dense part layer-wise [2 ]. Accurate and rapid fabri-
+cation is the most outstanding strength of SLM over other 
+AM methods, allowing the precision processing of micro-
+and nano-powders [3]. However, even though glass–ceramic 
+material has many desirable properties, such as low thermal 
+expansion coefficient, low electrical conductivity and high 
+chemical resistance, applying the technique of SLM on glass 
+is still challenging [4]. The main impediment hindering the 
+development of SLM for glass is the infamous difficulty in 
+shaping glass parts, which demands high temperatures and a 
+complex casting process [5].
+Over the past few years, several experimental investiga-
+tions have attempted to fabricate different glass ceramic 
+parts using SLM. Fateri and Gebhardt [6 ] demonstrate 
+SLM’s feasibility for soda-lime glass powder and fabricated 
+parts with a relative density of 93%. An experimental study 
+on quartz glass conducted by Khmyrov et al. [7] successfully 
+fabricates a crack-free glass monolayer using SLM. Moreo-
+ver, Gan and Wong [8] successfully use SLM to build porous 
+lithium aluminosilicate (LAS) glass parts with spodumene 
+minerals. Although not mature enough to manufacture the 
+ideal glass ceramic objects, these studies are essential for 
+the development of SLM for glass materials in the future.
+In addition to the experimental studies of SLM for glass, 
+simulation is an essential method that provides a deeper under-
+standing of this laser AM process of glass ceramics. However, 
+only a handful of numerical investigations are available for 
+the SLM of glass or ceramic materials. To predict the thermal 
+distribution and melt-pool geometry, Li et al. [9] put forward 
+ * Wanrui Zhang 
+ wanruizhang@link.cuhk.edu.hk
+1 Department of Mechanical and Automation Engineering, 
+The Chinese University of Hong Kong, Shatin, NT, 
+Hong Kong Special Administrative Region, Hong Kong
+ The International Journal of Advanced Manufacturing Technology
+a heat conduction model for ceramic material under SLM and 
+compared the model’s volumetric and surface heating sources. 
+Subsequently, they establish a numerical model for the con-
+vection–diffusion phase change process during the laser melt-
+ing of ceramic materials [10]. In one study, a 3D finite ele-
+ment model of ceramic material during SLM with concurrent 
+shrinkage is established by Chen et al. [11]. To obtain fused 
+silica, Protasov et al. [12] successfully calculate heat transfer in 
+the consolidation process of silica powder bed by considering 
+the effective thermal conductivity related to the neck growth 
+between glass particles.
+However, little modelling study to date focuses on the 
+densification process of the glass powder bed, causing the 
+lack of criteria to optimise the processing parameters and 
+limiting the fabrication resolution of SLM. Specifically, 
+the thermal diffusivity of the silica powder layer is highly 
+affected by its densification degree, determining the effec -
+tiveness of SLM processing on glass [12]. The simulation 
+for the densification of silica powder is also indispensable 
+since the properties of the finally obtained glass part highly 
+depend on its relative density [13]. Besides, research on 
+the densification process of powder monolayer under SLM 
+solidifies the foundation of quantitively calculating the 
+shrinkage deformation of the glass compact. Thus, a numeri-
+cal model of SLM for silica glass was established in this 
+work to predict the densification and deformation kinetics 
+of the glass compact.
+In this work, the sintering densification kinetics of the 
+glass powders are incorporated into our numerical model 
+using the Cluster model [14] during SLM. Before reaching 
+the melting point, sintering occurred between glass powders 
+due to the high temperature. Accordingly, the area between 
+the fully dense glass compact and the initially loose powder 
+bed is a zone of density variation dominated by glass sinter-
+ing. Additionally, plenty of research demonstrates the Cluster 
+model’s feasibility on various glass materials [15, 16]. Hence, 
+this study established a heat conduction model with sinter -
+ing effects for SLM of silica glass to predict its densifica-
+tion process, which is numerically implemented by using the 
+finite difference method (FDM). Similar to the previous inves-
+tigations done by other researchers [7 , 9–12], we focus our 
+numerical study on the glass monolayer in the SLM process, 
+which is fundamental for the research of parts fabrication.
+2  Modelling methodology
+2.1  Modelling formulation
+Selective laser melting (SLM) builds parts layer by layer, 
+and the interaction between the laser and each powder layer 
+is similar [7, 12]. Thus, the research object of this study was 
+the single glass layer with laser treatment, which constructs 
+the foundation of modelling the whole SLM process. Figure 1 
+demonstrates the schematic for the laser treatment of the tar-
+get monolayer with the corresponding coordinate systems.
+As Fig. 1 illustrates, the laser beam moves along a straight 
+line and scans the target surface along x direction at a con-
+stant speed. The heat transfer process is the same for any 
+plane in the x-length direction. Thus, the above 3D transient 
+heat diffusion problem (x–y-z) could be converted into a 2D 
+transient heat diffusion problem (y–z). The 2D transient heat 
+diffusion model was constructed as follows.
+where Γ1 is the Dirichlet (first) boundary condition, Γ2 is the 
+Neumann (second) boundary condition and Γ=Γ 1 +Γ 2 is 
+the boundary of the whole region Ω . T Refers to the tem-
+perature, Ta is the ambient temperature and T0 is the initial 
+temperature at the initial time t0.
+/u1D6FC= /u1D706/slash.s1/u1D70CCp is the thermal diffusivity, in which /u1D706 , Cp and 
+/u1D70C represent the heat conduction coefficient, specific heat 
+and density. Under the SLM processing, the densification 
+of the glass influences its thermal diffusivity, which can 
+be simulated by using the sintering model illustrated in 
+Section  2.2. Additionally, the modelling method is dem-
+onstrated in Section  2.3 for the heat conduction coefficient 
+/u1D706 of glass under SLM. Finally, the formulated model is 
+numerically implemented by using the finite difference 
+method, which is depicted in Section  2.4.
+q0 is the heat flux and is approximated by the Gaussian 
+distribution.
+where P0 is the incident laser power, r0 represents the laser 
+beam radius and r2 = x2 + y2.
+(1)
+𝜕2 T
+𝜕y2 + 𝜕2 T
+𝜕z2 = 1
+𝛼
+𝜕T
+𝜕t
+/parenleft.s1∈Ω , t > t0
+/parenright.s1
+T = Ta
+/parenleft.s1∈Γ 1, t > t0
+/parenright.s1
+−𝜆 𝜕T
+𝜕z = q0
+/parenleft.s1∈Γ 2, t > t0
+/parenright.s1
+T0 = Ta
+/parenleft.s1∈Ω , t = t0
+/parenright.s1
+(2)q0 = P0
+/u1D70Br2
+0
+exp
+/parenleft.s4
+− r2
+r2
+0
+/parenright.s4
+Fig. 1  Schematic for the laser treatment of the target monolayer with 
+the corresponding coordinate systems
+The International Journal of Advanced Manufacturing Technology 
+2.2  Consolidation of glass powders
+The modelling for the glass powder consolidation was estab-
+lished to solve the temperature-dependent thermal diffusiv -
+ity of the compact layer. In this model, densification kinetics, 
+necking growth and porosity of the powder bed were corre-
+spondingly estimated. With the temperature increasing to a 
+certain point, the consolidation process between glass particles 
+behaves like the droplets of viscous liquid and tends to coa-
+lesce, as shown in Fig. 2.
+The necking growth kinetics between two spherical parti-
+cles of diameter D was calculated by the following [17].
+where /u1D709= a∕ D is the relative neck diameter, /u1D702 denotes 
+the dynamic viscosity, and /u1D6FF represents the surface tension 
+coefficient.
+The surface tension coefficient of the silica glass was con-
+sidered as an independent constant of temperature and equal to 
+0.4 N/m [18]. By contrast, the shear viscosity /u1D702 decreases sig-
+nificantly with the temperature increasing. Here, the approxi-
+mation equation in the previous study [12] was used to calcu-
+late the dynamic viscosity as follows.
+The densification kinetics of glass powders is determined 
+by using the well-proved model: Clusters model. Before dis-
+cussing the Clusters model in detail, the two basic models, 
+the Frenkel (F) model and the Mackenzie-Shuttleworth (MS) 
+model should be introduced first. F model provides a densi-
+fication kinetics description of the early stages of sintering 
+between spherical monodispersed particles [ 19]. The valid 
+(3)d/u1D7092
+dt = 3/u1D6FF
+/u1D702D
+(4)
+⎧
+⎪
+⎨
+⎪⎩
+𝜂 = 3.8 ⋅ 10−14(Pa ⋅ s) exp
+�
+85,640K
+T
+�
+, T < 1670K
+𝜂 = 5.8 ⋅ 10−8(Pa ⋅ s) exp
+�
+61,990K
+T
+�
+, T > 1670K
+range of the F model is roughly within the first 10% of linear 
+shrinkage. Specifically, if the initial relative density of the 
+powder bed is 0.6, the 10% of linear shrinkage means a rela-
+tive density of 0.8. The change in the relative density during 
+sintering is estimated in the following:
+where /u1D70C0 is the initial compact density, /u1D70Cg is the glass density 
+and r = D∕ 2 denotes the initial particle radius. In contrast 
+to the F model, the MS model explains the final stages of 
+sintering between spherical particles with spherical pores. 
+According to the MS model, the densification rate is given 
+as follows:
+in which a0 is the initial radius of the spherical pores. The 
+clusters model divided the compacts into several clusters of 
+equally sized particles and carried out both Frenkel and M-S 
+models simultaneously in these clusters. Based on the previ-
+ous experiment [ 7], the particle size distribution is narrow 
+enough, so the “neck forming ability” can be disregarded. 
+For a compact with a volume fraction vr of spherical parti-
+cles of radius r , the following clusters model is valid in the 
+whole process to determine the densification kinetics [14].
+During the early stage of sintering, the density is calcu-
+lated by using the F model and thus, /u1D703F
+/parenleft.s1t0.8 − t/parenright.s1= 1 and 
+/u1D703MS
+/parenleft.s1t − t0.8
+/parenright.s1= 0 for t < t0.8 . When it comes to the final stage 
+of sintering, the density is determined by using the MS model 
+and so /u1D703MS
+/parenleft.s1t − t0.8
+/parenright.s1= 1 and /u1D703F
+/parenleft.s1t0.8 − t/parenright.s1= 0 for t > t0.8.
+2.3  Effective thermal conductivity
+Generally speaking, heat transfer is dominated by conduc-
+tion, convection and radiation. Nevertheless, the convection 
+effect was ignored due to the micron- or even submicron-
+scale pore size around the glass powders of D = 20 µm. 
+Therefore, only radiative heat transfer and conduction 
+through the solid and gas phases were considered here.
+When the neck growth is at the early stage, necks between 
+the particles control heat conduction of the solid phase [12]. 
+Based on the statistical network model [20], the effective 
+thermal conductivity in the solid phase /u1D706es is given.
+(5)/u1D70C(t) = /u1D70C0
+/u1D70Cg
+/parenleft.s3
+1 − 3/u1D6FFt
+8/u1D702r
+/parenright.s3−3
+(6)
+d/u1D70C
+dt = 3/u1D6FF
+2a0/u1D702(1 − /u1D70C)
+(7)
+/u1D70C(T) =
+/uni2211.s1
+r
+vr
+/bracketleft.s1/u1D70CF (r, T)/u1D703
+/parenleft.s1T0.8 − T/parenright.s1+ /u1D70CMS
+/parenleft.s1a0(r), T
+/parenright.s1/u1D703MS
+/parenleft.s1T − T0.8
+/parenright.s1/bracketright.s1
+(8)/u1D706es = /u1D706s
+(1 − /u1D700)N
+/u1D70B/u1D709
+Fig. 2  Consolidation process between two spherical particles with the 
+diameter D and the neck length a
+ The International Journal of Advanced Manufacturing Technology
+where /u1D706s is the thermal conductivity in the solid phase, 
+and Eq. (8) works if 𝜆es <𝜆 s . Otherwise, /u1D706s is set as /u1D706es . N 
+denotes the mean coordination number calculated from the 
+porosity /u1D700 as [21].
+The porosity is equal to the volume fraction of the gas 
+phase, and the initial porosity of the compact in SLM is 
+around 0.4. During the densification process, the poros-
+ity decreases and vanishes once the powder bed is fully 
+dense. The relation between the porosity and the relative 
+density /u1D70C could be obtained as follows:
+Heat conduction through the gas phase of the compact 
+is considerable in the tiny pores or gaps between particles 
+[22]. In the previous study [12], the effective conductivity 
+of the gas phase /u1D706eg is estimated with a value proportional 
+to the conductivity of the gas /u1D706g.
+with factor
+where
+/u1D6FE is the adiabatic exponent and Kn = l∕ D refers to the 
+Knudsen number with mean free path l . The mean free 
+path can be obtained through gas-phase conductivity /u1D706g 
+using the following definition [23].
+where p is the gas pressure, m denotes the molecular mass of 
+the gas and k represents the Boltzmann constant. According 
+to previous research [24], the thermal conductivity of air can 
+be estimated as follows:
+During the process of SLM, there exists a heterogeneous 
+medium, including a transparent phase and an opaque phase. 
+(9)N = /u1D700+ 3 +
+√
+/u1D7002 − 10/u1D700+ 9
+2/u1D700
+(10)/u1D700= 1 − /u1D70C
+(11)/u1D706eg = F/u1D706g
+(12)
+F = (1 − /u1D700)N
+2
+�
+1
+2 ln 1 + L
+1 + L/u1D7092 + ln 1 +
+√
+L
+1 +
+√
+L/u1D709
++ 1
+1 +
+√
+L
+− 1
+1 +
+√
+L/u1D709
+�
+(13)L = /u1D6FE+ 1
+9/u1D6FE− 5 ⋅ 3
+Kn4
+√
+/u1D70B
+(14)l = 6 /u1D6FE− 1
+9/u1D6FE− 5
+/u1D706g
+p
+/parenleft.s2mT
+2k
+/parenright.s21∕ 2
+(15)/u1D706g = 0.0244 W
+mK
+/parenleft.s2T
+273K
+/parenright.s20.82
+The effective radiative thermal conductivity of the powder 
+compact could be estimated [12].
+where pr is the weight of thermal radiation where the solid 
+phase is non-transparent and pr can be estimated by the 
+approximation equation.
+In short, the effective thermal conductivity is dependent on 
+the neck growth and densification process of powder consoli-
+dation. Finally, we can summarise the above three components 
+of effective thermal conductivity and obtain the total effective 
+thermal conductivity [12].
+2.4  Numerical implementation
+This paper adopted the finite difference method (FDM) to 
+solve the transient heat conduction problem. After the uniform 
+discretisation of the space domain, the step length along the 
+y-axis and z-axis is Δy = yi+1 − yi and Δz = zj+1 − zj , where 
+i, j = 0, 1, 2, 3... . We used n to uniformly discretise the time 
+domain and the step length was set as Δt = tn+1 − tn . Thus, the 
+term on the right of the first equation in Eq. (1) can be approxi-
+mated by the first-order time forward difference method.
+As for the second-order partial differential on the left of 
+the same equation, we used the central difference method 
+to calculate it.
+After substituting Eqs. (19), (20) and (21) into (1), we 
+obtained the difference equation of Eq. (1 ).
+(16)/u1D706r = 22.9 − 21.9pr
+1 − N
+4 /u1D7092
+1.075 ⋅ 10−3 W
+mK
+/parenleft.s2T
+1000K
+/parenright.s23
+(17)
+1
+p1∕ 4
+r
+= 0.66 + T
+1340K
+(18)/u1D706= /u1D706es + /u1D706eg + /u1D706r
+(19)/parenleft.s2/u1D715T
+/u1D715t
+/parenright.s2n
+i,j
+=
+/parenleft.s2
+Tn+1
+i,j − Tn
+i,j
+/parenright.s2
+Δt + O(Δt)
+(20)
+/parenleft.s3
+/u1D7152T
+/u1D715y2
+/parenright.s3n
+i,j
+=
+/parenleft.s2
+Tn
+i+1,j − 2Tn
+i,j + Tn
+i−1,j
+/parenright.s2
+(Δy)2 + O/parenleft.s1Δy2/parenright.s1
+(21)
+/parenleft.s3
+/u1D7152T
+/u1D715z2
+/parenright.s3n
+i,j
+=
+/parenleft.s2
+Tn
+i,j+1 − 2Tn
+i,j + Tn
+i,j−1
+/parenright.s2
+(Δz)2 + O/parenleft.s1Δz2/parenright.s1
+The International Journal of Advanced Manufacturing Technology 
+Different type of boundary condition is processed differ-
+ently in FDM [25]. In general, the first-type boundary node 
+was processed as T
+/slash.s2
+2 in the initial moment, and then the 
+boundary node temperature remained at T . T is the Dirichlet 
+boundary condition temperature. As for the second boundary 
+condition, the virtual node outside the boundary was set to 
+connect the boundary node with the interior node. Take the 
+node numbering in Fig. 3 as an instance.
+The central difference method was used to replace the 
+first-order partial differential equation (PDE) of the second 
+boundary condition in Eq. (1 ).
+Based on the node number in Fig.  3, Eq. (23) was sub-
+stituted into Eq. (21), and the temperature on node 1 could 
+be obtained.
+(22)
+Tn
+i+1,j − 2Tn
+i,j + Tn
+i−1,j
+(Δy)2 +
+Tn
+i,j+1 − 2Tn
+i,j + Tn
+i,j−1
+(Δz)2 = 1
+/u1D6FC
+Tn+1
+i,j − Tn
+i,j
+Δt
+(23)−/u1D706
+Tn
+2 − Tn
+2�
+2Δz = q0
+Table 1 presents the numerical algorithm of our model.
+3  Results and discussion
+3.1  The result of temperature distribution
+The developed numerical model was implemented by using 
+MATLAB. The parameters used in the model are listed in 
+Table 2.
+The study plane was the y–z plane shown in Fig.  4. The 
+numerical model was conducted with the beam diameter 
+2/u1D6FE0 = 1.5 mm , scanning speed u = 1 mm∕s and ambient 
+temperature Ta = 298 K . Detailed laser parameters can be 
+found in Ref [12]. In this simulation, the initial distance from 
+the laser beam centre to the study plane was 1.5 mm . The 
+schematic is shown in Fig. 4 for the whole process of the laser 
+beam passing through the study plane of the glass monolayer.
+The yellow part in Fig.  4 represents the domain of the 
+laser beam followed by the orange part which refers to the 
+consolidated glass powder. The light-blue part is the study 
+y–z plane, of which the temperature distribution, densifica-
+tion degree and deformation are simulated and discussed 
+in the following sections. The temperature distributions for 
+(24)
+Tn+1
+1 = Tn
+1 + /u1D6FCΔt
+/parenleft.s4
+Tn
+4 − 2Tn
+1 + Tn
+0
+Δy2 +
+2Tn
+2 − 2Tn
+1 − 2Δz
+/u1D706q
+Δz2
+/parenright.s4
+Fig. 3  Schematic of the boundary nodes, virtual nodes and interior 
+nodes
+Table 1  Numerical 
+implementation algorithm of 
+the model
+1 Initial conditions and initialisation
+2 Determine the relative neck diameter /u1D709n and the relative density /u1D70Cn of the glass powders
+3 Calculate the effective thermal conductivity /u1D706n and the thermal diffussity /u1D6FCn
+4 Discretise and calculate the 2D heat transfer model
+5 Time update tn+1 = tn +Δ t
+6 If the relative density reaches 1 or temperature starts to decrease, fix the value of the 
+relative density as the previous value
+7 Counter update and time update
+8 If simulation not complete, go to 2
+9 Output
+Table 2  Parameters of the modelling
+Parameter Symbol Value Unit
+Laser beam radius r0 0.75 mm
+Ambient temperature Ta 298 K
+Glass powder diameter D 20 /u1D707m
+Surface tension coefficient /u1D6FF 0.4 N∕ m
+Glass density /u1D70Cg 2.2 g/slash.s1cm3
+Initial pore radius a0 1 /u1D707m
+Solid-phase thermal conductivity /u1D706s 2.2 W∕ (mK )
+Porosity /u1D700 0.4
+ The International Journal of Advanced Manufacturing Technology
+Fig. 4  The schematic for the 
+process of the laser treatment 
+for glass monolayer from the 
+initial location to the final loca-
+tion, i.e. from 0.00 to 3.00 s
+Fig. 5  Temperature distribution for the study plane of the glass monolayer during the process of SLM
+The International Journal of Advanced Manufacturing Technology 
+the study plane at different times are plotted in Fig. 5 for the 
+glass monolayer under SLM.
+In Fig. 5, the simulation was implemented for laser power 
+P0 = 20 W , powder bed thickness L = 150μm and powder 
+particle diameter D = 20μm . In the first half of time dura-
+tion, the temperature tends to increase. As demonstrated in 
+Fig. 5, the temperature of the bed surface (z = 0) reached its 
+peak point near the middle time and cooled down after 1.5 s.
+3.2  The validation result of the densification 
+and deformation
+According to the previous experimental study from other 
+reference papers [7, 12], the combinations of the processing 
+parameters in this work are listed in Table  3. The experi-
+mental results in Ref. [ 12] under the cases of a, b and c 
+in Table 3 were used to validate the simulation results, as 
+demonstrated in Fig. 6. Specifically, the densification results 
+of the numerical modelling were illustrated in the top plots 
+in Fig. 6 for each case, respectively, which were compared 
+with the corresponding experimental results below from Ref. 
+[12]. Figure 6 illustrates that the distribution results for the 
+densification degree from numerical calculation agree well 
+with the experimental micrographs.
+Table 3  Parameters for the numerical calculations and the previous 
+experiments
+Variant a b c
+Laser power ( W) 20 20 15
+Layer thickness ( /u1D707m) 150 175 175
+Fig. 6  The densification degree 
+of the glass monolayer at the 
+study plane and the experimen-
+tal micrograph from Ref [12]
+
+ The International Journal of Advanced Manufacturing Technology
+The experimental micrographs presented in Fig.  6 from 
+Ref [12] illustrate the lens-shaped domains of the pow -
+der bed in the cross-section perpendicular to the scanning 
+direction. These domains have a concave shape, and the 
+concavity of the top surface can be attributed to the uni-
+form shrinkage of the powder during processing [ 12]. Par-
+ticularly, the lighter-colour parts indicate the fused glass, 
+while the darker-colour parts correspond to the nonconsol-
+idated powder. Additionally, the experimental observation 
+from Fig.  6 demonstrates the transition of the glass pow -
+der from an unconsolidated to a consolidated state after 
+processing. The comparison in Fig.  6 validates that the 
+numerical modelling can predict the transition trends in 
+these three instances, which correspond to the shift of the 
+relative density from 0.6 to 1.0.
+The shrinkage deformation of the powder bed can 
+be simulated based on the modelling results since the 
+deformation was dependent on the different densification 
+degrees. The linear relation was assumed for the density 
+/u1D70Cb and the height h of the powder bed.
+where hm , hs , /u1D70Cbm and /u1D70Cbs denote the bed height of the middle 
+and the side and the compact density on the corresponding 
+position, respectively. The comparison between the simula-
+tion and the experimental results is shown in Fig.  7.
+(25)h = hm + hs − hm
+/u1D70Cbs − /u1D70Cbm
+/parenleft.s1/u1D70Cb − /u1D70Cbm
+/parenright.s1
+The experimental deformation results were obtained 
+by using ImageJ to capture the contour of the experiments 
+demonstrated in Fig.  7 [12]. It was noted that the simula -
+tion could capture the bed deformation well in experiments. 
+Table 4 lists the deformation comparison results based on 
+the cross area between experiments and simulation. Particu-
+larly, the prediction errors for all the simulations of these 
+three cases are less than 2%. Thus, it is concluded that this 
+numerical modelling method can be used to simulate the 
+SLM process of glass silica monolayer.
+3.3  Discussion of the processing parameters
+The effect of powder size was discussed by using this mod-
+elling method, in which the particle diameter decreased 
+from 20 to 5 µm and other parameters were set as same as 
+the case (a) in Table  3. The simulation results are illus -
+trated in Fig.  8.
+Fig. 7  Deformation comparison 
+for the glass monolayer under 
+SLM between the experiment in 
+Ref [12] and the simulation in 
+this work
+Table 4  Deformation comparison based on cross area between exper -
+iments and simulation
+Case Cross area from experi-
+ments  (mm2)
+Cross area from simu-
+lation  (mm2)
+Error
+a 0.1181 0.1158 1.938%
+b 0.1267 0.1264 0.197%
+c 0.1485 0.1501 1.072%
+The International Journal of Advanced Manufacturing Technology 
+Based on the necking kinetics theory [17] and the 
+clusters model [14], the densification rate has an inverse 
+relationship with the particle diameter. Besides, the exper -
+imental study also notes that the powder with a large diam -
+eter hinders the air bubbles from escaping and then traps 
+them inside, which reduces the quality of the final part 
+[26]. Therefore, the finer particles can speed up the con-
+solidation process and improve the quality of the obtained 
+parts. However, the influence of the glass powder size is 
+not observed in the previous reference [12]. By contrast, it 
+is noticeable in this model that the smaller particle diam-
+eter positively affects the process of SLM for silica glass, 
+as demonstrated in Fig.  8.
+Preheating is an effective technique to improve the qual-
+ity of SLM, as demonstrated by the previous experiment 
+[27, 28]. We set the initial ambient temperature from 298 
+to 498 K in our numerical model to discuss the effect of 
+preheating on the SLM processing of glass. The simulation 
+Fig. 8  Densification results of 
+SLM for glass compacts with 
+different powder diameters
+Fig. 9  The temperature distribution and densification degree of the glass monolater under SLM with different initial ambient temperature
+ The International Journal of Advanced Manufacturing Technology
+results with other parameter settings same as case a are dem-
+onstrated in Fig. 9.
+As depicted in Fig. 9, the thermal gradient is reduced at the 
+initial ambient temperature. Figure 9 also illustrates that the 
+densification process is accelerated for the glass monolayer 
+under SLM. Thus, it is concluded that preheating can enhance 
+the quality of the final glass part due to the lower thermal 
+gradient and increase the manufacturing efficiency of SLM.
+3.4  Processing optimisation
+The densification results shown in this numerical study 
+agreed well with the experimentally observed micrographs 
+in Fig. 6. The dark yellow band in Fig.  6, representing the 
+relative density from 1 to 0.95, could be matched with the 
+boundary line between the fused glass and the non-consol-
+idated glass. At the bottom of the monolayer in Fig.  6, the 
+point between the consolidated glass and non-consolidated 
+powders was defined as the critical point of the bottom. 
+Meanwhile, this kind of point at the top surface was defined 
+as the critical point of the top. As illustrated in Fig.  10, the 
+distance between the two critical points was defined as the 
+critical distance, which could work as an optimisation cri-
+terion. In other words, the closer the distance is, the better 
+the SLM quality is.
+Thus, a new optimisation scheme could be made 
+according to this observation. The design variables were 
+the parameters such as laser power, scanning velocity, 
+layer thickness, particle size and ambient temperature. 
+Minimising the critical distance was identified as the 
+objective function. Additionally, the constraints included 
+the maximum or minimum values of the variables, such 
+as the range of the laser power, the required width scope 
+of the fused glass and the maximum ambient temperature 
+for preheating. We could take Fig.  10 as an example of the 
+optimisation scheme established in this study. The densi-
+fication results of case (a) were optimised by increasing 
+ambient temperature from 298 to 498 K and decreasing 
+particle size from 20 to 10 µm.
+4  Conclusion
+In this study, a numerical model was established to predict the 
+temperature distribution, densification kinetics and deformation 
+of the monolayer of glass powders under SLM. Specifically, the 
+necking growth and densification kinetics were incorporated 
+into the heat transfer model, which was calculated using FDM. 
+The experimental observations from other research could vali-
+date the prediction results of the newly developed model with a 
+prediction error of less than 2%. Thus, the well-proved numeri-
+cal simulation could provide a more reliable tool to discuss the 
+influence of the processing parameters. It was noted that the 
+smaller size of the powders and the higher ambient temperature 
+can speed up the consolidation process and improve the qual-
+ity of the obtained parts. Besides, a new optimisation criterion 
+based on the model can be set to optimise the parameters and 
+fabricate the transparent and high-purity glass through SLM. In 
+the future, researchers can use this numerical modelling method 
+for glass monolayer to aid their 3D design and fabrication of 
+fused silica parts by using SLM.
+Fig. 10  An instance of the 
+optimization criterion for the 
+processing parameters of glass 
+monolayer under SLM
+
+The International Journal of Advanced Manufacturing Technology 
+Author contribution Wanrui Zhang: conceptualization, methodology, 
+formal analysis, investigation, writing.
+Declarations  
+Competing interests The author declares no competing interests.
+Open Access  This article is licensed under a Creative Commons Attri-
+bution 4.0 International License, which permits use, sharing, adapta-
+tion, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, 
+provide a link to the Creative Commons licence, and indicate if changes 
+were made. The images or other third party material in this article are 
+included in the article's Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in 
+the article's Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a 
+copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.
+References
+ 1. Materials ASfT (2012) Standard terminology for additive manu-
+facturing technologies: ASTM F2792–12A. Astm International
+ 2. Gao B et al (2022) A review of research progress in selective laser 
+melting (SLM). Micromachines 14(1):57
+ 3. Yang Z et al (2022) Evolution of an industrial-grade Zr-based 
+bulk metallic glass during multiple laser beam melting. J Non-
+Cryst Solids 589:121649
+ 4. Yong-Taeg O, Fujino S, Morinag K (2002) Fabrication of trans-
+parent silica glass by powder sintering. Sci Technol Adv Mater 
+3(4):297–301
+ 5. Kotz F et al (2017) Three-dimensional printing of transparent 
+fused silica glass. Nature 544(7650):337–339
+ 6. Fateri M, Gebhardt A (2015) Selective laser melting of soda-
+lime glass powder. Int J Appl Ceram Technol 12(1):53–61
+ 7. Khmyrov R et al (2016) Crack-free selective laser melting of 
+silica glass: single beads and monolayers on the substrate of the 
+same material. Int J Adv Manuf Technol 85:1461–1469
+ 8. Gan MX, Wong CH (2017) Properties of selective laser melted 
+spodumene glass-ceramic. J Eur Ceram Soc 37(13):4147–4154
+ 9. Li J, Li L, Stott F (2004) Comparison of volumetric and surface 
+heating sources in the modeling of laser melting of ceramic 
+materials. Int J Heat Mass Transf 47(6–7):1159–1174
+ 10. Li J, Li L, Stott F (2004) A three-dimensional numerical model for 
+a convection–diffusion phase change process during laser melting 
+of ceramic materials. Int J Heat Mass Transf 47(25):5523–5539
+ 11. Chen Q et al (2016) Finite element modeling of deposition 
+of ceramic material during SLM additive manufacturing. in 
+NUMIFORM 2016: The 12th International Conference on Numer-
+ical Methods in Industrial Forming Processes
+ 12. Protasov C et al (2017) Selective laser melting of fused silica: 
+Interdependent heat transfer and powder consolidation. Int J Heat 
+Mass Transf 104:665–674
+ 13. Li C et  al (2020) A finite element study on the effects of 
+densification on fused silica under indentation. Ceram Int 
+46(17):26861–26870
+ 14. Prado MO, Zanotto ED (2002) Glass sintering with concurrent 
+crystallization. C R Chim 5(11):773–786
+ 15. Soares VO et al (2012) Non-isothermal sinter-crystallization 
+of jagged Li2O–Al2O3–SiO2 glass and simulation using 
+a modified form of the Clusters model. J Non-Cryst Solids 
+358(23):3234–3242
+ 16. Prado MO, Fredericci C, Zanotto ED (2003) Non-isothermal sin-
+tering with concurrent crystallization of polydispersed soda–lime–
+silica glass beads. J Non-Cryst Solids 331(1–3):157–167
+ 17. Kingery WD, Bowen HK, Uhlmann DR (1976) Introduction to 
+ceramics, Vol. 17. John wiley & sons
+ 18. Richter F (2006) Upsetting and viscoelasticity of vitreous SiO2: 
+experiments, interpretation and simulation. Berlin TechnUniv Diss
+ 19. Frenkel J (1945) Viscous flow of crystalline bodies under the 
+action of surface tension. J Phys (USS R) 9(5):385
+ 20. Gusarov A et al (2003) Contact thermal conductivity of a pow -
+der bed in selective laser sintering. Int J Heat Mass Transf 
+46(6):1103–1109
+ 21 Abyzov AM, Goryunov AV, Shakhov FM (2013) Effective ther -
+mal conductivity of disperse materials. I. Compliance of com-
+mon models with experimental data. Int J Heat Mass Transfer 
+67:752–767
+ 22. Gusarov A, Kovalev E (2009) Model of thermal conductivity in 
+powder beds. Phys Rev B 80(2):024202
+ 23. Rombouts M et al (2005) Photopyroelectric measurement of ther-
+mal conductivity of metallic powders. J Appl Phys 97(2):024905
+ 24. Gray DE (1964) American institute of physics handbook. Am J 
+Phys 32(5):389–389
+ 25. Wang S, Ni R (2019) Solving of two-dimensional unsteady-state 
+heat-transfer inverse problem using finite difference method and 
+model prediction control method. Complexity 2019
+ 26. Guo A et al (2023) Acoustic field-assisted powder bed fusion 
+of tungsten carbide-reinforced 316L stainless steel composites. J 
+Market Res 26:5488–5502
+ 27. Liu Q et al (2015) Effect of high-temperature preheating on the 
+selective laser melting of yttria-stabilized zirconia ceramic. J 
+Mater Process Technol 222:61–74
+ 28. Guo A et al (2022) Method for preparing damage-resistant 
+3D-printed ceramics via interior-to-exterior strengthening and 
+toughening. Addit Manuf 60:103272
+Publisher's Note Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.

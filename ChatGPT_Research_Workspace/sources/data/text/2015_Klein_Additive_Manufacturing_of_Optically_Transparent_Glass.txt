@@ -1,0 +1,872 @@
+ 
+ 
+ 
+ 
+ 
+Additive Manufacturing of Optically Transparent Glass 
+ 
+John Klein1* a, Michael Stern2*, Giorgia Franchin3*, Markus Kayser1, Chikara Inamura1, Shreya Dave2, 
+James C. Weaver4, Peter Houk5, Paolo Colombo3, 6, Maria Yang2 and Neri Oxman1 
+ 
+1 Media Lab, Massachusetts Institute of Technology, Cambridge, MA 02139, USA 
+2 Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA 
+3 Department of Industrial Engineering, University of Padova, Via Marzolo 9, 35131 Padova, Italy 
+4 Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138, USA. 
+5 Department of Material Science and Engineering Glass Lab, Massachusetts Institute of Technology, Cambridge, MA 02139, USA 
+6 Department of Materials Science and Engineering, The Pennsylvania State University, University Park, PA 16801, USA 
+ 
+* These three authors have contributed equally to this work. 
+ 
+a Corresponding Author: John Klein, j_klein@mit.edu, T. 609-213-8182, 
+MIT Media Lab, 75 Amherst Street, E14-433B, Cambridge, MA 02139, USA 
+ 
+Running Title: MIT G3P 
+ 
+ 
+Abstract 
+We present a fully functional material extrusion 
+printer for optically transparent glass. The printer is 
+comprised of scalable modular elements, able to 
+operate at the high temperatures required to process 
+glass from a molten state to an annealed product. 
+We 
+demonstrate 
+a 
+process 
+enabling 
+the 
+construction of 3D parts as described by Computer 
+Aided Design (CAD) models. Processing parameters 
+such as temperature, which control glass viscosity, 
+and flow rate, layer height and feed rate, can thus be 
+adjusted to tailor printing to the desired component, 
+its shape and its properties. We explored, defined 
+and hard-coded geometric constraints and coiling 
+patterns as well as the integration of various colors 
+into the current controllable process, contributing to 
+a new design and manufacturing space. We report 
+on performed characterization of the printed material 
+executed 
+to 
+determine 
+their 
+morphological, 
+mechanical and optical properties. Printed parts 
+demonstrated strong adhesion between layers and 
+satisfying optical clarity. Demonstration of this 
+molten glass 3D printer and fabricated objects 
+demonstrates the production of parts, which are 
+highly repeatable, enable light transmission, and 
+resemble the visual and mechanical performance of 
+glass constructs that are conventionally obtained. 
+Utilizing the optical nature of glass, complex caustic 
+patterns were created by projecting light through the 
+printed objects.  The 3D printed glass objects 
+described 
+here 
+can 
+thus 
+be 
+extended 
+to 
+implementations 
+across 
+scales 
+and 
+functional 
+domains including product and architectural design. 
+This research lies at the intersection of design, 
+engineering, science and art, representing a highly 
+interdisciplinary approach. 
+ 
+Keywords 
+Glass 3D printer, 3D printing, additive manufacturing, glass, material extrusion, Fused Deposition Modeling, 
+FDM, 
+transparent, 
+optical
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+2 
+ 
+I. 
+Introduction and Background 
+Additive Manufacturing (AM) has undergone significant developments since its conception as 
+documented by Charles Hull in his patent of 1984 for the construction of parts using a photo-
+crosslinkable polymer1. Numerous processes have since been introduced, as summarized by the 
+American Society for Testing and Materials (ASTM) which defined seven categories according to 
+which the wide range of processes can be classified2. Each of the various approaches relies on 
+different physical characteristics and phenomena, and is often associated with specific materials. 
+Throughout the history of manufacturing, the design process has often been guided by the constraints 
+of the fabrication method. Current freeform fabrication capabilities enable a more flexible design 
+space: fewer design constraints provide entirely new opportunities for the construction and assembly 
+of objects at different length scales. Specifically, additional complexity in product scale is now 
+possible without negatively affecting its production rate, cost, or quality. Furthermore, AM allows for 
+simple, rapid, and economic design iteration, capitalizing on the efficacy of non-linear design and 
+optimization. 
+Extruded material built in three dimensions has proved its commercial value with the development of 
+an entire consumer-level industry based on the principles of Fused Deposition Modeling (FDM)3. 
+However, FDM printers, in their current embodiment, are unable to handle high melting point 
+materials, and require feeding the material in filament form, thereby presenting significant limitations 
+in size and scale1.  
+Two 3D printing methods are typically used for higher melting point materials, such as metals and 
+ceramics. The first one consists of a sintering method where particles are fused together below the 
+melting point temperature. Parts are generally printed via binder jetting on a powder bed, where a 
+binding agent temporarily joins particles until they are sintered through bulk thermal treatment4. The 
+second method uses a laser (Selective Laser Melting, SLM) or another thermal source to melt 
+material particles that are either injected or present on the building platform5,6.  
+Glass-based materials hold the potential to provide particular value in the additive manufacturing field 
+due to their hardness, optical qualities, affordability and availability. To date, binder jetting 
+approaches have been applied to glass materials in order to overcome their high melting 
+temperatures and high viscosity4,7,8. Sintered glass objects printed in this method are commercially 
+available, but they are extremely fragile and appear opaque due to the light scattering from glass 
+powders caused by incomplete densification9. 
+Robocasting has also been investigated for the manufacturing of glass components, with particular 
+interest in Bioglass® formulations for bone tissue engineering. In this process, glass particles are 
+suspended in an aqueous solution or incorporated into a binder matrix. The mixture is then extruded 
+through a nozzle to form a porous green body. As the green body undergoes sintering however, it 
+encounters the same limitations of the binder jetted glass parts described previously10–12. 
+Moreover, even the most recent experiments with glass SLM have not been able to overcome such 
+issues: products remain opaque and show poor mechanical properties. Furthermore, polishing 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+3 
+ 
+requires extensive effort, access to all geometry and often results in the samples breaking into 
+smaller pieces. Even when successful, internal porosity leads to significant light scattering, thus 
+limiting transparency when implementing this method13. A manual wire feeding approach described in 
+the same work yielded higher quality results; however, lack of automation limits control and prohibits 
+part production.  
+The extrusion of molten glass, which appeared as early as the Mesopotamian period, remained in 
+traditional glass manufacturing practices. In fact it is still applied in the artistic milieu: commercial kiln 
+packages such as Bullseye Glass Co.’s Vitrigraph, enable glass artisans to create glass canes or 
+stringers through manual glass extrusion, ranging in diameter from fractions of a millimeter to several 
+millimeters14. 
+Large scale manufacturing processes have also been developed for glass extrusion; they are 
+particularly suitable for glass characterized by a narrow working range and a very high softening 
+point; such as silica glass (softening point ~1600°C) or with a strong tendency to crystallize such as 
+borosilicates. The application of pressure to force glass flow through a dye extends the glass working 
+range to higher viscosities, and enables the production of rods and tubes with complex sections15. In 
+this paper, the development of tools and processes, which culminated in the first of its kind fully 
+functional material extrusion system for optically transparent glass, are presented. This enabling 
+technology and related platform is comprised of scalable modular elements able to operate at the 
+high temperatures required to process glass from the molten state to the final annealed product.  
+Automated extrusion of 10 mm diameter glass beads with a build rate of about 460 mm3/s enabled 
+the creation of 3D parts as described by Computer Aided Design (CAD) models with a build volume 
+of 250 mm x 250 mm x 300 mm. The additive manufacturing system and printed parts provide proof-
+of-concept for automated glass deposition and the ability to produce objects within an expansive 
+design space. This method enables production of parts that are highly repeatable, allow light 
+transmission, and resemble glass as conventionally produced. Printed components can be modular 
+and scalable from artistic products to architectural constructions, as it can be seen by the examples 
+included herein. 
+ 
+II. 
+System Design and Construction 
+a. 
+System Implementation 
+The apparatus design and construction was guided by a series of successive tests with increasing 
+complexity and control. They served as demonstration of operation of the printer and are briefly 
+presented below to illustrate the evolution (see Table 1). 
+Initial tests were conducted using a previously heated ceramic crucible; molten glass was added 
+and a slow flow was observed through the hole at the base. The tests proved that gravity-driven 
+feed was feasible, but suggested that heating of the feed material would be critical. The second 
+step involved the addition of a kiln surrounding the crucible during the process; glass flow of 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+4 
+ 
+continually heated feed material was demonstrated. Flow was continuous and the glass was 
+allowed to coil autonomously, forming tapered cylindrical shapes.  
+Computer control of the Z-axis was then implemented which enabled the system to maintain 
+constant deposition height and to produce coiled cylinders with constant diameters. To create the 
+first designed shape, bumpers were mounted on the frame and the crucible kiln was manually 
+moved, successfully producing a square cross-section object. Digital control on the X and Y axes 
+was then added, and more complex shapes were successfully fabricated. Implementation of 
+software and motion control also provided the chance to set a constant travel speed. A rectangular 
+prism being printed with this setup is presented in Fig. 1A. 
+Despite the motion system reaching satisfactory mechanical control and precision, the printed parts 
+showed inconsistent filament diameter, poor adhesion between layers and rapid accumulation of 
+defects. These problems derived from a common cause: the fact that glass was dripped from an 
+offset height. An independently heated ceramic nozzle to be attached to the crucible was therefore 
+designed and produced; with the nozzle tip was below the carriage level it was possible to print with 
+no offset height. With this upgrade, control of the layer height was achieved and the above-
+mentioned issues were overcome. A cylinder being printed after the addition of the nozzle is shown 
+in Fig. 1B. 
+Glass objects need to be cooled down to room temperature in a slow and controlled way through 
+the glass transition temperature range, the annealing process, to release permanent stresses 
+associated with thermal gradients that otherwise would lead to the spontaneous breakage upon 
+cooling. The 3D printed parts were kept above the annealing temperature (Ta) with the help of 
+propane torches (visible in Fig. 1A and 1B) and were annealed right after the printing completion; 
+the torching process was not automated and difficult to control, and therefore often the objects 
+cracked. Finally, the introduction of a heated build chamber enabled in situ temperature control. Fig. 
+1C shows the same build as in Fig. 1B, this time being printed directly into the heated build 
+chamber providing consistent annealing temperature and eliminating the need for torches.  The 
+final setup resulted in a fully automated process and the capability to produce larger and stronger 
+parts.  
+b. 
+Hardware 
+i. 
+Heating Elements 
+The primary components of the system were the Kiln Cartridge (which contains a Crucible Kiln 
+and Nozzle Kiln) and the Print Annealer (heated build chamber). A schematic of the whole 
+assembly is shown in Fig. 2A. 
+Inside the Kiln Cartridge (Fig. 2B), the Crucible Kiln (Fig. 2C) was an 1800W high temperature 
+furnace that was used to melt and maintain molten glass at a temperature of 1040-1165°C. The 
+kiln was made of alumina-silica fiberboard and it was heated through a FeCrAl coiled wire. 
+Temperature was monitored via a Type K thermocouple.  
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+5 
+ 
+The Nozzle Kiln (Fig. 2D) was mounted to the bottom plate of the Crucible Kiln and provided 
+300W of heat to the printer nozzle. The kiln was constructed similarly to the Crucible Kiln. 
+Temperature was monitored via a Type S thermocouple for faster response times. Each 
+component of the system was a modular unit, to allow quick development. All heating elements 
+and thermocouples exited out to a single area in the Kiln Cartridge, reducing limitations on the 
+printer movements. 
+Glass was contained in a refractory crucible placed inside the Crucible Kiln; the Nozzle Kiln 
+provided control over the flow of glass. The crucible included a bottom hole where the nozzle was 
+inserted; the assembly was then sealed with a refractory mortar. The nozzle was machined from 
+bulk high temperature alumina bisque ceramic rods. The small dimensions of the nozzle allowed 
+it to protrude below the carriage into the annealing chamber and enabled the direct deposition of 
+glass with a precise control on layer height. 
+The glass was printed directly into the Print Annealer, which maintained a temperature above the 
+glass transition temperature 480-515°C. The Print Annealer remained stationary while the Z-
+platform moved inside it. The Z-platform was fabricated out of a ceramic kiln shelf that enabled 
+good initial bonding at high temperature and release at annealing temperature. The X-Y control 
+was achieved by driving the print head. The 3300W Print Annealer had two alumina-silica 
+fiberboard doors to provide access to the nozzle and for removing the printed part, and a 
+transparent ceramic (Neoceram®) window that enabled monitoring of the print job. The annealing 
+chamber was based on the GlazeTech kiln (Skutt Kilns, Portland, OR, USA). 
+The sealing of the annealing chamber was achieved through the addition of two light and thin 
+alumina-silica fiberboard skirts assuring that the annealing chamber was always closed on the 
+top. One skirt was mounted on top of the annealing chamber, and the other to the moving 
+carriage below the feed kiln. 
+ii. 
+Frame and Carriage 
+The printer was constructed of 80/20 aluminum stock and square steel tube. Aluminum was used 
+for components not exposed to high heat, while the heavier steel was reserved for central 
+components that may become hot from the Crucible Kiln, Print Annealer, or radiating molten 
+glass. The Crucible Kiln carriage consisted of steel supports mounted on bearings that travelled 
+on the structural steel tracks. The entire system was mobile, mounted on pneumatic casters to 
+enable transportation without damaging the fragile ceramic kilns.  
+iii. 
+Motion Control 
+XYZ motion was provided by three independent stepper motors – lead screw gantry systems and 
+drivers that were electronically controlled by an Arduino and a RAMPS 1.4 Arduino shield. The 
+motors had a rated holding torque of 280 N·cm; the high-torque was required due to the inertia of 
+the Kiln Cartridge and carriage assembly.  
+The motors were connected to ACME lead screws with flexible helical couplings to accommodate 
+misalignments. The motors were isolated from axial and radial loads by bearing blocks. The Z 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+6 
+ 
+motor was mounted at the base of the frame requiring only one hole at the base of the Print 
+Annealer to accommodate the build platform support rod. Limit switches were mounted at the 
+“zeros” of the X, Y and Z axes both to provide homing information to the control software and to 
+protect the system from mechanical crashes. These prevented the motor from driving when 
+activated and were connected directly to the RAMPS board. The limit switch cables were bundled 
+separately from the motor cables to prevent interference. 
+c. 
+Software 
+i. 
+CAD Model 
+The 3D object was defined in Rhinoceros 5.0 environment. The model had to fit within the build 
+chamber, i.e. 250mm x 250mm x 300mm. The input surface was described as a non-uniform 
+rational basis spline (nurbs) geometry. 
+ii. 
+Slicing and Generating G-Code 
+The surface was sliced using a custom C# script in Grasshopper Build 0.9.76.0. The slicing script 
+drew a helix around the CAD model structure, enabling continuous flow and accommodating for 
+the specific filament diameter of extruded glass. This toolpath was then represented in Cartesian 
+coordinates in the form of G-code. The layer height, curve discretization, and feed rate, could be 
+modified in real-time, while the tool path could be monitored in the preview pane. Users could 
+also define specific velocities for each point. The algorithm developed for the wrapping toolpath 
+started from the input surface, intersected it based on the layer height, discretized each 
+intersection curve based on the input resolution, and then incrementally remapped the discretized 
+points with increasing Z values. The remapped points were then connected with a polyline to 
+create the continuous wrapping toolpath for any given complex geometry.  
+iii. 
+Motion Control 
+G-code files were imported into the open source printing software Repetier-Host V1.0.6. Repetier 
+firmware, adapted for the acceleration, velocities, and size of the build platform, was used to 
+direct the printer. 
+ 
+III. 
+System Operation Characterization 
+a. 
+Material Characterization 
+Commercial soda-lime glass nuggets (System 96® Studio NuggetsTM, Spectrum® Glass Company, 
+Inc., Woodinville, WA, USA) were used in this study. 
+Glass density and thermal expansion coefficients (CTE) at low (T ≤ 210°C) and high (T = 1000°C) 
+temperature were estimated based on the glass composition. Fluegel models16,17 were applied. 
+Data are provided in Table 2. 
+Glass dynamic viscosity η strongly depends on temperature; its dependence can be modeled using 
+the so called Vogel-Fulcher-Tammann (VFT) equation: 18–20 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+7 
+ 
+   
+  
+
+  
+ 
+(1) 
+where η [Pa·s] is the dynamic viscosity of the glass, T [°C] is its temperature, and A, B and T0 are 
+experimental values depending on the glass composition. 
+Viscosity values were measured at different temperatures at Corning Inc. (Corning, NY, USA) with 
+proprietary equipment. Experimental data were fitted using the VFT equation to estimate A, B and 
+T0, leading to the results shown in Fig. 3. The VTF equation enables prediction of glass viscosity at 
+each temperature, thus allowing flow estimation and process tailoring. 
+b. 
+Process Characterization 
+i. 
+Temperature Distribution 
+Based on glass viscosity data, the operating temperature was set at approximately 1000°C, 
+corresponding to the glass working point (η ~ 103 Pa·s). 
+The nozzle temperature was set at T = 1010°C to account for the heat loss in the tip exposed to 
+the annealing kiln environment. 
+The crucible temperature was set at T = 1040°C to overcome the heat loss due to frequent 
+refilling. 
+The annealing chamber was set at T = 480°C, slightly below the glass annealing temperature 
+(~515°C); since the glass heat radiation contributed to increase the environment temperature.  
+The temperature distribution in the system was simulated using Solidworks® Flow Simulation 
+Computational Fluid Dynamics (CFD) software. Glass and refractories thermal properties were 
+set as standard float soda-lime glass and 96% alumina respectively. 
+Results are shown in Fig. 4A. 
+Based on the CFD model, the temperature of the nozzle’s outer face was expected to drop down 
+to an average 980°C; the glass average temperature at the nozzle exit was 990°C.  
+Infrared images (Fig. 4B) were acquired from the heated chamber window during a printing 
+process using a FLIR T335 equipped with a T197000 high temperature option and were analyzed 
+using FLIR Tools software (FLIR® Systems, Inc., Cambridge, MA, USA). At the nozzle exit, glass 
+temperature was observed to be 920°C, in agreement with the simulations. Temperature  
+decreased drastically as new layers were deposited, creating a temperature gradient of ~350°C 
+between the most recent five layers. This led to a viscosity increase of five orders of magnitude. 
+This rapid increase in viscosity was crucial to the stability of the object during printing. 
+Note that the object always remained in the 500-570°C temperature range, which corresponds to 
+the annealing temperature of the glass in use; therefore, no cracks were formed during printing.  
+ii. 
+Physics of Glass Flow 
+The precise speed at which glass flowed through the nozzle was an important determining factor 
+for feed rate calibration helping to avoid undesired accumulation or lack of material on the printed 
+object. 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+8 
+ 
+Glass flow through the nozzle can be modeled as laminar flow of a viscous fluid through a tube21. 
+Whether a fluid under certain conditions will flow in a turbulent or laminar motion is a function of 
+its density ρ [kg/m3] and dynamic viscosity η [Pa·s] combined with its mean velocity v [m/s] and 
+the channel diameter d [m]; Reynolds number Re is a dimensionless parameter which combines 
+these factors and is used to help predict similar flow patterns in different fluid flow situations. Flow 
+is assumed laminar if its Re falls below a threshold value of 204022.  
+In this case: 
+  
+     
+
+"$&(  (+-/ 
+(2) 
+The assumption of laminar flow was therefore largely justified; moreover, Re << 1 also indicates 
+that viscous forces were predominant over inertial ones (Stokes flow)21. 
+The flow resistance of a tube is defined from the following relationship: 
+1 
+ 46
+  
+(3) 
+where Q [m3/s] is the volume flowrate through the tube, ΔP [Pa] is the pressure drop at the top of 
+the nozzle and R [Pa/(m3/s)] is the resistance to flow.  
+ΔP is given by the glass weight; for a cylindrical crucible: 
+6 
+ : 
+(4) 
+Q can also be expressed by: 
+1 
+  @
+$ 
+ DF/
+IK 46 
+(5) 
+where A [m2] is the nozzle opening surface area, vm [m/s] is maximum flow velocity (at the center 
+of the tube) and is two times the effective velocity, L [m] is the nozzle length and r [m] is its radius. 
+The equation is known as the Hagen-Poiseuille law21. 
+R can therefore be calculated from: 
+  
+PI
+D  K
+F/ 
+(6) 
+There are two factors that determine the resistance to flow within the nozzle: geometry (primarily 
+the nozzle’s radius) and glass viscosity. 
+iii. 
+Flow Estimation 
+Based on previous equations, glass volumetric flow was estimated for typical processing 
+parameters. 
+Glass temperature at the nozzle exit was considered to be T ~990°C, corresponding to a dynamic 
+viscosity η ~640 Pa·s.  
+The pressure drop was a function of the molten glass level inside the crucible, since the process 
+was gravity driven. The crucible-nozzle assembly is outlined in Fig. 4a. Designed lengths and 
+diameters of crucible (1) and nozzle segments (2 & 3), along with correspondent flow resistances, 
+are summarized in Table 3. 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+9 
+ 
+Based on the knowledge that the final smallest diameter drives the overall flow resistance, the 
+length of the final segment was minimized. Error! Reference source not found. shows that 
+more than 50% of the flow resistance (R) was given by the final segment of the assembly.  
+For this calculation, it was assumed that at the start of a new print job the crucible was filled up to 
+a height of L’ = 80mm, resulting in a pressure drop of ΔP ~ 3.6 kPa. Volume flow rate at the 
+nozzle exit was therefore 1 
+ +  
+ Pwith a consequent linear flow rate of W ~ 5.7 mm/s. 
+As the glass level in the crucible decreased, Q and W decreased linearly; consistency during 
+printing was achieved by frequent refilling of the crucible. The extended nozzle enabled direct 
+deposition of material referenced from the machines Z-height, rather than previous layer height, 
+thus any variation in flow rate would affect the wall width rather than the path height.   
+ 
+IV. 
+Fabrication of 3D Printed Glass Parts 
+a. 
+Method 
+Two methods for filling the Crucible Kiln were employed. In the first method, glass nuggets were 
+heated in the crucible to 1165°C over 4 hours; glass was then fined for 2 hours to eliminate 
+bubbles. During this phase, the nozzle was kept at a lower temperature (T~800°C) to prevent glass 
+flow. In the second method, molten glass was collected from a furnace and added directly to the 
+crucible. 
+After fining, the crucible and nozzle temperatures were set to 1040°C and 1010°C respectively. The 
+Print Annealer was also set to 480°C. Glass flow typically initiated spontaneously due to gravity; 
+however, flow could be terminated at the end of each print by cooling the nozzle tip with 
+compressed air and reinitiated at the beginning of the following print by heating the nozzle tip with a 
+propane torch. 
+Once the printing process was complete, the crucible and nozzle were drained by increasing their 
+temperature up to 1165°C. The Print Annealer then executed the annealing cycle as summarized in 
+Table 4. 
+For increased part production other annealing kilns were used; objects were removed through the 
+front door and placed in an external annealing kiln kept at 480°C until the end of the multiple 
+printing session. They were then annealed following the same cycle. 
+Most objects were post-processed in order to be properly displayed: sharp edges where the print 
+was terminated were ground and bottoms were polished to eliminate the roughness caused by the 
+contact with the build platform during printing.  
+b. 
+Parameters Calibration and Design Space 
+The printing process was tailored according to the temperature and resultant viscosity and flow 
+rate.  
+Two different sets of parameters were used: 
+Tnozzle = 1010°C, layer height = 4.5mm, feed rate = 4.5mm/s 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+10 
+ 
+Tnozzle = 1010°C, layer height = 4.5mm, feed rate = 6.1mm/s 
+The first set of parameters was associated with a feed rate that was 20% slower than the estimated 
+flow rate. This resulted in layers with a much larger width compared to the nozzle diameter; the 
+average layer width of the printed parts was w1 = 19.5 ± 3.5 mm. A top view of a printed object is 
+shown in Fig. 5A. [Note: direct measurement of layer width was challenging; therefore, width was 
+calculated based on the object’s mass, layer height, feed rate and printing time]. 
+Printing with this large layer width required a considerable amount of glass and therefore limited the 
+design space. The second set of parameters was calibrated to achieve a smaller width, similar to 
+the nozzle’s orifice.  
+Different feed rates were tested in the range 5.8 – 6.3mm/s, while keeping the other parameters 
+constant, an optimum feed rate = 6.1mm/s (~7% higher than the flow rate) was determined. Driving 
+the extruder at a slightly greater rate than the natural flow helped achieve a more homogeneous 
+filament, since the pulling prevented the buildup of any excess glass at the nozzle.  In order to 
+achieve effective adhesion of the first printed layer to the building platform, its feed rate was slowed 
+down by 25%, eliminating the pulling force and giving the glass time to settle on the build platform. 
+The second set of parameters resulted in an average width of t2 = 9.5 ± 0.5mm, roughly half of what 
+was produced with the first set. This approach enabled the production of larger and taller objects 
+with the same amount of glass; the pressure head variation was more gradual and easier to control 
+by frequent refilling. Fig. 5b shows a top view of an object printed with the new set of parameters; 
+Fig. 5A and 5B highlight the difference between layer widths.  
+Improved control achieved with the new set of parameters allowed for the exploration of various 
+other possible designs. In the optimal printing conditions (clean nozzle, proper set of parameters) 
+parts with draft angles up to 40° and turning radii down to 14mm were printed. 
+The exploratory designs shown in Fig. 5B-F (characteristics listed in Table 5) represent increasing 
+levels of complexity and focus on different design objectives. The object in Fig. 5B, for example, 
+was not challenging in terms of minimum radius or draft angle, but investigated the possibility to 
+fabricate thin channels and cavities by decreasing the distance between walls. Fig. 5C shows a 
+more complex object, with a minimum radius of 22mm and a draft angle of 28°, which was 
+successfully produced. 
+Working in a safe design space did not always produce defect-free objects. Radii and draft angles 
+were not the only constraints that affected the quality of the print. Object in Fig. 5D had a minimum 
+radius of 28mm and a draft angle of 29°; nevertheless, defects were observed in its bottom layers. 
+It was determined that changes of convexity within the same layer often resulted in deviation from 
+the CAD shape. This effect was caused by accumulation of glass on the nozzle tip and out of line 
+pull force caused by surface tension between the glass on the nozzle face and the just deposited 
+glass. 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+11 
+ 
+This phenomenon could be avoided by creating a geometry where the change in convexity 
+occurred not within a single layer but instead over the height of the part: a successful example is 
+shown in Fig. 5E in comparison to that of Fig. 5D. 
+The last object (Fig. 5F) was the most ambitious, printed with a minimum radius smaller than the 
+nozzle diameter and abrupt changes in curvature. Deviations from the designed path followed a 
+regular and repeatable pattern in the symmetric branches of the part. 
+c. 
+Falling Fluid Deposition 
+Molten glass deposition from an offset may form a plethora of patterns when the relative speed of 
+nozzle and substrate is lower than the impinging speed of the falling glass; those patterns  include 
+meanders, W patterns, alternating loops and translated coiling. This phenomenon is of particular 
+interest given the opportunity to fabricate multiscale objects where the features generated by coiling 
+are at a much smaller scale than the motion of the printer. Viscous threading  has been the subject 
+of several studies involving a fluid falling on a moving belt and is often referred to as the “Fluid 
+Mechanical Sewing Machine”23–25. Brun, P.-T. et al.26 recently developed a model to rationalize the 
+rich variety of periodic patterns generated in terms of two parameters: the dimensionless height of 
+fall H and the dimensionless velocity or travel speed V, which take into account the balance 
+between gravitational stretching and viscous dissipation. For a thread, in this case glass, of 
+kinematic viscosity  [m2/s] falling from a nozzle of dimensional height H· onto a belt horizontally 
+moving at speed V·, it is: 
+ 
+  X :
+	
+ 
+
+ 
+(7) 
+ 
+
+:
+ 
+ 
+(8) 
+ Based on this behavior, a cylinder with the following set of parameters was printed: 
+Tnozzle = 1070°C, layer height = 4.5mm, feed rate V· = 6.1mm/s, offset height H· = 100mm, H = 1.02 
+and V = 0.003. 
+This resulted in the formation of a translated coiling pattern that followed the circular path to form a 
+complex cylinder.  
+Details of the deposition process and of the object can be seen in Fig.6A-B. 
+The object was imaged by means of micro Computer Tomography (microCT) with an XRA-002 X-
+Tek MicroCT (Xtek Inc., Cincinnati, OH, USA) system in order to better visualize the generated 
+patterns. The 3D reconstructions were performed using CT-Pro (Nikon Metrology Inc., Brighton, MI, 
+USA); surface renderings were generated using VGStudio Max (Volume Graphics GmbH, 
+Heidelberg, Germany). 
+From the 3D reconstruction shown in Fig. 6C, the generated loops seemed to be consistent in their 
+radii and spacing. 
+d. 
+Colored Glass Printing 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+12 
+ 
+Colored glass has been investigated since the very early stages of material exploration. One of the 
+goals was to control the optical and aesthetic properties of the printed glass structures through the 
+integration of color. Preliminary tests demonstrated the effective printing with multiple glass colors 
+in the same object. 
+Two variations of glass frits were used: Reichenbach R-19 Gold Topaz, F0 frit size (less than 
+1mm), and R-11 Heliotrope in F2 size frit (2-4mm) (Farbglashütte Reichenbach GmbH, 
+Reichenbach, DE). 
+The frits were added in sequence to the crucible, which was partially filled with molten glass. Due to 
+the relatively low melting point and mass, the frits melted within minutes. Fig. 7 shows a detail of 
+the resulting object. Both a sudden change and a graded conversion from one color to the other 
+were possible within the same printed object. The printing process was not noticeably affected by 
+addition of the colored frits. 
+ 
+V. 
+Characterization of 3D printed glass parts 
+Rectangular prisms were 3D printed and then cut down with a diamond saw to provide samples for 
+optical and mechanical characterization. The cut surfaces were diamond ground and polished with 
+cerium oxide. 
+A number of rectangular prisms were printed at room temperature (T0) and then annealed; others 
+were printed into the Print Annealer (Ta). 
+Samples were cut in different orientations: some of the bars (a in Fig. 8A) were cut with the longer 
+axis along Z-direction and others (b) with the longer axis along the X (or Y) direction. The samples 
+height corresponded to the layer width. A representation of the samples and their specifications are 
+shown in Fig. 8A and Table 6, respectively. 
+a. 
+Scanning Electron Microscopy (SEM) 
+Samples were sputter-coated with gold and imaged with a Tescan Vega SEM (Tescan Orsay 
+Holding, a.s., Brno-Kohoutovice, Czech Republic) and a FESEM Zeiss Ultra 55 (Carl Zeiss, Inc., 
+Thornwood, NY, USA). Images of an a.Ta sample are shown in Fig. 8B-C.  
+The images demonstrate that the object’s section was highly homogeneous with strong adhesion 
+between the layers. Fig. 8C shows an enlargement of the contact surface between two layers, with 
+a smooth, blunt interface where no sign of the different layers was visible.  
+b. 
+Residual Stresses – Polariscopy 
+The samples were observed under a Model 243 6” Polariscope with Tint Plate (PTC® Instruments, 
+Los Angeles, CA, USA) to determine residual stress patterns developed during glass cooling. 
+Polariscopy is a well-known technique in glass industry as it takes advantage of stress-induced 
+birefringence in glass to detect the presence of residual stresses mainly due to cooling 
+gradients27,28. As polarized light travels through glass, it undergoes a delay proportional to the 
+amount of stress. Therefore, color fringes visible through the analyzer mimic the stress pattern. 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+13 
+ 
+Color and line intensity are not absolute, but depend on the orientation of the sample and the 
+polarized filters. The results were obtained through qualitative reading of the color fringes with no 
+quantitative evaluation of stress intensities. 
+Both samples printed at T0 and Ta showed negligible stress concentration along the layers, 
+indicating that the annealing treatment was successful. Looking at the cross-sections, though, a 
+difference between the two kinds of samples was detected. Printing at room temperature generated 
+radial stresses within layers that had not been relieved by the subsequent annealing treatment. In 
+the sample fabricated with the Print Annealer, on the other hand, such stresses were not present 
+and the stress distribution was more homogeneous. 
+c. 
+Preliminary Mechanical Testing 
+Residual stress patterns suggested that samples printed into the heated chamber possessed better 
+mechanical properties compared to the ones printed at room temperature. The flexural behavior of 
+the glass bars was investigated using an Instron 8841 and an Instron 5500R (Illinois Tool Works 
+Inc., Glenview, IL, USA) equipped with a 3 points bending fixture. Tests were performed at a cross-
+head speed of 0.05 to 0.12mm/min. A compliant layer (Scotch® Permanent Outdoor Mounting 
+Tape, 3M, Saint Paul, MN, USA) was used between the bottom fixtures and the sample surfaces in 
+some orientations. Results are reported descriptively due to the limited number of samples 
+examined. 
+Fig. 8D shows a sample loaded along the layers; this is usually the most critical loading 
+configuration for a 3D printed object, because delamination can occur due to a poor adhesion 
+between layers29–31. The tests conducted on a.T0 samples seemed to validate this hypothesis: the 
+fracture occurred at the interface between two layers (Fig. 8E, left) and the samples possessed a 
+flexural strength σf which was only one fifth of the one of the annealed samples a.Ta. This was most 
+likely due to lower bonding strength caused by the large temperature difference between the 
+deposited glass and the previous layer and to the presence of residual stresses between layers, as 
+highlighted in Residual Stresses - Polariscopy. The absence of high residual stresses in a.Ta 
+samples resulted in fracture lines that propagated through a whole glass layer without following a 
+precise trajectory (Fig. 8E, right), a further indication that no significant residual stresses were 
+present in the sample.  
+Additionally, in the annealed samples flexural strength measured in the a and b type orientations 
+differed by approximately 40%. This level of anisotropy is in line with what has been observed in 
+plastic printed parts in other studies32. 
+d. 
+Optical Properties 
+One of the main goals of this work was to combine additive manufacturing processes with the 
+production of glass components possessing good optical properties.  
+Morphological and mechanical characterizations determined an overall high degree of homogeneity 
+and good adhesion between layers, enabling light transmission with very little distortion. The 70mm 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+14 
+ 
+tall cylinder shown in Fig. 9A was polished with cerium oxide in both top and bottom layers; a high 
+degree of transparency could be observed. 
+If layer surface texture was retained, it enabled light refraction and scattering as well as the 
+production of highly complex caustic patterns. Images shown in Fig. 9B were obtained by lighting 
+the objects along their central axis using a LED. 
+The observed behavior offered new perspectives on light control and additional optical properties 
+for the printed objects. Work by Kiser et al. has shown that precomputed shapes can be generated 
+with caustics by modeling light transmission to control the patterns and form desired shapes 
+providing future directions for this work to explore33. 
+ 
+ 
+VI. 
+Limitations and Future Work 
+The focus of the present work was to demonstrate the functionality of a molten glass material 
+extrusion system; initial work focused primarily on the printer construction and process calibration to 
+this end. There are many different directions for future work that arise based on this first glass 3D 
+printer.  
+Only preliminary testing was conducted on the printed glass objects. More comprehensive 
+morphological, mechanical and optical characterizations of printed components are underway and 
+future work will validate the qualitative observations through more accurate and extensive testing. 
+The printer here presented is still in development and there are a number of improvements that are 
+currently being carried out. For instance, extruded glass stuck preferentially on glass covering the 
+nozzle tip instead of on the colder previous layer; such phenomenon was responsible for the 
+deviation from desired shapes and uneven glass distribution. Future work on the printer will focus on 
+solving this issue. Numerous potential solutions will be tested by creating new nozzle geometry, 
+material, coating, face cooling or the addition of sacrificial foil.  
+Software environment improvements will be explored to merge the large number of separate pieces 
+of software needed to run the system. This will enable the operator to have full control of printing 
+process in real time, including direct control over the kilns’ temperatures and path modification and 
+travel speed, from the same interface. 
+Gravity as a feed mechanism required frequent refilling of the crucible, needed to keep the glass level 
+almost constant. This procedure affected the quality of the print - from nearly imperceptible to those 
+observable with the naked eye. Having a continuous flow of material in the feeding chamber would 
+allow the realization of more homogeneous parts.  
+The relatively small pressure drop generated by the gravity fed system was also a limiting factor in 
+terms of printing speed and resolution, and also prevented scaling down the nozzle diameter. Future 
+development will therefore involve the addition of an active material feed system (in the form of a 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+15 
+ 
+plunger or of compressed air) in order to increase control and enable a more diverse set of parts to 
+be fabricated at a faster rate and with finer resolution. 
+The printer development was carried out using soda lime glass, chosen because of its relatively low 
+working temperature and wide working range. Our method could be applied to a diverse range of 
+materials, including other silicate, borate and phosphate glasses as well as glass-ceramic systems. In 
+order to process these materials, a future version of the printer would thus be able to heat glass to 
+higher temperatures. 
+To fully achieve the level of complexity of AM processes this system requires the ability to 
+automatically start, stop and cut the glass filament. In the current setup, these tasks are manually 
+activated by the operator. Multiple different mechanisms to achieve this level of control are being 
+explored from automating the compressed air and torching that currently performed manually to 
+adding shears or a high temperature valve. The addition of these features would expand the design 
+space enabling the creation of designs with intricate cross-sections and internal structures.  
+ 
+VII. 
+Conclusions 
+This paper documents the development of the first molten glass material 3D extrusion system for the 
+production of optically transparent components.  This system processed glass from the molten state 
+to annealed components of complex digitally designed forms. The printing parameters and process 
+were optimized, enabling high repeatability and control. 
+Process optimization involved the addition of a ceramic nozzle of controlled geometry, modeling the 
+glass viscosity, controlling glass levels, adjusting the temperature distribution in the different kilns, as 
+well as varying more conventional printing parameters such as layer height and feed rate.  
+The design space enabled by this system was mapped, including geometric constraints such as 
+maximum overhang and minimum turning radius. Additionally, integration of colors was shown to be 
+possible and the generation of coiling patterns as a means to produce objects of multiple different 
+length scales was investigated.  
+Preliminary printed material characterization was performed in terms of morphological, mechanical 
+and optical properties. Results indicated strong adhesion between layers and substantial strength 
+increase when the process was performed in a heated build chamber with roughly 60% of material 
+strength across layers. From the optical point of view, high transparency was observed and complex 
+caustic patterns were created with LED light sources depending on the samples’ geometry.  
+Moving forward, the simultaneous development of the printer and the design of the printed glass 
+objects will yield both a higher performance system and increasingly complex novel objects. As such, 
+applications in art, architecture and product design will be further explored while improvements such 
+as continuous feeding, plunging, increased build size and start and stop control will be implemented 
+in parallel.  
+ 
+ 
+ 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+16 
+ 
+VIII. 
+Acknowledgements 
+This research was primarily sponsored by the Mediated Matter research group at the MIT Media Lab. 
+It was supported in part by the MIT Department of Mechanical Engineering through a project in the 
+course Additive Manufacturing (2.S998) in spring 2014 and by the Glass Art Society through the 
+Technology Advancing Glass Grant. Giorgia Franchin was partially supported by a scholarship 
+awarded by “Fondazione Aldo Gini” in Padova, Italy. We would like to thank Associate Prof. John A. 
+Hart for his support of our work and for his technical advice. We would also like to thank Prof. J. 
+Meejin Yoon, Department Head and MIT’s School of Architecture and Planning, as well as Prof. John 
+A. Ochsendorf from MIT’s Department of Civil and Environmental Engineering and Prof. Neil 
+Gershenfeld from MIT’s Center for Bits and Atoms for their guidance and support. We thank Forrest 
+Whitcher for collecting IR images, Mary Ann Babula for cutting, grinding and polishing, Michael 
+Tarkanian and Daniel Lizardo for their assistance with polariscopy and mechanical tests in the MIT 
+Mechanical Behavior of Materials Lab, Kyle Hounsell for recording high-speed videos during 
+mechanical tests. We also wish to acknowledge Corning Incorporated for viscosity measurements 
+and technical advice, as well as Skutt Kilns and Smart Ceramics for support during the printer design 
+and building phases. In addition, we wish to thank Joi Ito, Director of the MIT Media Lab, for his 
+continuous support. 
+ 
+IX. 
+Author Disclosure Statement 
+Klein, J., et al., Methods and apparatus for additive manufacturing of glass, U.S. Patent Application 
+14697564, filed April 27, 2015 
+ 
+ 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+17 
+ 
+References 
+1.  Gibson I, Rosen DW, Stucker B. Chapter 2: Development of Additive Manufacturing 
+Technologies. In: Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital 
+Manufacturing. Springer Science + Business Media, LLC; 2010 p. 17–40. 
+2.  ASTM. Standard Terminology for Additive Manufacturing Technologies. 2012; 
+3.  Wohlers T, Caffrey T. Wohlers Report 2014. Fort Collins: Wohlers Associates; 2014. 
+4.  Marchelli G, Prabhakar R, Storti D, Ganter M. The guide to glass 3D printing: developments, 
+methods, diagnostics and results. Rapid Prototyp. J. 2011;17(3):187–194. 
+5.  Zocca A, Colombo P, Gomes CM, Guenster J. Additive Manufacturing of Ceramics: issues, 
+potentialities and opportunities. J. Am. Ceram. Soc. [in press]; 
+6.  Murr LE, Gaytan SM, Ramirez DA, et al. Metal Fabrication by Additive Manufacturing Using Laser 
+and Electron Beam Melting Technologies. J. Mater. Sci. Technol. 2012;28(1):1–14. 
+7.  Fateri M, Khosravi M. On-site Additive Manufacturing by Selective Laser Melting of composite 
+objects. Concepts Approaches Mars Explor. 2012; 
+8.  Klein S, Simske S, Parraman C, et al. 3D Printing of Transparent Glass. HP Tech Rep. 2012; 
+9.  The Ex One Company L. The New Standard for Manufacturing from ExOne e Manufacturing in 
+Sand.; 
+10.  Clasen R. Method for the manufacture of glass bodies by extrusion. 1987;2–7. 
+11.  Clasen R, Schmidl B. Method of manufacturing glass bodies by means of extrusion. 1989; 
+12.  Eqtesadi S, Motealleh A, Miranda P, et al. Robocasting of 45S5 bioactive glass scaffolds for bone 
+tissue engineering. J. Eur. Ceram. Soc. 2014;34(1):107–118. 
+13.  Luo J, Pan H, Kinzel EC. Additive Manufacturing of Glass. J. Manuf. Sci. Eng. 
+2014;136(6):061024. 
+14.  Bullseye Glass Co. The Vitrigraph Kiln - creating a new vocabulary in fused glass. 
+2014;(November):1–4. 
+15.  Roeder E. Extrusion of glass. J. Non. Cryst. Solids 1971;5(5):377–388. 
+16.  Fluegel A. Global model for calculating room-temperature glass density from the composition. J. 
+Am. Ceram. Soc. 2007;90(8):2622–2625. 
+17.  Fluegel A, Earl D a, Varshneya AK, Seward TP. Density and thermal expansion calculation of 
+silicate glass melts from 1000 ° C to 1400 ° C. Phys. Chem. Glas. Eur. J. Glas. Sci. Technol. Part B 
+2008;49(5):245–257. 
+18.  Vogel H. Das Temperaturabhängigkeitsgesestz der Viskosität von Flüssigkeiten. Phys. Z. 
+1921;22:645–646. 
+19.  Tammann G, Hesse W. Die Abhängigkeit der Viskosität von der Temperatur bei unterkühlten 
+Flüssigkeiten. Z. Anorg. Allg. Chem. 1926;156:245–257. 
+20.  Fulcher GS. Analysis of recent measurements of the viscosity of glasses. J. Am. Ceram. Soc. 
+1925;8:339–355. 
+21.  Bird RB, Stewart WE, Lightfoot EN. Transport Phenomena. Wiley; 1958. 
+
+
+Additive Manufacturing of Optically Transparent Glass 
+ 
+ 
+18 
+ 
+22.  Reynolds O. An experimental investigation of the circumstances which determine whether the 
+motion of water shall be direct or sinuous, and of the law of resistance in parallel channels. Phil. 
+Trans. R. Soc. Lond. 1883;174:935–982. 
+23.  Chiu-Webster S, Lister JR. The fall of a viscous thread onto a moving surface: a “fluid-mechanical 
+sewing machine.” J. Fluid Mech. 2006;569:89. 
+24.  Ribe NM. Coiling of viscous jets. Proc. R. Soc. A Math. Phys. Eng. Sci. 2004;460(2051):3223–
+3239. 
+25.  Ribe NM, Habibi M, Bonn D. Liquid Rope Coiling. Annu. Rev. Fluid Mech. 2012;44(1):249–266. 
+26.  Brun P-T, Audoly B, Ribe NM, et al. Liquid Ropes : A Geometrical Model for Thin Viscous Jet 
+Instabilities. Phys. Rev. Lett. 2015;174501(May):1–5. 
+27.  Mastelaro VR, Zanotto ED. Residual stresses in a soda-lime-silica. Joumal of Non-Crystalline 
+Solids 1996;194:297–304. 
+28.  Preston FW. The Use of Polariscopes in the Glass Industry [Internet]. J. Am. Ceram. Soc. 
+1930;13(9):595–623. 
+29.  Belter JT, Dollar AM. Strengthening of 3D Printed Fused Deposition Manufactured Parts Using 
+the Fill Compositing Technique. PLoS One 2015;10(4):e0122915. 
+30.  Ahn S-H, Montero M, Odell D, et al. Anisotropic material properties of fused deposition modeling 
+ABS. Rapid Prototyp. J. 2002;8(4):248–257. 
+31.  Bertoldi M, Yardimci M a, Pistor CM, et al. Mechanical characterization of parts processed via 
+fused deposition. Solid Free. Fabr. Proc. 1998;557–565. 
+32.  Kim GD, Oh YT. A benchmark study on rapid prototyping processes and machines: quantitative 
+comparisons of mechanical properties, accuracy, roughness, speed, and material cost. Proc. Inst. 
+Mech. Eng. -- Part B -- Eng. Manuf. (Professional Eng. Publ. 2008;222(2):201–215. 
+33.  Kiser T, Eigensatz M, Nguyen MM, et al. Architectural Caustics — Controlling Light with 
+Geometry. Adv. Archit. Geom. 2012 2013;91–106.  
+ 

@@ -1,0 +1,260 @@
+[
+  {
+    "id": "asset_liu2022_fig1_audit_20260929",
+    "title": "Four-beam CO2 laser filament deposition schematic",
+    "authors": [
+      "Chunxin Liu",
+      "Taras Oriekhov",
+      "Michael Fokine"
+    ],
+    "year": 2022,
+    "doi_or_url": "10.3389/fmats.2022.978861",
+    "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g001.jpg",
+    "doi": "10.3389/fmats.2022.978861",
+    "summary": "Four-beam CO2-laser heating of a glass filament during deposition (Liu, Oriekhov and Fokine, 2022, Fig. 1). Reproduced without modification, CC BY 4.0.",
+    "evidence_type": "figure",
+    "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+    "accessed": "2026-09-29",
+    "local_path": "sources/media/Liu2022_Figure1.jpg",
+    "sha256": "98106561bf523bd5a2b216f8e7d7f9917f8a2db26e98db1878255aaabc1d34d3",
+    "bytes": 30917,
+    "dimensions_pixels": [
+      498,
+      352
+    ],
+    "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+    "original_id": "asset_liu2022_fig1",
+    "recommended_caption": "Four-beam CO2-laser heating of a glass filament during deposition (Liu, Oriekhov and Fokine, 2022, Fig. 1). Reproduced without modification, CC BY 4.0."
+  },
+  {
+    "id": "asset_liu2022_fig6_audit_20260929",
+    "title": "Microscopy of glass deposition and bonding",
+    "authors": [
+      "Chunxin Liu",
+      "Taras Oriekhov",
+      "Michael Fokine"
+    ],
+    "year": 2022,
+    "doi_or_url": "10.3389/fmats.2022.978861",
+    "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g006.jpg",
+    "doi": "10.3389/fmats.2022.978861",
+    "summary": "Top views (A) and cross-sections (B) of deposited glass lines at 10–100 mm/min, with laser power varied as in the source article (Liu, Oriekhov and Fokine, 2022, Fig. 6). Reproduced without modification, CC BY 4.0.",
+    "evidence_type": "figure",
+    "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+    "accessed": "2026-09-29",
+    "local_path": "sources/media/Liu2022_Figure6.jpg",
+    "sha256": "1e2ff946530a8111b5b2f549191c6e2773ba8212be27dad80bd309f1920e18be",
+    "bytes": 130050,
+    "dimensions_pixels": [
+      941,
+      920
+    ],
+    "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+    "original_id": "asset_liu2022_fig6",
+    "recommended_caption": "Top views (A) and cross-sections (B) of deposited glass lines at 10–100 mm/min, with laser power varied as in the source article (Liu, Oriekhov and Fokine, 2022, Fig. 6). Reproduced without modification, CC BY 4.0."
+  },
+  {
+    "id": "asset_massimino2024_fig1_audit_20260929",
+    "title": "Evenline G3DP3 glass printer",
+    "authors": [
+      "Daniel Massimino",
+      "Ethan Townsend",
+      "Charlotte Folinus",
+      "Michael Stern",
+      "Kaitlyn Becker"
+    ],
+    "year": 2024,
+    "doi_or_url": "10.1007/s40940-024-00279-8",
+    "doi": "10.1007/s40940-024-00279-8",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig1_HTML.png",
+    "summary": "G3DP3 apparatus: the build chamber lies behind the glazed doors, below the furnace and crucible (Massimino et al., 2024, Fig. 1). Reproduced without modification, CC BY 4.0.",
+    "evidence_type": "figure",
+    "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+    "accessed": "2026-09-29",
+    "local_path": "sources/media/Massimino2024_Figure1.png",
+    "sha256": "1b2ecf06dcbd5d7cb2bf23f2ba318bb562e6956dc36eaf418d3fc9384151db06",
+    "bytes": 1355836,
+    "dimensions_pixels": [
+      874,
+      1213
+    ],
+    "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+    "original_id": "asset_massimino2024_fig1",
+    "recommended_caption": "G3DP3 apparatus: the build chamber lies behind the glazed doors, below the furnace and crucible (Massimino et al., 2024, Fig. 1). Reproduced without modification, CC BY 4.0."
+  },
+  {
+    "id": "asset_massimino2024_fig2_audit_20260929",
+    "title": "Interlocking glass masonry wall before mechanical tests",
+    "authors": [
+      "Daniel Massimino",
+      "Ethan Townsend",
+      "Charlotte Folinus",
+      "Michael Stern",
+      "Kaitlyn Becker"
+    ],
+    "year": 2024,
+    "doi_or_url": "10.1007/s40940-024-00279-8",
+    "doi": "10.1007/s40940-024-00279-8",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig2_HTML.png",
+    "summary": "Manufactured masonry units arranged as a wall before mechanical testing (Massimino et al., 2024, Fig. 2). Reproduced without modification, CC BY 4.0.",
+    "evidence_type": "figure",
+    "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+    "accessed": "2026-09-29",
+    "local_path": "sources/media/Massimino2024_Figure2.png",
+    "sha256": "ac5f15c88ac2386cc0a7ee529767823e5892371bc82957396d55d44139beaff6",
+    "bytes": 1738417,
+    "dimensions_pixels": [
+      1371,
+      772
+    ],
+    "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+    "original_id": "asset_massimino2024_fig2",
+    "recommended_caption": "Manufactured masonry units arranged as a wall before mechanical testing (Massimino et al., 2024, Fig. 2). Reproduced without modification, CC BY 4.0."
+  },
+  {
+    "id": "asset_chhadeh2026",
+    "title": "The effect of toolpath design on the mechanical strength of additively manufactured glass components",
+    "authors": [
+      "Philipp Amir Chhadeh",
+      "Emanuel Nowak",
+      "Dylan Vlahopoulos",
+      "Matthias Seel",
+      "Nick Birbilis"
+    ],
+    "year": 2026,
+    "doi_or_url": "10.1038/s44334-026-00072-1",
+    "url": "https://www.nature.com/articles/s44334-026-00072-1.pdf",
+    "local_path": "sources/papers/2026_Chhadeh_Toolpath_Design_Mechanical_Strength.pdf",
+    "license": "CC BY-NC-ND 4.0; https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "summary": "Primary four-point bending study of filament-extruded soda-lime glass. Toolpath and layer orientation affected mechanical performance; thermal-history explanation is a proposed mechanism. The paper is not a qualification standard.",
+    "status": "Downloaded from publisher; PDF signature and all 11 pages parsed; license checked on final page",
+    "evidence_type": "academic_pdf",
+    "accessed": "2026-09-29",
+    "bytes": 8548160,
+    "sha256": "74545fa11e33c618d07ead0eeb9108277a10fee212437dc4858b5c16b892bb5c",
+    "pages": 11,
+    "extracted_characters": 45619
+  },
+  {
+    "id": "asset_efferz2024_fig2",
+    "title": "Photoelastic images near a chamfered tempered-glass edge",
+    "authors": [
+      "Lena Efferz",
+      "Christian Schuler",
+      "Geralt Siebert"
+    ],
+    "year": 2024,
+    "doi_or_url": "10.1007/s40940-024-00270-3",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00270-3/MediaObjects/40940_2024_270_Fig2_HTML.png",
+    "local_path": "sources/media/Efferz2024_Figure2.png",
+    "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+    "summary": "Intensity (a) and isochromatic (b) images near the chamfered edge of 10 mm fully tempered glass; marked points lie 1.0 and 1.6 mm from the edge. Efferz, Schuler and Siebert (2024), Fig. 2, CC BY 4.0, reproduced without modification. This is conventional tempered glass, not an additively manufactured specimen.",
+    "recommended_caption": "Intensity (a) and isochromatic (b) images near the chamfered edge of 10 mm fully tempered glass; marked points lie 1.0 and 1.6 mm from the edge. Efferz, Schuler and Siebert (2024), Fig. 2, CC BY 4.0, reproduced without modification. This is conventional tempered glass, not an additively manufactured specimen.",
+    "status": "Downloaded; image decoded and visually checked against publisher Figure 2 caption; article reuse terms checked, no figure-specific exclusion found",
+    "evidence_type": "figure",
+    "accessed": "2026-09-29",
+    "source_page": "https://link.springer.com/article/10.1007/s40940-024-00270-3",
+    "bytes": 68277,
+    "sha256": "4f79319bcdd25a788f5d29d7328e592a1f82fbeef73d5c1f90b178c8d1b1276e",
+    "dimensions_pixels": [
+      873,
+      640
+    ]
+  },
+  {
+    "id": "asset_video_mit_glass_i_audit_20260929",
+    "title": "GLASS / G3DP",
+    "authors": [
+      "MIT Mediated Matter Group"
+    ],
+    "year": 2015,
+    "doi_or_url": "https://vimeo.com/136764796",
+    "url": "https://vimeo.com/136764796",
+    "summary": "Link only. HTTP 200 returned a script-driven page without a title; identity relies on the earlier discovery record.",
+    "evidence_type": "video_link",
+    "license": "Link only; no video copied",
+    "discovery_url": "https://commons.wikimedia.org/wiki/File:Matter-glass-printer.webm",
+    "http_status": 200,
+    "status": "HTTP checked; streaming playback and captions not verified",
+    "final_url": "https://vimeo.com/136764796",
+    "accessed": "2026-09-29",
+    "local_path": null,
+    "sha256": null,
+    "original_id": "asset_video_mit_glass_i"
+  },
+  {
+    "id": "asset_video_mit_glass_ii_audit_20260929",
+    "title": "GLASS II / G3DP2",
+    "authors": [
+      "MIT Mediated Matter Group"
+    ],
+    "year": 2017,
+    "doi_or_url": "https://vimeo.com/211778198",
+    "url": "https://vimeo.com/211778198",
+    "summary": "Link only. HTTP 200 returned a script-driven page without a title; identity relies on the earlier discovery record.",
+    "evidence_type": "video_link",
+    "license": "Link only; no video copied",
+    "discovery_url": "https://commons.wikimedia.org/wiki/File:GLASS_II_-_Mediated_Matter.webm",
+    "http_status": 200,
+    "status": "HTTP checked; streaming playback and captions not verified",
+    "final_url": "https://vimeo.com/211778198",
+    "accessed": "2026-09-29",
+    "local_path": null,
+    "sha256": null,
+    "original_id": "asset_video_mit_glass_ii"
+  },
+  {
+    "id": "asset_video_maple_demo_audit_20260929",
+    "title": "3D Glass Printing | Inside Maple Glass Printing",
+    "authors": [
+      "Maple Glass Printing"
+    ],
+    "year": 2023,
+    "doi_or_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "summary": "Link only. YouTube page title matches expected video.",
+    "evidence_type": "video_link",
+    "license": "Link only; no video copied",
+    "discovery_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "http_status": 200,
+    "status": "HTTP checked; streaming playback and captions not verified",
+    "final_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "accessed": "2026-09-29",
+    "local_path": null,
+    "sha256": null,
+    "original_id": "asset_video_maple_demo"
+  },
+  {
+    "id": "asset_video_memphis_polariscope",
+    "title": "Polariscope",
+    "authors": [
+      "University of Memphis, Department of Physics and Materials Science"
+    ],
+    "year": null,
+    "doi_or_url": "https://www.youtube.com/watch?v=IefRrdTmlbA",
+    "url": "https://www.youtube.com/watch?v=IefRrdTmlbA",
+    "local_path": null,
+    "license": "Link only; no redistribution license asserted; no video copied",
+    "summary": "Direct video embedded by the university in its stress-birefringence demonstration page. Educational demonstration; it does not establish stress magnitudes in printed glass.",
+    "status": "University embed identity verified and YouTube page returned HTTP 200 with title Polariscope; playback and specimen material not independently verified",
+    "evidence_type": "video_link",
+    "accessed": "2026-09-29",
+    "discovery_url": "https://www.memphis.edu/physics/demonstrations/polariscope.php"
+  },
+  {
+    "id": "asset_lazos_photoelastic_attempt",
+    "title": "Photoelasticity and color on a stressed glass plate",
+    "authors": [
+      "Takis lazos"
+    ],
+    "year": 2013,
+    "doi_or_url": "https://commons.wikimedia.org/wiki/File:Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+    "local_path": null,
+    "license": "CC BY-SA 4.0 per Commons original-author file page; https://creativecommons.org/licenses/by-sa/4.0/",
+    "summary": "Possible illustration of clamped glass viewed between crossed polarizers; not used in report because download failed. Efferz Figure 2 supplies the photoelastic image instead.",
+    "status": "File-page attribution and license verified with web reader; binary acquisition returned HTTP 403",
+    "evidence_type": "failed_acquisition",
+    "accessed": "2026-09-29"
+  }
+]

@@ -1,0 +1,1200 @@
+{
+ "id": "https://openalex.org/W2883717838",
+ "doi": "https://doi.org/10.1002/mawe.201800075",
+ "title": "Fused glass deposition modelling for applications in the built environment",
+ "display_name": "Fused glass deposition modelling for applications in the built environment",
+ "publication_year": 2018,
+ "publication_date": "2018-07-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2883717838",
+  "doi": "https://doi.org/10.1002/mawe.201800075",
+  "mag": "2883717838"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1002/mawe.201800075",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1002/mawe.201800075",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S167708079",
+   "display_name": "Materialwissenschaft und Werkstofftechnik",
+   "issn_l": "0933-5137",
+   "issn": [
+    "0933-5137",
+    "1521-4052"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materialwissenschaft und Werkstofftechnik",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5013542522",
+    "display_name": "Matthias Seel",
+    "orcid": "https://orcid.org/0000-0001-9612-9287",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9612-9287"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "M. Seel",
+   "raw_affiliation_strings": [
+    "Center for Structural Materials, MPA-IfW Technische Universit\u00e4t Darmstadt  Grafenstra\u00dfe 2 64283 DARMSTADT GERMANY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Structural Materials, MPA-IfW Technische Universit\u00e4t Darmstadt  Grafenstra\u00dfe 2 64283 DARMSTADT GERMANY",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5064318034",
+    "display_name": "Robert Akerboom",
+    "orcid": "https://orcid.org/0000-0001-6294-2675",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6294-2675"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "R. Akerboom",
+   "raw_affiliation_strings": [
+    "Institute of Structural Mechanics and Design, Faculty of Civil Engineering and Environmental Engineering Technische Universit\u00e4t Darmstadt  Franziska-Braun-Stra\u00dfe 3 64287 DARMSTADT GERMANY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Structural Mechanics and Design, Faculty of Civil Engineering and Environmental Engineering Technische Universit\u00e4t Darmstadt  Franziska-Braun-Stra\u00dfe 3 64287 DARMSTADT GERMANY",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5031519627",
+    "display_name": "Ulrich Knaack",
+    "orcid": "https://orcid.org/0000-0001-9998-6428",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9998-6428",
+     "https://orcid.org/0000-0001-7965-4581"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "U. Knaack",
+   "raw_affiliation_strings": [
+    "Institute of Structural Mechanics and Design, Faculty of Civil Engineering and Environmental Engineering Technische Universit\u00e4t Darmstadt  Franziska-Braun-Stra\u00dfe 3 64287 DARMSTADT GERMANY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Structural Mechanics and Design, Faculty of Civil Engineering and Environmental Engineering Technische Universit\u00e4t Darmstadt  Franziska-Braun-Stra\u00dfe 3 64287 DARMSTADT GERMANY",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5039745785",
+    "display_name": "Matthias Oechsner",
+    "orcid": "https://orcid.org/0000-0003-0248-4232",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0248-4232"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "M. Oechsner",
+   "raw_affiliation_strings": [
+    "Center for Structural Materials, MPA-IfW Technische Universit\u00e4t Darmstadt  Grafenstra\u00dfe 2 64283 DARMSTADT GERMANY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Structural Materials, MPA-IfW Technische Universit\u00e4t Darmstadt  Grafenstra\u00dfe 2 64283 DARMSTADT GERMANY",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5048625929",
+    "display_name": "Paul M.J. Van den Hof",
+    "orcid": "https://orcid.org/0000-0003-2114-9739",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2114-9739"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "P. Hof",
+   "raw_affiliation_strings": [
+    "Center for Structural Materials, MPA-IfW Technische Universit\u00e4t Darmstadt  Grafenstra\u00dfe 2 64283 DARMSTADT GERMANY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Structural Materials, MPA-IfW Technische Universit\u00e4t Darmstadt  Grafenstra\u00dfe 2 64283 DARMSTADT GERMANY",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5041103063",
+    "display_name": "Jens Schneider",
+    "orcid": "https://orcid.org/0000-0003-2680-9628",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2680-9628"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "J. Schneider",
+   "raw_affiliation_strings": [
+    "Institute of Structural Mechanics and Design, Faculty of Civil Engineering and Environmental Engineering Technische Universit\u00e4t Darmstadt  Franziska-Braun-Stra\u00dfe 3 64287 DARMSTADT GERMANY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Structural Mechanics and Design, Faculty of Civil Engineering and Environmental Engineering Technische Universit\u00e4t Darmstadt  Franziska-Braun-Stra\u00dfe 3 64287 DARMSTADT GERMANY",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5013542522"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I31512782"
+ ],
+ "apc_list": {
+  "value": 3460,
+  "currency": "USD",
+  "value_usd": 3460
+ },
+ "apc_paid": null,
+ "fwci": 0.4856,
+ "has_fulltext": false,
+ "cited_by_count": 13,
+ "citation_normalized_percentile": {
+  "value": 0.68583779,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "49",
+  "issue": "7",
+  "first_page": "870",
+  "last_page": "880"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.996399998664856,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.996399998664856,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9866999983787537,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12897",
+   "display_name": "Structural Analysis of Composite Materials",
+   "score": 0.9746999740600586,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/borosilicate-glass",
+   "display_name": "Borosilicate glass",
+   "score": 0.7766950726509094
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-recycling",
+   "display_name": "Glass recycling",
+   "score": 0.6274451017379761
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.5947367548942566
+  },
+  {
+   "id": "https://openalex.org/keywords/flat-glass",
+   "display_name": "Flat glass",
+   "score": 0.5766381025314331
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-industry",
+   "display_name": "Glass industry",
+   "score": 0.5707954168319702
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.5407739877700806
+  },
+  {
+   "id": "https://openalex.org/keywords/soda-lime-glass",
+   "display_name": "Soda-lime glass",
+   "score": 0.540578305721283
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.5067909359931946
+  },
+  {
+   "id": "https://openalex.org/keywords/float-glass",
+   "display_name": "Float glass",
+   "score": 0.47678497433662415
+  },
+  {
+   "id": "https://openalex.org/keywords/silicate-glass",
+   "display_name": "Silicate glass",
+   "score": 0.45599693059921265
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-production",
+   "display_name": "Glass production",
+   "score": 0.45176392793655396
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.35331490635871887
+  },
+  {
+   "id": "https://openalex.org/keywords/process-engineering",
+   "display_name": "Process engineering",
+   "score": 0.26143497228622437
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.21234846115112305
+  },
+  {
+   "id": "https://openalex.org/keywords/geology",
+   "display_name": "Geology",
+   "score": 0.09195607900619507
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C206802598",
+   "wikidata": "https://www.wikidata.org/wiki/Q1422588",
+   "display_name": "Borosilicate glass",
+   "level": 2,
+   "score": 0.7766950726509094
+  },
+  {
+   "id": "https://openalex.org/C185903656",
+   "wikidata": "https://www.wikidata.org/wiki/Q1416361",
+   "display_name": "Glass recycling",
+   "level": 2,
+   "score": 0.6274451017379761
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5947367548942566
+  },
+  {
+   "id": "https://openalex.org/C96170274",
+   "wikidata": "https://www.wikidata.org/wiki/Q1426151",
+   "display_name": "Flat glass",
+   "level": 2,
+   "score": 0.5766381025314331
+  },
+  {
+   "id": "https://openalex.org/C2987365569",
+   "wikidata": "https://www.wikidata.org/wiki/Q785222",
+   "display_name": "Glass industry",
+   "level": 2,
+   "score": 0.5707954168319702
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.5407739877700806
+  },
+  {
+   "id": "https://openalex.org/C35288751",
+   "wikidata": "https://www.wikidata.org/wiki/Q745127",
+   "display_name": "Soda-lime glass",
+   "level": 2,
+   "score": 0.540578305721283
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.5067909359931946
+  },
+  {
+   "id": "https://openalex.org/C199172669",
+   "wikidata": "https://www.wikidata.org/wiki/Q1429077",
+   "display_name": "Float glass",
+   "level": 2,
+   "score": 0.47678497433662415
+  },
+  {
+   "id": "https://openalex.org/C2993621735",
+   "wikidata": "https://www.wikidata.org/wiki/Q11469",
+   "display_name": "Silicate glass",
+   "level": 2,
+   "score": 0.45599693059921265
+  },
+  {
+   "id": "https://openalex.org/C515177012",
+   "wikidata": "https://www.wikidata.org/wiki/Q785222",
+   "display_name": "Glass production",
+   "level": 2,
+   "score": 0.45176392793655396
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.35331490635871887
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.26143497228622437
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.21234846115112305
+  },
+  {
+   "id": "https://openalex.org/C127313418",
+   "wikidata": "https://www.wikidata.org/wiki/Q1069",
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.09195607900619507
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1002/mawe.201800075",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1002/mawe.201800075",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S167708079",
+    "display_name": "Materialwissenschaft und Werkstofftechnik",
+    "issn_l": "0933-5137",
+    "issn": [
+     "0933-5137",
+     "1521-4052"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Materialwissenschaft und Werkstofftechnik",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:tubiblio.ulb.tu-darmstadt.de:118072",
+   "is_oa": false,
+   "landing_page_url": "http://tubiblio.ulb.tu-darmstadt.de/118072/",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4377196390",
+    "display_name": "TUbilio (Technical University of Darmstadt)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I31512782",
+    "host_organization_name": "Technische Universit\u00e4t Darmstadt",
+    "host_organization_lineage": [
+     "https://openalex.org/I31512782"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "Artikel"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "score": 0.5799999833106995,
+   "id": "https://metadata.un.org/sdg/9"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 7,
+ "referenced_works": [
+  "https://openalex.org/W2067503228",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2606968184",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2735873272",
+  "https://openalex.org/W4232809495"
+ ],
+ "related_works": [
+  "https://openalex.org/W282695679",
+  "https://openalex.org/W1969290562",
+  "https://openalex.org/W4245274989",
+  "https://openalex.org/W2928984707",
+  "https://openalex.org/W2030599362",
+  "https://openalex.org/W2483012921",
+  "https://openalex.org/W2481784182",
+  "https://openalex.org/W2524007392",
+  "https://openalex.org/W2093754846",
+  "https://openalex.org/W2499431149"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "For": [
+   1
+  ],
+  "the": [
+   2,
+   31,
+   36,
+   46,
+   59,
+   94,
+   112,
+   126,
+   151,
+   183,
+   186
+  ],
+  "built": [
+   3
+  ],
+  "environment": [
+   4
+  ],
+  "and": [
+   5,
+   45,
+   133,
+   150,
+   172,
+   181,
+   188
+  ],
+  "for": [
+   6,
+   26,
+   52,
+   91,
+   103,
+   156
+  ],
+  "engineers,": [
+   7
+  ],
+  "glass": [
+   8,
+   63,
+   67,
+   87,
+   89,
+   106,
+   115,
+   132,
+   135,
+   146,
+   195
+  ],
+  "is": [
+   9,
+   22,
+   82,
+   197
+  ],
+  "an": [
+   10
+  ],
+  "indispensable": [
+   11
+  ],
+  "material": [
+   12
+  ],
+  "with": [
+   13,
+   38,
+   144,
+   165
+  ],
+  "unique": [
+   14
+  ],
+  "properties.": [
+   15
+  ],
+  "Recent": [
+   16
+  ],
+  "developments": [
+   17
+  ],
+  "have": [
+   18
+  ],
+  "shown": [
+   19
+  ],
+  "that": [
+   20,
+   81,
+   190
+  ],
+  "there": [
+   21
+  ],
+  "a": [
+   23,
+   39,
+   66,
+   74,
+   79,
+   119
+  ],
+  "potential": [
+   24,
+   60,
+   120
+  ],
+  "market": [
+   25
+  ],
+  "additive": [
+   27
+  ],
+  "manufacturing": [
+   28
+  ],
+  "technology": [
+   29
+  ],
+  "in": [
+   30,
+   70,
+   93,
+   105,
+   199
+  ],
+  "building": [
+   32,
+   95
+  ],
+  "industry,": [
+   33
+  ],
+  "based": [
+   34
+  ],
+  "on": [
+   35,
+   58,
+   65,
+   88,
+   140
+  ],
+  "production": [
+   37
+  ],
+  "relatively": [
+   40
+  ],
+  "small": [
+   41
+  ],
+  "amount": [
+   42
+  ],
+  "of": [
+   43,
+   48,
+   61,
+   122,
+   128,
+   185
+  ],
+  "repetitions": [
+   44
+  ],
+  "tendency": [
+   47
+  ],
+  "applying": [
+   49
+  ],
+  "technological": [
+   50
+  ],
+  "innovations": [
+   51
+  ],
+  "advanced": [
+   53
+  ],
+  "buildings.": [
+   54
+  ],
+  "This": [
+   55,
+   177
+  ],
+  "paper": [
+   56,
+   178
+  ],
+  "focusses": [
+   57
+  ],
+  "fusing": [
+   62,
+   127
+  ],
+  "filaments": [
+   64
+  ],
+  "base": [
+   68,
+   76
+  ],
+  "plate": [
+   69
+  ],
+  "order": [
+   71
+  ],
+  "to": [
+   72,
+   77,
+   84
+  ],
+  "develop": [
+   73
+  ],
+  "scientific": [
+   75
+  ],
+  "create": [
+   78
+  ],
+  "process": [
+   80
+  ],
+  "able": [
+   83
+  ],
+  "print": [
+   85
+  ],
+  "3D": [
+   86,
+   168
+  ],
+  "plates": [
+   90
+  ],
+  "applications": [
+   92
+  ],
+  "industry.": [
+   96
+  ],
+  "These": [
+   97
+  ],
+  "fused": [
+   98,
+   113,
+   152,
+   194
+  ],
+  "components": [
+   99,
+   116,
+   153
+  ],
+  "could": [
+   100
+  ],
+  "eliminate": [
+   101
+  ],
+  "boreholes": [
+   102
+  ],
+  "joints": [
+   104,
+   196
+  ],
+  "panes": [
+   107
+  ],
+  "including": [
+   108
+  ],
+  "related": [
+   109
+  ],
+  "disadvantages.": [
+   110
+  ],
+  "Also,": [
+   111
+  ],
+  "deposition": [
+   114
+  ],
+  "can": [
+   117
+  ],
+  "be": [
+   118
+  ],
+  "reinforcement": [
+   121
+  ],
+  "flat": [
+   123
+  ],
+  "glass.": [
+   124
+  ],
+  "Therefore,": [
+   125
+  ],
+  "soda": [
+   129
+  ],
+  "lime": [
+   130
+  ],
+  "silicate": [
+   131
+  ],
+  "borosilicate": [
+   134
+  ],
+  "has": [
+   136
+  ],
+  "been": [
+   137
+  ],
+  "investigated.": [
+   138
+  ],
+  "Based": [
+   139
+  ],
+  "these": [
+   141
+  ],
+  "experiences,": [
+   142
+  ],
+  "samples": [
+   143,
+   162
+  ],
+  "different": [
+   145
+  ],
+  "thicknesses": [
+   147
+  ],
+  "are": [
+   148,
+   154,
+   163
+  ],
+  "manufactured": [
+   149,
+   161
+  ],
+  "tested": [
+   155
+  ],
+  "their": [
+   157
+  ],
+  "bending": [
+   158
+  ],
+  "strength.": [
+   159
+  ],
+  "The": [
+   160
+  ],
+  "analysed": [
+   164
+  ],
+  "polarized": [
+   166
+  ],
+  "images,": [
+   167
+  ],
+  "computer": [
+   169
+  ],
+  "tomography,": [
+   170
+  ],
+  "microscopy": [
+   171
+  ],
+  "energy": [
+   173
+  ],
+  "dispersive": [
+   174
+  ],
+  "X\u2010ray": [
+   175
+  ],
+  "spectroscopy.": [
+   176
+  ],
+  "describes,": [
+   179
+  ],
+  "presents": [
+   180
+  ],
+  "discusses": [
+   182
+  ],
+  "results": [
+   184
+  ],
+  "investigations,": [
+   187
+  ],
+  "demonstrates": [
+   189
+  ],
+  "load": [
+   191
+  ],
+  "transfer": [
+   192
+  ],
+  "via": [
+   193
+  ],
+  "possible": [
+   198
+  ],
+  "principle.": [
+   200
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,16 @@
+material,model,regime,log10_eta_dPas,temperature_C,extrapolated
+ar_glas,VFT,strain,14.5,499.43217665615146,True
+ar_glas,VFT,annealing,13.0,530.0,False
+ar_glas,VFT,softening,7.6,720.0,False
+ar_glas,VFT,working_band_low_temperature,7.0,755.3488372093024,False
+ar_glas,VFT,working_point,4.0,1040.0,False
+borofloat33,VFT,strain,14.5,518.1640431219752,False
+borofloat33,VFT,annealing,13.0,559.701223525138,False
+borofloat33,VFT,softening,7.6,820.4089504478061,False
+borofloat33,VFT,working_band_low_temperature,7.0,869.3982437164163,False
+borofloat33,VFT,working_point,4.0,1269.570352203084,False
+hpfs7980,Arrhenius limit of VFT,strain,14.5,909.52015384194,False
+hpfs7980,Arrhenius limit of VFT,annealing,13.0,1012.882741236262,False
+hpfs7980,Arrhenius limit of VFT,softening,7.6,1603.2607031619996,True
+hpfs7980,Arrhenius limit of VFT,working_band_low_temperature,7.0,1704.1164867588,True
+hpfs7980,Arrhenius limit of VFT,working_point,4.0,2430.7914426774214,True

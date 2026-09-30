@@ -1,0 +1,732 @@
+Additive Manufacturing 39 (2021) 101880
+Available online 3 February 2021
+2214-8604/© 2021 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/).
+Laser powder bed fusion of soda lime silica glass: Optimisation of 
+processing parameters and evaluation of part properties 
+K.C. Datsiou a,1, F. Spirrett a, I. Ashcroft a, M. Magallanes b, S. Christie c, R. Goodridge a,* 
+a Centre for Additive Manufacturing, University of Nottingham, Nottingham NG8 1BB, UK 
+b Glass Technology Services, Sheffield S35 2PY, UK 
+c School of Chemistry, Loughborough University, Loughborough LE11 3TU, UK   
+ARTICLE INFO  
+Keywords: 
+Laser powder bed fusion 
+Additive manufacturing 
+Glass 
+Property characterisation 
+ABSTRACT  
+Glass has a number of attractive properties, such as transparency, chemical resistance, good thermal stability and 
+high electrical resistivity, that make it a favourable material for a range of applications, including medical 
+technology, electronics, chemical and pharmaceutical industries. However, compared to metals and polymers, 
+the additive manufacturing of glass is still at a primitive stage. The inherent material properties of glass, i.e. its 
+amorphous structure, lack of ductility and high processing temperatures, make processing of glass by additive 
+manufacturing challenging. This paper describes the laser powder bed fusion of a soda lime silica glass. Opti-
+misation of the laser powder bed fusion process was undertaken and the physical and mechanical properties of 
+the manufactured parts were characterised revealing an average porosity of 12%, a mean flexural strength of 
+6.5 MPa and a fully amorphous structure. Feasibility examples were successfully demonstrated, indicating that 
+geometrically complex shapes are possible. Even though the manufactured parts are opaque, they could 
+potentially find use in applications where the need for chemical inertness and geometrical complexity surpass the 
+need for transparency as in the chemical and pharmaceutical industries e.g. in the form of continuous flow re-
+actors or structured catalysts.   
+1. Introduction 
+Glass, which is made from natural and plentiful raw materials, has a 
+unique set of physical properties including light transmission, trans-
+parency, chemical durability (with caustic solutions being the common 
+exception), thermal stability and electric resistivity. These properties 
+make glass attractive to a wide range of industries from the architec-
+tural, automotive and aerospace industries to the electronics, packaging, 
+chemical manufacturing and pharmaceutical industries. Currently, 
+complex shapes of glass are created with the use of moulds e.g. in glass 
+casting and pressing or glass hot bending that is typically used in the 
+architectural or automotive industries, where a flat sheet of glass is 
+heated above its transition temperature while gravity forces it to take 
+the shape of a mould beneath the glass. Separate moulds are required for 
+different glass geometries, increasing costs and embodied carbon in 
+these production processes. Subtractive methods such as laser ablation 
+or micro-machining are used in the chemical manufacturing, pharma-
+ceutical and electronics industries for complex glass geometries. 
+However, these require long lead times, limit customization and result in 
+material waste. The development of a successful Additive 
+Manufacturing (AM) method to process glass could address these limi-
+tations, allowing more complex glass objects to be produced, in a 
+reproducible and cost-effective way, particularly for prototyping or 
+limited production volumes. 
+A variety of AM methods have been investigated for glass to date, 
+including stereolithography [1], direct ink writing [2,3], fused deposi-
+tion modelling [4,5], laser powder bed fusion [6,7]. However, each of 
+them comes with their own strengths and limitations in terms of reso-
+lution, geometric accuracy and optical quality. Indirect methods (ster-
+eolithography [1] and direct ink writing [2,3]) offer transparency, 
+however, compromise geometric accuracy due to the volumetric, often 
+anisotropic, shrinkage arising from post-manufacturing heat treatment 
+needed to remove organic content and sintering to densify the parts. 
+Fused deposition modelling [4,5] is a direct method, however, it is 
+limited in resolution which is dictated by the geometry and dimensions 
+of the nozzle in use. Laser powder bed fusion (LPBF) [6,7] addresses the 
+* Corresponding author. 
+E-mail address: ruth.goodridge@nottingham.ac.uk (R. Goodridge).   
+1 Present address: Eckersley O′Callaghan, London WC1X 8HB, UK 
+Contents lists available at ScienceDirect 
+Additive Manufacturing 
+journal homepage: www.elsevier.com/locate/addma 
+https://doi.org/10.1016/j.addma.2021.101880 
+Received 18 September 2020; Received in revised form 3 January 2021; Accepted 29 January 2021   
+Additive Manufacturing 39 (2021) 101880
+2
+above limitations, however, results in opaque, non-transparent parts. 
+This paper draws upon the knowledge and conclusions of our short 
+communication paper [6], providing a more detailed description and 
+demonstrating the capabilities of the developed laser powder bed fusion 
+process for glass. Additionally, it evaluates the physical and mechanical 
+properties of the built parts and proposes potential uses of the technol-
+ogy. In particular, Sections 2 and 3 describe the feedstock material and 
+the manufacturing method respectively, while Section 4 provides 
+feasibility examples and potential uses of the developed technology in 
+the chemical manufacturing industry. Section 5 provides an overview of 
+the methods used for the assessment of the physical (geometrical ac-
+curacy, porosity, crystallinity) and mechanical properties of the pro-
+duced parts. Finally, Section 6 presents and discusses property results of 
+the produced parts whilst Section 7 summarizes important results and 
+conclusions. 
+2. Materials 
+Two soda lime silica glass powders named SLSG109 and SLSG44 in 
+this study, were used as feedstock material. The two feedstock materials 
+had largely identical compositions (available in Table 1 as determined 
+by EDX - JEOL 6060LV SEM, USA), and only differed in terms of particle 
+size to assess its influence on glass processing with LPBF. 
+Laser diffraction (Malvern, Mastersizer 3000, UK) revealed a 
+Gaussian particle size distribution for both powders (Fig. 1) with an 
+average particle size of 109 µm and 44 µm for SLSG109 and SLSG44 
+respectively. The wider Gaussian distribution for SLSG44 suggests a 
+better packing density as the larger amount of fine particles reduces 
+inter-particle voids. Relatively fine powders with high packing density 
+are generally preferred in LPBF as they provide a larger surface area for 
+laser processing (22.8 m2/kg for SLSG109 against 58.3 m2/kg for 
+SLSG44) and minimize porosity in the built parts; however, too fine a 
+powder can cause difficulties with flow, deposition and spreading of the 
+powder over the build area [8]. 
+The feedstock material comprised spherical particles for both pow-
+ders (insets available in Fig. 1). Spherical particles improve flowability 
+and therefore powder deposition in LPBF [9]. The flowability of both 
+feedstock materials was assessed with a FT4 Powder Rheometer 
+(Freeman technology, USA). The basic flowability energy, BFE, i.e. the 
+energy required (torque and axial force) for the blade to move through 
+the sample at a rate of 100 mm/s, was found to be higher for SLSG44 
+(BFE=168 mJ) compared to SLSG109 (BFE= 146 mJ) indicating poorer 
+flowability for the former (Fig. 2). Additionally, the flow rate index, FRI, 
+i.e. the ratio of the flow energies at 10 mm/s over 100 mm/s was 
+measured to determine any cohesiveness in the feedstock. Cohesive 
+powders (FRI > 1) are sensitive to modifications in the flow rate of the 
+blade as it moves through the sample. A FRI of 1.22 and 1.08 were found 
+for SLSG44 and SLSG109 respectively, denoting a slightly cohesive 
+behaviour for SLSG44. The poorer flowability performance of SLSG44 
+compared to SLSG109 could be attributed to its smaller particle size with 
+inter-particle forces possibly increasing and inhibiting flowability. 
+Differential scanning calorimetry (Q600–TA Instruments, USA) 
+indicated very similar transition and melting temperatures for both 
+samples, at about 575 ℃ and 1280 ℃ respectively. 
+3. Manufacturing method 
+This section describes the LPBF process and the optimisation steps for 
+the processing parameters. Single tracks were used as a first step, in 
+Section 3.1, to assess powder consolidation and inform the selection of 
+substrate. These findings formed the basis for investigating the inter-
+action between neighbouring layers in thin walled structures (manu-
+factured by a linear laser scan repeated over multiple layers) whilst 
+identifying their processing window in Section 3.2. These in turn pro-
+vided insight on wall resolution that was eventually used to inform the 
+hatch spacing between adjacent melt tracks for the formation of 
+hatched, multilayer, cubic structures in Section 3.2. 
+3.1. Laser powder bed fusion 
+The LPBF approach in this study employed a commercial system 
+(ReaLizer GmbH SLM-50, Germany) to process the selected glass feed-
+stock. SLM-50 uses an yttrium fibre laser operating at a wavelength of 
+1064 nm. The feedstock material was deposited in layers of uniform 
+thickness through an automated wiper system on a 70 mm diameter 
+platform. The layer thickness was selected to accommodate the largest 
+particle size in the feedstock, which was 70 µm for SLSG44 and 120 µm 
+for SLSG109. The temperature of the platform was maintained at 250 ℃ 
+during the manufacturing process through an integrated heater to 
+Table 1 
+Chemical composition of glass feedstock by weight from electron microscopy 
+for: (a) elements and (b) oxides.  
+(a) Elements % Weight 
+Sample Na Mg Al Si K Ca O Total 
+SLSG109 10.5 2.1 0.3 33.8 0.2 6.5 46.5 100.0 
+SLSSG44 10.2 1.5 0.6 33.7 0.4 7.3 46.4 100.0  
+(b) Oxides % Weight 
+Sample Na Mg Al Si K Ca Total 
+SLSG109 14.2 3.5 0.5 72.4 0.3 9.1 100.0 
+SLSG44 13.7 2.5 1.1 72.1 0.5 10.2 100.0  
+Fig. 1. Particle size distribution and SEM micrographs at 200x magnification 
+for both glass feedstock. 
+0
+50
+100
+150
+200
+250
+123456789 1 0 1 1
+Basic ﬂowability energy, BFE (mJ)
+Itera/g415on number
+SLSG109 SLSG44
+Fig. 2. Basic flowability energy for the selected glass feedstock.  
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+3
+reduce the temperature gradients developed through the thickness of the 
+built part. If oxygen levels increased above the threshold of 0.9%, argon 
+flow at 1000Lt per min ensured inert conditions and prevented oxida-
+tion. A focus position of 9.6 mm was selected in this study. This is the 
+distance between the laser diode and the lens and determines the 
+diameter spot size, which in this case corresponded to 20 µm. 
+Similar compositions for substrate and feedstock material are typi-
+cally selected in LPBF to achieve adhesion and accommodate thermal 
+expansion. However, this study revealed limitations when a 1 mm thick, 
+soda lime silica glass substrate was used over the standard SLM-50 ti-
+tanium platform for the LPBF of glass as etching was observed on the 
+lower surface of the glass substrate (Fig. 3a). 
+The low absorptivity of the glass feedstock and the glass substrate 
+resulted in part of the laser irradiation reaching the surface of the tita-
+nium base plate underneath the glass substrate. Part of this irradiation 
+was subsequently reflected and re-directed to the glass substrate, etching 
+its lower surface (Fig. 3a). Etching could be prevented by fixing the glass 
+substrate to a less reflective base plate e.g. alumina (Fig. 3b). Single 
+layer designs could be successfully created with this set-up (Fig. 4) 
+opening up the potential for glass decoration applications. However, 
+micro-cracks formed on the glass substrate that could propagate and 
+eventually trigger fracture during the laser processing of subsequent 
+layers in multi-layer parts, causing the build to fail. Alumina substrates 
+have higher thermal resistance than glass and similar coefficients of 
+thermal expansion and can therefore minimize thermal cracking whilst 
+providing adequate adhesion to glass. High purity alumina discs with a 
+thickness of 2.5 mm were therefore selected for subsequent investiga-
+tion in this study. 
+3.2. Energy density optimisation 
+Process maps were developed to identify the optimal processing 
+window for both feedstock materials, calculating the deposited energy 
+density as a function of the processing parameters, in a similar manner 
+to the method described in [6]. A 2D approach was used for thin-walled 
+structures where a single linear laser scan was sufficient per layer 
+(Fig. 5a-b), taking into account laser power, P, scan speed, v, and layer 
+thickness, t, (Eq. 1a) while a 3D approach was followed for parts that 
+involved multiple and adjacent laser scans per layer (Fig. 6a-b), taking 
+also into account the hatch spacing, h, (Eq. 1b). 
+ED2D = P/(v∙t)and ED3D = P/(v∙h∙t) (1a-b) 
+It was found that thin walled structures (Fig. 7a) required at least 
+27 J/mm2 and 30 J/mm2 for SLSG44 and SLSG109 respectively to 
+achieve melting and consolidation of the powder (Fig. 5a-b). Energy 
+densities below this limit resulted in poor consolidation (example shown 
+in Fig. 7a). Thick walled structures required energy densities between 
+70≤ ED3D ≤ 120 J/mm3 and 65≤ ED3D ≤ 110 J/mm3 for SLSG44 and 
+SLSG109 respectively (Fig. 6a-b). Energy densities below this range led 
+to poor consolidation and brittle parts, similar to the thin walled 
+structures at low energy, while energy densities exceeding this range led 
+to balling and therefore excessive track height and poor dimensional 
+accuracy for both feedstock (typical examples shown in Fig. 7b). These 
+process maps can be now used for manufacturing parts irrespective of 
+the level of complexity in design; examples are given in Section 4. 
+Very similar processing windows were found for thin and thick- 
+walled parts for both feedstock. The effect of energy density was 
+therefore independent of particle size for feedstock of the same 
+composition. However, layer thickness could be reduced when the finer 
+powder was used, e.g. the minimum permissible layer thickness was 
+70 µm for SLSG44 versus 120 µm for SLSG109, which in turn resulted in 
+higher resolution. Optical microscopy of thin walls (single laser scans 
+repeated per layer, Fig. 7a), confirmed this, revealing that higher reso-
+lution i.e. smaller wall thickness, was obtained for SLSG44 compared to 
+SLSG109 for the same energy density (Fig. 8). The smallest feature 
+achievable for the lowest energy density of the optimal processing 
+window was 575 µm for SLSG109 whilst this diminished to 385 µm for 
+SLSG44. For these reasons, parts manufactured with SLSG44 were only 
+subsequently evaluated in this study. 
+4. Feasibility examples and potential applications 
+The glass parts manufactured with laser powder bed fusion are 
+opaque as shown in Fig. 7. This is attributed to the presence of super-
+ficial, partially fused powder particles and internal defects (discussed in 
+detail in Section 5.2). Even though transparency is desirable, there are 
+applications where the need for geometrical complexity in combination 
+with chemical inertness is more crucial. Such applications can be found 
+in the pharmaceutical and chemical manufacturing industries and 
+include: 
+Fig. 3. Micrographs of the upper and lower surface of single scan tracks (SLSG109, 100 W and 37 mm/s) formed on a soda lime silica glass substrate that is fixed to 
+(a) a titanium platform and (b) an alumina plate. 
+Fig. 4. Example of single layer of laser powder bed fusion of soda lime silica 
+glass on a glass substrate fixed on an alumina plate. 
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+4
+4.1. Continuous flow reactors (CFRs) 
+These typically involve a number of inlets that supply reactants at 
+precise flow rates into a series of channels whose geometry is optimised 
+for mixing and residence time of a particular chemical reaction. 
+LPBF of glass can be used for manufacturing CFRs offering the op-
+portunity of customization in combination with the inertness of glass. 
+These can be manufactured either in the form of a ready-to-use reactor 
+or as individual channels that can be integrated in modular CFR systems 
+in combination with conventional fittings. Examples of flow reactor 
+channels in various geometries are provided as proof of concept in  
+Fig. 9a-c. The partially fused powder particles on the surface of parts, 
+manufactured with LPBF, could potentially provide an additional 
+advantage for better mixing of reactants similar to the use of baffles in 
+conventional CFRs. 
+Fig. 5. Process maps for achieving consolidation in thin walled structures for: (a) SLSG109 and; (b) SLSG44 (green area for consolidated parts and grey area for 
+poorly / unconsolidated parts). 
+Fig. 6. Process maps for achieving consolidation in thick walled structures for: (a) SLSG109 and; (b) SLSG44 (green area for consolidated parts and grey area for 
+poorly / unconsolidated parts or parts with excessive track height /poor accuracy). 
+Fig. 7. LPBF of glass: (a) Thin walled structures showing good consolidation (left) and poor consolidation (right) and; (b) cubic structures showing poor consoli-
+dation (left), good consolidation (middle) and balling (right). 
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+5
+4.2. Monolithic structured catalysts 
+these are found in shapes of grid meshes, micro-channel reactors or 
+even lattices. LPBF of glass provides an opportunity to create complex 
+geometries of high resolution that can be used as structured catalysts, 
+without any pre-requisite for moulds. Customization is a major advan-
+tage of AM as the structured catalyst geometry can be tailor-made to 
+increase the surface area, and be subsequently functionalized with the 
+catalytically active material to suit the varying requirements for 
+different chemical manufacturing processes. Examples of glass geome-
+tries produced through LPBF that can be potentially used as structured 
+catalysts are presented in Fig. 10a-c. The presence of superficial, 
+partially fused powder particles can provide an additional increase to 
+the available surface area and improve the efficiency of the catalyst. 
+LPBF of glass can be a cost-efficient alternative to conventional 
+manufacturing technologies for applications such as the above i.e. 
+highly customized and intended for prototyping or manufacturing in 
+limited production volumes. LPBF can overcome additional costs asso-
+ciated with conventional manufacturing methods such as: (a) the 
+fabrication of moulds in glass casting processes or: (b) the long lead 
+times for subtractive manufacturing processes (micromachining, laser 
+ablation or etching, typically used for CFRs), whilst achieving a faster 
+turnaround. However, and similar to other AM processes [10], the cost 
+advantage of LPBF diminishes compared to conventional casting pro-
+cesses as the production volume increases, because additional costs for 
+mould fabrication can be absorbed in the numerous manufactured parts. 
+Fig. 8. Resolution for thin walled parts as a function of the selected energy 
+density for both feedstock. 
+Fig. 9. Continuous flow reactor channels: (a) linear cylindrical channel (10 mm length and 2 mm internal diameter), (b) angle channel (12.5 mm length/side and 
+3 mm diameter) and (c) U-shaped channel (10 mm length and 2 mm internal diameter). 
+Fig. 10. Structured catalyst examples: (a) grid shaped rectangles (7× 7 × 1 mm3), (b) Gyroid network lattice (20× 20× 20 m3), and (c) diamond network and BCC 
+lattices (10× 10× 10 mm3). 
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+6
+5. Physical and mechanical property evaluation methods 
+This section presents the evaluation methods for determining design 
+limits, porosity, crystallinity and flexural strength in parts manufactured 
+with LPBF of glass. 
+5.1. Geometrical limits 
+LPBF of linear, hollow cylindrical channels similar to channels used 
+in a continuous flow reactor, was undertaken using SLSG-44, for 
+geometrical optimisation (Fig. 9a). This involved investigation of design 
+limits, taking into account wall thickness, internal diameter and channel 
+length for straight channels with circular cross sections. A total of 72 
+combinations of design parameters were considered; designed wall 
+thickness (tw) ranged between 0.2≤ tw ≤ 0.4 mm in increments of 
+0.1 mm while designed internal diameter (Din) and length (L) ranged 
+between 0.5≤ Din ≤ 2.0 mm in increments of 0.3 mm and 5≤ L 
+≤ 14 mm in increments of 3 mm respectively. Optical microscopy was 
+also undertaken to determine the difference between designed and 
+actual geometries. 
+5.2. Defects and porosity 
+The porosity and defects in built parts manufactured with LPBF and 
+SLSG44 were investigated with micro-computed tomography (CT, 
+ZEISS, XRADIA Versa XRM– 500, Germany). In particular two 5×5x5 
+mm3 cubic samples, manufactured using the bounds of the optimal 
+processing window in Fig. 6b (i.e. 79 and 108 J/mm3), were evaluated. 
+X-ray radiation provided cross sectional information on internal features 
+based on the distribution of the X-ray attenuation coefficient. The output 
+was 8-bit grayscale images, whose pixels were characterised by a grey-
+scale intensity factor (between 0 and 255). CT slices were obtained at a 
+resolution of 4 µm through the thickness of the cubic samples. The im-
+ages were subsequently processed through a Java script in the open 
+source software ImageJ [11] to determine their porosity (steps shown in  
+Fig. 11). The first step involved binarisation i.e. pixel conversion to 
+black “0” and white “1” using an image segmentation algorithm that 
+distinguishes pores from the glass structure. Following image segmen-
+tation, ImageJ automatically calculated the porous and total 
+cross-sectional areas. The ratio of the former over the latter provided the 
+sample porosity per slice. 
+A threshold is typically required in image segmentation to classify 
+greyscale pixels in black or white. Multiple thresholding methods are 
+available in literature and they are highly sensitive to the type of 
+application and data [12]. Otsu’s thresholding algorithm [13] was 
+selected in this study as it was found to behave reliably for CT slices of 
+glass beads in [14] and for non-destructive testing images in [12]. 
+Clustering methods separate pixels in foreground and background 
+classes by approximating the histogram with two Gaussian distributions. 
+Otsu’s method [13] defines threshold values by minimizing the 
+within-class variance for foreground and background classes or 
+equivalently by maximizing their between-class variance. Even though 
+locally adaptive thresholding methods exist and can make separate 
+segmentation decisions for each pixel based on its neighbouring pixels 
+increasing its reliability, they are very computationally intensive. 
+Additionally, they often depend on initial thresholding values or require 
+manual supervision from the controller. For these reasons, they were not 
+considered in this study. 
+5.3. Crystallinity 
+The molecular structure of the two cubic samples used above were 
+additionally evaluated with X-ray diffraction (Bruker, D8 ADVANCE, 
+USA) to determine whether the amorphous structure of the glass beads 
+was maintained after laser processing. 
+5.4. Flexural strength 
+Glass is a brittle material lacking the ability to yield and redistribute 
+stress. Therefore, any flaw is a potential stress concentration point that 
+can propagate and lead to fracture when subjected to a certain level of 
+tension. Assessing the flexural or tensile strength of glass consequently 
+becomes critical. Typically, flexural tests are preferred for glass, as they 
+prevent issues of misalignment and failure at the gripping locations that 
+are commonly associated with tensile tests of brittle materials. 
+Three point bending (3PB) tests were therefore used to determine the 
+flexural strength of prismatic specimens in a custom-made, miniature 
+creep rig [15] (Fig. 12a-b). Four series of 24 samples with dimensions of 
+1×2x8 mm3 were manufactured with LPBF and SLSG44 perpendicular 
+to their longest axis (z). Three series involved linear scans along the 
+short axis of the cross section (x) and energy densities of 79, 93 and 
+108 J/mm3 while the fourth involved linear scans along the long axis of 
+the cross section (y) and had an energy density of 108 J/mm3 (Table 4). 
+All samples were annealed for two hours at 560 ℃ (heating and cooling 
+rate of 2 ℃/min) prior to mechanical testing to relieve any residual 
+stress following the recommendation of [16]. The support span of the 
+3PB set-up was 5.35 mm while the strain rate was 0.0005 s-1. The failure 
+stress was subsequently calculated with Eq. 2: 
+σf =(3∙Pf ∙ls)
+/
+(2∙b∙d2) (2)  
+where Pf is the failure load, ls= 5.35 mm, b= 2 mm and d= 1 mm are the 
+support span, the width and the height of the prism respectively. 
+Glass is sensitive to subcritical crack growth when tested in non-inert 
+conditions. Sub-critical crack growth is typically normalised for speci-
+mens failing at different times by converting the failure stress of each 
+specimen to a time-equivalent strength [17]. To achieve this, the ramp 
+stress history of the 3PB test was converted to a constant stress for a 
+reference time period of tref= 60 s using Brown’s integral [18] in Eq. 3. 
+∫ tf
+0
+σn
+f(t)dt=
+∫ tref
+0
+σn
+f,tref dt (3) 
+Fig. 11. Porosity analysis procedure: (a) micro-CT slice of glass cube, (b) background removal, (c) image segmentation and (d) pore extraction.  
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+7
+where tf is the time to failure, σf,60 is the failure stress at the reference 
+time period and n is the static fatigue constant (n= 16 for soda lime 
+silica glass and common laboratory conditions [19]). 
+The results were statistically analysed and fitted to a 2-parameter 
+Weibull distribution (Eq. 4) following the recommendations and pro-
+cedure outlined for weighted least squares regression of glass strength 
+data in [19]. 
+Pf = 1  exp⁡
+(
+ 
+(σf,60
+θ
+)β)
+(4)  
+where Pf is the probability of failure while β and θ are the shape and 
+scale factor of the Weibull distribution respectively. 
+6. Results and discussion 
+6.1. Geometrical limits 
+The minimum permissible design diameter and length were inves-
+tigated with varying wall thickness (Table 2). Design lengths up to 
+14 mm could be achieved without cracking when a design wall thickness 
+of 0.2 mm was used whilst the maximum permissible design length 
+diminished to 8 mm when the design wall thickness increased to 
+0.4 mm. The length limitation in thicker channels was attributed to the 
+larger energy input that was deposited per layer. Larger energy inputs 
+created areas of accumulated heat (observed as bright orange areas 
+during manufacturing), increased temperature gradients in built parts 
+and led to the development of thermal stress and eventually cracking. 
+Channels with thinner walls also permitted smaller internal di-
+ameters to be manufactured; hollow cross sections could be achieved 
+down to internal design diameters of Din = 1.1 mm for a tw = 0.2 mm 
+whilst this increased to Din = 1.7 mm for tw = 0.4 mm. Internal design 
+diameters below this limit resulted in solid instead of hollow cross sec-
+tions. The heat-affected zone led to partial fusion of particles that were 
+located adjacent to its edges, creating differences between design and 
+manufactured dimensions, often inhibiting powder removal and justi-
+fying why solid cross-sections are found when small internal design di-
+ameters were selected. These particles could not be removed without 
+post-processing (e.g. acid etching) and they limited dimensional accu-
+racy. However, in some cases they might be useful in CFR applications as 
+they add turbulence, creating vortices in the flow and improve mixing, 
+similar to the action of baffles in a CFR. 
+Dimensional accuracy was further investigated with optical micro-
+scopy. It was found that the outer diameters, Dout and the wall thick-
+nesses increased while the internal diameters decreased in all channels 
+from design to manufacture. A mean increase of about 200% was found 
+for all wall thicknesses with the actual mean thickness being tw,actual 
+= 620 µm for tw = 200 µm, tw,actual = 979 µm for tw = 300 µm and tw, 
+actual = 1168 µm for tw = 400 µm (Table 3). The mean increase in outer 
+diameter ranged between 17.5% and 19.7% and the mean decrease in 
+internal diameter ranged between 34% and 46%. 
+Despite the significant offset between design and manufactured di-
+mensions, the above differences were quite consistent for all samples. 
+Therefore, they could potentially be taken into account during the 
+design stage of a CFR to predict its actual dimensions or vice versa to 
+Fig. 12. 3-point bending: (a) samples and (b) set-up.  
+Table 2 
+Design limits for flow reactor channels produced with LPBF.  
+Design limits Wall thickness, tw  
+0.2 mm 0.3 mm 0.4 mm 
+Minimum internal design diameter, Din(mm)  1.1  1.7  2.0 
+Maximum length, L (mm)  14  14  8  
+Table 3 
+Dimensional accuracy for wall thickness results.  
+Designed Wall thickness Measured Features Results (μm) % diff 
+tw (μm)  
+200 Max wall thickness tw,max  688.5  244.2 
+Min wall thickness tw,min  533.1  166.6 
+Mean wall thickness tw,mean  619.6  209.8 
+Standard deviation  51.4   
+Coefficient of variation cv %  8.3    
+300 Max wall thickness tw,max  1080.4  260.1 
+Min wall thickness tw,min  901.4  200.5 
+Mean wall thickness tw,mean  978.8  226.3 
+Standard deviation  78.7   
+Coefficient of variation cv %  8.0    
+400 Max wall thickness tw,max  1247.6  211.9 
+Min wall thickness tw,min  1076.8  169.2 
+Mean wall thickness tw,mean  1168.0  192.0 
+Standard deviation  94.2   
+Coefficient of variation cv %  8.1    
+Table 4 
+Porosity of cubic samples produced with LPBF of SLSG44 with the max and min 
+energy densities of the processing window.  
+Energy 
+density 
+Mean 
+porosity 
+Maximum 
+porosity 
+Minimum 
+porosity 
+Standard 
+deviation 
+Coefficient 
+of variation 
+J/mm3 % % %   % 
+79 12.1 23.5 7.4  3.8 31.4 
+108 11.3 15.8 5.5  2.5 22.4  
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+8
+calculate the required design dimensions to achieve the desired manu-
+factured ones. 
+6.2. Defects and porosity 
+Micro-CT revealed three types of defect randomly distributed 
+throughout the sample (Fig. 13a): (a) pores, (b) areas containing un- 
+sintered powder particles and (c) cracks. The pores were fully 
+enclosed and not interconnected, which is advantageous for solid-walled 
+continuous flow reactor applications to ensure leak tightness. Cracks 
+were mostly found near the lower surface of the specimen, i.e. closer to 
+the substrate, and are attributed to the temperature gradients and the 
+thermal stress that were developed during the manufacturing process, 
+also observed in the LPBF of ceramics [20]. Increasing the temperature 
+of the substrate beyond 250 ℃ and just below the transition temperature 
+of the selected glass feedstock, is expected to reduce thermal cracking. 
+Finally, areas containing un-sintered powder particles were mostly 
+found near the top surface of the cubes. Layers further away from the top 
+surface were exposed to a larger number of laser scans since part of the 
+unabsorbed laser irradiation travelled through the glass sample and 
+re-processed previous layers consolidating any powder particles that 
+had been left intact from previous scans. This would indicate that a final 
+surface scan could be used to reduce this defect. 
+Additionally, semi-fused powder particles, also known as “satellites”, 
+that adhere to the surface of the structure, were also noticed. The 
+presence of “satellites” in combination with internal defects are 
+responsible for the opaque appearance of the glass. Again, a final surface 
+scan could potentially be used to change the topology of the surface, 
+however, it should be noted that in some applications, such as chemical 
+reactors, a rough surface can be advantageous in mixing. 
+Analysis of the micro-CT slices with ImageJ revealed a mean porosity 
+of 12% for the 79 J/mm3 sample, which was marginally higher than the 
+11% mean porosity for the 108 J/mm3 sample. However, the porosity 
+fluctuated considerably within the samples (Fig. 13b) due to the random 
+distribution of the flaw, with 31.4% coefficient of variation for the 79 J/ 
+mm3 sample and 22.4% for the 108 J/mm3 sample. The results are 
+summarised in Table 4. 
+6.3. Crystallinity 
+XRD results (Fig. 14) confirmed that no crystallisation was induced/ 
+produced during the LPBF process and that the samples remained 
+completely amorphous for the two bounds of the optimal processing 
+window (79 and 108 J/mm3). 
+6.4. Flexural strength 
+Good fit to the Weibull distribution was observed for all series 
+(Table 5). Very similar values were found for the shape factor of the 
+Weibull distribution that defines the slope of the cumulative distribution 
+function and for strengths at mean (Pf=50%) and design (Pf=0.008, 
+ASTM 1300–16 [21]) levels (Fig. 15a) for series 108x and 108y. This 
+showed that the direction of the laser processing, i.e. scans parallel to the 
+short (x) or the long (y) axis of the rectangular cross section, do not 
+influence the flexural strength. Mean strengths (Pf=50%) also remained 
+similar when different energy densities were used (79x, 93x, 108x) and 
+ranged between 6.23 and 6.90 MPa. However, this did not apply for 
+failure strengths at low probabilities of failure, e.g. the design strength 
+was 1.76 MPa for 108x, followed by 2.96 MPa for 79x and by 3.78 MPa 
+for 92x. The higher coefficient of variation in the 108x series led to a 
+shallower slope in the cumulative distribution function justifying this 
+larger discrepancy in the low probabilities of failure that could arise 
+from different types of origins of failure (e.g. in Fig. 13a). The flexural 
+Fig. 13. Porosity and defects in glass LPBF built parts: (a) CT slice of glass cube containing typical defects (pores, cracks and unfused powder particles) and (b) 
+Fluctuation of porosity through cubic sample as a function of its height. 
+Fig. 14. X-ray diffraction of cubic samples produced with LPBF of SLSG44 with 
+the max and min energy densities of the processing window. 
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+9
+strength of the additively manufactured parts was significantly lower 
+than the strength of float soda lime silica glass (e.g. σf,0.008 =67.44 MPa 
+σf,50 =108.5 MPa for as-received annealed glass [22]). This could be 
+attributed to the high percentage porosity that created stress concen-
+tration points during testing within the built parts and triggered early 
+fracture. 
+7. Conclusions 
+This paper has presented the optimisation of a laser powder bed 
+fusion method for glass, evaluated the mechanical and physical prop-
+erties of the manufactured parts and presented potential applications. 
+Process maps were populated for two soda lime silica glass feedstock 
+materials of different particle size, indicating that the optimal energy 
+density window is independent of particle size when the composition 
+remains largely the same. However, and unsurprisingly, resolution 
+improved when finer feedstock was used as smaller layer thickness could 
+be selected during the manufacturing stage. 
+Geometrical design limits were identified in linear hollow cylindrical 
+channels with different features. Limitations in dimensional accuracy 
+were noted due to partially fused powder particles that adhere to the 
+surface walls. This is a common issue with powder bed fusion and can 
+usually be improved with optimised scan strategies or post-processing 
+techniques [23,24]. Also, the offset between manufactured and design 
+limits can potentially be taken in account during the design stage. 
+Porosity in the built parts marginally exceeded 10% and appeared in the 
+form of fully enclosed pores while the mean flexural strength ranged 
+between 6.2 and 6.9 MPa. 
+Potential uses of this technology were identified in the chemical 
+manufacturing and pharmaceutical industries, in particular in contin-
+uous flow reactor and structure catalysts applications where the chem-
+ical inertness of glass surpasses the need for transparency. The presence 
+of partially fused powder particles on the walls could be beneficial in 
+such applications as they improve mixing of reactants in continuous flow 
+reactors or increase the surface area in structured catalysts. Addition-
+ally, the presence of porosity is not expected to affect their performance 
+as pores were found to be fully enclosed indicating that a leak tight 
+performance is possible for continuous flow reactors. Even though the 
+mean flexural strength of the additively manufactured parts was found 
+to be significantly lower than standard float glass, this is expected to be 
+sufficient for low pressure applications. 
+Further optimisation should be undertaken at a manufacturing level 
+to reduce porosity and improve mechanical properties potentially 
+building on previous research on ceramics [20]. Additionally, the in-
+fluence of processing parameters on the geometrical performance of 
+manufactured parts should be investigated and potentially assessed 
+using geometrical benchmark artifacts [25]. Further testing should be 
+also undertaken at a feasibility level to assess the performance of an 
+additively manufactured structured catalysts and / or continuous flow 
+reactors under real laboratory conditions and for a particular chemical 
+manufacturing process. However, and despite its limitations, this is the 
+first study that actively evaluated the properties of LPBF of glass and 
+proposed potential applications, providing the stepping stone for future 
+optimisation and development of the technology. 
+CRediT authorship contribution statement 
+K.C. Datsiou: Investigation, Writing - original draft. F. Spirrett: 
+Investigation, Writing - review & editing. I. Ashcroft: Conceptualiza-
+tion, Writing - review & editing, Supervision. M. Magallanes: Concep-
+tualization; Writing - review & editing, Funding acquisition. S. Christie: 
+Writing - review & editing, Funding acquisition. R.Goodridge: 
+Conceptualization, Writing - review & editing, Supervision, Funding 
+acquisition. 
+Table 5 
+Weibull statistics for prismatic glass LPBF samples.  
+Series Weibull parameters Fractile values 
+Energy density Hatch direction Shape factor Scale factor Goodness of fit Coef. of variation Design strength Min stress Max stress Mean strength 
+ED  β θ pAD CV σf,0.008 min σf max σf σf,0.50 
+J/mm3 x/y  MPa % % MPa MPa MPa MPa  
+79 x  5.98  6.63  7.20  19.42  2.96  2.71  8.98  6.23  
+93 x  7.43  7.24  15.09  15.90  3.78  2.64  9.08  6.90  
+108 x  3.48  7.02  34.01  31.79  1.76  2.30  9.10  6.32  
+108 y  3.35  7.49  57.32  32.96  1.77  3.90  11.02  6.71  
+Fig. 15. Cumulative distribution functions for glass strength data of prismatic glass LPBF samples manufactured with varying: (a) direction of laser processing and 
+(b) energy density. 
+K.C. Datsiou et al.                                                                                                                                                                                                                              
+Additive Manufacturing 39 (2021) 101880
+10
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+Financial support from Innovate UK (project number 103447) and 
+the Engineering and Physical Sciences Research Council (grant number 
+EP/P027261/1) is gratefully acknowledged. The authors would also like 
+to thank Davide De Focatis for training and allowing access to the 
+miniature creep rig in the Polymer Engineering Research lab for me-
+chanical testing and Mark Hardy for his technical support during 
+experimental parts of this work. 
+References 
+[1] F. Kotz, K. Arnold, W. Bauer, D. Schild, N. Keller, K. Sachsenheimer, T.M. Nargang, 
+C. Richter, D. Helmer, B.E. Rapp, Three-dimensional printing of transparent fused 
+silica glass, Nature vol. 544 (7650) (2017) 337–339. 
+[2] D.T. Nguyen, C. Meyers, T.D. Yee, N.A. Dudukovic, J.F. Destino, C. Zhu, E.B. Duoss, 
+T.F. Baumann, T. Suratwala, J.E. Smay, R. Dylla-Spears, 3D-printed transparent 
+glass, Adv. Mater. 29 (26) (2017) 1–5. 
+[3] J.F. Destino, N.A. Dudukovic, M.A. Johnson, D.T. Nguyen, T.D. Yee, G.C. Egan, A. 
+M. Sawvel, W.A. Steele, T.F. Baumann, E.B. Duoss, T. Suratwala, R. Dylla-Spears, 
+3D printed optical quality silica and silica – titania glasses from sol – gel feedstocks, 
+Adv. Mater. Technol. 3 (1700323) (2018) 1–10. 
+[4] J. Klein, Additive Manufacturing of Optically Transparent Glass (Master’s Thesis), 
+Massachusetts Institute of Technology, USA, 2015. 
+[5] A. Bracha and E. Gal-Or, 3D Printing system for printing high melting temperature 
+materials, WO/2018/163006, 2018. 
+[6] K.C. Datsiou, E. Saleh, F. Spirrett, R. Goodridge, I. Ashcroft, D. Eustice, Additive 
+manufacturing of glass with laser powder bed fusion, J. Am. Ceram. Soc. 102 
+(2019) 4410–4414. 
+[7] M. Fateri, A. Gebhardt, Selective laser melting of soda-lime glass powder, Int. J. 
+Appl. Ceram. Technol. 12 (1) (2015) 53–61. 
+[8] R.D. Goodridge et al., Indirect selective laser sintering of an apatite–mullite 
+glass–ceramic for potential use in bone replacement applications, Proc. IMechE, 
+vol. 220 Part H: J. Engineering in Medicine, 2006. 
+[9] S. Ziegelmeier, P. Christou, F. W¨ollecke, C. Tuck, R. Goodridge, R. Hague, 
+E. Krampe, E. Wintermantel, An experimental study into the effects of bulk and 
+flow behaviour of laser sintering polymer powders on resulting part properties, 
+J. Mater. Process. Technol. 215 (2015) 239–250. 
+[10] E. Atzeni, A. Salmi, Economics of additive manufacturing for end-usable metal 
+parts, Int. J. Adv Manuf. Technol. 62 (2012) 1147–1155. 
+[11] W. Rasband, “ImageJ.” https://imagej.nih.gov/ij, 1997–2018, National Institutes 
+of Health, Bethesda, Maryland, USA. 
+[12] M. Sezgin, B. Sankur, Survey over image thresholding techniques and quantitative 
+performance evaluation, J. Electron. Imaging 13 (1) (2004) 146–168. 
+[13] N. Otsu, A threshold selection method from gray-level histograms, IEEE Trans. 
+Syst. Man Cybern. SMC-9 (1) (1979) 62–66. 
+[14] P. Iassonov, T. Gebrenegus, M. Tuller, Segmentation of X-ray computed 
+tomography images of porous materials: a crucial step for characterization and 
+quantitative analysis of pore structures, Water Resour. Res. 45 (9) (2009) 1–12. 
+[15] D. De Focatis, P. Buckley, Determination of craze initiation stress in very small 
+polymer specimens, Polym. Test. 27 (2008) 136–145. 
+[16] T. El-Sayed, R.J. Hand, Modelling the strengthening of glass using epoxy based 
+coatings, J. Eur. Ceram. Soc. 31 (2011) 2783–2791. 
+[17] M. Haldimann, Fracture strength of structural glass elements - analytical and 
+numerical modelling, testing and design (PhD Thesis), ´Ecole Polytechnique 
+F´ed´erale de Lausanne, Switzerland, 2006. 
+[18] W.G. Brown, A load duration theory for glass design, Ottawa, 1972. 
+[19] K.C. Datsiou, M. Overend, Weibull parameter estimation and goodness-of-fit for 
+glass strength data, Struct. Saf. 73 (2018) 29–41. 
+[20] S.L. Sing, W.Y. Yeong, F.E. Wiria, B.Y. Tay, Z. Zhao, L. Zhao, Z. Tian, S. Yang, 
+Direct selective laser sintering and melting of ceramics: a review, Rapid Prototyp. 
+J. 23 (is. 3) (2017) 611–623. 
+[21] ASTM, “Standard Practice forDetermining Load Resistance of Glass in Buildings. 
+ASTM Standard E1300–16,” ASTM Int., pp. 1–62, 2016. 
+[22] K.C. Datsiou, M. Overend, Artificial ageing of glass with sand abrasion, Constr. 
+Build. Mater. 142 (2017) 536–551. 
+[23] J. Vaithilingam, R.D. Goodridge, R. Hague, S. Christie, S. Edmondson, The effect of 
+laser remelting on the surface chemistry of Ti6al4V components fabricated by 
+selective laser melting, J. Mater. Process Technol. 232 (2016) 1–8. 
+[24] Kruth, J. et al., “Part and material properties in selective laser melting of metals”, 
+16th Int Symposium on Electromachining (ISEM), pp. 1–12, 2010. 
+[25] L. Rebaioli, I. Fassi, A review on benchmark artifacts for evaluating the geometrical 
+performance of additive manufacturing processes, Int J. Adv. Manuf. Technol. 93 
+(2017) 2571–2598. 
+K.C. Datsiou et al.                                                                                                                                                                                                                              

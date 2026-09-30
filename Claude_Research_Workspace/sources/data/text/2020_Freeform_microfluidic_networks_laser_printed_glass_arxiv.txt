@@ -1,0 +1,3791 @@
+1
+ 
+ 
+ 
+Freeform microfluidic networks encapsulated in laser 
+printed three
+-
+dimensional macro
+-
+scale glass objects
+ 
+ 
+Zijie Lin
+1,2
+, Jian Xu
+1,2*
+,
+ 
+Yunpeng Song
+1,2
+, 
+Xiaolong Li
+1,2
+, 
+ 
+Peng Wang
+2
+, Wei 
+Chu
+2
+,
+ 
+Zhenhua Wang
+1,2
+ 
+& Ya Cheng
+1,2,3,4*
+ 
+1
+State Key Laboratory of Precision Spectroscopy, School of Physics and Electronic Science, East 
+China Normal University, Shanghai 200062, China
+ 
+2
+XXL
+—
+The Extreme Optoelectromechanics Laboratory, School of Physics and
+ 
+Electronic Science, 
+East China Normal University, Shanghai 200241, China
+ 
+3
+Collaborative Innovation Center of Extreme Optics, Shanxi University, Taiyuan, Shanxi 030006, 
+China
+ 
+4
+Collaborative Innovation Center of Light Manipulations and Applications, 
+Shandong Normal 
+University, Jinan 250358, China
+ 
+*
+Correspondence 
+and requests for materials 
+should be addressed to J. X. (
+email: 
+jxu@phy.ecnu.edu.cn
+) 
+or Y . C. (
+email: 
+ya.c
+heng@siom.ac.cn
+)
+ 
+ 
+ 
+ 
+2
+ 
+ 
+ 
+Abstract:
+ 
+ 
+Large
+-
+scale microfluidic microsystems with complex three
+-
+dimensional (3D) configurations are 
+highly in demand by both fundamental research and industrial application, holding the potentials for 
+fostering a wide range of inno
+vative applications such as lab
+-
+on
+-
+a
+-
+chip and organ
+-
+on
+-
+a
+-
+chip as well 
+as continuous
+-
+flow manufacturing of fine chemicals. However, freeform fabrication of such systems 
+remains challenging for most of 
+the 
+current fabrication techniques in terms of fabrication resolution, 
+flexibility, and achievable footprint size. Here, we report 
+ultrashort pulse
+ 
+laser microfabrication of 
+freeform microfluidic circuits with high aspect ratios and tunable diameters embedded 
+in 3D printed 
+glass objects. We achieve uniform microfluidic channel diameter by carefully distributing a string of 
+extra access ports along the microfluidic channels for avoiding the over
+-
+etching in the thin 
+microfluidic channels. After the chemical etchi
+ng is completed, the extra access ports are sealed using 
+carbon dioxide laser induced localized glass melting. We demonstrate a model hand of fused silica 
+with a size of 
+~3 cm 
+× 2.7 cm × 1.
+1
+ 
+cm in which the whole blood vessel system is encapsulated.
+ 
+ 
+ 
+ 
+ 
+3
+ 
+ 
+In 
+the 
+past decades, m
+icrofluidic tec
+hnology 
+has emerged as a powerful methodology
+ 
+for
+ 
+applications 
+in many fields such as
+ 
+lab on chips, organs on chips, 
+biopharmaceuticals, and 
+fine 
+chemical industries
+ 
+[1
+-
+6
+]
+.
+ 
+As a core 
+element
+ 
+of microfluidic technology
+,
+ 
+high
+-
+performance
+ 
+fabrication of
+ 
+hollow 
+microchannels with freeform geometries
+ 
+is 
+crucial
+ 
+for 
+further 
+developing 
+innovative 
+microfluidic 
+technology. 
+In particular
+, extension of the
+ 
+microfluidic networks from
+ 
+widely used two
+-
+dimensional 
+(2D) to 
+three
+-
+dimensional (3D) configurations
+ 
+has 
+now 
+been 
+considere
+d as a promising scheme to 
+enhance the performance of
+ 
+manipulation of fluids 
+such as high
+-
+efficiency
+ 
+mixing
+,
+ 
+separation
+ 
+and 
+detection
+ 
+[
+7
+-
+1
+1
+]
+.
+ 
+ 
+Fused silica is one of the widely used substrates for
+ 
+the microfluidic technology in laboratory 
+research and industrial applications due to its high melting point,
+ 
+high
+ 
+chemical stability, low thermal 
+expansion coefficient, wide transmission spectral range, and good biocompatibility. 
+However, 
+fabrication of 
+freeform 
+3D hollow microchannels in fused silica
+ 
+is still difficult 
+for 
+current
+ 
+2D 
+fabrication techniques in terms of 
+complex
+ 
+and tedious
+ 
+fabrication procedures, 
+additional 
+costs 
+for
+ 
+aligning, stacking, and 
+bonding steps
+ 
+[1
+2
+-
+14
+]
+.
+ 
+Currently, one of the most
+ 
+representative
+ 
+3D 
+microfabrication 
+techniques 
+of
+ 
+fused silica is ultrashort pulse laser microfabrication
+ 
+[1
+5
+-
+20
+]
+. 
+A 
+suspended hollow microchannel structure with a 3D controllable configuration can be fabricated in a 
+way of either laser 
+assisted 
+selective 
+wet etching [
+21
+-
+2
+3
+] or liquid
+-
+assisted laser ablation [2
+4
+-
+2
+6
+].
+ 
+In 
+addition, suspended hollow structures with 3D shapes
+ 
+and 
+a high precision in fused silica can be 
+fabricated by combining room
+-
+temperature casting and sacrificial template replication [2
+7
+]. 
+M
+eanwhile,
+ 
+3D printing of
+ 
+glass
+ 
+material
+s 
+emerged in recent years brings 
+some new opportunities for 
+scalable 
+fabrication of 
+freeform 
+glass
+ 
+structures
+ 
+by either additive manufacturing strategies 
+[2
+8
+-
+3
+3
+]
+ 
+or laser subtractive processing methods [3
+4
+-
+3
+6
+].
+ 
+However, 
+controllable formation of freeform hollow 
+4
+ 
+ 
+microchannel with arbitrary length encapsulated in 3D printed glass structures
+ 
+has not yet been 
+demonstrated, which is 
+highly desirable
+ 
+for
+ 
+high
+-
+infidelity manufacturing of artificial organs, on
+-
+chip construction
+ 
+of
+ 
+biomimetic microenvironments
+ 
+[3
+7
+-
+41
+]
+, as well as enrichment of the function
+s 
+of continuous
+-
+flow microreactors 
+(e.g., 
+seamless integration of customized function
+al
+ 
+module for 
+tempe
+rature control and on
+-
+line spectrometer monitoring
+)
+ 
+[
+42
+, 
+4
+3
+]
+. 
+Especially, simultaneous 
+fabrication of 3D embedded 
+hollow 
+micro
+channels 
+with high aspect ratios 
+and 
+centimeter
+-
+scale 
+glass 
+object
+s with 
+external 
+arbitrary shapes 
+still remains challenging for 
+current microfabrication 
+technologies
+ 
+in terms of fabrication resolution, flexibility, and achievable footprint size.
+ 
+For 
+instance, to 
+f
+or
+m 
+encapsulated 
+micro
+channel networks during stereolithography
+ 
+3D printing of 
+glass objects, it is difficult to fully r
+emove the entrapped unexposed material and 
+accurate
+ly control 
+the material’s
+ 
+exposure inside 
+3D
+ 
+microvoids for avoiding unwanted blocking of channels
+.
+ 
+Here
+in
+, we demonstrate fabrication of freeform 3D microfluidic networks encapsulated in 3D 
+printed glass 
+macro
+-
+scale 
+objects using 
+the 
+hybrid laser microfabrication
+ 
+scheme
+, which based on 
+the combination of 
+ultrashort pulse laser assisted chemical etching of glass, 3D 
+laser 
+subtractive 
+glass
+ 
+printing and carbon oxide (CO
+2
+) laser induced glass melting. 
+To fabr
+icate 3D
+ 
+uniform
+ 
+glass
+ 
+microchannels with 
+centimeter
+-
+scale length
+, introduction of
+ 
+a 
+string of 
+extra
+-
+access ports 
+along the 
+microfluidic channel
+s
+ 
+has been
+ 
+adopted
+ 
+for ensuring 
+homogeneous fabrication
+ 
+of the channels 
+during the chemical etching
+ 
+[
+4
+4
+, 
+4
+5
+]
+.
+ 
+Then, controllable 
+sealing of those ports 
+has been
+ 
+achieved 
+using CO
+2 
+laser irradiation 
+in 
+a defocusing manner 
+for all
+-
+glass
+ 
+structure
+ 
+manufacturing
+ 
+[
+4
+6
+-
+4
+8
+].
+ 
+Moreover, 
+3D 
+laser 
+subtractive glass printing 
+enables
+ 
+rapid manufacturing of macro
+-
+scale glass 
+objects with desirable shapes and a high precision
+ 
+down to several tens of microns
+ 
+due to
+ 
+unique 
+polarization
+-
+insensitive and depth
+-
+insensitive processing characteristics
+ 
+of picosecond laser 
+5
+ 
+ 
+irradiation
+ 
+[
+3
+4
+, 4
+9
+]. 
+The proposed
+ 
+approach allows
+ 
+both 
+freeform 
+fabrication of 3D
+ 
+encapsulated
+ 
+microchannels
+ 
+and 3D printable glass
+ 
+structures 
+with 
+arbitrary
+ 
+lengths
+ 
+and
+ 
+flexible configurations, 
+pav
+ing
+ 
+the way for advanced
+ 
+manufacturing of 3D large
+-
+scale all
+-
+glass microfluidic
+ 
+systems. 
+ 
+ 
+Results
+ 
+CO
+2
+ 
+laser d
+efocusing irradiation 
+of 
+extra
+-
+access ports of 
+glass channels
+ 
+To prepare 3D microchannels with arbitrary lengths inside fused silica, the fabrication procedure 
+consists of three main steps as illustrated in Fig.1a. Firstly, 
+micropatterns of 3D microchannels 
+including main channels and a s
+tring
+ 
+of extra
+-
+access ports were drawn inside glass by ultrashort pulse 
+laser direct writing
+ 
+(see Fig. 1b)
+. Secondly, the laser
+-
+irradiated glass samples were immersed in an 
+ultrasonic bath of KOH solution (10 mol/L) at ~85 °C until the modified regions including the 
+micropatterns of microchannels and extra
+-
+access ports were fully removed from glass matrix. Fin
+ally, 
+the chemically etched glass samples were selectively melted for sealing of extra
+-
+access ports using a 
+carbon dioxide laser as illustrated in Fig. 1c. 
+To obtain the microchannel with uniform diameters, 
+i
+ntroduction of 
+a string of 
+extra
+-
+access ports
+ 
+wh
+ich connected to the microchannels
+ 
+is adopted for 
+avoiding the over
+-
+etching in the channels
+ 
+[4
+4
+, 4
+5
+]
+.
+ 
+To seal the extra
+-
+access ports using
+ 
+CO
+2
+ 
+laser 
+irradiation, i
+t is necessary to
+ 
+control 
+the 
+irradiation 
+process
+ 
+to drive 
+the 
+sufficient 
+m
+olten
+ 
+glass 
+around
+ 
+irradiated zones 
+immigrate 
+from the
+ 
+peripheral area
+ 
+to the openings of the ports.
+ 
+Therefore
+,
+ 
+observation and 
+determin
+ation of
+ 
+the dimension
+s
+ 
+of
+ 
+laser
+-
+melted area
+s
+ 
+(laser affected zones)
+ 
+on 
+pristine fused silica surface
+ 
+under different laser powers
+, 
+irradiation durations
+ 
+and defocusing 
+distances
+ 
+(see Supplementary Figure 1)
+ 
+has been performed.
+ 
+W
+ith the increase of laser power from 9 
+W to 30 W, the dimension of the laser
+-
+melted area on glass surface increases in each condition
+ 
+(see 
+6
+ 
+ 
+Supplementary Figure
+ 
+2
+a
+)
+. Moreover, when CO
+2
+ 
+laser irradiation
+ 
+was defocusing 
+from 0 cm (i.e., 
+direct focusing on glass surface) to 5 cm, the dimension of the laser
+-
+melted area on glass surface 
+also 
+increases
+ 
+at the same condition
+. In 
+comparison
+, 
+by 
+prolonging the irradiation
+ 
+duration
+ 
+from 20 s to 
+60 s, the dimension of laser
+-
+melted area slightly increases in each condition. 
+ 
+To evaluate the dimension of a laser
+-
+melted area on glass surface, herein a diameter of 
+a 
+surface crater 
+induced by laser irradiation is defined as a 
+critical parameter
+) (see the inset of 
+Supplementary Figure 2b).
+ 
+W
+ith the increase of laser power, the diameter of the surface crater 
+increases much faster at a 
+defocusing 
+distance 
+of 
+5 cm 
+than that of 0 cm (
+i.e., 
+direct focusing of 
+CO
+2
+ 
+laser beam on glass 
+surface)
+ 
+(see Supplementary Figure 2b)
+. Especially, the 
+average 
+diameter
+ 
+of the generated surface crater
+ 
+under defocusing irradiation of CO
+2
+ 
+laser beam at 5 cm 
+can reach ~1
+426
+ 
+μm when the laser power 
+and irradiation duration are
+ 
+set at 30 W
+ 
+and 60 s, 
+respe
+ctively
+, which 
+is about
+ 
+~
+1.5 times
+ 
+th
+at of 
+direct focusing on glass surface
+ 
+(~931 μm)
+, 
+indicating the defocusing scheme is an effective approach for controlling the melted area of CO
+2
+ 
+laser irradiation on fused silica surface
+. 
+It should be pointed out that
+ 
+although the diameter of 
+the surface crater increase
+s
+ 
+at the same condition 
+using the defocusing 
+scheme, the depth of the 
+surface crater decrease as compared with direct focusing.
+ 
+T
+he
+ 
+average
+ 
+depth
+ 
+of the generated 
+surface crater under defocusing irradiat
+ion of CO
+2
+ 
+laser beam at 5 cm
+ 
+at
+ 
+a laser power of
+ 
+30 W
+ 
+for
+ 
+60 s is about ~17
+50
+ 
+μm, which is only ~0.6
+3
+ 
+times that of
+ 
+direct focusing on glass surface
+ 
+(
+~27
+6
+1
+ 
+μm, 
+see
+ 
+Supplementary Figure 3
+).
+ 
+ 
+To apply CO
+2 
+laser induced localized melting for the sealing of 
+extra
+-
+access ports
+ 
+of 
+microchannels
+, a series of 
+glass 
+microchannels with
+ 
+different diameters of
+ 
+extra
+-
+access ports 
+ranging from 150 μm to 350 μm 
+in fused silica using 
+ultrashort pulse
+ 
+laser assisted chemical etching 
+7
+ 
+ 
+have been prepared.
+ 
+As shown in Fig. 
+2
+a
+, all extra
+-
+access ports can be fully sealed using CO
+2
+ 
+laser 
+defocusing irradiation with the distances of 10 cm and 12.5 cm at a 
+laser 
+power of 33 W and 
+an
+ 
+irradiation duration of 60 s.
+ 
+One can clearly see that surface craters 
+on glass substrates 
+and seali
+ng 
+layers
+ 
+which block the extra
+-
+access ports
+ 
+can simultaneously formed after CO
+2
+ 
+laser 
+induced melting. 
+ 
+To evaluate the 
+performance and robustness of the 
+sealing 
+process
+, the thickness and the depth 
+of the sealing layer are defined as two critical parameters, which are illustrated in the insets of Fig 
+2
+b 
+and Fig.
+ 
+2
+c, respectively. 
+In the case of defocusing distance at 10 cm
+ 
+(the middle panel of Fig.
+ 
+2
+a)
+, 
+the 
+thickness of 
+the sealing layer is almost beyond 200 μm for sealing the ports with the diameters of 
+150 μm, 200 μm and 250 μm. However, with the further increase 
+of 
+the diameter
+ 
+of the port
+ 
+(e.g., 300 
+μm and 350 μm), the thickness of the sealing layer decreases dramatic
+ally. 
+The main reason is that 
+the molten volume of glass induced by CO
+2
+ 
+laser irradiation is limited by laser
+-
+melted area, which is 
+not enough to form
+ 
+a 
+thick sealing layer 
+as 
+the volume of the port increases. 
+T
+o form a thick sealing 
+layer
+ 
+of a port with a large diameter
+, 
+further 
+increas
+e of defocus
+ing
+ 
+distance is a convenient way for 
+the increase of
+ 
+the laser
+-
+melted 
+volume. When the defocusing distance increase to 12.5 cm
+ 
+(see the 
+right panel of Fig 
+2
+a)
+,
+ 
+the thickness of the sealing layer 
+in each condition can be over 300 μm
+, 
+indicating the stability of the sealing process enabled by CO
+2
+ 
+laser defocusing irradiation.
+ 
+Besides the thickness of the sealing layer, the depth of the 
+sealing layer 
+which is cor
+related to 
+the designed depth of the port 
+i
+s
+ 
+also 
+important
+ 
+parameter
+.
+ 
+To minimize dead
+-
+end volumes and 
+improve the performance of glass microchannels with sealed extra
+-
+access ports for microfluidic 
+applications, it is necessary to control the sealing proc
+ess for minimizing the distance between the 
+sealing layer and the microchannel. The depth of the sealing layer is defined as the distance between 
+the top of the sealing layer and the laser
+-
+melted glass surface, which can be controlled by tuning the 
+8
+ 
+ 
+defocus
+ing distance. 
+As presented in Fig. 
+2
+c, the depth of the sealing layer at defocusing distance 
+of 12.5 cm is smaller than that of 10 cm in each condition due to the increase of laser
+-
+induced 
+melted area. Moreover, with the increase of the diameter of the por
+t,
+ 
+the depth of the layer at 10 
+cm increase rapidly. The possible reason is that to fully seal the port with a large diameter, when 
+melted volumes of glass are relatively limited, the 
+availably
+ 
+immigrated molted glass may 
+need
+ 
+to continuously move downward
+s 
+driven by
+ 
+the surface tension until the 
+whole 
+sealing stabilizes, 
+leading 
+to the increase of 
+the
+ 
+depth of 
+the final 
+sealing layer
+.
+ 
+In contrast, 
+the
+ 
+depth of the layer 
+at 12.5 cm is more stable
+ 
+due to
+ 
+its abundant
+ 
+melted are
+a
+.
+ 
+In general, a
+ 
+successful sealing of 
+extra
+-
+access 
+ports has to meet two
+ 
+critical 
+conditions
+. One is
+ 
+that
+ 
+the sealing of 
+the
+ 
+ports 
+with 
+different diameters 
+have to
+ 
+be
+ 
+well
+ 
+controlled
+ 
+by laser processing conditions. Another is that the 
+microchannel 
+should
+ 
+be not interrupted and blocked 
+during 
+the whole sealing process. Therefore, 
+to ensure safe and robust sealing of a microchannel, normally a designed depth of 
+an
+ 
+extra
+-
+access 
+port
+ 
+should
+ 
+be not less than that of the final sealing layer
+ 
+(see 
+Supplementary 
+T
+able
+s 1 and
+ 
+2)
+.
+ 
+ 
+As for the possible mechanism of CO
+2
+ 
+laser induced sealing of the ports, we infer that the 
+sealing 
+processes may consist of
+ 
+several vital stages as follows
+ 
+(see Supplementary Figure 4a)
+. 
+When an extra
+-
+access port is initially illuminated b
+y defocusing CO
+2
+ 
+laser beam, the temperature 
+around the peripheral area of the port rapidly increase due to the effective absorption of laser 
+energy. 
+When 
+the temperature is close to the melting point of the glass matrix, the surface area 
+around the port s
+tarts to become a portion of gathered liquid melts which acts as a flowable 
+media under the continuous 
+laser 
+irradiation. The flow
+able
+ 
+fluid tends to immigrate towards the 
+center of the port driven by the surface tension, resulting in the shrinkage of the 
+port. With the 
+increase of irradiation durations at a certain laser influence, the center of port continuously 
+9
+ 
+ 
+decreases, and finally the port can be blocked with a formation of a sealing layer. After that, the sealed 
+layer tends to be saturated under cont
+inuous in
+-
+situ heating of CO
+2
+ 
+laser beam.
+ 
+M
+eanwhile, the surface 
+crater simultaneously forms on glass surface as the sealing layer forms below the glass surfaces. 
+ 
+To identify aforementioned assumption, the influence of different irradiation durations on the 
+sealing process of the extra
+-
+access ports was performed. 
+W
+ith
+ 
+CO
+2
+ 
+laser irradiation with a defocusing 
+distance of 12.5 cm,
+ 
+the extra
+-
+access ports with diameters 
+of ~300 μm 
+at different irradiation durations 
+exhibit different sealing results
+ 
+(see Supplementary Figure 4
+b
+)
+. For the irradiation time of 5 s, the 
+shape of an extra
+-
+access port was almost no change under the laser irradiation. For the longer 
+irradiation d
+urations ranging from 10 s to 35 s, the shapes of the ports change clearly due to in
+-
+situ 
+melting and immigration of glass around the peripheral areas of ports under 
+CO
+2
+ 
+laser irradiation
+. 
+Moreover, with prolonging the irradiation duration the shape of the
+ 
+ports exhibits a clear tendency of 
+shrinkage towards the central area of the ports driven by the laser actions. For the irradiation time of 
+40 s, the port is nearly blocked except for a small portion of the central part, which to some extent 
+corresponds a
+ 
+near
+-
+critical condition between sealing and unsealing. And the port can be fully sealed 
+for the irradiation time of 45 s. For further prolonging irradiation duration (e.g., 60 s), the sealing 
+process becomes stabilized due to the balance between the surfa
+ce tension and laser induced thermally 
+driven force. In short, the experimental result is
+ 
+consist
+ent
+ 
+with aforementioned 
+explanation
+ 
+of the 
+sealing mechanism as well as the results of Fig. 
+2
+.
+ 
+ 
+Freeform fabrication of
+ 
+3D channels with arbitrary configuratio
+n
+s
+ 
+and length
+s
+ 
+To demonstrate the applicability of th
+e proposed
+ 
+approach
+ 
+for fabrication of 3D microchannels
+ 
+with 
+flexible 
+configurations
+, a helical microchannel with a set of extra
+-
+access ports has been prepared 
+by 
+10
+ 
+ 
+ultrashort pulse laser assisted chemical etching 
+as shown in Fig. 
+3
+a
+. 
+With the introduction of the ports
+ 
+distributed along the helical microchannel
+, the
+ 
+uniformity of the
+ 
+microchannel can be easily identified. 
+By use of 
+CO
+2
+ 
+laser
+ 
+induced melting
+, all the 
+extra
+-
+access ports can be fully sealed
+ 
+(Fig. 
+3
+b)
+, indicating 
+the stability 
+and versatility 
+of 
+the 
+sealing
+ 
+process
+.
+ 
+Further
+,
+ 
+we fabricated two 3D 
+intertwined 
+microchannels 
+with extra
+-
+access ports 
+as shown in 
+the inset of 
+Fig. 
+3
+c
+. After 
+sequenced 
+CO
+2
+ 
+laser 
+irradiation
+ 
+on each extra
+-
+access port
+, 
+all the extra
+-
+access ports can be also fully sealed (Fig. 4d). 
+Further microfluidic 
+experiment
+s 
+of 
+the
+ 
+intertwined
+ 
+microchannels with sealed extra
+-
+access ports 
+confirmed that 
+by
+ 
+filling 
+different color
+ 
+(red and
+ 
+purple)
+ 
+solution
+s
+ 
+in 
+the
+ 
+channels
+ 
+both channels were 
+successfully throughout 
+without 
+any leakage and each 
+channel remains individually isolated
+ 
+without 
+disturbances
+, indicating 
+a
+ 
+high
+-
+precision sealing
+ 
+ability
+ 
+using the proposed
+ 
+approach
+.
+ 
+ 
+Besides the arbitrary configuration, in principle, the fabricated length of the microchannel can 
+be 
+almost 
+unlimited as long as 
+the processing distance of the stage permits. 
+For instance, a 7 cm 
+length straight channel with
+ 
+a 
+set of sealed extra
+-
+access por
+ts can be easily fabricated
+ 
+inside a 
+glass 
+chip
+ 
+(
+see Supplementary Figure 5
+)
+. 
+In addition, 
+this approach can be also used for sealing 
+the
+ 
+spiral
+ 
+microchannel deeply embedded inside glass 
+substrate
+ 
+(see Supplementary Figure 6)
+.
+ 
+ 
+3D laser subtractive 
+printing
+ 
+of scalable glass hands
+ 
+Besides its powerful capability for versatile fabrication of 3D microchannels in glass, ultrashort pulse 
+laser assisted chemical etching can be applied for 3D subtractive printing of macro
+-
+scale glass 
+structures with arbitr
+ary geometries and high precision. 
+As we mentioned before, 3D laser subtractive 
+printing 
+adopted 
+in this work relies on the picosecond laser irradiation. 
+It is well known that when the 
+fused silica is irradiated with focused femtosecond laser beams, space 
+selective chemical etching can 
+11
+ 
+ 
+be achieved
+ 
+[3
+5
+, 
+50
+-
+52
+]
+. The etching rate depends sensitively on the polarization
+ 
+of the laser
+ 
+beam
+. 
+However, 
+by chirping the Fourier
+-
+transform
+-
+limited femtosecond laser pulses to picosecond pulses, 
+the polarization dependence of the etching rate 
+surprisingly 
+disappear
+ed due to the elimination of 
+nanograting structures
+, whereas an efficient etching rate c
+ould
+ 
+stil
+l be maintained
+ 
+[4
+9
+]
+.
+ 
+Such a 
+polarization
+-
+insensitive selective etching behavior in fused silica
+ 
+under
+ 
+picosecond laser irradiation 
+in the regime between 4 ps and 10 ps
+ 
+has 
+a significant implication for applications such as 
+high
+-
+precision
+ 
+and
+ 
+3D 
+isotropic 
+glass printing and 
+large
+-
+scale 
+fabrication of 3D microfluidic systems.
+ 
+In 
+addition,
+ 
+we have found that
+ 
+the depth
+-
+insensitive focusing of picosecond pulses at optimum pulse 
+energy allows the laser structuring can maintain an unchanged feature size from the 
+bottom to the top 
+of the glass without the additional compensation of the aberration originated from the refractive index 
+mismatch between air and glass, enabling laser subtractive printing of centimeter
+-
+scale 3D glass 
+structures at a micro
+-
+scale feature s
+ize in a flexible manner [3
+4
+, 5
+3
+]. With 
+ultrashort pulse
+ 
+laser 3D 
+subtractive printing,
+ 
+3D
+ 
+arbitrary
+ 
+glass object
+s 
+at a centimeter scale 
+can be easily produced.
+ 
+As shown 
+in Fig. 4, t
+he back and the palm of three glass hands with
+ 
+scalable
+ 
+footprint sizes 
+can be fabricated by 
+4 ps laser rapid structuring and selective etching of the 
+reverse mold patterns of the 3D hand
+. 
+ 
+ 
+B
+iomimic 
+f
+abrication of
+ 
+a 
+vascular 
+structure
+ 
+in 
+a 
+3D printed hand
+ 
+To 
+combin
+e 
+both the advantages of 3D 
+fabrication of microfluidic channels and 
+high
+-
+precision 
+printing 
+of 
+glass, 
+a 
+bioinspired blood
+-
+vessel structure
+ 
+encapsulated
+ 
+in
+ 
+a
+ 
+3D printed glass hand has 
+been 
+designed and successfully 
+fabricated. 
+As illustrated in Figs. 
+5
+a and 
+5
+b,
+ 
+a 3D hand model and an
+ 
+embedded micropattern were first
+ 
+individually
+ 
+designed and 
+further fused
+ 
+together
+ 
+for ultrashort pulse 
+laser assisted chemical etching. 
+An embedded micropattern including a microchannel and several tens 
+12
+ 
+ 
+of extra
+-
+access ports was first created inside glass
+ 
+using the ultrashort pulse laser direct writing, and 
+then the surrounding area of the hand model was
+ 
+modified
+ 
+by 
+the same laser beam in a
+ 
+3D
+ 
+programmable manner. After that, the laser
+-
+modified glass sample
+ 
+w
+as 
+chemical etched until all laser
+-
+irradiated 
+regions were
+ 
+fully
+ 
+removed. 
+Figure 
+5
+c presents a
+ 
+fabricated hand model with a whole size 
+of about ~ 3 cm 
+× 2.7 cm × 1.
+1
+ 
+cm
+, in which f
+ingernails
+ 
+and some 
+skin 
+texture 
+pattern
+s on the hand
+ 
+back
+ 
+can be clear 
+distinguished due to the high precision of 3D subtractive printing 
+down to several 
+tens of micrometers 
+enabled by ultrashort pulse laser assisted chemical etching
+ 
+(see 
+Supplementary 
+Figure 7
+)
+. Moreover, the embedded microchannel patterns including open ext
+ra
+-
+access ports and three 
+openings below the hand can be observed. Finally, all extra
+-
+access ports were sealed by CO
+2
+ 
+laser 
+defocusing irradiation to form a 3D close microchannel 
+encapsulat
+ed in the hand model with only 
+three openings as shown in Fig. 
+5
+d. Further microfluidic experiments confirmed that the 
+encapsulated
+ 
+microchannel with sealed extra
+-
+access ports
+ 
+are fully throughout without any leakage (see Fig. 
+5
+e). 
+Especially, the microfluidic circuit can be clearly visualized inside the close
+-
+up image
+ 
+of fingers
+ 
+as 
+indicated by a white arrow in Figure 
+5
+e 
+(see Fig. 
+5
+f)
+. 
+We 
+expect
+ 
+that this approach
+ 
+based on 
+combination of
+ 
+ultrashort pulse laser assisted chemical etching,
+ 
+3D 
+laser
+ 
+subtractive printing and 
+CO
+2
+ 
+laser induced melting 
+f
+or 
+biomimetic
+ 
+fabrication of 
+visible 
+vascular structures in 3D printed glass 
+structures
+ 
+will be beneficial 
+for
+ 
+development of novel lab
+-
+on
+-
+a
+-
+chip and biochip devices to
+ 
+promot
+e
+ 
+the understanding causes of human diseases such as cancers, cardiovascular diseases.
+ 
+ 
+Discus
+sion
+ 
+A 
+simple, 
+robust 
+and 
+reproducible 
+approach based on 
+ultrashort pulse
+ 
+laser assisted chemical etching 
+of glass and 
+CO
+2
+ 
+laser
+ 
+induced localized
+ 
+sealing
+ 
+of glass ports have been proposed for large
+-
+scale 
+13
+ 
+ 
+fabrication of
+ 
+freeform
+ 
+all
+-
+glass
+ 
+microfluidic 
+networks encapsulated in 3D printed macro
+-
+scale 
+objects
+. 
+As compared with 
+conventional fabrication methods, 
+the proposed methods have several 
+distinguished advantages as follow. First, 
+it provides
+ 
+a
+ 
+powerful 
+processing 
+capability for
+ 
+both 
+high
+-
+precision
+ 
+(down to several tens of micr
+ometer
+s)
+ 
+and large
+-
+scale
+ 
+(up to several 
+centimeters)
+ 
+production
+ 
+of 
+freeform suspended 
+glass microchannels
+ 
+in 3D printed glass object
+s
+. 
+B
+oth polarization
+-
+insensitive 
+and depth
+-
+insensitive
+ 
+processing 
+characteristic
+ 
+enabled by picosecond laser structuring
+ 
+provides a 
+unique capability for accomplishment of 
+simultaneous 
+fabrication of 
+embedded f
+reeform microfluidic 
+networks and laser print
+ed 
+macro
+-
+scale 
+glass 
+3D objects 
+at
+ 
+a
+ 
+resolution
+ 
+of several tens of
+ 
+micrometers 
+in
+ 
+simple and flexible manner. 
+The introduction of extra
+-
+access ports 
+improves the 
+performance
+ 
+of 
+selective chemical etching
+ 
+and 
+break the length limits of
+ 
+fabricating
+ 
+3D
+ 
+homogene
+ous channels
+.
+ 
+In 
+turn, t
+he reduction of etching time 
+also enables
+ 
+high
+ 
+precision
+ 
+and 
+high 
+quality of fabrication of glass 
+microchannels.
+ 
+Second, it enables 
+contro
+ll
+able
+ 
+sealing of extra
+-
+access ports
+ 
+for 
+all
+-
+glass 
+microfluidic 
+applications
+. 
+The molten glass 
+can 
+be form
+ed
+ 
+in laser irradiation area due to the h
+igh
+ 
+temperature 
+induced by CO
+2
+ 
+laser heating
+ 
+and 
+then driven by surface tensions to 
+immigrate
+ 
+the ex
+tra
+-
+access ports
+ 
+for formation of closed channels with only few ports
+. The 
+dynamical process of s
+ealing 
+can be well 
+controlled 
+and a processing window for crack
+-
+free and high
+-
+precision sealing can be 
+reliably 
+obtained 
+by adjusting the laser power, irradiation duration, 
+and focusing conditions
+.
+ 
+Last but not least, 
+all
+-
+glass 
+solution
+s of this approach 
+inherently exhibit
+ 
+superior chemical 
+inertness for 
+practical 
+microfluidic 
+appli
+cations
+ 
+of non
+-
+al
+kaline solution
+s
+. As compared with a PDMS sealing method
+ 
+which often 
+are 
+sealed on the surface of chip substrates
+,
+ 
+this approach 
+allows
+ 
+robust formation of
+ 
+a sealing layer with 
+tunable depths 
+and controllable thickness
+, which
+ 
+exhibits superior mechanical strengths for long
+-
+term
+ 
+use in
+ 
+harsh 
+environments
+.
+ 
+It should be noted that both 
+the roughness
+ 
+of 
+the 
+inner walls of 
+14
+ 
+ 
+microchannels and 
+the 
+printed glass surfaces can be further 
+decreased
+ 
+since 
+the ultrashort pulse laser 
+fabricated
+ 
+microchannel 
+after an optimum 
+heat treatment
+ 
+process can be
+ 
+used for 
+optical 
+waveguiding 
+application
+ 
+due to great improvement of surface smoothness (e.g., the total
+ 
+transmission of the hollow 
+waveguide reaches 
+∼
+90%)
+ 
+[44]
+. 
+Moreover, further integration of photonic 
+component
+s such as optical 
+waveguides
+, 
+micro
+gratings 
+and microelectric elements 
+will 
+enrich the functionality of 3D
+ 
+laser
+-
+manufactured 
+microfluidic
+ 
+devices
+ 
+and 
+systems
+ 
+in near future
+.
+ 
+ 
+Methods
+ 
+Preparation of 3D microchannels with arbitrary lengths
+ 
+In all experiments, fused silica glass samples (Corning 7980) with six
+-
+side polished surfaces and 
+different sizes were used as processing substrates. An ultrashort 
+laser system (Light Conversion, 
+Pharos 20 W) with a repetition rate of 250 kHz, a variable pulse duration ranging from 270 fs to 10 
+ps was used as 3D laser modification.
+ 
+T
+he laser beam was focused by an objective lens with a 
+numerical aperture of 0.
+3
+ 
+and a
+ 
+transmission rate of ~50% at 1030 nm
+.
+ 
+To prepare the glass 
+microchannels, the pulse energy and the writing speed were set at ~2.4 μJ and 50 mm/s, respectively. 
+Two pulse durations (270 fs and 4 ps) were chosen in most experiments depending 
+on 
+the specific
+ 
+requirement. For 270 fs, the chemical etching of channel exhibits a polarization
+-
+dependence tendency 
+[
+50
+-
+52
+]. 
+For 4 ps, the etching of channel is polarization
+-
+insensitive with a rapid etching rate as we 
+previously reported [
+4
+9
+]. The fused silica samples w
+ere amounted in a 3D programmable air
+-
+bearing 
+stage (Aerotech, X
+-
+Y
+-
+Z stage) for spatially selective laser modification.
+ 
+A lamp was used to illuminate 
+the glass samples from the bottom and a CCD camera was employed to monitor the whole processing 
+in real ti
+me.
+ 
+After laser direct writing
+, the glass samples were immersed in an ultrasonic bath of KOH 
+15
+ 
+ 
+solution (10 mol/L) at ~85 °C 
+for chemical etching 
+until the modified regions including the 
+micropatterns of microchannels and extra
+-
+access ports were fully remove
+d. Finally, the chemically 
+etched glass samples were selectively melted for sealing of extra
+-
+access ports using a carbon dioxide 
+laser 
+(Synrad, Firestar OEM vi30)
+. The repetition rate of the laser beam was set at 10 kHz. As depicted 
+in the inset of Fig. 1c
+, the openings of extra
+-
+access ports on glass surfaces can be localized melted 
+and blocked by focusing the CO
+2
+ 
+laser beam with a ZnSe lens with a focal length of 200 mm, which 
+leads to form the closed microchannel with only two ports. For defocusing irradi
+ation of the CO
+2
+ 
+laser beam (see 
+Supplementary Figure 
+1), the defocusing distances ranging from 0 cm to 15 cm were 
+controlled by a manual linear stage. 
+ 
+ 
+3D 
+laser 
+subtra
+c
+tive printing
+ 
+for 3D glass hand
+s
+ 
+with an 
+encapsulat
+ed microfluidic circuit
+ 
+For d
+esign 
+and programming of a 3D mode
+l
+, a 
+model pattern of a 3D freeform hand was first 
+constructed and then transformed to the reverse 
+mold
+ 
+patterns
+ 
+of the hand with a format of 
+stereolithography (STL)
+ 
+file using a 
+commercial
+ 
+graphic design software. 
+Furthermore,
+ 
+the STL file 
+of the reverse 
+mold
+ 
+patterns
+ 
+was 
+sliced
+ 
+using a 3D printing software and further converted to a G
+-
+code file for subsequent implementation of laser processing. In addition, command codes of the 
+electronic shutter were incorporated into the 
+afo
+rementioned
+ 
+G
+-
+code file for preciously controlling 
+the ON and OFF state of light beam during laser direct writing. 
+For u
+ltrashort pulse laser direct writing
+, 
+t
+he programmed microfluidic circuit micropatterns were first 
+created
+ 
+by the focused ultrashort pul
+se 
+laser beam in a fused silica glass with size of 4 cm
+ 
+× 4 cm
+ 
+×
+ 
+1.
+2
+ 
+cm for several minutes, and the 
+reverse 
+mold
+ 
+patterns of the 3D hand were 
+written
+ 
+by the same laser for ~20 hours. To 
+create
+ 
+the 
+microfluidic circuit micropatterns including a main microc
+hannel and a set of extra
+-
+access ports (50 
+16
+ 
+ 
+ports) with a certain spacing ranging from 3 to 5 mm, the ultrashort laser direct writing processing 
+parameters were chosen as follows: pulse duration: 4 ps, repetition rate: 250 kHz, central wavelength: 
+1030 nm, 
+writing speed: 40 mm/s, 
+pulse energy
+ 
+before objective lens: 
+4.08
+ 
+μJ
+, numerical 
+aperture
+ 
+of 
+objective lens: 0.3.
+ 
+To write the reverse 
+mold
+ 
+patterns of the 3D hand, the ultrashort laser direct writing processing 
+parameters were chosen as follows: pulse duration: 4 ps, repetition rate: 500 kHz, central wavelength: 
+1030 nm, writing speed: 80 mm/s, 
+pulse energy 
+before objective lens:
+ 
+2.26
+–
+2.96
+ 
+μ
+J
+ 
+(depending
+ 
+on
+ 
+the specific processing depth), numerical 
+aperture
+ 
+of objective lens: 0.3.
+ 
+For s
+elective chemical 
+etching
+, t
+he laser treated glass samples were placed in 
+an
+ 
+ultrasonic bath 
+first with 5% HF solution in 
+room temperature for 8 hours and then 
+w
+i
+t
+h
+ 
+a
+ 
+1
+0
+ 
+m
+o
+l
+/
+L
+ 
+K
+O
+H
+ 
+s
+o
+l
+u
+t
+i
+o
+n
+ 
+a
+t
+ 
+8
+5
+ 
+ 
+℃
+for several tens of 
+hours 
+until the whole modified region 
+was
+ 
+fully removed. To obtain the fully through microfluidic 
+channels and extra
+-
+access ports, the selective chemical etching was taken about several days.
+ 
+For 
+CO
+2
+ 
+laser defocusing irradiation
+, t
+he extra
+-
+access ports were sealed using CO
+2
+ 
+laser irradiation one by one 
+with a defocusing distance of 12.5 cm. The laser power for sealing the ports around the fingers and 
+the back of the hand were set at 30 W and 36 W, res
+pectively.
+ 
+ 
+Characterization
+ 
+The morpholog
+ies
+ 
+of processing glass samples 
+were
+ 
+observed and recorded by an optical microscopy 
+(Olympus, BX53)
+ 
+and a digital camera
+ 
+(Canon, EOS 6D)
+.
+ 
+ 
+References: 
+ 
+[1].
+ 
+Whitesides, 
+G. M.
+ 
+The origins and the future of microfluidics. 
+N
+ature
+ 
+442
+,
+ 
+368
+–
+373 
+(2006).
+ 
+17
+ 
+ 
+[2].
+ 
+El
+-
+Ali, J., Sorger, P. K. & Jensen, K. F. Cells on chips. 
+Nature 
+442
+, 403
+–
+411 (2006).
+ 
+[3].
+ 
+Mark, 
+D.
+ 
+et al.
+ 
+Microfluidic lab
+-
+on
+-
+a
+-
+chip platforms: requirements, characteristics and 
+applications. 
+Chem. Soc. Rev. 
+39
+, 1153
+–
+1182
+ 
+(2010).
+ 
+[4].
+ 
+Yeo, 
+L. Y .
+ 
+et al.
+ 
+Microfluidic devices for bioapplications. 
+Small
+ 
+7
+, 12
+–
+48
+ 
+(2011).
+ 
+[5].
+ 
+Sackmann, 
+E. K.
+,
+ 
+Fulton
+, A. L. &
+ 
+Beebe, 
+D. J. 
+The
+ 
+present and future role of microfluidics in 
+biomedical research. 
+Nature
+ 
+507
+, 181
+–
+189
+ 
+(2014).
+ 
+[6].
+ 
+Dixit, C. K., Kadimisetty, K. & Rusling J. 3D
+-
+printed miniaturized fluidic tools in chemistry and 
+biology.
+ 
+Trends in Analytical Chemistry
+ 
+106
+, 37
+–
+52(2018).
+ 
+[7].
+ 
+Adamo, A. et al. On
+-
+demand continuous
+-
+flow production of pharmaceuticals in a compact, 
+reconfigurable system. 
+Science
+ 
+352
+, 61
+–
+67 (2016).
+ 
+[8].
+ 
+Kim, H. et al. Submillisecond organic synthesis: outpacing Fries rearrangement through 
+microfluidic rapid mixing. 
+Scien
+ce
+ 
+352
+, 691
+–
+694 (2016).
+ 
+[9].
+ 
+Sevim, S. et al. Self
+-
+assembled materials and supramolecular chemistry within microfluidic 
+environments: from common thermodynamic states to non
+-
+equilibrium structures. 
+Chem. Soc. 
+Rev.
+ 
+47
+, 3788
+–
+3803 (2018).
+ 
+[10].
+ 
+Kitson
+, P. J. et al. Digitization of multistep organic synthesis in reactionware for on
+-
+demand 
+pharmaceuticals.
+ 
+Science
+ 
+359
+, 314
+–
+319 (2018).
+ 
+[11].
+ 
+Parra
+-
+Cabrera, C., Achille, C., Kuhn, S. & Ameloot, R. 3D printing in chemical engineering 
+and catalytic technology: stru
+ctured catalysts, mixers and reactors. 
+Chem. Soc. Rev. 
+47
+, 209
+–
+230 
+(2018).
+ 
+[12].
+ 
+Ren, K., Zhou J.
+ 
+&
+ 
+Wu, H.
+ 
+Materials for microfluidic chip fabrication. 
+Acc. Chem. Res. 
+46
+, 
+2396
+–
+2406 (2013).
+ 
+18
+ 
+ 
+[13].
+ 
+Hou, X. et al. Interplay between materials and microfluidics. 
+Nat. Rev. Mater. 
+2
+, 17016 
+(2017).
+ 
+[14].
+ 
+Gal
+-
+Or,
+ 
+E. et al. Chemical analysis using 3D printed glass microfluidics. 
+Anal. Methods
+ 
+11
+, 
+1802
+–
+1810
+ 
+(2019)
+.
+ 
+[15].
+ 
+Cheng, Y . Internal 
+l
+aser 
+w
+riting of 
+h
+igh
+-
+a
+spect
+-
+r
+atio
+ 
+m
+icrofluidic 
+s
+tructures in 
+s
+ilicate 
+g
+lasses 
+for 
+l
+ab
+-
+on
+-
+a
+-
+c
+hip 
+a
+pplications. 
+Micromachines 
+8
+, 59 (2017).
+ 
+[16].
+ 
+Sugioka, 
+K.
+ 
+et al.
+ 
+Femtosecond laser 3D micromachining: a powerful tool for the fabrication 
+of microfluidic, optofluidic, and electrofluidic devices based on glass.
+ 
+Lab Chip 
+14
+, 3447
+–
+3458
+ 
+(2014).
+ 
+[17].
+ 
+He, 
+F. 
+et al.
+ 
+Femtosecond laser fabrication of monolithically integrated microfluidic sensors 
+in glass. 
+Sensors 
+14
+, 19402
+–
+19440
+ 
+(2014).
+ 
+[18].
+ 
+Bellouard, 
+Y . 
+et al.
+ 
+The Femtoprint Project.
+ 
+J. Laser Micro/Nanoeng. 
+7
+, 1
+–
+10
+ 
+(2012).
+ 
+[19].
+ 
+Osellame, 
+R.
+ 
+et al. Femtosecond laser microstruct
+uring: an enabling tool for optofluidic 
+l
+a
+b
+o
+n
+c
+h
+i
+p
+s
+,
+‐
+‐
+ 
+Laser Photon. Rev.
+ 
+5
+, 442
+–
+463
+ 
+(2011).
+ 
+[20].
+ 
+Xu, 
+B. 
+et al.
+ 
+Fabrication and multifunction integration of microfluidic chips by femtosecond 
+laser direct writing. 
+Lab Chip
+ 
+13
+, 1677
+–
+1690
+ 
+(2013).
+ 
+[21].
+ 
+Marcinkevičius, 
+A.
+ 
+et al. 
+Femtosecond laser
+-
+assisted three
+-
+dimensional microfabrication in 
+silica
+.
+ 
+Opt. Lett.
+ 
+26
+, 
+277
+–
+279
+ 
+(2001)
+.
+ 
+[22].
+ 
+Cheng, Y . et al. Three
+-
+dimensional micro
+-
+optical components embedded in photosensitive 
+glass by a femtosecond laser. 
+Opt. Lett.
+ 
+28
+, 1144
+-
+1146 
+(2003)
+.
+ 
+[23].
+ 
+Kiyama, 
+S. 
+et al.
+ 
+Examination of etching agent and
+ 
+etching mechanism on 
+femtosecond
+ 
+laser 
+microfabrication of channels inside vitreous silica substrates,
+ 
+J. Phys. Chem. C
+ 
+113
+, 11560
+–
+19
+ 
+ 
+11566 (2009).
+ 
+[24].
+ 
+Li, 
+Y . 
+et al. 
+Three
+-
+dimensional hole drilling of silica glass from the rear surface with 
+femtosecond laser pulses. 
+Opt. Lett.
+ 
+26
+, 1912
+–
+1914 (2001).
+ 
+[25].
+ 
+Hwang, 
+D. J.
+,
+ 
+Choi,
+ 
+T. Y .
+ 
+&
+ 
+Grigoropoulos, 
+C. P. 
+Liquid
+-
+assisted femtosecond laser drilling 
+of straight and 
+three
+-
+dimensional microchannels in glass.
+ 
+Appl. Phys. A
+ 
+79
+, 605
+–
+612 (2004).
+ 
+[26].
+ 
+Liao, Y . et al. Three
+-
+dimensional microfluidic channel with arbitrary length and 
+configuration fabricated inside glass by femtosecond laser direct writing. 
+Opt. Lett. 
+35
+, 3225
+–
+3227
+ 
+(2010).
+ 
+[27].
+ 
+Kotz, F. et al. Fabrication of arbitrary three
+-
+dimensional suspended hollow microstructures 
+in transparent fused silica glass. 
+Nat. Commun.
+ 
+10
+, 1439 (2019).
+ 
+[28].
+ 
+Kotz F. et al. Three
+-
+dimensional printing of transparent fused silica glass. 
+Nature
+ 
+544
+, 
+337
+–
+339 (2017).
+ 
+[29].
+ 
+N
+g
+u
+y
+e
+n
+,
+ 
+D
+.
+ 
+T
+.
+ 
+e
+t
+ 
+a
+l
+.
+ 
+3
+D
+p
+r
+i
+n
+t
+e
+d
+ 
+t
+r
+a
+n
+s
+p
+a
+r
+e
+n
+t
+ 
+g
+l
+a
+s
+s
+.
+ 
+‐
+Adv. Mater. 
+29
+, 1701181 (2017).
+ 
+[30].
+ 
+Destino, J. F. et al. 3D printed optical quality silica and silica
+–
+titania glasses from sol
+–
+gel 
+feedstocks.
+ 
+Adv. Mater. Technol.
+ 
+3
+, 1700323 (2018).
+ 
+[31].
+ 
+Cooperste
+in, I. et al. Additive manufacturing of transparent silica glass from solutions.
+ 
+ACS 
+Appl. Mater. Interfaces 
+10
+, 18879
+–
+18885 (2018).
+ 
+[32].
+ 
+P
+u
+t
+z
+,
+ 
+F
+.
+ 
+e
+t
+ 
+a
+l
+.
+ 
+3
+D
+ 
+p
+r
+i
+n
+t
+i
+n
+g
+ 
+o
+f
+ 
+h
+i
+e
+r
+a
+r
+c
+h
+i
+c
+a
+l
+ 
+p
+o
+r
+o
+u
+s
+ 
+s
+i
+l
+i
+c
+a
+ 
+a
+n
+d
+ 
+α
+q
+u
+a
+r
+t
+z
+.
+ 
+‐
+Adv. Mater. Technol.
+ 
+3
+, 1800060 (2018).
+ 
+[33].
+ 
+Sochol, R. 
+D. et al. 3D printed microfluidics and microelectronics. 
+Microelectronic 
+Engineering
+ 
+189
+, 52
+–
+68 (2018).
+ 
+[34].
+ 
+Wang, P. et al. Three
+-
+dimensional laser printing of macro
+-
+scale glass objects at a micro
+-
+scale 
+20
+ 
+ 
+resolution. 
+Micromachines
+ 
+10
+, 565 (2019).
+ 
+[35].
+ 
+Gottmann, J. et
+ 
+al. Selective laser
+-
+induced etching of 3D precision quartz glass components 
+for microfluidic applications
+-
+up
+-
+scaling of complexity and speed. 
+Micromachines
+ 
+8
+, 110 (2017).
+ 
+[36].
+ 
+Jonušauskas, L. et al. Femtosecond laser
+-
+assisted etching: making arbitrary shaped 3
+D glass 
+micro
+-
+structures. 
+Proc. SPIE
+ 
+10520
+, 105201G (2018).
+ 
+[37].
+ 
+Gladman, A. S. et al. Biomimetic 4D printing. 
+Nat. Mater. 
+15
+, 413
+–
+418 (2016).
+ 
+[38].
+ 
+Yu, F
+.
+ 
+& Choudhury, D. Microfluidic bioprinting for organ
+-
+on
+-
+a
+-
+chip models. 
+Drug 
+Discovery Today
+ 
+24
+, 1248
+–
+1257 (2019).
+ 
+[39].
+ 
+Hu, C. et al. Microfluidic technologies for vasculature biomimicry.
+ 
+Analyst 
+144
+, 4461
+–
+4471 
+(2019).
+ 
+[40].
+ 
+Zheng, Y . et al. In vitro microvessels for the study of angiogenesis and thrombosis. 
+Proc. 
+Natl Acad. Sci. USA
+ 
+109
+, 9342
+–
+9347 (2012).
+ 
+[41].
+ 
+Alimperti
+, S. et al. Three
+-
+dimensional biomimetic vascular model reveals a RhoA, Rac1, and
+ 
+N
+-
+cadherin balance in mural cell
+–
+endothelial cell
+-
+regulated barrier function. 
+Proc. Natl Acad. 
+Sci. USA 
+114
+, 8758
+–
+8763 (2017).
+ 
+[42].
+ 
+Britton, J. & Jamison, T. F. The assembly and u
+se of continuous flow systems for chemical 
+synthesis. 
+Nat. Protocols 
+12
+, 2423
+–
+2446 (2017).
+ 
+[43].
+ 
+Bédard, A.
+-
+C. et al. Reconfigurable system for automated optimization of diverse chemical 
+reactions. 
+Science
+ 
+361
+, 1220
+–
+1225 (2018).
+ 
+[44].
+ 
+He, F., Lin, J. & Cheng, Y . Fabri
+cation of hollow optical waveguides in fused silica by three
+-
+dimensional femtosecond laser micromachining.
+ 
+Appl. Phys. B 
+105
+, 379
+–
+384 (2011).
+ 
+[45].
+ 
+Ho, S., Herman, P. R. & Aitchison, J. S. Single
+-
+ 
+and multi
+-
+scan femtosecond laser writing 
+21
+ 
+ 
+for selective chemical e
+tching of cross section patternable glass micro
+-
+channels. 
+Applied Physics 
+A 
+106
+, 5
+–
+13 (2012).
+ 
+[46].
+ 
+Lin, J. et al. On
+-
+chip three
+-
+dimensional high
+-
+Q microcavities fabricated by femtosecond 
+laser direct writing. 
+Opt. Express
+ 
+20
+, 10212
+–
+10217 (2012).
+ 
+[47].
+ 
+Drs,
+ 
+J.,
+ 
+Kishi,
+ 
+T. &
+ 
+Bellouard, 
+Y . 
+Laser
+-
+assisted morphing of complex 
+three
+-
+dimensional
+ 
+objects
+.
+ 
+Opt
+.
+ 
+Express
+ 
+23
+, 17355
+–
+17366 (2015).
+ 
+[48].
+ 
+Serhatlioglu,
+ 
+M. et al. 
+CO
+2
+ 
+laser polishing of microfluidic channels fabricated by 
+femtosecond laser assisted carving
+. 
+J. Micromech. Micr
+oeng.
+ 
+26
+, 115011 (2016).
+ 
+[49].
+ 
+Li, 
+X. et al. 
+Polarization
+-
+insensitive space
+-
+selective etching in fused silica induced by 
+picosecond laser irradiation
+. 
+Appl. Surf. Sci.
+ 
+485
+, 188
+–
+193 (2019).
+ 
+[50].
+ 
+Hnatovsky
+, C. et al. Polarization
+-
+selective etching in femtosecond laser
+-
+assisted microfluidic 
+channel fabrication in fused silica. 
+Opt. Lett.
+ 
+30
+, 1867
+–
+1869 (2005).
+ 
+[51].
+ 
+Yu, X. et al. Tuning etch selectivity of fused silica irradiated by femtosecond laser pulses by 
+cont
+rolling polarization of the writing pulses
+. J. Appl. Phys. 
+109
+, 053114 (2011).
+ 
+[52].
+ 
+LoTurco, S. et al. Hybrid chemical etching of femtosecond laser irradiated structures for 
+engineered microfluidic devices. 
+J. Micromech. Microeng.
+ 
+23
+, 085002 (2013).
+ 
+[53].
+ 
+Wang, P. et al. Aberration
+-
+insensitive three
+-
+dimensional micromachining in glass with 
+spatiotemporally shaped femtosecond laser pulses. 
+Opt. Lett.
+ 
+43
+, 3485
+–
+3488 (2018).
+ 
+ 
+Acknowledgments
+ 
+This work has been funded by the 
+Key Project of Science and Technology
+ 
+Commission of Shanghai 
+Municipality (Grant
+ 
+18DZ1112700)
+. 
+ 
+22
+ 
+ 
+ 
+Author contributions
+ 
+Y
+.
+ 
+C
+.
+ 
+conceived the concept.
+ 
+J. X.
+ 
+and Y . C. 
+designed
+ 
+and supervised 
+the experiments.
+ 
+Z. L.
+,
+ 
+J. X.,
+ 
+and 
+Y . S. 
+performed the experiments.
+ 
+Z. L., J. X. and 
+Y . C.
+ 
+analyzed and 
+processed the data.
+ 
+X. L. and 
+Z. W. 
+contributed to
+ 
+laser assisted chemical etching
+ 
+of glass
+ 
+and CO
+2
+ 
+laser processing
+. 
+P. W. and W. 
+C. contributed 
+to 
+electronic control on laser subtractive printing. 
+J. X.
+, 
+Z. L. 
+and
+ 
+Y . C. 
+wrote the paper. 
+ 
+ 
+Competing 
+interests
+ 
+The authors declare no competing interests.
+ 
+ 
+23
+ 
+ 
+ 
+Figure 1. 
+Schematic of 
+fabrication 
+procedure for 3D microchannel with
+ 
+arbitrary
+ 
+length
+ 
+based on 
+hybrid laser microfabrication
+, which consists of three main steps: 
+Ultrashort pulse
+ 
+laser direct writing 
+of patterns including microchannels and extra
+-
+access ports
+ 
+in fused silica
+, selective chemical etching
+ 
+of glass
+, and CO
+2
+ 
+laser induced melting
+ 
+for sealing of the extra
+-
+access ports. 
+Schematic
+s
+ 
+of
+ 
+experimental setup
+s
+ 
+for (
+b
+) 3D process
+ing of 
+ultrashort pulse 
+laser modified patterns of microchannels 
+with extra
+-
+access ports in fused silica glass and (
+c
+) localized sealing of extra
+-
+access ports of fabricated 
+glass 
+channels using CO
+2 
+laser induced melting. Inset in (
+c
+) indicates that the 
+extra
+-
+access ports can 
+be sealed by CO
+2 
+laser 
+in sequence 
+to form 
+a
+ 
+closed microchannel with only two ports.
+ 
+ 
+ 
+
+24
+ 
+ 
+ 
+ 
+Figure 
+2
+.
+ 
+(a) Side
+-
+view optical micrographs of fabricated extra
+-
+access ports
+ 
+with different diameters
+ 
+ranging from 150 
+μm
+ 
+and 350 
+μm
+ 
+before
+ 
+and 
+after 
+CO
+2
+ 
+laser irradiation with 
+defocusing distances of 
+10 and 12.5 cm.
+ 
+Average 
+power and irradiation
+ 
+duration
+ 
+of the
+ 
+CO
+2
+ 
+laser
+ 
+beam 
+wer
+e set at 33 W and 
+60 s, respectively. 
+Scale bar: 500 μm. (b) 
+Thickness and (c) depth of the sealing layer versus
+ 
+diameter 
+of the extra
+-
+access port at 
+defocusing distances of 10 and 12.5 cm.
+ 
+ 
+ 
+
+25
+ 
+ 
+ 
+Figure
+ 
+3
+.
+ 
+Optical micrographs of a 3D helical microchannel with a set of extra
+-
+access ports (a) before 
+and (b) after CO
+2
+ 
+laser irradiation. Side
+-
+view optical micrographs of two 3D space
+-
+cross isolated 
+microchannels with extra
+-
+access ports (c) before and (d) after CO
+2
+ 
+laser irradiation. Inset
+s
+ 
+in (c) and 
+(d) show
+ 
+3D schematic
+s
+ 
+of the microchannels before and after sealing, respectively. (e) Side
+-
+view 
+optical micrographs of 3D space
+-
+cross isolated microchannels with sealed extra
+-
+access ports. Both 
+the channels have been filled two different color solutions
+ 
+(red and purple)
+. Inse
+t in (e) shows 3D 
+schematic of the sealed microchannels filled with t
+he 
+solutions. (f) is a close
+-
+up image of (e).
+ 
+
+26
+ 
+ 
+ 
+Figure 
+4
+.
+ 
+Ultrashort pulse laser subtractive printing of 3D glass hands with different sizes. Top
+-
+view 
+photos of (a) the back and (b) the palm of three glass hands with 
+scalabl
+e footprint sizes
+ 
+(
+l
+eft: 
+~1 cm 
+× 
+1.2 cm
+ 
+× 
+0.4 cm, m
+iddle:
+ 
+~0.5 cm 
+× 
+0.6 cm
+ 
+× 
+0.2 cm, r
+igh
+t: 
+~0.25 cm 
+× 
+0.3 cm
+ 
+× 
+0.1 cm
+)
+. Scale 
+bar in (a
+-
+b): 1 cm. (c) Titled
+-
+view photo of the glass hands. 
+Laser p
+ulse duration was 4 ps.
+ 
+ 
+
+27
+ 
+ 
+ 
+Figure
+ 
+5
+. 
+Schematic
+s
+ 
+of
+ 
+(a) 
+a 
+3D hand model and (b) 
+an embedded microchannel pattern
+ 
+for
+ 
+ultrashort 
+pulse laser assisted chemical etching
+. 
+Picture
+s
+ 
+of 
+3D printed bioinspired glass hand with 
+encapsulated
+ 
+channels and extra
+-
+access ports 
+(c) 
+before and (d) after 
+CO
+2
+ 
+laser 
+sealing. (e) 3D microfluidic 
+demonstration of the hand based on combination of 3D glass subtractive printing and hybrid laser 
+microfabrication. (f) Close
+-
+up image of a part of 
+the 
+hand as indicated by a white arrow in (e). 
+ 

@@ -1,0 +1,940 @@
+{
+ "id": "https://openalex.org/W7154829886",
+ "doi": "https://doi.org/10.1016/j.addma.2026.105214",
+ "title": "Towards gradient multimaterial toolpath generation for direct ink writing with connected fermat spirals",
+ "display_name": "Towards gradient multimaterial toolpath generation for direct ink writing with connected fermat spirals",
+ "publication_year": 2026,
+ "publication_date": "2026-04-18",
+ "ids": {
+  "openalex": "https://openalex.org/W7154829886",
+  "doi": "https://doi.org/10.1016/j.addma.2026.105214"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.addma.2026.105214",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.addma.2026.105214",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764842179",
+   "display_name": "Additive manufacturing",
+   "issn_l": "2214-7810",
+   "issn": [
+    "2214-7810",
+    "2214-8604"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5133944049",
+    "display_name": "M.R. Sage",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "M.R. Sage",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5031784508",
+    "display_name": "Rodrigo Telles",
+    "orcid": "https://orcid.org/0000-0001-5785-6289",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5785-6289"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "R. Telles",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133944973",
+    "display_name": "H.R. Galvan",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "H.R. Galvan",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133924817",
+    "display_name": "N.A. Dudukovic",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "N.A. Dudukovic",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133939783",
+    "display_name": "A.E. Gongora",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "A.E. Gongora",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133964079",
+    "display_name": "C.C. Cook",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "C.C. Cook",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133958471",
+    "display_name": "V.S. Vuppuluri",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "V.S. Vuppuluri",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133922733",
+    "display_name": "A.M. Golobic",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "A.M. Golobic",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5133937761",
+    "display_name": "B.L. Walton",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "B.L. Walton",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5133934719",
+    "display_name": "D.T. Nguyen",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "D.T. Nguyen",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, California, United States of America",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5133944049"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I1282311441"
+ ],
+ "apc_list": {
+  "value": 4430,
+  "currency": "USD",
+  "value_usd": 4430
+ },
+ "apc_paid": null,
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": {
+  "value": 0.30939441,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": "123",
+  "issue": null,
+  "first_page": "105214",
+  "last_page": "105214"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10481",
+  "display_name": "Computer Graphics and Visualization Techniques",
+  "score": 0.414000004529953,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1704",
+   "display_name": "Computer Graphics and Computer-Aided Design"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.414000004529953,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.06279999762773514,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10789",
+   "display_name": "Interactive and Immersive Displays",
+   "score": 0.05620000138878822,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1709",
+    "display_name": "Human-Computer Interaction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/parsing",
+   "display_name": "Parsing",
+   "score": 0.5364000201225281
+  },
+  {
+   "id": "https://openalex.org/keywords/inkwell",
+   "display_name": "Inkwell",
+   "score": 0.5016000270843506
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.4489000141620636
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.4350999891757965
+  },
+  {
+   "id": "https://openalex.org/keywords/curvature",
+   "display_name": "Curvature",
+   "score": 0.43479999899864197
+  },
+  {
+   "id": "https://openalex.org/keywords/lapping",
+   "display_name": "Lapping",
+   "score": 0.4287000000476837
+  },
+  {
+   "id": "https://openalex.org/keywords/machining",
+   "display_name": "Machining",
+   "score": 0.42640000581741333
+  },
+  {
+   "id": "https://openalex.org/keywords/coupling",
+   "display_name": "Coupling (piping)",
+   "score": 0.4242999851703644
+  },
+  {
+   "id": "https://openalex.org/keywords/numerical-control",
+   "display_name": "Numerical control",
+   "score": 0.42289999127388
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C199639397",
+   "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+   "display_name": "Engineering drawing",
+   "level": 1,
+   "score": 0.59170001745224
+  },
+  {
+   "id": "https://openalex.org/C186644900",
+   "wikidata": "https://www.wikidata.org/wiki/Q194152",
+   "display_name": "Parsing",
+   "level": 2,
+   "score": 0.5364000201225281
+  },
+  {
+   "id": "https://openalex.org/C109693293",
+   "wikidata": "https://www.wikidata.org/wiki/Q1496072",
+   "display_name": "Inkwell",
+   "level": 2,
+   "score": 0.5016000270843506
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.4756999909877777
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.46070000529289246
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.4489000141620636
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.4350999891757965
+  },
+  {
+   "id": "https://openalex.org/C195065555",
+   "wikidata": "https://www.wikidata.org/wiki/Q214881",
+   "display_name": "Curvature",
+   "level": 2,
+   "score": 0.43479999899864197
+  },
+  {
+   "id": "https://openalex.org/C109880203",
+   "wikidata": "https://www.wikidata.org/wiki/Q1505601",
+   "display_name": "Lapping",
+   "level": 2,
+   "score": 0.4287000000476837
+  },
+  {
+   "id": "https://openalex.org/C523214423",
+   "wikidata": "https://www.wikidata.org/wiki/Q192047",
+   "display_name": "Machining",
+   "level": 2,
+   "score": 0.42640000581741333
+  },
+  {
+   "id": "https://openalex.org/C131584629",
+   "wikidata": "https://www.wikidata.org/wiki/Q4308705",
+   "display_name": "Coupling (piping)",
+   "level": 2,
+   "score": 0.4242999851703644
+  },
+  {
+   "id": "https://openalex.org/C175457265",
+   "wikidata": "https://www.wikidata.org/wiki/Q190247",
+   "display_name": "Numerical control",
+   "level": 3,
+   "score": 0.42289999127388
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.3758000135421753
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.36079999804496765
+  },
+  {
+   "id": "https://openalex.org/C2780023022",
+   "wikidata": "https://www.wikidata.org/wiki/Q1338171",
+   "display_name": "Compensation (psychology)",
+   "level": 2,
+   "score": 0.34599998593330383
+  },
+  {
+   "id": "https://openalex.org/C18762648",
+   "wikidata": "https://www.wikidata.org/wiki/Q42213",
+   "display_name": "Work (physics)",
+   "level": 2,
+   "score": 0.3296000063419342
+  },
+  {
+   "id": "https://openalex.org/C129782007",
+   "wikidata": "https://www.wikidata.org/wiki/Q162886",
+   "display_name": "Euclidean geometry",
+   "level": 2,
+   "score": 0.32910001277923584
+  },
+  {
+   "id": "https://openalex.org/C2780383046",
+   "wikidata": "https://www.wikidata.org/wiki/Q1760958",
+   "display_name": "Cutting tool",
+   "level": 2,
+   "score": 0.32440000772476196
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.3075999915599823
+  },
+  {
+   "id": "https://openalex.org/C2777904410",
+   "wikidata": "https://www.wikidata.org/wiki/Q7397",
+   "display_name": "Software",
+   "level": 2,
+   "score": 0.29109999537467957
+  },
+  {
+   "id": "https://openalex.org/C2775936607",
+   "wikidata": "https://www.wikidata.org/wiki/Q466845",
+   "display_name": "Tracking (education)",
+   "level": 2,
+   "score": 0.2847999930381775
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.28450000286102295
+  },
+  {
+   "id": "https://openalex.org/C119823426",
+   "wikidata": "https://www.wikidata.org/wiki/Q184793",
+   "display_name": "Computer Aided Design",
+   "level": 2,
+   "score": 0.27570000290870667
+  },
+  {
+   "id": "https://openalex.org/C2779567845",
+   "wikidata": "https://www.wikidata.org/wiki/Q3492725",
+   "display_name": "Caustic (mathematics)",
+   "level": 2,
+   "score": 0.2754000127315521
+  },
+  {
+   "id": "https://openalex.org/C11665553",
+   "wikidata": "https://www.wikidata.org/wiki/Q1136069",
+   "display_name": "Radius of curvature",
+   "level": 5,
+   "score": 0.27129998803138733
+  },
+  {
+   "id": "https://openalex.org/C2778134712",
+   "wikidata": "https://www.wikidata.org/wiki/Q1047307",
+   "display_name": "Bundle",
+   "level": 2,
+   "score": 0.2639000117778778
+  },
+  {
+   "id": "https://openalex.org/C185798385",
+   "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+   "display_name": "Benchmark (surveying)",
+   "level": 2,
+   "score": 0.2540000081062317
+  },
+  {
+   "id": "https://openalex.org/C204223013",
+   "wikidata": "https://www.wikidata.org/wiki/Q133036",
+   "display_name": "Lithography",
+   "level": 2,
+   "score": 0.2531999945640564
+  },
+  {
+   "id": "https://openalex.org/C204323151",
+   "wikidata": "https://www.wikidata.org/wiki/Q905424",
+   "display_name": "Range (aeronautics)",
+   "level": 2,
+   "score": 0.25119999051094055
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.addma.2026.105214",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.addma.2026.105214",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764842179",
+    "display_name": "Additive manufacturing",
+    "issn_l": "2214-7810",
+    "issn": [
+     "2214-7810",
+     "2214-8604"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Additive Manufacturing",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 0.6184287667274475,
+   "id": "https://metadata.un.org/sdg/4",
+   "display_name": "Quality Education"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306084",
+   "display_name": "U.S. Department of Energy",
+   "ror": "https://ror.org/01bj3aw27"
+  },
+  {
+   "id": "https://openalex.org/F4320338286",
+   "display_name": "Lawrence Livermore National Laboratory",
+   "ror": "https://ror.org/041nk4h53"
+  }
+ ],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 28,
+ "referenced_works": [
+  "https://openalex.org/W2143765114",
+  "https://openalex.org/W2204074755",
+  "https://openalex.org/W2318214112",
+  "https://openalex.org/W2340802051",
+  "https://openalex.org/W2565037204",
+  "https://openalex.org/W2900429435",
+  "https://openalex.org/W2915339125",
+  "https://openalex.org/W2969922827",
+  "https://openalex.org/W2983785405",
+  "https://openalex.org/W2984784701",
+  "https://openalex.org/W3010487032",
+  "https://openalex.org/W3018097622",
+  "https://openalex.org/W3093106248",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3150475876",
+  "https://openalex.org/W3173789974",
+  "https://openalex.org/W3197685335",
+  "https://openalex.org/W4221007810",
+  "https://openalex.org/W4221095855",
+  "https://openalex.org/W4282975176",
+  "https://openalex.org/W4296970827",
+  "https://openalex.org/W4317242244",
+  "https://openalex.org/W4323636746",
+  "https://openalex.org/W4393928353",
+  "https://openalex.org/W4396851814",
+  "https://openalex.org/W4399373824",
+  "https://openalex.org/W4406039516",
+  "https://openalex.org/W4406618087"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": null,
+ "counts_by_year": [],
+ "updated_date": "2026-08-21T09:56:20.448147",
+ "created_date": "2026-04-19T00:00:00"
+}

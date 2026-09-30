@@ -1,0 +1,1168 @@
+{
+ "id": "https://openalex.org/W4318241910",
+ "doi": "https://doi.org/10.1145/3544548.3581024",
+ "title": "AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy",
+ "display_name": "AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy",
+ "publication_year": 2023,
+ "publication_date": "2023-04-19",
+ "ids": {
+  "openalex": "https://openalex.org/W4318241910",
+  "doi": "https://doi.org/10.1145/3544548.3581024"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/3544548.3581024",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1145/3544548.3581024",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3544548.3581024",
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "arxiv",
+  "crossref",
+  "datacite"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3544548.3581024",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5036060690",
+    "display_name": "Zehua Ma",
+    "orcid": "https://orcid.org/0000-0002-8153-341X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8153-341X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zehua Ma",
+   "raw_affiliation_strings": [
+    "CAS Key Laboratory of Electromagnetic Space Information, University of Science and Technology of China, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-8153-341X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "CAS Key Laboratory of Electromagnetic Space Information, University of Science and Technology of China, China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5025286392",
+    "display_name": "Hang Zhou",
+    "orcid": "https://orcid.org/0000-0001-7860-8452",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7860-8452",
+     "https://orcid.org/0009-0008-4257-667X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I18014758",
+     "display_name": "Simon Fraser University",
+     "ror": "https://ror.org/0213rcc28",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I18014758"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hang Zhou",
+   "raw_affiliation_strings": [
+    "GrUVi, Simon Fraser University, Canada"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-7860-8452",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "GrUVi, Simon Fraser University, Canada",
+     "institution_ids": [
+      "https://openalex.org/I18014758"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5067689180",
+    "display_name": "Weiming Zhang",
+    "orcid": "https://orcid.org/0000-0001-5576-6108",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5576-6108",
+     "https://orcid.org/0000-0002-1440-4757"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Weiming Zhang",
+   "raw_affiliation_strings": [
+    "CAS Key Laboratory of Electromagnetic Space Information, University of Science and Technology of China, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5576-6108",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "CAS Key Laboratory of Electromagnetic Space Information, University of Science and Technology of China, China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 2.308,
+ "has_fulltext": true,
+ "cited_by_count": 6,
+ "citation_normalized_percentile": {
+  "value": 0.90984004,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 97
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "1",
+  "last_page": "15"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11408",
+  "display_name": "Advanced Optical Imaging Technologies",
+  "score": 0.9954000115394592,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2214",
+   "display_name": "Media Technology"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11408",
+   "display_name": "Advanced Optical Imaging Technologies",
+   "score": 0.9954000115394592,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2214",
+    "display_name": "Media Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.9930999875068665,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9891999959945679,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.7164646983146667
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.6473994851112366
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.622706949710846
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printer",
+   "display_name": "3d printer",
+   "score": 0.538305401802063
+  },
+  {
+   "id": "https://openalex.org/keywords/usability",
+   "display_name": "Usability",
+   "score": 0.5336093902587891
+  },
+  {
+   "id": "https://openalex.org/keywords/reflection",
+   "display_name": "Reflection (computer programming)",
+   "score": 0.531373918056488
+  },
+  {
+   "id": "https://openalex.org/keywords/reliability",
+   "display_name": "Reliability (semiconductor)",
+   "score": 0.45134657621383667
+  },
+  {
+   "id": "https://openalex.org/keywords/polygon-mesh",
+   "display_name": "Polygon mesh",
+   "score": 0.4433758854866028
+  },
+  {
+   "id": "https://openalex.org/keywords/encode",
+   "display_name": "ENCODE",
+   "score": 0.4227466583251953
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-graphics",
+   "display_name": "Computer graphics (images)",
+   "score": 0.33996477723121643
+  },
+  {
+   "id": "https://openalex.org/keywords/artificial-intelligence",
+   "display_name": "Artificial intelligence",
+   "score": 0.3348884582519531
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-vision",
+   "display_name": "Computer vision",
+   "score": 0.33042222261428833
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-hardware",
+   "display_name": "Computer hardware",
+   "score": 0.32934707403182983
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.2889541983604431
+  },
+  {
+   "id": "https://openalex.org/keywords/human\u2013computer-interaction",
+   "display_name": "Human\u2013computer interaction",
+   "score": 0.22923344373703003
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.133864164352417
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.09540003538131714
+  },
+  {
+   "id": "https://openalex.org/keywords/power",
+   "display_name": "Power (physics)",
+   "score": 0.09213683009147644
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.7164646983146667
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.6473994851112366
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.622706949710846
+  },
+  {
+   "id": "https://openalex.org/C2984377249",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printer",
+   "level": 2,
+   "score": 0.538305401802063
+  },
+  {
+   "id": "https://openalex.org/C170130773",
+   "wikidata": "https://www.wikidata.org/wiki/Q216378",
+   "display_name": "Usability",
+   "level": 2,
+   "score": 0.5336093902587891
+  },
+  {
+   "id": "https://openalex.org/C65682993",
+   "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+   "display_name": "Reflection (computer programming)",
+   "level": 2,
+   "score": 0.531373918056488
+  },
+  {
+   "id": "https://openalex.org/C43214815",
+   "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+   "display_name": "Reliability (semiconductor)",
+   "level": 3,
+   "score": 0.45134657621383667
+  },
+  {
+   "id": "https://openalex.org/C31487907",
+   "wikidata": "https://www.wikidata.org/wiki/Q1154597",
+   "display_name": "Polygon mesh",
+   "level": 2,
+   "score": 0.4433758854866028
+  },
+  {
+   "id": "https://openalex.org/C66746571",
+   "wikidata": "https://www.wikidata.org/wiki/Q1134833",
+   "display_name": "ENCODE",
+   "level": 3,
+   "score": 0.4227466583251953
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.33996477723121643
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.3348884582519531
+  },
+  {
+   "id": "https://openalex.org/C31972630",
+   "wikidata": "https://www.wikidata.org/wiki/Q844240",
+   "display_name": "Computer vision",
+   "level": 1,
+   "score": 0.33042222261428833
+  },
+  {
+   "id": "https://openalex.org/C9390403",
+   "wikidata": "https://www.wikidata.org/wiki/Q3966",
+   "display_name": "Computer hardware",
+   "level": 1,
+   "score": 0.32934707403182983
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.2889541983604431
+  },
+  {
+   "id": "https://openalex.org/C107457646",
+   "wikidata": "https://www.wikidata.org/wiki/Q207434",
+   "display_name": "Human\u2013computer interaction",
+   "level": 1,
+   "score": 0.22923344373703003
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.133864164352417
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.09540003538131714
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.09213683009147644
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C199360897",
+   "wikidata": "https://www.wikidata.org/wiki/Q9143",
+   "display_name": "Programming language",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C136229726",
+   "wikidata": "https://www.wikidata.org/wiki/Q327092",
+   "display_name": "Biomedical engineering",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C104317684",
+   "wikidata": "https://www.wikidata.org/wiki/Q7187",
+   "display_name": "Gene",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C55493867",
+   "wikidata": "https://www.wikidata.org/wiki/Q7094",
+   "display_name": "Biochemistry",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1145/3544548.3581024",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1145/3544548.3581024",
+   "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3544548.3581024",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+   "raw_type": "proceedings-article"
+  },
+  {
+   "id": "pmh:oai:arXiv.org:2301.10599",
+   "is_oa": true,
+   "landing_page_url": "http://arxiv.org/abs/2301.10599",
+   "pdf_url": "https://arxiv.org/pdf/2301.10599",
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "text"
+  },
+  {
+   "id": "doi:10.48550/arxiv.2301.10599",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.48550/arxiv.2301.10599",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": null,
+   "raw_type": "article-journal"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1145/3544548.3581024",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1145/3544548.3581024",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3544548.3581024",
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+  "raw_type": "proceedings-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "score": 0.5,
+   "display_name": "Decent work and economic growth",
+   "id": "https://metadata.un.org/sdg/8"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G175089312",
+   "display_name": null,
+   "funder_award_id": "U20B2047",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  },
+  {
+   "id": "https://openalex.org/G3828173677",
+   "display_name": null,
+   "funder_award_id": "62121002",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  },
+  {
+   "id": "https://openalex.org/G3986437333",
+   "display_name": null,
+   "funder_award_id": "62002334",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  },
+  {
+   "id": "https://openalex.org/G4278025092",
+   "display_name": null,
+   "funder_award_id": "62072421",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  },
+  {
+   "id": "https://openalex.org/G4838404910",
+   "display_name": null,
+   "funder_award_id": "62102386",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321001",
+   "display_name": "National Natural Science Foundation of China",
+   "ror": "https://ror.org/01h0zpd94"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4318241910.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4318241910.grobid-xml"
+ },
+ "referenced_works_count": 31,
+ "referenced_works": [
+  "https://openalex.org/W1608389454",
+  "https://openalex.org/W2015196405",
+  "https://openalex.org/W2027064609",
+  "https://openalex.org/W2039471590",
+  "https://openalex.org/W2073278071",
+  "https://openalex.org/W2086486009",
+  "https://openalex.org/W2118841697",
+  "https://openalex.org/W2129751850",
+  "https://openalex.org/W2139923216",
+  "https://openalex.org/W2141819573",
+  "https://openalex.org/W2148982014",
+  "https://openalex.org/W2151049637",
+  "https://openalex.org/W2460832736",
+  "https://openalex.org/W2685305207",
+  "https://openalex.org/W2737470120",
+  "https://openalex.org/W2739069594",
+  "https://openalex.org/W2751491728",
+  "https://openalex.org/W2801502251",
+  "https://openalex.org/W2846490342",
+  "https://openalex.org/W2895136685",
+  "https://openalex.org/W2912602872",
+  "https://openalex.org/W2945562851",
+  "https://openalex.org/W2959832233",
+  "https://openalex.org/W2973220749",
+  "https://openalex.org/W2996865646",
+  "https://openalex.org/W3005279352",
+  "https://openalex.org/W3044464679",
+  "https://openalex.org/W3106143313",
+  "https://openalex.org/W3210035348",
+  "https://openalex.org/W4221047484",
+  "https://openalex.org/W4292571069"
+ ],
+ "related_works": [
+  "https://openalex.org/W2612816639",
+  "https://openalex.org/W3195226931",
+  "https://openalex.org/W3163235717",
+  "https://openalex.org/W2416401092",
+  "https://openalex.org/W3161686680",
+  "https://openalex.org/W1955801659",
+  "https://openalex.org/W3036311796",
+  "https://openalex.org/W4367665844",
+  "https://openalex.org/W2793811969",
+  "https://openalex.org/W3131618301"
+ ],
+ "abstract_inverted_index": {
+  "In": [
+   0
+  ],
+  "the": [
+   1,
+   5,
+   13,
+   16,
+   42,
+   65,
+   103,
+   135
+  ],
+  "past": [
+   2
+  ],
+  "few": [
+   3
+  ],
+  "years,": [
+   4
+  ],
+  "widespread": [
+   6
+  ],
+  "use": [
+   7
+  ],
+  "of": [
+   8,
+   15,
+   18,
+   31,
+   45,
+   68
+  ],
+  "3D": [
+   9,
+   19,
+   37,
+   69,
+   151
+  ],
+  "printing": [
+   10,
+   156
+  ],
+  "technology": [
+   11
+  ],
+  "enables": [
+   12
+  ],
+  "growth": [
+   14
+  ],
+  "market": [
+   17
+  ],
+  "printed": [
+   20,
+   38,
+   70
+  ],
+  "products.": [
+   21,
+   39
+  ],
+  "On": [
+   22,
+   97
+  ],
+  "Esty,": [
+   23
+  ],
+  "a": [
+   24,
+   57,
+   89,
+   126
+  ],
+  "website": [
+   25
+  ],
+  "focused": [
+   26
+  ],
+  "on": [
+   27,
+   50,
+   64,
+   73,
+   122
+  ],
+  "handmade": [
+   28
+  ],
+  "items,": [
+   29
+  ],
+  "hundreds": [
+   30
+  ],
+  "individual": [
+   32,
+   95
+  ],
+  "entrepreneurs": [
+   33
+  ],
+  "are": [
+   34,
+   100
+  ],
+  "selling": [
+   35
+  ],
+  "their": [
+   36,
+   144
+  ],
+  "Inspired": [
+   40
+  ],
+  "by": [
+   41,
+   102,
+   118
+  ],
+  "positive": [
+   43
+  ],
+  "effects": [
+   44
+  ],
+  "machine-readable": [
+   46
+  ],
+  "tags,": [
+   47
+  ],
+  "like": [
+   48
+  ],
+  "barcodes,": [
+   49
+  ],
+  "daily": [
+   51
+  ],
+  "product": [
+   52
+  ],
+  "marketing,": [
+   53
+  ],
+  "we": [
+   54,
+   124
+  ],
+  "propose": [
+   55
+  ],
+  "AnisoTag,": [
+   56,
+   98
+  ],
+  "novel": [
+   58
+  ],
+  "tagging": [
+   59,
+   92
+  ],
+  "method": [
+   60
+  ],
+  "to": [
+   61,
+   88,
+   133,
+   143
+  ],
+  "encode": [
+   62
+  ],
+  "data": [
+   63,
+   99,
+   141
+  ],
+  "2D": [
+   66
+  ],
+  "surface": [
+   67
+  ],
+  "objects": [
+   71
+  ],
+  "based": [
+   72
+  ],
+  "reflection": [
+   74
+  ],
+  "anisotropy.": [
+   75
+  ],
+  "AnisoTag": [
+   76,
+   148
+  ],
+  "has": [
+   77
+  ],
+  "an": [
+   78
+  ],
+  "unobtrusive": [
+   79
+  ],
+  "appearance": [
+   80
+  ],
+  "and": [
+   81,
+   139,
+   155,
+   163
+  ],
+  "much": [
+   82
+  ],
+  "lower": [
+   83
+  ],
+  "extraction": [
+   84
+  ],
+  "computational": [
+   85
+  ],
+  "complexity,": [
+   86
+  ],
+  "contributing": [
+   87
+  ],
+  "lightweight": [
+   90
+  ],
+  "low-cost": [
+   91
+  ],
+  "system": [
+   93
+  ],
+  "for": [
+   94,
+   165
+  ],
+  "entrepreneurs.": [
+   96
+  ],
+  "encoded": [
+   101
+  ],
+  "proposed": [
+   104
+  ],
+  "tool": [
+   105
+  ],
+  "as": [
+   106
+  ],
+  "reflective": [
+   107
+  ],
+  "anisotropic": [
+   108
+  ],
+  "microstructures,": [
+   109
+  ],
+  "which": [
+   110
+  ],
+  "would": [
+   111
+  ],
+  "reflect": [
+   112
+  ],
+  "distinct": [
+   113
+  ],
+  "illumination": [
+   114,
+   137
+  ],
+  "patterns": [
+   115
+  ],
+  "when": [
+   116
+  ],
+  "irradiating": [
+   117
+  ],
+  "collimated": [
+   119
+  ],
+  "laser.": [
+   120
+  ],
+  "Based": [
+   121
+  ],
+  "it,": [
+   123
+  ],
+  "implement": [
+   125
+  ],
+  "real-time": [
+   127
+  ],
+  "detection": [
+   128
+  ],
+  "prototype": [
+   129
+  ],
+  "with": [
+   130,
+   149
+  ],
+  "inexpensive": [
+   131
+  ],
+  "hardware": [
+   132
+  ],
+  "determine": [
+   134
+  ],
+  "reflected": [
+   136
+  ],
+  "pattern": [
+   138
+  ],
+  "decode": [
+   140
+  ],
+  "according": [
+   142
+  ],
+  "mapping.": [
+   145
+  ],
+  "We": [
+   146
+  ],
+  "evaluate": [
+   147
+  ],
+  "various": [
+   150
+  ],
+  "printer": [
+   152
+  ],
+  "brands,": [
+   153
+  ],
+  "filaments,": [
+   154
+  ],
+  "parameters,": [
+   157
+  ],
+  "demonstrating": [
+   158
+  ],
+  "its": [
+   159
+  ],
+  "superior": [
+   160
+  ],
+  "usability,": [
+   161
+  ],
+  "accessibility,": [
+   162
+  ],
+  "reliability": [
+   164
+  ],
+  "practical": [
+   166
+  ],
+  "usage.": [
+   167
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-29T14:09:16.559479",
+ "created_date": "2025-10-10T00:00:00"
+}

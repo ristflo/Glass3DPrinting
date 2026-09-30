@@ -1,0 +1,62 @@
+[
+  {
+    "id": "photo_original",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+    "http_status": 403,
+    "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+    "bytes": 126,
+    "content_type": "text/plain",
+    "page_title": null
+  },
+  {
+    "id": "memphis",
+    "url": "https://www.memphis.edu/physics/demonstrations/polariscope.php",
+    "http_status": 200,
+    "final_url": "https://www.memphis.edu/physics/demonstrations/polariscope.php",
+    "bytes": 29561,
+    "content_type": "text/html; charset=UTF-8",
+    "page_title": "Polariscope - Department of Physics and Materials Science",
+    "media": [
+      {
+        "src": "https://www.googletagmanager.com/ns.html?id=GTM-5SX55NQ",
+        "height": "0",
+        "width": "0",
+        "style": "display:none;visibility:hidden"
+      },
+      {
+        "title": "video player",
+        "src": "https://www.youtube.com/embed/IefRrdTmlbA?list=PLb7426YqxcGCeYrnK3xnjpcdFX5dDra65&index=5",
+        "width": "560",
+        "height": "314",
+        "allowfullscreen": "allowfullscreen"
+      }
+    ]
+  },
+  {
+    "id": "mit1",
+    "url": "https://vimeo.com/136764796",
+    "http_status": 200,
+    "final_url": "https://vimeo.com/136764796",
+    "bytes": 8061,
+    "content_type": "text/html;charset=UTF-8",
+    "page_title": null
+  },
+  {
+    "id": "mit2",
+    "url": "https://vimeo.com/211778198",
+    "http_status": 200,
+    "final_url": "https://vimeo.com/211778198",
+    "bytes": 8061,
+    "content_type": "text/html;charset=UTF-8",
+    "page_title": null
+  },
+  {
+    "id": "maple",
+    "url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "http_status": 200,
+    "final_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "bytes": 1280531,
+    "content_type": "text/html; charset=utf-8",
+    "page_title": "3D Glass Printing | Inside Maple Glass Printing - YouTube"
+  }
+]

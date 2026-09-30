@@ -1,0 +1,69 @@
+PAGE 1
+BOROFLOAT® 33 – Thermal Properties
+The sum of its properties is what makes it unique.
+BOROFLOAT® 33 from Germany is the world’ s first floated borosilicate flat glass. It combines superior quality and excellent flatness 
+with outstanding thermal, optical, chemical and mechanical features. The chemical composition and physical values of  
+BOROFLOAT® 33 are in accordance with DIN ISO 3585 and DIN EN 1748 T1. Rediscover BOROFLOAT® 33 and experience the  
+infinite potential of our most versatile material platform. BOROFLOAT® – Inspiration through Quality.
+Further data and information available on request.
+All values listed on the data sheet are not guaranteed reference values.
+Key benefits:
+Outstanding thermal resistance
+• Very good temperature stability
+• Excellent resistance to thermal shock
+• Can be thermally toughened
+• Can be thermally shaped (3D)
+Thermally resistant oven door made with BOROFLOAT® 33.
+SCHOTT Technical Glass Solutions GmbH
+Otto-Schott-Strasse 13
+07745 Jena
+Germany
+Telefon +49 (0) 3641/681-46 86
+Telefax +49 (0)  36 41 /28 88-92 41 
+info.borofloat@schott.com
+Thermal properties 
+Specific heat capacity cp (20 –100 °C) 0.83 kJ/(kg·K)
+Thermal conductivity λ (90 °C) 1.2 W/(m·K)
+Transformation temperature Tg* (according to ISO 7884) 525 °C
+* Equivalent term: glass transition temperature.
+Coefficient of Linear Thermal Expansion (CTE)
+Soda-lime glass
+CTE(20–300 °C)  = 9.06 x 10-6 K-1*
+CTE(20–300 °C)  = 3.25 x 10-6 K-1*
+Temperature T [°C]
+-200          -100             0              100             200            300            400            500Δ l/l 
+BOROFLOAT® 33
+The CTE of BOROFLOAT® 33 is 3 times lower than the CTE of Soda-lime glass.
+* According to ISO 7991.
+Maximum Operating Temperature 
+For short-term usage (< 10 h)                                                          500 °C
+For long-term usage  (≥ 10 h) 450 °C
+Viscosity of BOROFLOAT® 33
+Soda-lime glass
+Softening point (107.6 dPas)
+Working Point (104 dPas) 
+Strain Point (1014.5 dPas)
+Annealing Point (1013 dPas) 560 °C
+820 °C
+1270 °C
+518 °C
+Temperature T [°C]
+400      500      600      700      800      900      1000    1100    1200    1300    1400
+Viscosity log ɳ (dPas)
+BOROFLOAT® 33
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0

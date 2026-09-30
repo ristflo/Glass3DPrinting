@@ -1,0 +1,425 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ],
+    "date-time": "2026-04-03T17:44:31Z",
+    "timestamp": 1775238271786,
+    "version": "3.50.1"
+  },
+  "reference-count": 26,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            3
+          ]
+        ],
+        "date-time": "2026-04-03T00:00:00Z",
+        "timestamp": 1775174400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            3
+          ]
+        ],
+        "date-time": "2026-04-03T00:00:00Z",
+        "timestamp": 1775174400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "npj Adv. Manuf."
+  ],
+  "DOI": "10.1038/s44334-026-00072-1",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ],
+    "date-time": "2026-04-03T16:46:18Z",
+    "timestamp": 1775234778000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "The effect of toolpath design on the mechanical strength of additively manufactured glass components"
+  ],
+  "prefix": "10.1038",
+  "volume": "3",
+  "author": [
+    {
+      "given": "Philipp Amir",
+      "family": "Chhadeh",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Emanuel",
+      "family": "Nowak",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Dylan",
+      "family": "Vlahopoulos",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Matthias",
+      "family": "Seel",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Nick",
+      "family": "Birbilis",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "72_CR1",
+      "doi-asserted-by": "publisher",
+      "unstructured": "EN 572-1:2016-06. Glass in building - basic soda-lime silicate glass products–part 1: definitions and general physical and mechanical properties. https://doi.org/10.31030/2412853.",
+      "DOI": "10.31030/2412853"
+    },
+    {
+      "key": "72_CR2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Fateri, M., Gebhardt, A., Thuemmler, S. & Thurn, L. Experimental investigation on selective laser melting of glass. Phys. Procedia 56, 357–364 (2014).",
+      "DOI": "10.1016/j.phpro.2014.08.118"
+    },
+    {
+      "key": "72_CR3",
+      "unstructured": "Luo, J., Pan, H. & Kinzel, E. C. Additive manufacturing of glass. Appl. Sci. 136, 061024. https://asmedigitalcollection.asme.org/manufacturingscience/article/doi/10.1115/1.4028531/377638/Additive-Manufacturing-of-Glass."
+    },
+    {
+      "key": "72_CR4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Brun, P.-T. et al. The molten glass sewing machine 375, 20160156https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0156 (2017).",
+      "DOI": "10.1098/rsta.2016.0156"
+    },
+    {
+      "key": "72_CR5",
+      "unstructured": "Inamura, C. Towards a new transparency: high fidelity additive manufacturing of transparent glass structures across scales (Massachusetts Institute of Technology, 2017)."
+    },
+    {
+      "key": "72_CR6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Klein, J. et al. Additive manufacturing of optically transparent glass. Add. Manuf. 2, 92–105 (2015).",
+      "DOI": "10.1089/3dp.2015.0021"
+    },
+    {
+      "key": "72_CR7",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Cooperstein, I., Shukrun, E., Press, O., Kamyshny, A. & Magdassi, S. Additive manufacturing of transparent silica glass from solutions. ACS Appl. Mater. Interface 10, 18879–18885 https://doi.org/10.1021/acsami.8b03766 (2018).",
+      "DOI": "10.1021/acsami.8b03766"
+    },
+    {
+      "key": "72_CR8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kotz, F. et al. Glassomer-processing fused silica glass like a polymer. Adv. Mater. 30, 1707100 (2018). MAG ID: 2795372384.",
+      "DOI": "10.1002/adma.201707100"
+    },
+    {
+      "key": "72_CR9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu, C., Qian, B., Ni, R., Liu, X. & Qiu, J. 3D printing of multicolor luminescent glass. RSC Adv. 8, 31564–31567 http://xlink.rsc.org/?DOI=C8RA06706F (2018).",
+      "DOI": "10.1039/C8RA06706F"
+    },
+    {
+      "key": "72_CR10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Fröhlich, F., Hildebrand, J. & Bergmann, J. P.Additive manufacturing with borosilicate glass and soda-lime glass.In da Silva, L. F. M., Martins, P. A. F. & Reisgen, U. (eds.) 2nd International Conference on Advanced Joining Processes (AJP 2021), Proceedings in Engineering Mechanics, 151–164 (Springer International Publishing, 2022).",
+      "DOI": "10.1007/978-3-030-95463-5_10"
+    },
+    {
+      "key": "72_CR11",
+      "unstructured": "Hostetler, J. M., Goldstein, J. T., Bristow, D. A., Landers, R. G. & Kinzel, E. C. Fiber-fed laser-heated process for printing transparent glass from single mode optical fiber. SPIE 10523, 1052307 (2018)."
+    },
+    {
+      "key": "72_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Luo, J. et al. Additive manufacturing of transparent soda-lime glass using a filament-fed process. J. Manuf. Sci. Eng. 139, 061006 (2017).",
+      "DOI": "10.1115/1.4035182"
+    },
+    {
+      "key": "72_CR13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "von Witzendorff, P. et al. Additive manufacturing of glass: CO2-laser glass deposition printing. Procedia CIRP 74, 272–275 (2018).",
+      "DOI": "10.1016/j.procir.2018.08.109"
+    },
+    {
+      "key": "72_CR14",
+      "unstructured": "Pan, X. et al. 3D printing bullseye glass preform for fibre drawing. Add. Manuf. 79, 103899 (2022)."
+    },
+    {
+      "key": "72_CR15",
+      "unstructured": "Seel, M. et al. Additive manufacturing of glass components - exploring the potential of glass connections by fused deposition modeling 381–388.https://proceedings.challengingglass.com/index.php/cgc/article/view/130. Artwork Size: 381-388 (Challenging Glass Conference Proceedings, 2019)."
+    },
+    {
+      "key": "72_CR16",
+      "unstructured": "Nowak, E. G.Optimization of Glass Plate Structures with Additive Manufacturing. B.S. thesis. (Technische Universität Darmstadt, 2024)."
+    },
+    {
+      "key": "72_CR17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chhadeh, P. A. et al. Design of additive manufactured glass components for glass point fixings. (Springer, 2025).",
+      "DOI": "10.1007/s40940-024-00290-z"
+    },
+    {
+      "key": "72_CR18",
+      "unstructured": "EN 1288-3:2000-09, glass in building_- determination of flexural strength of glass_- part_3: Testing of specimens when supported on two sides (four-edge method). https://www.beuth.de/de/-/-/23376390."
+    },
+    {
+      "key": "72_CR19",
+      "unstructured": "EN 843-1:2008-08, advanced technical ceramics - mechanical properties of monolithic ceramics at room temperature - part 1: Determination of flexural strength."
+    },
+    {
+      "key": "72_CR20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schula, S.Charakterisierung der Kratzanfälligkeit von Gläsern im Bauwesen: Characterisation of the scratch sensitivity of glasses in civil engineering, vol. 43 (Springer-Verlag, 2015).",
+      "DOI": "10.1007/978-3-662-47782-3"
+    },
+    {
+      "key": "72_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "425",
+      "DOI": "10.1177/014662168801200410",
+      "volume": "12",
+      "author": "J Cohen",
+      "year": "1988",
+      "unstructured": "Cohen, J. Set correlation and contingency tables. Appl. Psychol. Meas. 12, 425–434 (1988).",
+      "journal-title": "Appl. Psychol. Meas."
+    },
+    {
+      "key": "72_CR22",
+      "unstructured": "EN 1288-1:2000-09, glass in building - determination of flexural strength of glass - part 1: Fundamentals."
+    },
+    {
+      "key": "72_CR23",
+      "unstructured": "Scheidler, H.Verletzlichkeit und technische Festigkeit von Glas (Vulnerability and technological strength of glass), vol. 50 (Glastechnische Berichte, 1977)."
+    },
+    {
+      "key": "72_CR24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shelby, J. E. Introduction to glass science and technology (Royal Society of Chemistry, 2020).",
+      "DOI": "10.1039/9781839169229"
+    },
+    {
+      "key": "72_CR25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "EN 52948:2023-11. Additive manufacturing for metals - non-destructive testing and evaluation. https://doi.org/10.31030/3490274.",
+      "DOI": "10.31030/3490274"
+    },
+    {
+      "key": "72_CR26",
+      "unstructured": "Veer, F. A. The strength of glass, a nontransparent value. Heron 12, 237619386 https://www.researchgate.net/publication/237619386_The_strength_of_glass_a_nontransparent_value (2007)."
+    }
+  ],
+  "container-title": [
+    "npj Advanced Manufacturing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s44334-026-00072-1.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s44334-026-00072-1",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s44334-026-00072-1.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ],
+    "date-time": "2026-04-03T16:46:20Z",
+    "timestamp": 1775234780000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s44334-026-00072-1"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ]
+  },
+  "references-count": 26,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "72"
+  ],
+  "URL": "https://doi.org/10.1038/s44334-026-00072-1",
+  "relation": {},
+  "ISSN": [
+    "3004-8621"
+  ],
+  "issn-type": [
+    {
+      "value": "3004-8621",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        3
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "4 August 2025",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "10 February 2026",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "3 April 2026",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ],
+  "article-number": "16"
+}

@@ -1,0 +1,43 @@
+\section{Open frontiers and a research roadmap}
+\label{sec:roadmap}
+\subsection{Prioritize a repeatable process window}
+The reviewed work establishes a range of feasible geometries and material routes. The next useful step is a repeatable, application-specific process window linking feedstock, thermal history, deposition geometry, and accepted properties. This section proposes an experimental programme; its milestones are recommendations rather than reported achievements.
+
+Begin with a single documented glass composition and a representative part family. Obtain chemical identity and thermal reference data, then measure deposited mass and bead geometry over controlled combinations of temperature, head or feed rate, travel speed, and layer return time. Preserve both successful and failed runs. A process window containing only attractive parts cannot identify failure boundaries or predict yield.
+
+\begin{longtable}{@{}P{.18\textwidth}P{.34\textwidth}P{.39\textwidth}@{}}
+\caption{Proposed staged research programme. Progression depends on evidence rather than an arbitrary calendar.}\label{tab:roadmap}\\
+\toprule Stage & Experiment and recorded variables & Evidence required to progress \\
+\midrule\endfirsthead
+\toprule Stage & Experiment and recorded variables & Evidence required to progress \\
+\midrule\endhead
+Feedstock baseline & Named batch; chemistry, moisture/contamination, viscosity anchors, thermal expansion; inspect rods or cullet & Traceable batch identity; justified temperature window; baseline specimen properties \\
+Single-track map & Gravimetric flow, actual temperatures, head/feed, speed, gap, width, height, contact width & Repeatability distributions and failure boundaries; quantified restart and corner behavior \\
+Thermal qualification & Thick-section surrogate, layer revisit time, calibrated pyrometry, chamber/part offsets & Verified stress reduction without unacceptable slumping; internal temperature model checked against data \\
+Interface and defect study & Controlled orientation and thermal history; sectioning, microscopy, CT where resolution allows, bend/fracture tests & Failure origins correlated with material/process variables; distinguish lack of contact from intrinsic glass fracture \\
+Representative parts & Geometry and functional tolerances, optical tests or pressure/leak tests, full thermal cycle & Predeclared acceptance criteria; documented yield, cycle time and metrology repeatability \\
+Production comparison & Matched-part blowing/casting/machining/indirect AM benchmarks, energy meters, labor and maintenance logs & Cost per accepted part with utilization sensitivity; no conversion of nominal deposition rate into production capacity \\
+\bottomrule\end{longtable}
+
+\subsection{Measurements that could change engineering decisions}
+\textbf{Closed-loop deposition.} The controller should distinguish sensor validity from control performance. Glass transparency, emissivity variation, hot background reflections, and laser interference can bias a thermal reading. Validate a sensing arrangement before tuning control gains, and evaluate unseen geometries rather than only training trajectories. Published quartz-glass temperature feedback provides a concrete starting point, with apparatus-specific calibration still necessary.\cite{acad_chen2025}
+
+\textbf{Toolpath and thermal memory.} Direction, speed, and return time are coupled. The 2026 toolpath study supports testing orientation and retained heat together, while also illustrating why a within-study strength improvement should not be converted directly into a structural design factor. A factorial or response-surface programme should record the physical path and interface temperature rather than just a slicer orientation label.\cite{acad_chhadeh2026}
+
+\textbf{Recycled feedstock.} Sorting and conditioning are upstream process controls. A comparison should separate a known single-source cullet stream from mixed unknown glass. Quantify batch variation, contamination introduced during grinding or handling, and the fraction rejected before printing. Recycled-glass demonstrators establish feasibility; closed-loop recycling and environmental benefit require additional mass and energy accounting.\cite{acad_stern2024}
+
+\textbf{Optical and structural function.} Freeform illumination, micro-optics, chemical channels, and masonry connections demand different validation. High transmission does not establish a low wavefront error; compression testing of a brick does not establish impact resistance or connection durability. Application-specific acceptance is the mechanism by which a research demonstrator becomes a credible product.
+
+\subsection{An intellectual-property and demonstration map}
+Three downloaded disclosures complement the apparatus literature: MIT's \href{https://patents.google.com/patent/US10266442B2/en}{US10266442B2}, Maple's \href{https://patents.google.com/patent/AU2021289614A1/en}{AU2021289614A1}, and LLNL's \href{https://patents.google.com/patent/WO2020118157A1/en}{WO2020118157A1}. They concern different aspects of glass manufacture and feedstock. Patent descriptions and illustrations provide engineering concepts; they do not demonstrate commercial availability, achieved accuracy, or validated lifetime. This review performs no freedom-to-operate analysis or legal-status certification.
+
+The \href{https://www.media.mit.edu/projects/g3p/overview/}{MIT Glass I project page} and \href{https://www.evenline.co/technology}{Evenline technology demonstrations} provide visual process context. The asset ledger retains direct streaming links where established. An HTTP response confirms accessibility at the request time, not successful playback or the authenticity of every quantitative claim in a video. The supplied media notes identify provenance and reproduction terms separately from scientific interpretation.
+
+\subsection{Reproducibility and remaining evidence gaps}
+Direct demonstration links retained in the asset ledger are \href{https://vimeo.com/136764796}{MIT Glass I / G3DP}, \href{https://vimeo.com/211778198}{MIT Glass II / G3DP2}, and \href{https://www.youtube.com/watch?v=CSw0Kw6M8i0}{Inside Maple Glass Printing}. The \href{https://www.memphis.edu/physics/demonstrations/polariscope.php}{University of Memphis polariscope page} links a \href{https://www.youtube.com/watch?v=IefRrdTmlbA}{direct educational demonstration}. These links were checked for HTTP accessibility; playback was not verified. The polariscope video is not claimed to show a printed-glass specimen.
+
+The analysis scripts regenerate nominal viscosity fits, residual plots, flow sensitivity, thermal scales, and the commercial scenarios. The viscosity thresholds CSV records extrapolation flags. All calculations use explicit inputs and are distinct from experimentally measured machine output. The complete LaTeX project permits updating a figure, source, or chapter without replacing the underlying evidence trail.
+
+Important gaps remain: matched-route tensile datasets; wavelength-, thickness-, and surface-controlled optical comparisons; independently audited current printer prices and yields; material-specific refractory lifetime; and verified direct molten-silicate apparatus attribution for some requested institutions. These are limits of the evidence base, not blanks filled with estimates. Future updates should add new primary measurements and revise the corresponding decision, rather than merely extend a list of references.
+
+The practical recommendation is to choose a material route from the required final function. Use reservoir extrusion where large continuous forms and layer texture are compatible with the product; investigate laser filament deposition where local heating and small features are valuable; evaluate indirect routes where fine geometry and densification can be qualified. In each case, measure the complete path to an accepted part, including finishing and thermal treatment.

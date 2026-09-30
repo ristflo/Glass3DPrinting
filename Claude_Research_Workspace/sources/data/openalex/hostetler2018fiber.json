@@ -1,0 +1,939 @@
+{
+ "id": "https://openalex.org/W2790207082",
+ "doi": "https://doi.org/10.1117/12.2291443",
+ "title": "Fiber-fed laser-heated process for printing transparent glass from single mode optical fiber",
+ "display_name": "Fiber-fed laser-heated process for printing transparent glass from single mode optical fiber",
+ "relevance_score": 1500.2386,
+ "publication_year": 2018,
+ "publication_date": "2018-02-26",
+ "ids": {
+  "openalex": "https://openalex.org/W2790207082",
+  "doi": "https://doi.org/10.1117/12.2291443",
+  "mag": "2790207082"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1117/12.2291443",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1117/12.2291443",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Laser 3D Manufacturing V",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5002415526",
+    "display_name": "Edward C. Kinzel",
+    "orcid": "https://orcid.org/0000-0002-4492-8682"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Edward C. Kinzel",
+   "raw_affiliation_strings": [
+    "Missouri Univ. of Science and Technology (United States)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Missouri Univ. of Science and Technology (United States)",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5080900890",
+    "display_name": "John M. Hostetler",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "John M. Hostetler",
+   "raw_affiliation_strings": [
+    "Missouri Univ. of Science and Technology (United States)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Missouri Univ. of Science and Technology (United States)",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5020875577",
+    "display_name": "Robert G. Landers",
+    "orcid": "https://orcid.org/0000-0002-4669-2693"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Robert G. Landers",
+   "raw_affiliation_strings": [
+    "Missouri Univ. of Science and Technology (United States)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Missouri Univ. of Science and Technology (United States)",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5008112862",
+    "display_name": "Douglas A. Bristow",
+    "orcid": "https://orcid.org/0000-0002-4581-7351"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Douglas A. Bristow",
+   "raw_affiliation_strings": [
+    "Missouri Univ. of Science and Technology (United States)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Missouri Univ. of Science and Technology (United States)",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5101865717",
+    "display_name": "Jonathan T. Goldstein",
+    "orcid": "https://orcid.org/0000-0002-6111-4613"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1280414376",
+     "display_name": "United States Air Force Research Laboratory",
+     "ror": "https://ror.org/02e2egq70",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1280414376",
+      "https://openalex.org/I1330347796",
+      "https://openalex.org/I4210102105",
+      "https://openalex.org/I4389425425"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jonathan T. Goldstein",
+   "raw_affiliation_strings": [
+    "Air Force Research Lab. (United States)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Air Force Research Lab. (United States)",
+     "institution_ids": [
+      "https://openalex.org/I1280414376"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.5858,
+ "has_fulltext": false,
+ "cited_by_count": 7,
+ "citation_normalized_percentile": {
+  "value": 0.56934414,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 96
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "6",
+  "last_page": "6"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.998199999332428,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.998199999332428,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.993399977684021,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9933000206947327,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7938108444213867
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.646780788898468
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.6201277375221252
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-fiber",
+   "display_name": "Optical fiber",
+   "score": 0.592947244644165
+  },
+  {
+   "id": "https://openalex.org/keywords/fiber-laser",
+   "display_name": "Fiber laser",
+   "score": 0.5330174565315247
+  },
+  {
+   "id": "https://openalex.org/keywords/all-silica-fiber",
+   "display_name": "All-silica fiber",
+   "score": 0.5004537105560303
+  },
+  {
+   "id": "https://openalex.org/keywords/refractive-index",
+   "display_name": "Refractive index",
+   "score": 0.47435104846954346
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-power-scaling",
+   "display_name": "Laser power scaling",
+   "score": 0.4581195116043091
+  },
+  {
+   "id": "https://openalex.org/keywords/hard-clad-silica-optical-fiber",
+   "display_name": "Hard-clad silica optical fiber",
+   "score": 0.4207099974155426
+  },
+  {
+   "id": "https://openalex.org/keywords/single-mode-optical-fiber",
+   "display_name": "Single-mode optical fiber",
+   "score": 0.4176713228225708
+  },
+  {
+   "id": "https://openalex.org/keywords/graded-index-fiber",
+   "display_name": "Graded-index fiber",
+   "score": 0.3979916572570801
+  },
+  {
+   "id": "https://openalex.org/keywords/fiber",
+   "display_name": "Fiber",
+   "score": 0.38613438606262207
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.3677451014518738
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.2528676986694336
+  },
+  {
+   "id": "https://openalex.org/keywords/fiber-optic-sensor",
+   "display_name": "Fiber optic sensor",
+   "score": 0.19938701391220093
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7938108444213867
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.646780788898468
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.6201277375221252
+  },
+  {
+   "id": "https://openalex.org/C194232370",
+   "wikidata": "https://www.wikidata.org/wiki/Q162",
+   "display_name": "Optical fiber",
+   "level": 2,
+   "score": 0.592947244644165
+  },
+  {
+   "id": "https://openalex.org/C17163034",
+   "wikidata": "https://www.wikidata.org/wiki/Q390528",
+   "display_name": "Fiber laser",
+   "level": 3,
+   "score": 0.5330174565315247
+  },
+  {
+   "id": "https://openalex.org/C30946103",
+   "wikidata": "https://www.wikidata.org/wiki/Q4728372",
+   "display_name": "All-silica fiber",
+   "level": 5,
+   "score": 0.5004537105560303
+  },
+  {
+   "id": "https://openalex.org/C42067758",
+   "wikidata": "https://www.wikidata.org/wiki/Q174102",
+   "display_name": "Refractive index",
+   "level": 2,
+   "score": 0.47435104846954346
+  },
+  {
+   "id": "https://openalex.org/C200649887",
+   "wikidata": "https://www.wikidata.org/wiki/Q17154544",
+   "display_name": "Laser power scaling",
+   "level": 3,
+   "score": 0.4581195116043091
+  },
+  {
+   "id": "https://openalex.org/C50527892",
+   "wikidata": "https://www.wikidata.org/wiki/Q1584974",
+   "display_name": "Hard-clad silica optical fiber",
+   "level": 5,
+   "score": 0.4207099974155426
+  },
+  {
+   "id": "https://openalex.org/C180861198",
+   "wikidata": "https://www.wikidata.org/wiki/Q3503585",
+   "display_name": "Single-mode optical fiber",
+   "level": 3,
+   "score": 0.4176713228225708
+  },
+  {
+   "id": "https://openalex.org/C113102252",
+   "wikidata": "https://www.wikidata.org/wiki/Q5591869",
+   "display_name": "Graded-index fiber",
+   "level": 4,
+   "score": 0.3979916572570801
+  },
+  {
+   "id": "https://openalex.org/C519885992",
+   "wikidata": "https://www.wikidata.org/wiki/Q161",
+   "display_name": "Fiber",
+   "level": 2,
+   "score": 0.38613438606262207
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.3677451014518738
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.2528676986694336
+  },
+  {
+   "id": "https://openalex.org/C21651689",
+   "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+   "display_name": "Fiber optic sensor",
+   "level": 3,
+   "score": 0.19938701391220093
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1117/12.2291443",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1117/12.2291443",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Laser 3D Manufacturing V",
+   "raw_type": "proceedings-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.5899999737739563
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 8,
+ "referenced_works": [
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W3209864802",
+  "https://openalex.org/W6651408486",
+  "https://openalex.org/W6803071604"
+ ],
+ "related_works": [
+  "https://openalex.org/W2162179131",
+  "https://openalex.org/W1563723761",
+  "https://openalex.org/W2040144675",
+  "https://openalex.org/W1978770234",
+  "https://openalex.org/W1967940114",
+  "https://openalex.org/W2262971482",
+  "https://openalex.org/W2077276955",
+  "https://openalex.org/W2099761739",
+  "https://openalex.org/W2012131097",
+  "https://openalex.org/W2096574193"
+ ],
+ "abstract_inverted_index": {
+  "This": [
+   0
+  ],
+  "paper": [
+   1
+  ],
+  "describes": [
+   2
+  ],
+  "the": [
+   3,
+   39,
+   42,
+   45,
+   67,
+   72,
+   79,
+   110,
+   123,
+   127,
+   131
+  ],
+  "additive": [
+   4
+  ],
+  "manufacturing": [
+   5
+  ],
+  "(AM)": [
+   6
+  ],
+  "of": [
+   7,
+   21,
+   41,
+   82,
+   112,
+   130
+  ],
+  "glass": [
+   8,
+   73,
+   132
+  ],
+  "using": [
+   9
+  ],
+  "a": [
+   10,
+   19,
+   27,
+   52
+  ],
+  "fiber-fed": [
+   11
+  ],
+  "laser-heated": [
+   12
+  ],
+  "process.": [
+   13
+  ],
+  "Stripped": [
+   14
+  ],
+  "SMF-28": [
+   15,
+   139
+  ],
+  "optical": [
+   16
+  ],
+  "fiber": [
+   17,
+   43
+  ],
+  "with": [
+   18
+  ],
+  "diameter": [
+   20
+  ],
+  "125": [
+   22
+  ],
+  "\u03bcm": [
+   23,
+   62
+  ],
+  "is": [
+   24,
+   36,
+   49,
+   63
+  ],
+  "fed": [
+   25
+  ],
+  "into": [
+   26
+  ],
+  "laser": [
+   28,
+   34,
+   58,
+   87
+  ],
+  "generated": [
+   29
+  ],
+  "melt": [
+   30
+  ],
+  "pool.": [
+   31
+  ],
+  "A": [
+   32
+  ],
+  "CO2": [
+   33
+  ],
+  "beam": [
+   35
+  ],
+  "focused": [
+   37
+  ],
+  "onto": [
+   38
+  ],
+  "intersection": [
+   40
+  ],
+  "and": [
+   44,
+   91,
+   100,
+   115,
+   119,
+   133
+  ],
+  "work": [
+   46
+  ],
+  "piece,": [
+   47
+  ],
+  "which": [
+   48
+  ],
+  "positioned": [
+   50
+  ],
+  "on": [
+   51,
+   109
+  ],
+  "four-axis": [
+   53
+  ],
+  "computer": [
+   54
+  ],
+  "controlled": [
+   55
+  ],
+  "stage.": [
+   56
+  ],
+  "The": [
+   57
+  ],
+  "energy": [
+   59
+  ],
+  "at": [
+   60
+  ],
+  "\u03bb=10.6": [
+   61
+  ],
+  "directly": [
+   64
+  ],
+  "absorbed": [
+   65
+  ],
+  "by": [
+   66
+  ],
+  "quartz": [
+   68
+  ],
+  "fiber,": [
+   69
+  ],
+  "locally": [
+   70
+  ],
+  "heating": [
+   71
+  ],
+  "above": [
+   74
+  ],
+  "its": [
+   75
+  ],
+  "working": [
+   76
+  ],
+  "point.": [
+   77
+  ],
+  "Through": [
+   78
+  ],
+  "careful": [
+   80
+  ],
+  "control": [
+   81
+  ],
+  "process": [
+   83,
+   124
+  ],
+  "parameters": [
+   84
+  ],
+  "such": [
+   85,
+   97,
+   125
+  ],
+  "as": [
+   86,
+   98,
+   126
+  ],
+  "power,": [
+   88
+  ],
+  "feed": [
+   89
+  ],
+  "rate": [
+   90
+  ],
+  "scan": [
+   92
+  ],
+  "speed,": [
+   93
+  ],
+  "bubble": [
+   94
+  ],
+  "free": [
+   95
+  ],
+  "parts": [
+   96,
+   106
+  ],
+  "walls": [
+   99
+  ],
+  "lenses": [
+   101
+  ],
+  "may": [
+   102
+  ],
+  "be": [
+   103
+  ],
+  "printed.": [
+   104
+  ],
+  "These": [
+   105
+  ],
+  "are": [
+   107,
+   140
+  ],
+  "assessed": [
+   108
+  ],
+  "grounds": [
+   111
+  ],
+  "their": [
+   113
+  ],
+  "transmissivity": [
+   114
+  ],
+  "refractive": [
+   116,
+   134
+  ],
+  "index": [
+   117,
+   135
+  ],
+  "homogeneity,": [
+   118
+  ],
+  "issues": [
+   120
+  ],
+  "unique": [
+   121
+  ],
+  "to": [
+   122
+  ],
+  "thermal": [
+   128
+  ],
+  "breakdown": [
+   129
+  ],
+  "mismatch": [
+   136
+  ],
+  "present": [
+   137
+  ],
+  "in": [
+   138
+  ],
+  "discussed.": [
+   141
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-08-21T09:56:20.448147",
+ "created_date": "2025-10-10T00:00:00"
+}

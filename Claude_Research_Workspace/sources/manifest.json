@@ -1,0 +1,2492 @@
+{
+ "generated": "2026-09-26 16:35:07",
+ "papers": [
+  {
+   "key": "klein2015",
+   "doi": "10.1089/3dp.2015.0021",
+   "url": "https://doi.org/10.1089/3dp.2015.0021",
+   "title": "Additive Manufacturing of Optically Transparent Glass",
+   "authors": [
+    "John P. Klein",
+    "Michael C. Stern",
+    "Giorgia Franchin",
+    "Markus Kayser",
+    "Chikara Inamura",
+    "Shreya H. Dave",
+    "James C. Weaver",
+    "Peter Houk",
+    "Paolo Angelo Colombo",
+    "Maria C. Yang",
+    "Neri Oxman"
+   ],
+   "year": 2015,
+   "venue": "3D Printing and Additive Manufacturing",
+   "is_oa": true,
+   "oa_url": "http://hdl.handle.net/1721.1/101831",
+   "local_path": "sources/papers/2015_Klein_Additive_Manufacturing_of_Optically_Transparent_Glass.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/klein2015.bib",
+   "relevance_summary": "G3DP: first molten soda-lime glass material-extrusion printer; kiln cartridge ~1040 C, AZS nozzle, annealing chamber",
+   "resolved": true
+  },
+  {
+   "key": "inamura2018",
+   "doi": "10.1089/3dp.2018.0157",
+   "url": "https://doi.org/10.1089/3dp.2018.0157",
+   "title": "Additive Manufacturing of Transparent Glass Structures",
+   "authors": [
+    "Chikara Inamura",
+    "Michael C. Stern",
+    "Daniel Lizardo",
+    "Peter Houk",
+    "Neri Oxman"
+   ],
+   "year": 2018,
+   "venue": "3D Printing and Additive Manufacturing",
+   "is_oa": true,
+   "oa_url": "https://dspace.mit.edu/bitstreams/7dbd523f-a0c1-4274-94e1-a370ca822c2c/download",
+   "local_path": "sources/papers/2018_Inamura_Additive_Manufacturing_of_Transparent_Glass_Structures.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/inamura2018.bib",
+   "relevance_summary": "G3DP2: industrial-scale molten glass AM, 3-zone thermal control, 4-axis motion, 3 m columns Milan 2017",
+   "resolved": true
+  },
+  {
+   "key": "mit2024masonry",
+   "doi": "10.1007/s40940-024-00279-8",
+   "url": "https://doi.org/10.1007/s40940-024-00279-8",
+   "title": "Additive manufacturing of interlocking glass masonry units",
+   "authors": [
+    "Daniel Massimino",
+    "Ethan Townsend",
+    "Charlotte M. Folinus",
+    "M. B. Stern",
+    "Kaitlyn P. Becker"
+   ],
+   "year": 2024,
+   "venue": "Glass Structures & Engineering",
+   "is_oa": true,
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+   "local_path": "sources/papers/2024_Massimino_Additive_manufacturing_of_interlocking_g.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/mit2024masonry.bib",
+   "relevance_summary": "Evenline G3DP3 recycled-glass interlocking masonry units; compressive strength data 3.6-118 MPa",
+   "resolved": true
+  },
+  {
+   "key": "brun2017",
+   "doi": "10.1098/rsta.2016.0156",
+   "url": "https://doi.org/10.1098/rsta.2016.0156",
+   "title": "The molten glass sewing machine",
+   "authors": [
+    "P.‐T. Brun",
+    "Chikara Inamura",
+    "Daniel Lizardo",
+    "Giorgia Franchin",
+    "Michael C. Stern",
+    "Peter Houk",
+    "Neri Oxman"
+   ],
+   "year": 2017,
+   "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+   "is_oa": true,
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5379039",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/brun2017.bib",
+   "relevance_summary": "Molten glass sewing machine: viscous thread coiling instability applied to molten glass deposition",
+   "resolved": true
+  },
+  {
+   "key": "tomotika1935",
+   "doi": "10.1098/rspa.1935.0104",
+   "url": "https://doi.org/10.1098/rspa.1935.0104",
+   "title": "On the instability of a cylindrical thread of a viscous liquid surrounded by another viscous fluid",
+   "authors": [
+    "S. Tomotika"
+   ],
+   "year": 1935,
+   "venue": "Proceedings of the Royal Society of London A Mathematical and Physical Sciences",
+   "is_oa": true,
+   "oa_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1935.0104",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/tomotika1935.bib",
+   "relevance_summary": "Tomotika 1935 instability of a viscous thread in a viscous medium (viscous Rayleigh-Plateau)",
+   "resolved": true
+  },
+  {
+   "key": "rayleigh1878",
+   "doi": "10.1112/plms/s1-10.1.4",
+   "url": "https://doi.org/10.1112/plms/s1-10.1.4",
+   "title": "On The Instability Of Jets",
+   "authors": [
+    "Lord Rayleigh"
+   ],
+   "year": 1878,
+   "venue": "Proceedings of the London Mathematical Society",
+   "is_oa": true,
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1112/plms/s1-10.1.4",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/rayleigh1878.bib",
+   "relevance_summary": "Rayleigh 1878 On the instability of jets: classical capillary breakup, lambda_opt = 4.51 d",
+   "resolved": true
+  },
+  {
+   "key": "luo2017sodalime",
+   "doi": "10.1115/1.4035182",
+   "url": "https://doi.org/10.1115/1.4035182",
+   "title": "Additive Manufacturing of Transparent Soda-Lime Glass Using a Filament-Fed Process",
+   "authors": [
+    "Junjie Luo",
+    "Luke J. Gilbert",
+    "Chuang Qu",
+    "Robert G. Landers",
+    "Douglas A. Bristow",
+    "Edward C. Kinzel"
+   ],
+   "year": 2016,
+   "venue": "Journal of Manufacturing Science and Engineering",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/luo2017sodalime.bib",
+   "relevance_summary": "Filament-fed CO2-laser AM of transparent soda-lime glass; optical quality vs furnace cast",
+   "resolved": true
+  },
+  {
+   "key": "luo2018quartz",
+   "doi": "10.1117/1.oe.57.4.041408",
+   "url": "https://doi.org/10.1117/1.oe.57.4.041408",
+   "title": "Additive manufacturing of transparent fused quartz",
+   "authors": [
+    "Junjie Luo",
+    "John M. Hostetler",
+    "Luke J. Gilbert",
+    "Jonathan T. Goldstein",
+    "Augustine M. Urbas",
+    "Douglas A. Bristow",
+    "Robert G. Landers",
+    "Edward C. Kinzel"
+   ],
+   "year": 2018,
+   "venue": "Optical Engineering",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/luo2018quartz.bib",
+   "relevance_summary": "Filament-fed CO2 laser AM of fused quartz (Optical Engineering 2018)",
+   "resolved": true
+  },
+  {
+   "key": "luo2017heat",
+   "doi": "10.1115/ht2017-5100",
+   "url": "https://doi.org/10.1115/ht2017-5100",
+   "title": "Heat Transfer in Additive Manufacturing of Glass",
+   "authors": [
+    "Junjie Luo",
+    "John M. Hostetler",
+    "Douglas A. Bristow",
+    "Robert G. Landers",
+    "Edward C. Kinzel",
+    "Jonathan T. Goldstein"
+   ],
+   "year": 2017,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/luo2017heat.bib",
+   "relevance_summary": "Heat-transfer model of laser-heated glass filament deposition, temperature field and cooling gradients",
+   "resolved": true
+  },
+  {
+   "key": "hostetler2018fiber",
+   "doi": "10.1117/12.2291443",
+   "url": "https://doi.org/10.1117/12.2291443",
+   "title": "Fiber-fed laser-heated process for printing transparent glass from single mode optical fiber",
+   "authors": [
+    "Edward C. Kinzel",
+    "John M. Hostetler",
+    "Robert G. Landers",
+    "Douglas A. Bristow",
+    "Jonathan T. Goldstein"
+   ],
+   "year": 2018,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/hostetler2018fiber.bib",
+   "relevance_summary": "Fiber-fed laser-heated glass printing from single-mode optical fiber (SPIE 2018)",
+   "resolved": true
+  },
+  {
+   "key": "kinzel2025dgf",
+   "doi": "10.1016/b978-0-323-85488-7.00010-6",
+   "url": "https://doi.org/10.1016/b978-0-323-85488-7.00010-6",
+   "title": "Digital glass forming using direct heating techniques",
+   "authors": [
+    "Edward C. Kinzel"
+   ],
+   "year": 2024,
+   "venue": "Elsevier eBooks",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kinzel2025dgf.bib",
+   "relevance_summary": "Review of digital glass forming via direct (laser/torch) heating, Kinzel group",
+   "resolved": true
+  },
+  {
+   "key": "dgf2026control",
+   "query": "T:Temperature control of digital glass forming processes",
+   "resolved": false,
+   "relevance_summary": "RT-Linux closed-loop temperature control of laser glass forming with thermal imaging"
+  },
+  {
+   "key": "witzendorff2018",
+   "doi": "10.1016/j.procir.2018.08.109",
+   "url": "https://doi.org/10.1016/j.procir.2018.08.109",
+   "title": "Additive manufacturing of glass: CO2-Laser glass deposition printing",
+   "authors": [
+    "Philipp von Witzendorff",
+    "Leonhard Pohl",
+    "Oliver Suttmann",
+    "P. Heinrich",
+    "Achim Heinrich",
+    "Jörg Zander",
+    "Holger Bragard",
+    "Stefan Kaierle"
+   ],
+   "year": 2018,
+   "venue": "Procedia CIRP",
+   "is_oa": true,
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2212827118308953/pdf",
+   "local_path": "sources/papers/2018_Witzendorff_Additive_manufacturing_of_glass_CO2_Lase.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/witzendorff2018.bib",
+   "relevance_summary": "LGD: CO2-laser melting of fused silica fibre; feed rate / power / velocity window",
+   "resolved": true
+  },
+  {
+   "key": "lgd2021coaxial",
+   "doi": "10.1117/12.2577205",
+   "url": "https://doi.org/10.1117/12.2577205",
+   "title": "Additive anufacturing of fused silica using coaxial laser glass deposition: experiment, simulation and discussion",
+   "authors": [
+    "Tobias Grabe",
+    "Marius Lammers",
+    "Song Wang",
+    "Xuejian Wang",
+    "Katharina Rettschlag",
+    "Khodor Sleiman",
+    "Alexander Barroi",
+    "Tobias Biermann",
+    "Arved Ziebehl",
+    "Julian Röttger",
+    "Peer-Phillip Ley",
+    "Alexander Wolf",
+    "Peter Jaeschke",
+    "Jörg Hermsdorf",
+    "Stefan Kaierle",
+    "Henning Ahlers",
+    "Roland Lachmayer"
+   ],
+   "year": 2021,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/lgd2021coaxial.bib",
+   "relevance_summary": "Coaxial laser glass deposition of fused silica: experiment and simulation",
+   "resolved": true
+  },
+  {
+   "key": "lgd2022fibers",
+   "doi": "10.1007/978-3-031-05918-6_18",
+   "url": "https://doi.org/10.1007/978-3-031-05918-6_18",
+   "title": "Experimental Investigation of Additive Manufacturing of Fused Silica Fibers for the Production of Structural Components in the Laser Glass Deposition Process",
+   "authors": [
+    "Khodor Sleiman",
+    "Katharina Rettschlag",
+    "Peter Jäschke",
+    "Stefan Kaierle",
+    "Ludger Overmeyer"
+   ],
+   "year": 2022,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/lgd2022fibers.bib",
+   "relevance_summary": "LGD of fused silica fibres for structural components",
+   "resolved": true
+  },
+  {
+   "key": "lgd2024homog",
+   "doi": "10.1016/j.procir.2024.08.116",
+   "url": "https://doi.org/10.1016/j.procir.2024.08.116",
+   "title": "Experimental investigation on the surface and volume homogeneity of additive manufactured fused silica components in the Laser Glass Deposition process",
+   "authors": [
+    "Khodor Sleiman",
+    "Katharina Rettschlag",
+    "Peter Jäschke",
+    "Stefan Kaierle"
+   ],
+   "year": 2024,
+   "venue": "Procedia CIRP",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.procir.2024.08.116",
+   "local_path": "sources/papers/2024_Sleiman_Experimental_investigation_on_the_surfac.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/lgd2024homog.bib",
+   "relevance_summary": "Surface/volume homogeneity (bubbles, striae) of LGD fused silica parts",
+   "resolved": true
+  },
+  {
+   "key": "lgd2025tempctrl",
+   "doi": "10.3390/mi16010029",
+   "url": "https://doi.org/10.3390/mi16010029",
+   "title": "Temperature Control of Quartz-Glass Melting Areas in Laser Additive Manufacturing",
+   "authors": [
+    "Jing Chen",
+    "Zeping Lv",
+    "Xuanjia Zhang",
+    "Tao Xu",
+    "Yuntao Cheng"
+   ],
+   "year": 2024,
+   "venue": "Micromachines",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2072-666X/16/1/29/pdf?version=1735376719",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/lgd2025tempctrl.bib",
+   "relevance_summary": "Pyrometric temperature control of quartz-glass melt zones in laser AM",
+   "resolved": true
+  },
+  {
+   "key": "froehlich2022",
+   "doi": "10.1007/978-3-030-95463-5_10",
+   "url": "https://doi.org/10.1007/978-3-030-95463-5_10",
+   "title": "Additive Manufacturing with Borosilicate Glass and Soda-Lime Glass",
+   "authors": [
+    "F. Fröhlich",
+    "Jörg Hildebrand",
+    "Jean Pierre Bergmann"
+   ],
+   "year": 2022,
+   "venue": "Proceedings in engineering mechanics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/froehlich2022.bib",
+   "relevance_summary": "Rod-fed CO2 laser AM with borosilicate and soda-lime glass (TU Ilmenau)",
+   "resolved": true
+  },
+  {
+   "key": "kth2022bonding",
+   "doi": "10.3389/fmats.2022.978861",
+   "url": "https://doi.org/10.3389/fmats.2022.978861",
+   "title": "Investigation of glass bonding and multi-layer deposition during filament-based glass 3D printing",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "venue": "Frontiers in Materials",
+   "is_oa": true,
+   "oa_url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/pdf",
+   "local_path": "sources/papers/2022_Liu_Investigation_of_glass_bonding_and_multi.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/kth2022bonding.bib",
+   "relevance_summary": "Filament-based CO2 laser glass 3D printing: interlayer bonding and multilayer deposition, 196 um fused silica filament",
+   "resolved": true
+  },
+  {
+   "key": "kth2024microlens",
+   "doi": "10.1089/3dp.2022.0112",
+   "url": "https://doi.org/10.1089/3dp.2022.0112",
+   "title": "Rapid Fabrication of Silica Microlens Arrays via Glass 3D Printing",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Cherrie S. J. Lee",
+    "C. M. Harvey",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "venue": "3D Printing and Additive Manufacturing",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1089/3dp.2022.0112",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kth2024microlens.bib",
+   "relevance_summary": "Direct glass laser deposition of silica microlens arrays (KTH/Nobula)",
+   "resolved": true
+  },
+  {
+   "key": "fateri2015",
+   "doi": "10.1111/ijac.12338",
+   "url": "https://doi.org/10.1111/ijac.12338",
+   "title": "Selective Laser Melting of Soda‐Lime Glass Powder",
+   "authors": [
+    "Miranda Fateri",
+    "Andreas Gebhardt"
+   ],
+   "year": 2014,
+   "venue": "International Journal of Applied Ceramic Technology",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/fateri2015.bib",
+   "relevance_summary": "SLM of soda-lime glass powder, 93% relative density",
+   "resolved": true
+  },
+  {
+   "key": "khmyrov2016",
+   "doi": "10.1007/s00170-015-8051-9",
+   "url": "https://doi.org/10.1007/s00170-015-8051-9",
+   "title": "Crack-free selective laser melting of silica glass: single beads and monolayers on the substrate of the same material",
+   "authors": [
+    "Roman Sergeevich Khmyrov",
+    "C.E. Protasov",
+    "Sergey Nikolaevich Grigoriev",
+    "Andrey Vladimirovich Gusarov"
+   ],
+   "year": 2015,
+   "venue": "The International Journal of Advanced Manufacturing Technology",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/khmyrov2016.bib",
+   "relevance_summary": "Crack-free SLM of silica glass single beads/monolayers",
+   "resolved": true
+  },
+  {
+   "key": "datsiou2019",
+   "doi": "10.1111/jace.16440",
+   "url": "https://doi.org/10.1111/jace.16440",
+   "title": "Additive manufacturing of glass with laser powder bed fusion",
+   "authors": [
+    "Kyriaki Corinna Datsiou",
+    "Ehab Saleh",
+    "Fiona Spirrett",
+    "Ruth Goodridge",
+    "Ian Ashcroft",
+    "Dave Eustice"
+   ],
+   "year": 2019,
+   "venue": "Journal of the American Ceramic Society",
+   "is_oa": true,
+   "oa_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jace.16440",
+   "local_path": "sources/papers/2019_Datsiou_Additive_manufacturing_of_glass_with_las.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/datsiou2019.bib",
+   "relevance_summary": "LPBF of soda-lime glass in commercial system, processing window",
+   "resolved": true
+  },
+  {
+   "key": "datsiou2021",
+   "doi": "10.1016/j.addma.2021.101880",
+   "url": "https://doi.org/10.1016/j.addma.2021.101880",
+   "title": "Laser powder bed fusion of soda lime silica glass: Optimisation of processing parameters and evaluation of part properties",
+   "authors": [
+    "Kyriaki Corinna Datsiou",
+    "Fiona Spirrett",
+    "Ian Ashcroft",
+    "Marlin Magallanes",
+    "Steven D. R. Christie",
+    "Ruth Goodridge"
+   ],
+   "year": 2021,
+   "venue": "Additive manufacturing",
+   "is_oa": true,
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2214860421000452/pdf",
+   "local_path": "sources/papers/2021_Datsiou_Laser_powder_bed_fusion_of_soda_lime_sil.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/datsiou2021.bib",
+   "relevance_summary": "LPBF soda-lime glass parameter optimisation, density, roughness, strength",
+   "resolved": true
+  },
+  {
+   "key": "spirrett2023",
+   "doi": "10.1111/jace.18638",
+   "url": "https://doi.org/10.1111/jace.18638",
+   "title": "Powder‐fed directed energy deposition of soda lime silica glass on glass substrates",
+   "authors": [
+    "Fiona Spirrett",
+    "Kyriaki Corinna Datsiou",
+    "Marlin Magallanes",
+    "Ian Ashcroft",
+    "Ruth Goodridge"
+   ],
+   "year": 2022,
+   "venue": "Journal of the American Ceramic Society",
+   "is_oa": true,
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jace.18638",
+   "local_path": "sources/papers/2022_Spirrett_Powder_fed_directed_energy_deposition_of.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/spirrett2023.bib",
+   "relevance_summary": "Powder-fed DED of soda-lime silica glass on glass substrates",
+   "resolved": true
+  },
+  {
+   "key": "lang2024",
+   "doi": "10.1089/3dp.2022.0137",
+   "url": "https://doi.org/10.1089/3dp.2022.0137",
+   "title": "Efficient Fabrication of Quartz Glass Using Laser Coaxial Powder-Fed Additive Manufacturing Approach",
+   "authors": [
+    "Ming Lang",
+    "Xiao-Li Ruan",
+    "Chong He",
+    "Zhiqiang Chen",
+    "Tao Xu",
+    "Haibin Zhang",
+    "Yun-Tao Cheng"
+   ],
+   "year": 2022,
+   "venue": "3D Printing and Additive Manufacturing",
+   "is_oa": true,
+   "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11057532/pdf/3dp.2022.0137.pdf",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/lang2024.bib",
+   "relevance_summary": "Coaxial powder-fed laser AM of quartz glass",
+   "resolved": true
+  },
+  {
+   "key": "paste2024",
+   "doi": "10.1016/j.addma.2024.104135",
+   "url": "https://doi.org/10.1016/j.addma.2024.104135",
+   "title": "Direct additive manufacturing of transparent fused silica glasses using an integrated paste printing and laser in-situ melting technology",
+   "authors": [
+    "Haobo Zhang",
+    "Qiurui Zhang",
+    "Pei Xiang",
+    "Yihao Wang",
+    "Jincheng Lei"
+   ],
+   "year": 2024,
+   "venue": "Additive manufacturing",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/paste2024.bib",
+   "relevance_summary": "Hybrid paste printing + laser in-situ melting of fused silica",
+   "resolved": true
+  },
+  {
+   "key": "boro2025laser",
+   "doi": "10.3390/jmmp9090305",
+   "url": "https://doi.org/10.3390/jmmp9090305",
+   "title": "Laser-Based Additive Manufacturing of Alkali Borosilicate Glass Powder: Influence of Laser-Beam Properties on Component Quality",
+   "authors": [
+    "Anne-Marie Layher",
+    "Lisa Tewes",
+    "Felix Thumann",
+    "Thekla Boeckh",
+    "Sharon Koppka",
+    "Dirk Enke",
+    "Edda Rädlein",
+    "Jens Bliedtner"
+   ],
+   "year": 2025,
+   "venue": "Journal of Manufacturing and Materials Processing",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2504-4494/9/9/305/pdf?version=1757070924",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/boro2025laser.bib",
+   "relevance_summary": "Laser-based AM of alkali borosilicate glass powder: laser-beam properties vs quality",
+   "resolved": true
+  },
+  {
+   "key": "slmsim2024",
+   "doi": "10.1007/s00170-024-13076-y",
+   "url": "https://doi.org/10.1007/s00170-024-13076-y",
+   "title": "A simulation model of selective laser melting (SLM) of glass silica monolayer",
+   "authors": [
+    "Wanrui Zhang"
+   ],
+   "year": 2024,
+   "venue": "The International Journal of Advanced Manufacturing Technology",
+   "is_oa": true,
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+   "local_path": "sources/papers/2024_Zhang_A_simulation_model_of_selective_laser_me.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/slmsim2024.bib",
+   "relevance_summary": "Simulation model of SLM of silica glass monolayer",
+   "resolved": true
+  },
+  {
+   "key": "slmirregular2023",
+   "doi": "10.1016/j.jmrt.2023.09.011",
+   "url": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+   "title": "Selective laser melting of glass with irregular shaped powder",
+   "authors": [
+    "Tian Yang",
+    "Zhijian Feng",
+    "Yating Qiu",
+    "Wei Han",
+    "Lingbao Kong"
+   ],
+   "year": 2023,
+   "venue": "Journal of Materials Research and Technology",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/slmirregular2023.bib",
+   "relevance_summary": "SLM of glass with irregular powder morphology",
+   "resolved": true
+  },
+  {
+   "key": "ieee2019dlm",
+   "doi": "10.1364/cleo_at.2019.aw3i.4",
+   "url": "https://doi.org/10.1364/cleo_at.2019.aw3i.4",
+   "title": "Additive Manufacturing of Fused Silica Glass Using Direct Laser Melting",
+   "authors": [
+    "Jincheng Lei",
+    "Yuzhe Hong",
+    "Qi Zhang",
+    "Fei Peng",
+    "Hai Xiao"
+   ],
+   "year": 2019,
+   "venue": "Conference on Lasers and Electro-Optics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/ieee2019dlm.bib",
+   "relevance_summary": "Direct laser melting of fused silica (IEEE 2019)",
+   "resolved": true
+  },
+  {
+   "key": "kotz2017",
+   "doi": "10.1038/nature22061",
+   "url": "https://doi.org/10.1038/nature22061",
+   "title": "Three-dimensional printing of transparent fused silica glass",
+   "authors": [
+    "Frederik Kotz",
+    "Karl Arnold",
+    "Werner Bauer",
+    "Dieter Schild",
+    "Nico Keller",
+    "Kai Sachsenheimer",
+    "Tobias M. Nargang",
+    "Christiane Richter",
+    "Dorothea Helmer",
+    "Bastian Ernst Rapp"
+   ],
+   "year": 2017,
+   "venue": "Nature",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kotz2017.bib",
+   "relevance_summary": "Indirect: stereolithography of silica nanocomposite -> sintered transparent fused silica (Glassomer origin)",
+   "resolved": true
+  },
+  {
+   "key": "mader2021",
+   "doi": "10.1002/advs.202103180",
+   "url": "https://doi.org/10.1002/advs.202103180",
+   "title": "Melt‐Extrusion‐Based Additive Manufacturing of Transparent Fused Silica Glass",
+   "authors": [
+    "Markus Mader",
+    "Leonhard Hambitzer",
+    "Phillip Schlautmann",
+    "Sophie Jenne",
+    "Christian Greiner",
+    "F. W. Hirth",
+    "Dorothea Helmer",
+    "Frederik Kotz",
+    "Bastian Ernst Rapp"
+   ],
+   "year": 2021,
+   "venue": "Advanced Science",
+   "is_oa": true,
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202103180",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/mader2021.bib",
+   "relevance_summary": "Indirect: melt-extrusion (FDM/FFD) of silica nanocomposite -> transparent fused silica",
+   "resolved": true
+  },
+  {
+   "key": "nguyen2017",
+   "doi": "10.1002/adma.201701181",
+   "url": "https://doi.org/10.1002/adma.201701181",
+   "title": "3D‐Printed Transparent Glass",
+   "authors": [
+    "Du Thai Nguyen",
+    "Cameron D. Meyers",
+    "Timothy D. Yee",
+    "Nikola A. Dudukovic",
+    "Joel F. Destino",
+    "Cheng Yan Zhu",
+    "Eric B. Duoss",
+    "Theodore F. Baumann",
+    "Tayyab I. Suratwala",
+    "James E. Smay",
+    "Rebecca J. Dylla-Spears"
+   ],
+   "year": 2017,
+   "venue": "Advanced Materials",
+   "is_oa": true,
+   "oa_url": "https://www.osti.gov/servlets/purl/1393335",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/nguyen2017.bib",
+   "relevance_summary": "LLNL direct ink writing of silica sol inks -> transparent glass",
+   "resolved": true
+  },
+  {
+   "key": "destino2018",
+   "doi": "10.1002/admt.201700323",
+   "url": "https://doi.org/10.1002/admt.201700323",
+   "title": "3D Printed Optical Quality Silica and Silica–Titania Glasses from Sol–Gel Feedstocks",
+   "authors": [
+    "Joel F. Destino",
+    "Nikola A. Dudukovic",
+    "Michael Austin Johnson",
+    "Du Thai Nguyen",
+    "Timothy D. Yee",
+    "Garth C. Egan",
+    "April M. Sawvel",
+    "William A. Steele",
+    "Theodore F. Baumann",
+    "Eric B. Duoss",
+    "Tayyab I. Suratwala",
+    "Rebecca J. Dylla-Spears"
+   ],
+   "year": 2018,
+   "venue": "Advanced Materials Technologies",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/destino2018.bib",
+   "relevance_summary": "LLNL DIW gradient-index silica-titania optics",
+   "resolved": true
+  },
+  {
+   "key": "toombs2022",
+   "doi": "10.1126/science.abm6459",
+   "url": "https://doi.org/10.1126/science.abm6459",
+   "title": "Volumetric additive manufacturing of silica glass with microscale computed axial lithography",
+   "authors": [
+    "Joseph T. Toombs",
+    "Manuel Luitz",
+    "Caitlyn C. Cook",
+    "Sophie Jenne",
+    "Chi Chung Li",
+    "Bastian Ernst Rapp",
+    "Frederik Kotz",
+    "Hayden Taylor"
+   ],
+   "year": 2022,
+   "venue": "Science",
+   "is_oa": true,
+   "oa_url": "https://arxiv.org/pdf/2110.01651",
+   "local_path": "sources/papers/2022_Toombs_Volumetric_additive_manufacturing_of_sil.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/toombs2022.bib",
+   "relevance_summary": "Volumetric computed axial lithography of silica glass",
+   "resolved": true
+  },
+  {
+   "key": "baudet2019",
+   "doi": "10.1364/ome.9.002307",
+   "url": "https://doi.org/10.1364/ome.9.002307",
+   "title": "3D-printing of arsenic sulfide chalcogenide glasses",
+   "authors": [
+    "E. Baudet",
+    "Yannick Ledemi",
+    "Pierre M. Larochelle",
+    "Steeve Morency",
+    "Younès Messaddeq"
+   ],
+   "year": 2019,
+   "venue": "Optical Materials Express",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1364/ome.9.002307",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/baudet2019.bib",
+   "relevance_summary": "Laval COPL: filament-fed FDM of chalcogenide glass (direct low-Tg melt extrusion)",
+   "resolved": true
+  },
+  {
+   "key": "laval2023preform",
+   "doi": "10.1016/j.addma.2023.103899",
+   "url": "https://doi.org/10.1016/j.addma.2023.103899",
+   "title": "3D soft glass printing of preforms for microstructured optical fibers",
+   "authors": [
+    "Przemysław Gołębiewski",
+    "Paweł Wiencław",
+    "Jarosław Cimek",
+    "Paweł Socha",
+    "Dariusz Pysz",
+    "Adam Filipkowski",
+    "Grzegorz Stępniewski",
+    "Olga Czerwińska",
+    "Ireneusz Kujawa",
+    "Ryszard Stępień",
+    "Rafał Kasztelanic",
+    "Andrzej Burgs",
+    "Ryszard R. Buczynski"
+   ],
+   "year": 2023,
+   "venue": "Additive manufacturing",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.addma.2023.103899",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/laval2023preform.bib",
+   "relevance_summary": "Direct soft-glass printing of fibre preforms",
+   "resolved": true
+  },
+  {
+   "key": "zhang2021review",
+   "doi": "10.1007/s12200-020-1009-z",
+   "url": "https://doi.org/10.1007/s12200-020-1009-z",
+   "title": "3D printing of glass by additive manufacturing techniques: a review",
+   "authors": [
+    "Dao Zhang",
+    "Xiaofeng Liu",
+    "Jianrong Qiu"
+   ],
+   "year": 2020,
+   "venue": "Frontiers of Optoelectronics",
+   "is_oa": true,
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9743845",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/zhang2021review.bib",
+   "relevance_summary": "Review: 3D printing of glass by AM techniques (FDM, SLS/SLM, SLA, DIW)",
+   "resolved": true
+  },
+  {
+   "key": "critical2025",
+   "doi": "10.3390/app15063414",
+   "url": "https://doi.org/10.3390/app15063414",
+   "title": "The Additive Manufacturing of Glass: A Critical Review",
+   "authors": [
+    "Mackinley Shaw",
+    "Dylan Vlahopoulos",
+    "Clara Usma-Mansfield",
+    "Jeffrey Sarmiento",
+    "Roland Snooks",
+    "Tony Koutsonikolas",
+    "N. Birbilis"
+   ],
+   "year": 2025,
+   "venue": "Applied Sciences",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.3390/app15063414",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/critical2025.bib",
+   "relevance_summary": "2025 critical review of glass AM incl. semi-solid/molten processing, architecture & art",
+   "resolved": true
+  },
+  {
+   "key": "jmmp2026review",
+   "doi": "10.3390/jmmp10080289",
+   "url": "https://doi.org/10.3390/jmmp10080289",
+   "title": "Glass Additive Manufacturing Technologies: Approaches, Applications, and Challenges",
+   "authors": [
+    "Edwin Cardenas",
+    "Edgar Torres",
+    "Alison Dayana García Rodríguez"
+   ],
+   "year": 2026,
+   "venue": "Journal of Manufacturing and Materials Processing",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2504-4494/10/8/289/pdf?version=1786110681",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/jmmp2026review.bib",
+   "relevance_summary": "2026 review: glass AM technologies, approaches, applications, challenges",
+   "resolved": true
+  },
+  {
+   "key": "matdes2023review",
+   "doi": "10.1016/j.matdes.2023.111736",
+   "url": "https://doi.org/10.1016/j.matdes.2023.111736",
+   "title": "A comprehensive review on additive manufacturing of glass: Recent progress and future outlook",
+   "authors": [
+    "Chenxing Xin",
+    "Zheng Li",
+    "Liang Hao",
+    "Yan Li"
+   ],
+   "year": 2023,
+   "venue": "Materials & Design",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.matdes.2023.111736",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/matdes2023review.bib",
+   "relevance_summary": "Comprehensive review of glass AM 2023",
+   "resolved": true
+  },
+  {
+   "key": "micromachines2022",
+   "doi": "10.3390/mi13010081",
+   "url": "https://doi.org/10.3390/mi13010081",
+   "title": "Overview of 3D-Printed Silica Glass",
+   "authors": [
+    "Han Zhang",
+    "Long Huang",
+    "Mingyue Tan",
+    "Shaoqing Zhao",
+    "Hua Liu",
+    "Zifeng Lu",
+    "Jinhuan Li",
+    "Zhongzhu Liang"
+   ],
+   "year": 2022,
+   "venue": "Micromachines",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2072-666X/13/1/81/pdf?version=1641301030",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/micromachines2022.bib",
+   "relevance_summary": "Overview of 3D-printed silica glass routes",
+   "resolved": true
+  },
+  {
+   "key": "solgel2025",
+   "doi": "10.1007/s10971-025-06664-1",
+   "url": "https://doi.org/10.1007/s10971-025-06664-1",
+   "title": "Sol-gel technologies for additive manufacturing glass materials",
+   "authors": [
+    "Mamta Murthi",
+    "Joel F. Destino"
+   ],
+   "year": 2025,
+   "venue": "Journal of Sol-Gel Science and Technology",
+   "is_oa": true,
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+   "local_path": "sources/papers/2025_Murthi_Sol_gel_technologies_for_additive_manufa.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/solgel2025.bib",
+   "relevance_summary": "Sol-gel technologies for AM of glass",
+   "resolved": true
+  },
+  {
+   "key": "fluegel2007",
+   "doi": "",
+   "url": "https://openalex.org/W2512218045",
+   "title": "Glass viscosity calculation based on a global statistical modelling approach",
+   "authors": [
+    "Alexander Fluegel"
+   ],
+   "year": 2007,
+   "venue": "Glass Technology",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": "sources/papers/2007_Fluegel_Glass_viscosity_calculation_global_statistical_model.pdf",
+   "bibtex_path": null,
+   "relevance_summary": "VFT-based global viscosity model for silicate glasses (basis for viscosity curves)",
+   "resolved": true
+  },
+  {
+   "key": "aben2008",
+   "doi": "10.1111/j.1475-1305.2008.00422.x",
+   "url": "https://doi.org/10.1111/j.1475-1305.2008.00422.x",
+   "title": "Modern Photoelasticity for Residual Stress Measurement in Glass",
+   "authors": [
+    "Hillar K. Aben",
+    "Johan Anton",
+    "Andrei Errapart"
+   ],
+   "year": 2008,
+   "venue": "Strain",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/aben2008.bib",
+   "relevance_summary": "Photoelastic residual stress measurement in glass (Aben et al.)",
+   "resolved": true
+  },
+  {
+   "key": "zircorr2025",
+   "doi": "10.1111/ijac.15064",
+   "url": "https://doi.org/10.1111/ijac.15064",
+   "title": "Corrosion of zirconium‐based refractories in glass‐contact areas: Mechanisms and challenges",
+   "authors": [
+    "Cristian Perez Velasquez",
+    "Maziar Montazerian",
+    "John C. Mauro"
+   ],
+   "year": 2025,
+   "venue": "International Journal of Applied Ceramic Technology",
+   "is_oa": true,
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijac.15064",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/zircorr2025.bib",
+   "relevance_summary": "Corrosion of zirconium-based refractories in glass-contact areas",
+   "resolved": true
+  },
+  {
+   "key": "microfluidics2019",
+   "doi": "10.1039/c8ay01934g",
+   "url": "https://doi.org/10.1039/c8ay01934g",
+   "title": "Chemical analysis using 3D printed glass microfluidics",
+   "authors": [
+    "Eran Gal-Or",
+    "Yaniv Gershoni",
+    "Gianmario Scotti",
+    "Sofia M. E. Nilsson",
+    "Jukka K. S. Saarinen",
+    "Ville P. Jokinen",
+    "Clare J. Strachan",
+    "Gustav Boije af Gennäs",
+    "Jari T. Yli‐Kauhaluoma",
+    "Tapio Kotiaho"
+   ],
+   "year": 2019,
+   "venue": "Analytical Methods",
+   "is_oa": true,
+   "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2019/ay/c8ay01934g",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/microfluidics2019.bib",
+   "relevance_summary": "Chemical analysis using 3D-printed glass microfluidics",
+   "resolved": true
+  },
+  {
+   "key": "vti2022",
+   "doi": "10.1145/3559400.3565596",
+   "url": "https://doi.org/10.1145/3559400.3565596",
+   "title": "Applied Viscous Thread Instability for Manufacturing 3D Printed Foams",
+   "authors": [
+    "Brett Addison Emery",
+    "Daniel L. Revier"
+   ],
+   "year": 2022,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/vti2022.bib",
+   "relevance_summary": "Applied viscous thread instability for 3D-printed foams (VTP model)",
+   "resolved": true
+  },
+  {
+   "key": "luo2016spie",
+   "doi": "10.1117/12.2218137",
+   "url": "https://doi.org/10.1117/12.2218137",
+   "title": "Additive manufacturing of glass for optical applications",
+   "authors": [
+    "Junjie Luo",
+    "Luke J. Gilbert",
+    "Douglas A. Bristow",
+    "Robert G. Landers",
+    "Jonathan T. Goldstein",
+    "Augustine M. Urbas",
+    "Edward C. Kinzel"
+   ],
+   "year": 2016,
+   "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/luo2016spie.bib",
+   "relevance_summary": "Filament-fed CO2-laser AM of fused quartz for optics (SPIE 2016)",
+   "resolved": true
+  },
+  {
+   "key": "capps2021interface",
+   "doi": "10.1016/j.mfglet.2021.08.005",
+   "url": "https://doi.org/10.1016/j.mfglet.2021.08.005",
+   "title": "Direct laser heating of the filament/substrate interface in digital glass forming",
+   "authors": [
+    "Nicholas E. Capps",
+    "Jonathan T. Goldstein",
+    "Katharina Rettschlag",
+    "Khodor Sleiman",
+    "Peter Jaeschke",
+    "Stefan Kaierle",
+    "Edward C. Kinzel"
+   ],
+   "year": 2021,
+   "venue": "Manufacturing Letters",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.mfglet.2021.08.005",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/capps2021interface.bib",
+   "relevance_summary": "Side-injected laser heating of filament/substrate interface to raise deposition rate (Kinzel group)",
+   "resolved": true
+  },
+  {
+   "key": "dgf2023tubes",
+   "doi": "10.1115/1.4056200",
+   "url": "https://doi.org/10.1115/1.4056200",
+   "title": "Printing Hollow Tubes Using Digital Glass Forming",
+   "authors": [
+    "Nicholas E. Capps",
+    "Kiva Ford",
+    "Jonathan T. Goldstein",
+    "Edward C. Kinzel"
+   ],
+   "year": 2022,
+   "venue": "Journal of Manufacturing Science and Engineering",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/dgf2023tubes.bib",
+   "relevance_summary": "Hollow tubes by digital glass forming (JMSE 2023)",
+   "resolved": true
+  },
+  {
+   "key": "hostetler2019optics",
+   "doi": "10.1364/oft.2019.ot2a.3",
+   "url": "https://doi.org/10.1364/oft.2019.ot2a.3",
+   "title": "Glass Printing for Optics and Photonics Applications using a Filament-Fed Laser-Heated Process",
+   "authors": [
+    "Nicholas E. Capps",
+    "Jason E. Johnson",
+    "Jonathan T. Goldstein",
+    "Edward C. Kinzel"
+   ],
+   "year": 2019,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/hostetler2019optics.bib",
+   "relevance_summary": "Filament-fed laser-heated printing for optics/photonics",
+   "resolved": true
+  },
+  {
+   "key": "bubbles2018",
+   "doi": "10.1117/12.2224321",
+   "url": "https://doi.org/10.1117/12.2224321",
+   "title": "Bubble formation in additive manufacturing of glass",
+   "authors": [
+    "Junjie Luo",
+    "Luke J. Gilbert",
+    "Daniel Peters",
+    "Douglas A. Bristow",
+    "Robert G. Landers",
+    "Jonathan T. Goldstein",
+    "Augustine M. Urbas",
+    "Edward C. Kinzel"
+   ],
+   "year": 2016,
+   "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/bubbles2018.bib",
+   "relevance_summary": "Bubble formation mechanisms in laser filament AM of glass",
+   "resolved": true
+  },
+  {
+   "key": "seel2018",
+   "doi": "10.1002/mawe.201800075",
+   "url": "https://doi.org/10.1002/mawe.201800075",
+   "title": "Fused glass deposition modelling for applications in the built environment",
+   "authors": [
+    "Matthias Seel",
+    "Robert Akerboom",
+    "Ulrich Knaack",
+    "Matthias Oechsner",
+    "Paul M.J. Van den Hof",
+    "Jens Schneider"
+   ],
+   "year": 2018,
+   "venue": "Materialwissenschaft und Werkstofftechnik",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/seel2018.bib",
+   "relevance_summary": "Fused glass deposition modelling for the built environment (TU Darmstadt): laser melting of glass rod onto float glass",
+   "resolved": true
+  },
+  {
+   "key": "pointfixings2024",
+   "doi": "10.1007/s40940-024-00290-z",
+   "url": "https://doi.org/10.1007/s40940-024-00290-z",
+   "title": "Design of additively manufactured glass components for glass point fixings",
+   "authors": [
+    "Philipp Amir Chhadeh",
+    "Khodor Sleiman",
+    "Henriette Hoffmann",
+    "Nicole Funke",
+    "Katharina Rettschlag",
+    "Peter Jäschke",
+    "Mascha Baitinger",
+    "Ulrich Knaack",
+    "Stefan Kaierle",
+    "Matthias Seel"
+   ],
+   "year": 2025,
+   "venue": "Glass Structures & Engineering",
+   "is_oa": true,
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00290-z.pdf",
+   "local_path": "sources/papers/2025_Chhadeh_Design_of_additively_manufactured_glass_.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/pointfixings2024.bib",
+   "relevance_summary": "Design of additively manufactured glass components for glass point fixings",
+   "resolved": true
+  },
+  {
+   "key": "multimat2026",
+   "doi": "10.1007/s40964-026-01543-9",
+   "url": "https://doi.org/10.1007/s40964-026-01543-9",
+   "title": "Multi-material glass additive manufacturing: a review of materials, techniques, and integration challenges",
+   "authors": [
+    "Bahar Gharehpapagh",
+    "Rezo Aliyev",
+    "Neel Kamal Gupta",
+    "Magdalena Milek",
+    "Henning Zeidler"
+   ],
+   "year": 2026,
+   "venue": "Progress in Additive Manufacturing",
+   "is_oa": true,
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s40964-026-01543-9.pdf",
+   "local_path": "sources/papers/2026_Gharehpapagh_Multi_material_glass_additive_manufactur.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/multimat2026.bib",
+   "relevance_summary": "Review: multi-material glass AM",
+   "resolved": true
+  },
+  {
+   "key": "regolithreview2023",
+   "doi": "10.1007/s40964-023-00537-1",
+   "url": "https://doi.org/10.1007/s40964-023-00537-1",
+   "title": "Regolith sintering and 3D printing for lunar construction: An extensive review on recent progress",
+   "authors": [
+    "Muhammad Shazwan Suhaizan",
+    "Phuong Tran",
+    "Ash Exner",
+    "Brian George Falzon"
+   ],
+   "year": 2023,
+   "venue": "Progress in Additive Manufacturing",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/regolithreview2023.bib",
+   "relevance_summary": "Review: regolith sintering and 3D printing for lunar construction",
+   "resolved": true
+  },
+  {
+   "key": "regolithvac2024",
+   "query": "T:Additive Manufacturing with Molten Lunar Regolith under Vacuum Conditions",
+   "resolved": false,
+   "relevance_summary": "Molten regolith extrusion from Pt-Rh crucible under vacuum"
+  },
+  {
+   "key": "grotesk2022",
+   "doi": "10.1007/978-3-030-96501-3_1",
+   "url": "https://doi.org/10.1007/978-3-030-96501-3_1",
+   "title": "Additive Manufacturing of Glass Materials for the Production of Optical, Thermal and Structural Components",
+   "authors": [
+    "Katharina Rettschlag",
+    "Fabian Kranert",
+    "Moritz Hinkelmann",
+    "Peter Jäschke",
+    "Stefan Kaierle",
+    "Roland Lachmayer"
+   ],
+   "year": 2022,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/grotesk2022.bib",
+   "relevance_summary": "GROTESK: LGD of glass for optical, thermal, structural components (LZH)",
+   "resolved": true
+  },
+  {
+   "key": "pgm2010",
+   "doi": "10.1595/147106710x514012",
+   "url": "https://doi.org/10.1595/147106710x514012",
+   "title": "Platinum Group Metals in Glass Making",
+   "authors": [
+    "Christophe Couderc"
+   ],
+   "year": 2010,
+   "venue": "Platinum Metals Review",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1595/147106710x514012",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/pgm2010.bib",
+   "relevance_summary": "Platinum-group metals in glass making: Pt-Rh bushings/nozzles, corrosion",
+   "resolved": true
+  },
+  {
+   "key": "stern2024cgc",
+   "doi": "10.47982/cgc.9.583",
+   "url": "https://doi.org/10.47982/cgc.9.583",
+   "title": "Advancing Sustainable 3D Printing: The Feasibility of Recycled Glass as a Building Material With Additive Manufacturing",
+   "authors": [
+    "Michael Stern",
+    "Ethan Townsend",
+    "Daniel Massimino",
+    "Kaitlyn Becker"
+   ],
+   "year": 2024,
+   "venue": "Challenging glass conference proceedings",
+   "is_oa": true,
+   "oa_url": "https://proceedings.challengingglass.com/index.php/cgc/article/download/583/483",
+   "local_path": "sources/papers/2024_Stern_Advancing_Sustainable_3D_Printing_The_Fe.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/stern2024cgc.bib",
+   "relevance_summary": "Evenline/MIT: recycled float and container glass on G3DP3, VFT viscosity matching, IR thermography",
+   "resolved": true
+  },
+  {
+   "key": "machines2026meltpool",
+   "doi": "10.3390/machines14010122",
+   "url": "https://doi.org/10.3390/machines14010122",
+   "title": "Melt Pool Dynamics and Quantitative Prediction of Surface Topography in Laser Selective Forming of Optical Glass",
+   "authors": [
+    "Lianshuang Ning",
+    "Weijie Fu",
+    "Xinming Zhang"
+   ],
+   "year": 2026,
+   "venue": "Machines",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2075-1702/14/1/122/pdf",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/machines2026meltpool.bib",
+   "relevance_summary": "Melt pool dynamics / surface topography prediction in laser selective forming of optical glass",
+   "resolved": true
+  },
+  {
+   "key": "packaging2026",
+   "doi": "10.3390/ma19030506",
+   "url": "https://doi.org/10.3390/ma19030506",
+   "title": "Packaging Glasses: From Containers to Encapsulation Composition, Performance, and Sustainability Pathways",
+   "authors": [
+    "Leonardo Pagnotta"
+   ],
+   "year": 2026,
+   "venue": "Materials",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/1996-1944/19/3/506/pdf?version=1769521525",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/packaging2026.bib",
+   "relevance_summary": "Packaging glasses review (containers to encapsulation)",
+   "resolved": true
+  },
+  {
+   "key": "pfarr2023",
+   "doi": "10.1007/s44150-022-00080-7",
+   "url": "https://doi.org/10.1007/s44150-022-00080-7",
+   "title": "Prototyping of digitally manufactured thin glass composite façade panels",
+   "authors": [
+    "Daniel Pfarr",
+    "Christian Louter"
+   ],
+   "year": 2023,
+   "venue": "Architecture Structures and Construction",
+   "is_oa": true,
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s44150-022-00080-7.pdf",
+   "local_path": "sources/papers/2023_Pfarr_Prototyping_of_digitally_manufactured_th.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/pfarr2023.bib",
+   "relevance_summary": "Digitally manufactured thin glass composite facade panels",
+   "resolved": true
+  },
+  {
+   "key": "lei2019cleo",
+   "doi": "10.1364/cleo_at.2019.aw3i.4",
+   "url": "https://doi.org/10.1364/cleo_at.2019.aw3i.4",
+   "title": "Additive Manufacturing of Fused Silica Glass Using Direct Laser Melting",
+   "authors": [
+    "Jincheng Lei",
+    "Yuzhe Hong",
+    "Qi Zhang",
+    "Fei Peng",
+    "Hai Xiao"
+   ],
+   "year": 2019,
+   "venue": "Conference on Lasers and Electro-Optics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/lei2019cleo.bib",
+   "relevance_summary": "Paste extrusion + in-situ CO2 laser melting of fused silica (CLEO 2019)",
+   "resolved": true
+  },
+  {
+   "key": "khmyrov2014",
+   "doi": "10.1016/j.phpro.2014.08.117",
+   "url": "https://doi.org/10.1016/j.phpro.2014.08.117",
+   "title": "On the Possibility of Selective Laser Melting of Quartz Glass",
+   "authors": [
+    "Roman Sergeevich Khmyrov",
+    "Sergey Nikolaevich Grigoriev",
+    "Anna A. Okunkova",
+    "Andrey Vladimirovich Gusarov"
+   ],
+   "year": 2014,
+   "venue": "Physics Procedia",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.phpro.2014.08.117",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/khmyrov2014.bib",
+   "relevance_summary": "Early SLM of quartz glass (Physics Procedia 2014)",
+   "resolved": true
+  },
+  {
+   "key": "rammig2012",
+   "doi": "10.3233/978-1-61499-061-1-315",
+   "url": "https://doi.org/10.3233/978-1-61499-061-1-315",
+   "title": "Direct Glass Fabrication – New Applications of Glass with Additive Processes",
+   "authors": [
+    "Rammig Lisa"
+   ],
+   "year": 2012,
+   "venue": "IOS Press eBooks",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/rammig2012.bib",
+   "relevance_summary": "Torch-based direct glass fabrication of connections (Rammig 2012)",
+   "resolved": true
+  },
+  {
+   "key": "arxiv2001_03589",
+   "doi": "",
+   "url": "https://arxiv.org/abs/2001.03589",
+   "title": "Freeform microfluidic networks encapsulated in laser printed three-dimensional macro-scale glass objects (arXiv preprint)",
+   "authors": [
+    "(see arXiv listing)"
+   ],
+   "year": 2020,
+   "venue": "arXiv",
+   "is_oa": true,
+   "local_path": "sources/papers/2020_Freeform_microfluidic_networks_laser_printed_glass_arxiv.pdf",
+   "relevance_summary": "Laser-printed glass with embedded microfluidic channels (application vertical: microfluidics)",
+   "resolved": true
+  },
+  {
+   "key": "weber2020photon",
+   "doi": "10.1016/j.buildenv.2020.106957",
+   "url": "https://doi.org/10.1016/j.buildenv.2020.106957",
+   "title": "Photon mapping of geometrically complex glass structures: Methods and experimental evaluation",
+   "authors": [
+    "Ramon Weber",
+    "Christoph F. Reinhart",
+    "Neri Oxman"
+   ],
+   "year": 2020,
+   "venue": "Building and Environment",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1016/j.buildenv.2020.106957",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/weber2020photon.bib",
+   "relevance_summary": "Radiance photon-mapping (forward light simulation) of geometrically complex 3D-printed glass; benchmarked against measurements on G3DP printed columns",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "kassubeck2021caustics",
+   "doi": "10.1109/WACV48630.2021.00292",
+   "url": "https://doi.org/10.1109/WACV48630.2021.00292",
+   "title": "Shape from Caustics: Reconstruction of 3D-Printed Glass from Simulated Caustic Images",
+   "authors": [
+    "Marc Kassubeck",
+    "Florian Bürgel",
+    "Susana Castillo",
+    "Sebastian Stiller",
+    "Marcus A. Magnor"
+   ],
+   "year": 2021,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": "sources/papers/2021_Kassubeck_Shape_from_Caustics_Reconstruction_of_3D.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/kassubeck2021caustics.bib",
+   "relevance_summary": "Inverse rendering: reconstruct 3D-printed glass shape from its caustic image with differentiable light transport and a deposited-volume regulariser (TU Braunschweig)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "chhadeh2026toolpath",
+   "doi": "10.1038/s44334-026-00072-1",
+   "url": "https://doi.org/10.1038/s44334-026-00072-1",
+   "title": "The effect of toolpath design on the mechanical strength of additively manufactured glass components",
+   "authors": [
+    "Philipp Amir Chhadeh",
+    "Emanuel Nowak",
+    "Dylan Vlahopoulos",
+    "Matthias Seel",
+    "N. Birbilis"
+   ],
+   "year": 2026,
+   "venue": "npj Advanced Manufacturing",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1038/s44334-026-00072-1",
+   "local_path": "sources/papers/2026_Chhadeh_The_effect_of_toolpath_design_on_the_mec.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/chhadeh2026toolpath.bib",
+   "relevance_summary": "Effect of toolpath design and layer orientation on bending strength of rod-fed FDM-type soda-lime glass parts (TU Darmstadt); mechanical objective only",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "rettschlag2020microlens",
+   "doi": "10.1016/j.procir.2020.09.052",
+   "url": "https://doi.org/10.1016/j.procir.2020.09.052",
+   "title": "Laser glass deposition of spheres for printing micro lenses",
+   "authors": [
+    "Katharina Rettschlag",
+    "Arndt Hohnholz",
+    "Peter Jäschke",
+    "Dietmar Kracht",
+    "Stefan Kaierle",
+    "Roland Lachmayer"
+   ],
+   "year": 2020,
+   "venue": "Procedia CIRP",
+   "is_oa": true,
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2212827120312373/pdf",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/rettschlag2020microlens.bib",
+   "relevance_summary": "Laser glass deposition of fused-silica spheres for micro-lens matrices: deposition parameters set lens geometry (LZH Hannover)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "kranert2020waveguide",
+   "doi": "10.1117/12.2554516",
+   "url": "https://doi.org/10.1117/12.2554516",
+   "title": "Generation of functional curved waveguides by CO2-laser based deposition of coreless fused silica fibers",
+   "authors": [
+    "Fabian Kranert",
+    "Katharina Rettschlag",
+    "Andreas Wienke",
+    "Arndt Hohnholz",
+    "Jörg Neumann",
+    "Peter Jäschke",
+    "Dietmar Kracht",
+    "Roland Lachmayer"
+   ],
+   "year": 2020,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kranert2020waveguide.bib",
+   "relevance_summary": "Curved, nearly stress-free waveguides by CO2-laser deposition of coreless fused-silica fibres: deposition path defines light guiding (LZH Hannover)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "hong2023germanate",
+   "doi": "10.3390/photonics10040378",
+   "url": "https://doi.org/10.3390/photonics10040378",
+   "title": "Fiber-Fed 3D Printing of Germanate Glass Optics",
+   "authors": [
+    "Zhihan Hong",
+    "Tao Luo",
+    "Shibin Jiang",
+    "Rongguang Liang"
+   ],
+   "year": 2023,
+   "venue": "Photonics",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2304-6732/10/4/378/pdf?version=1680182399",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/hong2023germanate.bib",
+   "relevance_summary": "Fiber-fed laser printing of germanate glass spherical/aspherical lenses with temperature feedback; deposition strategy defines optical surface",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "dyllaspears2020grin",
+   "doi": "10.1126/sciadv.abc7429",
+   "url": "https://doi.org/10.1126/sciadv.abc7429",
+   "title": "3D printed gradient index glass optics",
+   "authors": [
+    "Rebecca J. Dylla-Spears",
+    "Timothy D. Yee",
+    "Koroush Sasan",
+    "Du Thai Nguyen",
+    "Nikola A. Dudukovic",
+    "Jason M. Ortega",
+    "Michael Austin Johnson",
+    "Oscar D. Herrera",
+    "Frederick J. Ryerson",
+    "Lana L. Wong"
+   ],
+   "year": 2020,
+   "venue": "Science Advances",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1126/sciadv.abc7429",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/dyllaspears2020grin.bib",
+   "relevance_summary": "LLNL direct-ink-writing GRIN glass optics: refractive-index profile programmed into the toolpath via inline ink mixing (indirect route)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "sage2026fermat",
+   "doi": "10.1016/j.addma.2026.105214",
+   "url": "https://doi.org/10.1016/j.addma.2026.105214",
+   "title": "Towards gradient multimaterial toolpath generation for direct ink writing with connected fermat spirals",
+   "authors": [
+    "M.R. Sage",
+    "Rodrigo Telles",
+    "H.R. Galvan",
+    "N.A. Dudukovic",
+    "A.E. Gongora",
+    "C.C. Cook",
+    "V.S. Vuppuluri",
+    "A.M. Golobic",
+    "B.L. Walton",
+    "D.T. Nguyen"
+   ],
+   "year": 2026,
+   "venue": "Additive manufacturing",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/sage2026fermat.bib",
+   "relevance_summary": "LLNL gradient multimaterial toolpath generation (connected Fermat spirals, velocity compensation) for DIW of graded optics such as GRIN glass",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "kumar2022transparency",
+   "doi": "10.1080/2374068x.2022.2153518",
+   "url": "https://doi.org/10.1080/2374068x.2022.2153518",
+   "title": "Parametric investigation into the transparency of PLA parts fabricated through fused filament fabrication",
+   "authors": [
+    "Atish Kumar",
+    "Narendra Kumar"
+   ],
+   "year": 2022,
+   "venue": "Advances in Materials and Processing Technologies",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kumar2022transparency.bib",
+   "relevance_summary": "Parametric study of FFF transparent PLA: layer height, temperature, raster angle, orientation, road width, speed vs UV-Vis transmittance",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "kumar2024transparency",
+   "doi": "10.1016/j.optlastec.2024.110865",
+   "url": "https://doi.org/10.1016/j.optlastec.2024.110865",
+   "title": "Enhancing optical transparency of 3D printed PLA parts via multi-response optimization",
+   "authors": [
+    "Atish Kumar",
+    "Narendra Kumar"
+   ],
+   "year": 2024,
+   "venue": "Optics & Laser Technology",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kumar2024transparency.bib",
+   "relevance_summary": "Multi-response optimisation of FFF PLA transparency and spatial resolution (layer height, road width, deposition speed)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "vochozka2024translucency",
+   "doi": "10.3390/polym16202862",
+   "url": "https://doi.org/10.3390/polym16202862",
+   "title": "Fused Filament Fabrication 3D Printing Parameters Affecting the Translucency of Polylactic Acid Parts",
+   "authors": [
+    "Vladimír Vochozka",
+    "Pavel Černý",
+    "Karel Šramhauser",
+    "František Špalek",
+    "Pavel Kříž",
+    "Jiří Čech",
+    "Tomáš Zoubek",
+    "Petr Bartoš",
+    "Jan Kresan",
+    "Radim Stehlík"
+   ],
+   "year": 2024,
+   "venue": "Polymers",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.3390/polym16202862",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/vochozka2024translucency.bib",
+   "relevance_summary": "Six FFF parameters (orientation, layer height, temperature, fan, extrusion multiplier, speed) vs translucency of PLA parts",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "quero2021microfluidic",
+   "doi": "10.1039/d1lc00518a",
+   "url": "https://doi.org/10.1039/d1lc00518a",
+   "title": "Understanding and improving FDM 3D printing to fabricate high-resolution and optically transparent microfluidic devices",
+   "authors": [
+    "Reverson Fernandes Quero",
+    "Géssica Domingos da Silveira",
+    "José Alberto Fracassi da Silva",
+    "Dosil Pereira de Jesus"
+   ],
+   "year": 2021,
+   "venue": "Lab on a Chip",
+   "is_oa": true,
+   "oa_url": "https://hdl.handle.net/20.500.12733/2315",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/quero2021microfluidic.bib",
+   "relevance_summary": "FDM transparent microfluidics: layer height/width and nozzle geometry vs resolution and ~80% visible transmission",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "hamp2021transmittance",
+   "doi": "10.1364/ao.427525",
+   "url": "https://doi.org/10.1364/ao.427525",
+   "title": "Optical transmittance of 3D printing materials",
+   "authors": [
+    "Shannon M. Hamp",
+    "Riley D. Logan",
+    "Joseph A. A. Shaw"
+   ],
+   "year": 2021,
+   "venue": "Applied Optics",
+   "is_oa": true,
+   "oa_url": "https://scholarworks.montana.edu/bitstreams/83115eb3-593b-494a-83ed-769b8f24cff2/download",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/hamp2021transmittance.bib",
+   "relevance_summary": "Spectral transmittance of FDM samples vs layer height/width, temperature, speed and orientation (Applied Optics)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "amendola2021diffuse",
+   "doi": "10.1371/journal.pone.0253181",
+   "url": "https://doi.org/10.1371/journal.pone.0253181",
+   "title": "Optical characterization of 3D printed PLA and ABS filaments for diffuse optics applications",
+   "authors": [
+    "Caterina Amendola",
+    "Michele Lacerenza",
+    "Ileana Pirovano",
+    "Davide Contini",
+    "Lorenzo Spinelli",
+    "Rinaldo Cubeddu",
+    "Alessandro M. Torricelli",
+    "Rebecca Re"
+   ],
+   "year": 2021,
+   "venue": "PLoS ONE",
+   "is_oa": true,
+   "oa_url": "https://doi.org/10.1371/journal.pone.0253181",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/amendola2021diffuse.bib",
+   "relevance_summary": "Absorption/scattering coefficients of FDM PLA and ABS parts as a function of printing parameters for diffuse-optics phantoms",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "ren2023anisotropy",
+   "doi": "10.1016/j.optmat.2023.113743",
+   "url": "https://doi.org/10.1016/j.optmat.2023.113743",
+   "title": "Optical anisotropy of transparent polymer materials fabricated via 3D printing and their application in photoelasticity",
+   "authors": [
+    "Zhangyu Ren",
+    "Yang Ju"
+   ],
+   "year": 2023,
+   "venue": "Optical Materials",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/ren2023anisotropy.bib",
+   "relevance_summary": "Optical anisotropy (birefringence) of 3D-printed transparent polymers and its dependence on the printing process",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "blachowicz2021optical",
+   "doi": "10.1515/epoly-2021-0061",
+   "url": "https://doi.org/10.1515/epoly-2021-0061",
+   "title": "Optical elements from 3D printed polymers",
+   "authors": [
+    "Tomasz Błachowicz",
+    "Guido Ehrmann",
+    "Andrea Ehrmann"
+   ],
+   "year": 2021,
+   "venue": "e-Polymers",
+   "is_oa": true,
+   "oa_url": "https://www.degruyter.com/document/doi/10.1515/epoly-2021-0061/pdf",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/blachowicz2021optical.bib",
+   "relevance_summary": "Review of optical elements from 3D-printed polymers incl. FDM lenses whose scattering is tuned by nozzle diameter and raster angle",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "rooney2024lenses",
+   "doi": "10.1002/admt.202400043",
+   "url": "https://doi.org/10.1002/admt.202400043",
+   "title": "Printing, Characterizing, and Assessing Transparent 3D Printed Lenses for Optical Imaging",
+   "authors": [
+    "Liam M. Rooney",
+    "Jay L. Christopher",
+    "Ben Watson",
+    "Yash Susir Kumar",
+    "Laura S. Copeland",
+    "Lewis D. Walker",
+    "Shannan Foylan",
+    "W. B. Amos",
+    "Ralf Bauer",
+    "Gail McConnell"
+   ],
+   "year": 2024,
+   "venue": "Advanced Materials Technologies",
+   "is_oa": true,
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.202400043",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/rooney2024lenses.bib",
+   "relevance_summary": "Printing, characterising and assessing transparent 3D-printed lenses for imaging; layer artefacts removed by spin-coated resin",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "gao2023review",
+   "doi": "10.1016/j.mattod.2023.06.019",
+   "url": "https://doi.org/10.1016/j.mattod.2023.06.019",
+   "title": "3D printed optics and photonics: Processes, materials and applications",
+   "authors": [
+    "Hongwei Gao",
+    "Jia An",
+    "Chee Kai Chua",
+    "David L. Bourell",
+    "C.N. Kuo",
+    "Dawn T. H. Tan"
+   ],
+   "year": 2023,
+   "venue": "Materials Today",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/gao2023review.bib",
+   "relevance_summary": "Review: 3D printed optics and photonics - processes, materials, applications (Materials Today)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "heinrich2016optics",
+   "doi": "10.1515/aot-2016-0021",
+   "url": "https://doi.org/10.1515/aot-2016-0021",
+   "title": "Additive manufacturing of optical components",
+   "authors": [
+    "Andreas Heinrich",
+    "Manuel Rank",
+    "Philippe Maillard",
+    "Anne Suckow",
+    "Yannick Bauckhage",
+    "Patrick Rößler",
+    "Johannes Lang",
+    "F. Ummar Shariff",
+    "Sven Pekrul"
+   ],
+   "year": 2016,
+   "venue": "Advanced Optical Technologies",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/heinrich2016optics.bib",
+   "relevance_summary": "Review: additive manufacturing of optical components (Advanced Optical Technologies)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "anisotag2023",
+   "doi": "10.1145/3544548.3581024",
+   "url": "https://doi.org/10.1145/3544548.3581024",
+   "title": "AnisoTag: 3D Printed Tag on 2D Surface via Reflection Anisotropy",
+   "authors": [
+    "Zehua Ma",
+    "Hang Zhou",
+    "Weiming Zhang"
+   ],
+   "year": 2023,
+   "venue": null,
+   "is_oa": true,
+   "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3544548.3581024",
+   "local_path": "sources/papers/2023_Ma_AnisoTag_3D_Printed_Tag_on_2D_Surface_vi.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/anisotag2023.bib",
+   "relevance_summary": "AnisoTag: FDM toolpath direction encodes reflection anisotropy of printed surfaces (CHI 2023)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "papas2011caustics",
+   "doi": "10.1111/j.1467-8659.2011.01876.x",
+   "url": "https://doi.org/10.1111/j.1467-8659.2011.01876.x",
+   "title": "Goal‐based Caustics",
+   "authors": [
+    "Marios Papas",
+    "Wojciech Jarosz",
+    "Wenzel Jakob",
+    "Szymon M. Rusinkiewicz",
+    "Wojciech Matusik",
+    "Tim Weyrich"
+   ],
+   "year": 2011,
+   "venue": "Computer Graphics Forum",
+   "is_oa": true,
+   "oa_url": "http://infoscience.epfl.ch/record/220036",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/papas2011caustics.bib",
+   "relevance_summary": "Goal-based caustics: micro-facet refractive surface optimised so refracted light forms a target image",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "kiser2013caustics",
+   "doi": "10.1007/978-3-7091-1251-9_7",
+   "url": "https://doi.org/10.1007/978-3-7091-1251-9_7",
+   "title": "Architectural Caustics — Controlling Light with Geometry",
+   "authors": [
+    "Thomas Kiser",
+    "Michael Eigensatz",
+    "Minh Man Nguyen",
+    "Philippe Bompas",
+    "Mark V. Pauly"
+   ],
+   "year": 2012,
+   "venue": null,
+   "is_oa": true,
+   "oa_url": "https://infoscience.epfl.ch/record/307096/files/ARCHI-CAUSTICS_KISER_EIGENSATZ_NGUYEN_BOMPAS_PAULYAAG2012%20%281%29.pdf",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/kiser2013caustics.bib",
+   "relevance_summary": "Architectural caustics: continuous refractive/reflective surfaces controlling light with geometry",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "yue2014caustics",
+   "doi": "10.1145/2580946",
+   "url": "https://doi.org/10.1145/2580946",
+   "title": "Poisson-Based Continuous Surface Generation for Goal-Based Caustics",
+   "authors": [
+    "Yonghao Yue",
+    "Kei Iwasaki",
+    "Bing‐Yu Chen",
+    "Yoshinori Dobashi",
+    "Tomoyuki Nishita"
+   ],
+   "year": 2014,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/yue2014caustics.bib",
+   "relevance_summary": "Poisson-based continuous surface generation for goal-based caustics",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "schwartzburg2014caustics",
+   "doi": "10.1145/2601097.2601200",
+   "url": "https://doi.org/10.1145/2601097.2601200",
+   "title": "High-contrast computational caustic design",
+   "authors": [
+    "Yuliy Schwartzburg",
+    "Romain Testuz",
+    "Andrea Tagliasacchi",
+    "Mark V. Pauly"
+   ],
+   "year": 2014,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": true,
+   "oa_url": "http://infoscience.epfl.ch/record/201509",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/schwartzburg2014caustics.bib",
+   "relevance_summary": "High-contrast computational caustic design via optimal transport; fabricated in acrylic/glass by CNC milling",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "pereira2014routing",
+   "doi": "10.1145/2602140",
+   "url": "https://doi.org/10.1145/2602140",
+   "title": "Computational Light Routing",
+   "authors": [
+    "Thiago Pereira",
+    "Szymon M. Rusinkiewicz",
+    "Wojciech Matusik"
+   ],
+   "year": 2014,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/pereira2014routing.bib",
+   "relevance_summary": "Computational light routing: automatically designed 3D-printed optical fibres inside multi-material printed objects",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "willis2012printedoptics",
+   "doi": "10.1145/2380116.2380190",
+   "url": "https://doi.org/10.1145/2380116.2380190",
+   "title": "Printed optics",
+   "authors": [
+    "Karl D. D. Willis",
+    "Eric Brockmeyer",
+    "Scott E. Hudson",
+    "Ivan Poupyrev"
+   ],
+   "year": 2012,
+   "venue": null,
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/willis2012printedoptics.bib",
+   "relevance_summary": "Printed Optics: embedding light pipes, lenses and sensors in 3D-printed clear objects",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "brunton2018translucency",
+   "doi": "10.1145/3197517.3201349",
+   "url": "https://doi.org/10.1145/3197517.3201349",
+   "title": "3D printing spatially varying color and translucency",
+   "authors": [
+    "Alan Brunton",
+    "Can Ates Arikan",
+    "Tejas Madan Tanksale",
+    "Philipp Urban"
+   ],
+   "year": 2018,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": true,
+   "oa_url": "http://hdl.handle.net/11250/2592720",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/brunton2018translucency.bib",
+   "relevance_summary": "3D printing spatially varying colour and translucency via multi-material halftoning",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "elek2017scattering",
+   "doi": "10.1145/3130800.3130890",
+   "url": "https://doi.org/10.1145/3130800.3130890",
+   "title": "Scattering-aware texture reproduction for 3D printing",
+   "authors": [
+    "Oskár Elek",
+    "Denis Sumin",
+    "Ran Zhang",
+    "Tim Weyrich",
+    "Karol Myszkowski",
+    "Bernd Bickel",
+    "Alexander Wilkie",
+    "Jaroslav Křivánek"
+   ],
+   "year": 2017,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/elek2017scattering.bib",
+   "relevance_summary": "Scattering-aware texture reproduction: inverse volumetric material assignment for 3D printing",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "dong2010sss",
+   "doi": "10.1145/1778765.1778799",
+   "url": "https://doi.org/10.1145/1778765.1778799",
+   "title": "Fabricating spatially-varying subsurface scattering",
+   "authors": [
+    "Yue Dong",
+    "Jiaping Wang",
+    "Fabio Pellacini",
+    "Xin Tong",
+    "Baining Guo"
+   ],
+   "year": 2010,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": true,
+   "oa_url": "https://hdl.handle.net/11380/1299607",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/dong2010sss.bib",
+   "relevance_summary": "Fabricating spatially varying subsurface scattering by layered material stacks",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "papas2013translucent",
+   "doi": "10.1145/2461912.2461974",
+   "url": "https://doi.org/10.1145/2461912.2461974",
+   "title": "Fabricating translucent materials using continuous pigment mixtures",
+   "authors": [
+    "Marios Papas",
+    "Christian Regg",
+    "Wojciech Jarosz",
+    "Bernd Bickel",
+    "Philip Jackson",
+    "Wojciech Matusik",
+    "Steve Marschner",
+    "Markus H. Groß"
+   ],
+   "year": 2013,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/papas2013translucent.bib",
+   "relevance_summary": "Fabricating translucent materials using continuous pigment mixtures",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "zhao2016lampshades",
+   "doi": "10.1145/2907049",
+   "url": "https://doi.org/10.1145/2907049",
+   "title": "Printed Perforated Lampshades for Continuous Projective Images",
+   "authors": [
+    "Haisen Zhao",
+    "Lin Lü",
+    "Li‐Yi Wei",
+    "Dani Lischinski",
+    "Andrei Sharf",
+    "Daniel Cohen‐Or",
+    "Baoquan Chen"
+   ],
+   "year": 2016,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": "sources/papers/2016_Zhao_Printed_Perforated_Lampshades.pdf",
+   "bibtex_path": "sources/data/bibtex_raw/zhao2016lampshades.bib",
+   "relevance_summary": "Printed perforated lampshades whose hole distribution projects a target continuous image",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "weyrich2009microgeometry",
+   "doi": "10.1145/1531326.1531338",
+   "url": "https://doi.org/10.1145/1531326.1531338",
+   "title": "Fabricating microgeometry for custom surface reflectance",
+   "authors": [
+    "Tim Weyrich",
+    "Pieter Peers",
+    "Wojciech Matusik",
+    "Szymon M. Rusinkiewicz"
+   ],
+   "year": 2009,
+   "venue": "ACM Transactions on Graphics",
+   "is_oa": false,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/weyrich2009microgeometry.bib",
+   "relevance_summary": "Fabricating microgeometry (milled microfacets) for custom surface reflectance",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "nagasawa2023translucency",
+   "doi": "10.3390/jimaging9050105",
+   "url": "https://doi.org/10.3390/jimaging9050105",
+   "title": "Perceptual Translucency in 3D Printing Using Surface Texture",
+   "authors": [
+    "Kazuki Nagasawa",
+    "Kamui Ono",
+    "Wataru Arai",
+    "Norimichi Tsumura"
+   ],
+   "year": 2023,
+   "venue": "Journal of Imaging",
+   "is_oa": true,
+   "oa_url": "https://www.mdpi.com/2313-433X/9/5/105/pdf?version=1684830699",
+   "local_path": null,
+   "bibtex_path": "sources/data/bibtex_raw/nagasawa2023translucency.bib",
+   "relevance_summary": "Perceived translucency of 3D-printed objects controlled through surface texture",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "zhou2025caustics",
+   "doi": null,
+   "url": "https://arxiv.org/abs/2511.09361",
+   "title": "Computational Caustic Design for Surface Light Source",
+   "authors": [
+    "Sizhuo Zhou",
+    "Yuou Sun",
+    "Bailin Deng",
+    "Juyong Zhang"
+   ],
+   "year": 2025,
+   "venue": "arXiv preprint 2511.09361",
+   "is_oa": true,
+   "oa_url": "https://arxiv.org/pdf/2511.09361",
+   "local_path": "sources/papers/2025_Zhou_Computational_Caustic_Design_Surface_Light_Source.pdf",
+   "bibtex_path": null,
+   "relevance_summary": "Caustic freeform-lens design for real (surface) light sources via differentiable rendering; physically validated",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "klein2015thesis",
+   "doi": null,
+   "url": "http://hdl.handle.net/1721.1/101831",
+   "title": "Additive manufacturing of optically transparent glass (S.M. thesis)",
+   "authors": [
+    "John S. Klein"
+   ],
+   "year": 2015,
+   "venue": "MIT, Program in Media Arts and Sciences",
+   "is_oa": true,
+   "oa_url": "http://hdl.handle.net/1721.1/101831",
+   "local_path": null,
+   "bibtex_path": null,
+   "relevance_summary": "G3DP thesis: caustic patterns created by projecting light through printed objects; striations and bulges of the print texture control reflection/redirection of light",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  },
+  {
+   "key": "inglessis2017glass2",
+   "doi": null,
+   "url": "https://www.nassia-inglessis.com/6813836-gl1",
+   "title": "Glass 2.0: Templating Light in 3D Printed Glass Architecture",
+   "authors": [
+    "Nassia Inglessis",
+    "Neri Oxman"
+   ],
+   "year": 2017,
+   "venue": "Project documentation (MIT Media Lab Members Week 2016 / GLASS II, Milan 2017)",
+   "is_oa": true,
+   "oa_url": null,
+   "local_path": null,
+   "bibtex_path": null,
+   "relevance_summary": "Double-sided lenticular surfaces of printed glass columns template caustics; stated goal to reverse-engineer geometry from designed light patterns (not achieved)",
+   "resolved": true,
+   "search_round": "I (2026-09-29): toolpath optimisation for optical properties"
+  }
+ ],
+ "patents": [
+  {
+   "key": "US9919510B2",
+   "url": "https://patents.google.com/patent/US9919510B2/en",
+   "local_path": "sources/patents/US9919510B2.pdf",
+   "relevance_summary": "MIT (Inamura, Lizardo, Stern, Houk, Achituv, Oxman): AM with molten glass, 4-axis bed, kiln temps, alumina nozzle"
+  },
+  {
+   "key": "US10464305B2",
+   "url": "https://patents.google.com/patent/US10464305B2/en",
+   "local_path": "sources/patents/US10464305B2.pdf",
+   "relevance_summary": "MIT continuation: Methods and apparatus for AM with molten glass"
+  },
+  {
+   "key": "US10266442B2",
+   "url": "https://patents.google.com/patent/US10266442B2/en",
+   "local_path": "sources/patents/US10266442B2.pdf",
+   "relevance_summary": "MIT (Klein, Stern, Oxman et al.): Methods and apparatus for additive manufacturing of glass (G3DP)"
+  },
+  {
+   "key": "US20210101818A1",
+   "url": "https://patents.google.com/patent/US20210101818A1/en",
+   "local_path": "sources/patents/US20210101818A1.pdf",
+   "relevance_summary": "Corning Inc. application (abandoned): induction-heated Pt-Rh crucible/nozzle rod-fed glass extrusion"
+  }
+ ],
+ "media": [
+  {
+   "local_path": "sources/media/Caustic_patterns_of_a_3D_printed_glass_structure.jpg",
+   "title": "Caustic_patterns_of_a_3D_printed_glass_structure.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Caustic_patterns_of_a_3D_printed_glass_structure.jpg",
+   "license": "CC BY-SA 4.0",
+   "authors": [
+    "Neri Oxman"
+   ],
+   "year": 2015,
+   "relevance_summary": "Photograph of MIT G3DP printed glass lamps showing caustic projection from layer seams"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig1.jpg",
+   "title": "kth2022_fig1.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig2.jpg",
+   "title": "kth2022_fig2.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig3.jpg",
+   "title": "kth2022_fig3.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig4.jpg",
+   "title": "kth2022_fig4.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig5.jpg",
+   "title": "kth2022_fig5.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig6.jpg",
+   "title": "kth2022_fig6.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig7.jpg",
+   "title": "kth2022_fig7.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig8.jpg",
+   "title": "kth2022_fig8.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  },
+  {
+   "local_path": "sources/media/kth2022_fig9.jpg",
+   "title": "kth2022_fig9.jpg",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+   "doi": "10.3389/fmats.2022.978861",
+   "license": "CC BY 4.0",
+   "authors": [
+    "Chunxin Liu",
+    "Taras Oriekhov",
+    "Michael Fokine"
+   ],
+   "year": 2022,
+   "relevance_summary": "Figure from the KTH filament-based glass 3D printing study (setup, bonding widths, multilayer walls)"
+  }
+ ],
+ "figures": [
+  {
+   "local_path": "latex/figures/commons_caustics.jpg",
+   "title": "commons_caustics.jpg",
+   "relevance_summary": "Copied licensed image used in the monograph"
+  },
+  {
+   "local_path": "latex/figures/fig_cord_cooling.pdf",
+   "title": "fig_cord_cooling.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/fig_g3dp_schematic.pdf",
+   "title": "fig_g3dp_schematic.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/fig_laser_filament_schematic.pdf",
+   "title": "fig_laser_filament_schematic.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/fig_rayleigh_plateau.pdf",
+   "title": "fig_rayleigh_plateau.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/fig_taxonomy.pdf",
+   "title": "fig_taxonomy.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/fig_timeline.pdf",
+   "title": "fig_timeline.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/fig_vft_viscosity.pdf",
+   "title": "fig_vft_viscosity.pdf",
+   "relevance_summary": "Generated by scripts/make_figures.py from cited fixed points and textbook relations"
+  },
+  {
+   "local_path": "latex/figures/kth2022_fig1.jpg",
+   "title": "kth2022_fig1.jpg",
+   "relevance_summary": "Copied licensed image used in the monograph"
+  },
+  {
+   "local_path": "latex/figures/vft_fit_parameters.txt",
+   "title": "vft_fit_parameters.txt",
+   "relevance_summary": "Copied licensed image used in the monograph"
+  }
+ ],
+ "deliverables": [
+  {
+   "local_path": "latex/build/main.pdf",
+   "title": "Compiled monograph (Tectonic output)"
+  },
+  {
+   "local_path": "glass_3d_printing_sota_monograph.pdf",
+   "title": "Compiled monograph (copy at workspace root)"
+  },
+  {
+   "local_path": "latex/references.bib",
+   "title": "Validated BibTeX bibliography"
+  },
+  {
+   "local_path": "sources/data/link_check.csv",
+   "title": "Hyperlink validation results"
+  },
+  {
+   "local_path": "sources/data/abstracts_dump.md",
+   "title": "Reconstructed abstracts of all resolved works"
+  },
+  {
+   "local_path": "notes/toolpath_optics_literature.md",
+   "title": "Literature note: toolpath optimisation of transparent deposited materials for optical properties (round I, 2026-09-29)"
+  },
+  {
+   "local_path": "scripts/harvest_toolpath_optics.py",
+   "title": "Round I harvest script (BibTeX, OpenAlex, OA PDFs, manifest records)"
+  }
+ ],
+ "finalized": "2026-09-29 22:11:49",
+ "supplement_round_I": "2026-09-29 22:01:01"
+}

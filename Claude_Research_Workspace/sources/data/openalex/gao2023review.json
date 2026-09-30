@@ -1,0 +1,911 @@
+{
+ "id": "https://openalex.org/W4384830651",
+ "doi": "https://doi.org/10.1016/j.mattod.2023.06.019",
+ "title": "3D printed optics and photonics: Processes, materials and applications",
+ "display_name": "3D printed optics and photonics: Processes, materials and applications",
+ "publication_year": 2023,
+ "publication_date": "2023-07-19",
+ "ids": {
+  "openalex": "https://openalex.org/W4384830651",
+  "doi": "https://doi.org/10.1016/j.mattod.2023.06.019"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.mattod.2023.06.019",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.mattod.2023.06.019",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S63322718",
+   "display_name": "Materials Today",
+   "issn_l": "1369-7021",
+   "issn": [
+    "1369-7021",
+    "1873-4103"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials Today",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5023315006",
+    "display_name": "Hongwei Gao",
+    "orcid": "https://orcid.org/0000-0002-6729-3720",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6729-3720"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I152815399",
+     "display_name": "Singapore University of Technology and Design",
+     "ror": "https://ror.org/05j6fvn87",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I152815399"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hongwei Gao",
+   "raw_affiliation_strings": [
+    "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6729-3720",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore",
+     "institution_ids": [
+      "https://openalex.org/I152815399"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5051166608",
+    "display_name": "Jia An",
+    "orcid": "https://orcid.org/0000-0001-5630-5266",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5630-5266"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I152815399",
+     "display_name": "Singapore University of Technology and Design",
+     "ror": "https://ror.org/05j6fvn87",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I152815399"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jia An",
+   "raw_affiliation_strings": [
+    "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5630-5266",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore",
+     "institution_ids": [
+      "https://openalex.org/I152815399"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5007223613",
+    "display_name": "Chee Kai Chua",
+    "orcid": "https://orcid.org/0000-0003-4536-6199",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4536-6199"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I152815399",
+     "display_name": "Singapore University of Technology and Design",
+     "ror": "https://ror.org/05j6fvn87",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I152815399"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chee Kai Chua",
+   "raw_affiliation_strings": [
+    "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore",
+     "institution_ids": [
+      "https://openalex.org/I152815399"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5004251231",
+    "display_name": "David L. Bourell",
+    "orcid": "https://orcid.org/0000-0002-1630-950X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1630-950X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I86519309",
+     "display_name": "The University of Texas at Austin",
+     "ror": "https://ror.org/00hj54h04",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I86519309"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "David Bourell",
+   "raw_affiliation_strings": [
+    "Mechanical Engineering Department, The University of Texas at Austin, Austin, TX, United States"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical Engineering Department, The University of Texas at Austin, Austin, TX, United States",
+     "institution_ids": [
+      "https://openalex.org/I86519309"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5063568583",
+    "display_name": "C.N. Kuo",
+    "orcid": "https://orcid.org/0000-0001-6538-4867",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6538-4867"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I142974352",
+     "display_name": "National Sun Yat-sen University",
+     "ror": "https://ror.org/00mjawt10",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I142974352"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Che-Nan Kuo",
+   "raw_affiliation_strings": [
+    "Department of Materials and Optoelectronic Science, National Sun Yat-sen University, Kaohsiung, Taiwan"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-6538-4867",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials and Optoelectronic Science, National Sun Yat-sen University, Kaohsiung, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I142974352"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5041988519",
+    "display_name": "Dawn T. H. Tan",
+    "orcid": "https://orcid.org/0000-0002-7111-1125",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7111-1125"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I115228651",
+     "display_name": "Agency for Science, Technology and Research",
+     "ror": "https://ror.org/036wvzt09",
+     "country_code": "SG",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I115228651"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I152815399",
+     "display_name": "Singapore University of Technology and Design",
+     "ror": "https://ror.org/05j6fvn87",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I152815399"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210090209",
+     "display_name": "Institute of Microelectronics",
+     "ror": "https://ror.org/009rw8n36",
+     "country_code": "SG",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I115228651",
+      "https://openalex.org/I4210090209",
+      "https://openalex.org/I91275662"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Dawn T.H. Tan",
+   "raw_affiliation_strings": [
+    "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore",
+    "Institute of Microelectronics, A*STAR, 2 Fusionopolis Way, #08-02, Innovis Tower, Singapore 138634, Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Engineering Product Development (EPD) Pillar, Singapore University of Technology and Design (SUTD), 8 Somapah Road, Singapore 487372, Singapore",
+     "institution_ids": [
+      "https://openalex.org/I152815399"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microelectronics, A*STAR, 2 Fusionopolis Way, #08-02, Innovis Tower, Singapore 138634, Singapore",
+     "institution_ids": [
+      "https://openalex.org/I115228651",
+      "https://openalex.org/I4210090209"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 3,
+ "institutions_distinct_count": 5,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5041988519",
+  "https://openalex.org/A5063568583"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I115228651",
+  "https://openalex.org/I142974352",
+  "https://openalex.org/I152815399",
+  "https://openalex.org/I4210090209"
+ ],
+ "apc_list": {
+  "value": 5300,
+  "currency": "USD",
+  "value_usd": 5300
+ },
+ "apc_paid": null,
+ "fwci": 7.728,
+ "has_fulltext": false,
+ "cited_by_count": 100,
+ "citation_normalized_percentile": {
+  "value": 0.98755369,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 95,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "69",
+  "issue": null,
+  "first_page": "107",
+  "last_page": "132"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11788",
+  "display_name": "Nonlinear Optical Materials Studies",
+  "score": 0.9983000159263611,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.9983000159263611,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12224",
+   "display_name": "Nanofabrication and Lithography Techniques",
+   "score": 0.9969000220298767,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11517",
+   "display_name": "Advanced optical system design",
+   "score": 0.9954000115394592,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/photonics",
+   "display_name": "Photonics",
+   "score": 0.8266982436180115
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.7496981024742126
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.7057545185089111
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.44259414076805115
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.38124725222587585
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.337077796459198
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.31284135580062866
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.19935688376426697
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-engineering",
+   "display_name": "Manufacturing engineering",
+   "score": 0.14200571179389954
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.1157965362071991
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C20788544",
+   "wikidata": "https://www.wikidata.org/wiki/Q467054",
+   "display_name": "Photonics",
+   "level": 2,
+   "score": 0.8266982436180115
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.7496981024742126
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.7057545185089111
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.44259414076805115
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.38124725222587585
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.337077796459198
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.31284135580062866
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.19935688376426697
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.14200571179389954
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.1157965362071991
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.mattod.2023.06.019",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.mattod.2023.06.019",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S63322718",
+    "display_name": "Materials Today",
+    "issn_l": "1369-7021",
+    "issn": [
+     "1369-7021",
+     "1873-4103"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Materials Today",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.6899999976158142
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 245,
+ "referenced_works": [
+  "https://openalex.org/W1007352636",
+  "https://openalex.org/W1547910644",
+  "https://openalex.org/W1653106183",
+  "https://openalex.org/W1912610537",
+  "https://openalex.org/W1949801364",
+  "https://openalex.org/W1982158284",
+  "https://openalex.org/W1985164782",
+  "https://openalex.org/W1986079907",
+  "https://openalex.org/W1990746017",
+  "https://openalex.org/W1999179931",
+  "https://openalex.org/W2002793890",
+  "https://openalex.org/W2013636021",
+  "https://openalex.org/W2015343123",
+  "https://openalex.org/W2019655886",
+  "https://openalex.org/W2020048590",
+  "https://openalex.org/W2022855675",
+  "https://openalex.org/W2023020092",
+  "https://openalex.org/W2023381719",
+  "https://openalex.org/W2025821948",
+  "https://openalex.org/W2030749064",
+  "https://openalex.org/W2046850055",
+  "https://openalex.org/W2064722669",
+  "https://openalex.org/W2067735994",
+  "https://openalex.org/W2072132049",
+  "https://openalex.org/W2072271295",
+  "https://openalex.org/W2074553875",
+  "https://openalex.org/W2081207569",
+  "https://openalex.org/W2082197045",
+  "https://openalex.org/W2083066708",
+  "https://openalex.org/W2086257292",
+  "https://openalex.org/W2088166741",
+  "https://openalex.org/W2095414699",
+  "https://openalex.org/W2123494811",
+  "https://openalex.org/W2136818663",
+  "https://openalex.org/W2138270017",
+  "https://openalex.org/W2141734412",
+  "https://openalex.org/W2147326417",
+  "https://openalex.org/W2148981031",
+  "https://openalex.org/W2155943302",
+  "https://openalex.org/W2192772080",
+  "https://openalex.org/W2284147767",
+  "https://openalex.org/W2285554365",
+  "https://openalex.org/W2291874401",
+  "https://openalex.org/W2308418193",
+  "https://openalex.org/W2312751546",
+  "https://openalex.org/W2313863081",
+  "https://openalex.org/W2323861871",
+  "https://openalex.org/W2336687152",
+  "https://openalex.org/W2341252292",
+  "https://openalex.org/W2341517563",
+  "https://openalex.org/W2417759040",
+  "https://openalex.org/W2423534921",
+  "https://openalex.org/W2461999262",
+  "https://openalex.org/W2471354798",
+  "https://openalex.org/W2471406299",
+  "https://openalex.org/W2482629727",
+  "https://openalex.org/W2484917747",
+  "https://openalex.org/W2491522496",
+  "https://openalex.org/W2499800178",
+  "https://openalex.org/W2504080004",
+  "https://openalex.org/W2508388961",
+  "https://openalex.org/W2518775545",
+  "https://openalex.org/W2519514104",
+  "https://openalex.org/W2520949388",
+  "https://openalex.org/W2526953576",
+  "https://openalex.org/W2548854124",
+  "https://openalex.org/W2553161527",
+  "https://openalex.org/W2561141182",
+  "https://openalex.org/W2563019429",
+  "https://openalex.org/W2565565386",
+  "https://openalex.org/W2568681970",
+  "https://openalex.org/W2581769898",
+  "https://openalex.org/W2588550473",
+  "https://openalex.org/W2599670043",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2611782164",
+  "https://openalex.org/W2618071965",
+  "https://openalex.org/W2619736877",
+  "https://openalex.org/W2725889600",
+  "https://openalex.org/W2726969371",
+  "https://openalex.org/W2736541749",
+  "https://openalex.org/W2765856246",
+  "https://openalex.org/W2767987858",
+  "https://openalex.org/W2771135651",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2790160798",
+  "https://openalex.org/W2790180683",
+  "https://openalex.org/W2790756470",
+  "https://openalex.org/W2792647185",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2793887430",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2803379655",
+  "https://openalex.org/W2804611663",
+  "https://openalex.org/W2805454887",
+  "https://openalex.org/W2807467730",
+  "https://openalex.org/W2809424432",
+  "https://openalex.org/W2822579096",
+  "https://openalex.org/W2869240309",
+  "https://openalex.org/W2886906487",
+  "https://openalex.org/W2888767900",
+  "https://openalex.org/W2889277491",
+  "https://openalex.org/W2889380093",
+  "https://openalex.org/W2891824231",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2892634776",
+  "https://openalex.org/W2898221855",
+  "https://openalex.org/W2898266815",
+  "https://openalex.org/W2898283624",
+  "https://openalex.org/W2906807971",
+  "https://openalex.org/W2907068696",
+  "https://openalex.org/W2909846571",
+  "https://openalex.org/W2912852695",
+  "https://openalex.org/W2913314532",
+  "https://openalex.org/W2923734682",
+  "https://openalex.org/W2924405046",
+  "https://openalex.org/W2927742238",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2939121473",
+  "https://openalex.org/W2941543350",
+  "https://openalex.org/W2943577856",
+  "https://openalex.org/W2944175291",
+  "https://openalex.org/W2945959045",
+  "https://openalex.org/W2953484391",
+  "https://openalex.org/W2956404978",
+  "https://openalex.org/W2963245459",
+  "https://openalex.org/W2964374527",
+  "https://openalex.org/W2964796991",
+  "https://openalex.org/W2965395979",
+  "https://openalex.org/W2977660399",
+  "https://openalex.org/W2978048521",
+  "https://openalex.org/W2978589365",
+  "https://openalex.org/W2979300535",
+  "https://openalex.org/W2979356263",
+  "https://openalex.org/W2979403566",
+  "https://openalex.org/W2980396364",
+  "https://openalex.org/W2980453861",
+  "https://openalex.org/W2980679455",
+  "https://openalex.org/W2981212537",
+  "https://openalex.org/W2982172347",
+  "https://openalex.org/W2982502209",
+  "https://openalex.org/W2984784701",
+  "https://openalex.org/W2990974457",
+  "https://openalex.org/W2991531562",
+  "https://openalex.org/W2992344706",
+  "https://openalex.org/W2995105131",
+  "https://openalex.org/W3004463110",
+  "https://openalex.org/W3005252857",
+  "https://openalex.org/W3005371463",
+  "https://openalex.org/W3007087847",
+  "https://openalex.org/W3007968008",
+  "https://openalex.org/W3012753250",
+  "https://openalex.org/W3015300309",
+  "https://openalex.org/W3020268068",
+  "https://openalex.org/W3027122981",
+  "https://openalex.org/W3028429213",
+  "https://openalex.org/W3029584541",
+  "https://openalex.org/W3036580019",
+  "https://openalex.org/W3036581372",
+  "https://openalex.org/W3037135078",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3042725180",
+  "https://openalex.org/W3043226820",
+  "https://openalex.org/W3044080363",
+  "https://openalex.org/W3044114898",
+  "https://openalex.org/W3044180051",
+  "https://openalex.org/W3046969809",
+  "https://openalex.org/W3058574727",
+  "https://openalex.org/W3081595889",
+  "https://openalex.org/W3081660217",
+  "https://openalex.org/W3082691073",
+  "https://openalex.org/W3082789988",
+  "https://openalex.org/W3083473493",
+  "https://openalex.org/W3083832531",
+  "https://openalex.org/W3084768153",
+  "https://openalex.org/W3089375058",
+  "https://openalex.org/W3091936334",
+  "https://openalex.org/W3092958129",
+  "https://openalex.org/W3094167991",
+  "https://openalex.org/W3096411458",
+  "https://openalex.org/W3099374670",
+  "https://openalex.org/W3104069552",
+  "https://openalex.org/W3105982350",
+  "https://openalex.org/W3108266633",
+  "https://openalex.org/W3109060415",
+  "https://openalex.org/W3112424516",
+  "https://openalex.org/W3112638767",
+  "https://openalex.org/W3117636712",
+  "https://openalex.org/W3118742912",
+  "https://openalex.org/W3119146035",
+  "https://openalex.org/W3129986453",
+  "https://openalex.org/W3131494123",
+  "https://openalex.org/W3134918444",
+  "https://openalex.org/W3141747326",
+  "https://openalex.org/W3149809521",
+  "https://openalex.org/W3155834996",
+  "https://openalex.org/W3160573047",
+  "https://openalex.org/W3170380770",
+  "https://openalex.org/W3181191262",
+  "https://openalex.org/W3186244658",
+  "https://openalex.org/W3189937077",
+  "https://openalex.org/W3191946054",
+  "https://openalex.org/W3194852787",
+  "https://openalex.org/W3206180841",
+  "https://openalex.org/W3206670844",
+  "https://openalex.org/W4200467123",
+  "https://openalex.org/W4205158931",
+  "https://openalex.org/W4205302825",
+  "https://openalex.org/W4206011122",
+  "https://openalex.org/W4206387910",
+  "https://openalex.org/W4210610193",
+  "https://openalex.org/W4210874118",
+  "https://openalex.org/W4212826197",
+  "https://openalex.org/W4213369994",
+  "https://openalex.org/W4220738195",
+  "https://openalex.org/W4220985896",
+  "https://openalex.org/W4225899003",
+  "https://openalex.org/W4226057134",
+  "https://openalex.org/W4226120420",
+  "https://openalex.org/W4231709355",
+  "https://openalex.org/W4231746779",
+  "https://openalex.org/W4242250671",
+  "https://openalex.org/W4281663127",
+  "https://openalex.org/W4281706033",
+  "https://openalex.org/W4281940823",
+  "https://openalex.org/W4282008858",
+  "https://openalex.org/W4282839551",
+  "https://openalex.org/W4283398807",
+  "https://openalex.org/W4286498748",
+  "https://openalex.org/W4298141104",
+  "https://openalex.org/W4309152936",
+  "https://openalex.org/W4309170000",
+  "https://openalex.org/W4309729326",
+  "https://openalex.org/W4312140009",
+  "https://openalex.org/W4312174609",
+  "https://openalex.org/W4367173188",
+  "https://openalex.org/W4403040628",
+  "https://openalex.org/W6601671322",
+  "https://openalex.org/W6670927878",
+  "https://openalex.org/W6720472850",
+  "https://openalex.org/W6740764592",
+  "https://openalex.org/W6744226060",
+  "https://openalex.org/W6751606597"
+ ],
+ "related_works": [
+  "https://openalex.org/W1955801659",
+  "https://openalex.org/W3036311796",
+  "https://openalex.org/W4367665844",
+  "https://openalex.org/W4285543619",
+  "https://openalex.org/W4319589397",
+  "https://openalex.org/W2582005554",
+  "https://openalex.org/W3131618301",
+  "https://openalex.org/W3158363272",
+  "https://openalex.org/W3207349743",
+  "https://openalex.org/W3089387070"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 18
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 45
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 34
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-27T08:07:27.782135",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,999 @@
+{
+ "id": "https://openalex.org/W2606979403",
+ "doi": "https://doi.org/10.1038/nature22061",
+ "title": "Three-dimensional printing of transparent fused silica glass",
+ "display_name": "Three-dimensional printing of transparent fused silica glass",
+ "publication_year": 2017,
+ "publication_date": "2017-04-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2606979403",
+  "doi": "https://doi.org/10.1038/nature22061",
+  "mag": "2606979403",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/28425999"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1038/nature22061",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1038/nature22061",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S137773608",
+   "display_name": "Nature",
+   "issn_l": "0028-0836",
+   "issn": [
+    "0028-0836",
+    "1476-4687"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doyens",
+    "erih-plus",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319908",
+   "host_organization_name": "Nature Portfolio",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319908",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Nature Portfolio",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Nature",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5003035772",
+    "display_name": "Frederik Kotz",
+    "orcid": "https://orcid.org/0000-0001-8376-154X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8376-154X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Frederik Kotz",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5112393763",
+    "display_name": "Karl Arnold",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Karl Arnold",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5084733524",
+    "display_name": "Werner Bauer",
+    "orcid": "https://orcid.org/0000-0002-5923-2426",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-5923-2426"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210087370",
+     "display_name": "Applied Materials (United Kingdom)",
+     "ror": "https://ror.org/006471y50",
+     "country_code": "GB",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I193427800",
+      "https://openalex.org/I4210087370"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210165146",
+     "display_name": "Applied Materials (Germany)",
+     "ror": "https://ror.org/05ejpyv46",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I193427800",
+      "https://openalex.org/I4210165146"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Werner Bauer",
+   "raw_affiliation_strings": [
+    "Institute for Applied Materials (IAM), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute for Applied Materials (IAM), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Applied Materials (IAM), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210087370"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute for Applied Materials (IAM), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210165146"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5010226394",
+    "display_name": "Dieter Schild",
+    "orcid": "https://orcid.org/0000-0001-6034-8146",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6034-8146"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210087370",
+     "display_name": "Applied Materials (United Kingdom)",
+     "ror": "https://ror.org/006471y50",
+     "country_code": "GB",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I193427800",
+      "https://openalex.org/I4210087370"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210092396",
+     "display_name": "Federal Office for the Safety of Nuclear Waste Management",
+     "ror": "https://ror.org/00eefy724",
+     "country_code": "DE",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I4210092396"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dieter Schild",
+   "raw_affiliation_strings": [
+    "Institute for Nuclear Waste Disposal (INE), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute for Nuclear Waste Disposal (INE), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Nuclear Waste Disposal (INE), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210087370"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute for Nuclear Waste Disposal (INE), KIT, Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210092396"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5034124196",
+    "display_name": "Nico Keller",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Nico Keller",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5030924362",
+    "display_name": "Kai Sachsenheimer",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kai Sachsenheimer",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5087777159",
+    "display_name": "Tobias M. Nargang",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tobias M. Nargang",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5037036644",
+    "display_name": "Christiane Richter",
+    "orcid": "https://orcid.org/0000-0003-3865-4029",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-3865-4029"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Christiane Richter",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5038426363",
+    "display_name": "Dorothea Helmer",
+    "orcid": "https://orcid.org/0000-0003-0295-9701",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0295-9701"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dorothea Helmer",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5089234340",
+    "display_name": "Bastian Ernst Rapp",
+    "orcid": "https://orcid.org/0000-0002-3955-0291",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3955-0291"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Bastian E. Rapp",
+   "raw_affiliation_strings": [
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+    "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen 76344, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT), Hermann-von-Helmholtz-Platz 1, Eggenstein, 76344, Leopoldshafen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": {
+  "value": 12690,
+  "currency": "USD",
+  "value_usd": 12690
+ },
+ "apc_paid": null,
+ "fwci": 40.929,
+ "has_fulltext": false,
+ "cited_by_count": 874,
+ "citation_normalized_percentile": {
+  "value": 0.99892984,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "544",
+  "issue": "7650",
+  "first_page": "337",
+  "last_page": "339"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.991100013256073,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.991100013256073,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10666",
+   "display_name": "Photonic Crystals and Applications",
+   "score": 0.9824000000953674,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3107",
+    "display_name": "Atomic and Molecular Physics, and Optics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13217",
+   "display_name": "Pigment Synthesis and Properties",
+   "score": 0.9771000146865845,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1604",
+    "display_name": "Inorganic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/stereolithography",
+   "display_name": "Stereolithography",
+   "score": 0.9200730323791504
+  },
+  {
+   "id": "https://openalex.org/keywords/nanocomposite",
+   "display_name": "Nanocomposite",
+   "score": 0.7947549819946289
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7514713406562805
+  },
+  {
+   "id": "https://openalex.org/keywords/casting",
+   "display_name": "Casting",
+   "score": 0.6630353331565857
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.49769118428230286
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.46667420864105225
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-transparency",
+   "display_name": "Optical transparency",
+   "score": 0.4506722092628479
+  },
+  {
+   "id": "https://openalex.org/keywords/borosilicate-glass",
+   "display_name": "Borosilicate glass",
+   "score": 0.428711473941803
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.3315630257129669
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.11888596415519714
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779154291",
+   "wikidata": "https://www.wikidata.org/wiki/Q1022471",
+   "display_name": "Stereolithography",
+   "level": 2,
+   "score": 0.9200730323791504
+  },
+  {
+   "id": "https://openalex.org/C92880739",
+   "wikidata": "https://www.wikidata.org/wiki/Q2639556",
+   "display_name": "Nanocomposite",
+   "level": 2,
+   "score": 0.7947549819946289
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7514713406562805
+  },
+  {
+   "id": "https://openalex.org/C16635281",
+   "wikidata": "https://www.wikidata.org/wiki/Q496098",
+   "display_name": "Casting",
+   "level": 2,
+   "score": 0.6630353331565857
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.49769118428230286
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.46667420864105225
+  },
+  {
+   "id": "https://openalex.org/C2987818599",
+   "wikidata": "https://www.wikidata.org/wiki/Q487623",
+   "display_name": "Optical transparency",
+   "level": 2,
+   "score": 0.4506722092628479
+  },
+  {
+   "id": "https://openalex.org/C206802598",
+   "wikidata": "https://www.wikidata.org/wiki/Q1422588",
+   "display_name": "Borosilicate glass",
+   "level": 2,
+   "score": 0.428711473941803
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.3315630257129669
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.11888596415519714
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1038/nature22061",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1038/nature22061",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S137773608",
+    "display_name": "Nature",
+    "issn_l": "0028-0836",
+    "issn": [
+     "0028-0836",
+     "1476-4687"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doyens",
+     "erih-plus",
+     "jufo-3",
+     "ki-jl-3",
+     "medline",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319908",
+    "host_organization_name": "Nature Portfolio",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319908",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Nature Portfolio",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:28425999",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28425999",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:RePEc:nat:nature:v:544:y:2017:i:7650:d:10.1038_nature22061",
+   "is_oa": false,
+   "landing_page_url": "https://www.nature.com/articles/nature22061",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321114",
+   "display_name": "Bundesministerium f\u00fcr Bildung und Forschung",
+   "ror": "https://ror.org/04pz7b180"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 20,
+ "referenced_works": [
+  "https://openalex.org/W1557681670",
+  "https://openalex.org/W1647551444",
+  "https://openalex.org/W1965298562",
+  "https://openalex.org/W1999524809",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2010688895",
+  "https://openalex.org/W2032412524",
+  "https://openalex.org/W2039599218",
+  "https://openalex.org/W2040244649",
+  "https://openalex.org/W2043611950",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2054160077",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2083942071",
+  "https://openalex.org/W2126844445",
+  "https://openalex.org/W2141947775",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2319334792",
+  "https://openalex.org/W3103285976",
+  "https://openalex.org/W4285719527"
+ ],
+ "related_works": [
+  "https://openalex.org/W4206387910",
+  "https://openalex.org/W3163235717",
+  "https://openalex.org/W4396228243",
+  "https://openalex.org/W4313431753",
+  "https://openalex.org/W4235482809",
+  "https://openalex.org/W3018195139",
+  "https://openalex.org/W3206233650",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W4253323741",
+  "https://openalex.org/W3027397162"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 62
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 110
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 108
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 97
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 112
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 105
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 98
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 80
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 81
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 20
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

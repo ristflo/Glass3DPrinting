@@ -1,0 +1,520 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2110.01651",
+    "status": 200,
+    "resolved_url": "https://arxiv.org/pdf/2110.01651",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://cordis.europa.eu/project/id/190122644",
+    "status": 200,
+    "resolved_url": "https://cordis.europa.eu/project/id/190122644",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "status": 200,
+    "resolved_url": "https://creativecommons.org/licenses/by/4.0/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.1002/adma.201701181",
+    "status": 403,
+    "resolved_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201701181",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1002/admt.201700323",
+    "status": 403,
+    "resolved_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admt.201700323",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1007/s40940-024-00270-3",
+    "status": 200,
+    "resolved_url": "https://link.springer.com/article/10.1007/s40940-024-00270-3",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.1007/s40940-024-00279-8",
+    "status": 200,
+    "resolved_url": "https://link.springer.com/article/10.1007/s40940-024-00279-8",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.1016/j.procir.2018.08.109",
+    "status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S2212827118308953",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.1038/nature22061",
+    "status": 200,
+    "resolved_url": "https://www.nature.com/articles/nature22061",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.1038/s44334-026-00072-1",
+    "status": 200,
+    "resolved_url": "https://www.nature.com/articles/s44334-026-00072-1",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.1089/3dp.2015.0021",
+    "status": 403,
+    "resolved_url": "https://journals.sagepub.com/doi/10.1089/3dp.2015.0021",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1089/3dp.2018.0157",
+    "status": 403,
+    "resolved_url": "https://journals.sagepub.com/doi/10.1089/3dp.2018.0157",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1089/3dp.2022.0112",
+    "status": 403,
+    "resolved_url": "https://journals.sagepub.com/doi/10.1089/3dp.2022.0112",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1098/rspa.1935.0104",
+    "status": 403,
+    "resolved_url": "https://royalsocietypublishing.org/rspa/article/150/870/322/5218/On-the-instability-of-a-cylindrical-thread-of-a",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1111/jace.16440",
+    "status": 403,
+    "resolved_url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.16440",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1112/plms/s1-10.1.4",
+    "status": 403,
+    "resolved_url": "http://doi.wiley.com/10.1112/plms/s1-10.1.4",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1126/science.abm6459",
+    "status": 403,
+    "resolved_url": "https://www.science.org/doi/10.1126/science.abm6459",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.1364/OME.9.002307",
+    "status": 200,
+    "resolved_url": "https://validate.perfdrive.com/?ssa=fe0de81d-5942-1be0-0bfd-4e1c641c9a61&ssb=25390293787&ssc=https%3A%2F%2Fopg.optica.org%2Fome%2Fabstract.cfm%3Furi%3Dome-9-5-2307&ssi=5d9a8dd3-d3hy-ecd6-7965-06a4ebf01f64&ssk=botmanager_support@radware.com&ssm=37159944133319709133023298497786&ssn=efb36057f23f8c58bb8beb6d63c8a4ad81277b9c9fa4-e100-b9cf-47fac5&sso=726f2cf-40ec-16360c3285ca4b5a13ac56d6429659505fb233d570cc7601&ssp=92731886261790731491179072231505375&ssq=75310020441647568520304416518652085580868&ssr=MTA5LjE3MS4xNzQuMTg3&sst=GlassResearch-LinkAudit%2F1.0&ssv=&ssw=",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.3389/fmats.2022.978861",
+    "status": 200,
+    "resolved_url": "https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2022.978861/full",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://doi.org/10.3390/mi16010029",
+    "status": 403,
+    "resolved_url": "https://www.mdpi.com/2072-666X/16/1/29",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://doi.org/10.47982/cgc.9.583",
+    "status": 200,
+    "resolved_url": "https://proceedings.challengingglass.com/index.php/cgc/article/view/583",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://dspace.mit.edu/bitstreams/7dbd523f-a0c1-4274-94e1-a370ca822c2c/download",
+    "status": 405,
+    "resolved_url": "https://dspace.mit.edu/bitstreams/7dbd523f-a0c1-4274-94e1-a370ca822c2c/download",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://dspace.mit.edu/handle/1721.1/101831",
+    "status": 200,
+    "resolved_url": "https://dspace.mit.edu/entities/publication/b1208bd7-7736-455d-aa57-4725b4e4200f",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://eprints.whiterose.ac.uk/144780/13/Datsiou_et_al-2019-Journal_of_the_American_Ceramic_Society.pdf",
+    "status": 200,
+    "resolved_url": "https://eprints.whiterose.ac.uk/id/eprint/144780/13/Datsiou_et_al-2019-Journal_of_the_American_Ceramic_Society.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://escholarship.mcgill.ca/concern/theses/sf268c17j",
+    "status": 200,
+    "resolved_url": "https://mcgill.scholaris.ca/items/5db7c5d9-77ff-4ea9-98a2-ea8854f4969f",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://etigo.nagaokaut.ac.jp/koudoka/prmt/komatsu.html",
+    "status": 200,
+    "resolved_url": "https://etigo.nagaokaut.ac.jp/koudoka/prmt/komatsu.html",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://kthventures.se/blog-posts/ny-investering-i-nobula3d",
+    "status": 200,
+    "resolved_url": "https://kthventures.se/blog-posts/ny-investering-i-nobula3d",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+    "status": 200,
+    "resolved_url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+    "status": 200,
+    "resolved_url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+    "status": 200,
+    "resolved_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://lrio.copl.ulaval.ca/images/E25-Stage-Fabrication_verre.pdf",
+    "status": 200,
+    "resolved_url": "https://lrio.copl.ulaval.ca/images/E25-Stage-Fabrication_verre.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-building-structures",
+    "status": 200,
+    "resolved_url": "https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-building-structures",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://media.schott.com/api/public/content/4fd51376b9d54a68b47be78fadfdd32d?download=true&v=1fc0ea9c",
+    "status": 200,
+    "resolved_url": "https://media.schott.com/api/public/content/4fd51376b9d54a68b47be78fadfdd32d?download=true&v=1fc0ea9c",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://media.schott.com/api/public/content/79a671737b4a4833aa91c99f68c4b5a3?v=eb1ee445",
+    "status": 200,
+    "resolved_url": "https://media.schott.com/api/public/content/79a671737b4a4833aa91c99f68c4b5a3?v=eb1ee445",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://media.schott.com/api/public/content/d33171e170af4b94a8e49b11d758258e?v=610aa3b1",
+    "status": 200,
+    "resolved_url": "https://media.schott.com/api/public/content/d33171e170af4b94a8e49b11d758258e?v=610aa3b1",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00270-3/MediaObjects/40940_2024_270_Fig2_HTML.png",
+    "status": 200,
+    "resolved_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00270-3/MediaObjects/40940_2024_270_Fig2_HTML.png",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig1_HTML.png",
+    "status": 200,
+    "resolved_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig1_HTML.png",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig2_HTML.png",
+    "status": 200,
+    "resolved_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig2_HTML.png",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://patentimages.storage.googleapis.com/74/86/c4/4858833d28af73/US10266442.pdf",
+    "status": 200,
+    "resolved_url": "https://patentimages.storage.googleapis.com/74/86/c4/4858833d28af73/US10266442.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://patentimages.storage.googleapis.com/9e/04/14/45bdff95d6da30/WO2020118157A1.pdf",
+    "status": 200,
+    "resolved_url": "https://patentimages.storage.googleapis.com/9e/04/14/45bdff95d6da30/WO2020118157A1.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://patentimages.storage.googleapis.com/ae/74/26/8df18a31728485/AU2021289614A1.pdf",
+    "status": 200,
+    "resolved_url": "https://patentimages.storage.googleapis.com/ae/74/26/8df18a31728485/AU2021289614A1.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://patents.google.com/patent/AU2021289614A1/en",
+    "status": 200,
+    "resolved_url": "https://patents.google.com/patent/AU2021289614A1/en",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://patents.google.com/patent/US10266442B2/en",
+    "status": 200,
+    "resolved_url": "https://patents.google.com/patent/US10266442B2/en",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://patents.google.com/patent/WO2020118157A1/en",
+    "status": 200,
+    "resolved_url": "https://patents.google.com/patent/WO2020118157A1/en",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://repo.uni-hannover.de/bitstreams/baee6a93-3205-4ec1-897e-f30abaa371ff/download",
+    "status": 200,
+    "resolved_url": "https://repo.uni-hannover.de/server/api/core/bitstreams/baee6a93-3205-4ec1-897e-f30abaa371ff/content",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://repo.uni-hannover.de/bitstreams/db679f92-1741-4b6e-91f1-c91758598483/download",
+    "status": 200,
+    "resolved_url": "https://repo.uni-hannover.de/server/api/core/bitstreams/db679f92-1741-4b6e-91f1-c91758598483/content",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://research.tudelft.nl/en/persons/f-oikonomopoulou/",
+    "status": 200,
+    "resolved_url": "https://research.tudelft.nl/en/persons/f-oikonomopoulou/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://uhra.herts.ac.uk/id/eprint/10451/1/Journal_of_the_American_Ceramic_Society_-_2022_-_Spirrett_-_Powder_fed_directed_energy_deposition_of_soda_lime_silica_glass.pdf",
+    "status": 200,
+    "resolved_url": "https://uhra.herts.ac.uk/id/eprint/10451/1/Journal_of_the_American_Ceramic_Society_-_2022_-_Spirrett_-_Powder_fed_directed_energy_deposition_of_soda_lime_silica_glass.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://uhra.herts.ac.uk/id/eprint/9377/1/1_s2.0_S2214860421000452_main.pdf",
+    "status": 200,
+    "resolved_url": "https://uhra.herts.ac.uk/id/eprint/9377/1/1_s2.0_S2214860421000452_main.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+    "status": 200,
+    "resolved_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://vimeo.com/136764796",
+    "status": 200,
+    "resolved_url": "https://vimeo.com/136764796",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://vimeo.com/211778198",
+    "status": 200,
+    "resolved_url": "https://vimeo.com/211778198",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.aphys.kth.se/lamp/research/laserphysics/research/laser-based-3d-print",
+    "status": 200,
+    "resolved_url": "https://www.aphys.kth.se/lamp/research/laserphysics/research/laser-based-3d-print",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.corning.com/media/worldwide/csm/documents/HPFS_Product_Brochure_All_Grades_2025_11.pdf",
+    "status": 200,
+    "resolved_url": "https://www.corning.com/media/worldwide/csm/documents/HPFS_Product_Brochure_All_Grades_2025_11.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.evenline.co/people",
+    "status": 200,
+    "resolved_url": "https://www.evenline.co/people",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.evenline.co/technology",
+    "status": 200,
+    "resolved_url": "https://www.evenline.co/technology",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/pdf",
+    "status": 200,
+    "resolved_url": "https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2022.978861/pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g001.jpg",
+    "status": 200,
+    "resolved_url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g001.jpg",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g006.jpg",
+    "status": 200,
+    "resolved_url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g006.jpg",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.glassomer.com/",
+    "status": 200,
+    "resolved_url": "https://www.glassomer.com/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.glassomer.com/company/about-us.html",
+    "status": 200,
+    "resolved_url": "https://www.glassomer.com/company/about-us.html",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.heraeus-precious-metals.com/en/products-solutions/category/precious-metal-components/glass-manufacturing-equipment/",
+    "status": 200,
+    "resolved_url": "https://www.heraeus-precious-metals.com/en/products-solutions/category/precious-metal-components/glass-manufacturing-equipment/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.ikts.fraunhofer.de/en/blog/additive-glass-shaping-improves-selectivity-of-photomultipliers.html",
+    "status": 200,
+    "resolved_url": "https://www.ikts.fraunhofer.de/en/blog/additive-glass-shaping-improves-selectivity-of-photomultipliers.html",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.ipt.fraunhofer.de/en/projects/3dheat.html",
+    "status": 200,
+    "resolved_url": "https://www.ipt.fraunhofer.de/en/projects/3dheat.html",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.isc.fraunhofer.de/en/press-and-media/press-releases/3d-printed-optics-for-individualized-mass-production.html",
+    "status": 200,
+    "resolved_url": "https://www.isc.fraunhofer.de/en/press-and-media/press-releases/3d-printed-optics-for-individualized-mass-production.html",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863",
+    "status": 200,
+    "resolved_url": "https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.media.mit.edu/projects/g3p/overview/",
+    "status": 200,
+    "resolved_url": "https://www.media.mit.edu/projects/g3p/overview/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.memphis.edu/physics/demonstrations/polariscope.php",
+    "status": 200,
+    "resolved_url": "https://www.memphis.edu/physics/demonstrations/polariscope.php",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.monash.edu/monash-innovation/impact/generator-founders/maple-glass-printing",
+    "status": 403,
+    "resolved_url": "https://www.monash.edu/monash-innovation/impact/generator-founders/maple-glass-printing",
+    "checked": "2026-09-29",
+    "interpretation": "Access failed; may be blocking or stale URL"
+  },
+  {
+    "url": "https://www.nature.com/articles/s44334-026-00072-1.pdf",
+    "status": 200,
+    "resolved_url": "https://www.nature.com/articles/s44334-026-00072-1.pdf",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.nobula3d.com/",
+    "status": 200,
+    "resolved_url": "https://www.nobula3d.com/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.upnano.com/novel-process-for-3d-printing-macro-sized-fused-silica-parts-with-hi-res-features/",
+    "status": 200,
+    "resolved_url": "https://www.upnano.com/novel-process-for-3d-printing-macro-sized-fused-silica-parts-with-hi-res-features/",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=IefRrdTmlbA",
+    "status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=IefRrdTmlbA",
+    "checked": "2026-09-29",
+    "interpretation": "HTTP reachable; content and video playback not inferred"
+  }
+]

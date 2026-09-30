@@ -1,0 +1,940 @@
+{
+ "id": "https://openalex.org/W1982620439",
+ "doi": "https://doi.org/10.1145/2580946",
+ "title": "Poisson-Based Continuous Surface Generation for Goal-Based Caustics",
+ "display_name": "Poisson-Based Continuous Surface Generation for Goal-Based Caustics",
+ "publication_year": 2014,
+ "publication_date": "2014-05-01",
+ "ids": {
+  "openalex": "https://openalex.org/W1982620439",
+  "doi": "https://doi.org/10.1145/2580946",
+  "mag": "1982620439"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/2580946",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/2580946",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S185367456",
+   "display_name": "ACM Transactions on Graphics",
+   "issn_l": "0730-0301",
+   "issn": [
+    "0730-0301",
+    "1557-7368"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310319798",
+   "host_organization_name": "Association for Computing Machinery",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319798"
+   ],
+   "host_organization_lineage_names": [
+    "Association for Computing Machinery"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "ACM Transactions on Graphics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5022365722",
+    "display_name": "Yonghao Yue",
+    "orcid": "https://orcid.org/0000-0002-8252-0522"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I78577930",
+     "display_name": "Columbia University",
+     "ror": "https://ror.org/00hj8s172",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I78577930"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yonghao Yue",
+   "raw_affiliation_strings": [
+    "Columbia University, New York, NY",
+    "Columbia University, New York , NY"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Columbia University, New York, NY",
+     "institution_ids": [
+      "https://openalex.org/I78577930"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Columbia University, New York , NY",
+     "institution_ids": [
+      "https://openalex.org/I78577930"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5058510778",
+    "display_name": "Kei Iwasaki",
+    "orcid": "https://orcid.org/0000-0002-5235-536X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I75198481",
+     "display_name": "Wakayama University",
+     "ror": "https://ror.org/05wr49d48",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I75198481"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kei Iwasaki",
+   "raw_affiliation_strings": [
+    "Wakayama University and UEI Research"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Wakayama University and UEI Research",
+     "institution_ids": [
+      "https://openalex.org/I75198481"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5047845215",
+    "display_name": "Bing\u2010Yu Chen",
+    "orcid": "https://orcid.org/0000-0003-0169-7682"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I16733864",
+     "display_name": "National Taiwan University",
+     "ror": "https://ror.org/05bqach95",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I16733864"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Bing-Yu Chen",
+   "raw_affiliation_strings": [
+    "National Taiwan University and UEI Research"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Taiwan University and UEI Research",
+     "institution_ids": [
+      "https://openalex.org/I16733864"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5014699738",
+    "display_name": "Yoshinori Dobashi",
+    "orcid": "https://orcid.org/0000-0002-2149-4113"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I205349734",
+     "display_name": "Hokkaido University",
+     "ror": "https://ror.org/02e16g702",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I205349734"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yoshinori Dobashi",
+   "raw_affiliation_strings": [
+    "Hokkaido University and UEI Research"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Hokkaido University and UEI Research",
+     "institution_ids": [
+      "https://openalex.org/I205349734"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5066309452",
+    "display_name": "Tomoyuki Nishita",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I134282035",
+     "display_name": "Hiroshima Shudo University",
+     "ror": "https://ror.org/05n757p35",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I134282035"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tomoyuki Nishita",
+   "raw_affiliation_strings": [
+    "UEI Research and Hiroshima Shudo University",
+    "UEI Research and Hiroshima Shudo University#TAB#"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "UEI Research and Hiroshima Shudo University",
+     "institution_ids": [
+      "https://openalex.org/I134282035"
+     ]
+    },
+    {
+     "raw_affiliation_string": "UEI Research and Hiroshima Shudo University#TAB#",
+     "institution_ids": [
+      "https://openalex.org/I134282035"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 3,
+ "institutions_distinct_count": 5,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 9.4382,
+ "has_fulltext": false,
+ "cited_by_count": 46,
+ "citation_normalized_percentile": {
+  "value": 0.97530095,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "33",
+  "issue": "3",
+  "first_page": "1",
+  "last_page": "7"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10481",
+  "display_name": "Computer Graphics and Visualization Techniques",
+  "score": 0.8454999923706055,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1704",
+   "display_name": "Computer Graphics and Computer-Aided Design"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.8454999923706055,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10719",
+   "display_name": "3D Shape Modeling and Analysis",
+   "score": 0.07370000332593918,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10789",
+   "display_name": "Interactive and Immersive Displays",
+   "score": 0.023900000378489494,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1709",
+    "display_name": "Human-Computer Interaction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/caustic",
+   "display_name": "Caustic (mathematics)",
+   "score": 0.8936759233474731
+  },
+  {
+   "id": "https://openalex.org/keywords/surface",
+   "display_name": "Surface (topology)",
+   "score": 0.7108796834945679
+  },
+  {
+   "id": "https://openalex.org/keywords/property",
+   "display_name": "Property (philosophy)",
+   "score": 0.6131998896598816
+  },
+  {
+   "id": "https://openalex.org/keywords/object",
+   "display_name": "Object (grammar)",
+   "score": 0.5922313928604126
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.5277683734893799
+  },
+  {
+   "id": "https://openalex.org/keywords/poisson-distribution",
+   "display_name": "Poisson distribution",
+   "score": 0.5155551433563232
+  },
+  {
+   "id": "https://openalex.org/keywords/poissons-equation",
+   "display_name": "Poisson's equation",
+   "score": 0.4346100986003876
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.373266339302063
+  },
+  {
+   "id": "https://openalex.org/keywords/geometry",
+   "display_name": "Geometry",
+   "score": 0.36489158868789673
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematical-analysis",
+   "display_name": "Mathematical analysis",
+   "score": 0.3381345570087433
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-vision",
+   "display_name": "Computer vision",
+   "score": 0.3350076675415039
+  },
+  {
+   "id": "https://openalex.org/keywords/artificial-intelligence",
+   "display_name": "Artificial intelligence",
+   "score": 0.2624025046825409
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779567845",
+   "wikidata": "https://www.wikidata.org/wiki/Q3492725",
+   "display_name": "Caustic (mathematics)",
+   "level": 2,
+   "score": 0.8936759233474731
+  },
+  {
+   "id": "https://openalex.org/C2776799497",
+   "wikidata": "https://www.wikidata.org/wiki/Q484298",
+   "display_name": "Surface (topology)",
+   "level": 2,
+   "score": 0.7108796834945679
+  },
+  {
+   "id": "https://openalex.org/C189950617",
+   "wikidata": "https://www.wikidata.org/wiki/Q937228",
+   "display_name": "Property (philosophy)",
+   "level": 2,
+   "score": 0.6131998896598816
+  },
+  {
+   "id": "https://openalex.org/C2781238097",
+   "wikidata": "https://www.wikidata.org/wiki/Q175026",
+   "display_name": "Object (grammar)",
+   "level": 2,
+   "score": 0.5922313928604126
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.5277683734893799
+  },
+  {
+   "id": "https://openalex.org/C100906024",
+   "wikidata": "https://www.wikidata.org/wiki/Q205692",
+   "display_name": "Poisson distribution",
+   "level": 2,
+   "score": 0.5155551433563232
+  },
+  {
+   "id": "https://openalex.org/C96716743",
+   "wikidata": "https://www.wikidata.org/wiki/Q827688",
+   "display_name": "Poisson's equation",
+   "level": 2,
+   "score": 0.4346100986003876
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.373266339302063
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.36489158868789673
+  },
+  {
+   "id": "https://openalex.org/C134306372",
+   "wikidata": "https://www.wikidata.org/wiki/Q7754",
+   "display_name": "Mathematical analysis",
+   "level": 1,
+   "score": 0.3381345570087433
+  },
+  {
+   "id": "https://openalex.org/C31972630",
+   "wikidata": "https://www.wikidata.org/wiki/Q844240",
+   "display_name": "Computer vision",
+   "level": 1,
+   "score": 0.3350076675415039
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.2624025046825409
+  },
+  {
+   "id": "https://openalex.org/C138885662",
+   "wikidata": "https://www.wikidata.org/wiki/Q5891",
+   "display_name": "Philosophy",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C105795698",
+   "wikidata": "https://www.wikidata.org/wiki/Q12483",
+   "display_name": "Statistics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111472728",
+   "wikidata": "https://www.wikidata.org/wiki/Q9471",
+   "display_name": "Epistemology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1145/2580946",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/2580946",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S185367456",
+    "display_name": "ACM Transactions on Graphics",
+    "issn_l": "0730-0301",
+    "issn": [
+     "0730-0301",
+     "1557-7368"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Graphics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "mag:2566725313",
+   "is_oa": false,
+   "landing_page_url": "http://ci.nii.ac.jp/naid/110009821884",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306514372",
+    "display_name": "IPSJ SIG Notes",
+    "issn_l": "0919-6072",
+    "issn": [
+     "0919-6072"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": "IPSJ SIG Notes",
+   "raw_type": null
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320334764",
+   "display_name": "Japan Society for the Promotion of Science",
+   "ror": "https://ror.org/00hhkn466"
+  }
+ ],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 14,
+ "referenced_works": [
+  "https://openalex.org/W2037169604",
+  "https://openalex.org/W2070639429",
+  "https://openalex.org/W2075095917",
+  "https://openalex.org/W2088255295",
+  "https://openalex.org/W2096817454",
+  "https://openalex.org/W2109406977",
+  "https://openalex.org/W2124131428",
+  "https://openalex.org/W2132713314",
+  "https://openalex.org/W2151045871",
+  "https://openalex.org/W2151833588",
+  "https://openalex.org/W2167662740",
+  "https://openalex.org/W2169776045",
+  "https://openalex.org/W2293760838",
+  "https://openalex.org/W3138819549"
+ ],
+ "related_works": [
+  "https://openalex.org/W2058213488",
+  "https://openalex.org/W2053895162",
+  "https://openalex.org/W2120192251",
+  "https://openalex.org/W1982620439",
+  "https://openalex.org/W2010643370",
+  "https://openalex.org/W1991795644",
+  "https://openalex.org/W2359903415",
+  "https://openalex.org/W3198970702",
+  "https://openalex.org/W2358303497",
+  "https://openalex.org/W2078781888"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   94
+  ],
+  "present": [
+   1
+  ],
+  "a": [
+   2,
+   9,
+   60,
+   66
+  ],
+  "technique": [
+   3
+  ],
+  "for": [
+   4
+  ],
+  "computing": [
+   5
+  ],
+  "the": [
+   6,
+   21,
+   33,
+   45,
+   70,
+   73,
+   77,
+   80,
+   89,
+   92,
+   101,
+   104,
+   107
+  ],
+  "shape": [
+   7
+  ],
+  "of": [
+   8,
+   20,
+   54,
+   72,
+   91,
+   106
+  ],
+  "transparent": [
+   10
+  ],
+  "object": [
+   11,
+   22
+  ],
+  "that": [
+   12
+  ],
+  "can": [
+   13
+  ],
+  "generate": [
+   14
+  ],
+  "user-defined": [
+   15
+  ],
+  "caustic": [
+   16,
+   35
+  ],
+  "patterns.": [
+   17
+  ],
+  "The": [
+   18
+  ],
+  "surface": [
+   19,
+   90,
+   105
+  ],
+  "generated": [
+   23
+  ],
+  "using": [
+   24,
+   48
+  ],
+  "our": [
+   25
+  ],
+  "method": [
+   26,
+   52
+  ],
+  "is": [
+   27,
+   37
+  ],
+  "smooth.": [
+   28
+  ],
+  "Thanks": [
+   29
+  ],
+  "to": [
+   30,
+   44,
+   64,
+   87,
+   98
+  ],
+  "this": [
+   31,
+   85
+  ],
+  "property,": [
+   32
+  ],
+  "resulting": [
+   34
+  ],
+  "pattern": [
+   36
+  ],
+  "smooth,": [
+   38
+  ],
+  "natural,": [
+   39
+  ],
+  "and": [
+   40,
+   76,
+   103
+  ],
+  "highly": [
+   41
+  ],
+  "detailed": [
+   42
+  ],
+  "compared": [
+   43
+  ],
+  "results": [
+   46
+  ],
+  "btained": [
+   47
+  ],
+  "previous": [
+   49
+  ],
+  "methods.": [
+   50
+  ],
+  "Our": [
+   51
+  ],
+  "consists": [
+   53
+  ],
+  "two": [
+   55
+  ],
+  "processes.": [
+   56
+  ],
+  "First,": [
+   57
+  ],
+  "we": [
+   58,
+   83
+  ],
+  "use": [
+   59
+  ],
+  "differential": [
+   61
+  ],
+  "geometry": [
+   62
+  ],
+  "approach": [
+   63
+  ],
+  "compute": [
+   65,
+   88,
+   99
+  ],
+  "smooth": [
+   67
+  ],
+  "mapping": [
+   68,
+   86,
+   102
+  ],
+  "between": [
+   69
+  ],
+  "distributions": [
+   71
+  ],
+  "incident": [
+   74
+  ],
+  "light": [
+   75,
+   78
+  ],
+  "reaching": [
+   79
+  ],
+  "screen.": [
+   81
+  ],
+  "Second,": [
+   82
+  ],
+  "utilize": [
+   84
+  ],
+  "object.": [
+   93,
+   108
+  ],
+  "solve": [
+   95
+  ],
+  "Poisson's": [
+   96
+  ],
+  "equation": [
+   97
+  ],
+  "both": [
+   100
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-07-28T07:46:37.118299",
+ "created_date": "2025-10-10T00:00:00"
+}

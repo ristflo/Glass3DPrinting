@@ -1,0 +1,1590 @@
+Additive Manufacturing of Molten Glass
+Evidence, Process Physics, Hardware, and an Engineering Roadmap
+Glass 3D Printing Research Project
+Technical evidence review and reproducible analysis
+30 September 2026
+Abstract
+Molten-glass additive manufacturing connects glass chemistry, viscous flow, thermal his-
+tory, motion planning, and defect-sensitive qualification. This review distinguishes reservoir
+extrusion and laser filament deposition from powder-bed processing and indirect composite
+routes. It synthesizes primary apparatus studies, manufacturer reference data, patent disclo-
+sures, and commercial evidence while making gaps in measurement explicit. Reproducible
+viscosity fits and flow/thermal scaling calculations explain process tradeoffs without present-
+ing model scenarios as machine performance. A practical roadmap prioritizes feedstock iden-
+tity, interlayer contact, temperature measurement, dimensional control, and end-use qualifi-
+cation. The accompanying archive includes source records, downloaded literature, figures,
+scripts, and the modular LaTeX project.
+Evidence status. Initial sourcing occurred on 26 September 2026; targeted source verification con-
+tinued on 29 September, with final editorial review on 30 September. This is a scoped technical
+review, not a certified exhaustive systematic review or a design certification. Missing specifica-
+tions are reported as unknown. Calculated scenarios are identified separately from experimental
+findings.
+Contents
+1
+Introduction, scope, and process taxonomy
+3
+1.1
+The manufacturing question . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.2
+A taxonomy by material state and consolidation step . . . . . . . . . . . . . . . . . .
+3
+1.3
+Evidence selection and reproducibility . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2
+Rheology, thermal properties, and material physics
+5
+2.1
+A glass name is not a constitutive law
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.2
+Viscosity law, units, and fitting method
+. . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.3
+Flow, capillarity, and a worked scaling example . . . . . . . . . . . . . . . . . . . . .
+8
+2.4
+Instability, slumping, and interlayer contact . . . . . . . . . . . . . . . . . . . . . . .
+8
+2.5
+Thermal scales and materials outside the fitted set . . . . . . . . . . . . . . . . . . .
+9
+3
+Nozzle mechanics, hardware, and kinematics
+9
+3.1
+Two materially different ways to deliver hot glass . . . . . . . . . . . . . . . . . . . .
+9
+3.2
+Flow resistance and nozzle selection . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+1
+
+
+3.3
+Motion control is also material control . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3.4
+Proposed hardware qualification sequence
+. . . . . . . . . . . . . . . . . . . . . . .
+11
+4
+In-situ thermal management and annealing
+11
+4.1
+Deposition temperature and annealing temperature serve different purposes
+. . .
+11
+4.2
+A thermal model with explicit boundary assumptions . . . . . . . . . . . . . . . . .
+12
+4.3
+Stress relaxation and cooling history . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+4.4
+A proposed measurement-driven annealing workflow . . . . . . . . . . . . . . . . .
+13
+5
+Defect mechanisms and optical quality
+13
+5.1
+A transparent object is not necessarily an imaging optic . . . . . . . . . . . . . . . .
+13
+5.2
+Mechanism-based diagnosis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+5.3
+Interlayer bonding and mechanical evidence
+. . . . . . . . . . . . . . . . . . . . . .
+14
+5.4
+Polarimetry and an application-specific acceptance chain . . . . . . . . . . . . . . .
+14
+6
+Academic landscape and evidence-qualified directory
+16
+6.1
+How to interpret the research network . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+7
+Commercial systems, applications, and economics
+19
+7.1
+What the available evidence establishes
+. . . . . . . . . . . . . . . . . . . . . . . . .
+19
+7.2
+Company profiles and limits of comparison . . . . . . . . . . . . . . . . . . . . . . .
+19
+7.3
+Application fit and competitive alternatives . . . . . . . . . . . . . . . . . . . . . . .
+20
+7.4
+Transparent cost model and illustrative sensitivities
+. . . . . . . . . . . . . . . . . .
+21
+8
+Open frontiers and a research roadmap
+21
+8.1
+Prioritize a repeatable process window . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+8.2
+Measurements that could change engineering decisions . . . . . . . . . . . . . . . .
+22
+8.3
+An intellectual-property and demonstration map . . . . . . . . . . . . . . . . . . . .
+23
+8.4
+Reproducibility and remaining evidence gaps . . . . . . . . . . . . . . . . . . . . . .
+23
+2
+
+
+1
+Introduction, scope, and process taxonomy
+1.1
+The manufacturing question
+The useful question is not simply whether glass can be printed. It is whether a specified composi-
+tion can be formed into an accepted geometry, at a repeatable rate, with the required optical, me-
+chanical, thermal, and chemical properties. A transparent sculpture, a microfluidic channel, and
+a load-bearing glass connection place very different demands on the process. This report centers
+on direct deposition of hot inorganic glass and uses other additive routes as explicitly identified
+comparators.
+The strongest case for additive manufacturing is geometric customization that is expensive or im-
+practical with a repeated mold or accessible machining surface. Eliminating a mold does not elim-
+inate conditioning, finishing, thermal treatment, or inspection. Conversely, accepting the native
+layer texture can create useful optical and aesthetic functions. Decisions should therefore begin
+with a part specification and a conventional-process baseline, not an assumption that additive
+manufacture is preferable.
+1.2
+A taxonomy by material state and consolidation step
+Reservoir-fed molten extrusion conditions a quantity of glass in a crucible and deposits it through
+a heated nozzle. Gravity, imposed pressure, or mechanical metering drives flow. The receiving
+chamber manages cooling while a motion system lays down a continuous cord. Early G3DP and
+G3DP2 are reference demonstrations of this family.[18, 19]
+Locally heated solid-feed deposition delivers a glass rod or filament to a hot zone. A furnace-
+like nozzle or a laser heats only the material needed for deposition. Laser filament systems are
+particularly relevant to fused silica, whose viscosity at the same temperature differs greatly from
+soda-lime compositions. This route is analogous in material delivery to wire-fed directed-energy
+deposition, but it requires glass-specific treatment of optical absorption and stress.[24]
+Powder-bed fusion scans successive powder layers with a heat source. Packing, absorption, track
+consolidation, residual porosity, and cracking become central variables. Laser scan speed is not
+a net part-production rate: powder recoating, track overlap, contour passes, and rejected builds
+must be included. The labels SLS and SLM in the glass literature should be interpreted from the
+actual consolidation mechanism rather than treated as proof of complete densification.[7]
+Indirect printing and conversion shapes silica-containing inks, photopolymer nanocomposites,
+or precursors before drying, debinding, and densification. Stereolithography, two-photon poly-
+merization, direct ink writing, and computed axial lithography belong here when the printed
+object is a precursor rather than final dense glass. The printing temperature can be near room
+temperature while subsequent firing is much hotter. Kotz and colleagues demonstrated transpar-
+ent fused-silica structures by photopolymerizing a nanocomposite and heat treating it; Toombs
+and colleagues demonstrated volumetric shaping followed by sintering.[20, 39]
+These routes exclude glass-fiber-filled thermoplastics, sugar glass, and metallic glasses from the
+core comparison. Chalcogenide glass extrusion is considered in the academic directory as a dis-
+tinct material family, not as evidence for the same silicate processing window. Additively manu-
+facturing a metal mold used to form glass is also an adjacent tooling route rather than direct glass
+printing.
+1.3
+Evidence selection and reproducibility
+Source discovery covered primary journal articles, institutional repositories, manufacturer tech-
+nical documents, institutional project pages, and patent records. DOI metadata were collected
+3
+
+
+from Crossref where accessible; downloaded PDFs were parsed and retained with provenance.
+Reviews informed discovery but did not substitute for primary apparatus or property evidence.
+Institutional and manufacturer pages establish reported activity or supplier claims, not indepen-
+dently audited performance.
+The companion source index and manifest retain individual records, retrieval dates, local paths,
+and asset hashes. Different versions of a supplier page were encountered during research; current
+certified ratings were not inferred from an older cached specification. Where a paper or site was
+blocked, the report identifies the narrower evidence actually available. This search did not enu-
+merate every indexed paper or conduct a formal study-quality meta-analysis. Coverage of named
+institutions is an evidence map, including explicit negative search outcomes, rather than proof of
+their current equipment inventories.
+Table 1 is deliberately a comparison of documented examples. It is not a normalized benchmark.
+NR means that the cited evidence does not establish a comparable numerical value; it does not
+mean zero or poor performance. Relative tensile strength is particularly unsuitable for inference
+from bend tests performed on different compositions and flaw populations.
+Table 1: Direct molten extrusion versus powder-bed fusion and photopolymer/sintering routes.
+Temperatures and rates refer to the indicated examples, not universal or certified machine limits.
+Metric
+Molten reservoir extrusion
+Glass laser powder-bed
+fusion
+Photopolymer shaping +
+sintering
+Representative
+evidence
+G3DP2, 2018 [18]
+Soda-lime LPBF, 2019 [7]
+Fused-silica SLA, 2017;
+micro-CAL, 2022 [20, 39]
+Temperature
+(◦C)
+Reservoir operating 1090;
+separate delivery/build
+zones
+Local transient melt tem-
+perature NR; 1280 is the
+paper’s material thermal-
+characterization value, not
+a measured laser-pool set-
+point
+Near-ambient shaping;
+formulation-specific high-
+temperature densification.
+UpQuartz example: 1300
+sintering [42]
+Build envelope
+G3DP2: 320×320×350 mm;
+earlier G3DP: 250 × 250 ×
+300 mm (source Table 1)
+Comparable validated
+maximum NR
+Comparable validated
+maximum NR; demon-
+strated microstructures are
+not machine envelope
+Deposition rate
+G3DP2: 5.2 kg/h ≈86.7
+g/min; deposited flow, ex-
+cludes annealing
+Net accepted-part rate NR
+Net glass volume/time NR;
+micro-CAL exposure 30–
+90 s excludes subsequent
+firing
+Optical transmis-
+sion T%
+Transparent demonstra-
+tors; comparable spectral
+T% NR
+Opaque as-built examples;
+comparable spectral T%
+NR
+Transparent fused silica
+reported; comparable
+thickness/wavelength-
+normalized T% NR
+Surface rough-
+ness Ra
+Comparable quantified Ra
+NR; bead texture retained
+Comparable quantified Ra
+NR; partially fused surface
+particles
+Micro-CAL sintered lens:
+Ra = 60 nm over 523 µm;
+6 nm over 49 µm (source
+Fig. S17); not a whole-part
+specification
+Relative tensile
+strength
+NR: bending/structural
+tests cannot establish a
+universal tensile ratio
+NR
+NR: specimen type and
+loading differ
+The G3DP2 paper reports both 570 mm3/s and 5.2 kg/h as rounded production descriptors; neither
+includes a complete end-to-end production cycle. Its comparison to earlier platforms should not
+be extended to every modern indirect printer. The LPBF study reported approximately 11–12%
+internal porosity in selected specimens and observed improved translucency with a subsequent
+4
+
+
+650 ◦C heat treatment. Those findings concern one powder and processing window, not an upper
+bound on all powder-bed glass methods.[7, 18]
+Reservoir / crucible
+composition, head, T1
+Nozzle
+T2, Q
+Heated build enclosure
+substrate and layers: T3
+Motion and shape feedback
+Separate annealing
+and controlled cooling
+then metrology
+Functional architecture — original schematic, not a vendor machine
+Figure 1: Original functional schematic separating reservoir conditioning, delivery, receiving en-
+vironment, and downstream annealing. It describes engineering functions, not the construction
+or specification of a particular commercial printer.
+2
+Rheology, thermal properties, and material physics
+2.1
+A glass name is not a constitutive law
+Composition, hydroxyl content, impurities, and thermal history influence the response of glass.
+“Borosilicate” and “soda-lime” identify families rather than unique viscosity curves. Fused quartz
+and synthetic fused silica are also not automatically interchangeable grades. Accordingly, the
+calculations below use three named manufacturer products as reference materials: SCHOTT AR-
+GLAS, SCHOTT BOROFLOAT 33, and Corning HPFS 7980. They are not asserted to be the feed-
+stocks used by the cited printers.[6, 35, 36]
+2.2
+Viscosity law, units, and fitting method
+Write the Vogel–Fulcher–Tammann form as
+y = log10
+[
+η
+1 dPa s
+]
+= A +
+B
+TC −T0,C
+,
+TC = T0,C +
+B
+y −A.
+(1)
+Here TC and T0,C use degrees Celsius consistently, while their difference and B have kelvin units.
+Changing the temperature origin requires shifting T0 by the same amount. Since 1 dPa s = 0.1 Pa s,
+the logarithm expressed in Pa s is y −1. A numerical viscosity must always be associated with its
+unit before use in a flow equation.
+The AR-GLAS curve fits three nominal points: 530, 720, and 1040 ◦C at y = 13, 7.6, and 4. The
+BOROFLOAT curve fits four points, adding the 518 ◦C strain point to its 560, 820, and 1270 ◦C
+annealing, softening, and working points. Nonlinear least squares fits A, B, and T0 in logarithmic
+viscosity. There is no statistical uncertainty claim: the source values are nominal property anchors,
+not a replicated experimental dataset.[35, 36]
+5
+
+
+For HPFS 7980, an Arrhenius approximation fixes T0,K = 0, equivalently T0,C = −273.15, and fits
+A+B/TK to the manufacturer’s three reference points. This is a constrained limiting form of VFT
+used to illustrate a strong-glass response; it is an analyst-selected approximation, not a Corning-
+provided constitutive law. The listed strain, annealing, and softening points are 893, 1042, and
+1585 ◦C. The resulting fit does not reproduce them exactly.[6]
+Computed fit parameters. Temperature origin is Celsius in Equation 1. RMS refers to residuals in
+log10(dPa s), not measurement uncertainty.
+Material
+A
+B (K)
+T0,C
+RMS
+AR-GLAS
+-1.89655
+4977.503
+195.862 < 10−12
+BOROFLOAT 33
+-1.68081
+6578.032
+111.631
+0.00655
+HPFS 7980, constrained -4.16293
+22072.095
+-273.150
+0.27547
+The near-zero AR-GLAS residual is a consequence of fitting three parameters to three anchors;
+it is not evidence of exceptionally accurate prediction. The silica fit’s largest residual is about
+0.38 decades, a factor of roughly 2.4 in viscosity. A temperature inferred from that curve must
+not replace a manufacturer’s annealing point or an independently measured rheology dataset. A
+fitted interval is shown separately from extrapolation in Figure 2.
+500
+750
+1000
+1250
+1500
+1750
+2000
+2250
+Temperature (°C)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+log10 [η/(dPa s)]
+Nominal manufacturer anchors and fits
+Soda-lime: SCHOTT AR-GLAS
+Borosilicate: BOROFLOAT 33
+Fused silica: Corning HPFS 7980
+1000
+1100
+1200
+1300
+1400
+1500
+1600
+1700
+Temperature (°C)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+log10 [η/(dPa s)]
+Requested 1000–1700 °C process window
+Dots: manufacturer anchors  |  solid: calibration interval  |  dashed: extrapolation
+Figure 2: Calculated viscosity curves from nominal, composition-specific manufacturer reference
+points. Solid segments lie between the lowest and highest fitting anchors; dashed segments are
+extrapolation. The shaded 104–107 dPa s band is a descriptive working band for comparison, not
+a validated universal printing window. HPFS uses the approximate constrained model described
+in the text.
+The computed HPFS working point near 2431 ◦C is far outside the fitted data and should be treated
+only as an illustration of extrapolation risk. It is not a process recommendation: evaporation,
+optical absorption, and equipment/material limits require separate treatment. Even the 1000–
+1700 ◦C plot contains substantial extrapolation for AR-GLAS. Publishing a smooth curve does not
+establish its validity throughout its axis range.
+6
+
+
+Temperatures (◦C) obtained by inversion of the fitted curves, deliberately distinguished from re-
+ported manufacturer points. Columns correspond to y = 14.5, 13, 7.6, and 4. The AR-GLAS strain
+estimate and silica working estimate are extrapolations; the silica softening estimate slightly ex-
+ceeds its calibration interval.
+Material
+Strain
+Annealing
+Softening
+Working
+AR-GLAS
+499.4
+530.0
+720.0
+1040.0
+BOROFLOAT 33
+518.2
+559.7
+820.4
+1269.6
+HPFS 7980 (approx.)
+909.5
+1012.9
+1603.3
+2430.8
+600
+800
+1000
+1200
+1400
+1600
+Anchor temperature (°C)
+−0.4
+−0.3
+−0.2
+−0.1
+0.0
+0.1
+0.2
+Fit minus anchor (log10 dPa s)
+Soda-lime: SCHOTT AR-GLAS
+Borosilicate: BOROFLOAT 33
+Fused silica: Corning HPFS 7980
+Figure 3: Residuals reveal the approximation that a visually smooth curve can hide. The silica
+model is least suitable for selecting annealing setpoints. Manufacturer reference points should be
+retained as reported rather than silently replaced with fitted values.
+7
+
+
+2.3
+Flow, capillarity, and a worked scaling example
+For a cord radius r, speed U, density ρ, surface tension γ, and dynamic viscosity η, useful ratios
+are
+Red = 2ρUr
+η
+,
+Ca = ηU
+γ ,
+Bor = ρgr2
+γ
+,
+Ohr =
+η
+√ργr.
+(2)
+The subscripts explicitly identify the length convention; radius-based and diameter-based defini-
+tions differ. Very small Reynolds number does not mean that gravity or surface tension is negligi-
+ble. It means that inertia is small relative to viscous stresses under the assumed scale.
+Consider a hypothetical isothermal cylindrical nozzle with radius 5 mm, length 10 mm, melt head
+0.2 m, ρ = 2500 kg/m3, η = 1000 Pa s, and assumed γ = 0.3 N/m. These are scenario inputs, not
+a commercial specification. Equation 4 predicts a pressure of 4905 Pa, Q = 1.204 × 10−7 m3/s,
+and 1.083 kg/h. The mean nozzle speed is 1.533 mm/s. Using that speed gives Red = 3.83 × 10−5,
+Ca = 5.11, Bor = 2.04, and Ohr = 516. This low-inertia example is sensitive to viscosity and
+radius; its short nozzle also makes entrance effects a material omission. It does not predict actual
+accepted-part throughput.
+102
+103
+104
+105
+Viscosity (Pa s)
+10−3
+10−2
+10−1
+100
+101
+Idealized mass flow (kg/h)
+Gravity-fed, isothermal cylindrical capillary model
+Nozzle radius 2 mm
+Nozzle radius 3 mm
+Nozzle radius 5 mm
+Figure 4: Scenario calculation for a 0.2 m head, 10 mm bore length, and assumed constant density.
+The r4/η dependence explains why thermal drift and nozzle wear are important. No measured
+machine performance is plotted.
+The local viscosity sensitivity follows directly from the fit:
+d ln η
+dT
+= −ln(10)
+B
+(T −T0)2 ,
+d ln Q
+dT
+≃−d ln η
+dT .
+(3)
+The second relation holds only when the other capillary-model inputs remain fixed. It motivates
+temperature feedback without implying that a heater command controls glass temperature instan-
+taneously.
+2.4
+Instability, slumping, and interlayer contact
+For an ideal inviscid free cylindrical jet in a dynamically negligible exterior fluid, the fastest grow-
+ing axisymmetric capillary mode has wavelength approximately 9.02r = 4.51d. That familiar
+8
+
+
+Rayleigh result is not a universal optimum for a viscous glass bead contacting a substrate. Vis-
+cosity contrast, cooling, stretching, finite length, contact angle, and the receiving surface change
+the instability problem; Tomotika’s viscous-thread treatment illustrates the importance of the sur-
+rounding fluid.[33, 38]
+The viscous capillary scale tγ ∼ηr/γ is about 16.7 s for the preceding scenario. A gravitational
+deformation scale tg ∼η/(ρgH) is about 0.41 s for an assumed unsupported height H = 0.1
+m. These order-of-magnitude times refer to a material that remains at the selected viscosity. A
+rapidly cooling, attached bead violates that assumption, and neither value is an observed failure
+time. They show why shape arrest and bonding must be controlled together.
+Surface-tension gradients can impose tangential stresses, η ∂ut/∂n ∼∂γ/∂s. Temperature and
+composition variations can therefore drive Marangoni flow even when bulk inertia is small. Quan-
+tifying it requires the actual derivative of surface tension and local thermal field; a generic sign or
+magnitude is not assigned here. Similarly, capillary neck growth between adjacent beads is only
+one contribution to adhesion. Contact area, surface contamination, and the time-temperature his-
+tory must accompany any comparison of interlayer strength.
+2.5
+Thermal scales and materials outside the fitted set
+Using BOROFLOAT’s reference k = 1.2 W/(m K) at 90 ◦C, cp = 830 J/(kg K) over 20–100 ◦C,
+and nominal density 2230 kg/m3 gives an approximate low-temperature diffusivity a ≈6.48 ×
+10−7 m2/s. Characteristic diffusion times L2/a are approximately 39 s at L = 5 mm and 617 s
+at 20 mm. These are scaling calculations using low-temperature reference properties, not high-
+temperature annealing schedules. Radiation, temperature-dependent properties, and boundary
+conditions become significant in a real print.[36]
+Aluminosilicates add a broad composition space with varying modifiers, liquidus behavior, and
+viscosity. No single aluminosilicate curve is defensibly inferred from the three products above. A
+useful extension would specify a grade and obtain measured viscosity, expansion, crystallization
+kinetics, and compatible wet-contact materials before fitting. This explicit gap is preferable to
+assigning plausible-looking coeﬀicients to an unspecified composition.
+3
+Nozzle mechanics, hardware, and kinematics
+3.1
+Two materially different ways to deliver hot glass
+Reservoir extrusion and laser-heated filament deposition solve different hardware problems. In
+the former, a crucible provides an inventory of conditioned melt and a nozzle meters a continuous
+cord. In the latter, a solid feedstock carries material to a small hot zone; deposition occurs after
+local softening or melting. Separating these architectures prevents an inappropriate comparison
+between a furnace setpoint and a laser’s nominal power. Both are direct hot-glass routes, but
+their thermal inventory, material residence time, attainable feature size, and interruption behavior
+differ.
+The historical MIT G3DP apparatus demonstrated transparent reservoir-fed material extrusion
+with a heated receiving chamber. Its institutional project description specifies an upper kiln car-
+tridge and a lower annealing chamber. The later G3DP2 paper describes three-zone thermal con-
+trol and four-axis motion, alongside a demonstration of assembled architectural columns. These
+publications establish feasibility and increasingly integrated process control; they do not establish
+that every printed component is suitable for structural service without qualification.[18, 19, 28]
+9
+
+
+3.2
+Flow resistance and nozzle selection
+As a deliberately simplified design model, steady Newtonian flow through an isothermal cylindri-
+cal bore gives
+Q = πr4
+8ηL∆p,
+∆p ≃ρgH + ∆pact,
+(4)
+where r is bore radius, L is bore length, H is melt head, and ∆pact is any imposed pressure. The
+expression excludes entrance losses, capillary pressure, temperature gradients, slip, and a partially
+obstructed outlet. It should be treated as a scaling law for engineering estimates, not as a calibrated
+G3DP flow model. Its useful implications are immediate: doubling radius increases predicted
+flow sixteenfold; doubling viscosity halves predicted flow; and emptying a gravity-fed reservoir
+changes output even when the heater setpoint stays fixed.
+For a slowly varying nozzle profile the corresponding approximation is
+∆pvisc = 8Q
+π
+∫L
+0
+η[T(z)]
+r(z)4 dz.
+(5)
+The coldest narrow section can therefore dominate pressure loss. A heater mounted above the tip
+cannot by itself prove that the issuing glass has the intended viscosity. A practical experimental
+calibration would weigh deposited glass against time while recording head height, nozzle temper-
+atures, dwell time, and glass batch. A flow map should include warm-up and restart transients
+rather than only the best steady segment. This calibration protocol is a proposal of this review.
+Refractory ceramic and precious-metal wet-contact parts require different qualification. MIT’s his-
+torical project page uses the wording alumina–zircon–silica for its nozzle; that description should
+not be generalized to all apparatus versions. Heraeus documents platinum and platinum-alloy
+glass-manufacturing components and emphasizes that alloy choice depends on the glass and re-
+quired purity. In particular, its optical-glass guidance favors rhodium-free platinum materials
+where coloration matters, while Pt–Rh alloys appear in other demanding glass-processing appli-
+cations. Thus “platinum–rhodium is always best” is not a supportable design rule. Supplier in-
+formation is evidence of materials availability and engineering considerations, not independent
+proof of a particular printer’s nozzle life.[17, 28]
+3.3
+Motion control is also material control
+Ignoring shrinkage and evaporation, conservation of mass relates deposited area Ab to travel speed
+U through Ab ≃Q/U. A corner slowdown therefore increases local cross-section unless flow
+changes at the same time. Conversely, acceleration can thin a bead and reduce contact with the
+previous layer. Discontinuous paths add a second problem: molten glass stored downstream
+of a metering mechanism can continue moving after its command stops. Designing a path as a
+continuous loop reduces repeated starts, although it restricts accessible topology.
+These observations motivate a proposed controller with separate estimation of thermal state, ma-
+terial delivery, and position. A geometric planner should specify the desired cross-section and
+contact location; a deposition controller should translate these into speed and flow commands
+with actuator delays. The controller should monitor actual bead shape rather than interpreting
+successful motor motion as successful deposition. Height feedback is particularly valuable be-
+cause small layer errors accumulate and change the physical gap between nozzle or hot zone and
+the growing part.
+Laser filament systems remove the need for a large nozzle filled with molten silica. Von Witzen-
+dorff and colleagues demonstrated quartz-fiber deposition using a CO2 laser and translating sub-
+strate. Liu and colleagues subsequently examined symmetric laser heating and bonding of ap-
+proximately 196 µm fused-silica filament; their multilayer experiment used 200 µm nominal layers.
+10
+
+
+These are research operating conditions, not a universal printer resolution.[24, 43] Their signifi-
+cance is that energy delivery, filament feed, and substrate motion jointly determine fusion. Nomi-
+nal laser power alone cannot specify the delivered energy density without optical coupling, beam
+geometry, feedstock diameter, and speed.
+3.4
+Proposed hardware qualification sequence
+(a) G3DP3 reservoir-fed apparatus.
+(b) Four-beam laser filament heating.
+Figure 5: Contrasting thermal architectures. Left: Massimino et al. (2024), Figure 1, showing
+the G3DP3 build chamber below the furnace/crucible, original article. Right: Liu, Oriekhov and
+Fokine (2022), Figure 1, original article. Both images reproduced unmodified under CC BY 4.0.
+The drawing and photograph are not to a common scale.
+A useful acceptance sequence begins with stationary thermal characterization, proceeds to single
+tracks and starts/stops, then to turns, stacked walls, and representative enclosed geometries. At
+each stage, assess both geometric error and material integrity. For nozzles, inspect bore growth,
+adhering deposits, inclusions in the glass, and leakage at joints. For filament systems, inspect
+diameter variation, feed damage, and direction-dependent heating. These tests are recommended
+engineering controls rather than published capability claims. They make a machine specification
+reproducible: a build envelope without its hot-zone clearances, thermal stability, and supported
+path geometry is an incomplete description of usable manufacturing capacity.
+4
+In-situ thermal management and annealing
+4.1
+Deposition temperature and annealing temperature serve different purposes
+Hot-glass printing must establish intimate contact at a new interface while preserving the geome-
+try already deposited. Heating promotes flow and bonding but also allows deformation; cooling
+arrests geometry but develops gradients and eventually freezes stress. A heated build chamber
+consequently addresses only part of the problem. It does not automatically certify completion of
+annealing, and a chamber thermocouple does not directly measure the coldest or hottest point
+inside a thick section.
+G3DP2’s separated thermal zones demonstrate an architecture that can manage melt prepara-
+tion, delivery, and the receiving environment independently.[18] At smaller scales, Chen and col-
+leagues report a closed-loop system adjusting CO2 laser power from measured melt-zone temper-
+ature. Their quartz-glass experiments compare temperature-controlled deposition with constant-
+11
+
+
+power cases and report improved formation quality. The paper supports feedback as an experi-
+mentally tested route; it does not establish that its sensor calibration, controller gains, or power
+limits transfer to another glass or optical arrangement. The article appeared online in December
+2024 in the 2025 journal issue.[3]
+4.2
+A thermal model with explicit boundary assumptions
+For a continuum model with no internal chemical heat release, the local energy balance is
+ρcp(T)
+(∂T
+∂t + u · ∇T
+)
+= ∇· (k(T)∇T) + qabs.
+(6)
+Here qabs represents absorbed volumetric heating. A solid or nearly arrested region can use u = 0;
+a flowing cord generally cannot. A common opaque-surface approximation is
+−k∇T · n = h(T −T∞) + ϵσSB(T 4 −T 4
+sur) −q′′
+laser.
+(7)
+All fourth-power temperatures must be in kelvin. Surface and volumetric laser absorption are
+alternative idealizations and must not count the same energy twice. Semitransparent glass may
+require spectral radiative transfer rather than an opaque gray surface. Contact with the substrate
+introduces another uncertain boundary: real conductance depends on wetting, interface area, and
+local conformity.
+The dimensionless numbers
+Bi = hLc
+k ,
+Fo = at
+L2c
+,
+a =
+k
+ρcp
+(8)
+provide a first check on model selection.
+A small convective Biot number favors a lumped-
+temperature approximation, but radiation and contact losses must also be included before
+invoking that approximation. The diffusion time td ∼L2
+c/a explains why the thickest thermal
+section often matters more than total height. Doubling a conduction distance multiplies this
+time estimate by four for unchanged properties and boundary conditions.
+These equations
+are engineering models presented for interpretation; this review does not claim a validated
+three-dimensional simulation of any cited printer.
+4.3
+Stress relaxation and cooling history
+SCHOTT’s technical guidance identifies annealing conditions, glass type, size, and geometry as
+determinants of residual stress. Its conventional upper annealing and strain-point viscosities are
+1013 and 1014.5 dPa s, respectively, equivalent to 1012 and 1013.5 Pa s. Confusing these units shifts
+a viscosity curve by one decade. Fine annealing involves temperature equalization and controlled
+cooling through the relevant relaxation range; rapid cooling farther below that range can still cause
+damaging temporary stress.[34]
+For interpretation, a Maxwell estimate gives a stress-relaxation time τM ∼η/G, where G is an
+appropriate shear modulus. The ratio τM/tprocess compares relaxation with the imposed thermal
+history. It is not a universal annealing recipe: real glass exhibits a relaxation spectrum and struc-
+tural history dependence. Likewise, the restrained elastic estimate
+σth ∼EαT ∆T
+1 −ν
+(9)
+is a scale for stress magnitude, with coeﬀicient depending on constraint and geometry. It must not
+be inserted as an exact residual-stress prediction for a free, three-dimensional print. Mechanical
+equilibrium, free surfaces, and viscoelastic relaxation determine the actual stress field.
+12
+
+
+4.4
+A proposed measurement-driven annealing workflow
+A defensible qualification program would first measure or obtain the specific batch’s transition,
+expansion, and relaxation characteristics. Next, instrument a representative thick-section surro-
+gate to estimate how chamber readings relate to internal temperature. Use that information to
+propose a dwell and cooling program, and verify the resulting parts by calibrated stress measure-
+ment and dimensional inspection. A hollow wall, solid base, and junction may require different
+local interpretation even within one object.
+For thermal imaging, record spectral band, viewing geometry, reflected surroundings, assumed
+emissivity, and calibration method. A visually stable thermal image is not evidence of an accurate
+absolute temperature if the camera sees transmitted or reflected radiation. Recycled-glass printing
+work by Stern and colleagues explicitly investigated glass-dependent viscosity and used infrared
+thermography during extrusion, emphasizing why changing feedstock requires renewed process
+characterization.[37]
+In-situ heating and a separate annealing furnace should therefore be evaluated as a complete pro-
+duction schedule. Include transfer delays, loading orientation, furnace occupancy, and the slowest
+qualified cooling step when estimating throughput. A continuous lehr is a possible industrial de-
+sign, but its residence-time distribution and compatibility with individually printed geometries
+would need demonstration. No operating continuous annealing lehr is inferred from the mere
+presence of a heated build chamber in the cited prototypes.
+5
+Defect mechanisms and optical quality
+5.1
+A transparent object is not necessarily an imaging optic
+Optical qualification should separate total transmission, directional transmission, wavefront qual-
+ity, and scattering. A ribbed transparent wall can transmit considerable light while producing
+strong image distortion. Conversely, a deliberately patterned illumination element may use that
+distortion productively. The early G3DP work demonstrates transparent structures and control-
+lable caustic patterns; it is not evidence that an as-printed wall has the surface figure of a polished
+lens.[19]
+Destino and colleagues provide a different benchmark: silica and silica–titania glasses prepared
+by sol–gel-derived ink writing followed by thermal processing were characterized against com-
+mercial optical glasses. Their work includes polished surfaces and refractive-index homogeneity,
+so those results should not be attributed to as-deposited molten cords.[8] Cross-route compar-
+isons need the whole process history, including polishing, thermal densification, coatings, and
+measurement path length.
+5.2
+Mechanism-based diagnosis
+Entrained gas, inter-track voids, crystalline inclusions, foreign particles, and surface damage can
+all reduce performance but demand different remedies. Gas already in a reservoir calls for feed-
+stock and conditioning investigation. Voids recurring at junctions suggest deposition geometry or
+insuﬀicient bonding. A rough surface can arise from layer shape without implying bulk porosity.
+Crystals require phase-sensitive characterization; their presence must not be inferred from every
+bright spot in a microscope image.
+Devitrification depends on composition, nucleation sites, temperature, and exposure time. A liq-
+uidus temperature describes an equilibrium phase boundary, not a complete kinetic guarantee
+that a print remains amorphous. Recommended characterization includes differential scanning
+calorimetry at stated heating rates, diffraction, and microscopy after representative thermal cy-
+13
+
+
+cles. Recycling further demands chemical identity and contamination checks. Mixing individually
+transparent cullets does not establish thermal compatibility or a common viscosity curve. These
+are proposed qualification measures, not claims that the cited recycled-glass study demonstrated
+every test.
+For optical loss, a basic homogeneous attenuation model is
+Tint(λ, d) = exp[−µ(λ)d].
+(10)
+External transmission also includes interface reflections, collection geometry, and scattering. For a
+simple plane-parallel transparent specimen, surface reflection losses cannot be silently assigned to
+bulk absorption. Reporting a single percentage without wavelength, thickness, surface condition,
+and whether scattered light is collected is insuﬀicient for ranking processes. Likewise, roughness
+Ra is a profile statistic at a stated cutoff and direction; it does not alone specify optical wavefront
+quality.
+5.3
+Interlayer bonding and mechanical evidence
+The KTH filament study measured both line geometry and bonding width, providing evidence
+that deposited width and actual contact width need not be equal. Its multilayer results demon-
+strate reproducible bonding under the selected operating conditions, not an independently mea-
+sured universal tensile strength.[24] A visible line in a transparent print may represent surface
+geometry, an internal interface, compositional variation, or stress; fracture analysis is needed to
+identify the feature that actually controls failure.
+A 2026 study by Chhadeh and colleagues directly addresses mechanical performance of extruded
+soda-lime glass. Its four-point bending experiments show dependence on toolpath and layer ori-
+entation and connect performance to thermal retention during deposition. The reported 90◦spec-
+imens had mean strength approximately 40% greater than the 0◦specimens in that experiment.
+This is a within-study comparison, not a transferable design factor. The test setup deliberately dif-
+fers from EN 1288-3 in dimensions and roller freedom; it should not be described as unqualified
+standard conformity.[4]
+The engineering implication is that orientation labels alone are inadequate predictors: they can
+also change path length, return time, and the heat history of adjacent tracks. A proposed experi-
+mental design should hold those factors separately where possible and record specimen surface
+treatment, effective loaded area, loading rate, environment, and failure origin. Report the spec-
+imen count and full strength distribution rather than the strongest coupon. Comparing flexural
+strength with direct tensile strength, or comparing specimens with different flaw populations, can
+obscure the actual process improvement.
+5.4
+Polarimetry and an application-specific acceptance chain
+In a simple uniform, plane-stress specimen with fixed principal directions, optical retardation can
+be written
+δ = C(λ, T)(σ1 −σ2)d.
+(11)
+The stress-optic coeﬀicient C is material and wavelength dependent. For a spatially varying field,
+the interpretation is path dependent; curved surfaces and changing principal directions com-
+plicate inversion. SCHOTT describes the relationship between stress birefringence and optical
+performance.[34] A colorful crossed-polarizer photograph is a useful screening observation, but
+it is not by itself a calibrated three-dimensional stress map. Darkness can also result from an un-
+favorable orientation rather than the absence of stress.
+This review proposes an acceptance chain tied to intended service: first geometry and surface
+inspection; then bulk void/inclusion checks; then optical transmission and, where needed, wave-
+14
+
+
+Figure 6: Top views and cross-sections of deposited silica lines for travel speeds of 10–100 mm/min
+and laser powers specified in the original experiment. The figure supports comparison of contact
+geometry; it is not a generic bubble or residual-stress image. Liu, Oriekhov and Fokine (2022),
+Figure 6, reproduced unmodified from the primary paper under CC BY 4.0.
+15
+
+
+front or haze; then calibrated residual-stress assessment; finally mechanical tests on representative
+specimens and connections. Hermetic fluidics additionally require pressure and leak testing; dec-
+orative lighting requires a different optical specification from an imaging lens. Passing one branch
+does not certify another. This approach turns the broad word “transparent” into measurable re-
+quirements while preserving the possibility that intentional texture, color, or scattering is useful
+product functionality.
+Figure 7: Measurement-method illustration using conventional fully tempered glass, not a printed
+specimen. Intensity and isochromatic images near the edge of a 10 mm specimen; marked positions
+are approximately 1.0 and 1.6 mm from the edge, and the dashed line identifies the chamfer. Efferz,
+Schuler and Siebert (2024), Figure 2, reproduced unmodified from the primary article under CC
+BY 4.0.
+6
+Academic landscape and evidence-qualified directory
+The directory distinguishes demonstrated direct hot-glass deposition from adjacent glass research.
+Institutional inclusion follows the requested search scope and should not be read as a ranking. A
+historical project establishes activity at its publication date, not current equipment availability or
+personnel. “Not verified” records a limit of this investigation; it is not proof that a group has never
+worked on the topic.
+16
+
+
+Table 2: Global academic research directory. Named people are documented researchers or con-
+tacts, not necessarily current laboratory directors. Bibliography entries provide primary DOI/URL
+links.
+Institution / labo-
+ratory
+Researcher / appara-
+tus
+Verified contribution and
+route
+Primary reference
+MIT Mediated
+Matter and Glass
+Lab
+Neri Oxman, John
+Klein, Peter Houk
+and collaborators;
+G3DP, G3DP2
+Direct reservoir extrusion;
+integrated heating and mo-
+tion; architectural demon-
+strators. Historical project
+attribution.
+[18, 19]
+TU Delft struc-
+tural glass re-
+search
+Telesilla Bristo-
+gianni, Faidra
+Oikonomopoulou;
+molten printer name
+not verified
+Cast/recycled structural
+glass and fabrication re-
+search. Casting evidence
+must not be relabeled as di-
+rect AM.
+Institutional pub-
+lication directory
+[40]
+LLNL glass AM
+/ optics
+Rebecca Dylla-
+Spears, Du Nguyen,
+Joel Destino and col-
+laborators; DIW re-
+search systems
+Silica and mixed-oxide inks,
+subsequent thermal densifi-
+cation, optical characteriza-
+tion. Indirect route.
+[8, 31]
+Fraunhofer IKTS
+Glass/ceramic pro-
+cessing teams; spe-
+cific PI and printer
+name not verified
+Glass-filled filament shap-
+ing followed by sintering;
+photomultiplier-related com-
+ponents.
+Institute account
+[12]
+Fraunhofer ISC
+with IOF
+Project team; specific
+molten printer not
+verified
+ORMOCER hybrid optical
+components; inorganic–
+organic polymer material
+must be distinguished from
+glass melt.
+Institute account
+[14]
+Fraunhofer IPT
+3DHeat team; metal
+LPBF and wire depo-
+sition tooling
+Additively manufactured
+metal molds with thermal
+control for glass molding.
+The tool is printed, not the
+glass.
+2025–2027 project
+[13]
+KTH / Nobula
+Chunxin Liu, Taras
+Oriekhov, Michael
+Fokine; laser fil-
+ament research
+printer
+Direct fused-silica filament
+deposition with symmetric
+heating and measured inter-
+layer bonding.
+[24]
+RISE Acreo with
+KTH / NTNU
+Individual
+PI/apparatus assign-
+ment not verified
+Institutional evidence of
+collaboration in laser pro-
+cessing and glass AM; no
+separate RISE printer specifi-
+cation inferred.
+KTH project
+record [22]
+Université Laval,
+COPL
+Yannick Ledemi,
+Younès Messaddeq
+and collaborators;
+modified commer-
+cial extrusion printer
+Direct arsenic-sulfide chalco-
+genide glass deposition. Sep-
+arate LRIO work addresses
+nanocomposite photopoly-
+merization.
+[1, 41]
+17
+
+
+Institution / labo-
+ratory
+Researcher / appara-
+tus
+Verified contribution and
+route
+Primary reference
+McGill Univer-
+sity
+Inorganic molten-
+glass PI/apparatus
+not verified
+Search retrieved
+carbohydrate-glass bioprint-
+ing evidence, which is out-
+side this review’s inorganic-
+glass scope.
+Repository distinc-
+tion [27]
+Nagaoka Univer-
+sity of Technol-
+ogy
+Historical
+Takayuki Komatsu
+glass/crystal re-
+search; direct printer
+not verified
+Glass/crystal and laser-
+processing research pro-
+vides adjacent expertise; di-
+rect molten deposition claim
+remains unverified.
+Institutional record
+[30]
+Laser Zentrum
+Hannover /
+Quarzglas-
+Technologie
+Heinrich
+Philipp von Witzen-
+dorff, Leonhard Pohl
+and collaborators;
+CO2 deposition head
+Direct quartz-fiber deposi-
+tion using laser heating.
+[43]
+TU Darmstadt /
+Deakin
+Matthias Seel, Nick
+Birbilis and collab-
+orators; extruded
+soda-lime specimens
+Toolpath-dependent me-
+chanical behavior and four-
+point bend tests; useful 2026
+structural evidence.
+[4]
+6.1
+How to interpret the research network
+The most useful collaboration depends on the missing capability. Reservoir extrusion needs melt
+conditioning, refractory compatibility, motion coordination, and annealing capacity. Fused-silica
+filament deposition depends more directly on laser delivery, feedstock uniformity, and local bond-
+ing. Optical-quality ink routes instead place substantial demands on colloid formulation, drying,
+organic removal, densification, and finishing. These categories overlap in characterization but do
+not share interchangeable processing temperatures or material supply chains.
+Two attribution errors deserve explicit correction. First, publication in proceedings hosted at TU
+Delft does not mean that the printer belongs to TU Delft: the 2024 recycled-glass extrusion study
+identifies Evenline and MIT authors.[37] Second, the KTH article’s aﬀiliations identify KTH and
+Nobula; its editor’s RISE aﬀiliation is not evidence that RISE operated that apparatus. The separate
+institutional collaboration record establishes RISE involvement at project level, with a narrower
+evidentiary claim.[22, 24]
+Laval is a verified direct-glass-extrusion contributor, but its arsenic-sulfide composition belongs to
+the chalcogenide family and uses a substantially different processing window from silicates.[1] Its
+later nanocomposite-resin project is an additional route, not evidence that the chalcogenide plat-
+form prints silica.[41] McGill and Nagaoka remain explicit search gaps for the requested direct
+molten inorganic-glass directory. Resolving them would require a primary apparatus paper, the-
+sis, patent, or laboratory record identifying both the material and the deposition process; general
+expertise in glass or additive manufacturing is insuﬀicient.
+This evidence structure favors reproducible comparisons and appropriate research partnerships.
+A prospective collaboration brief should specify composition, size range, required optical function,
+and final thermal treatment before naming a preferred institution. Such a brief is more informative
+than a broad list of organizations associated with the phrase “glass 3D printing.”
+18
+
+
+7
+Commercial systems, applications, and economics
+7.1
+What the available evidence establishes
+The commercial landscape comprises distinct businesses: commissioned molten-glass objects, re-
+search printers using locally heated glass filament, and composite materials converted into glass
+after shaping. Their addressable parts, skill requirements, and qualification burdens differ. Con-
+sequently, a vendor list is not a ranking of interchangeable machines. This assessment separates
+supplier statements, experimentally characterized specimens, patent disclosures, and financial
+records. Public information was checked on 26 September 2026. No independently audited ma-
+chine prices, production yields, or application-specific technology readiness levels were estab-
+lished; the qualitative maturity descriptions in Table 3 should not be converted into numerical
+TRLs.
+Table 3: Commercial and industrial landscape. NR means not reported or not verified in the
+accessed primary sources. Operating temperatures are not maximum equipment ratings.
+Company / ma-
+chine
+Route
+Maximum extrusion
+temperature
+Feedstock
+Target market; evidenced maturity
+Evenline / Mark
+III
+Molten extru-
+sion
+NR; advertised op-
+eration 2000 ◦F ≈
+1093 ◦C
+Studio, container,
+float glass
+Art/design; operating studio platform.
+Structural masonry remains experimental
+[10, 26].
+Maple Glass
+Printing / Maple 4
+in 2026 study
+Heated-nozzle
+deposition
+NR
+Soda-lime rods in
+study
+Research, education, architecture, art; exper-
+imental use verified, current sales unverified
+[4, 29].
+Nobula / Zero in
+2024 study
+Laser filament
+deposition
+Current rated maxi-
+mum NR
+Fused-silica fila-
+ment in study
+Micro-optics; characterized research spec-
+imens and commercialization programme
+[9, 25].
+Glassomer / ma-
+terials and parts
+service
+Composite shap-
+ing and sintering
+Not molten extrusion;
+room-temperature
+shaping
+Silica–organic
+composite
+Optics, microfluidics, prototypes; supplier
+materials and component offerings [15].
+UpNano + Glas-
+somer / NanoOne
++ UpQuartz
+Two-photon
+polymerization
+and sintering
+Not molten extrusion;
+1300 ◦C sintering
+Silica nanocompos-
+ite
+Precision small parts; vendor process and
+resin offering [42].
+7.2
+Company profiles and limits of comparison
+Evenline identifies Michael Stern as its founder and lead [11]. Its technology page names Mark III,
+gives a 325×325×380 mm fabrication envelope, and describes ceramic-nozzle deposition, manual
+separation of the object from the melt stream, and overnight cooling in a separate chamber. These
+details make operator involvement and annealer capacity relevant to throughput; the advertised
+envelope is not a guarantee for every geometry. A vendor process video is available at Evenline’s
+technology page. Neither an equipment price nor a validated maximum extrusion temperature
+appears in that source [10].
+The 2024 masonry paper characterizes G3DP3, an Evenline-operated system, and interlocking
+glass units [26]. Its academic publication strengthens the evidence beyond photographs, but
+company-aﬀiliated participation means this is not independent customer acceptance testing. The
+university account reports that the strongest units combined printed bodies with separately pro-
+duced interlocking features, and presents larger self-supporting structures as future work [5]. A
+tested prototype is therefore evidence of architectural potential, not an established building prod-
+uct. Qualification would need to address joints, impact, sustained and lateral loads, statistical
+variability, and installation details for the intended structure.
+Maple remains identifiable through Monash University’s venture directory and patent publication
+AU2021289614A1. The latter lists Nick Birbilis, Darren Robert Feenstra, and Tony Koutsonikolas
+as inventors and Maple Glass Printing Pty Ltd as applicant/assignee. Its disclosed system heats
+19
+
+
+glass in a nozzle and describes driven solid feedstock; this establishes an invention disclosure, not
+throughput or machine reliability. Inventorship is not proof of a founding-team role, and the dis-
+played patent-status field is not a legal opinion [2, 29]. A 2026 study explicitly identifies Maple 4
+and characterizes toolpath-dependent mechanical behavior of printed soda-lime specimens, pro-
+viding recent experimental evidence [4]. The manufacturer’s current website was not successfully
+verified, so present sales availability, price, and rated temperature ceiling remain unknown.
+KTH’s programme directory names Michael Fokine, Chunxin Liu, and Taras Oriekhov as Nobula’s
+team. KTH Holding’s May 2022 announcement confirms an investment and reports two patent
+filings, without establishing their subsequent grant status or disclosing investment value [21, 23].
+CORDIS verifies an EU contribution of EUR 2,499,875 for project 190122644, with total project cost
+EUR 3,571,250 and an end date of 30 April 2026. These are project-finance figures, not printer
+prices or cumulative company funding. Its product-performance language belongs to the project
+description and requires separate validation [9].
+Liu and colleagues used Nobula Zero to make fused-silica microlens arrays, with 200 µm filament
+and a CO2 laser. Their study demonstrates a particular optical manufacturing workflow, includ-
+ing laser postprocessing; it cannot establish that every glass part requires no finishing. Several
+authors have Nobula aﬀiliations. Supplier descriptions and this research should therefore be la-
+belled separately, without calling either independent validation of a complete product range [25].
+The live 2026 website confirms the company’s laser-based manufacturing direction but did not ex-
+pose a numerical specification table in the accessible page; current sales configuration, acceptance
+criteria, and price remain procurement questions [32].
+Glassomer’s history records its formation in Karlsruhe in 2018 and subsequent move to Freiburg.
+Its current offering includes composite materials, prototyping, and fused-silica components; this
+is a materials/process business rather than a like-for-like molten extrusion machine [15, 16]. The
+UpNano collaboration extends the route to NanoOne two-photon polymerization using UpQuartz.
+Its 2024 manufacturer announcement specifies binder removal at 600 ◦C, sintering at 1300 ◦C, and
+approximately 30% isotropic shrinkage. Those values apply to that reported material/process, not
+all Glassomer formulations. Published demonstrations include ferrules and a small filter, support-
+ing precision-part targeting while leaving production yield unreported [42].
+7.3
+Application fit and competitive alternatives
+The strongest near-term case for large molten beads is custom shape and visible material expres-
+sion. Art, lighting, and limited-run packaging concepts can accept a layered surface when it is part
+of the design. Functional packaging adds closure tolerances, cleanability, impact resistance, and
+repeatability; an attractive vessel alone does not establish suitability for food, pharmaceuticals, or
+pressurization. Structural masonry is supported by specimen and assembly research, while broad
+architectural deployment remains an inference requiring application testing [26].
+For lenses, optical channels, and chemical microdevices, high value per part can justify slower
+fabrication and metrology. Laser filament deposition has direct micro-optical evidence, and com-
+posite routes have supplier offerings in optics and microfluidics [15, 25]. Nevertheless, hermetic
+chemical vessels require verified leak tightness, pressure capability, connection integrity, and
+chemical compatibility for the actual fluid and temperature. Radioactive-waste vitrification con-
+tainers are treated here as a proposed research direction: this source set establishes neither a qual-
+ified printed containment product nor a commercial deployment. Glass chemistry and a printable
+shape are insuﬀicient evidence of long-term containment performance.
+Conventional alternatives remain the baseline for purchasing decisions. Blowing and lampwork-
+ing offer skilled manipulation of hollow forms; casting spreads tooling and furnace costs over
+repeated parts; machining and polishing support controlled surfaces on suitable blanks. Indi-
+rect AM introduces binder removal, shrinkage compensation, and sintering, whereas molten de-
+20
+
+
+position transfers diﬀiculty into thermal control, bead geometry, and annealing. These process
+differences motivate a matched-part comparison: identical composition or function, dimensional
+tolerances, inspected surface area, accepted yield, and annual volume. Comparing a millimetre
+optical component with a kilogram decorative print on cost per kilogram would conceal the prod-
+uct value and the inspection burden.
+7.4
+Transparent cost model and illustrative sensitivities
+No supplier quotation is fabricated here. A reproducible planning model expresses cost per ac-
+cepted part as
+Cgood = K/Y + F
+Nay
++ mcm + Ece + tlcl + cq + cp
+y
+,
+(12)
+where K is installed capital, Y depreciation life in years, F annual fixed cost, Na annual attempted
+parts, and y accepted yield. The remaining terms represent charged feedstock, electricity, labour,
+inspection, and consumables/postprocessing per attempt. All costs must share a currency and
+price basis. This simplified straight-line model excludes financing, taxes, residual value, and
+schedule-dependent rework; late failures are assumed to consume a full attempt. Parallel printer
+and annealer schedules must be checked before assuming Na is achievable.
+For an explicitly hypothetical studio cell, let K = $100,000, Y = 5, F = $10,000/year, Na = 1000,
+and y = 0.80. Assume 2 kg of charged feedstock at $2/kg, 20 kWh at $0.15/kWh, one labour
+hour at $30/h, $10 inspection, and $5 consumables per attempt. Annual fixed cost is $30,000 and
+variable cost $52/attempt, giving $102.50/accepted part. These analyst-selected values are neither
+a price estimate for Evenline nor measured energy consumption. At 250 attempts/year, the same
+arithmetic gives $215.00; at 2000 it gives $83.75. At the baseline volume, lowering yield to 0.60
+raises cost to $136.67. Doubling electricity price raises baseline cost only to $106.25 under these
+assumptions.
+A second hypothetical small-part indirect-AM cell assumes K = $60,000, Y = 5, F = $6000/year,
+Na = 2000, and y = 0.90. Per attempt, allocate $5 resin, 2 kWh at $0.15/kWh, 0.25 labour hours at
+$30/h, $3 inspection, and $2 firing consumables. The result is $29.78/accepted part. This is not a
+finding that indirect AM is cheaper: the illustrative product is smaller, furnace energy is a batch
+allocation, and geometric acceptance may differ. Underfilled firing batches or additional optical
+polishing can reverse a superficial comparison. A useful quotation request therefore specifies the
+actual part, allowable defects, batch size, annual demand, training, furnace installation, mainte-
+nance, spare nozzles or optics, and acceptance tests. Until such matched quotations and meter
+readings exist, utilization and yield sensitivities are more defensible than a claimed market-wide
+CapEx or OpEx ranking.
+8
+Open frontiers and a research roadmap
+8.1
+Prioritize a repeatable process window
+The reviewed work establishes a range of feasible geometries and material routes. The next useful
+step is a repeatable, application-specific process window linking feedstock, thermal history, depo-
+sition geometry, and accepted properties. This section proposes an experimental programme; its
+milestones are recommendations rather than reported achievements.
+Begin with a single documented glass composition and a representative part family. Obtain chem-
+ical identity and thermal reference data, then measure deposited mass and bead geometry over
+controlled combinations of temperature, head or feed rate, travel speed, and layer return time. Pre-
+serve both successful and failed runs. A process window containing only attractive parts cannot
+identify failure boundaries or predict yield.
+21
+
+
+Table 4: Proposed staged research programme. Progression depends on evidence rather than an
+arbitrary calendar.
+Stage
+Experiment and recorded vari-
+ables
+Evidence required to progress
+Feedstock base-
+line
+Named batch; chemistry, mois-
+ture/contamination, viscosity
+anchors, thermal expansion; in-
+spect rods or cullet
+Traceable batch identity; justified
+temperature window; baseline speci-
+men properties
+Single-track map
+Gravimetric flow, actual temper-
+atures, head/feed, speed, gap,
+width, height, contact width
+Repeatability distributions and fail-
+ure boundaries; quantified restart
+and corner behavior
+Thermal qualifi-
+cation
+Thick-section surrogate, layer re-
+visit time, calibrated pyrometry,
+chamber/part offsets
+Verified stress reduction without un-
+acceptable slumping; internal temper-
+ature model checked against data
+Interface and
+defect study
+Controlled orientation and
+thermal history; sectioning, mi-
+croscopy, CT where resolution
+allows, bend/fracture tests
+Failure origins correlated with ma-
+terial/process variables; distinguish
+lack of contact from intrinsic glass
+fracture
+Representative
+parts
+Geometry and functional tol-
+erances, optical tests or pres-
+sure/leak tests, full thermal cy-
+cle
+Predeclared acceptance criteria; docu-
+mented yield, cycle time and metrol-
+ogy repeatability
+Production com-
+parison
+Matched-part blow-
+ing/casting/machining/indirect
+AM benchmarks, energy meters,
+labor and maintenance logs
+Cost per accepted part with utiliza-
+tion sensitivity; no conversion of
+nominal deposition rate into produc-
+tion capacity
+8.2
+Measurements that could change engineering decisions
+Closed-loop deposition. The controller should distinguish sensor validity from control perfor-
+mance. Glass transparency, emissivity variation, hot background reflections, and laser interfer-
+ence can bias a thermal reading. Validate a sensing arrangement before tuning control gains,
+and evaluate unseen geometries rather than only training trajectories. Published quartz-glass
+temperature feedback provides a concrete starting point, with apparatus-specific calibration still
+necessary.[3]
+Toolpath and thermal memory. Direction, speed, and return time are coupled. The 2026 tool-
+path study supports testing orientation and retained heat together, while also illustrating why
+a within-study strength improvement should not be converted directly into a structural design
+factor. A factorial or response-surface programme should record the physical path and interface
+temperature rather than just a slicer orientation label.[4]
+Recycled feedstock. Sorting and conditioning are upstream process controls. A comparison
+should separate a known single-source cullet stream from mixed unknown glass. Quantify batch
+variation, contamination introduced during grinding or handling, and the fraction rejected before
+printing. Recycled-glass demonstrators establish feasibility; closed-loop recycling and environ-
+mental benefit require additional mass and energy accounting.[37]
+Optical and structural function. Freeform illumination, micro-optics, chemical channels, and
+masonry connections demand different validation. High transmission does not establish a low
+wavefront error; compression testing of a brick does not establish impact resistance or connection
+22
+
+
+durability. Application-specific acceptance is the mechanism by which a research demonstrator
+becomes a credible product.
+8.3
+An intellectual-property and demonstration map
+Three downloaded disclosures complement the apparatus literature:
+MIT’s US10266442B2,
+Maple’s AU2021289614A1, and LLNL’s WO2020118157A1.
+They concern different aspects of
+glass manufacture and feedstock.
+Patent descriptions and illustrations provide engineering
+concepts; they do not demonstrate commercial availability, achieved accuracy, or validated
+lifetime. This review performs no freedom-to-operate analysis or legal-status certification.
+The MIT Glass I project page and Evenline technology demonstrations provide visual process
+context. The asset ledger retains direct streaming links where established. An HTTP response
+confirms accessibility at the request time, not successful playback or the authenticity of every
+quantitative claim in a video. The supplied media notes identify provenance and reproduction
+terms separately from scientific interpretation.
+8.4
+Reproducibility and remaining evidence gaps
+Direct demonstration links retained in the asset ledger are MIT Glass I / G3DP, MIT Glass II /
+G3DP2, and Inside Maple Glass Printing. The University of Memphis polariscope page links a
+direct educational demonstration. These links were checked for HTTP accessibility; playback was
+not verified. The polariscope video is not claimed to show a printed-glass specimen.
+The analysis scripts regenerate nominal viscosity fits, residual plots, flow sensitivity, thermal
+scales, and the commercial scenarios. The viscosity thresholds CSV records extrapolation flags.
+All calculations use explicit inputs and are distinct from experimentally measured machine out-
+put. The complete LaTeX project permits updating a figure, source, or chapter without replacing
+the underlying evidence trail.
+Important gaps remain: matched-route tensile datasets; wavelength-, thickness-, and surface-
+controlled optical comparisons; independently audited current printer prices and yields; material-
+specific refractory lifetime; and verified direct molten-silicate apparatus attribution for some re-
+quested institutions. These are limits of the evidence base, not blanks filled with estimates. Future
+updates should add new primary measurements and revise the corresponding decision, rather
+than merely extend a list of references.
+The practical recommendation is to choose a material route from the required final function. Use
+reservoir extrusion where large continuous forms and layer texture are compatible with the prod-
+uct; investigate laser filament deposition where local heating and small features are valuable; eval-
+uate indirect routes where fine geometry and densification can be qualified. In each case, measure
+the complete path to an accepted part, including finishing and thermal treatment.
+23
+
+
+References
+[1] E. Baudet, Y. Ledemi, P. Larochelle, S. Morency, and Y. Messaddeq. 3D-printing of arsenic
+sulfide chalcogenide glasses. Optical Materials Express, 9(5):2307–2317, 2019. doi: 10.1364/
+OME.9.002307. URL https://doi.org/10.1364/OME.9.002307.
+[2] Nick Birbilis, Darren Robert Feenstra, and Tony Koutsonikolas. Three-dimensional printing
+system, 2023. URL https://patents.google.com/patent/AU2021289614A1/en. Accessed
+2026-09-26.
+[3] Jing Chen, Zeping Lv, Xuanjia Zhang, Tao Xu, and Yuntao Cheng. Temperature Control of
+Quartz-Glass Melting Areas in Laser Additive Manufacturing. Micromachines, 16:29, 2025.
+doi: 10.3390/mi16010029. URL https://doi.org/10.3390/mi16010029.
+[4] Philipp Amir Chhadeh, Emanuel Nowak, Dylan Vlahopoulos, Matthias Seel, and Nick Bir-
+bilis. The effect of toolpath design on the mechanical strength of additively manufactured
+glass components. npj Advanced Manufacturing, 3:16, 2026. doi: 10.1038/s44334-026-00072-1.
+URL https://doi.org/10.1038/s44334-026-00072-1.
+[5] Jennifer Chu. Engineers 3D print sturdy glass bricks for building structures, 2024. URL
+https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-
+building-structures. Accessed 2026-09-26.
+[6] Corning. HPFS 7979, 7980, 8655 Fused Silica: Optical Materials Product Information,
+2025. URL https://www.corning.com/media/worldwide/csm/documents/HPFS_Product_
+Brochure_All_Grades_2025_11.pdf. Accessed 2026-09-26.
+[7] Kyriaki Corinna Datsiou, Ehab Saleh, Fiona Spirrett, Ruth Goodridge, Ian Ashcroft, and
+Dave Eustice. Additive manufacturing of glass with laser powder bed fusion. Journal of
+the American Ceramic Society, 102:4410–4414, 2019. doi: 10.1111/jace.16440. URL https:
+//doi.org/10.1111/jace.16440. Accessed 2026-09-26.
+[8] Joel F. Destino, Nikola A. Dudukovic, Michael A. Johnson, Du T. Nguyen, Timothy D. Yee,
+Garth C. Egan, April M. Sawvel, William A. Steele, Theodore F. Baumann, Eric B. Duoss,
+Tayyab Suratwala, and Rebecca Dylla-Spears. 3D Printed Optical Quality Silica and Silica–
+Titania Glasses from Sol–Gel Feedstocks. Advanced Materials Technologies, 3:1700323, 2018.
+doi: 10.1002/admt.201700323. URL https://doi.org/10.1002/admt.201700323.
+[9] European Commission. Nobula – Breaking the glass ceiling in Additive Manufacturing
+through laser-assisted glass 3D printing, 2025. URL https://cordis.europa.eu/project/
+id/190122644. Accessed 2026-09-26.
+[10] Evenline. Technology: Molten Glass 3D Printer, n.d.. URL https://www.evenline.co/
+technology. Accessed 2026-09-26; undated website; publication year not stated.
+[11] Evenline. People, n.d.. URL https://www.evenline.co/people. Accessed 2026-09-26;
+undated website; publication year not stated.
+[12] Fraunhofer IKTS. Additive glass shaping improves selectivity of photomultipliers. Fraun-
+hofer IKTS, 2022. URL https://www.ikts.fraunhofer.de/en/blog/additive-glass-
+shaping-improves-selectivity-of-photomultipliers.html. Accessed 2026-09-26.
+[13] Fraunhofer IPT. 3DHeat: Hybrid Additive Manufacturing of Molding Tools for Glass Mold-
+ing. Fraunhofer IPT, 2025. URL https://www.ipt.fraunhofer.de/en/projects/3dheat.
+html. Accessed 2026-09-26.
+24
+
+
+[14] Fraunhofer ISC. 3D-printed optics for individualized mass production. Fraunhofer ISC,
+2019. URL https://www.isc.fraunhofer.de/en/press-and-media/press-releases/3d-
+printed-optics-for-individualized-mass-production.html. Accessed 2026-09-26.
+[15] Glassomer GmbH. Home: fused silica components and Glassomer technology, n.d.. URL
+https://www.glassomer.com/. Accessed 2026-09-26; undated website; publication year
+not stated.
+[16] Glassomer GmbH. About us, n.d.. URL https://www.glassomer.com/company/about-
+us.html. Accessed 2026-09-26; undated website; publication year not stated.
+[17] Heraeus Precious Metals. Glass Manufacturing Equipment. Heraeus Precious Metals, n.d.
+URL https://www.heraeus-precious-metals.com/en/products-solutions/category/
+precious-metal-components/glass-manufacturing-equipment/. Accessed 2026-09-26;
+publication date not verified.
+[18] Chikara Inamura, Michael Stern, Daniel Lizardo, Peter Houk, and Neri Oxman. Additive
+Manufacturing of Transparent Glass Structures. 3D Printing and Additive Manufacturing, 5:
+269–283, 2018. doi: 10.1089/3dp.2018.0157. URL https://doi.org/10.1089/3dp.2018.
+0157.
+[19] John Klein, Michael Stern, Giorgia Franchin, Markus Kayser, Chikara Inamura, Shreya
+Dave, James C. Weaver, Peter Houk, Paolo Colombo, Maria Yang, and Neri Oxman. Addi-
+tive Manufacturing of Optically Transparent Glass. 3D Printing and Additive Manufacturing,
+2:92–105, 2015. doi: 10.1089/3dp.2015.0021. URL https://doi.org/10.1089/3dp.2015.
+0021.
+[20] Frederik Kotz, Karl Arnold, Werner Bauer, Dieter Schild, Nico Keller, Kai Sachsenheimer,
+Tobias M. Nargang, Christiane Richter, Dorothea Helmer, and Bastian E. Rapp. Three-
+dimensional printing of transparent fused silica glass. Nature, 544:337–339, 2017. doi:
+10.1038/nature22061. URL https://doi.org/10.1038/nature22061. Accessed 2026-09-
+26.
+[21] KTH Holding. Ny investering i Nobula3D, 2022. URL https://kthventures.se/blog-
+posts/ny-investering-i-nobula3d. Accessed 2026-09-26.
+[22] KTH Royal Institute of Technology. Laser based 3D printing and processing: SSF financed
+research. KTH, 2019. URL https://www.aphys.kth.se/lamp/research/laserphysics/
+research/laser-based-3d-print. Accessed 2026-09-26.
+[23] KTH Royal Institute of Technology. Nobula, 2022. URL https://www.kth.se/en/om/
+innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863. Ac-
+cessed 2026-09-26.
+[24] Chunxin Liu, Taras Oriekhov, and Michael Fokine. Investigation of glass bonding and
+multi-layer deposition during filament-based glass 3D printing. Frontiers in Materials, 9:
+978861, 2022. doi: 10.3389/fmats.2022.978861. URL https://doi.org/10.3389/fmats.
+2022.978861.
+[25] Chunxin Liu, Taras Oriekhov, Cherrie Lee, Clarissa M. Harvey, and Michael Fokine. Rapid
+Fabrication of Silica Microlens Arrays via Glass 3D Printing. 3D Printing and Additive Man-
+ufacturing, 11(2):460–466, 2024. doi: 10.1089/3dp.2022.0112. URL https://doi.org/10.
+1089/3dp.2022.0112. Accessed 2026-09-26.
+[26] Daniel Massimino, Charlotte Folinus, Ethan Townsend, Michael Stern, and Kaitlyn Becker.
+Additive manufacturing of interlocking glass masonry units. Glass Structures and Engineer-
+ing, 9:397–417, 2024. doi: 10.1007/s40940-024-00279-8. URL https://doi.org/10.1007/
+s40940-024-00279-8. Accessed 2026-09-26.
+25
+
+
+[27] McGill University. Engineering human-scale perfusable tissues for diabetes cell therapy
+using 3D printing. McGill University, n.d. URL https://escholarship.mcgill.ca/
+concern/theses/sf268c17j. Accessed 2026-09-26; publication date not verified.
+[28] MIT Media Lab. Glass I. MIT Media Lab, 2015. URL https://www.media.mit.edu/
+projects/g3p/overview/. Accessed 2026-09-26.
+[29] Monash University. Maple Glass Printing, n.d. URL https://www.monash.edu/monash-
+innovation/impact/generator-founders/maple-glass-printing. Accessed 2026-09-26;
+undated website; publication year not stated.
+[30] Nagaoka University of Technology. Research publications: Takayuki Komatsu. Nagaoka
+University of Technology, n.d. URL https://etigo.nagaokaut.ac.jp/koudoka/prmt/
+komatsu.html. Accessed 2026-09-26; publication date not verified.
+[31] Du T. Nguyen, Cameron Meyers, Timothy D. Yee, Nikola A. Dudukovic, Joel F. Destino,
+Cheng Zhu, Eric B. Duoss, Theodore F. Baumann, Tayyab Suratwala, James E. Smay, and
+Rebecca Dylla-Spears. 3D-Printed Transparent Glass. Advanced Materials, 29:1701181, 2017.
+doi: 10.1002/adma.201701181. URL https://doi.org/10.1002/adma.201701181.
+[32] Nobula3D AB. Glass fabrication, redefined, n.d. URL https://www.nobula3d.com/. Ac-
+cessed 2026-09-26; undated website; publication year not stated.
+[33] Lord Rayleigh. On The Instability Of Jets. Proceedings of the London Mathematical Society,
+s1-10:4–13, 1878. doi: 10.1112/plms/s1-10.1.4. URL https://doi.org/10.1112/plms/s1-
+10.1.4. Accessed 2026-09-26.
+[34] SCHOTT. TIE-27: Stress in optical glass. SCHOTT, 2023. URL https://media.schott.
+com/api/public/content/d33171e170af4b94a8e49b11d758258e?v=610aa3b1. Accessed
+2026-09-26.
+[35] SCHOTT. AR-GLAS: Tubing and Rod of Special Glass, n.d.. URL https://media.schott.
+com/api/public/content/79a671737b4a4833aa91c99f68c4b5a3?v=eb1ee445. Accessed
+2026-09-26; publication date not stated.
+[36] SCHOTT. BOROFLOAT 33: Thermal Properties, n.d.. URL https://media.schott.com/
+api/public/content/4fd51376b9d54a68b47be78fadfdd32d?download=true&v=1fc0ea9c.
+Accessed 2026-09-26; publication date not stated.
+[37] Michael Stern, Ethan Townsend, Daniel Massimino, and Kaitlyn Becker. Advancing Sus-
+tainable 3D Printing: The Feasibility of Recycled Glass as a Building Material With Addi-
+tive Manufacturing. Challenging Glass Conference Proceedings, 9, 2024. doi: 10.47982/cgc.9.
+583. URL https://doi.org/10.47982/cgc.9.583.
+[38] S. Tomotika. On the instability of a cylindrical thread of a viscous liquid surrounded by
+another viscous fluid. Proceedings of the Royal Society of London. Series A - Mathematical and
+Physical Sciences, 150:322–337, 1935. doi: 10.1098/rspa.1935.0104. URL https://doi.org/
+10.1098/rspa.1935.0104. Accessed 2026-09-26.
+[39] Joseph T. Toombs, Manuel Luitz, Caitlyn C. Cook, Sophie Jenne, Chi Chung Li, Bastian E.
+Rapp, Frederik Kotz-Helmer, and Hayden K. Taylor. Volumetric additive manufacturing
+of silica glass with microscale computed axial lithography. Science, 376:308–312, 2022. doi:
+10.1126/science.abm6459. URL https://doi.org/10.1126/science.abm6459. Accessed
+2026-09-26.
+[40] TU Delft. F. Oikonomopoulou: Research outputs. TU Delft, n.d. URL https://research.
+tudelft.nl/en/persons/f-oikonomopoulou/. Accessed 2026-09-26; publication date not
+verified.
+26
+
+
+[41] Universite Laval LRIO. Additive manufacturing of glasses for the fabrication of optical
+components: Summer 2025 internship. Universite Laval, 2025. URL https://lrio.copl.
+ulaval.ca/images/E25-Stage-Fabrication_verre.pdf. Accessed 2026-09-26.
+[42] UpNano GmbH. Novel Process for 3D-Printing Macro-sized Fused silica Parts with Hi-Res
+Features, 2024. URL https://www.upnano.com/novel-process-for-3d-printing-macro-
+sized-fused-silica-parts-with-hi-res-features/. Accessed 2026-09-26.
+[43] Philipp von Witzendorff, Leonhard Pohl, Oliver Suttmann, Peter Heinrich, Achim Heinrich,
+Jörg Zander, Holger Bragard, and Stefan Kaierle. Additive manufacturing of glass: CO2-
+Laser glass deposition printing. Procedia CIRP, 74:272–275, 2018. doi: 10.1016/j.procir.2018.
+08.109. URL https://doi.org/10.1016/j.procir.2018.08.109.
+27

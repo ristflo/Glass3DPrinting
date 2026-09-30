@@ -1,0 +1,40 @@
+{
+  "assumptions": {
+    "density_kg_m3": 2500.0,
+    "gravity_m_s2": 9.81,
+    "surface_tension_N_m": 0.3,
+    "viscosity_Pa_s": 1000.0,
+    "nozzle_radius_m": 0.005,
+    "nozzle_length_m": 0.01,
+    "head_m": 0.2
+  },
+  "pressure_Pa": 4905.0,
+  "flow_m3_s": 1.2038681223326513e-07,
+  "mass_rate_kg_h": 1.083481310099386,
+  "mean_nozzle_speed_m_s": 0.0015328124999999999,
+  "Re_diameter": 3.83203125e-05,
+  "Ca": 5.109375,
+  "Bo_radius": 2.04375,
+  "Oh_radius": 516.3977794943222,
+  "viscous_capillary_time_s": 16.666666666666668,
+  "gravity_strain_time_s": 0.4077471967380224,
+  "fully_restrained_room_temperature_stress_50K_MPa": 42.583333333333336,
+  "borofloat_low_temperature_diffusivity_m2_s": 6.483332432870495e-07,
+  "borofloat_reference_properties": {
+    "conductivity_W_mK": 1.2,
+    "conductivity_temperature_C": 90,
+    "heat_capacity_J_kgK": 830,
+    "heat_capacity_range_C": [
+      20,
+      100
+    ],
+    "nominal_density_kg_m3": 2230,
+    "interpretation": "Approximate low-temperature scaling; not a high-temperature annealing model."
+  },
+  "thermal_diffusion_scales_s": {
+    "0.001": 1.5424166666666668,
+    "0.005": 38.56041666666667,
+    "0.01": 154.24166666666667,
+    "0.02": 616.9666666666667
+  }
+}

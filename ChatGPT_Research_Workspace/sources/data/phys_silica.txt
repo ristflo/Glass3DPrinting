@@ -1,0 +1,430 @@
+PAGE 1
+Corning® HPFS® 7979, 7980, 8655 Fused Silica 
+Optical Materials Product Information 
+PAGE 2
+2
+HPFS® 7979, 7980 and 8655 Fused Silica
+Dedication to technology leadership and world-class 
+metrology capabilities play a major role in Corning’s 
+ability to produce leading edge materials. Corning is 
+committed to ensuring that its customers are  provided 
+qualified, authentic products.
+Corning has a minimum of 25 years of measurement 
+experience and provides a certificate of  compliance 
+for each sale of product to verify the authenticity of our 
+HPFS® Fused Silica Materials.
+Fused Silica is offered in many different grades to 
+support various product applications. Glass codes 7980, 
+7979, and 8655 are high purity non-crystalline silica 
+glasses with excellent optical qualities.
+Product characteristics include extraordinary low 
+refractive index variations leading to state-of-the-art 
+homogeneity values, lowest birefringence values, large 
+size capabilities, exceptional transmittance from the 
+deep ultraviolet through the infrared region, and an 
+ultra-low thermal expansion coefficient; all of which are 
+critical to our customers’ demanding needs.
+HPFS® Summary of Key Attributes
+1. Defines the sum of the cross section in mm 2 of inclusions per 100 cm3 of glass. Inclusions with a diameter ≤ 0.10 mm are disregarded. 
+2. Refers to the diameter of the largest single inclusion.
+3. Index homogeneity: the maximum index variation (relative), measured over the clear aperture of the blank. 
+4. Index homogeneity is certified using an interferometer at 632.8 nm.  The numerical homogeneity is reported as the average through the
+piece thickness.  Blanks with a diameter up to 450 mm can be analyzed over the full aperture.  Larger parts can be analyzed using multiple
+overlapping apertures.  The minimum thickness for index homogeneity verification is 20 mm.  For thinner parts, the parent piece is certified. 
+5. NS (Not Specified)
+Inclusion Class
+Homogeneity 3,4  [ppm]
+Grade
+Class
+Total Inclusion
+Cross Section1 [mm2]
+Maximum 
+Size2 [mm]
+AA 
+≤ 0.5
+A 
+≤ 1
+B 
+≤ 1.5
+C 
+≤ 2
+D 
+≤ 3
+E 
+≤ 4
+F 
+≤ 5
+G 
+NS5
+0 ≤0.03 0.10 ■ ■ ■ ■ ■ ■ ■ ■
+1 ≤0.10 0.28 ■ ■ ■ ■ ■ ■ ■
+2 ≤0.25 0.50 ■ ■ ■ ■ ■ ■
+3 ≤0.50 0.76 ■ ■ ■ ■ ■
+4 ≤1.00 1.00 ■ ■ ■ ■ ■
+5 ≤2.00 1.27 ■ ■ ■ ■ ■
+Quality Grade Selection Chart
+Attribute
+Fused Silica
+7980 Standard Grade
+7980 KrF Grade
+7980 ArF Grade
+7980 Mirror Grade
+7980 Industrial Grade
+7979 IR Grade
+8655 ArF Grade
+Visible Transmittance ■ ■ ■ ■ ■ ■ ■
+UV Transmittance ■ ■ ■ ■
+Infrared Transmittance ■ ■
+Homogeneity Certified in Use-Axis
+AA, A, C, F (By Size) ■ ■ ■ ■ ■
+Inclusion Class Certified
+0, 1, 2, 5 ■ ■ ■ ■ ■ ■
+Striae Certified
+ISO 10110-4 Class 5 (None) ■ ■ ■ ■ ■ ■
+Homogeneity Certified in Off-Axis
+AA, A, C, F (By Size) ■ ■ ■ ■ ■
+Low Birefringence ■ ■ ■ ■ ■ ■
+UV Laser Resistant
+(Data available upon request) ■ ■ ■
+Economical 
+(No certification of any properties 
+except visible transmission.  Tooling 
+applications.)
+■
+For Mirror Grade - see chart on next page
+PAGE 3
+3
+Mirror Quality Grade Selection Chart 
+Mechanical Properties
+Unless otherwise stated, all values @ 25 °C
+Elastic (Young’s) Modulus 73 GPa
+Shear Modulus 31 GPa
+Modulus of Rupture, abraded 52.4 MPa
+Bulk Modulus 35.9 GPa
+Poisson’s Ratio 0.16
+Density 2.20 g/cm3
+Knoop Hardness (100g load) 522 kg/mm2
+Tensile Strength 54 MPa
+Compressive Strength 1.14 GPa
+Mirror Grade: Inclusion Classes
+Critical Zone: Blank Dimensions (Diameter or Diagonal)
+< 508 mm
+(20”)
+508 - 1143 mm
+(20 - 45”)
+1143 - 2286 mm
+(45 - 90”)
+Max. Mean 
+Diameter
+0.254 mm
+(0.010”)
+0.762 mm
+(0.030”)
+1.524 mm
+(0.060”)
+Max. Avg. #/mm3 
+(#/in3)
+2 ppm
+(0.04)
+3 ppm
+(0.05)
+5 ppm
+(0.08)
+Non-Critical Zone: Blank Dimensions (Diameter or Diagonal)
+< 508 mm
+(20”)
+508 - 1143 mm
+(20 - 45”)
+1143 - 2286 mm
+(45 - 90”)
+Max. Mean 
+Diameter
+1.016 mm
+(0.040”)
+1.524 mm
+(0.060”)
+3.81 mm
+(0.150”)
+Max. Avg. #/mm3 
+(#/in3)
+3 ppm
+(0.05)
+3 ppm
+(0.05)
+9 ppm
+(0.15)
+Inclusion Class Homogeneity 
+Grade 
+Birefringence
+Lower specifications 
+available  upon request
+[nm/cm]
+Striae
+ISO 10110-4 
+Class
+Metallic  
+Impurities
+[ppb]
+OH Content
+[ppm]
+7979 IR Grade 0, 1, 2 AA, A, C, F ≤ 5 5 < 100 < 1
+7980 Standard Grade** 0 - 5 AA - F ≤ 5 5 < 1000 800 - 1000
+7980 KrF Grade* 0, 1, 2 AA, A, C, F ≤ 1 5 < 500 800 - 1000
+7980 ArF Grade* 0, 1, 2 AA, A, C, F ≤ 1 5 < 100 800 - 1000
+7980 Mirror Grade See below NS ≤ 5 1 NS 800 - 1000
+7980 Industrial Grade NS NS ≤ 5 1 NS 800 - 1000
+8655 ArF Grade* 0, 1, 2 AA, A, C, F ≤ 1 5 < 10 < 1
+HPFS® Data and Properties
+* No visible fluorescence when exposed to deuterium source from 215 nm - 400 nm.  Material contains hydrogen to minimize absorption 
+under UV exposures.
+** HPFS® 7980 Standard Fluorescence-Free Grade available upon request.
+Glass Code: 7980 7979 8655 Viscosity
+Softening Point* 1585 ˚C 1627 ˚C 1627 ˚C 107.6 poises
+Annealing Point* 1042 ˚C 1180 ˚C 1180 ˚C 1013 poises
+Strain Point* 893 ˚C 1068 ˚C 1068 ˚C 1014.5 poises
+Specific Heat 0.770
+ J/(g K)
+Thermal Conductivity 1.38 W/(m K)
+Thermal 
+Diffusivity 0.0075 cm2/s
+Thermal Expansion** (ppm/C):
+5 ˚C to 35 ˚C 0.52 
+0 ˚C to 200 ˚C 0.57 
+-100 ˚C to +200 ˚C 0.48 
+ASTM Procedures - *C-598, **E-228
+Thermal Properties
+PAGE 4
+4
+*1 Polynomial Equation: n2 = A0 + A1 λ4 + A2 λ2 + A3 λ-2 + A4 λ-4 + A5 λ-6 + A6 λ-8 + A7 λ-10  with λ in μm
+*2 Sellmeier Equation: n2-1 = A1λ2/( λ2 - B1) + A2 λ2/( λ2 – B2) + A3 λ2/( λ2 – B3) with λ in μm
+*3 ∆n/∆T Equation: ∆n/∆T [ppm/C] = C0 + C1λ-2 + C2λ-4 + C3λ-6 with λ in μm
+The above dispersion equations were fit to the refractive indices of 20 wavelengths from 1129 nm to 185 nm.
+Conditions: 22 ˚C, 760 mm Hg, N2
+Wavelength 
+[Vacuum] 
+[nm]
+Refractive 
+Index2 
+n
+Thermal 
+Coefficient 
+∆n/∆T3
+[ppm/C] Polynomial Dispersion Equation Constants1, 22 ˚C
+1128.950 1.448866 9.6 A0 2.104025406E+00
+1014.260 nt 1.450241 9.6 A1 -1.456000330E-04
+852.344 ns 1.452463 9.7 A2 -9.049135390E-03
+706.714 nr 1.455144 9.9 A3 8.801830992E-03
+656.454 nC 1.456364 9.9 A4 8.435237228E-05
+632.990 1.457016 10.0 A 5 1.681656789E-06
+587.725 nd 1.458461 10.1 A 6 -1.675425449E-08
+546.227 ne 1.460076 10.2 A 7 8.326602461E-10
+486.269 nF 1.463123 10.4
+Sellmeier Dispersion Equation Constants2, 22 ˚C435.957 ng 1.466691 10.6
+404.770 nh 1.469615 10.8 A 1 0.68374049400
+365.119 ni 1.474539 11.2 A 2 0.42032361300
+334.244 1.479764 11.6 A 3 0.58502748000
+312.657 1.484493 12.0
+253.728 1.505522 13.9 B 1 0.00460352869
+228.872 1.521154 15.5 B 2 0.01339688560
+214.506 1.533722 17.0 B 3 64.49327320000
+206.266 1.542665 18.1
+∆n/∆T Dispersion Equation Constants3, 20-25 ˚C194.227 1.558918 20.3
+184.950 1.575017 22.7 C 0 9.390590
+C1 0.235290
+C2 -1.318560E-03
+C3 3.028870E-04
+ Other Optical Properties
+nF'-nC' 0.006797
+Stress Coefficient 35.0 nm/cm MPa       
+Abbe Constants:
+Ve 67.6
+Vd 67.8
+Refractive Index and Dispersion: HPFS® 7980
+PAGE 5
+5
+*1 Sellmeier Equation: n2-1 = A1 λ2/( λ2 - B1) + A2 λ2/( λ2 – B2) + A3 λ2/( λ2 – B3) + A4 λ2/( λ2 – B4) with λ in μm
+*2 ∆n/∆T Equation: ∆n/∆T [ppm/C] = D0 + D1λ2 + D2λ-2 + D3λ-4 + D4λ-6 with λ in μm
+The above Sellmeier dispersion equation was used to fit the refractive indices of 35 wavelengths from 2326 nm to 185
+nm.
+Conditions: 22 ˚C, 760 mm Hg, N2
+Wavelength  
+[Vacuum]  
+[nm]
+Refractive Index1 
+n
+Thermal  
+Coefficient2 
+∆n/∆T [ppm/C] Sellmeier Dispersion Equation Constants1, 20 ˚C
+2326.050 1.433027 8.7 A1 7.033574317E-02
+2058.650 1.437307 9.3 A2 7.241205497E-01
+1970.630 1.438601 9.6 A3 3.097807778E-01
+1813.570 1.440776 9.1 A4 9.309957497E-01
+1530.000 1.444337 9.7 B1 -2.301552288E-03
+1128.950 1.448930 9.7 B2 6.272886117E-03
+1014.26 nt 1.450304 9.6 B3 1.415449740E-02
+852.344 ns 1.452526 9.5 B4 1.016434845E+02
+780.237 1.453731 9.5
+Sellmeier Dispersion Equation Constants1, 22 ˚C706.714 nr 1.455205 9.9
+656.454 nC 1.456425 10.1 A1 3.550277875E-02
+644.025 nC' 1.456763 10.1 A2 7.353314507E-01
+632.990 1.457077 9.9 A3 3.334560303E-01
+587.725 nd 1.458522 10.2 A4 9.269506614E-01
+546.227 ne 1.460135 10.5 B1 -4.826183477E-03
+486.269 nF 1.463183 10.4 B2 5.808687673E-03
+480.126 nF' 1.463561 10.4 B3 1.399572492E-02
+435.957 ng 1.466751 10.7 B4 1.012182926E+02
+404.770 nh 1.469674 10.9
+Sellmeier Dispersion Equation Constants1, 25 ˚C388.975 1.471446 10.9
+365.119 ni 1.474599 11.3 A1 2.623483282E-02
+340.463 1.478646 11.6 A2 7.306029048E-01
+334.244 1.479824 11.7 A3 3.475321572E-01
+312.657 1.484554 12.0 A4 9.216052441E-01
+296.814 1.488798 12.5 B1 -5.783959035E-03
+289.444 1.491056 12.5 B2 5.600103210E-03
+253.728 1.505585 14.0 B3 1.389808930E-02
+228.872 1.521218 15.3 B4 1.006578079E+02
+226.572 1.523018 15.9
+∆n/∆T Dispersion Equation Constants2, 20-25 ˚C214.506 1.533786 16.8
+213.923 1.534371 17.0 D0 9.545124E+00
+206.266 1.542731 18.2 D1 -9.835579E-02
+202.613 1.547213 18.3 D2 2.003170E-01
+194.227 1.558985 20.4 D3 2.209816E-03
+184.950 1.575091 22.1 D4 1.980644E-04
+ Other Optical Properties
+nF'-nC' 0.006797
+Stress Coefficient 35.0 nm/cm MPa       
+Abbe Constants:
+Ve 67.6
+Vd 67.8
+Refractive Index and Dispersion: HPFS® 8655 and 7979
+PAGE 6
+6
+HPFS® 7980 Standard Grade meets high Ti ≥ 88.00 %/cm @185 nm. (Equivalent to Te  ≥ 80.00 %/cm @185 nm)
+HPFS® 7980 KrF Grade meets high Ti ≥ 99.90 %/cm @248 nm. 
+HPFS® 7980 ArF Grade meets high Ti ≥ 99.50 %/cm @193 nm.   
+HPFS® 8655 Grade meets high Ti ≥ 99.75 %/mm @193 nm.  
+HPFS® 8655 Grade Typical initial absorption k: ≤ 0.0001/cm at 193 nm.
+Higher transmittance is available upon request.  
+UV Internal Transmittance
+Broad Spectrum Internal Transmittance
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0 500 1000 1500 2000 2500 3000 3500 4000 4500
+Ti[%/cm]
+Wavelength [nm]
+8655/7979
+7980
+99.0
+99.2
+99.4
+99.6
+99.8
+100.0
+180
+190
+200
+210
+220
+230
+240
+250
+260
+270
+280
+290
+300
+310
+320
+330
+340
+350
+360
+370
+380
+390
+400
+Ti[%/cm]
+Wavelength [nm]
+8655/7979
+7980
+PAGE 7
+7
+North America Sales Office
+Corning Incorporated
+Semiconductor Optics Business
+334 County Route 16
+Canton, NY 13617
+t: 315.379.3364
+f: 315.379.3344
+Europe Sales Office
+Corning GmbH
+Corning International
+Abraham-Lincoln-Strasse 30
+D-65189 Wiesbaden 
+Germany
+t: 00800.4.267.64.64 or 
+49.611.7366.100
+f: 00800.5.267.64.64 or 
+49.611.7366.143
+e-mail: Cigermany@corning.com
+We are here to help you specify the best product for your application. For further information, please contact:
+Worldwide Accessibility
+Asia Sales Offices
+Corning International K.K. Japan
+Akasaka Intercity, 7th Floor
+1-11-44, Akasaka, 
+Minato-ku, Tokyo 107-0052
+Japan
+t: 81.3.3586.1052
+f: 81.3.3587.0906
+Corning International
+1 Kim Seng Promenade
+#12-12
+Great World City
+West Tower
+Singapore 237994
+Republic of Singapore
+t: 65.733.6511
+f: 65.861.7310
+Corning Korea Company Ltd.
+6th Floor, Gangnam Finance 
+Center
+737 Yeoksam-Dong
+Gangnam-Gu
+Seoul, Korea 135-984
+t: 82.2.796.7500
+f: 82.2.796.7300
+Corning Glass Taiwan Co. Ltd.
+Room # 1023, 12F
+No. 205
+Tun Hua North Road 
+Tiapei, Taiwan
+t: 886.2.2716.0338
+f: 886.2.2716.0339
+China (Shanghai)  Sales Office
+Corning China (Shanghai)  
+Regional Headquarters
+8F, Wheelock Square
+1717 West Nanjing Road
+Shanghai 
+China 200040
+t: 86.21.2215.2888
+f: 86.21.6215.2988
+PAGE 8
+8
+For additional product or technical information, please visit: www.corning.com/worldwide/en/products/advanced-optics
+To place an order, obtain additional technical information or specific requirements, please contact us at hpfs@corning.com 
+The information contained herein is based upon data considered to be accurate.  However, no warranty is expressed or implied regarding the 
+performance of this product.  The only applicable warranties are those that are set out in a contract or purchase agreements.
+© 2025 Corning Incorporated. All Rights Reserved.
+Corning and HPFS are registered trademarks of Corning Incorporated, Corning, NY. Corning Incorporated, One Riverfront Plaza, Corning, NY 14831-0001
+Corning/Specialty Materials/Product Information Sheet 7979, 7980 and 8655 November, 2025

@@ -1,0 +1,37 @@
+% !TEX root = main.tex
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{cite}
+
+\title{Additive Manufacturing of Molten Hot Glass: \\A State-of-the-Art Monograph}
+\author{Lead Research \& Systems Engineering Agent}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This monograph presents a comprehensive review of the state-of-the-art in 3D printing with molten hot glass. It covers the fundamental rheological and thermal physics governing direct glass extrusion, hardware architectures, and the primary defect mechanisms such as devitrification and thermal shock. A detailed academic and commercial landscape is provided, mapping out key laboratories, spin-offs, and industrial efforts.
+\end{abstract}
+
+\input{sections/01_introduction_taxonomy.tex}
+\input{sections/02_rheology_thermal_materials_physics.tex}
+\input{sections/03_nozzle_mechanics_hardware_kinematics.tex}
+\input{sections/04_in_situ_thermal_management_annealing.tex}
+\input{sections/05_defect_mechanisms_optical_quality.tex}
+\input{sections/06_academic_landscape_directory.tex}
+\input{sections/07_commercial_systems_market_economics.tex}
+\input{sections/08_open_frontiers_research_roadmap.tex}
+
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\end{document}

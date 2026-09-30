@@ -1,0 +1,1040 @@
+{
+ "id": "https://openalex.org/W3189750891",
+ "doi": "https://doi.org/10.1515/epoly-2021-0061",
+ "title": "Optical elements from 3D printed polymers",
+ "display_name": "Optical elements from 3D printed polymers",
+ "publication_year": 2021,
+ "publication_date": "2021-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W3189750891",
+  "doi": "https://doi.org/10.1515/epoly-2021-0061",
+  "mag": "3189750891"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1515/epoly-2021-0061",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1515/epoly-2021-0061",
+  "pdf_url": "https://www.degruyter.com/document/doi/10.1515/epoly-2021-0061/pdf",
+  "source": {
+   "id": "https://openalex.org/S150382113",
+   "display_name": "e-Polymers",
+   "issn_l": "1618-7229",
+   "issn": [
+    "1618-7229",
+    "2197-4586"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310313990",
+   "host_organization_name": "De Gruyter",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310313990"
+   ],
+   "host_organization_lineage_names": [
+    "De Gruyter"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "e-Polymers",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.degruyter.com/document/doi/10.1515/epoly-2021-0061/pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5060756462",
+    "display_name": "Tomasz B\u0142achowicz",
+    "orcid": "https://orcid.org/0000-0002-6569-124X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6569-124X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I119004910",
+     "display_name": "Silesian University of Technology",
+     "ror": "https://ror.org/02dyjk442",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I119004910"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tomasz Blachowicz",
+   "raw_affiliation_strings": [
+    "Silesian University of Technology, Institute of Physics\u2009\u2013\u2009Center for Science and Education , 44-100 Gliwice , Poland"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Silesian University of Technology, Institute of Physics\u2009\u2013\u2009Center for Science and Education , 44-100 Gliwice , Poland",
+     "institution_ids": [
+      "https://openalex.org/I119004910"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5021804069",
+    "display_name": "Guido Ehrmann",
+    "orcid": "https://orcid.org/0000-0002-8483-8657",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8483-8657"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Guido Ehrmann",
+   "raw_affiliation_strings": [
+    "Virtual Institute of Applied Research on Advanced Materials (VIARAM) , 33619 Bielefeld , Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Virtual Institute of Applied Research on Advanced Materials (VIARAM) , 33619 Bielefeld , Germany",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5069512155",
+    "display_name": "Andrea Ehrmann",
+    "orcid": "https://orcid.org/0000-0003-0695-3905",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0695-3905"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I203082224",
+     "display_name": "Hochschule Bielefeld",
+     "ror": "https://ror.org/00edvg943",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I203082224"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Andrea Ehrmann",
+   "raw_affiliation_strings": [
+    "Bielefeld University of Applied Sciences, Faculty of Engineering and Mathematics , 33619 Bielefeld , Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Bielefeld University of Applied Sciences, Faculty of Engineering and Mathematics , 33619 Bielefeld , Germany",
+     "institution_ids": [
+      "https://openalex.org/I203082224"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5069512155"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I203082224"
+ ],
+ "apc_list": {
+  "value": 1000,
+  "currency": "EUR",
+  "value_usd": 1183
+ },
+ "apc_paid": {
+  "value": 1000,
+  "currency": "EUR",
+  "value_usd": 1183
+ },
+ "fwci": 2.1626,
+ "has_fulltext": true,
+ "cited_by_count": 47,
+ "citation_normalized_percentile": {
+  "value": 0.87342777,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "21",
+  "issue": "1",
+  "first_page": "549",
+  "last_page": "565"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12224",
+  "display_name": "Nanofabrication and Lithography Techniques",
+  "score": 0.9973000288009644,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12224",
+   "display_name": "Nanofabrication and Lithography Techniques",
+   "score": 0.9973000288009644,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.9955000281333923,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11517",
+   "display_name": "Advanced optical system design",
+   "score": 0.994700014591217,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.8652481436729431
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.7105405926704407
+  },
+  {
+   "id": "https://openalex.org/keywords/focus",
+   "display_name": "Focus (optics)",
+   "score": 0.5857124328613281
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.5191768407821655
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering-drawing",
+   "display_name": "Engineering drawing",
+   "score": 0.3663468360900879
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.32491403818130493
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.28058868646621704
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.25487393140792847
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.23983410000801086
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-engineering",
+   "display_name": "Manufacturing engineering",
+   "score": 0.18210512399673462
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.1052333414554596
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.8652481436729431
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.7105405926704407
+  },
+  {
+   "id": "https://openalex.org/C192209626",
+   "wikidata": "https://www.wikidata.org/wiki/Q190909",
+   "display_name": "Focus (optics)",
+   "level": 2,
+   "score": 0.5857124328613281
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.5191768407821655
+  },
+  {
+   "id": "https://openalex.org/C199639397",
+   "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+   "display_name": "Engineering drawing",
+   "level": 1,
+   "score": 0.3663468360900879
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.32491403818130493
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.28058868646621704
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.25487393140792847
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.23983410000801086
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.18210512399673462
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.1052333414554596
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1515/epoly-2021-0061",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1515/epoly-2021-0061",
+   "pdf_url": "https://www.degruyter.com/document/doi/10.1515/epoly-2021-0061/pdf",
+   "source": {
+    "id": "https://openalex.org/S150382113",
+    "display_name": "e-Polymers",
+    "issn_l": "1618-7229",
+    "issn": [
+     "1618-7229",
+     "2197-4586"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310313990",
+    "host_organization_name": "De Gruyter",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310313990"
+    ],
+    "host_organization_lineage_names": [
+     "De Gruyter"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "e-Polymers",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:17a45fffbc2940ca80b472a6294af149",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/17a45fffbc2940ca80b472a6294af149",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "e-Polymers, Vol 21, Iss 1, Pp 549-565 (2021)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1515/epoly-2021-0061",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1515/epoly-2021-0061",
+  "pdf_url": "https://www.degruyter.com/document/doi/10.1515/epoly-2021-0061/pdf",
+  "source": {
+   "id": "https://openalex.org/S150382113",
+   "display_name": "e-Polymers",
+   "issn_l": "1618-7229",
+   "issn": [
+    "1618-7229",
+    "2197-4586"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310313990",
+   "host_organization_name": "De Gruyter",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310313990"
+   ],
+   "host_organization_lineage_names": [
+    "De Gruyter"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "e-Polymers",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "score": 0.5699999928474426,
+   "id": "https://metadata.un.org/sdg/9"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W3189750891.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W3189750891.grobid-xml"
+ },
+ "referenced_works_count": 158,
+ "referenced_works": [
+  "https://openalex.org/W271484748",
+  "https://openalex.org/W437732360",
+  "https://openalex.org/W644887628",
+  "https://openalex.org/W1232485561",
+  "https://openalex.org/W1655034548",
+  "https://openalex.org/W1737832913",
+  "https://openalex.org/W1926683590",
+  "https://openalex.org/W1972908734",
+  "https://openalex.org/W1975136412",
+  "https://openalex.org/W1977031005",
+  "https://openalex.org/W1987341411",
+  "https://openalex.org/W1988230988",
+  "https://openalex.org/W1995698092",
+  "https://openalex.org/W2002419320",
+  "https://openalex.org/W2006444032",
+  "https://openalex.org/W2008854308",
+  "https://openalex.org/W2008888177",
+  "https://openalex.org/W2009518030",
+  "https://openalex.org/W2010165954",
+  "https://openalex.org/W2024676441",
+  "https://openalex.org/W2028349249",
+  "https://openalex.org/W2029595649",
+  "https://openalex.org/W2029814674",
+  "https://openalex.org/W2035264794",
+  "https://openalex.org/W2036013788",
+  "https://openalex.org/W2036522550",
+  "https://openalex.org/W2054955526",
+  "https://openalex.org/W2058688417",
+  "https://openalex.org/W2059733098",
+  "https://openalex.org/W2078600119",
+  "https://openalex.org/W2094346398",
+  "https://openalex.org/W2098901994",
+  "https://openalex.org/W2100134301",
+  "https://openalex.org/W2102154710",
+  "https://openalex.org/W2115280205",
+  "https://openalex.org/W2132419663",
+  "https://openalex.org/W2141734412",
+  "https://openalex.org/W2165441364",
+  "https://openalex.org/W2166378316",
+  "https://openalex.org/W2183348908",
+  "https://openalex.org/W2210387669",
+  "https://openalex.org/W2244503751",
+  "https://openalex.org/W2252964625",
+  "https://openalex.org/W2265552407",
+  "https://openalex.org/W2302965792",
+  "https://openalex.org/W2322964579",
+  "https://openalex.org/W2324398849",
+  "https://openalex.org/W2436314696",
+  "https://openalex.org/W2468419186",
+  "https://openalex.org/W2471406299",
+  "https://openalex.org/W2499077843",
+  "https://openalex.org/W2503728812",
+  "https://openalex.org/W2508388961",
+  "https://openalex.org/W2531054484",
+  "https://openalex.org/W2547371111",
+  "https://openalex.org/W2553161527",
+  "https://openalex.org/W2566377603",
+  "https://openalex.org/W2568681970",
+  "https://openalex.org/W2579571511",
+  "https://openalex.org/W2588550473",
+  "https://openalex.org/W2597986279",
+  "https://openalex.org/W2607617232",
+  "https://openalex.org/W2610422812",
+  "https://openalex.org/W2611973991",
+  "https://openalex.org/W2613330025",
+  "https://openalex.org/W2739533428",
+  "https://openalex.org/W2744192795",
+  "https://openalex.org/W2744293964",
+  "https://openalex.org/W2749845722",
+  "https://openalex.org/W2751848801",
+  "https://openalex.org/W2769013088",
+  "https://openalex.org/W2774444928",
+  "https://openalex.org/W2792106479",
+  "https://openalex.org/W2793351559",
+  "https://openalex.org/W2793887430",
+  "https://openalex.org/W2794428141",
+  "https://openalex.org/W2803379655",
+  "https://openalex.org/W2805454887",
+  "https://openalex.org/W2822579096",
+  "https://openalex.org/W2889277491",
+  "https://openalex.org/W2889858466",
+  "https://openalex.org/W2891506680",
+  "https://openalex.org/W2893960443",
+  "https://openalex.org/W2897479281",
+  "https://openalex.org/W2898283624",
+  "https://openalex.org/W2900530028",
+  "https://openalex.org/W2903212149",
+  "https://openalex.org/W2914315091",
+  "https://openalex.org/W2915806089",
+  "https://openalex.org/W2919934101",
+  "https://openalex.org/W2920435926",
+  "https://openalex.org/W2921842444",
+  "https://openalex.org/W2927742238",
+  "https://openalex.org/W2937877684",
+  "https://openalex.org/W2939121473",
+  "https://openalex.org/W2942849883",
+  "https://openalex.org/W2946563245",
+  "https://openalex.org/W2962860409",
+  "https://openalex.org/W2963348463",
+  "https://openalex.org/W2969476975",
+  "https://openalex.org/W2978589365",
+  "https://openalex.org/W2980218440",
+  "https://openalex.org/W2980396364",
+  "https://openalex.org/W2980679455",
+  "https://openalex.org/W2981245438",
+  "https://openalex.org/W2982197001",
+  "https://openalex.org/W2988573154",
+  "https://openalex.org/W2993363945",
+  "https://openalex.org/W2994490823",
+  "https://openalex.org/W2994864910",
+  "https://openalex.org/W3002676564",
+  "https://openalex.org/W3004398889",
+  "https://openalex.org/W3005934627",
+  "https://openalex.org/W3007089453",
+  "https://openalex.org/W3010554711",
+  "https://openalex.org/W3011024895",
+  "https://openalex.org/W3012123498",
+  "https://openalex.org/W3016438765",
+  "https://openalex.org/W3017992539",
+  "https://openalex.org/W3018640010",
+  "https://openalex.org/W3019051080",
+  "https://openalex.org/W3034566869",
+  "https://openalex.org/W3039311728",
+  "https://openalex.org/W3043226820",
+  "https://openalex.org/W3044939848",
+  "https://openalex.org/W3048828378",
+  "https://openalex.org/W3049020273",
+  "https://openalex.org/W3081660217",
+  "https://openalex.org/W3082691073",
+  "https://openalex.org/W3083832531",
+  "https://openalex.org/W3083896593",
+  "https://openalex.org/W3085708559",
+  "https://openalex.org/W3087254484",
+  "https://openalex.org/W3088940785",
+  "https://openalex.org/W3096411458",
+  "https://openalex.org/W3097266553",
+  "https://openalex.org/W3100718900",
+  "https://openalex.org/W3100862579",
+  "https://openalex.org/W3102133734",
+  "https://openalex.org/W3113402032",
+  "https://openalex.org/W3118069516",
+  "https://openalex.org/W3118957600",
+  "https://openalex.org/W3121478804",
+  "https://openalex.org/W3121654153",
+  "https://openalex.org/W3123894004",
+  "https://openalex.org/W3124408013",
+  "https://openalex.org/W3130307709",
+  "https://openalex.org/W3131067592",
+  "https://openalex.org/W3138759319",
+  "https://openalex.org/W3152709210",
+  "https://openalex.org/W3152898418",
+  "https://openalex.org/W3153702389",
+  "https://openalex.org/W3159081837",
+  "https://openalex.org/W3160548785",
+  "https://openalex.org/W3191487084",
+  "https://openalex.org/W4212986059",
+  "https://openalex.org/W4241709524",
+  "https://openalex.org/W6679584729"
+ ],
+ "related_works": [
+  "https://openalex.org/W1955801659",
+  "https://openalex.org/W3036311796",
+  "https://openalex.org/W4367665844",
+  "https://openalex.org/W4285543619",
+  "https://openalex.org/W4319589397",
+  "https://openalex.org/W2582005554",
+  "https://openalex.org/W3131618301",
+  "https://openalex.org/W3158363272",
+  "https://openalex.org/W3089387070",
+  "https://openalex.org/W2763500538"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "3D": [
+   1,
+   15,
+   40,
+   75,
+   93,
+   114
+  ],
+  "printing": [
+   2,
+   16,
+   41,
+   76,
+   115
+  ],
+  "belongs": [
+   3
+  ],
+  "to": [
+   4
+  ],
+  "the": [
+   5,
+   36,
+   45,
+   49,
+   57
+  ],
+  "emerging": [
+   6
+  ],
+  "technologies": [
+   7
+  ],
+  "of": [
+   8,
+   20,
+   35,
+   38,
+   48,
+   59,
+   92
+  ],
+  "our": [
+   9
+  ],
+  "time.": [
+   10
+  ],
+  "Describing": [
+   11
+  ],
+  "diverse": [
+   12
+  ],
+  "specific": [
+   13
+  ],
+  "techniques,": [
+   14
+  ],
+  "enables": [
+   17
+  ],
+  "rapid": [
+   18
+  ],
+  "production": [
+   19,
+   58
+  ],
+  "individual": [
+   21
+  ],
+  "objects": [
+   22
+  ],
+  "and": [
+   23,
+   101,
+   109
+  ],
+  "creating": [
+   24
+  ],
+  "shapes": [
+   25
+  ],
+  "that": [
+   26
+  ],
+  "would": [
+   27
+  ],
+  "not": [
+   28
+  ],
+  "be": [
+   29,
+   85
+  ],
+  "produced": [
+   30
+  ],
+  "with": [
+   31,
+   103
+  ],
+  "other": [
+   32,
+   81,
+   110
+  ],
+  "techniques.": [
+   33
+  ],
+  "One": [
+   34
+  ],
+  "drawbacks": [
+   37
+  ],
+  "typical": [
+   39
+  ],
+  "processes,": [
+   42
+  ],
+  "however,": [
+   43
+  ],
+  "is": [
+   44,
+   53,
+   116
+  ],
+  "layered": [
+   46
+  ],
+  "structure": [
+   47
+  ],
+  "created": [
+   50
+  ],
+  "parts.": [
+   51
+  ],
+  "This": [
+   52
+  ],
+  "especially": [
+   54,
+   117
+  ],
+  "problematic": [
+   55
+  ],
+  "in": [
+   56,
+   63
+  ],
+  "optical": [
+   60,
+   95
+  ],
+  "elements,": [
+   61,
+   96
+  ],
+  "which": [
+   62,
+   113
+  ],
+  "most": [
+   64
+  ],
+  "cases": [
+   65
+  ],
+  "necessitate": [
+   66
+  ],
+  "highly": [
+   67
+  ],
+  "even": [
+   68
+  ],
+  "surfaces.": [
+   69
+  ],
+  "To": [
+   70
+  ],
+  "meet": [
+   71
+  ],
+  "this": [
+   72
+  ],
+  "challenge,": [
+   73
+  ],
+  "advanced": [
+   74
+  ],
+  "techniques": [
+   77
+  ],
+  "as": [
+   78,
+   80,
+   98
+  ],
+  "well": [
+   79,
+   118
+  ],
+  "sophisticated": [
+   82
+  ],
+  "solutions": [
+   83
+  ],
+  "can": [
+   84
+  ],
+  "applied.": [
+   86
+  ],
+  "Here,": [
+   87
+  ],
+  "we": [
+   88
+  ],
+  "give": [
+   89
+  ],
+  "an": [
+   90
+  ],
+  "overview": [
+   91
+  ],
+  "printed": [
+   94
+  ],
+  "such": [
+   97
+  ],
+  "lenses,": [
+   99
+  ],
+  "mirrors,": [
+   100
+  ],
+  "waveguides,": [
+   102
+  ],
+  "a": [
+   104
+  ],
+  "focus": [
+   105
+  ],
+  "on": [
+   106
+  ],
+  "freeform": [
+   107
+  ],
+  "optics": [
+   108
+  ],
+  "elements": [
+   111
+  ],
+  "for": [
+   112
+  ],
+  "suited.": [
+   119
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-27T08:07:27.782135",
+ "created_date": "2021-08-16T00:00:00"
+}

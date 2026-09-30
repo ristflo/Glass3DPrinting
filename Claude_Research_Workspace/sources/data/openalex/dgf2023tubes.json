@@ -1,0 +1,961 @@
+{
+ "id": "https://openalex.org/W4308592103",
+ "doi": "https://doi.org/10.1115/1.4056200",
+ "title": "Printing Hollow Tubes Using Digital Glass Forming",
+ "display_name": "Printing Hollow Tubes Using Digital Glass Forming",
+ "relevance_score": 1108.7394,
+ "publication_year": 2022,
+ "publication_date": "2022-11-08",
+ "ids": {
+  "openalex": "https://openalex.org/W4308592103",
+  "doi": "https://doi.org/10.1115/1.4056200"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1115/1.4056200",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1115/1.4056200",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S193263997",
+   "display_name": "Journal of Manufacturing Science and Engineering",
+   "issn_l": "1087-1357",
+   "issn": [
+    "1087-1357",
+    "1528-8935"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310316053",
+   "host_organization_name": "ASM International",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310316053"
+   ],
+   "host_organization_lineage_names": [
+    "ASM International"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Manufacturing Science and Engineering",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5134442203",
+    "display_name": "Nicholas E. Capps",
+    "orcid": "https://orcid.org/0009-0002-3495-5078"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I107639228",
+     "display_name": "University of Notre Dame",
+     "ror": "https://ror.org/00mkhxb43",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Nicholas Capps",
+   "raw_affiliation_strings": [
+    "University of Notre Dame, Aerospace and Mechanical Engineering , Notre Dame, IN 46556"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Notre Dame, Aerospace and Mechanical Engineering , Notre Dame, IN 46556",
+     "institution_ids": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5021723946",
+    "display_name": "Kiva Ford",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I107639228",
+     "display_name": "University of Notre Dame",
+     "ror": "https://ror.org/00mkhxb43",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kiva Ford",
+   "raw_affiliation_strings": [
+    "University of Notre Dame, Aerospace and Mechanical Engineering , Notre Dame, IN 46556"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Notre Dame, Aerospace and Mechanical Engineering , Notre Dame, IN 46556",
+     "institution_ids": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101865717",
+    "display_name": "Jonathan T. Goldstein",
+    "orcid": "https://orcid.org/0000-0002-6111-4613"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1280414376",
+     "display_name": "United States Air Force Research Laboratory",
+     "ror": "https://ror.org/02e2egq70",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1280414376",
+      "https://openalex.org/I1330347796",
+      "https://openalex.org/I4210102105",
+      "https://openalex.org/I4389425425"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jonathan Goldstein",
+   "raw_affiliation_strings": [
+    "Air Force Research Laboratory, Materials and Manufacturing Directorate , Wright-Patterson AFB, OH 45433"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Air Force Research Laboratory, Materials and Manufacturing Directorate , Wright-Patterson AFB, OH 45433",
+     "institution_ids": [
+      "https://openalex.org/I1280414376"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5002415526",
+    "display_name": "Edward C. Kinzel",
+    "orcid": "https://orcid.org/0000-0002-4492-8682"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I107639228",
+     "display_name": "University of Notre Dame",
+     "ror": "https://ror.org/00mkhxb43",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Edward Kinzel",
+   "raw_affiliation_strings": [
+    "University of Notre Dame, Aerospace and Mechanical Engineering , Notre Dame, IN 46556"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Notre Dame, Aerospace and Mechanical Engineering , Notre Dame, IN 46556",
+     "institution_ids": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002415526"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I107639228"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.3803,
+ "has_fulltext": false,
+ "cited_by_count": 8,
+ "citation_normalized_percentile": {
+  "value": 0.5217119,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "145",
+  "issue": "1",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9948999881744385,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9948999881744385,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13965",
+   "display_name": "Laser and Thermal Forming Techniques",
+   "score": 0.9921000003814697,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9901000261306763,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7807691097259521
+  },
+  {
+   "id": "https://openalex.org/keywords/tube",
+   "display_name": "Tube (container)",
+   "score": 0.7581421732902527
+  },
+  {
+   "id": "https://openalex.org/keywords/bent-molecular-geometry",
+   "display_name": "Bent molecular geometry",
+   "score": 0.7293037176132202
+  },
+  {
+   "id": "https://openalex.org/keywords/bending",
+   "display_name": "Bending",
+   "score": 0.6955460906028748
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-tube",
+   "display_name": "Glass tube",
+   "score": 0.6202074289321899
+  },
+  {
+   "id": "https://openalex.org/keywords/deformation",
+   "display_name": "Deformation (meteorology)",
+   "score": 0.6000670790672302
+  },
+  {
+   "id": "https://openalex.org/keywords/planar",
+   "display_name": "Planar",
+   "score": 0.5941815376281738
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.5877843499183655
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.5369588732719421
+  },
+  {
+   "id": "https://openalex.org/keywords/forming-processes",
+   "display_name": "Forming processes",
+   "score": 0.491129606962204
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.44473928213119507
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.3888138234615326
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.3446747660636902
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.13113003969192505
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.08168753981590271
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7807691097259521
+  },
+  {
+   "id": "https://openalex.org/C2777551473",
+   "wikidata": "https://www.wikidata.org/wiki/Q2093072",
+   "display_name": "Tube (container)",
+   "level": 2,
+   "score": 0.7581421732902527
+  },
+  {
+   "id": "https://openalex.org/C138211643",
+   "wikidata": "https://www.wikidata.org/wiki/Q675211",
+   "display_name": "Bent molecular geometry",
+   "level": 2,
+   "score": 0.7293037176132202
+  },
+  {
+   "id": "https://openalex.org/C87210426",
+   "wikidata": "https://www.wikidata.org/wiki/Q1072476",
+   "display_name": "Bending",
+   "level": 2,
+   "score": 0.6955460906028748
+  },
+  {
+   "id": "https://openalex.org/C2778334255",
+   "wikidata": "https://www.wikidata.org/wiki/Q2911301",
+   "display_name": "Glass tube",
+   "level": 3,
+   "score": 0.6202074289321899
+  },
+  {
+   "id": "https://openalex.org/C204366326",
+   "wikidata": "https://www.wikidata.org/wiki/Q3027650",
+   "display_name": "Deformation (meteorology)",
+   "level": 2,
+   "score": 0.6000670790672302
+  },
+  {
+   "id": "https://openalex.org/C134786449",
+   "wikidata": "https://www.wikidata.org/wiki/Q3391255",
+   "display_name": "Planar",
+   "level": 2,
+   "score": 0.5941815376281738
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.5877843499183655
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.5369588732719421
+  },
+  {
+   "id": "https://openalex.org/C139321929",
+   "wikidata": "https://www.wikidata.org/wiki/Q1363994",
+   "display_name": "Forming processes",
+   "level": 2,
+   "score": 0.491129606962204
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.44473928213119507
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.3888138234615326
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.3446747660636902
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.13113003969192505
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.08168753981590271
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1115/1.4056200",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1115/1.4056200",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S193263997",
+    "display_name": "Journal of Manufacturing Science and Engineering",
+    "issn_l": "1087-1357",
+    "issn": [
+     "1087-1357",
+     "1528-8935"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310316053",
+    "host_organization_name": "ASM International",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310316053"
+    ],
+    "host_organization_lineage_names": [
+     "ASM International"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Manufacturing Science and Engineering",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 25,
+ "referenced_works": [
+  "https://openalex.org/W1985492790",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2004983799",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2043131331",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2052535456",
+  "https://openalex.org/W2058574164",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2313414224",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2883339251",
+  "https://openalex.org/W2921179414",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W3023079272",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3087964163",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3195076897",
+  "https://openalex.org/W4205797673"
+ ],
+ "related_works": [
+  "https://openalex.org/W2063795661",
+  "https://openalex.org/W2332005633",
+  "https://openalex.org/W2801493204",
+  "https://openalex.org/W1965076004",
+  "https://openalex.org/W2059494334",
+  "https://openalex.org/W1973770935",
+  "https://openalex.org/W2348444235",
+  "https://openalex.org/W2390073174",
+  "https://openalex.org/W2398289268",
+  "https://openalex.org/W2082053629"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "This": [
+   1,
+   29
+  ],
+  "article": [
+   2
+  ],
+  "investigates": [
+   3
+  ],
+  "printing": [
+   4,
+   77
+  ],
+  "hollow": [
+   5
+  ],
+  "tubes": [
+   6
+  ],
+  "using": [
+   7,
+   48
+  ],
+  "the": [
+   8,
+   46,
+   58,
+   64,
+   72,
+   76,
+   81,
+   95,
+   102,
+   109,
+   118,
+   121,
+   131
+  ],
+  "digital": [
+   9
+  ],
+  "glass-forming": [
+   10
+  ],
+  "process.": [
+   11
+  ],
+  "A": [
+   12
+  ],
+  "CO2": [
+   13
+  ],
+  "laser": [
+   14,
+   47
+  ],
+  "locally": [
+   15
+  ],
+  "heats": [
+   16
+  ],
+  "continuously": [
+   17
+  ],
+  "fed": [
+   18
+  ],
+  "glass": [
+   19,
+   89
+  ],
+  "tube": [
+   20,
+   82,
+   123,
+   127
+  ],
+  "feedstock": [
+   21
+  ],
+  "so": [
+   22
+  ],
+  "that": [
+   23
+  ],
+  "it": [
+   24,
+   31
+  ],
+  "can": [
+   25
+  ],
+  "be": [
+   26,
+   33
+  ],
+  "plastically": [
+   27
+  ],
+  "deformed.": [
+   28
+  ],
+  "allows": [
+   30,
+   75,
+   117
+  ],
+  "to": [
+   32,
+   45
+  ],
+  "bent": [
+   34
+  ],
+  "and": [
+   35,
+   98
+  ],
+  "deposited": [
+   36,
+   129
+  ],
+  "onto": [
+   37
+  ],
+  "a": [
+   38,
+   106
+  ],
+  "workpiece.": [
+   39
+  ],
+  "The": [
+   40,
+   55,
+   84,
+   112
+  ],
+  "workpiece": [
+   41
+  ],
+  "is": [
+   42,
+   61,
+   91
+  ],
+  "positioned": [
+   43
+  ],
+  "relative": [
+   44
+  ],
+  "precision": [
+   49
+  ],
+  "four-axis": [
+   50
+  ],
+  "computer": [
+   51
+  ],
+  "numerical": [
+   52
+  ],
+  "control": [
+   53,
+   119
+  ],
+  "stages.": [
+   54
+  ],
+  "loading": [
+   56
+  ],
+  "on": [
+   57,
+   94,
+   130
+  ],
+  "laser-heated": [
+   59
+  ],
+  "region": [
+   60
+  ],
+  "controlled": [
+   62
+  ],
+  "by": [
+   63
+  ],
+  "stages": [
+   65
+  ],
+  "as": [
+   66,
+   68,
+   105,
+   134,
+   136
+  ],
+  "well": [
+   67,
+   135
+  ],
+  "pneumatic": [
+   69,
+   115
+  ],
+  "pressure": [
+   70,
+   116
+  ],
+  "in": [
+   71
+  ],
+  "tube,": [
+   73
+  ],
+  "which": [
+   74
+  ],
+  "complex": [
+   78,
+   126
+  ],
+  "shapes": [
+   79
+  ],
+  "without": [
+   80
+  ],
+  "collapsing.": [
+   83
+  ],
+  "bending": [
+   85
+  ],
+  "behavior": [
+   86
+  ],
+  "of": [
+   87,
+   101,
+   108,
+   114,
+   120
+  ],
+  "freestanding": [
+   88,
+   137
+  ],
+  "structures": [
+   90,
+   138
+  ],
+  "examined,": [
+   92
+  ],
+  "focusing": [
+   93
+  ],
+  "geometric": [
+   96
+  ],
+  "accuracy": [
+   97
+  ],
+  "temperature": [
+   99
+  ],
+  "profile": [
+   100
+  ],
+  "deformation": [
+   103
+  ],
+  "zone": [
+   104
+  ],
+  "function": [
+   107
+  ],
+  "process": [
+   110
+  ],
+  "parameters.": [
+   111
+  ],
+  "application": [
+   113
+  ],
+  "printed": [
+   122
+  ],
+  "diameter.": [
+   124
+  ],
+  "Several": [
+   125
+  ],
+  "geometries": [
+   128
+  ],
+  "planar": [
+   132
+  ],
+  "substrates": [
+   133
+  ],
+  "are": [
+   139
+  ],
+  "demonstrated.": [
+   140
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,172 @@
+{
+  "bibliography_entries": 43,
+  "cited_unique_entries": 43,
+  "undefined_citations": [],
+  "missing_metadata": [],
+  "missing_figures": [],
+  "pdfs": [
+    {
+      "path": "sources/papers/2015_Klein_Additive_Manufacturing_of_Optically_Transparent_Glass.pdf",
+      "pages": 18,
+      "text_characters": 51516
+    },
+    {
+      "path": "sources/papers/2018_Inamura_Additive_Manufacturing_of_Transparent_Glass_Structures.pdf",
+      "pages": 16,
+      "text_characters": 60317
+    },
+    {
+      "path": "sources/papers/2018_Witzendorff_Additive_manufacturing_of_glass_CO2_Lase.pdf",
+      "pages": 4,
+      "text_characters": 12413
+    },
+    {
+      "path": "sources/papers/2019_Datsiou_Additive_manufacturing_of_glass_with_las.pdf",
+      "pages": 5,
+      "text_characters": 23152
+    },
+    {
+      "path": "sources/papers/2021_Datsiou_Laser_powder_bed_fusion_of_soda_lime_sil.pdf",
+      "pages": 10,
+      "text_characters": 46688
+    },
+    {
+      "path": "sources/papers/2022_Liu_Investigation_of_glass_bonding_and_multi.pdf",
+      "pages": 10,
+      "text_characters": 36525
+    },
+    {
+      "path": "sources/papers/2022_Spirrett_Powder_fed_directed_energy_deposition_of.pdf",
+      "pages": 14,
+      "text_characters": 56335
+    },
+    {
+      "path": "sources/papers/2022_Toombs_Volumetric_additive_manufacturing_of_sil.pdf",
+      "pages": 42,
+      "text_characters": 51143
+    },
+    {
+      "path": "sources/papers/2024_Massimino_Additive_manufacturing_of_interlocking_g.pdf",
+      "pages": 21,
+      "text_characters": 77549
+    },
+    {
+      "path": "sources/papers/2024_Sleiman_Experimental_investigation_on_the_surfac.pdf",
+      "pages": 4,
+      "text_characters": 17594
+    },
+    {
+      "path": "sources/papers/2024_Zhang_A_simulation_model_of_selective_laser_me.pdf",
+      "pages": 11,
+      "text_characters": 34252
+    },
+    {
+      "path": "sources/papers/2025_Murthi_Sol_gel_technologies_for_additive_manufa.pdf",
+      "pages": 15,
+      "text_characters": 70571
+    },
+    {
+      "path": "sources/papers/2026_Chhadeh_Toolpath_Design_Mechanical_Strength.pdf",
+      "pages": 11,
+      "text_characters": 45609
+    },
+    {
+      "path": "sources/papers/phys_ar.pdf",
+      "pages": 16,
+      "text_characters": 10157
+    },
+    {
+      "path": "sources/papers/phys_boro.pdf",
+      "pages": 1,
+      "text_characters": 2222
+    },
+    {
+      "path": "sources/papers/phys_silica.pdf",
+      "pages": 8,
+      "text_characters": 11687
+    },
+    {
+      "path": "sources/patents/AU2021289614A1.pdf",
+      "pages": 60,
+      "text_characters": 99452
+    },
+    {
+      "path": "sources/patents/US10266442B2.pdf",
+      "pages": 34,
+      "text_characters": 119077
+    },
+    {
+      "path": "sources/patents/WO2020118157A1.pdf",
+      "pages": 91,
+      "text_characters": 0
+    }
+  ],
+  "images": [
+    {
+      "path": "latex/figures/Efferz2024_Figure2.png",
+      "width_px": 873,
+      "height_px": 640
+    },
+    {
+      "path": "latex/figures/flow_sensitivity.png",
+      "width_px": 2190,
+      "height_px": 1320
+    },
+    {
+      "path": "latex/figures/Liu2022_Figure1.jpg",
+      "width_px": 498,
+      "height_px": 352
+    },
+    {
+      "path": "latex/figures/Liu2022_Figure6.jpg",
+      "width_px": 941,
+      "height_px": 920
+    },
+    {
+      "path": "latex/figures/Massimino2024_Figure1.png",
+      "width_px": 874,
+      "height_px": 1213
+    },
+    {
+      "path": "latex/figures/Massimino2024_Figure2.png",
+      "width_px": 1371,
+      "height_px": 772
+    },
+    {
+      "path": "latex/figures/process_architecture.png",
+      "width_px": 2700,
+      "height_px": 1320
+    },
+    {
+      "path": "latex/figures/viscosity_residuals.png",
+      "width_px": 2100,
+      "height_px": 990
+    },
+    {
+      "path": "latex/figures/viscosity_vft.png",
+      "width_px": 3450,
+      "height_px": 1440
+    }
+  ],
+  "asset_errors": [],
+  "hash_errors": [],
+  "root_changes_since_baseline": [
+    {
+      "name": "Antigravity_Research_Instructuctions_20260926.md",
+      "status": "changed since baseline"
+    }
+  ],
+  "sections": [
+    "01_introduction_taxonomy.tex",
+    "02_rheology_thermal_materials_physics.tex",
+    "03_nozzle_mechanics_hardware_kinematics.tex",
+    "04_in_situ_thermal_management_annealing.tex",
+    "05_defect_mechanisms_optical_quality.tex",
+    "06_academic_landscape_directory.tex",
+    "07_commercial_systems_market_economics.tex",
+    "08_open_frontiers_research_roadmap.tex",
+    "viscosity_table.tex"
+  ],
+  "checked_at_utc": "2026-09-30T09:16:31.875930+00:00",
+  "root_changes_since_resume": []
+}

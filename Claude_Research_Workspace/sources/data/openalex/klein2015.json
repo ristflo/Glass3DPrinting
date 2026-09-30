@@ -1,0 +1,1737 @@
+{
+ "id": "https://openalex.org/W2169134071",
+ "doi": "https://doi.org/10.1089/3dp.2015.0021",
+ "title": "Additive Manufacturing of Optically Transparent Glass",
+ "display_name": "Additive Manufacturing of Optically Transparent Glass",
+ "publication_year": 2015,
+ "publication_date": "2015-08-19",
+ "ids": {
+  "openalex": "https://openalex.org/W2169134071",
+  "doi": "https://doi.org/10.1089/3dp.2015.0021",
+  "mag": "2169134071"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1089/3dp.2015.0021",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1089/3dp.2015.0021",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210174904",
+   "display_name": "3D Printing and Additive Manufacturing",
+   "issn_l": "2329-7662",
+   "issn": [
+    "2329-7662",
+    "2329-7670"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "erih-plus",
+    "jufo-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320443",
+   "host_organization_name": "Mary Ann Liebert, Inc.",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320443",
+    "https://openalex.org/P4310320017"
+   ],
+   "host_organization_lineage_names": [
+    "Mary Ann Liebert, Inc.",
+    "SAGE Publishing"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "3D Printing and Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "http://hdl.handle.net/1721.1/101831",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5003621767",
+    "display_name": "John P. Klein",
+    "orcid": "https://orcid.org/0000-0001-7778-2467",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7778-2467"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "John Klein",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5000312850",
+    "display_name": "Michael C. Stern",
+    "orcid": "https://orcid.org/0000-0002-2723-5374",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2723-5374"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Michael Stern",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5019998926",
+    "display_name": "Giorgia Franchin",
+    "orcid": "https://orcid.org/0000-0002-4419-827X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4419-827X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138689650",
+     "display_name": "University of Padua",
+     "ror": "https://ror.org/00240q980",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138689650"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Giorgia Franchin",
+   "raw_affiliation_strings": [
+    "University of Padova",
+    "Department of Industrial Engineering, University of Padova, Padova, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Padova",
+     "institution_ids": [
+      "https://openalex.org/I138689650"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Industrial Engineering, University of Padova, Padova, Italy",
+     "institution_ids": [
+      "https://openalex.org/I138689650"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5049433970",
+    "display_name": "Markus Kayser",
+    "orcid": "https://orcid.org/0000-0002-9991-8633",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9991-8633"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Markus Kayser",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5027371561",
+    "display_name": "Chikara Inamura",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chikara Inamura",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5064017276",
+    "display_name": "Shreya H. Dave",
+    "orcid": "https://orcid.org/0000-0001-7482-5281",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7482-5281"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shreya Dave",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5019136974",
+    "display_name": "James C. Weaver",
+    "orcid": "https://orcid.org/0000-0002-6522-7359",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6522-7359"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I136199984",
+     "display_name": "Harvard University",
+     "ror": "https://ror.org/03vek6s52",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I136199984"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801851002",
+     "display_name": "Harvard University Press",
+     "ror": "https://ror.org/006v7bf86",
+     "country_code": "US",
+     "type": "other",
+     "lineage": [
+      "https://openalex.org/I136199984",
+      "https://openalex.org/I2801851002"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "James C. Weaver",
+   "raw_affiliation_strings": [
+    "Harvard University",
+    "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Harvard University",
+     "institution_ids": [
+      "https://openalex.org/I2801851002"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I136199984"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5007687125",
+    "display_name": "Peter Houk",
+    "orcid": "https://orcid.org/0000-0002-8414-9800",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8414-9800"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Peter Houk",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Department of Material Science and Engineering Glass Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Material Science and Engineering Glass Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5032009641",
+    "display_name": "Paolo Angelo Colombo",
+    "orcid": "https://orcid.org/0000-0001-8005-6618",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8005-6618"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130769515",
+     "display_name": "Pennsylvania State University",
+     "ror": "https://ror.org/04p491231",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130769515"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I138689650",
+     "display_name": "University of Padua",
+     "ror": "https://ror.org/00240q980",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138689650"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4179309",
+     "display_name": "Park University",
+     "ror": "https://ror.org/04ngpga37",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4179309"
+     ]
+    }
+   ],
+   "countries": [
+    "IT",
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Paolo Colombo",
+   "raw_affiliation_strings": [
+    "University Park",
+    "University of Padova",
+    "Department of Industrial Engineering, University of Padova, Padova, Italy",
+    "Department of Materials Science and Engineering, The Pennsylvania State University, University Park, Pennsylvania"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University Park",
+     "institution_ids": [
+      "https://openalex.org/I4179309"
+     ]
+    },
+    {
+     "raw_affiliation_string": "University of Padova",
+     "institution_ids": [
+      "https://openalex.org/I138689650"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Industrial Engineering, University of Padova, Padova, Italy",
+     "institution_ids": [
+      "https://openalex.org/I138689650"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering, The Pennsylvania State University, University Park, Pennsylvania",
+     "institution_ids": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5045442778",
+    "display_name": "Maria C. Yang",
+    "orcid": "https://orcid.org/0000-0002-7776-3423",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7776-3423"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Maria Yang",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5041990597",
+    "display_name": "Neri Oxman",
+    "orcid": "https://orcid.org/0000-0001-9222-4447",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9222-4447"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Neri Oxman",
+   "raw_affiliation_strings": [
+    "Massachusetts Institute of Technology",
+    "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Massachusetts Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 6,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5041990597"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I63966007"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 18.9674,
+ "has_fulltext": false,
+ "cited_by_count": 288,
+ "citation_normalized_percentile": {
+  "value": 0.9945007,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "2",
+  "issue": "3",
+  "first_page": "92",
+  "last_page": "105"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9994999766349792,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10789",
+   "display_name": "Interactive and Immersive Displays",
+   "score": 0.9699000120162964,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1709",
+    "display_name": "Human-Computer Interaction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9653000235557556,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.6750506162643433
+  },
+  {
+   "id": "https://openalex.org/keywords/stereolithography",
+   "display_name": "Stereolithography",
+   "score": 0.5975989103317261
+  },
+  {
+   "id": "https://openalex.org/keywords/modular-design",
+   "display_name": "Modular design",
+   "score": 0.5879802703857422
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.5067461133003235
+  },
+  {
+   "id": "https://openalex.org/keywords/extrusion",
+   "display_name": "Extrusion",
+   "score": 0.49123281240463257
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.4768068492412567
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printer",
+   "display_name": "3d printer",
+   "score": 0.4706931412220001
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.4533963203430176
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering-drawing",
+   "display_name": "Engineering drawing",
+   "score": 0.4466526210308075
+  },
+  {
+   "id": "https://openalex.org/keywords/component",
+   "display_name": "Component (thermodynamics)",
+   "score": 0.4420323967933655
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.415978342294693
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.2908933460712433
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.15272286534309387
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.6750506162643433
+  },
+  {
+   "id": "https://openalex.org/C2779154291",
+   "wikidata": "https://www.wikidata.org/wiki/Q1022471",
+   "display_name": "Stereolithography",
+   "level": 2,
+   "score": 0.5975989103317261
+  },
+  {
+   "id": "https://openalex.org/C101468663",
+   "wikidata": "https://www.wikidata.org/wiki/Q1620158",
+   "display_name": "Modular design",
+   "level": 2,
+   "score": 0.5879802703857422
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5067461133003235
+  },
+  {
+   "id": "https://openalex.org/C2778958987",
+   "wikidata": "https://www.wikidata.org/wiki/Q139143",
+   "display_name": "Extrusion",
+   "level": 2,
+   "score": 0.49123281240463257
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.4768068492412567
+  },
+  {
+   "id": "https://openalex.org/C2984377249",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printer",
+   "level": 2,
+   "score": 0.4706931412220001
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.4533963203430176
+  },
+  {
+   "id": "https://openalex.org/C199639397",
+   "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+   "display_name": "Engineering drawing",
+   "level": 1,
+   "score": 0.4466526210308075
+  },
+  {
+   "id": "https://openalex.org/C168167062",
+   "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+   "display_name": "Component (thermodynamics)",
+   "level": 2,
+   "score": 0.4420323967933655
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.415978342294693
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.2908933460712433
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.15272286534309387
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.1089/3dp.2015.0021",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1089/3dp.2015.0021",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210174904",
+    "display_name": "3D Printing and Additive Manufacturing",
+    "issn_l": "2329-7662",
+    "issn": [
+     "2329-7662",
+     "2329-7670"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "erih-plus",
+     "jufo-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320443",
+    "host_organization_name": "Mary Ann Liebert, Inc.",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320443",
+     "https://openalex.org/P4310320017"
+    ],
+    "host_organization_lineage_names": [
+     "Mary Ann Liebert, Inc.",
+     "SAGE Publishing"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "3D Printing and Additive Manufacturing",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:dspace.mit.edu:1721.1/101831",
+   "is_oa": true,
+   "landing_page_url": "http://hdl.handle.net/1721.1/101831",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400425",
+    "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I63966007",
+    "host_organization_name": "Massachusetts Institute of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I63966007"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Thesis"
+  },
+  {
+   "id": "pmh:oai:dspace.mit.edu:1721.1/98880",
+   "is_oa": true,
+   "landing_page_url": "http://hdl.handle.net/1721.1/98880",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400425",
+    "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I63966007",
+    "host_organization_name": "Massachusetts Institute of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I63966007"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Donovan",
+   "raw_type": "Article"
+  },
+  {
+   "id": "pmh:oai:www.research.unipd.it:11577/3167622",
+   "is_oa": true,
+   "landing_page_url": "http://hdl.handle.net/11577/3167622",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402547",
+    "display_name": "Padua Research Archive (University of Padova)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I138689650",
+    "host_organization_name": "University of Padua",
+    "host_organization_lineage": [
+     "https://openalex.org/I138689650"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:dspace.mit.edu:1721.1/101831",
+  "is_oa": true,
+  "landing_page_url": "http://hdl.handle.net/1721.1/101831",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306400425",
+   "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I63966007",
+   "host_organization_name": "Massachusetts Institute of Technology",
+   "host_organization_lineage": [
+    "https://openalex.org/I63966007"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": null,
+  "raw_type": "Thesis"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 30,
+ "referenced_works": [
+  "https://openalex.org/W103825802",
+  "https://openalex.org/W148612899",
+  "https://openalex.org/W659299008",
+  "https://openalex.org/W1944915281",
+  "https://openalex.org/W1968850951",
+  "https://openalex.org/W1969555343",
+  "https://openalex.org/W1978568424",
+  "https://openalex.org/W1978844102",
+  "https://openalex.org/W1988390568",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2006093258",
+  "https://openalex.org/W2011796652",
+  "https://openalex.org/W2023381719",
+  "https://openalex.org/W2028876634",
+  "https://openalex.org/W2078903243",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2083170317",
+  "https://openalex.org/W2090627946",
+  "https://openalex.org/W2110695739",
+  "https://openalex.org/W2111512114",
+  "https://openalex.org/W2116526176",
+  "https://openalex.org/W2133424954",
+  "https://openalex.org/W2140949555",
+  "https://openalex.org/W2167279371",
+  "https://openalex.org/W2412523238",
+  "https://openalex.org/W2416996450",
+  "https://openalex.org/W2522964491",
+  "https://openalex.org/W2945132234",
+  "https://openalex.org/W3080213028",
+  "https://openalex.org/W4249678223"
+ ],
+ "related_works": [
+  "https://openalex.org/W2612816639",
+  "https://openalex.org/W4307639966",
+  "https://openalex.org/W3163235717",
+  "https://openalex.org/W4313431753",
+  "https://openalex.org/W3018195139",
+  "https://openalex.org/W3206233650",
+  "https://openalex.org/W3088199276",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3027397162",
+  "https://openalex.org/W4253323741"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "We": [
+   1,
+   40,
+   89,
+   120
+  ],
+  "present": [
+   2
+  ],
+  "a": [
+   3,
+   33,
+   42,
+   114,
+   233
+  ],
+  "fully": [
+   4
+  ],
+  "functional": [
+   5,
+   213
+  ],
+  "material": [
+   6
+  ],
+  "extrusion": [
+   7
+  ],
+  "printer": [
+   8,
+   14,
+   153
+  ],
+  "for": [
+   9
+  ],
+  "optically": [
+   10
+  ],
+  "transparent": [
+   11
+  ],
+  "glass.": [
+   12
+  ],
+  "The": [
+   13,
+   198
+  ],
+  "is": [
+   15
+  ],
+  "composed": [
+   16
+  ],
+  "of": [
+   17,
+   47,
+   104,
+   125,
+   157,
+   173,
+   184,
+   226
+  ],
+  "scalable": [
+   18
+  ],
+  "modular": [
+   19
+  ],
+  "elements": [
+   20
+  ],
+  "able": [
+   21
+  ],
+  "to": [
+   22,
+   29,
+   36,
+   77,
+   80,
+   113,
+   130,
+   208
+  ],
+  "operate": [
+   23
+  ],
+  "at": [
+   24,
+   223
+  ],
+  "the": [
+   25,
+   45,
+   81,
+   102,
+   108,
+   126,
+   155,
+   168,
+   181,
+   195,
+   224
+  ],
+  "high": [
+   26
+  ],
+  "temperatures": [
+   27
+  ],
+  "required": [
+   28
+  ],
+  "process": [
+   30,
+   43
+  ],
+  "glass": [
+   31,
+   63,
+   151,
+   174,
+   200
+  ],
+  "from": [
+   32
+  ],
+  "molten": [
+   34,
+   150
+  ],
+  "state": [
+   35
+  ],
+  "an": [
+   37
+  ],
+  "annealed": [
+   38
+  ],
+  "product.": [
+   39
+  ],
+  "demonstrate": [
+   41
+  ],
+  "enabling": [
+   44
+  ],
+  "construction": [
+   46
+  ],
+  "3D": [
+   48,
+   152
+  ],
+  "parts": [
+   49,
+   139,
+   158
+  ],
+  "as": [
+   50,
+   59,
+   99,
+   101
+  ],
+  "described": [
+   51,
+   202
+  ],
+  "by": [
+   52,
+   191
+  ],
+  "computer-aided": [
+   53
+  ],
+  "design": [
+   54,
+   116
+  ],
+  "models.": [
+   55
+  ],
+  "Processing": [
+   56
+  ],
+  "parameters": [
+   57
+  ],
+  "such": [
+   58
+  ],
+  "temperature,": [
+   60
+  ],
+  "which": [
+   61
+  ],
+  "control": [
+   62
+  ],
+  "viscosity,": [
+   64
+  ],
+  "and": [
+   65,
+   70,
+   86,
+   92,
+   96,
+   117,
+   135,
+   145,
+   166,
+   170,
+   212,
+   217,
+   230
+  ],
+  "flow": [
+   66
+  ],
+  "rate,": [
+   67
+  ],
+  "layer": [
+   68
+  ],
+  "height,": [
+   69
+  ],
+  "feed": [
+   71
+  ],
+  "rate": [
+   72
+  ],
+  "can": [
+   73,
+   204
+  ],
+  "thus": [
+   74,
+   205
+  ],
+  "be": [
+   75,
+   206
+  ],
+  "adjusted": [
+   76
+  ],
+  "tailor": [
+   78
+  ],
+  "printing": [
+   79
+  ],
+  "desired": [
+   82
+  ],
+  "component,": [
+   83
+  ],
+  "its": [
+   84,
+   87
+  ],
+  "shape,": [
+   85
+  ],
+  "properties.": [
+   88,
+   137
+  ],
+  "explored,": [
+   90
+  ],
+  "defined,": [
+   91
+  ],
+  "hard-coded": [
+   93
+  ],
+  "geometric": [
+   94
+  ],
+  "constraints": [
+   95
+  ],
+  "coiling": [
+   97
+  ],
+  "patterns": [
+   98,
+   188
+  ],
+  "well": [
+   100
+  ],
+  "integration": [
+   103
+  ],
+  "various": [
+   105
+  ],
+  "colors": [
+   106
+  ],
+  "into": [
+   107
+  ],
+  "current": [
+   109
+  ],
+  "controllable": [
+   110
+  ],
+  "process,": [
+   111
+  ],
+  "contributing": [
+   112
+  ],
+  "new": [
+   115
+  ],
+  "manufacturing": [
+   118
+  ],
+  "space.": [
+   119
+  ],
+  "report": [
+   121
+  ],
+  "on": [
+   122
+  ],
+  "performed": [
+   123
+  ],
+  "characterization": [
+   124
+  ],
+  "printed": [
+   127,
+   196
+  ],
+  "materials": [
+   128
+  ],
+  "executed": [
+   129
+  ],
+  "determine": [
+   131
+  ],
+  "their": [
+   132
+  ],
+  "morphological,": [
+   133
+  ],
+  "mechanical,": [
+   134
+  ],
+  "optical": [
+   136,
+   147,
+   182
+  ],
+  "Printed": [
+   138
+  ],
+  "demonstrated": [
+   140
+  ],
+  "strong": [
+   141
+  ],
+  "adhesion": [
+   142
+  ],
+  "between": [
+   143
+  ],
+  "layers": [
+   144
+  ],
+  "satisfying": [
+   146
+  ],
+  "clarity.": [
+   148
+  ],
+  "This": [
+   149,
+   220
+  ],
+  "demonstrates": [
+   154
+  ],
+  "production": [
+   156
+  ],
+  "that": [
+   159,
+   176
+  ],
+  "are": [
+   160,
+   177
+  ],
+  "highly": [
+   161,
+   234
+  ],
+  "repeatable,": [
+   162
+  ],
+  "enable": [
+   163
+  ],
+  "light": [
+   164,
+   193
+  ],
+  "transmission,": [
+   165
+  ],
+  "resemble": [
+   167
+  ],
+  "visual": [
+   169
+  ],
+  "mechanical": [
+   171
+  ],
+  "performance": [
+   172
+  ],
+  "constructs": [
+   175
+  ],
+  "conventionally": [
+   178
+  ],
+  "obtained.": [
+   179
+  ],
+  "Utilizing": [
+   180
+  ],
+  "nature": [
+   183
+  ],
+  "glass,": [
+   185
+  ],
+  "complex": [
+   186
+  ],
+  "caustic": [
+   187
+  ],
+  "were": [
+   189
+  ],
+  "created": [
+   190
+  ],
+  "projecting": [
+   192
+  ],
+  "through": [
+   194
+  ],
+  "objects.": [
+   197
+  ],
+  "3D-printed": [
+   199
+  ],
+  "objects": [
+   201
+  ],
+  "here": [
+   203
+  ],
+  "extended": [
+   207
+  ],
+  "implementations": [
+   209
+  ],
+  "across": [
+   210
+  ],
+  "scales": [
+   211
+  ],
+  "domains": [
+   214
+  ],
+  "including": [
+   215
+  ],
+  "product": [
+   216
+  ],
+  "architectural": [
+   218
+  ],
+  "design.": [
+   219
+  ],
+  "research": [
+   221
+  ],
+  "lies": [
+   222
+  ],
+  "intersection": [
+   225
+  ],
+  "design,": [
+   227
+  ],
+  "engineering,": [
+   228
+  ],
+  "science,": [
+   229
+  ],
+  "art,": [
+   231
+  ],
+  "representing": [
+   232
+  ],
+  "interdisciplinary": [
+   235
+  ],
+  "approach.": [
+   236
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 15
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 27
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 25
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 22
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 41
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 30
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 31
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 29
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 23
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 16
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

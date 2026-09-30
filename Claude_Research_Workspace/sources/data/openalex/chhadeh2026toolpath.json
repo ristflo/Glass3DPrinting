@@ -1,0 +1,979 @@
+{
+ "id": "https://openalex.org/W7148699727",
+ "doi": "https://doi.org/10.1038/s44334-026-00072-1",
+ "title": "The effect of toolpath design on the mechanical strength of additively manufactured glass components",
+ "display_name": "The effect of toolpath design on the mechanical strength of additively manufactured glass components",
+ "publication_year": 2026,
+ "publication_date": "2026-04-03",
+ "ids": {
+  "openalex": "https://openalex.org/W7148699727",
+  "doi": "https://doi.org/10.1038/s44334-026-00072-1"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1038/s44334-026-00072-1",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1038/s44334-026-00072-1",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S5407042850",
+   "display_name": "npj Advanced Manufacturing",
+   "issn_l": "3004-8621",
+   "issn": [
+    "3004-8621"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "npj Advanced Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://doi.org/10.1038/s44334-026-00072-1",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5022926194",
+    "display_name": "Philipp Amir Chhadeh",
+    "orcid": "https://orcid.org/0000-0002-4460-7635",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4460-7635"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Philipp Amir Chhadeh",
+   "raw_affiliation_strings": [
+    "Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5119494018",
+    "display_name": "Emanuel Nowak",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Emanuel Nowak",
+   "raw_affiliation_strings": [
+    "Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5116731258",
+    "display_name": "Dylan Vlahopoulos",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I149704539",
+     "display_name": "Deakin University",
+     "ror": "https://ror.org/02czsnj07",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Dylan Vlahopoulos",
+   "raw_affiliation_strings": [
+    "Deakin University, Faculty of Science, Engineering and Built Environment, Melbourne, VIC, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Deakin University, Faculty of Science, Engineering and Built Environment, Melbourne, VIC, Australia",
+     "institution_ids": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5013542522",
+    "display_name": "Matthias Seel",
+    "orcid": "https://orcid.org/0000-0001-9612-9287",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9612-9287"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I31512782",
+     "display_name": "Technische Universit\u00e4t Darmstadt",
+     "ror": "https://ror.org/05n911h24",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Matthias Seel",
+   "raw_affiliation_strings": [
+    "Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany",
+     "institution_ids": [
+      "https://openalex.org/I31512782"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5065706557",
+    "display_name": "N. Birbilis",
+    "orcid": "https://orcid.org/0000-0002-7910-7470",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7910-7470"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I149704539",
+     "display_name": "Deakin University",
+     "ror": "https://ror.org/02czsnj07",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Nick Birbilis",
+   "raw_affiliation_strings": [
+    "Deakin University, Faculty of Science, Engineering and Built Environment, Melbourne, VIC, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Deakin University, Faculty of Science, Engineering and Built Environment, Melbourne, VIC, Australia",
+     "institution_ids": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5065706557",
+  "https://openalex.org/A5116731258"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I149704539"
+ ],
+ "apc_list": {
+  "value": 2490,
+  "currency": "USD",
+  "value_usd": 2490
+ },
+ "apc_paid": {
+  "value": 2490,
+  "currency": "USD",
+  "value_usd": 2490
+ },
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": {
+  "value": 0.20634677,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": "3",
+  "issue": "1",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.28690001368522644,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.28690001368522644,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.25540000200271606,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10188",
+   "display_name": "Advanced machining processes and optimization",
+   "score": 0.048900000751018524,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/mechanical-strength",
+   "display_name": "Mechanical strength",
+   "score": 0.48260000348091125
+  },
+  {
+   "id": "https://openalex.org/keywords/deformation",
+   "display_name": "Deformation (meteorology)",
+   "score": 0.4108999967575073
+  },
+  {
+   "id": "https://openalex.org/keywords/component",
+   "display_name": "Component (thermodynamics)",
+   "score": 0.31380000710487366
+  },
+  {
+   "id": "https://openalex.org/keywords/machining",
+   "display_name": "Machining",
+   "score": 0.2939999997615814
+  },
+  {
+   "id": "https://openalex.org/keywords/compression",
+   "display_name": "Compression (physics)",
+   "score": 0.28540000319480896
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5486000180244446
+  },
+  {
+   "id": "https://openalex.org/C2988076202",
+   "wikidata": "https://www.wikidata.org/wiki/Q240553",
+   "display_name": "Mechanical strength",
+   "level": 2,
+   "score": 0.48260000348091125
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.4163999855518341
+  },
+  {
+   "id": "https://openalex.org/C204366326",
+   "wikidata": "https://www.wikidata.org/wiki/Q3027650",
+   "display_name": "Deformation (meteorology)",
+   "level": 2,
+   "score": 0.4108999967575073
+  },
+  {
+   "id": "https://openalex.org/C168167062",
+   "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+   "display_name": "Component (thermodynamics)",
+   "level": 2,
+   "score": 0.31380000710487366
+  },
+  {
+   "id": "https://openalex.org/C199639397",
+   "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+   "display_name": "Engineering drawing",
+   "level": 1,
+   "score": 0.3084999918937683
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.29649999737739563
+  },
+  {
+   "id": "https://openalex.org/C523214423",
+   "wikidata": "https://www.wikidata.org/wiki/Q192047",
+   "display_name": "Machining",
+   "level": 2,
+   "score": 0.2939999997615814
+  },
+  {
+   "id": "https://openalex.org/C180016635",
+   "wikidata": "https://www.wikidata.org/wiki/Q2712821",
+   "display_name": "Compression (physics)",
+   "level": 2,
+   "score": 0.28540000319480896
+  },
+  {
+   "id": "https://openalex.org/C112950240",
+   "wikidata": "https://www.wikidata.org/wiki/Q76005",
+   "display_name": "Ultimate tensile strength",
+   "level": 2,
+   "score": 0.2815000116825104
+  },
+  {
+   "id": "https://openalex.org/C18762648",
+   "wikidata": "https://www.wikidata.org/wiki/Q42213",
+   "display_name": "Work (physics)",
+   "level": 2,
+   "score": 0.2689000070095062
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1038/s44334-026-00072-1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1038/s44334-026-00072-1",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S5407042850",
+    "display_name": "npj Advanced Manufacturing",
+    "issn_l": "3004-8621",
+    "issn": [
+     "3004-8621"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "npj Advanced Manufacturing",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:tubiblio.ulb.tu-darmstadt.de:159857",
+   "is_oa": false,
+   "landing_page_url": "http://tubiblio.ulb.tu-darmstadt.de/view/person/Chhadeh=3APhilipp_Amir=3A=3A.html>",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4377196390",
+    "display_name": "TUbilio (Technical University of Darmstadt)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I31512782",
+    "host_organization_name": "Technische Universit\u00e4t Darmstadt",
+    "host_organization_lineage": [
+     "https://openalex.org/I31512782"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Artikel"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1038/s44334-026-00072-1",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1038/s44334-026-00072-1",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S5407042850",
+   "display_name": "npj Advanced Manufacturing",
+   "issn_l": "3004-8621",
+   "issn": [
+    "3004-8621"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "npj Advanced Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 15,
+ "referenced_works": [
+  "https://openalex.org/W1979191094",
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2502503019",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2605054679",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W4214744287",
+  "https://openalex.org/W4239748608",
+  "https://openalex.org/W4320163169",
+  "https://openalex.org/W4386915769",
+  "https://openalex.org/W4407237733"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "To": [
+   0
+  ],
+  "date,": [
+   1
+  ],
+  "there": [
+   2
+  ],
+  "has": [
+   3
+  ],
+  "been": [
+   4
+  ],
+  "a": [
+   5,
+   59
+  ],
+  "paucity": [
+   6
+  ],
+  "of": [
+   7,
+   12,
+   39,
+   54,
+   78,
+   125
+  ],
+  "results": [
+   8,
+   135
+  ],
+  "regarding": [
+   9
+  ],
+  "mechanical": [
+   10,
+   52,
+   132
+  ],
+  "properties": [
+   11
+  ],
+  "additively": [
+   13
+  ],
+  "manufactured": [
+   14
+  ],
+  "(AM)": [
+   15
+  ],
+  "glass.": [
+   16
+  ],
+  "The": [
+   17,
+   66,
+   134
+  ],
+  "findings": [
+   18
+  ],
+  "herein": [
+   19
+  ],
+  "provide": [
+   20
+  ],
+  "valuable": [
+   21
+  ],
+  "insights": [
+   22
+  ],
+  "into": [
+   23
+  ],
+  "optimising": [
+   24
+  ],
+  "AM": [
+   25,
+   97,
+   115,
+   129
+  ],
+  "processes": [
+   26
+  ],
+  "for": [
+   27,
+   113
+  ],
+  "glass,": [
+   28,
+   80,
+   86
+  ],
+  "aiming": [
+   29
+  ],
+  "to": [
+   30,
+   83,
+   90
+  ],
+  "enhance": [
+   31
+  ],
+  "the": [
+   32,
+   51,
+   71,
+   91,
+   96,
+   114,
+   123
+  ],
+  "reliability,": [
+   33
+  ],
+  "structural": [
+   34,
+   76
+  ],
+  "performance,": [
+   35
+  ],
+  "and": [
+   36,
+   45,
+   74,
+   128
+  ],
+  "practical": [
+   37
+  ],
+  "application": [
+   38
+  ],
+  "glass": [
+   40,
+   55,
+   100
+  ],
+  "components": [
+   41,
+   56
+  ],
+  "in": [
+   42,
+   81
+  ],
+  "both": [
+   43
+  ],
+  "engineering": [
+   44
+  ],
+  "architectural": [
+   46
+  ],
+  "contexts.": [
+   47
+  ],
+  "This": [
+   48
+  ],
+  "study": [
+   49
+  ],
+  "investigates": [
+   50
+  ],
+  "behaviour": [
+   53
+  ],
+  "fabricated": [
+   57
+  ],
+  "using": [
+   58
+  ],
+  "Fused": [
+   60
+  ],
+  "Deposition": [
+   61
+  ],
+  "Modelling": [
+   62
+  ],
+  "(FDM)": [
+   63
+  ],
+  "type": [
+   64
+  ],
+  "technique.": [
+   65
+  ],
+  "research": [
+   67
+  ],
+  "focuses": [
+   68
+  ],
+  "on": [
+   69,
+   131
+  ],
+  "understanding": [
+   70
+  ],
+  "bending": [
+   72
+  ],
+  "strength": [
+   73,
+   141
+  ],
+  "overall": [
+   75
+  ],
+  "integrity": [
+   77
+  ],
+  "FDM-manufactured": [
+   79
+  ],
+  "comparison": [
+   82
+  ],
+  "conventionally": [
+   84
+  ],
+  "prepared": [
+   85
+  ],
+  "with": [
+   87
+  ],
+  "particular": [
+   88
+  ],
+  "attention": [
+   89
+  ],
+  "layer-to-layer": [
+   92
+  ],
+  "bonding": [
+   93
+  ],
+  "imparted": [
+   94
+  ],
+  "by": [
+   95,
+   142
+  ],
+  "process.": [
+   98,
+   116
+  ],
+  "Soda-lime": [
+   99
+  ],
+  "rods,": [
+   101
+  ],
+  "produced": [
+   102
+  ],
+  "via": [
+   103
+  ],
+  "an": [
+   104
+  ],
+  "automated": [
+   105
+  ],
+  "pulling": [
+   106
+  ],
+  "method,": [
+   107
+  ],
+  "were": [
+   108
+  ],
+  "used": [
+   109
+  ],
+  "as": [
+   110
+  ],
+  "filament": [
+   111
+  ],
+  "feedstock": [
+   112
+  ],
+  "Mechanical": [
+   117
+  ],
+  "testing,": [
+   118
+  ],
+  "including": [
+   119
+  ],
+  "four-point": [
+   120
+  ],
+  "bending,": [
+   121
+  ],
+  "highlighted": [
+   122
+  ],
+  "influence": [
+   124
+  ],
+  "layer": [
+   126
+  ],
+  "orientation": [
+   127
+  ],
+  "toolpath": [
+   130,
+   137
+  ],
+  "performance.": [
+   133
+  ],
+  "show": [
+   136
+  ],
+  "optimisation": [
+   138
+  ],
+  "can": [
+   139
+  ],
+  "improve": [
+   140
+  ],
+  "controlling": [
+   143
+  ],
+  "heat": [
+   144
+  ],
+  "retention": [
+   145
+  ],
+  "during": [
+   146
+  ],
+  "deposition.": [
+   147
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2026-04-04T00:00:00"
+}

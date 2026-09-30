@@ -1,0 +1,1324 @@
+{
+ "id": "https://openalex.org/W7128587222",
+ "doi": "https://doi.org/10.1007/s40964-026-01543-9",
+ "title": "Multi-material glass additive manufacturing: a review of materials, techniques, and integration challenges",
+ "display_name": "Multi-material glass additive manufacturing: a review of materials, techniques, and integration challenges",
+ "publication_year": 2026,
+ "publication_date": "2026-02-11",
+ "ids": {
+  "openalex": "https://openalex.org/W7128587222",
+  "doi": "https://doi.org/10.1007/s40964-026-01543-9"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s40964-026-01543-9",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s40964-026-01543-9",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40964-026-01543-9.pdf",
+  "source": {
+   "id": "https://openalex.org/S4210206835",
+   "display_name": "Progress in Additive Manufacturing",
+   "issn_l": "2363-9512",
+   "issn": [
+    "2363-9512",
+    "2363-9520"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Progress in Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://link.springer.com/content/pdf/10.1007/s40964-026-01543-9.pdf",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5046343373",
+    "display_name": "Bahar Gharehpapagh",
+    "orcid": "https://orcid.org/0000-0002-3771-4344",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3771-4344"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I61893789",
+     "display_name": "TU Bergakademie Freiberg",
+     "ror": "https://ror.org/031vc2293",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Bahar Gharehpapagh",
+   "raw_affiliation_strings": [
+    "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5083562744",
+    "display_name": "Rezo Aliyev",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I61893789",
+     "display_name": "TU Bergakademie Freiberg",
+     "ror": "https://ror.org/031vc2293",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Rezo Aliyev",
+   "raw_affiliation_strings": [
+    "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5063538564",
+    "display_name": "Neel Kamal Gupta",
+    "orcid": "https://orcid.org/0000-0002-7869-4386",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7869-4386"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I61893789",
+     "display_name": "TU Bergakademie Freiberg",
+     "ror": "https://ror.org/031vc2293",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Neel Kamal Gupta",
+   "raw_affiliation_strings": [
+    "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5096100103",
+    "display_name": "Magdalena Milek",
+    "orcid": "https://orcid.org/0009-0004-9366-8874",
+    "observed_orcids": [
+     "https://orcid.org/0009-0004-9366-8874"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I61893789",
+     "display_name": "TU Bergakademie Freiberg",
+     "ror": "https://ror.org/031vc2293",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Magdalena Milek",
+   "raw_affiliation_strings": [
+    "Institute of Glass Science and Technology, TU Bergakademie Freiberg, Freiberg, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Glass Science and Technology, TU Bergakademie Freiberg, Freiberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5138858938",
+    "display_name": "Henning Zeidler",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I61893789",
+     "display_name": "TU Bergakademie Freiberg",
+     "ror": "https://ror.org/031vc2293",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Henning Zeidler",
+   "raw_affiliation_strings": [
+    "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Machine Elements, Engineering Design and Manufacturing, TU Bergakademie Freiberg, Freiberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I61893789"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5046343373",
+  "https://openalex.org/A5063538564"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I61893789"
+ ],
+ "apc_list": {
+  "value": 3590,
+  "currency": "USD",
+  "value_usd": 3590
+ },
+ "apc_paid": {
+  "value": 3590,
+  "currency": "USD",
+  "value_usd": 3590
+ },
+ "fwci": 6.8177,
+ "has_fulltext": true,
+ "cited_by_count": 3,
+ "citation_normalized_percentile": {
+  "value": 0.96053172,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 97,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "11",
+  "issue": "4",
+  "first_page": "3655",
+  "last_page": "3675"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.6633999943733215,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.6633999943733215,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.021700000390410423,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11523",
+   "display_name": "Nanomaterials and Printing Technologies",
+   "score": 0.013899999670684338,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/compatibility",
+   "display_name": "Compatibility (geochemistry)",
+   "score": 0.6358000040054321
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.5241000056266785
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-industry",
+   "display_name": "Glass industry",
+   "score": 0.461899995803833
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-melting",
+   "display_name": "Glass melting",
+   "score": 0.44449999928474426
+  },
+  {
+   "id": "https://openalex.org/keywords/key",
+   "display_name": "Key (lock)",
+   "score": 0.4372999966144562
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-recycling",
+   "display_name": "Glass recycling",
+   "score": 0.3944000005722046
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.33899998664855957
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2778648169",
+   "wikidata": "https://www.wikidata.org/wiki/Q967768",
+   "display_name": "Compatibility (geochemistry)",
+   "level": 2,
+   "score": 0.6358000040054321
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.5241000056266785
+  },
+  {
+   "id": "https://openalex.org/C2987365569",
+   "wikidata": "https://www.wikidata.org/wiki/Q785222",
+   "display_name": "Glass industry",
+   "level": 2,
+   "score": 0.461899995803833
+  },
+  {
+   "id": "https://openalex.org/C2994430024",
+   "wikidata": "https://www.wikidata.org/wiki/Q5567118",
+   "display_name": "Glass melting",
+   "level": 2,
+   "score": 0.44449999928474426
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.4424999952316284
+  },
+  {
+   "id": "https://openalex.org/C26517878",
+   "wikidata": "https://www.wikidata.org/wiki/Q228039",
+   "display_name": "Key (lock)",
+   "level": 2,
+   "score": 0.4372999966144562
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.43380001187324524
+  },
+  {
+   "id": "https://openalex.org/C185903656",
+   "wikidata": "https://www.wikidata.org/wiki/Q1416361",
+   "display_name": "Glass recycling",
+   "level": 2,
+   "score": 0.3944000005722046
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.3610999882221222
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.33899998664855957
+  },
+  {
+   "id": "https://openalex.org/C2776600559",
+   "wikidata": "https://www.wikidata.org/wiki/Q16966036",
+   "display_name": "Material efficiency",
+   "level": 2,
+   "score": 0.329800009727478
+  },
+  {
+   "id": "https://openalex.org/C18762648",
+   "wikidata": "https://www.wikidata.org/wiki/Q42213",
+   "display_name": "Work (physics)",
+   "level": 2,
+   "score": 0.3208000063896179
+  },
+  {
+   "id": "https://openalex.org/C136478896",
+   "wikidata": "https://www.wikidata.org/wiki/Q898288",
+   "display_name": "Brittleness",
+   "level": 2,
+   "score": 0.31360000371932983
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.3127000033855438
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.31200000643730164
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.28369998931884766
+  },
+  {
+   "id": "https://openalex.org/C19527686",
+   "wikidata": "https://www.wikidata.org/wiki/Q1665453",
+   "display_name": "System integration",
+   "level": 2,
+   "score": 0.2815999984741211
+  },
+  {
+   "id": "https://openalex.org/C2984142464",
+   "wikidata": "https://www.wikidata.org/wiki/Q11469",
+   "display_name": "Optical glass",
+   "level": 2,
+   "score": 0.27219998836517334
+  },
+  {
+   "id": "https://openalex.org/C96170274",
+   "wikidata": "https://www.wikidata.org/wiki/Q1426151",
+   "display_name": "Flat glass",
+   "level": 2,
+   "score": 0.2637999951839447
+  },
+  {
+   "id": "https://openalex.org/C168167062",
+   "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+   "display_name": "Component (thermodynamics)",
+   "level": 2,
+   "score": 0.25529998540878296
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/s40964-026-01543-9",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s40964-026-01543-9",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40964-026-01543-9.pdf",
+   "source": {
+    "id": "https://openalex.org/S4210206835",
+    "display_name": "Progress in Additive Manufacturing",
+    "issn_l": "2363-9512",
+    "issn": [
+     "2363-9512",
+     "2363-9520"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Progress in Additive Manufacturing",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1007/s40964-026-01543-9",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s40964-026-01543-9",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40964-026-01543-9.pdf",
+  "source": {
+   "id": "https://openalex.org/S4210206835",
+   "display_name": "Progress in Additive Manufacturing",
+   "issn_l": "2363-9512",
+   "issn": [
+    "2363-9512",
+    "2363-9520"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Progress in Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "score": 0.5823383331298828,
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320331475",
+   "display_name": "Technische Universit\u00e4t Bergakademie Freiberg",
+   "ror": "https://ror.org/031vc2293"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W7128587222.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W7128587222.grobid-xml"
+ },
+ "referenced_works_count": 90,
+ "referenced_works": [
+  "https://openalex.org/W107317341",
+  "https://openalex.org/W1985036722",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2045572311",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2047883274",
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2066302781",
+  "https://openalex.org/W2164767021",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2253787596",
+  "https://openalex.org/W2398856320",
+  "https://openalex.org/W2605054679",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2805454887",
+  "https://openalex.org/W2809416073",
+  "https://openalex.org/W2883016740",
+  "https://openalex.org/W2883339251",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2898266815",
+  "https://openalex.org/W2899604408",
+  "https://openalex.org/W2900589997",
+  "https://openalex.org/W2924373750",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W3011779622",
+  "https://openalex.org/W3027843182",
+  "https://openalex.org/W3033785573",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3090120030",
+  "https://openalex.org/W3108266633",
+  "https://openalex.org/W3117636712",
+  "https://openalex.org/W3126949540",
+  "https://openalex.org/W3129323667",
+  "https://openalex.org/W3177292372",
+  "https://openalex.org/W3192608384",
+  "https://openalex.org/W3195076897",
+  "https://openalex.org/W3202058913",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W3206670844",
+  "https://openalex.org/W3213000976",
+  "https://openalex.org/W4213189404",
+  "https://openalex.org/W4214744287",
+  "https://openalex.org/W4214828589",
+  "https://openalex.org/W4220891085",
+  "https://openalex.org/W4226466684",
+  "https://openalex.org/W4283167946",
+  "https://openalex.org/W4285500400",
+  "https://openalex.org/W4286629043",
+  "https://openalex.org/W4293221272",
+  "https://openalex.org/W4296071479",
+  "https://openalex.org/W4312223356",
+  "https://openalex.org/W4320487118",
+  "https://openalex.org/W4361275587",
+  "https://openalex.org/W4364380583",
+  "https://openalex.org/W4366498112",
+  "https://openalex.org/W4382047099",
+  "https://openalex.org/W4385244497",
+  "https://openalex.org/W4386242886",
+  "https://openalex.org/W4387353076",
+  "https://openalex.org/W4388913385",
+  "https://openalex.org/W4388996518",
+  "https://openalex.org/W4390146512",
+  "https://openalex.org/W4391213021",
+  "https://openalex.org/W4391995290",
+  "https://openalex.org/W4392048880",
+  "https://openalex.org/W4392357362",
+  "https://openalex.org/W4392717480",
+  "https://openalex.org/W4394693265",
+  "https://openalex.org/W4396520504",
+  "https://openalex.org/W4399350559",
+  "https://openalex.org/W4400020165",
+  "https://openalex.org/W4400582725",
+  "https://openalex.org/W4402191562",
+  "https://openalex.org/W4402605404",
+  "https://openalex.org/W4403301819",
+  "https://openalex.org/W4403316493",
+  "https://openalex.org/W4407096143",
+  "https://openalex.org/W4407237733",
+  "https://openalex.org/W4407742679",
+  "https://openalex.org/W4408155949",
+  "https://openalex.org/W4408694054",
+  "https://openalex.org/W4408893591",
+  "https://openalex.org/W4409945505",
+  "https://openalex.org/W4411438432",
+  "https://openalex.org/W4414699223"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "Glass": [
+   1
+  ],
+  "offers": [
+   2
+  ],
+  "unique": [
+   3
+  ],
+  "advantages": [
+   4
+  ],
+  "such": [
+   5,
+   104
+  ],
+  "as": [
+   6,
+   79,
+   94,
+   96,
+   105
+  ],
+  "high": [
+   7,
+   27
+  ],
+  "optical": [
+   8
+  ],
+  "transparency,": [
+   9
+  ],
+  "thermal": [
+   10
+  ],
+  "stability,": [
+   11
+  ],
+  "and": [
+   12,
+   22,
+   32,
+   61,
+   92,
+   139,
+   154,
+   159,
+   163,
+   178,
+   216,
+   228
+  ],
+  "chemical": [
+   13,
+   206
+  ],
+  "resistance,": [
+   14
+  ],
+  "making": [
+   15
+  ],
+  "it": [
+   16
+  ],
+  "indispensable": [
+   17
+  ],
+  "in": [
+   18
+  ],
+  "optics,": [
+   19
+  ],
+  "microelectronics,": [
+   20
+  ],
+  "sensing,": [
+   21
+  ],
+  "biomedical": [
+   23
+  ],
+  "applications.": [
+   24
+  ],
+  "However,": [
+   25
+  ],
+  "its": [
+   26
+  ],
+  "melting": [
+   28
+  ],
+  "point,": [
+   29
+  ],
+  "brittle": [
+   30
+  ],
+  "nature,": [
+   31
+  ],
+  "incompatibility": [
+   33
+  ],
+  "with": [
+   34,
+   66,
+   101,
+   188
+  ],
+  "traditional": [
+   35
+  ],
+  "manufacturing": [
+   36,
+   43,
+   75
+  ],
+  "methods": [
+   37
+  ],
+  "present": [
+   38
+  ],
+  "significant": [
+   39
+  ],
+  "fabrication": [
+   40,
+   55
+  ],
+  "challenges.": [
+   41
+  ],
+  "Additive": [
+   42
+  ],
+  "(AM)": [
+   44
+  ],
+  "introduces": [
+   45
+  ],
+  "new": [
+   46
+  ],
+  "possibilities": [
+   47
+  ],
+  "for": [
+   48,
+   147,
+   156,
+   186,
+   196
+  ],
+  "the": [
+   49,
+   54,
+   62,
+   85,
+   97,
+   125,
+   171,
+   179,
+   226
+  ],
+  "glass": [
+   50,
+   65,
+   73,
+   89,
+   100,
+   149,
+   183
+  ],
+  "industry": [
+   51
+  ],
+  "by": [
+   52
+  ],
+  "enabling": [
+   53,
+   83,
+   197
+  ],
+  "of": [
+   56,
+   64,
+   88,
+   99,
+   124,
+   128,
+   173,
+   181,
+   231
+  ],
+  "customised,": [
+   57
+  ],
+  "complex": [
+   58
+  ],
+  "3D": [
+   59
+  ],
+  "structures": [
+   60
+  ],
+  "integration": [
+   63
+  ],
+  "other": [
+   67,
+   189
+  ],
+  "compatible": [
+   68
+  ],
+  "materials.": [
+   69,
+   190
+  ],
+  "In": [
+   70
+  ],
+  "particular,": [
+   71
+  ],
+  "multi-material": [
+   72,
+   148
+  ],
+  "additive": [
+   74
+  ],
+  "(MMGAM)": [
+   76
+  ],
+  "has": [
+   77
+  ],
+  "emerged": [
+   78
+  ],
+  "a": [
+   80,
+   111,
+   121,
+   209
+  ],
+  "promising": [
+   81
+  ],
+  "frontier,": [
+   82
+  ],
+  "both": [
+   84
+  ],
+  "spatial": [
+   86
+  ],
+  "tuning": [
+   87
+  ],
+  "composition,": [
+   90
+  ],
+  "dopants,": [
+   91
+  ],
+  "functionalities,": [
+   93
+  ],
+  "well": [
+   95
+  ],
+  "co-fabrication": [
+   98
+  ],
+  "dissimilar": [
+   102
+  ],
+  "materials,": [
+   103
+  ],
+  "polymers,": [
+   106
+  ],
+  "metals,": [
+   107
+  ],
+  "or": [
+   108,
+   205
+  ],
+  "ceramics,": [
+   109
+  ],
+  "within": [
+   110,
+   208
+  ],
+  "single": [
+   112,
+   210
+  ],
+  "component": [
+   113
+  ],
+  "using": [
+   114
+  ],
+  "integrated": [
+   115,
+   199
+  ],
+  "AM": [
+   116,
+   144
+  ],
+  "platforms.": [
+   117
+  ],
+  "This": [
+   118
+  ],
+  "paper": [
+   119
+  ],
+  "provides": [
+   120
+  ],
+  "comprehensive": [
+   122
+  ],
+  "overview": [
+   123
+  ],
+  "current": [
+   126,
+   214
+  ],
+  "state": [
+   127
+  ],
+  "MMGAM,": [
+   129
+  ],
+  "structured": [
+   130
+  ],
+  "around": [
+   131
+  ],
+  "four": [
+   132
+  ],
+  "key": [
+   133,
+   136,
+   218
+  ],
+  "themes:": [
+   134
+  ],
+  "(i)": [
+   135
+  ],
+  "material": [
+   137,
+   152,
+   176
+  ],
+  "properties": [
+   138
+  ],
+  "interfacial": [
+   140,
+   174
+  ],
+  "compatibility": [
+   141
+  ],
+  "considerations,": [
+   142
+  ],
+  "(ii)": [
+   143
+  ],
+  "techniques": [
+   145
+  ],
+  "adapted": [
+   146
+  ],
+  "systems,": [
+   150
+  ],
+  "(iii)": [
+   151
+  ],
+  "combinations": [
+   153
+  ],
+  "strategies": [
+   155,
+   195
+  ],
+  "functional": [
+   157
+  ],
+  "integration,": [
+   158
+  ],
+  "(iv)": [
+   160
+  ],
+  "future": [
+   161
+  ],
+  "challenges": [
+   162,
+   172
+  ],
+  "research": [
+   164,
+   219
+  ],
+  "directions.": [
+   165
+  ],
+  "Particular": [
+   166
+  ],
+  "emphasis": [
+   167
+  ],
+  "is": [
+   168
+  ],
+  "placed": [
+   169
+  ],
+  "on": [
+   170
+  ],
+  "bonding,": [
+   175
+  ],
+  "compatibility,": [
+   177
+  ],
+  "formulation": [
+   180
+  ],
+  "printable": [
+   182
+  ],
+  "systems": [
+   184
+  ],
+  "suitable": [
+   185
+  ],
+  "co-processing": [
+   187
+  ],
+  "The": [
+   191
+  ],
+  "review": [
+   192
+  ],
+  "explores": [
+   193
+  ],
+  "recent": [
+   194
+  ],
+  "multifunctional,": [
+   198
+  ],
+  "architectures": [
+   200
+  ],
+  "that": [
+   201
+  ],
+  "combine": [
+   202
+  ],
+  "optical,": [
+   203
+  ],
+  "structural,": [
+   204
+  ],
+  "functionalities": [
+   207
+  ],
+  "component.": [
+   211
+  ],
+  "By": [
+   212
+  ],
+  "synthesising": [
+   213
+  ],
+  "advances": [
+   215
+  ],
+  "outlining": [
+   217
+  ],
+  "gaps,": [
+   220
+  ],
+  "this": [
+   221
+  ],
+  "work": [
+   222
+  ],
+  "aims": [
+   223
+  ],
+  "to": [
+   224
+  ],
+  "accelerate": [
+   225
+  ],
+  "development": [
+   227
+  ],
+  "broader": [
+   229
+  ],
+  "adoption": [
+   230
+  ],
+  "MMGAM": [
+   232
+  ],
+  "technologies.": [
+   233
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2026-02-11T00:00:00"
+}

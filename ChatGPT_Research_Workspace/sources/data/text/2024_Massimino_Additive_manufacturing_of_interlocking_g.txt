@@ -1,0 +1,1876 @@
+Glass Struct. Eng. (2024) 9:397–417
+https://doi.org/10.1007/s40940-024-00279-8
+RESEARCH PAPER
+Additive manufacturing of interlocking glass masonry units
+Daniel Massimino
+· Ethan Townsend
+·
+Charlotte Folinus
+· Michael Stern
+·
+Kaitlyn Becker
+Received: 2 April 2024 / Accepted: 14 August 2024 / Published online: 16 September 2024
+© The Author(s) 2024
+Abstract
+In comparison to traditional glass casting,
+glass additive manufacturing (AM) presents an oppor-
+tunity to increase design ﬂexibility and reduce tool-
+ing costs for the production of highly variable geome-
+tries. While the latter has been extensively explored
+for masonry units, there is minimal research on the for-
+mer for its viability to produce structural building com-
+ponents. This paper encompasses design, manufactur-
+ing, and experimental testing to assess the feasibility
+of using glass AM to produce interlocking masonry
+units for the construction industry. The glass 3D printer
+employed in this study is capable of printing a maxi-
+mum volume of 32.5 × 32.5 × 38cm–suitable for pro-
+ducing full-size masonry units. As part of this work,
+Supplementary Information
+The online version contains
+supplementary material available at https://doi.org/10.1007/
+s40940-024-00279-8.
+D. Massimino (B) · C. Folinus · K. Becker
+Mechanical Engineering, Massachusetts Institude of
+Technology, 32 Vassar Street, Cambridge, MA 02143, USA
+e-mail: dmassi@mit.edu
+C. Folinus
+e-mail: cfolinus@mit.edu
+K. Becker
+e-mail: kait@mit.edu
+E. Townsend · M. Stern
+Evenline Inc., 1237 E. Main Street, Rochester, NY 14609, USA
+e-mail: ethan@evenline.co
+M. Stern
+e-mail: michael@evenline.co
+we discuss how to adapt design guidelines for glass
+AM to produce interlocking units. To evaluate fabrica-
+tion ease and structural performance, three fabrication
+methods, Fully Hollow, Print-Cast, and Fully Printed,
+are compared. To compare the accuracy, repeatability,
+and structural capacity of each masonry unit, geometric
+analysis, surface roughness, and mechanical testing is
+conducted. Results varied by fabrication method, with
+average strength ranging from 3.64−42.3 MPa for ini-
+tial fracture and 64.0–118 MPa for ultimate strength.
+Accuracy in print dimensions was less than 1mm with
+a standard deviation of 0.14–1.6 mm. Results demon-
+strated that Fully Hollow masonry units provide a more
+immediate path to implementation, while Fully Printed
+units have the potential to provide an entirely glass,
+transparent, and circular building component fabrica-
+tion method.
+Keywords Additive manufacturing · Glass structures ·
+Masonry · Interlocking geometry
+1 Introduction
+As of 2018, the construction industry constituted 39%
+of the world’s carbon equivalent greenhouse emissions
+(IEA 2018). As operational efﬁciencies of building
+units have improved, attention is increasingly focused
+on reducing the embodied carbon in the construction
+industry as a way to improve sustainability. One effort
+to reduce embodied carbon is the development and
+123
+
+
+398
+D. Massimino et al.
+implementation of circular building elements, compo-
+nents that can be disassembled and reused at the end of
+a building’s life (Fang et al. 2023). Another strategy is
+applying advanced manufacturing techniques, such as
+additive manufacturing (AM), to create more mass- and
+material-efﬁcient structures that decrease overall waste
+and emissions (Fang et al. 2023). Glass has been identi-
+ﬁed as a construction material with favorable reclaima-
+bility, recyclability, and high strength characteristics
+for a circular building material (Bristogianni et al.
+2019). Its implementation with AM for the built envi-
+ronment remains relatively under-researched (Tessman
+et al. 2022).
+AM presents an opportunity to create highly cus-
+tomized glass objects with far less tooling or mold
+materials (Fang et al. 2023). Objects designed without
+the constraints of traditional manufacturing techniques
+can be more mass-efﬁcient, optimized for structural
+performance, and capable of creating new aesthetic
+opportunities. AM has been investigated for its poten-
+tial in architectural applications with materials such as
+ceramics, metals, and concrete (Tessman et al. 2022).
+Our research investigates the possibility of implement-
+ing glass AM as a viable fabrication method for cre-
+ating building components, speciﬁcally interlocking
+masonry units. In this introduction and background,
+we will broadly discuss glass building components and
+will narrow the focus of this paper to producing inter-
+locking masonry units with glass AM.
+Designing glass AM building components required
+deﬁning boundaries and constraints to the process. Pro-
+ducing building components that are wholly transpar-
+ent, self-supporting, and capable of enabling circu-
+lar construction were the self-imposed constraints of
+this study. Aesthetics motivated transparency by elim-
+inating any opaque hardware within the building sys-
+tem. Transparent, self-supported printed units present a
+new development in the ﬁeld. Previous work by MIT’s
+Mediated Matter group produced glass AM structures
+that relied on interior, opaque retaining components
+to provide stability (Inamura et al. 2018a). Creating
+a circular construction component required replacing
+the adhesives currently used in glass construction to
+avoid glass contamination and support deconstruction
+for reuse. We studied existing strategies to achieve cir-
+cularity in our designs.
+UtilizingaglassAMtechnologyalsorequiredadapt-
+ing existing cast or pressed glass designs to the con-
+straints of the glass AM. The printer utilized in this
+paper, Glass 3D Printer 3 (G3DP3), is the third iter-
+ation of a molten glass printer currently owned and
+operated by Evenline Inc. and shown in Fig.1. G3DP3
+is capable of printing objects up to 32.5 × 32.5 ×
+38cm in size. This constraint limits the size of a sin-
+gle building component, and motivates our decision
+to design and produce masonry units that can aggre-
+gate into larger structures. Cast and hollow, pressed
+glass blocks are the major options for glass masonry
+units in today’s architecture. These traditional forming
+methods require disposable molds for complex shapes
+or expensive, and reusable molds for simpler shapes
+(Oikonomopoulou et al. 2020). Pressed glass addition-
+ally relies on reusable molds made of materials that
+are robust enough to withstand high forces from the
+hydraulicpress,andthehighcostofmoldslimitsdesign
+variation (Tooley 1984).
+After
+considering
+all
+of
+our
+requirements—
+transparent, self-supporting, and circular— glass inter-
+locking masonry units presented one path to satisfy our
+production and self-imposed constraints. Interlocking
+units would allow us to remove adhesives and instead
+relyonglassfeaturestoresistlateralloads.Manufactur-
+ing interlocking units with glass AM though required
+producing features that interface with each other, rais-
+ingquestionsabouthowthesenewmethodsmayimpact
+the structural integrity of individual units. This paper
+investigates methods for the additive manufacturing of
+interlocking units and tests units from a small produc-
+tion run.
+Our research leverages the lessons learned from
+existing structural glass research and develops options
+for generating interlocking glass masonry with glass
+AM. It assesses three design and fabrication strate-
+gies: Fully Hollow, Print-Cast, and Fully Printed. We
+print masonry units using each strategy and character-
+ize their performance using geometric analysis, sur-
+face analysis, and mechanical testing. The end result
+is shown in Fig.2 as an assembled wall made of these
+printed units. Using these data, we develop short- and
+long-term recommendations for future work toward the
+development of a long-term, large-scale architectural
+demonstration of interlocking units made with glass
+AM.
+2 Background
+Strategies and designs for implementing glass AM
+were informed by existing research in interlocking cast
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+399
+Fig. 1 G3DP3 shown in its current conﬁguration. The build
+chamber is shown behind the glass pane doors. Above it are
+the furnace kiln and crucible
+glass masonry and other work using previous versions
+of the G3DP3. Here we discuss these two topics, which
+inﬂuenced the experimental design and analysis in this
+paper: ﬁrst, interlocking cast glass masonry, and then,
+second, the development of glass additive manufactur-
+ing for architectural applications.
+2.1 Interlocking cast glass masonry
+This section describes the state of the art for glass
+masonry construction and explains our motivation for
+selecting interlocking masonry units as the focus for
+applying glass AM in the construction ﬁeld. Before
+diving into glass masonry, it is worth noting that
+glass in the building industry has typically been domi-
+nated by implementing various products from a ﬂoat
+glass production facility into a building’s envelope
+(Oikonomopoulou et al. 2018b). It is only recently
+that casting has become a viable option for structural
+glass production by incrementally addressing concerns
+such as ﬁre protection, vandalism, and strength of the
+material (Oikonomopoulou et al. 2015). One of the
+main concerns when utilizing structural glass is the
+material’s brittleness (Shelby 2005). Upon reaching the
+material yield strength at localized areas, glass struc-
+tures can catastrophically collapse without visual warn-
+ing. One way structural engineers and architects have
+responded to this issue is by laminating multiple panes
+of glass for redundancy (Njisse 2003). When a single
+pane fails, the remaining units will hold the structural
+loads until repairs can be made. In this design, individ-
+ual failure does not affect the structural integrity of the
+whole building.
+Masonry units provide a different method for redun-
+dancy. Similar to the laminated ﬂoat pane strategy, the
+failure of one masonry unit does not critically impact
+the global structure and safely allows for a localized
+failure. The loads from the failed unit will be distributed
+to the remaining intact structure. Fully-solid, soda-lime
+masonry units have been installed using these strate-
+gies in projects such the Crystal House and Atocha
+Memorial (Oikonomopoulou et al. 2018b). In the case
+of the Crystal House, the failure of the facade has also
+been isolated from the rest of the building’s structure
+because of ﬁre protection concerns. The scale of exist-
+ing cast glass masonry units allows for an easy ana-
+log to G3DP3’s capabilities for printing similarly sized
+objects. Cast glass masonry units can provide transfer-
+able structural strategies when implementing glass AM
+as a production method for construction components.
+As an alternative to cast units, traditional hollow
+glass blocks are manufactured by fusing two pressed
+glass halves together. However, these hollow blocks
+are not certiﬁed for use in structural load-bearing walls
+because blocks with thinner walls (6–19mm) are sus-
+ceptible to buckling behavior (Oikonomopoulou et al.
+2015). The glass printer used in this work, G3DP3, cre-
+ates a 13mm nominal wall thickness, making its prod-
+ucts less susceptible to local buckling behavior in each
+unit. Although we learned from hollow block designs
+and considered buckling behavior while designing our
+units, we ultimately used cast glass masonry as the
+main inspiration for our designs. We found that cast
+glass masonry designs introduced by researchers at TU
+Delft were intended for use as structural load-bearing
+members, unlike their pressed glass counterparts, and
+were thus a helpful reference in the process of deﬁning
+functional requirements and designing masonry units
+for AM (Oikonomopoulou et al. 2018a).
+123
+
+
+400
+D. Massimino et al.
+Fig. 2 All manufactured
+units assembled together in
+a wall conﬁguration prior to
+mechanical testing
+To address the goals of transparency and self-
+supporting structure, we considered existing cast glass
+masonry projects. In these projects, an interlayer is
+used between units to avoid glass-to-glass contact, level
+any non-planar surfaces between units, maintain posi-
+tion, and resist lateral loads. For previous cast glass
+masonry projects, adhesives were used as an inter-
+layer, but adhesives can limit the possibility for decon-
+struction and risk contamination, making the glass
+masonry units difﬁcult to recycle (Oikonomopoulou
+and Bristogianni 2022). Researchers at TU Delft have
+introduced the possibility of using dry, interlocking
+glass masonry units as a method for construction
+that allows for disassembly and reuse of individual
+units (Oikonomopoulou et al. 2018a). Our goals of a
+transparent, self-supporting, and circular design were
+aligned with the rationale for utilizing interlocking
+units. For these reasons, we explored strategies for
+designing interlocking units for glass AM.
+Because installed examples of cast interlocking
+masonry and their adhesively bonded alternatives
+exist, the question arises: why use glass AM to pro-
+duce interlocking masonry? First, glass AM could be
+selected over other previously mentioned manufactur-
+ing technologies in circumstances where many differ-
+ent geometries are required for aesthetic or structural
+use cases. These intentional variations can be imple-
+mented with glass AM without added tooling or man-
+ufacturing costs. The lower cost for different designs
+could also open the opportunity to size individual units
+according to their speciﬁc structure loads. It’s worth
+noting that, while this freedom of design variation is
+one of the most attractive properties of AM, the exper-
+imental work in this paper focuses on testing multiples
+of the same masonry unit to evaluate the viability and
+repeatability of this glass AM technology.
+Secondly, glass AM could be selected for optics
+and aesthetics which are only available with the lay-
+ered deposition process, and can be altered by varying
+printing parameters such as feed rate or color mid-print.
+CeramicAMhas exploredbuildingapplications for this
+reason, leading to highly varied shapes and textures in
+facade designs (Wolf et al. 2022).
+Lastly, the build volume of G3DP3 is well suited for
+producing masonry scale structures. While the prod-
+uct scale is not unique to glass AM, as compared to
+other glass manufacturing processes, it is an important
+enabling factor. These motivations sparked the interest
+for this feasibility study, but the glass AM machine set
+many of the requirements, as explained in the following
+sections.
+2.2 Development of glass additive manufacturing for
+architectural applications
+In this study, we continue research formulated in the
+MIT Mediated Matter Group. Outside of the Medi-
+ated Matter Group, research in glass AM for building
+components has investigated the opportunity for totally
+transparent and monolithic glass connection design. In
+2012, Rammig aimed to construct all glass connection
+designs by directly melting soda-lime rod onto glass
+plate using a torch (Rammig 2012). Later, different
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+401
+researchers relied on locally melting glass rod with a
+laser and fusing it to a sheet glass build plate to create all
+glass connections (Seel et al. 2018). These technologies
+could be effective in creating small scale connections,
+but have not demonstrated the ability to create entire
+units large enough for load bearing use.
+The glass units produced for this viability study
+were made by G3DP3, a printer owned and operated by
+Evenline Inc. The ﬁrst molten glass 3D printer, G3DP1,
+was developed in 2015 by MIT’s Mediated Matter
+group (Klein et al. 2015). Some testing was performed
+to understand the change in anisotropy as a result of
+printing in an annealing chamber, but sample sizes were
+small and three-point bending ﬁxtures instead of four-
+point bending ﬁxtures were utilized (Klein et al. 2015),
+which we return to discuss for future work. G3DP2
+was developed in 2018 and focused on producing larger
+hollow body objects (Inamura et al. 2018a). G3DP2’s
+body of research performed structural proof testing
+prior to the installation of 3.7 m tall columns made
+of stacked printed glass objects (Inamura et al. 2018a).
+In this paper, we extended this work to include differ-
+ent loading conditions representative of basic masonry
+structures, increased the sample size for testing of
+repeat geometries, measured the dimensional variation
+between units, and included surface roughness charac-
+terization. In the previously assembled columns, struc-
+tural loads were supported by internal retaining hard-
+ware (Inamura et al. 2018a). In this paper, we formulate
+a structural system that uses interlocking geometries
+to resist lateral loads. Using G3DP2, advancements in
+2017 developed side-by-side deposition and fusion dur-
+ing printing (Lizardo 2017). This allowed for a print
+bead to be extruded next to an existing layer, fusing
+different areas of the tool path together and creating
+the capability for water tight seals. In this paper, we
+leveraged side-by-side deposition to print interlocking
+features.
+Our research uses the latest version of this printer,
+G3DP3. Since these prior publications (Klein et al.
+2015; Inamura et al. 2018a), progress has been made by
+the authors on upgrading components to decrease sys-
+tem and operating costs, improve tool paths to allow for
+smaller variation among prints, and ﬁne-tuning ther-
+mal control during printing. The upgraded G3DP3 also
+has been improved to reduce the cost of the crucible
+and other refractory elements, while enabling printing
+at elevated temperatures. A summary of performance
+Table 1 Glass 3D printer 2 (G3DP2) and 3 (G3DP3) printer
+characteristics based on proven prints
+Unit
+G3DP2*
+G3DP3
+X-Axis
+mm
+320
+325
+Y-Axis
+mm
+320
+325
+Z-Axis
+mm
+350
+380
+Print volume
+cm3
+35,800
+40,100
+Bead height
+mm
+5.0
+3.0–6.0
+Bead width
+mm
+12
+9.0–16
+Feed rate
+mm/s
+10
+6–20
+Path curvature radius
+mm
+6–15
+6–15
+Max overhang angle
+Degrees
+30
+30–35
+Minimum path length
+mm
+475
+300–475
+Max extrusion temp.
+oC
+1100
+1200
+These limitations can be exceeded for certain shapes, but require
+additional testing. *Source: (Inamura et al. 2018a)
+improvements are shown in Table 1 and a picture of the
+current machine is shown in Fig.1.
+3 Methods
+We designed, manufactured, and characterized inter-
+locking glass masonry with AM using the following
+steps.
+1. A glass interlocking masonry unit design was
+developedandprototypedbasedonexistingdesigns
+proposed by researchers at TU Delft, and adapted
+for production using G3DP3. This is discussed in
+Sect.4.1.
+2. Three manufacturing methods, Fully Hollow, Print-
+Cast, and Fully Printed, for generating these inter-
+locking units using G3DP3 were developed and
+multiple identical units generated for characteriza-
+tion. This is discussed in Sect.4.2.
+3. Glass masonry units produced with each manu-
+facturing method were characterized to quantita-
+tively compare them. Geometric analysis was used
+to deﬁne the accuracy and repeatability of each
+method’s ﬁnal dimensions. Geometric data deﬁned
+the baseline performance of G3DP3 and the relative
+change when introducing glass interlocking geom-
+etry. Surface roughness was measured to under-
+stand how the effect of printing onto different build
+platform materials compared to existing polishing
+123
+
+
+402
+D. Massimino et al.
+Fig. 3 A visual representation of each manufacturing method.
+Numbers represent the order in which the interlocking element
+and walls of the masonry unit are manufactured. a FH Units are
+printed on a ceramic build plate. b PC Units places a previously
+printed FH Unit on a machined mold and then glass is ladled
+into it to create the interlocking component. c FP 3D prints into a
+mold to make the interlocking element before printing the walls.
+d Shows cross sections of a PC unit for comparison
+processes. Surface roughness was also used to esti-
+mate stress concentration values that may affect
+performance during experimental mechanical test-
+ing. Finally, mechanical testing was used to analyze
+each method’s performance in terms of load carry-
+ing capacity. Two conﬁgurations of testing were
+utilized to test the strength of a unit when all faying
+surfaces (surfaces in contact with joints between
+masonry units) were evenly loaded and when a unit
+was spanning two others from above and below.
+These characterization methods together were used to
+experimentally understand the relative advantages and
+disadvantages of each manufacturing method. Once
+collected, these data were used to provide recommen-
+dations for further research directions and eventual
+implementation.
+4 Design and manufacturing
+In this section, we detail the design process for choos-
+ing the baseline interlocking glass masonry unit shape.
+Next, we consider three manufacturing methods for
+generating these masonry units, and integrate those
+processes into the design. Finally, we lay out in detail
+each manufacturing process as represented in Fig.3.
+Because the manufacturing strategy and the geometric
+design of printed glass masonry units are not indepen-
+dent from each other, they were considered and iterated
+upon in parallel; the manufacturing strategies are there-
+fore listed below for context and will be discussed in
+further detail after the designs. The ﬁnal results of these
+three methods are shown in Fig.4 and are described as
+follows:
+1. Fully Hollow (FH): Print a hollow object with no
+glass interlocking feature on a ceramic build plate.
+A separately manufactured part provides an inter-
+locking or locating feature between the units above
+and below, but is not produced in this paper.
+2. Print-Cast (PC): Position a FH masonry unit onto
+a graphite mold with negative features for the inter-
+locking component. Ladle molten glass into both
+the printed body and graphite to create an inter-
+locking unit.
+3. Fully Printed (FP): Print interlocking components
+into a graphite build plate with machined features
+and transition to printing the hollow body object
+above.
+4.1 Masonry unit design
+With these three approaches for manufacturing glass
+masonry units in mind, we shifted our focus to the
+design of a standard masonry unit using G3DP3’s func-
+tional requirements and dimensional speciﬁcations. We
+considered designs that could be printed by each man-
+ufacturing method and reasonably implemented into
+a build’s construction. We also considered the size of
+each unit to allow for mechanical testing at available
+facilities.
+4.1.1 Functional requirements
+To deﬁne the functional requirements for our glass
+masonry unit, we considered existing glass masonry
+and mitigated potential failure modes. Requirements
+for our initial printed masonry design were as follows:
+1. Interlockingelementswithafreerotationconstraint
+to enable for multiple assembly conﬁgurations.
+2. Interlocking elements that could be cast or printed.
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+403
+Fig. 4 Each manufacturing
+method shown from left to
+right: FH, PC, and FP
+3. Maximum surface area for load transfer in hollow
+body walls to reduce stress.
+4. Minimal unsupported body wall surface area to
+reduce bending and tensile stresses.
+5. Toolpaths for the exterior walls and interior ﬁlled
+areas must conform to G3DP3’s process constraints
+(Table 1).
+4.1.2 Dimensional speciﬁcations
+We used these functional requirements to assess exist-
+ing designs by other researchers. The TU Delft Block
+Type E, referred here as the Figure Eight Design,
+was selected as the reference for our masonry units’
+design (Oikonomopoulou et al. 2018a). The Figure
+Eight design has two hemispheres, one at either ends of
+aunitconnectedbysolidcastglass,resemblingtheAra-
+bic number eight. This design satisﬁed several require-
+ments but was altered for compatibility with G3DP3
+shape requirements (Table 1) and the need to oper-
+ate with continuous extrusion. G3DP3 is not currently
+able to start and stop ﬂow in the middle of printing
+an object. Our new design consists of two cylindrical
+nodes joined by continuous arcs, as shown in Fig.4.
+To better interface with the hollow internal diameters
+of the nodes, interlocking features are also cylinders.
+The distance between each arc was kept to a minimum
+because of its direct relationship with the total amount
+of unsupported surface area in a Spanning Conﬁgura-
+tion. The supported areas where the faying surface is in
+contact with another surface above or below in a Span-
+ning Conﬁguration are visually represented in Fig.5
+as the darkest shade. The lower bound of the distance
+between each arc is thus constrained by the minimum
+radius requirements of the G3DP3.
+Buckling behavior in the printed walls of each unit
+was checked to leverage the high compressive strength
+of glass. 200 MPa was assumed as compressive yield
+strength and 69.5 GPa was assumed to be the Young’s
+Modulus for our glass formulation, Spruce Pine PYW.
+The manufacturer of this glass batch does not provide
+mechanical properties, therefore the mean of experi-
+mentalvaluesfrompreviousstudiesusingsimilarmate-
+rial was used instead (Inamura et al. 2018a). These
+printed shapes most closely resemble a shell structure
+but, to conservatively estimate their buckling behav-
+ior and allow our analysis to be more geometrically
+agnostic, we modeled them as a column with a height
+(L) and thickness (h) equal to that of a single masonry
+unit’s wall and a length (b) equal to the approximate
+perimeter length of a single printed layer (Fig.6).
+This assumption reduced the time for analysis and
+allowed for quick iterations of height during the design
+process. Modeling the buckling behavior as a col-
+umn was assumed to yield more conservative results
+than a more accurate shell analysis. Shell structures
+123
+
+
+404
+D. Massimino et al.
+Fig. 5 Illustration of design requirement 4. A The primary unit
+is shown alone from above. B The primary unit shown in panel A
+is in the center and stacked on top of two interlocking units. The
+supported and loaded areas are indicated in the darkest shade.
+Unsupported areas in the lighter shade were designed to be min-
+imized. C An elevation view of the layout with a primary unit on
+top and spanning the two units below
+gain additional strength from their non-planar geom-
+etry, and simpliﬁcation to a planar column removes
+this geometry and additional supports, underestimat-
+ing their strength. Conservative estimates were because
+the model assumes isotropic properties, despite previ-
+ous research showing anisotropic behavior which may
+reduce buckling strength (Klein et al. 2015). We uti-
+lized Euler’s column buckling theory (Timoshenko and
+Gere 2009) to model an individual unit (Fig. 5):
+F = π2E I
+(kL)2
+(1)
+F > AσY
+(2)
+where,
+F = Critical buckling load
+k = Column effective length factor
+E = Young’s modulus
+I = 2ndMoment of inertia
+L
+h
+b
+h
+Force
+L
+b
+a)
+b)
+Fig. 6 Buckling analysis diagram showing assumptions to con-
+servatively estimate the behavior of a printed wall. a A single
+unit with its characteristic dimensions in the real ﬁnal printed
+form. Buckling is estimated by modeling the walls of the unit as
+a column with height L, length b, and thickness h. b Shows these
+same dimensions with simpliﬁed assumptions for Euler’s Col-
+umn Buckling analysis. A rectangular cross-section is utilized
+for this simpliﬁed analysis
+I = bh3
+12
+b = Circumference of the individual unit’s wall
+h = Thickness of the individual unit’s wall
+L = Height of the individual unit’s wall
+A = Faying surface area
+σY = Compressive yield strength
+k was set equal to one to model the free rotation allowed
+atthetopandbottomfayingsurfacesduringexperimen-
+tal testing. The values used for calculation and results
+were as follows:
+F = 3204 kN
+k = 1
+E = 69.5 GPa
+I = 8.90 cm4
+b = 80.2 cm
+h = 1.10 cm
+L = 13.8 cm
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+405
+Fig. 7 Baseline masonry unit design with interlocking features
+shown with solid interlocking pictures facing up, opposite to the
+intended installation position
+σY = 200 MPa
+A = 80.2 cm2
+AσY = 1603 kN
+The risk of buckling behavior was eliminated by
+designing the allowable load (F) to be greater than the
+compressive yield strength times the area (Eq.2). At
+the full height of G3DP3’s capability (38cm) the buck-
+ling failure force was calculated to be far less than the
+compressive yield load. The critical buckling force at
+ﬁnal unit height (13.8 cm) is greater than the compres-
+sive yield force because the buckling force is inversely
+proportional to the square of the height (L). Based on
+this information, units were printed at the full height
+capacity of G3DP3 and later cut in half for FH and PC
+masonry units, to maximize efﬁciency of printing time
+and annealing oven capacity. With the height deter-
+mined, the ﬁnal design of the baseline masonry unit
+was parametrically designed in Rhino and Grasshop-
+per (Fig.7).
+4.2 Manufacturing process
+Following the determination of generalized unit design
+and manufacturing methodologies, it was necessary to
+ﬁnalize a detailed process plan for each method and
+produce individual units for testing and evaluation. All
+units were printed with Spruce Pine PWV glass batch.
+Each of the three manufacturing methods is detailed in
+the following sections.
+4.2.1 Fully hollow unit
+Printing the FH masonry unit design required few
+changes to G3DP3’s standard operating procedure.
+Prototype designs were printed on a ceramic build plate
+and assessed for thermal stability, and 14cm outside
+diameter nodes were large enough to avoid instabil-
+ity or slumping caused by overheating in the enclosed
+interior of the unit. FH units were printed at double
+the nominal height, and later post-processed to yield
+two units per print. Each of the FH units underwent a
+standard annealing process to cool and release internal
+stresses, as seen in the program temperature proﬁle in
+Fig.8.
+After annealing, double-height units were machined
+as follows:
+1. Saw off the top layer and the bottom three lay-
+ers using a diamond bandsaw to remove remnants
+of lead-in and lead-out, the points where the print
+begins and ends. Saw double-height unit in half
+with +0.5 mm from ﬁnal height dimension.
+2. Blanchard grind both sides of the unit to the ﬁnal
+height, utilizing a sintered 325 grinding edge.
+3. Chamfer all outside edges with water fed upright
+belt sander and 220 grit silicon carbide belt.
+4. Chamfer all interior edges with pneumatic hand-
+held belt sander and 220 grit silicon carbide belt.
+5. Lap with water fed lap wheel and 325 grit resin
+diamond smoothing pre-polish pad to remove blan-
+chard texture.
+6. Lap with water fed lap wheel and 600 grit resin
+diamond smoothing pre-polish pad to remove 325
+grit texture.
+7. Polish with a Cer-Optik Cerium Oxide.
+Sawing units was performed to meet repeatable
+height requirements and to remove uneven surfaces
+from the lead-in and lead-out. Grinding was performed
+to achieve ﬁne height tolerance. Polishing and beveling
+edges were performed to minimize stress concentra-
+tions related to surface roughness as a result of sawing
+and grinding.
+4.2.2 Print-cast unit
+Initial prototyping of the PC manufacturing process,
+print then separately cast, demonstrated a series of chal-
+lenges. For the mold material, graphite was chosen for
+its ease of machining, relatively low cost, resistance
+123
+
+
+406
+D. Massimino et al.
+Fig. 8 Annealing schedules for each manufacturing method. FH
+is printed and then put through an annealing cycled to reduce
+stress concentrations and avoid fracture from thermal shock. PC
+goes through the FH process and annealing cycle, but is brought
+back to annealing temperature for casting. Casting occurs after
+a short rise in temperature to increase the surface temperature of
+the unit but avoid slumping. Internal temperature gradients are
+allowed to resolve and then the temperature is increased again
+before demolding the blocks from the graphite plates and then
+completing another annealing cycle. FP units undergo a longer
+annealing cycle than FH units to account for the thicker printed
+bottom
+to thermal shock, and ﬁne surface ﬁnish (Kim et al.
+2020). Graphite’s low coefﬁcient of friction allows for
+easydemoldingandcreatesaﬁnesurfaceﬁnishinglass.
+However,graphiteoxidizeswheninanoxygenenviron-
+mentandheldattemperaturesabove500 oC(Fekrietal.
+2023). Thermal shock from casting into a printed object
+was mitigated by pre-heating the printed masonry unit
+and the graphite mold it is seated on top of, but this
+resulted in oxidation of the graphite.
+The casting and annealing kiln’s temperature pro-
+grams for the PC manufacturing process are shown
+in Fig.8. To mitigate the risk of thermal shock, the
+separately printed body was re-heated to the annealing
+point (500 oC) prior to casting. The annealing point is
+deﬁned by Tooley (1984) as the temperature at which
+all internal stresses are relieved within 15min, and it
+varies for different glass compositions. Graphite plates
+were used to mold the interlocking forms and were
+machined with shallow cylindrical pockets, similar to
+those shown in Fig.9a. These plates were set in a glass
+casting kiln with a FH unit placed on top and aligned
+with the pockets for casting. After the kiln reached and
+was held at the annealing temperature, the kiln tem-
+Fig. 9 A Machined graphite build plate without additional grid
+texture applied. The dark outline shows the outside edge of the
+masonry unit. B Build plate with extra machined grid texture
+to reduce sliding and prevent dislodging the part from the build
+plate
+perature was quickly spiked (heated) to 616 oC to pre-
+pare for casting. This jump in temperature created a
+higher temperature at the surface, which reduced the
+risk of thermal shock as molten glass for the bottom
+and interlocking features was ladled. Simultaneously,
+with a short heating period, the interior material of the
+walls remained below the softening point to promote
+stability. Increasing the temperature too much puts the
+part at risk of deforming. At 616 oC, graphite oxida-
+tion began to degrade the mold. If the part was cast into
+while too cold, there was a high risk of fracture from
+thermal shock, which did cause fracture in 3 speci-
+mens. Maintaining the temperature of the printed part
+between these two temperatures, softening and anneal-
+ing, was paramount to maintaining dimensional accu-
+racy and avoiding thermal shock. Once at the right tem-
+perature, molten glass was ladled into the printed body
+and the kiln door closed as shown in Fig.10.
+Partswereheldattheannealingtemperaturefor2.5h
+to allow for the cast part to cool and to reduce the
+internal stresses. During casting, the surfaces in con-
+tact with graphite exceeded the temperature required
+for oxidation to begin. This led to signiﬁcant degrada-
+tion of the mold during each use. After holding the unit
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+407
+Fig. 10 PC casting process. A FH unit is brought to 616 oC in
+a glass casting kiln. B Molten glass is ladled into the interior of
+the masonry unit on top of a graphite mold. C The bottom of the
+masonry unit is fully ﬁlled and casting kiln is closed
+at the annealing temperature to reduce internal ther-
+mal gradients, the kiln was heated again to 616 oC to
+quickly heat the exterior surface of the masonry and
+allow for the removal from the graphite mold. The unit
+was removed from the graphite mold to avoid cracking
+from the mismatched coefﬁcients of thermal expan-
+sion between graphite and glass materials. Heating the
+outside layer reduced the risk of thermal shock during
+the physical handling required for demolding. The PC
+units were then brought through an extended annealing
+cycle to resolve additional thermal stresses created by
+the casting process. The relaxation of internal stresses
+in all intact units was checked with a cross-polarization
+method and indicated that stress was relaxed by the
+cycle shown in Fig.8.
+4.2.3 Fully printed unit
+Printing all of the components of the masonry unit with
+interlocking features in the proposed design and dimen-
+sions required changes to the existing standard oper-
+ating procedure of G3DP3. The 90o feature between
+the interlocking peg and sidewall was not within
+the overhang angle operating limits of G3DP3 per
+Table 1. Creating print support material was not easily
+implementable for G3DP3. Instead, a custom graphite
+build plate was designed, fabricated, and printed into
+(Fig.9a). Unlike the PC process, in the FP process, the
+graphite build plate experienced minimal degradation.
+The print chamber of G3DP3 was kept at 490 oC, mean-
+ing oxidation only occurred during contact between
+molten glass and graphite. The ﬁrst layer remained
+at elevated temperatures for a limited amount of time
+compared to the PC process, meaning oxidation was
+minimal during the printing process. While printing
+for this project, the minor oxidation degradation of the
+molds was too small to observe visually. Although the
+graphite was easy to machine and experienced mini-
+mal oxidation during printing, the ﬁne surface ﬁnish
+of graphite presented other challenges in the printing
+process.
+Previously, only ceramic build plates with a kiln
+wash were utilized in G3DP3. Without the high sur-
+face adhesion on ceramic build plates, printed glass
+slides along the surface of graphite at much lower lat-
+eral loads. As the glass slid, the lateral forces from
+the build plate’s movement caused local deformation
+and necking, leading to the part dislodging from the
+build plate. To avoid dislodging a masonry unit over
+the course of a print, a grid texture was machined into
+the graphite build plate for the ﬁrst layer to slump into
+(Fig.9b). The chosen geometry was a tessellated 1mm
+x 1mm square grid feature with 1mm depth machined
+along the entire surface of the plate (Fig.9b) to create
+localized patterns. The resulting geometry required a
+much higher lateral force to dislodge the part. This pat-
+tern eliminated localized deformation in the ﬁrst layer
+of the print, but these millimeter scale features likely
+created much larger stress concentrations than the pol-
+ished ﬁnish of the FH and PC units’ ground faying
+surfaces.
+A compounding issue with the grid pattern was that
+the mill utilized for machining the tessellated pattern
+was not sufﬁciently trued. The mill induced a drift in
+the vertical dimension with respect to lateral travel and
+imposed a slight angular error in the bottom plane of the
+masonry unit with respect to G3DP3’s printing plane.
+These two discrepancies from the other two methods
+of manufacture were predicted to decrease the strength
+of the units during mechanical testing but the graphite
+plate could not be re-machined before printing.
+Interlocking elements were printed by depositing
+glass side-by-side and with a two-layer thickness to
+avoid voids along the full depth of an interlocking ele-
+ment. We developed a tool path to ﬁll this area horizon-
+tally to print the unit’s interlocking features. The ﬁnal
+tool path leveraged previous work on joining neighbor-
+ing beads (Lizardo 2017), but differed in its ability to
+ﬁll large areas (14cm diameter). Following printing in
+G3DP3, the faying surfaces of the FP units were sawed,
+chamfered, and polished according to Sect.4.2.1.
+123
+
+
+408
+D. Massimino et al.
+5 Characterization
+Thestrengthsandweaknessesofeachproposedmethod
+of manufacture were quantiﬁed with the following
+characterization methods:
+1. Geometric Analysis
+2. Surface Roughness
+3. Mechanical Testing
+5.1 Geometric analysis
+The accuracy and precision of each method’s geometry
+and mass were characterized to understand G3DP3’s
+performance and how these features affected mechan-
+ical strength. Each masonry unit’s mass was mea-
+sured after the ﬁnal machining processes. Geometry
+and dimensions were measured using a FARO Quan-
+tum Max Scan Arm Coordinate Measuring Machine
+(CMM) to characterize angularity between the top and
+bottom planes. Too much angularity would risk a high
+shear stress in the body of the unit, which could cause
+early failure especially when experienced between lay-
+ers. The diameters of each node, their height, and the
+distance between the centers of each node were also
+measured and compared to nominally designed values
+using the CMM. This information was gathered and
+compared to subsequent testing to isolate variables that
+may have led to strengths below modeled expectations.
+5.2 Surface roughness
+Surface roughness is known to have a large effect on
+the strength of glass materials, as it leads to stress
+concentrations (Persson 2023). To mitigate the effect
+of surface roughness on the strength of the masonry
+units, accessible faying surfaces were polished and
+their edges were ﬁlleted. PC and FP bottom faying
+surfaces could not be ground after casting/printing and
+were left with the as-printed surface. A Bruker-XT Pro-
+ﬁlometer was used to measure and record the surface
+proﬁle of representative samples for each of the man-
+ufacturing methods. Per ISO 21,920, in the absence of
+a speciﬁcation or tolerance, evaluation settings should
+be set by estimating the parameter of interest, in this
+case, the average roughness (Ra). After an initial read-
+ing, the proﬁlometer settings were adjusted for an Ra
+between 0.06 and 1.2 μm. Five traces of two repre-
+sentative specimens were measured to understand how
+different areas of the same sample may vary. Size lim-
+its to the proﬁlometer meant masonry units could not
+be directly sampled, but smaller representative samples
+were prepared identically to each unit’s faying surfaces
+and measured instead.
+The 1mm depth grid texture (Fig.9b) in the FP bot-
+tom faying surface was excluded from that represen-
+tative sample to study the potential surface roughness
+without the machined pattern. The representative sam-
+ples were used as a proxy for the following surfaces:
+• Printed on Ceramic: FH units before grinding
+• Printed on Graphite: FP unit’s bottom surface with-
+out 1mm scale depressions
+• Polished then Cast on Graphite: PC unit’s bottom
+surface
+• Ground Polished Surface: Both FH unit’s surfaces;
+FP unit’s top surface
+• Kiln Polished Surface: PC unit’s top surface
+In accordance with ISO 21,920 and the initial pro-
+ﬁle measurement readings, 4mm long traces were per-
+formed for each sample. Traces were performed and
+processed in accordance with ISO 21,920 to gather
+Average Roughness (Ra), Mean Peak Width (Rsm), and
+the Maximum Peak Height (Rzi). To estimate the stress
+concentration factor (Kt) for each surface proﬁle, the
+following analytical solution proposed by Gao (1991)
+and further supported by Medina (2015) and Cheng
+et al. (2017) was utilized:
+Kt(x) = σxx
+σm
+= 1 −4πa
+λ cos(2πx
+λ )
+(3)
+where,
+σxx = principal normal stress
+σm = the applied load
+a = amplitude of a proﬁle peak
+λ = wavelength between peaks
+x = location along the traced length
+Further, the maximum Kt can be found at the lowest
+valley which simpliﬁes to,
+Kt(x) = 1 + 4πa
+λ
+(4)
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+409
+To connect this analysis with roughness readings it was
+assumed,
+λ = Rsm
+a = Ri
+z
+2
+Estimatedstressconcentrationsfromthesurfacerough-
+ness of each representative surface were calculated
+using this information. As a reference, ﬂoat glass
+average roughness readings using an atomic force
+microscope have been reported as ranging between
+0.27−2.14 nm depending on manufacturing technique
+speciﬁcs (Fernáídez-Posada and Barron 2019).
+5.3 Mechanical testing
+To experimentally validate strength, each method was
+tested on a Forney 2,669 kN Hydraulic Tester with
+a GCD-121–125 Linear Variable Differential Trans-
+former (LVDT) and SP-12 String Pot. Specimens were
+tested at a target load rate of 4.45 kN/s and load control
+was performed manually using a dial to maintain the
+target load rate. Samples from each method were sub-
+jected to compressive testing in two conﬁgurations as
+shown in Fig.11. FP and PC units were tested with the
+interlocking features on the bottom face of the setup.
+Conﬁguration 1, referred to as the Crush Conﬁgura-
+tion, was designed to measure the strength of an indi-
+vidual unit with the full circumference of the masonry
+unit walls loaded from above and supported from
+below. For PC and FP masonry units, 6061 aluminum
+ﬁxtures were used to support only the walls and not the
+interlocking elements from below (Fig.12a). Conﬁgu-
+ration 2 (Fig.11), referred to as the Spanning Conﬁg-
+uration, was designed to test and simulate the strength
+of a unit if in an assembly position, where two units
+would interlock from above (Fig.12b) and two units
+interlock from below (Fig.12c). The Spanning Con-
+ﬁguration tests the performance of a unit amongst an
+assembly, rather than a standalone unit.
+For each of the tests, a 6mm layer of Lauan ply-
+wood was placed between glass surfaces and the test-
+ing ﬁxture or plate to minimize stress concentrations
+resulting from contact between the ﬁxture (machined
+plates in Fig.12) and the glass masonry unit. Plywood
+of this thickness was utilized to allow for direct com-
+Test Plate
+Config 1
+Plywood
+Masonry Unit
+Config 2
+Force
+Fixture
+Force
+Fig. 11 Two conﬁgurations for mechanical testing. Conﬁgura-
+tion 1, Crush, tests the strength of one unit. Conﬁguration 2,
+Spanning, tests the strength of one unit when in an assembly lay-
+out. Interlocking features for FP and PC units are on the bottom
+faces of each conﬁguration
+Fig. 12 6061 aluminum ﬁxtures used during mechanical testing.
+A Bottom ﬁxture used in the Crush conﬁguration. B Top ﬁxture
+used in Conﬁguration 2. C Bottom ﬁxture used in the Spanning
+Conﬁguration
+parison to previous studies using a similar material
+(Oikonomopoulou 2019; Inamura et al. 2018b).
+All compression tests except one (noted below) were
+conducted from no load, through ﬁrst fracture, and until
+catastrophic failure. Displacement was measured using
+both an LVDT and string pot, collected in parallel to the
+applied compressive loading. First fracture force and
+stress were determined by syncing video recordings to
+the maximum recorded failure force. One sample of a
+FH masonry unit was tested until two fractures initi-
+ated and the test stopped prior to catastrophic failure to
+retain an intact failed block for further analysis. This
+unit’s performance is not included in ultimate force
+results.
+123
+
+
+410
+D. Massimino et al.
+Fig. 13 Manufacturing time and their elements for each manu-
+facturing method
+6 Results
+We produced seven FH and FP units with the processes
+described in Sect.4.2. Six PC specimens were gener-
+ated, but three of these sustained major fractures during
+the casting process as a result of thermal shock and only
+four were characterized and tested. Reference photos of
+each typology and method are shown in Fig.4. All the
+units assembled together in a wall are shown in Fig.2.
+Their time for manufacture can be found in Fig.13. In
+this section, we will review the major results in each of
+the characterization tests described in Sect.5.
+6.1 Geometric analysis
+Geometric and mass characterization results for each
+methodcanbefoundinTable2.Thesedatademonstrate
+that the FH method was most accurately manufactured
+when compared to nominal design dimensions. In most
+dimensions, PC had a much higher standard deviation.
+Cracks initiated in two PC units during the second
+annealing process, which may have been caused by
+the printed body being too cold during casting or too
+rapid of an annealing cycle. Additionally, one PC sam-
+ple experienced large deformations after the casting,
+indicating the temperature was likely too high before,
+during, or after casting. These fractures and slumping
+behaviors indicate there is a narrow operating window
+for this method. Angularity between the top and bot-
+tom faying surfaces was an average of 0.039o in the FH
+units, beneﬁtting from the grinding process. Angular-
+Fig. 14 Average Roughness (Ra) for representative samples.
+Samples are ordered from the most rough (left) to the least rough
+(right)
+ity was almost an order of magnitude larger for both
+PC and FP, likely caused by slumping and deforming
+during the casting process in PC units. For FP units, the
+angle of the machined build plate surface relative to the
+G3DP3’s X-Y plane likely caused this angularity error.
+This is supported by the relatively low standard devia-
+tion of angularity in the FH and FP units compared to
+PC units.
+6.2 Surface roughness
+Average surface roughness values are shown in Fig.14.
+The Printed on Graphite representative samples for
+printed on graphite surface ﬁnish did not include the
+1mm x 1mm grid texture to isolate the surface rough-
+ness of printing on graphite from the effect of the
+machined texture. The surface roughness and stress
+concentrations from those features are expected to be
+much higher than the representative samples because
+the notch depth and radius are orders of magnitude
+larger. The polished surfaces that were in contact with
+the graphite mold during the PC casting process had a
+large change in average roughness from before to after
+casting. This is shown as the change in surface rough-
+ness from the Ground Polished Surface to the Polished
+then Cast on Graphite surface measurements in Fig.14.
+The estimated stress concentrations shown in Fig.15
+show similar trends to those in Fig.14, with one excep-
+tion. The Polished then Cast on Graphite surface rep-
+resenting the PC bottom surface has a higher estimated
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+411
+Table 2 Print geometry and mass results
+Method
+n
+Right node
+Left node
+Height
+Node Center to
+Angularity
+Mass
+OD (mm)
+OD (mm)
+(mm)
+Center distance (mm)
+(Deg)
+(kg)
+Nominal
+n/a
+140
+140
+138
+137
+0
+N/A
+FH Avg.
+7
+140.3
+139.5
+138.0
+137.1
+0.039
+2.69
+FH σ
+1.604
+0.2490
+0.3753
+0.9690
+0.037
+0.0627
+PC Avg.
+4
+139.4
+139.6
+139.9
+139.3
+0.37
+3.66
+PC σ
+3.679
+1.4967
+1.713
+1.631
+0.24
+0.144
+FP Avg.
+7
+139.4
+138.9
+140.1
+137.9
+0.20
+3.39
+FP σ
+0.7240
+0.7394
+0.1376
+0.3598
+0.091
+0.0838
+n is the sample size for each method. Angularity measures the angle between the top and bottom surface planes
+Fig. 15 Estimated stress concentration factor (Kt) for represen-
+tative samples. Samples are ordered from the largest Ra (left) to
+the smallest Ra (right)
+stress concentration factor than the Printed on Graphite
+surface representing the FP bottom surface. This can
+be attributed to a much smaller Rsm (the average wave-
+length of the periodic roughness proﬁles) of the Cast
+on Graphite surface data. These data are shown in the
+roughness proﬁle charts in Fig.16. Even with a simi-
+lar amplitude, a smaller wavelength, per Eq.4, led to a
+higher stress concentration factor in the Polished then
+Cast on Graphite surface when compared to the Printed
+on Graphite surface sample.
+6.3 Mechanical testing
+Results from mechanical testing are shown in Tables 3
+and 4. Experimental testing indicated that the FH
+method had the highest performance in ultimate and
+ﬁrst fracture applied load. PC masonry units had the
+Fig. 16 Roughness proﬁle over the length of two specimens.
+Five samplings or traces were performed at different areas for
+each of the specimens and three of ﬁve traces are shown. Top:
+Proﬁle of glass printed onto a graphite surface Bottom: Proﬁle of
+polished glass surface after being placed on mold and cast into
+as part of PC processing
+next highest performance, and FP masonry units pro-
+duced the lowest values in these same categories. The
+Spanning Conﬁguration did not greatly affect the ulti-
+mate load to failure in any of the methods’ testing.
+The progression of steps to ultimate failure was simi-
+lar between units. Initial cracks propagated from one
+surface through the full height of the unit, from the bot-
+tom surface to the top, or vice versa. As loading contin-
+ued, more cracks initiated and propagated. Eventually,
+the masonry unit would reach what appeared to be the
+material failure stress, and rapidly shatter at multiple
+locations. This failure occurred at the same time stamp
+as the peak load in testing and is represented as the ulti-
+123
+
+
+412
+D. Massimino et al.
+Table 3 Average mechanical testing applied load (kN) and stress (MPa) results in the Crush Conﬁguration
+Crush
+Load
+Fracture
+Ultimate
+Unit
+n
+kN
+σ
+MPa
+σ
+%
+CV (%)
+kN
+σ
+MPa
+σ
+%
+CV (%)
+FH
+3
+336
+199
+38.4
+22.8
+0
+59.3
+837
+120
+95.6
+13.8
+0
+14.4
+PC
+3
+91.3
+44.4
+10.4
+5.07
+72.8
+48.6
+735
+160
+83.9
+18.3
+12.2
+21.8
+FP
+4
+31.9
+23.1
+3.64
+2.63
+90.5
+72.3
+561
+69.2
+64.0
+7.91
+33.0
+12.4
+n shows the sample size for each test. Percent shows the percent decrease in load from FH to each alternative method. Sigma shows the
+standard deviation. CV (%) shows the coefﬁcient of variation as a percent of each respective method’s average
+Table 4 Average mechanical testing applied load (kN) and stress (MPa) results in the Spanning Conﬁguration
+Spanning
+Load
+Fracture
+Ultimate
+Unit
+n
+kN
+σ
+MPa
+σ
+%
+CV (%)
+kN
+σ
+MPa
+σ
+%
+CV (%)
+FH
+4*
+371
+53.4
+42.3
+6.10
+0
+14.4
+877
+133
+118
+17.9
+0
+15.2
+PC
+1
+70.7
+0
+8.07
+0
+80.9
+0
+676
+0
+90.6
+0
+22.9
+0
+FP
+3
+57.5
+15.8
+6.56
+1.80
+84.5
+27.5
+659
+70.4
+88.4
+9.44
+24.8
+10.7
+n shows the sample size for each test. Percent shows the percent decrease in load from FH to each alternative method. Sigma
+shows the standard deviation. CV (%) shows the coefﬁcient of variation as a percent of each respective method’s average.
+*n = 3 for Spanning Ultimate tests
+mate force/stress in the tables. At the point of ultimate
+failure, the surface area where the load was applied was
+typically smaller than the initial surface area because
+some broken sections of the unit were no longer sup-
+porting the load. The stresses represented by Tables 3
+and 4 were calculated as follows:
+σultimate = Fultimate
+Ainitial
+With a smaller actual area at ﬁnal failure than the ide-
+alized calculation, the applied stresses may have been
+higher than recorded in Table 3. Additionally, these
+stressesrepresenttheappliedvalues,anddonotaccount
+for localized stresses at the failure points. Localized
+stress was expected to be higher, and was likely the
+cause of fracture initiation. The applied stress values
+were included to allow for comparison to similar test-
+ing performed by Oikonomopoulou (2019) on solid
+cast glass masonry and by Inamura et al. (2018b) on
+FH printed glass objects with different surface areas.
+The data and tests also showed different crack initia-
+tionandpropagationbehaviorbetweeneachfabrication
+method (Fig.17). The force required to initiate a frac-
+ture in PC and FP was signiﬁcantly lower than FH’s
+results. During testing, most of the FH units’ fractures
+propagated from the top surface, while in PC units,
+fractures mostly occurred at the bottom surface. In FP
+units, initial fracture always occurred at the bottom sur-
+face. During crack propagation, it was observed that a
+crack would propagate to a layer line, and then stop.
+At a higher load or energy point, the crack would later
+resume propagation. This indicated that a minimum
+energy threshold exists for crack propagation between
+vertical layers and that some level of anisotropy exists
+between deposition layers. In one PC mechanical test,
+a crack initiated at the cast to printed part interface
+and propagated horizontally through a layer line. This
+behavior was not observed in other units, but demon-
+strates a lower energy path for fracture may occur in
+between layers for certain loading parameters. High
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+413
+b) PC
+c) FP
+a) FH
+= Fracture on top surface
+= Fracture on bottom surface
+Fig. 17 Visual representation of each unit type’s ﬁrst crack ini-
+tiation location. Triangles represent crack initiation at the top
+surface. “X”s represent a crack initiation at the bottom surface.
+The bottom surface is where interlocking elements were located
+for PC and FP units. Numbers next to arrows indicate the number
+of units that ﬁrst fracture was observed in this location. a Fully
+hollow units b C
+angularity in PC surfaces may have also induced shear
+loads, causing this horizontal fracture.
+7 Discussion
+Insummary,threemethodsforproducingglassmasonry
+units using AM were developed. A masonry unit was
+designed and fabricated using each of these three
+methods of production. After testing each of their
+performances and evaluating all the results, it was
+observed that FH units yielded the highest load to fail-
+ure, the shortest production time, and the most accu-
+rate and repeatable manufacturing process. The FP
+design demonstrated favorable outcomes in terms of
+production time and precision, but had a low ﬁrst frac-
+ture strength. Its low mechanical failure strength could
+likely be attributed to rectiﬁable steps, such as the elim-
+ination of texture on the graphite build plate or of voids
+during side-by-side printing in the production process.
+Eliminating these defects should be the subject of fur-
+ther study. The PC process produced middling strength
+results, took far longer to produce, and had less accu-
+rate and precise geometries. The contributing factors
+to mechanical testing results, the producibility of each
+manufacturing method, circularity, and aesthetic con-
+siderations are discussed below.
+For purposes of comparison, the load to ﬁrst frac-
+ture will be used as the primary metric for assessing
+each method’s performance as opposed to the ultimate
+load to failure. Tables 3 and 4 show each method’s
+load to ﬁrst fracture in the Crush and Spanning Con-
+ﬁgurations. FH units performed most favorably in the
+experimental characterization. FH units had the low-
+est stress concentration factor from surface roughness
+and lowest angularity between their faying surfaces.
+The large decrease in strength from FH to PC and FP
+units can be explained by a combination of phenomena
+observed during testing and the characterization testing
+performed. The much larger estimated stress concen-
+tration from surface ﬁnish and the surface angularity
+for PC and FP units likely contributed to a reduction
+in strength. Higher angularity may have contributed to
+eccentricity during loading and premature fracture. The
+machined build plate texture also likely increased the
+effective stress concentration factor to a much higher
+value than those reported in Table 2, further reducing
+the load to failure of the FP units.
+During mechanical testing, the difference in magni-
+tude between the three methods’ ﬁrst fracture strengths
+was far larger than expected. In addition to measured
+properties, the most clear difference between FH and
+the other units is that FH units did not have a glass
+interlocking element, and thus had no joint or connec-
+tion from this element to the unit’s vertical wall. The
+overwhelming number of initial fractures during test-
+ing occurred at the bottom surface for both PC and FP
+units, as shown in Fig.17, as opposed to the mixture
+of top and bottom surfaces for FH units. This suggests
+that fractures occurred at the bottom surface because of
+either an interaction with the surface, or localized stress
+123
+
+
+414
+D. Massimino et al.
+Fig. 18 Detailed photos of
+the bottoms of a PC units
+and b FP units. Annotations
+show areas where there are
+defects that may contribute
+to premature fracture and
+failure compared to FH
+units
+concentrations and bending caused the ultimate tensile
+strength to be exceeded. Given the loading conﬁgura-
+tions, the interface between the interlocking features
+and sidewall likely affected the ﬂow of stress, caus-
+ing a concentration that contributed to failure. Features
+related to the manufacturing process also may have
+caused premature fractures in PC and FP units. These
+can be seen in Fig.18, where poor connections and sup-
+ported regions are highlighted. These regions may have
+been the cause of premature fracture, by inducing bend-
+ing and allowing the localized ultimate tensile strength
+to be exceeded.
+Other unexpected fracture behavior was observed.
+During testing, cracks paused between layer lines as
+the load increased. This crack propagation behavior
+may also indicate some level of anisotropy in the
+printed layers, and motivates a recommendation for
+more investigation for future work. Previous research
+has touched on this phenomenon in printed glass, but
+not with consistent enough samples or large enough
+sample sizes for conclusive results (Klein et al. 2015;
+Inamura et al. 2018a,b). Future studies investigating
+anisotropy would allow for a better understanding of
+this phenomenon. The jump in the energy required for
+fractures to propagate poses an interesting advantage in
+printed glass compared to cast or ﬂoat glass. If cracks
+pause under constant loading at a speciﬁc layer, this
+may allow inspectors or a passerby to notice fracture
+prior to catastrophic failure. This behavior may be more
+similar to laminated ﬂoat glass fracture and open an
+opportunity to incorporate early failure warnings and
+to design safe failure modes in AM glass.
+Compared to previous studies in cast glass masonry
+and printed glass units, failure stresses in Tables 3
+and 4 were lower. Oikonomopoulou (2019) units expe-
+rienced ﬁrst fracture at 135 MPa, while Inamura et al.
+(2018a) reported an ultimate strength of 147 MPa. Our
+results for FH Units show equivalent stress failure of 38
+MPa at initial fracture and 96 MPa at ultimate failure.
+In the Spanning Conﬁguration, however, the fracture
+strengths were 50 MPa at initial failure and 118 MPa at
+ultimatefailure.Thesepreviousstudiesmayhavefound
+different results for a multitude of reasons. Neither of
+these other studies records surface roughness nor angu-
+larity, so the relative differences between their samples
+and our’s, and these qualities’ effect on strength, cannot
+be compared. Differences in glass formulation could
+also have contributed to lower component strengths.
+The difference in geometry and stiffness between these
+three studies also may have signiﬁcantly contributed to
+the relative strength of each. Oikonomopoulou et al.
+studied rectangular, fully-solid bricks, while Inamura
+et al.’s study tested hollow shapes with many differ-
+ent geometries. It is unclear what the ultimate cause of
+these differences in strength might have been, partic-
+ularly in comparison to Inamura et al.’s results, which
+employed G3DP2 Inamura et al. (2018b). Further stud-
+ies to isolate the cause of this reduction in strength are
+required for a more complete understanding.
+Inadditiontomechanicalstrength,producibilitywas
+considered in our analysis. The FH manufacturing pro-
+cess is the most mature production method, utilizing
+established tool paths and post-machining practices for
+G3DP3 products. This is reﬂected in its low production
+time and favorable accuracy and precision. However,
+its implementation to a structure would rely on sepa-
+rate components to provide interlocking features and
+this additional production time is not accounted for in
+this study. Depending on this additional manufacturing
+time, FP could prove to be a faster production method,
+especially if the FP toolpath was optimized for time.
+The FP manufacturing method produced more precise
+and accurate units than the PC method in far less time
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+415
+by relying on only printing rather than a two-step pro-
+cess of printing and casting.
+The PC method yielded poor accuracy due to slump-
+ing, and fractures due to thermal shock. The PC
+method’s additional risk and annealing time caused
+by the two-step process made it an unpromising pro-
+duction method for now. Despite this, analysis of the
+bottom surface in PC showed that it was not neces-
+sary to polish its surface to such a ﬁne ﬁnish prior to
+casting. The high heat of the casting process caused a
+reaction with the graphite that may have caused local
+oxidation. The faying surface temperature appears to
+have exceeded the softening point of the glass, causing
+the oxidizing graphite to deteriorate the bottom sur-
+face of the masonry unit. In the future, a stainless steel
+mold with a releasing agent could be used to reduce the
+impact of oxidation on surface ﬁnish and allow for the
+production of a large number of units. Additionally, we
+considered but did not test a Cast-Print method, where
+the walls of a unit are directly printed on top of a pre-
+viously cast glass interlocking feature. This order of
+construction could reduce oxidation, reduce the risk of
+fracture from internal stresses, and improve through-
+put, but posed a high risk of damage to the machine if
+the nozzle impacted the cast part.
+Reducing the number of polishing steps in the PC
+process could decrease production time. Cold working
+was a small time contribution compared to annealing
+twice, as seen in Fig.13, but required more manual
+intervention. Redesigning the PC method to include
+only one annealing cycle would greatly improve pro-
+duction time for that process.
+The potential of circularity and visual appearance is
+also important if any of these units are to be utilized in
+construction practices. The separate interlocking com-
+ponents required to assemble FH units add time and
+untested variables to performance. From a circularity
+standpoint, the all-glass PC and FH masonry units have
+fewer components to separate and sort in a hypotheti-
+cal deconstruction and recycling process. Additionally,
+mismatched coefﬁcients of thermal expansion between
+the FH glass elements and their rigid interlocking com-
+ponents could cause fracture. Historically, the choice of
+a monomaterial glass masonry unit for building design
+and construction has been driven by aesthetic reason
+(Oikonomopoulouetal.2018c).Thispreferenceisleast
+present in the FH units, where a separate interlocking
+component may interrupt the visual coherence.
+In conclusion, the FH unit’s performance shows the
+clearest path to immediate implementation in construc-
+tion. However, with more development, the FP process
+could be a longer term, circular solution for an all glass
+building element.
+8 Future work
+Glass AM shows promise as a building production
+method in the construction industry. Future work would
+include improving upon the tested methods used in this
+paper, development of accurate Finite Element Anal-
+ysis, further mechanical testing, the development of
+interlayers for a building system, demonstrating more
+varied geometries, and using other glass materials for
+production.
+If the FH manufacturing method were chosen as a
+production strategy, the development of separate inter-
+locking elements would be required. Using the FP
+method would require additional work to design and
+manufacture a masonry unit that can withstand similar
+loads to existing glass masonry products. This could
+involve a combination of altering the masonry unit
+shape and further development of toolpaths to miti-
+gate stress concentrations in the bottom surface. Addi-
+tionally, development of a printing methodology on
+graphite that avoids the grid texture on the build plate
+surface could allow for much higher load capacity.
+Glasses with a higher coefﬁcient of thermal conductiv-
+ity or higher melting temperature could also be utilized,
+allowing the glass to cool more quickly and avoiding
+the risk of localized deformation, slipping, necking, or
+elongation in the printed bead. The Cast-Print method
+could also be further investigated as an alternative to
+the PC method. Casting prior to printing would remove
+the risk of slumping the printed part which may yield
+more accurate results. Instead of casting the interlock-
+ing geometry, waterjet ﬂoat glass could alternatively be
+fused and used in place of the cast part.
+Developing an accurate FEA methodology for esti-
+mating the strength of a designed form would decrease
+the need, and associated cost, for experimental proof
+testing. FEA requires accurate modeling of unit geome-
+try, which is difﬁcult with FP units where the interlock-
+ing elements contain voids as shown in Fig.18. More
+accurate mapping of the printed geometry is required.
+Additional mechanical testing would better charac-
+terize the failure behavior and reduction in strength
+123
+
+
+416
+D. Massimino et al.
+Fig. 19 FH masonry unit printed with recycled soda-lime ﬂoat
+glass
+observed in PC and FP units. Crack propagation behav-
+ior during testing indicated anisotropy in the printed
+body between layers. It is recommended that a future
+study investigates this behavior with a large sample size
+of similar size bars, tested in different layer orientations
+using a four-point bending ﬁxture to better understand
+this phenomenon. Future testing should also only test
+to initial fracture so samples can be retained for frac-
+tography analysis. This might allow for a better under-
+standing of what caused initial fracture in this paper’s
+results.
+For all of these masonry units to be utilized as a
+circular material requires the development of addi-
+tional components of a sustainable building system.
+One aspect of this future system is a reclaimable inter-
+layer system which eliminates glass-to-glass contact
+betweenmasonryunitsasidentiﬁedbyOikonomopoulou
+et al. (2018a) and further researched by Dimas et al.
+(2022). Current adhesives or mortar utilized in con-
+struction would not allow for glass to be easily decon-
+structed, recycled, or reused (Oikonomopoulou and
+Bristogianni 2022). Work in developing demountable
+interlayers could allow for implementation into a cir-
+cular building system.
+In addition to an interlayer system, the development
+of printed designs that are not identical and use the ver-
+tical space between faying surfaces for varied surface
+treatments or forms would leverage G3DP3’s ability
+to print highly varied objects without the cost of mold
+materials. Integrating these into a facade or compres-
+sive vault structure could leverage the high compres-
+sivestrengthofglassandbuildglassmasonrystructures
+at an unproven scale, but not cause outsized concerns
+in sustainability or waste production for varied forms.
+Printing larger forms such as beams and columns could
+also open new opportunities outside of masonry units.
+Printing with post-consumer recycled glass products
+would open the door to upcycling waste that might oth-
+erwise go to landﬁll or be downcycled. An example FH
+masonry unit printed in recycled ﬂoat glass is shown
+in Fig.19. Printing with these different glass materials
+could also open the opportunity to use the high silica
+(SiO2) content in lunar regolith as a feedstock for the
+construction of habitation modules on the Moon’s sur-
+face.
+Many paths are possible, but results from this
+research prove that future work in producing construc-
+tion components with glass AM is viable, and could be
+implemented with additional development.
+Funding Open Access funding provided by the MIT Libraries.
+The Professor Amar G. Bose Research Grant Program, MIT
+Research Support Committee.
+Data availability The data from this study are available from
+the authors upon reasonable request.
+Declarations
+Conﬂict of interest On behalf of all authors, the corresponding
+author states that there is no conﬂict of interest.
+Open Access
+This article is licensed under a Creative Com-
+mons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium
+or format, as long as you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Com-
+mons licence, and indicate if changes were made. The images or
+otherthirdpartymaterialinthisarticleareincludedinthearticle’s
+Creative Commons licence, unless indicated otherwise in a credit
+line to the material. If material is not included in the article’s Cre-
+ative Commons licence and your intended use is not permitted by
+statutory regulation or exceeds the permitted use, you will need
+to obtain permission directly from the copyright holder. To view
+a copy of this licence, visit http://creativecommons.org/licenses/
+by/4.0/.
+References
+Bristogianni, T., Oikonomopoulou, F., Barou, L., et al.: Re3 glass:
+a reduce/reuse/recycle strategy. J. Archit. Built Environ.
+6(2), 37–40 (2019)
+Cheng, Z., Liao, R., Lu, W.: Surface stress concentration factor
+via Fourier representation and its application for machined
+123
+
+
+Additive manufacturing of interlocking glass masonry units
+417
+surfaces. Int. J. Solids Struct. 113–114, 108–117 (2017).
+https://doi.org/10.1016/j.ijsolstr.2017.01.023
+Dimas, M., Oikonomopoulou, F., Bilow, M.: In between: an
+interlayer material study for interlocking cast glass blocks.
+In: Challenging Glass Conference Proceedings, vol. 8.
+https://doi.org/10.47982/cgc.8.416,
+https://proceedings.
+challengingglass.com/index.php/cgc/article/view/416
+(2022)
+Fang, D., Brown, N., De Wolf, C., et al.: Reducing embodied
+carbon in structural systems: a review of early-stage design
+strategies. J. Build. Eng. 76, 107054 (2023). https://doi.org/
+10.1016/j.jobe.2023.107054
+Fekri, M., Jafarzadeh, K., Khalife Soltani, S.A., et al.: Improve-
+ment of oxidation resistance of graphite by aluminosili-
+cate coating with aluminum metaphosphate interlayer. Car-
+bonLett.33(7),2095–2108(2023).https://doi.org/10.1007/
+s42823-023-00536-w
+Fernáíndez-Posada, C.M., Barron, A.R.: Analysis of commercial
+glasses with different strengthening treatments: emphasis
+on the tin side, defects, structure connectivity and cracking
+behavior. J. Non-Cryst. Solids 518, 1–9 (2019)
+Gao, H.: Stress concentration at slightly undulating surfaces. J.
+Mech. Phys. Solids 39(4), 443–458 (1991)
+IEA: International Energy Agency and the United Nations Envi-
+ronment Programme: 2018 global status report: towards
+a zero-emission, efﬁcient and resilient buildings and con-
+struction sector. https://wedocs.unep.org/bitstream/handle/
+20.500.11822/27140/Global_Status_2018.pdf (2018)
+Inamura, C., Stern, M., Lizardo, D., et al.: Additive manu-
+facturing of transparent glass structures. 3D Print. Addit.
+Manuf. 5(4), 269–283 (2018). https://doi.org/10.1089/3dp.
+2018.0157
+Inamura, C., Stern, M., Lizardo, D., et al.: High ﬁdelity additive
+manufacturing of transparent glass structures. In: Proceed-
+ings of the IASS Annual Symposium (2018b)
+Kim, K.H., Hwang, K.J., Lee, H., et al.: Improvement of adhesion
+properties of glass prepared using SiC-deposited graphite
+mold via low-temperature chemical vapor deposition. J.
+Korean Ceram. Soc. 57(1), 112–118 (2020). https://doi.org/
+10.1007/s43207-019-00010-2
+Klein, J., Stern, M., Franchin, G., et al.: Additive manufacturing
+of optically transparent glass. 3D Print. Addit. Manuf. 2(3),
+92–105 (2015). https://doi.org/10.1089/3dp.2015.0021
+Lizardo, D.: Printing a Glass Ecology. Massachusetts Institute of
+Technology, Cambridge (2017)
+Medina, H.: A stress-concentration-formula generating equation
+for arbitrary shallow surfaces. Int. J. Solids Struct. 69–
+70, 86–93 (2015). https://doi.org/10.1016/j.ijsolstr.2015.
+06.006
+Njisse, R.: Glass in Structures: Elements, Concepts, Designs.
+Birkhauser-Publishers for Architecture, Basel (2003)
+Oikonomopoulou, F., Bhatia, I.S., Damen, W., et al.: Rethinking
+the cast glass mould. In: Challenging Glass Conference
+Proceedings, vol. 7. https://doi.org/10.7480/CGC.7.4662,
+https://proceedings.challengingglass.com/index.php/cgc/
+article/view/346 (2020)
+Oikonomopoulou, F.: Unveiling the Third Dimension of Glass.
+Delft University of Technology, Delft (2019). https://doi.
+org/10.7480/ABE.2019.9
+Oikonomopoulou, F., Bristogianni, T.: Adhesive solutions for
+cast glass assemblies: ground rules emerging from built case
+studies on adhesive selection and experimental validation.
+Glass Struct. Eng. 7(2), 293–317 (2022). https://doi.org/10.
+1007/s40940-022-00178-w
+Oikonomopoulou, F., Veer, F., Nijsse, R., et al.: A com-
+pletely transparent, adhesively bonded soda-lime glass
+block masonry system. J. Facade Des. Eng. 2(3–4), 201–
+221 (2015). https://doi.org/10.3233/FDE-150021
+Oikonomopoulou, F., Bristogianni, T., Barou, L., et al.: Inter-
+locking cast glass components, exploring a demountable
+dry-assembly structural glass system. Heron 63(1/2), 103–
+138 (2018)
+Oikonomopoulou, F., Bristogianni, T., Barou, L., et al.: The
+potential of cast glass in structural applications. Lessons
+learned from large-scale castings and state-of-the art load-
+bearing cast glass in architecture. J. Build. Eng. 20, 213–234
+(2018). https://doi.org/10.1016/j.jobe.2018.07.014
+Oikonomopoulou, F., Bristogianni, T., Veer, F.A., et al.: The con-
+struction of the crystal houses façade: challenges and inno-
+vations. Glass Struct. Eng. 3(1), 87–108 (2018). https://doi.
+org/10.1007/s40940-017-0039-4
+Persson, B.N.J.: Surface roughness-induced stress concentra-
+tion. Tribol. Lett. 71(2), 66 (2023). https://doi.org/10.1007/
+s11249-023-01741-4
+Rammig, L.: Direct glass fabrication–new applications of
+glass with additive processes. In: Challenging Glass.
+IOC Press, Lausanne (2012). https://doi.org/10.3233/
+978-1-61499-061-1-315
+Seel, M., Akerboom, R., Knaack, U., et al.: Fused glass depo-
+sition modelling for applications in the built environment:
+schmelzschichten aus glas für anwendungen im bauwesen.
+Materialwiss. Werkst. 49(7), 870–880 (2018). https://doi.
+org/10.1002/mawe.201800075
+Shelby, J.E.: Introduction to Glass Science and Technology, 2nd
+edn. Royal Society of Chemistry, Cambridge (2005)
+Tessman, O., Knaack, U., Costanzi, C.B.: Print Architecture!
+AADR, Baunach (2022)
+Timoshenko, S., Gere, J.M.: Theory of Elastic Stability, 2nd edn.
+Dover Publications, Mineola, NY (2009)
+Tooley,F.V.:TheHandbookofGlassManufacture,vol.I,3rdedn.
+Books for the Glass Industry Division Ashlee Publishing
+Co. Inc, New York (1984)
+Wolf, A., Rosendahl, P.L., Knaack, U.: Additive manufacturing
+of clay and ceramic building components. Autom. Constr.
+133, 103956 (2022). https://doi.org/10.1016/j.autcon.2021.
+103956
+Publisher’s Note Springer Nature remains neutral with regard
+to jurisdictional claims in published maps and institutional afﬁl-
+iations.
+123

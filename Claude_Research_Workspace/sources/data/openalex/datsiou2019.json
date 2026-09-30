@@ -1,0 +1,1231 @@
+{
+ "id": "https://openalex.org/W2924147730",
+ "doi": "https://doi.org/10.1111/jace.16440",
+ "title": "Additive manufacturing of glass with laser powder bed fusion",
+ "display_name": "Additive manufacturing of glass with laser powder bed fusion",
+ "publication_year": 2019,
+ "publication_date": "2019-03-21",
+ "ids": {
+  "openalex": "https://openalex.org/W2924147730",
+  "doi": "https://doi.org/10.1111/jace.16440",
+  "mag": "2924147730"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1111/jace.16440",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1111/jace.16440",
+  "pdf_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jace.16440",
+  "source": {
+   "id": "https://openalex.org/S53162366",
+   "display_name": "Journal of the American Ceramic Society",
+   "issn_l": "0002-7820",
+   "issn": [
+    "0002-7820",
+    "1551-2916"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of the American Ceramic Society",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jace.16440",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5018184857",
+    "display_name": "Kyriaki Corinna Datsiou",
+    "orcid": "https://orcid.org/0000-0002-6672-535X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I142263535",
+     "display_name": "University of Nottingham",
+     "ror": "https://ror.org/01ee9ar58",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Kyriaki Corinna Datsiou",
+   "raw_affiliation_strings": [
+    "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+    "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6672-535X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5070279688",
+    "display_name": "Ehab Saleh",
+    "orcid": "https://orcid.org/0000-0001-9930-5055"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I142263535",
+     "display_name": "University of Nottingham",
+     "ror": "https://ror.org/01ee9ar58",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ehab Saleh",
+   "raw_affiliation_strings": [
+    "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+    "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5042950887",
+    "display_name": "Fiona Spirrett",
+    "orcid": "https://orcid.org/0000-0002-2311-6538"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I142263535",
+     "display_name": "University of Nottingham",
+     "ror": "https://ror.org/01ee9ar58",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Fiona Spirrett",
+   "raw_affiliation_strings": [
+    "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+    "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5016559869",
+    "display_name": "Ruth Goodridge",
+    "orcid": "https://orcid.org/0000-0003-4335-3327"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I142263535",
+     "display_name": "University of Nottingham",
+     "ror": "https://ror.org/01ee9ar58",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ruth Goodridge",
+   "raw_affiliation_strings": [
+    "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+    "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5024908876",
+    "display_name": "Ian Ashcroft",
+    "orcid": "https://orcid.org/0000-0002-5118-1804"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I142263535",
+     "display_name": "University of Nottingham",
+     "ror": "https://ror.org/01ee9ar58",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ian Ashcroft",
+   "raw_affiliation_strings": [
+    "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+    "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering University of Nottingham Nottingham UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Centre for Additive Manufacturing, Faculty of Engineering, University of Nottingham, Nottingham, UK",
+     "institution_ids": [
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5052252402",
+    "display_name": "Dave Eustice",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210154331",
+     "display_name": "Glass Technology Services",
+     "ror": "https://ror.org/059vksz24",
+     "country_code": "GB",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210154331"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dave Eustice",
+   "raw_affiliation_strings": [
+    "Glass Technology Services Ltd Chapeltown, Sheffield UK",
+    "Glass Technology Services Ltd, Chapeltown, Sheffield, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Glass Technology Services Ltd Chapeltown, Sheffield UK",
+     "institution_ids": [
+      "https://openalex.org/I4210154331"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Glass Technology Services Ltd, Chapeltown, Sheffield, UK",
+     "institution_ids": [
+      "https://openalex.org/I4210154331"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5018184857"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I142263535"
+ ],
+ "apc_list": {
+  "value": 3000,
+  "currency": "USD",
+  "value_usd": 3000
+ },
+ "apc_paid": {
+  "value": 3000,
+  "currency": "USD",
+  "value_usd": 3000
+ },
+ "fwci": 3.1916,
+ "has_fulltext": false,
+ "cited_by_count": 64,
+ "citation_normalized_percentile": {
+  "value": 0.91355988,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "102",
+  "issue": "8",
+  "first_page": "4410",
+  "last_page": "4414"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9947999715805054,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9947999715805054,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10648",
+   "display_name": "Virtual Reality Applications and Impacts",
+   "score": 0.9735000133514404,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1709",
+    "display_name": "Human-Computer Interaction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9695000052452087,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.733555257320404
+  },
+  {
+   "id": "https://openalex.org/keywords/soda-lime-glass",
+   "display_name": "Soda-lime glass",
+   "score": 0.5962967872619629
+  },
+  {
+   "id": "https://openalex.org/keywords/fusion",
+   "display_name": "Fusion",
+   "score": 0.49982643127441406
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-recycling",
+   "display_name": "Glass recycling",
+   "score": 0.49812984466552734
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.4877932369709015
+  },
+  {
+   "id": "https://openalex.org/keywords/ceramic",
+   "display_name": "Ceramic",
+   "score": 0.46157512068748474
+  },
+  {
+   "id": "https://openalex.org/keywords/inertial-confinement-fusion",
+   "display_name": "Inertial confinement fusion",
+   "score": 0.43769556283950806
+  },
+  {
+   "id": "https://openalex.org/keywords/casting",
+   "display_name": "Casting",
+   "score": 0.42645829916000366
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.3960636258125305
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.34858930110931396
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.12087467312812805
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.733555257320404
+  },
+  {
+   "id": "https://openalex.org/C35288751",
+   "wikidata": "https://www.wikidata.org/wiki/Q745127",
+   "display_name": "Soda-lime glass",
+   "level": 2,
+   "score": 0.5962967872619629
+  },
+  {
+   "id": "https://openalex.org/C158525013",
+   "wikidata": "https://www.wikidata.org/wiki/Q2593739",
+   "display_name": "Fusion",
+   "level": 2,
+   "score": 0.49982643127441406
+  },
+  {
+   "id": "https://openalex.org/C185903656",
+   "wikidata": "https://www.wikidata.org/wiki/Q1416361",
+   "display_name": "Glass recycling",
+   "level": 2,
+   "score": 0.49812984466552734
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.4877932369709015
+  },
+  {
+   "id": "https://openalex.org/C134132462",
+   "wikidata": "https://www.wikidata.org/wiki/Q45621",
+   "display_name": "Ceramic",
+   "level": 2,
+   "score": 0.46157512068748474
+  },
+  {
+   "id": "https://openalex.org/C107430045",
+   "wikidata": "https://www.wikidata.org/wiki/Q1364409",
+   "display_name": "Inertial confinement fusion",
+   "level": 3,
+   "score": 0.43769556283950806
+  },
+  {
+   "id": "https://openalex.org/C16635281",
+   "wikidata": "https://www.wikidata.org/wiki/Q496098",
+   "display_name": "Casting",
+   "level": 2,
+   "score": 0.42645829916000366
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.3960636258125305
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.34858930110931396
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.12087467312812805
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C41895202",
+   "wikidata": "https://www.wikidata.org/wiki/Q8162",
+   "display_name": "Linguistics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C138885662",
+   "wikidata": "https://www.wikidata.org/wiki/Q5891",
+   "display_name": "Philosophy",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1111/jace.16440",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1111/jace.16440",
+   "pdf_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jace.16440",
+   "source": {
+    "id": "https://openalex.org/S53162366",
+    "display_name": "Journal of the American Ceramic Society",
+    "issn_l": "0002-7820",
+    "issn": [
+     "0002-7820",
+     "1551-2916"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of the American Ceramic Society",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:eprints.whiterose.ac.uk:144780",
+   "is_oa": false,
+   "landing_page_url": "https://eprints.whiterose.ac.uk/144780/13/Datsiou_et_al-2019-Journal_of_the_American_Ceramic_Society.pdf",
+   "pdf_url": "https://eprints.whiterose.ac.uk/144780/13/Datsiou_et_al-2019-Journal_of_the_American_Ceramic_Society.pdf",
+   "source": {
+    "id": "https://openalex.org/S4306400854",
+    "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I2800616092",
+    "host_organization_name": "White Rose University Consortium",
+    "host_organization_lineage": [
+     "https://openalex.org/I2800616092"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "Article"
+  },
+  {
+   "id": "pmh:oai:nottingham-repository.worktribe.com:1709246",
+   "is_oa": true,
+   "landing_page_url": "https://nottingham-repository.worktribe.com/output/1709246",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402483",
+    "display_name": "Repository@Nottingham (University of Nottingham)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I142263535",
+    "host_organization_name": "University of Nottingham",
+    "host_organization_lineage": [
+     "https://openalex.org/I142263535"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "Journal Article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1111/jace.16440",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1111/jace.16440",
+  "pdf_url": "https://ceramics.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jace.16440",
+  "source": {
+   "id": "https://openalex.org/S53162366",
+   "display_name": "Journal of the American Ceramic Society",
+   "issn_l": "0002-7820",
+   "issn": [
+    "0002-7820",
+    "1551-2916"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of the American Ceramic Society",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.5299999713897705,
+   "display_name": "Industry, innovation and infrastructure"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2375882094",
+   "display_name": null,
+   "funder_award_id": "EP/P027261/1",
+   "funder_id": "https://openalex.org/F4320334627",
+   "funder_display_name": "Engineering and Physical Sciences Research Council"
+  },
+  {
+   "id": "https://openalex.org/G2468380668",
+   "display_name": "Future Additive Manufacturing Platform Grant",
+   "funder_award_id": "EP/P027261/1",
+   "funder_id": "https://openalex.org/F4320334627",
+   "funder_display_name": "Engineering and Physical Sciences Research Council"
+  },
+  {
+   "id": "https://openalex.org/G3473814776",
+   "display_name": "Customisable 3D Glass Laser-Sintered Structures, \u201c3D GLaSS\u201d",
+   "funder_award_id": "103447",
+   "funder_id": "https://openalex.org/F4320335087",
+   "funder_display_name": "Innovate UK"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320334627",
+   "display_name": "Engineering and Physical Sciences Research Council",
+   "ror": "https://ror.org/0439y7842"
+  },
+  {
+   "id": "https://openalex.org/F4320335087",
+   "display_name": "Innovate UK",
+   "ror": "https://ror.org/05ar5fy68"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W2924147730.pdf"
+ },
+ "referenced_works_count": 18,
+ "referenced_works": [
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2006359199",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2036728366",
+  "https://openalex.org/W2042256523",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2055550070",
+  "https://openalex.org/W2057722371",
+  "https://openalex.org/W2085929598",
+  "https://openalex.org/W2146167535",
+  "https://openalex.org/W2146436057",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2553771337",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2768632510",
+  "https://openalex.org/W2805505517"
+ ],
+ "related_works": [
+  "https://openalex.org/W2922229125",
+  "https://openalex.org/W4298110122",
+  "https://openalex.org/W4297186054",
+  "https://openalex.org/W2011430999",
+  "https://openalex.org/W2936007915",
+  "https://openalex.org/W3153467762",
+  "https://openalex.org/W4385668052",
+  "https://openalex.org/W4284969767",
+  "https://openalex.org/W2514176177",
+  "https://openalex.org/W3113231125"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "Its": [
+   1
+  ],
+  "transparency,": [
+   2
+  ],
+  "esthetic": [
+   3
+  ],
+  "appeal,": [
+   4
+  ],
+  "chemical": [
+   5
+  ],
+  "inertness,": [
+   6
+  ],
+  "and": [
+   7,
+   17,
+   26,
+   42,
+   75,
+   153
+  ],
+  "electrical": [
+   8
+  ],
+  "resistivity": [
+   9
+  ],
+  "make": [
+   10
+  ],
+  "glass": [
+   11,
+   32,
+   50,
+   102,
+   129,
+   152,
+   163
+  ],
+  "an": [
+   12
+  ],
+  "excellent": [
+   13
+  ],
+  "candidate": [
+   14
+  ],
+  "for": [
+   15,
+   98,
+   117,
+   147,
+   165
+  ],
+  "small\u2010": [
+   16
+  ],
+  "large\u2010scale": [
+   18
+  ],
+  "applications": [
+   19
+  ],
+  "in": [
+   20,
+   40,
+   68
+  ],
+  "the": [
+   21,
+   34,
+   65,
+   69,
+   114,
+   125,
+   148,
+   156
+  ],
+  "chemical,": [
+   22
+  ],
+  "electronics,": [
+   23
+  ],
+  "automotive,": [
+   24
+  ],
+  "aerospace,": [
+   25
+  ],
+  "architectural": [
+   27
+  ],
+  "industries.": [
+   28
+  ],
+  "Additive": [
+   29
+  ],
+  "manufacturing": [
+   30,
+   47,
+   71,
+   84,
+   150
+  ],
+  "of": [
+   31,
+   72,
+   85,
+   106,
+   127,
+   151,
+   158,
+   162,
+   169
+  ],
+  "has": [
+   33,
+   79
+  ],
+  "potential": [
+   35
+  ],
+  "to": [
+   36,
+   55,
+   112
+  ],
+  "open": [
+   37
+  ],
+  "new": [
+   38,
+   160
+  ],
+  "possibilities": [
+   39
+  ],
+  "design": [
+   41
+  ],
+  "reduce": [
+   43
+  ],
+  "costs": [
+   44
+  ],
+  "associated": [
+   45
+  ],
+  "with": [
+   46,
+   57,
+   131
+  ],
+  "complex": [
+   48,
+   128
+  ],
+  "customized": [
+   49
+  ],
+  "structures": [
+   51,
+   130,
+   164
+  ],
+  "that": [
+   52
+  ],
+  "are": [
+   53
+  ],
+  "difficult": [
+   54
+  ],
+  "shape": [
+   56
+  ],
+  "traditional": [
+   58
+  ],
+  "casting": [
+   59
+  ],
+  "or": [
+   60,
+   133
+  ],
+  "subtractive": [
+   61
+  ],
+  "methods.": [
+   62
+  ],
+  "However,": [
+   63
+  ],
+  "despite": [
+   64
+  ],
+  "significant": [
+   66
+  ],
+  "progress": [
+   67
+  ],
+  "additive": [
+   70,
+   83,
+   149
+  ],
+  "metals,": [
+   73
+  ],
+  "polymers,": [
+   74
+  ],
+  "ceramics,": [
+   76
+  ],
+  "limited": [
+   77
+  ],
+  "research": [
+   78
+  ],
+  "been": [
+   80
+  ],
+  "undertaken": [
+   81,
+   111
+  ],
+  "on": [
+   82
+  ],
+  "glass.": [
+   86
+  ],
+  "In": [
+   87
+  ],
+  "this": [
+   88
+  ],
+  "study,": [
+   89
+  ],
+  "a": [
+   90,
+   144,
+   159,
+   166
+  ],
+  "laser": [
+   91,
+   107,
+   139
+  ],
+  "powder": [
+   92,
+   103,
+   140
+  ],
+  "bed": [
+   93,
+   141
+  ],
+  "fusion": [
+   94,
+   142
+  ],
+  "method": [
+   95,
+   146
+  ],
+  "was": [
+   96,
+   110
+  ],
+  "developed": [
+   97
+  ],
+  "soda": [
+   99
+  ],
+  "lime": [
+   100
+  ],
+  "silica": [
+   101
+  ],
+  "feedstock.": [
+   104
+  ],
+  "Optimization": [
+   105
+  ],
+  "processing": [
+   108,
+   115
+  ],
+  "parameters": [
+   109
+  ],
+  "define": [
+   113
+  ],
+  "window": [
+   116
+  ],
+  "creating": [
+   118
+  ],
+  "three\u2010dimensional": [
+   119
+  ],
+  "multilayer": [
+   120
+  ],
+  "structures.": [
+   121
+  ],
+  "These": [
+   122
+  ],
+  "findings": [
+   123
+  ],
+  "enable": [
+   124
+  ],
+  "formation": [
+   126,
+   157
+  ],
+  "micro\u2010": [
+   132
+  ],
+  "macroscale": [
+   134
+  ],
+  "resolution.": [
+   135
+  ],
+  "Our": [
+   136
+  ],
+  "study": [
+   137
+  ],
+  "supports": [
+   138
+  ],
+  "as": [
+   143
+  ],
+  "promising": [
+   145
+  ],
+  "may": [
+   154
+  ],
+  "guide": [
+   155
+  ],
+  "generation": [
+   161
+  ],
+  "wide": [
+   167
+  ],
+  "range": [
+   168
+  ],
+  "applications.": [
+   170
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 14
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-04T10:56:28.161419",
+ "created_date": "2025-10-10T00:00:00"
+}

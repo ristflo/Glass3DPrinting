@@ -1,0 +1,801 @@
+{
+ "id": "https://openalex.org/W2146167535",
+ "doi": "https://doi.org/10.1007/s00170-015-8051-9",
+ "title": "Crack-free selective laser melting of silica glass: single beads and monolayers on the substrate of the same material",
+ "display_name": "Crack-free selective laser melting of silica glass: single beads and monolayers on the substrate of the same material",
+ "relevance_score": 4016.3806,
+ "publication_year": 2015,
+ "publication_date": "2015-11-09",
+ "ids": {
+  "openalex": "https://openalex.org/W2146167535",
+  "doi": "https://doi.org/10.1007/s00170-015-8051-9",
+  "mag": "2146167535"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s00170-015-8051-9",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1007/s00170-015-8051-9",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S77056576",
+   "display_name": "The International Journal of Advanced Manufacturing Technology",
+   "issn_l": "0268-3768",
+   "issn": [
+    "0268-3768",
+    "1433-3015"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "ki-jl-1",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "The International Journal of Advanced Manufacturing Technology",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5086295663",
+    "display_name": "Roman Sergeevich Khmyrov",
+    "orcid": "https://orcid.org/0000-0001-5284-9215",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5284-9215"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "R. S. Khmyrov",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+    "Moscow State University of Technology (STANKIN"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Moscow State University of Technology (STANKIN",
+     "institution_ids": [
+      "https://openalex.org/I19880235"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5069924090",
+    "display_name": "C.E. Protasov",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "C. E. Protasov",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+    "Moscow State University of Technology (STANKIN"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Moscow State University of Technology (STANKIN",
+     "institution_ids": [
+      "https://openalex.org/I19880235"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5012630849",
+    "display_name": "Sergey Nikolaevich Grigoriev",
+    "orcid": "https://orcid.org/0000-0002-8239-5354",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8239-5354",
+     "https://orcid.org/0000-0002-1760-1959"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "S. N. Grigoriev",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+    "Moscow State University of Technology (STANKIN"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Moscow State University of Technology (STANKIN",
+     "institution_ids": [
+      "https://openalex.org/I19880235"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5002618272",
+    "display_name": "Andrey Vladimirovich Gusarov",
+    "orcid": "https://orcid.org/0000-0002-8908-1737",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8908-1737"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "A. V. Gusarov",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+    "Moscow State University of Technology (STANKIN"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky per. 3a, 127055, Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Moscow State University of Technology (STANKIN",
+     "institution_ids": [
+      "https://openalex.org/I19880235"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002618272"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I19880235",
+  "https://openalex.org/I2801681975",
+  "https://openalex.org/I4210134318"
+ ],
+ "apc_list": {
+  "value": 3990,
+  "currency": "USD",
+  "value_usd": 3990
+ },
+ "apc_paid": null,
+ "fwci": 3.8565,
+ "has_fulltext": false,
+ "cited_by_count": 70,
+ "citation_normalized_percentile": {
+  "value": 0.92680954,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "85",
+  "issue": "5-8",
+  "first_page": "1461",
+  "last_page": "1469"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10705",
+  "display_name": "Additive Manufacturing Materials and Processes",
+  "score": 0.9976000189781189,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9976000189781189,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9972000122070312,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9891999959945679,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.907416820526123
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.8331117630004883
+  },
+  {
+   "id": "https://openalex.org/keywords/ceramic",
+   "display_name": "Ceramic",
+   "score": 0.6628795862197876
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.6617555618286133
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-expansion",
+   "display_name": "Thermal expansion",
+   "score": 0.6225070953369141
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.6167606711387634
+  },
+  {
+   "id": "https://openalex.org/keywords/brittleness",
+   "display_name": "Brittleness",
+   "score": 0.5926162004470825
+  },
+  {
+   "id": "https://openalex.org/keywords/substrate",
+   "display_name": "Substrate (aquarium)",
+   "score": 0.545005738735199
+  },
+  {
+   "id": "https://openalex.org/keywords/layer",
+   "display_name": "Layer (electronics)",
+   "score": 0.4913424551486969
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-power-scaling",
+   "display_name": "Laser power scaling",
+   "score": 0.4638659358024597
+  },
+  {
+   "id": "https://openalex.org/keywords/cracking",
+   "display_name": "Cracking",
+   "score": 0.4552735686302185
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-sintering",
+   "display_name": "Selective laser sintering",
+   "score": 0.43582743406295776
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.25598886609077454
+  },
+  {
+   "id": "https://openalex.org/keywords/sintering",
+   "display_name": "Sintering",
+   "score": 0.2460557222366333
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.1276647448539734
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.907416820526123
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.8331117630004883
+  },
+  {
+   "id": "https://openalex.org/C134132462",
+   "wikidata": "https://www.wikidata.org/wiki/Q45621",
+   "display_name": "Ceramic",
+   "level": 2,
+   "score": 0.6628795862197876
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.6617555618286133
+  },
+  {
+   "id": "https://openalex.org/C47463417",
+   "wikidata": "https://www.wikidata.org/wiki/Q6583695",
+   "display_name": "Thermal expansion",
+   "level": 2,
+   "score": 0.6225070953369141
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.6167606711387634
+  },
+  {
+   "id": "https://openalex.org/C136478896",
+   "wikidata": "https://www.wikidata.org/wiki/Q898288",
+   "display_name": "Brittleness",
+   "level": 2,
+   "score": 0.5926162004470825
+  },
+  {
+   "id": "https://openalex.org/C2777289219",
+   "wikidata": "https://www.wikidata.org/wiki/Q7632154",
+   "display_name": "Substrate (aquarium)",
+   "level": 2,
+   "score": 0.545005738735199
+  },
+  {
+   "id": "https://openalex.org/C2779227376",
+   "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+   "display_name": "Layer (electronics)",
+   "level": 2,
+   "score": 0.4913424551486969
+  },
+  {
+   "id": "https://openalex.org/C200649887",
+   "wikidata": "https://www.wikidata.org/wiki/Q17154544",
+   "display_name": "Laser power scaling",
+   "level": 3,
+   "score": 0.4638659358024597
+  },
+  {
+   "id": "https://openalex.org/C58396970",
+   "wikidata": "https://www.wikidata.org/wiki/Q212749",
+   "display_name": "Cracking",
+   "level": 2,
+   "score": 0.4552735686302185
+  },
+  {
+   "id": "https://openalex.org/C54237361",
+   "wikidata": "https://www.wikidata.org/wiki/Q428412",
+   "display_name": "Selective laser sintering",
+   "level": 3,
+   "score": 0.43582743406295776
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.25598886609077454
+  },
+  {
+   "id": "https://openalex.org/C2777581544",
+   "wikidata": "https://www.wikidata.org/wiki/Q844613",
+   "display_name": "Sintering",
+   "level": 2,
+   "score": 0.2460557222366333
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.1276647448539734
+  },
+  {
+   "id": "https://openalex.org/C127313418",
+   "wikidata": "https://www.wikidata.org/wiki/Q1069",
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111368507",
+   "wikidata": "https://www.wikidata.org/wiki/Q43518",
+   "display_name": "Oceanography",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/s00170-015-8051-9",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1007/s00170-015-8051-9",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S77056576",
+    "display_name": "The International Journal of Advanced Manufacturing Technology",
+    "issn_l": "0268-3768",
+    "issn": [
+     "0268-3768",
+     "1433-3015"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "ki-jl-1",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "The International Journal of Advanced Manufacturing Technology",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 24,
+ "referenced_works": [
+  "https://openalex.org/W587550128",
+  "https://openalex.org/W1970223841",
+  "https://openalex.org/W1972817828",
+  "https://openalex.org/W1984814873",
+  "https://openalex.org/W1989685619",
+  "https://openalex.org/W1994035260",
+  "https://openalex.org/W2001818340",
+  "https://openalex.org/W2006768203",
+  "https://openalex.org/W2012587336",
+  "https://openalex.org/W2018044474",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2024940286",
+  "https://openalex.org/W2040637365",
+  "https://openalex.org/W2046024468",
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2050748471",
+  "https://openalex.org/W2055912872",
+  "https://openalex.org/W2066302781",
+  "https://openalex.org/W2088606919",
+  "https://openalex.org/W2113363261",
+  "https://openalex.org/W2146436057",
+  "https://openalex.org/W2464251702",
+  "https://openalex.org/W4231932445",
+  "https://openalex.org/W4241443148"
+ ],
+ "related_works": [
+  "https://openalex.org/W3184073732",
+  "https://openalex.org/W2042307861",
+  "https://openalex.org/W2281145519",
+  "https://openalex.org/W2066900237",
+  "https://openalex.org/W3029699846",
+  "https://openalex.org/W2038831678",
+  "https://openalex.org/W2081929470",
+  "https://openalex.org/W2963143264",
+  "https://openalex.org/W2015434025",
+  "https://openalex.org/W2018699596"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 11
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 4
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

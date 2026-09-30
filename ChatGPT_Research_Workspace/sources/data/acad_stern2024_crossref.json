@@ -1,0 +1,220 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        26
+      ]
+    ],
+    "date-time": "2026-08-26T00:22:43Z",
+    "timestamp": 1787703763503,
+    "version": "build-2784847793"
+  },
+  "reference-count": 0,
+  "publisher": "Stichting OpenAccess Foundation",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ],
+        "date-time": "2024-06-16T00:00:00Z",
+        "timestamp": 1718496000000
+      },
+      "content-version": "unspecified",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "CGC"
+  ],
+  "abstract": "<jats:p> This study investigates the feasibility of 3D printing with recycled glasses, focusing on comparing viscosity characteristics and extrusion behaviors of studio soda-lime glass, recycled soda-lime container glass, and recycled float produced window glass. Employing multiple methodologies, we analyzed the temperature-viscosity curves of these glass types, providing an understanding of their thermal properties in relation to 3D printing process and applications. We employed infrared (IR) thermography to calibrate the glass printer and gain insights into the characteristics of each glass type during extrusion, contributing to a deeper understanding of their printing behavior. We discuss the potential applications of this work in various fields, such as recycled glass architecture and mass product customization. This study contextualizes the use of different glass sources for 3D printing and discusses some of the manufacturing challenges of utilizing post-consumer recycled glass. Our findings open new avenues for customized fabrication with recycled materials, paving the way for innovative and sustainable practices with a larger library of materials for 3D printing technology.</jats:p>",
+  "DOI": "10.47982/cgc.9.583",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        26
+      ]
+    ],
+    "date-time": "2026-08-26T00:01:05Z",
+    "timestamp": 1787702465000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Advancing Sustainable 3D Printing: The Feasibility of Recycled Glass as a Building Material With Additive Manufacturing"
+  ],
+  "prefix": "10.47982",
+  "volume": "9",
+  "author": [
+    {
+      "given": "Michael",
+      "family": "Stern",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Evenline"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ethan",
+      "family": "Townsend",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Evenline Inc."
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniel",
+      "family": "Massimino",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/042nb2s44",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ],
+          "name": "Massachusetts Institute of Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kaitlyn",
+      "family": "Becker",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/042nb2s44",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ],
+          "name": "Massachusetts Institute of Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "27991",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        16
+      ]
+    ]
+  },
+  "container-title": [
+    "Challenging Glass Conference Proceedings"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://proceedings.challengingglass.com/index.php/cgc/article/download/583/483",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://proceedings.challengingglass.com/index.php/cgc/article/download/583/483",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        26
+      ]
+    ],
+    "date-time": "2026-08-26T00:01:06Z",
+    "timestamp": 1787702466000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://proceedings.challengingglass.com/index.php/cgc/article/view/583"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        16
+      ]
+    ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.47982/cgc.9.583",
+  "relation": {},
+  "ISSN": [
+    "2589-8019"
+  ],
+  "issn-type": [
+    {
+      "value": "2589-8019",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        16
+      ]
+    ]
+  }
+}

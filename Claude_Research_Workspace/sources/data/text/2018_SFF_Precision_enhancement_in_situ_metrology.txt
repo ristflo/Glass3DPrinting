@@ -1,0 +1,400 @@
+PRECISION ENHANCEMENT OF 3D PRINTING VIA IN SITU METROLOGY 
+L. Li*, R. McGuan*, P. Kavehpour*, and R. N. Candler*†‡
+*Department of Mechanical and Aerospace Engineering, University of California, Los Angeles, CA  90095
+†Department of Electrical and Computer Engineering, University of California, Los Angeles, CA  90095
+‡California Nano Systems Institute, Los Angeles, CA  90095 
+rcandler@g.ucla.edu 
+Abstract 
+The field of additive manufacturing, especially 3D printing, has gained growing attention in the research 
+and commercial sectors in recent years. Notwithstanding that the capabilities of 3D printing have moved on to 
+enhanced resolution, higher deposition rate, and a wide variety of materials, the crucial challenge  of verifying 
+that the component manufactured is within the dimensional tolerance as designed continues to exist. This work 
+developed and demonstrated an approach for layer-by-layer mapping of 3D printed parts, which can be used for 
+validation of printed models and in situ adjustment of print parameters. A high-speed optical scanning system 
+was integrated with a Fused Deposition Modeling type 3D printer to scan during the print process on demands.  
+Keywords: Metrology, additive manufacturing, high-speed optical scanning, in situ validation, scan while 
+printing, geometric dimensioning and tolerating. 
+Introduction 
+Additive manufacturing (AM) has been broadly utilized to fabricate parts in free-form shapes with 
+internal cavities, which are normally not practicable or are highly priced using conventional machining 
+procedures. One of the challenges that hinders the extensive use of AM in manufacturing is that 3D printed 
+parts suffer from poor consistency of geometric dimensioning and tolerating (GD&T). In traditional 
+manufacturing industries, products are put through the requirements of the geometry specification (ISO 10303 
+[1]), tolerances (ISO 1101 [2] and ASME Y14.5 [3]), and surface finish to ensure the functionality. In 
+AM, however, the differences in the manufacturing process compared to traditional methods (e.g., build 
+direction, layer thickness, etc.) and current limitations of AM processes make it difficult to achieve and 
+maintain the specification and tolerance of complex freeform surfaces and internal functional features [4].  
+Many nondestructive (NDT) methods have been reported to evaluate the quality of additive manufactured 
+parts, including using X-ray microcomputed tomography (microCT) [5-18], thermal [19-27], acoustic [28-30], 
+image-based [31-35], and laser [36-40] sensors. MicroCT has been increasingly accepted in AM in recent years 
+to measure porosity [6, 8-11], volume density [12], dimensional accuracy [13-15], and internal structures [7, 15-
+17]. The downsides to the more extensively implement of this technique are limited part size (especially for metal 
+parts), minimum detectable pore size, and costs [5]. Although strategies for effective use of microCT have been 
+well summarized in [18], this technique can only be used for post-build analysis. Thermal sensors (like pyrometers 
+[19-23] or IR cameras [22-26]) have been used to capture thermographic images of printed object in situ to study 
+the evolution and mechanisms of porosity and deformation [27]. Acoustic method, as known as acoustic emission 
+(AE) [28] or spatially resolved acoustic spectroscopy (SRAS) [29] has been considered to be suitable for in situ 
+quality monitoring for the diagnosis of surface and near-subsurface feature [30] due to its high sensitivity to the 
+dynamic changes of mechanical systems. A sensitive acoustic emission sensor (like a fiber Bragg grating sensor) 
+was used to qualify parts with different types and concentrations of pores with a sub-layer spatial resolution [28] 
+in situ and in real time. However, thermal and acoustic techniques were only used to determine the existence and 
+classify the type of the defect but barely describe its geometric information.  
+251
+Solid Freeform Fabrication 2018: Proceedings of the 29th Annual International
+Solid Freeform Fabrication Symposium – An Additive Manufacturing Conference
+Reviewed Paper
+Image sensing systems are most broadly used for in situ real-time monitoring in AM. Three-dimensional 
+shape of the printed part can be reconstructed by: 1) extracting and stacking features from images of different 
+layers taken by a single high-speed high-resolution camera [31-33]; 2) using digital image correlation (DIC) 
+technique to calculate the surface profile (height) of each layer from images taken by two cameras [34]. Delli et 
+al. [35] reported a quality monitoring method for a Fused Deposition Modeling (FDM) or Fused Filament 
+Fabrication (FFF) type 3D printer using a single camera and a supervised machine learning method called support 
+vector machine (SVM). Images taken during printing were processed to classify the parts into ‘good’ or 
+‘defective’ category. However, images of each layer only provided limited information in 2D and it is 
+computationally expensive and time consuming to reconstruct parts with complex shapes and precise features in 
+3D. Thus, a single-camera based image sensing system is not suitable to work with a closed-loop control system 
+for real-time correction. Holzmond et al. [34] reported a “certify-as-you-build” quality assurance system which 
+can capture the geometry of parts for each printed layer using 3D-DIC and detect print errors in situ. However, 
+the major source of error also came from the 3D-DIC technique, including low correlation of images due to very 
+high reflectivity of the surface and accuracy depending on system settings (such as lighting conditions, 
+speckle/material grain pattern, focus, camera used, etc), which makes this approach not reliable for long-time 
+monitoring of AM processes with various types of materials. 
+ 
+Recently, analysis of laser-scanned 3D point cloud data has been reported by several groups for the 
+characterization of part geometric accuracy. Tootooni et al. [36] used a laser scanner (NextEngine) to scan a FDM 
+fabricated part post build and developed a spectral graph approach working with six machine learning techniques 
+(including sparse representation, k-nearest neighbors, NN, naïve Bayes, SVN, and decision tree) to classify 
+overall dimensional variation (with classification accuracy F-score > 97%) by only sampling less than 5% of 2 
+million sample points. Although this method dramatically reduces measurement time and data processing burden, 
+types of geometric deviation (e.g. direction and magnitude.) cannot be traced. Thus, Khanzadeh et al. [37] used 
+an unsupervised machine learning approach called self-organizing map to fully quantify the link between 
+geometric accuracy and AM process conditions from only 3% of the similar sets of data. However, this method 
+only associates two process parameters (extruder temperature and infill percentage) with direction and magnitude 
+of deviation. And the sampling reduction is based on the analysis of a full set of scanned data which means a test 
+part must be built and scanned for a new design. Besides, these two groups only scanned the part post build which 
+means only the geometry of the outside surface was examined. Lu et al. [38] and Sitthi-Amorn et al. [39] used 
+laser scanners to scan each finished layer and used the height profile as feedback for a closed-loop control system 
+to achieve in situ self-correction for ink-jet 3D printers. Guo et al. [40-41] developed more advanced models to 
+predict the layer height profile after deposition and mentioned that it took 3 to 5 seconds to calculate one printing 
+layer. Notwithstanding, their control-oriented models only work for droplet-based printers. 
+ 
+More recently, we have integrated a high-resolution optical scanning system with a FDM type 3D printer 
+to scan during the print process on demands. An approach for layer-by-layer mapping of 3D printed parts is 
+developed and demonstrated, which can be used for understanding the influence of a full set of factors (such as 
+printing parameters, material properties, and environmental factors) to the part quality using machine learning, 
+validation of printed objects in situ, and self-adjustments of printing process by developing and implementing a 
+real-time closed-loop control system. The main advantages of this work are that: 1) an advanced laser confocal 
+displacement sensor was used in the system to achieve sub-micron resolution of the scanned profile; 2) the optical 
+sensor was fully integrated with the 3d printer, and the scanning was executed during printing without extra post-
+processing measurement; 3) the scanning path and sampling rate can be customized to fit specific applications 
+and tune the tradeoff between scan time and resolution. 
+ 
+ 
+ 
+ 
+ 
+252
+Method 
+ 
+1. System Setup 
+ 
+The system setup is shown in Figure 1 (a). A FDM type 3D printer (System 30M, Hyrel International 
+Inc., GA, USA) with 50 µm position accuracy in the X/Y-axis and 10 µm in the Z-axis was used with a MK1-
+250 hot flow print head with 0.5 mm nozzle to print ABS filament feedstock with 1.75 mm diameter. The key 
+component of the system is a surface scanning laser confocal displacement meter (LT-9030M, Keyence 
+Corporation, IL, USA), which has a measurement range of ±1.0 mm from the reference position (30 mm below 
+the bottom of sensor) with resolution of 0.1 µm. The laser sensor is held by a custom-designed sensor holder (as 
+shown in Figure 1 (b)) which is inserted in one of the head slots of the 3D printer. Thus, the laser beam is 
+perpendicular to the building stage and is able to move during the printing process without using extra actuators. 
+The resolution of the measurement system is limited by not only the resolution of the laser sensor but also the 
+position accuracy of the printer. The Z and X/Y coordinates of the scanned surface profile were collected from 
+the laser sensor and the 3D printer correspondingly using a data acquisition board (USB 6008, National 
+Instruments, TX, USA) under the control of a LabVIEW program. 
+ 
+ 
+Figure 1 (a) A picture of the essential components of the system. (b) A zoomed in picture shows the laser sensor 
+moves in parallel with the print head during the printing/scanning process. 
+ 
+2. Scanning While Printing 
+ 
+ A schematic of the system is shown in Figure 2. The scanning process runs between printing of layers and 
+is achieved by modifying the tool path (also known as the G-code, the most widespread Computer Numerical 
+Control (CNC) programming language) of the print head. In other words, code is written to make the printer think 
+that the confocal sensor is a print head, such that all the built-in functions for print head control can be leveraged 
+for controlling the scanner. The printed filament width was 0.55 mm and each layer was 0.2 mm thick. The 
+moving velocities of the print head and the laser sensor were set at 1800 and 300 mm/min, respectively. The scan 
+path used in this work is a snaking pattern which passes by every point of intersection of a rectangular grid 
+covering the largest area in plane with both X and Y separation of 0.1 mm or 0.5 mm. A sacrificial pattern was 
+printed aside the formal part to consume and remove the redundant material that was observed to drip while the 
+print head waited during the scanning process.  Depending on the specific printer being used, this sacrificial 
+pattern may not always be required.  
+ 
+(a) 
+ (b) 
+Laser 
+Sensor 
+Holder 
+Laser Sensor Controller 
+Data Acquisition Board 
+3D Printer 
+LabVIEW Control Program 
+Laser Sensor 
+Monitor 
+ 
+Print 
+Head 
+Laser 
+Sensor 
+253
+Some approaches can be performed to reduce the current ~6:1 scan:print time ratio.  
+• Increase the moving speed of the laser sensor to as high as 1800 mm/min, which can decrease the 
+scan time to 1/6. However, the moving speed of the laser sensor is limited by the sampling rate of 
+the DAQ device and scan path separation to avoid over/undersampling issues. 
+• The laser sensor used in this work is only capable of measuring 1D displacement (Z coordinate) 
+and the moving speed in plane is slow compared to intrinsic scanning speed of more advanced 
+laser scanners. For example, to scan a 7 mm x 7 mm area with scan separation of 0.1 mm in both 
+X and Y axis, the total number of points, which the printer needs to move the laser sensor to, is 
+4900 using an 1D laser scanner (Keyence LT-9030M). And the total numbers of points are 70 
+using a 2D laser scanner (Keyence LJ-V7020 with X-axis measurement range of 7 mm) and 1 
+using a 3D laser scanner (Keyence WI-010 with XY measurement range of 10 mm x 10 mm) 
+without sacrificing resolution in Z axis. Thus, the scan time can be decreased to 1/4900 by using a 
+more advanced laser scanner. 
+• Custom design scan path to focus more on interesting features (like boundaries) and leverage the 
+resolution and time of the scanning process if overall time needs to be optimized. Symmetry of the 
+CAD model and G-code can be utilized to further reduce the scan burden. 
+ 
+ 
+Figure 2 A schematic of the system. Blue blocks show the standard workflow of AM. Orange blocks show the 
+extra work to achieve scanning while printing. 
+ 
+Initial Results 
+ 
+ Three sets of scanning while printing tests were conducted on solid parts with simple geometries, their 
+correlated hollow parts, and an object with both complicated geometry and hollow structures. 
+ 
+1. Simple Solid Parts 
+ 
+ A solid cuboid, a cylinder, a bottom half sphere, and a thin wall with characteristic lengths of 5 mm and 
+thicknesses of 3 mm were scanned after every three layers. The scanned point clouds in comparison with CAD 
+models are shown in Figure 3. The light blue points at the bottom represent the scanned surface of the adhesion 
+layer between parts and the build stage.  
+ 
+254
+Based on the comparisons, several aspects of the part geometries were not maintained during the printing 
+process. The right-angle corners of the cuboid and the thin wall were rounded due to the continuous extrusion of 
+the filaments. The side walls of all four parts were wavy due to the slightly different volumes of extrusion of the 
+filaments, various shrinkage of each printed layer and positional inaccuracy of the 3D printer. The issues worsened 
+for the half bottom sphere part with the negative side wall and the thin wall part with large aspect ratio. Some 
+undesired features beside the parts (as shown in the pictures) were from leakage of filament from the print head 
+during scanning because the sacrificial patterns were not put far enough from the scanned objects. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3 Pictures and scanned point clouds (in the top, side, and 3D views) in comparison with the 
+corresponding CAD models of the solid (a) cuboid, (b) cylinder, (c) bottom half sphere, and (d) thin wall. 
+ 
+ 
+ 
+ 
+(a) 
+(b) 
+(c) 
+(d) 
+255
+2. Simple Hollow Parts 
+  
+Parts with same outside geometries as those in the previous section were hollowed in the center and the 
+thickness of the shells left was 1.1 mm. The scanned point clouds in comparison with CAD models are shown in 
+Figure 4. The printed part shrank less where its center was hollow which led to a larger top compared to its bottom. 
+Also, the geometries of the internal structures also showed deviation from the designs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4 Pictures and scanned point clouds (in the top, side with 1.4 ≤ y ≤ 1.6, and 3D views) in comparison 
+with the corresponding CAD models of the hollow (a) cuboid, (b) cylinder, and (c) bottom half sphere. 
+ 
+3. Complicated Hollow Part 
+ 
+ A partial Kaplan turbine with a logo that rotated through the structure thickness was printed and scanned 
+every 5 layers in order to investigate a structure with complex features. The scan path separations in both X and 
+Y axis were 0.5 mm. The scanned point clouds in comparison with CAD models are shown in Figure 5. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+(b) 
+(c) 
+256
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5 Pictures and scanned point clouds in comparison with the corresponding CAD models of the 
+complicated hollow part. 
+ 
+ To get a better view of the inside structures, the scanned point cloud was sliced into four horizontal 
+planes at different heights (from top to bottom) as shown in Figure 6. 
+ 
+   
+                 
+Figure 6 Slices in the X-Y plane of the scanned point clouds of the complicated hollow part at (a) 6 ≤ z ≤ 8, (b) 
+3 ≤ z ≤ 5, (c) -1 ≤ z ≤ 1, and (d) -5 ≤ z ≤ -3. 
+ 
+ 
+(a) 
+ (b) 
+(a) 
+ (b) 
+(c) 
+ (d) 
+257
+Conclusion 
+ 
+ A high-speed optical scanning system was integrated with an FDM type 3D printer to scan during the print 
+process on demands. Four simple solid parts, three simple hollow parts, and one complicated hollow part have 
+been successfully scanned during the printing process and mapped to the corresponding model based on a layer-
+by-layer basis. This system can be applied to understand the influence of a full set of factors (such as printing 
+parameters, material properties, and environmental factors) to the part quality using machine learning, validate 
+printed objects in situ, and self-adjust the printing process by developing and implementing a real-time closed-
+loop control system.  In the future, we plan to 1) use advanced point cloud processing tools (such as Point Cloud 
+Library, The 3D Toolkit, and Point Data Abstraction Library) to fully recognize the features of different kinds of 
+defects (like gaps, curling, blobs and zits, etc.), 2) implement machine learning models to identify the relationships 
+of input factors and defect formation mechanisms, and 3) develop a real-time closed-loop control system to self-
+correct the defects in situ and realize a ‘born-as-qualified’ printing process. 
+ 
+Acknowledgments 
+ 
+ This work was supported by the Navy as part of the NEEC program, Award No. N00174-17-1-0004, 
+under the NEEC mentorship of Doug Sugg, Aaron Wiest, and Subrata Sanyal. 
+ 
+References 
+ 
+[1] ISO, S. A. H., 2006, STEP Application Handbook, SCRA, North Charleston, SC. 
+[2] ISO 1101:2012, 2012, Geometrical Product Specifications (GPS)—Geometrical Tolerancing—Tolerances 
+of Form, Orientation, Location and Run-Out, ISO, Geneva, Switzerland. 
+[3] ASME Y14.5-2009, 2009, Dimensioning and Tolerancing, ASME, New York. 
+[4] Lipman, R., Moylan, S., Witherell, P., 2015. Investigating the Role of Geometric Dimensioning and 
+Tolerancing in Additive Manufacturing.  
+[5] Thompson A, Maskery I, Leach RK. X-ray computed tomography for additive manufacturing: A review. 
+Meas Sci Technol 2016;27:072001. 
+[6] Khairallah SA, Anderson AT, Rubenchik A, et al. Laser powder-bed fusion additive manufacturing: Physics 
+of complex melt flow and formation mechanisms of pores, spatter, and denudation zones. Acta Mater 2016;108: 
+36–45. 
+[7] Grasso M, Demir AG, Previtali B, et al. In situ monitoring of selective laser melting of zinc powder via 
+infrared imaging of the process plume. Robot Comput Integr Manuf 2018;49:229–239. 
+[8] Yadroitsau I. Selective Laser Melting: Direct Manufacturing of 3D-Objects by Selective Laser Melting of 
+Metal Powders. Saarbrucken, Germany: LAP LAMBERT Academic Publishing, 2009. 
+[9] Cacace S, Demir AG, Semeraro Q. Densification mechanism for different types of stainless steel powders in 
+selective laser melting. Procedia CIRP 2017;62:475–480. 
+[10] Chen H, Wei Q, Wen S, et al. Flow behavior of powder particles in layering process of selective laser 
+melting: Numerical modeling and experimental verification based on discrete element method. Int J Mach Tools 
+Manuf 2017; 123:146–159. 
+[11] Tan JH, Wong WLE, Dalgarno KW. An overview of powder granulometry on feedstock and part 
+performance in the selective laser melting process. Addit Manuf 2017;18: 228–255. 
+25. 
+[12] du Plessis A, Meincken M, Seifert T. Quantitative determination of density and mass of polymeric 
+materials using microfocus computed tomography. J Nondestruct Eval 2013;32:413–417. 
+[13] Villarraga-Go´mez H, Lee C, Smith ST. Dimensional metrology with X-ray CT: A comparison with CMM 
+measurements on internal features and compliant structures. Precis Eng 2018;51:291–307. 
+[14] Ferrucci M, Leach RK, Giusca C, et al. Towards geo- metrical calibration of x-ray computed tomography 
+systems—A review. Meas Sci Technol 2015;26:92003. 
+258
+[15] Snyder JC, Stimpson CK, Thole KA, et al. Build direction effects on microchannel tolerance and surface 
+roughness. J Mech Des 2015;137:111411. 
+[16] Karme A, Kallonen A, Matilainen VP, et al. Possibilities of CT scanning as analysis method in laser 
+additive manufacturing. Phys Procedia 2015;78:347–356. 
+[17] Thompson A, Senin N, Maskery I, et al. Internal surface measurement of metal powder bed fusion parts. 
+Addit Manuf 2018;20:126–133. 
+[18] du Plessis, A., Yadroitsev, I., Yadroitsava, I., Le Roux, S.G., 2018. X-Ray Microcomputed Tomography in 
+Additive Manufacturing: A Review of the Current Technology and Applications. 3D Print. Addit. Manuf. 00, 
+3dp.2018.0060.  
+[19] M. Doubenskaia, A. Domashenkov, I. Smurov, Study of the laser melting of pre-deposited intermetallic 
+TiAl powder by comprehensive optical diagnostics, Surf. Coat. Technol. 321 (2017) 118–127. 
+[20] W. Devesse et al., High resolution temperature estimation during laser cladding of stainless steel, in: Laser 
+Assisted Net Shape Engineering 9 International Conference on Photonic Technologies Proceedings of the Lane 
+2016, 2016, 83, pp. 1253–1260. 
+[21] I. Smurov et al., Optical monitoring in laser cladding of Ti6Al4V, J. Therm. Spray Technol. 21 (6) (2012) 
+1357–1362. 
+[22] I. Smurov, M. Doubenskaia, A. Zaitsev, Comprehensive analysis of laser cladding by means of optical 
+diagnostics and numerical simulation, Surf. Coat. Technol. 220 (2013) 112–121. 
+[23] M. Doubenskaia et al., Complex analysis of elaboration of steel–TiC composites by direct metal 
+deposition, J. Laser Appl. 25 (4) (2013) 042009. 
+[24] H. Krauss, T. Zeugner, M.F. Zaeh, Layerwise monitoring of the selective laser melting process by 
+thermography, Phys. Proc. 56 (2014) 64–71. 
+[25] S. Moylan et al., Infrared thermography for laser-based powder bed fusion additive manufacturing 
+processes, in: 40th Annual Review of Progress in Quantitative Nondestructive Evaluation: Incorporating the 
+10th International Conference on Barkhausen Noise and Micromagnetic Testing, vols. 33a & 33b, 2014, 1581, 
+pp. 1191–1196. 
+[26] U. Hassler et al., In-situ monitoring and defect detection for laser metal deposition by using infrared 
+thermography, Phys. Proc. 83 (2016) 1244–1252. 
+[27] Yan, Z., Liu, W., Tang, Z., Liu, X., Zhang, N., Li, M., Zhang, H., 2018. Review on thermal analysis in 
+laser-based additive manufacturing. Opt. Laser Technol. 106, 427–441.  
+[28] Shevchik, S.A., Kenel, C., Leinenbach, C., Wasmer, K., 2018. Acoustic emission for in situ quality 
+monitoring in additive manufacturing using spectral convolutional neural networks. Addit. Manuf. 21, 598–604.  
+[29] Hirsch, M., Patel, R., Li, W., Guan, G., Leach, R.K., Sharples, S.D., Clare, A.T., 2017. Assessing the 
+capability of in-situ nondestructive analysis during layer based additive manufacture. Addit. Manuf. 13, 135–
+142.  
+[30] R.J. Smith, M. Hirsch, R. Patel, W. Li, A.T. Clare, S.D. Sharples, spatially resolved acoustic spectroscopy 
+for selective laser melting, J. Mater. Process. Technol. (2016). 
+[31] J. zur Jacobsm¨uhlen, S. Kleszczynski, D. Schneider, and G. Witt, “High resolution imaging for inspection 
+of laser beam melting systems,” in Instrumentation and Measurement Technology Conference (I2MTC), 2013 
+IEEE International. IEEE, 2013, pp. 707–712. 
+[32] B. Foster, E. Reutzel, A. Nassar, B. Hall, S. Brown, and C. Dickman, “Optical, layerwise monitoring of 
+powder bed fusion,” in Solid Free. Fabr. Symp. Proc, 2015, pp. 295–307. 
+[33] M. Grasso, V. Laguzza, Q. Semeraro, and B. M. Colosimo, “In-process monitoring of selective laser 
+melting: Spatial detection of defects via image data analysis,” Journal of Manufacturing Science and 
+Engineering, vol. 139, no. 5, p. 051001, 2017. 
+[34] Hammond, O., Li, X., 2017. In situ real time defect detection of 3D printed parts. Addit. Manuf. 17, 135–
+142.  
+[35] Delli, U., Chang, S., 2018. Automated Process Monitoring in 3D Printing Using Supervised Machine 
+Learning. Procedia Manuf. 26, 865–870.  
+259
+[36] Samie Tootooni, M., Dsouza, A., Donovan, R., Rao, P.K., Kong, Z. (James), Borgesen, P., 2017. 
+Classifying the Dimensional Variation in Additive Manufactured Parts From Laser-Scanned Three-Dimensional 
+Point Cloud Data Using Machine Learning Approaches. J. Manuf. Sci. Eng. 139, 091005.  
+[37] Khanzadeh, M., Rao, P., Jafari-Marandi, R., Smith, B.K., Tschopp, M.A., Bian, L., 2017. Quantifying 
+Geometric Accuracy With Unsupervised Machine Learning: Using Self-Organizing Map on Fused Filament 
+Fabrication Additive Manufacturing Parts. J. Manuf. Sci. Eng. 140, 031011.  
+[38] Lu, L., Zheng, J., Mishra, S., 2015. A layer-to-layer model and feedback control of ink-jet 3-D printing. 
+IEEE/ASME Trans. Mechatronics 20, 1056–1068.  
+[39] Sitthi-amorn, P., Lan, J., Wang, W., 2015. MultiFab: A Machine Vision Assisted Platform for Multi-
+material 3D Printing. ACM Trans. Graph. 11.  
+[40] Guo, Y., Mishra, S., 2016. A predictive control algorithm for layer-to-layer ink-jet 3D printing. Proc. Am. 
+Control Conf. 2016–July, 833–838.  
+[41] Guo, Y., Peters, J., Oomen, T., Mishra, S., 2018. Control-oriented models for ink-jet 3D printing. 
+Mechatronics 0–1.  
+ 
+260

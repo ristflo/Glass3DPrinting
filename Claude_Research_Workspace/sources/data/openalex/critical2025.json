@@ -1,0 +1,985 @@
+{
+ "id": "https://openalex.org/W4408694054",
+ "doi": "https://doi.org/10.3390/app15063414",
+ "title": "The Additive Manufacturing of Glass: A Critical Review",
+ "display_name": "The Additive Manufacturing of Glass: A Critical Review",
+ "publication_year": 2025,
+ "publication_date": "2025-03-20",
+ "ids": {
+  "openalex": "https://openalex.org/W4408694054",
+  "doi": "https://doi.org/10.3390/app15063414"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/app15063414",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/app15063414",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210205812",
+   "display_name": "Applied Sciences",
+   "issn_l": "2076-3417",
+   "issn": [
+    "2076-3417"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Applied Sciences",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.3390/app15063414",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": null,
+    "display_name": "Mackinley Shaw",
+    "orcid": "https://orcid.org/0009-0004-4052-8755"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I118347636",
+     "display_name": "Australian National University",
+     "ror": "https://ror.org/019wvm592",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I118347636"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mackinley Shaw",
+   "raw_affiliation_strings": [
+    "College of Engineering, Computing and Cybernetics, Australian National University, Canberra, ACT 2601, Australia"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0004-4052-8755",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "College of Engineering, Computing and Cybernetics, Australian National University, Canberra, ACT 2601, Australia",
+     "institution_ids": [
+      "https://openalex.org/I118347636"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5116731258",
+    "display_name": "Dylan Vlahopoulos",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I149704539",
+     "display_name": "Deakin University",
+     "ror": "https://ror.org/02czsnj07",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dylan Vlahopoulos",
+   "raw_affiliation_strings": [
+    "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia",
+     "institution_ids": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5063719937",
+    "display_name": "Clara Usma-Mansfield",
+    "orcid": "https://orcid.org/0000-0003-4438-5582"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I149704539",
+     "display_name": "Deakin University",
+     "ror": "https://ror.org/02czsnj07",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Clara Usma-Mansfield",
+   "raw_affiliation_strings": [
+    "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-4438-5582",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia",
+     "institution_ids": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5036949158",
+    "display_name": "Jeffrey Sarmiento",
+    "orcid": "https://orcid.org/0000-0003-3571-3863"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I118347636",
+     "display_name": "Australian National University",
+     "ror": "https://ror.org/019wvm592",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I118347636"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jeffrey Sarmiento",
+   "raw_affiliation_strings": [
+    "School of Art and Design, Australian National University, Canberra, ACT 2600, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Art and Design, Australian National University, Canberra, ACT 2600, Australia",
+     "institution_ids": [
+      "https://openalex.org/I118347636"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5038682160",
+    "display_name": "Roland Snooks",
+    "orcid": "https://orcid.org/0000-0002-0201-9915"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I82951845",
+     "display_name": "RMIT University",
+     "ror": "https://ror.org/04ttjf776",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Roland Snooks",
+   "raw_affiliation_strings": [
+    "School of Architecture and Urban Design, RMIT University, Melbourne, VIC 3001, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Architecture and Urban Design, RMIT University, Melbourne, VIC 3001, Australia",
+     "institution_ids": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5116731260",
+    "display_name": "Tony Koutsonikolas",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I149704539",
+     "display_name": "Deakin University",
+     "ror": "https://ror.org/02czsnj07",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tony Koutsonikolas",
+   "raw_affiliation_strings": [
+    "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia",
+     "institution_ids": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5065706557",
+    "display_name": "N. Birbilis",
+    "orcid": "https://orcid.org/0000-0002-7910-7470"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I149704539",
+     "display_name": "Deakin University",
+     "ror": "https://ror.org/02czsnj07",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Nick Birbilis",
+   "raw_affiliation_strings": [
+    "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-7910-7470",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Science, Engineering and Built Environment, Deakin University, Geelong, VIC 3220, Australia",
+     "institution_ids": [
+      "https://openalex.org/I149704539"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5065706557"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I149704539"
+ ],
+ "apc_list": {
+  "value": 2400,
+  "currency": "CHF",
+  "value_usd": 2896
+ },
+ "apc_paid": {
+  "value": 2400,
+  "currency": "CHF",
+  "value_usd": 2896
+ },
+ "fwci": 2.5825,
+ "has_fulltext": false,
+ "cited_by_count": 10,
+ "citation_normalized_percentile": {
+  "value": 0.8917211,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 91,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "15",
+  "issue": "6",
+  "first_page": "3414",
+  "last_page": "3414"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9976999759674072,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9976999759674072,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.963699996471405,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11672",
+   "display_name": "Recycling and utilization of industrial and municipal waste in materials production",
+   "score": 0.9326000213623047,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2215",
+    "display_name": "Building and Construction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.38873836398124695
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.38873836398124695
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.3390/app15063414",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/app15063414",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210205812",
+    "display_name": "Applied Sciences",
+    "issn_l": "2076-3417",
+    "issn": [
+     "2076-3417"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Applied Sciences",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:5707e2d608844e93bbd4d884dc87949f",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/5707e2d608844e93bbd4d884dc87949f",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Applied Sciences, Vol 15, Iss 6, p 3414 (2025)",
+   "raw_type": "article"
+  },
+  {
+   "id": "pmh:oai:figshare.com:article/28693511",
+   "is_oa": true,
+   "landing_page_url": "https://figshare.com/articles/journal_contribution/The_Additive_Manufacturing_of_Glass_A_Critical_Review/28693511",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4377196282",
+    "display_name": "Figshare",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I4210132348",
+    "host_organization_name": "Figshare (United Kingdom)",
+    "host_organization_lineage": [
+     "https://openalex.org/I4210132348"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Text"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/app15063414",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/app15063414",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210205812",
+   "display_name": "Applied Sciences",
+   "issn_l": "2076-3417",
+   "issn": [
+    "2076-3417"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Applied Sciences",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320320970",
+   "display_name": "Deakin University",
+   "ror": "https://ror.org/02czsnj07"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 88,
+ "referenced_works": [
+  "https://openalex.org/W1487196859",
+  "https://openalex.org/W1639495585",
+  "https://openalex.org/W1988632593",
+  "https://openalex.org/W2001515527",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2008793190",
+  "https://openalex.org/W2027082521",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2068050241",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2261489731",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2398856320",
+  "https://openalex.org/W2508388961",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2606587945",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2765743879",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2790207082",
+  "https://openalex.org/W2792900765",
+  "https://openalex.org/W2793181400",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2801033762",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2883717838",
+  "https://openalex.org/W2886906487",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2892630033",
+  "https://openalex.org/W2897994535",
+  "https://openalex.org/W2900608483",
+  "https://openalex.org/W2906426973",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2959858195",
+  "https://openalex.org/W2982673880",
+  "https://openalex.org/W2993507898",
+  "https://openalex.org/W2999729355",
+  "https://openalex.org/W3009585797",
+  "https://openalex.org/W3014113438",
+  "https://openalex.org/W3027843182",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3088073168",
+  "https://openalex.org/W3105345260",
+  "https://openalex.org/W3108266633",
+  "https://openalex.org/W3118742912",
+  "https://openalex.org/W3125966236",
+  "https://openalex.org/W3126949540",
+  "https://openalex.org/W3131534803",
+  "https://openalex.org/W3133571974",
+  "https://openalex.org/W3134904038",
+  "https://openalex.org/W3161870895",
+  "https://openalex.org/W3193231858",
+  "https://openalex.org/W3195076897",
+  "https://openalex.org/W3195210031",
+  "https://openalex.org/W3195571373",
+  "https://openalex.org/W3197644358",
+  "https://openalex.org/W3202058913",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W3211006278",
+  "https://openalex.org/W3211461576",
+  "https://openalex.org/W4205770747",
+  "https://openalex.org/W4214744287",
+  "https://openalex.org/W4214828589",
+  "https://openalex.org/W4286629043",
+  "https://openalex.org/W4292722061",
+  "https://openalex.org/W4293221272",
+  "https://openalex.org/W4297373201",
+  "https://openalex.org/W4307027212",
+  "https://openalex.org/W4308841924",
+  "https://openalex.org/W4320487118",
+  "https://openalex.org/W4324133106",
+  "https://openalex.org/W4327612772",
+  "https://openalex.org/W4361275587",
+  "https://openalex.org/W4378976128",
+  "https://openalex.org/W4382601296",
+  "https://openalex.org/W4388996518",
+  "https://openalex.org/W4393222459",
+  "https://openalex.org/W4394693265",
+  "https://openalex.org/W6750659308",
+  "https://openalex.org/W6800518245",
+  "https://openalex.org/W6908365933",
+  "https://openalex.org/W7002229594"
+ ],
+ "related_works": [
+  "https://openalex.org/W2899084033",
+  "https://openalex.org/W4404995717",
+  "https://openalex.org/W2016187641",
+  "https://openalex.org/W4404725684",
+  "https://openalex.org/W4246450666",
+  "https://openalex.org/W4388998267",
+  "https://openalex.org/W2898370298",
+  "https://openalex.org/W2137437058",
+  "https://openalex.org/W4408298383",
+  "https://openalex.org/W4408578531"
+ ],
+ "abstract_inverted_index": {
+  "This": [
+   0,
+   89
+  ],
+  "paper": [
+   1,
+   74
+  ],
+  "presents": [
+   2
+  ],
+  "a": [
+   3,
+   93
+  ],
+  "critical": [
+   4
+  ],
+  "review": [
+   5,
+   28,
+   90
+  ],
+  "of": [
+   6,
+   18,
+   61,
+   80,
+   104,
+   108,
+   115
+  ],
+  "additive": [
+   7,
+   106
+  ],
+  "manufacturing": [
+   8,
+   107
+  ],
+  "(AM)": [
+   9
+  ],
+  "techniques": [
+   10,
+   52
+  ],
+  "applied": [
+   11,
+   34
+  ],
+  "to": [
+   12,
+   35
+  ],
+  "glass,": [
+   13,
+   109
+  ],
+  "elucidating": [
+   14
+  ],
+  "the": [
+   15,
+   19,
+   58,
+   76,
+   84,
+   101,
+   105,
+   113
+  ],
+  "current": [
+   16
+  ],
+  "state": [
+   17
+  ],
+  "field": [
+   20,
+   103
+  ],
+  "and": [
+   21,
+   25,
+   50,
+   78,
+   98,
+   117
+  ],
+  "identifying": [
+   22
+  ],
+  "key": [
+   23
+  ],
+  "challenges": [
+   24
+  ],
+  "opportunities.": [
+   26
+  ],
+  "The": [
+   27,
+   73
+  ],
+  "identifies": [
+   29
+  ],
+  "various": [
+   30
+  ],
+  "AM": [
+   31
+  ],
+  "methods,": [
+   32
+  ],
+  "as": [
+   33,
+   45,
+   92
+  ],
+  "glass": [
+   36,
+   62,
+   71
+  ],
+  "fabrication": [
+   37
+  ],
+  "over": [
+   38
+  ],
+  "broad": [
+   39
+  ],
+  "length": [
+   40
+  ],
+  "scales.": [
+   41
+  ],
+  "Critical": [
+   42
+  ],
+  "aspects": [
+   43
+  ],
+  "such": [
+   44
+  ],
+  "material": [
+   46
+  ],
+  "considerations,": [
+   47
+  ],
+  "process": [
+   48
+  ],
+  "parameters,": [
+   49
+  ],
+  "postprocessing": [
+   51
+  ],
+  "are": [
+   53
+  ],
+  "presented,": [
+   54
+  ],
+  "offering": [
+   55
+  ],
+  "insights": [
+   56
+  ],
+  "into": [
+   57
+  ],
+  "evolving": [
+   59
+  ],
+  "landscape": [
+   60
+  ],
+  "AM.": [
+   63
+  ],
+  "A": [
+   64
+  ],
+  "particular": [
+   65
+  ],
+  "emphasis": [
+   66
+  ],
+  "is": [
+   67
+  ],
+  "placed": [
+   68
+  ],
+  "on": [
+   69
+  ],
+  "semi-solid": [
+   70
+  ],
+  "processing.": [
+   72
+  ],
+  "assesses": [
+   75
+  ],
+  "achievements": [
+   77
+  ],
+  "limitations": [
+   79
+  ],
+  "existing": [
+   81
+  ],
+  "methodologies,": [
+   82
+  ],
+  "paving": [
+   83
+  ],
+  "way": [
+   85
+  ],
+  "for": [
+   86,
+   95
+  ],
+  "future": [
+   87
+  ],
+  "advancements.": [
+   88
+  ],
+  "serves": [
+   91
+  ],
+  "resource": [
+   94
+  ],
+  "both": [
+   96
+  ],
+  "researchers": [
+   97
+  ],
+  "practitioners": [
+   99
+  ],
+  "in": [
+   100,
+   112
+  ],
+  "emerging": [
+   102
+  ],
+  "including": [
+   110
+  ],
+  "applications": [
+   111
+  ],
+  "domain": [
+   114
+  ],
+  "architecture": [
+   116
+  ],
+  "art.": [
+   118
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-03T10:48:47.769340",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,588 @@
+{
+ "id": "https://openalex.org/W4389001461",
+ "doi": "https://doi.org/10.1007/s40964-023-00537-1",
+ "title": "Regolith sintering and 3D printing for lunar construction: An extensive review on recent progress",
+ "display_name": "Regolith sintering and 3D printing for lunar construction: An extensive review on recent progress",
+ "publication_year": 2023,
+ "publication_date": "2023-11-25",
+ "ids": {
+  "openalex": "https://openalex.org/W4389001461",
+  "doi": "https://doi.org/10.1007/s40964-023-00537-1"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s40964-023-00537-1",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1007/s40964-023-00537-1",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210206835",
+   "display_name": "Progress in Additive Manufacturing",
+   "issn_l": "2363-9512",
+   "issn": [
+    "2363-9512",
+    "2363-9520"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Progress in Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5091983461",
+    "display_name": "Muhammad Shazwan Suhaizan",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I82951845",
+     "display_name": "RMIT University",
+     "ror": "https://ror.org/04ttjf776",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Muhammad Shazwan Suhaizan",
+   "raw_affiliation_strings": [
+    "School of Engineering, RMIT University, Melbourne, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Engineering, RMIT University, Melbourne, Australia",
+     "institution_ids": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5063263505",
+    "display_name": "Phuong Tran",
+    "orcid": "https://orcid.org/0000-0003-1747-5195",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1747-5195"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I82951845",
+     "display_name": "RMIT University",
+     "ror": "https://ror.org/04ttjf776",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Phuong Tran",
+   "raw_affiliation_strings": [
+    "School of Engineering, RMIT University, Melbourne, Australia"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-1747-5195",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Engineering, RMIT University, Melbourne, Australia",
+     "institution_ids": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5103092886",
+    "display_name": "Ash Exner",
+    "orcid": "https://orcid.org/0009-0009-7304-1050",
+    "observed_orcids": [
+     "https://orcid.org/0009-0009-7304-1050"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I82951845",
+     "display_name": "RMIT University",
+     "ror": "https://ror.org/04ttjf776",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ash Exner",
+   "raw_affiliation_strings": [
+    "School of Engineering, RMIT University, Melbourne, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Engineering, RMIT University, Melbourne, Australia",
+     "institution_ids": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5010540977",
+    "display_name": "Brian George Falzon",
+    "orcid": "https://orcid.org/0000-0002-3613-2924",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3613-2924"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I82951845",
+     "display_name": "RMIT University",
+     "ror": "https://ror.org/04ttjf776",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Brian G. Falzon",
+   "raw_affiliation_strings": [
+    "School of Engineering, RMIT University, Melbourne, Australia",
+    "Space Industry Hub, RMIT University, Melbourne, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Engineering, RMIT University, Melbourne, Australia",
+     "institution_ids": [
+      "https://openalex.org/I82951845"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Space Industry Hub, RMIT University, Melbourne, Australia",
+     "institution_ids": [
+      "https://openalex.org/I82951845"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5063263505"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I82951845"
+ ],
+ "apc_list": {
+  "value": 3090,
+  "currency": "USD",
+  "value_usd": 3090
+ },
+ "apc_paid": null,
+ "fwci": 6.133,
+ "has_fulltext": false,
+ "cited_by_count": 47,
+ "citation_normalized_percentile": {
+  "value": 0.97462502,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 97,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "9",
+  "issue": "6",
+  "first_page": "1715",
+  "last_page": "1736"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10406",
+  "display_name": "Planetary Science and Exploration",
+  "score": 0.9998000264167786,
+  "subfield": {
+   "id": "https://openalex.org/subfields/3103",
+   "display_name": "Astronomy and Astrophysics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/31",
+   "display_name": "Physics and Astronomy"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10406",
+   "display_name": "Planetary Science and Exploration",
+   "score": 0.9998000264167786,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3103",
+    "display_name": "Astronomy and Astrophysics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9764000177383423,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10325",
+   "display_name": "Astro and Planetary Science",
+   "score": 0.9750000238418579,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3103",
+    "display_name": "Astronomy and Astrophysics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/regolith",
+   "display_name": "Regolith",
+   "score": 0.8885998129844666
+  },
+  {
+   "id": "https://openalex.org/keywords/astrobiology",
+   "display_name": "Astrobiology",
+   "score": 0.5450527667999268
+  },
+  {
+   "id": "https://openalex.org/keywords/resource",
+   "display_name": "Resource (disambiguation)",
+   "score": 0.4580693244934082
+  },
+  {
+   "id": "https://openalex.org/keywords/environmental-science",
+   "display_name": "Environmental science",
+   "score": 0.3844507336616516
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.22731319069862366
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C41642174",
+   "wikidata": "https://www.wikidata.org/wiki/Q106551",
+   "display_name": "Regolith",
+   "level": 2,
+   "score": 0.8885998129844666
+  },
+  {
+   "id": "https://openalex.org/C87355193",
+   "wikidata": "https://www.wikidata.org/wiki/Q411",
+   "display_name": "Astrobiology",
+   "level": 1,
+   "score": 0.5450527667999268
+  },
+  {
+   "id": "https://openalex.org/C206345919",
+   "wikidata": "https://www.wikidata.org/wiki/Q20380951",
+   "display_name": "Resource (disambiguation)",
+   "level": 2,
+   "score": 0.4580693244934082
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.3844507336616516
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.22731319069862366
+  },
+  {
+   "id": "https://openalex.org/C31258907",
+   "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+   "display_name": "Computer network",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/s40964-023-00537-1",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1007/s40964-023-00537-1",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210206835",
+    "display_name": "Progress in Additive Manufacturing",
+    "issn_l": "2363-9512",
+    "issn": [
+     "2363-9512",
+     "2363-9520"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Progress in Additive Manufacturing",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 0.6399999856948853,
+   "id": "https://metadata.un.org/sdg/9",
+   "display_name": "Industry, innovation and infrastructure"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 80,
+ "referenced_works": [
+  "https://openalex.org/W80522790",
+  "https://openalex.org/W590555141",
+  "https://openalex.org/W790259222",
+  "https://openalex.org/W1652069810",
+  "https://openalex.org/W1968919655",
+  "https://openalex.org/W1980520839",
+  "https://openalex.org/W1980644267",
+  "https://openalex.org/W1984025219",
+  "https://openalex.org/W1998247299",
+  "https://openalex.org/W2006198365",
+  "https://openalex.org/W2009668451",
+  "https://openalex.org/W2009705514",
+  "https://openalex.org/W2016387398",
+  "https://openalex.org/W2019389126",
+  "https://openalex.org/W2036344618",
+  "https://openalex.org/W2052345816",
+  "https://openalex.org/W2071619825",
+  "https://openalex.org/W2078638817",
+  "https://openalex.org/W2085765597",
+  "https://openalex.org/W2100840267",
+  "https://openalex.org/W2102352651",
+  "https://openalex.org/W2130522179",
+  "https://openalex.org/W2137116236",
+  "https://openalex.org/W2150242726",
+  "https://openalex.org/W2154647876",
+  "https://openalex.org/W2156485528",
+  "https://openalex.org/W2157887008",
+  "https://openalex.org/W2164761392",
+  "https://openalex.org/W2165069602",
+  "https://openalex.org/W2168016124",
+  "https://openalex.org/W2313589944",
+  "https://openalex.org/W2329638319",
+  "https://openalex.org/W2344931141",
+  "https://openalex.org/W2406059035",
+  "https://openalex.org/W2549461886",
+  "https://openalex.org/W2554314500",
+  "https://openalex.org/W2560418171",
+  "https://openalex.org/W2578132777",
+  "https://openalex.org/W2586114546",
+  "https://openalex.org/W2603070289",
+  "https://openalex.org/W2740647776",
+  "https://openalex.org/W2754067471",
+  "https://openalex.org/W2767052624",
+  "https://openalex.org/W2767762995",
+  "https://openalex.org/W2789815288",
+  "https://openalex.org/W2804726267",
+  "https://openalex.org/W2888551523",
+  "https://openalex.org/W2894235935",
+  "https://openalex.org/W2899846935",
+  "https://openalex.org/W2910446191",
+  "https://openalex.org/W2912237658",
+  "https://openalex.org/W2944124203",
+  "https://openalex.org/W2949936171",
+  "https://openalex.org/W2953665134",
+  "https://openalex.org/W2966875583",
+  "https://openalex.org/W2969352253",
+  "https://openalex.org/W2972456804",
+  "https://openalex.org/W2973499715",
+  "https://openalex.org/W2974598463",
+  "https://openalex.org/W3007065341",
+  "https://openalex.org/W3013624939",
+  "https://openalex.org/W3016827461",
+  "https://openalex.org/W3045141074",
+  "https://openalex.org/W3086524031",
+  "https://openalex.org/W3093423018",
+  "https://openalex.org/W3119030791",
+  "https://openalex.org/W3121289889",
+  "https://openalex.org/W3138299222",
+  "https://openalex.org/W3164951865",
+  "https://openalex.org/W3176280739",
+  "https://openalex.org/W3182049352",
+  "https://openalex.org/W3187638421",
+  "https://openalex.org/W3202252921",
+  "https://openalex.org/W3206834148",
+  "https://openalex.org/W4210376030",
+  "https://openalex.org/W4211191043",
+  "https://openalex.org/W4240271199",
+  "https://openalex.org/W4280561658",
+  "https://openalex.org/W4295185265",
+  "https://openalex.org/W4296849163"
+ ],
+ "related_works": [
+  "https://openalex.org/W2571294249",
+  "https://openalex.org/W3185798965",
+  "https://openalex.org/W1637106687",
+  "https://openalex.org/W78712143",
+  "https://openalex.org/W4387702593",
+  "https://openalex.org/W2138333790",
+  "https://openalex.org/W4234533497",
+  "https://openalex.org/W4313509445",
+  "https://openalex.org/W3176132711",
+  "https://openalex.org/W4378740262"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 18
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 24
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 5
+  }
+ ],
+ "updated_date": "2026-09-23T05:00:35.095934",
+ "created_date": "2025-10-10T00:00:00"
+}

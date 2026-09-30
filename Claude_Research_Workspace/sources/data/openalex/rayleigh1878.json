@@ -1,0 +1,541 @@
+{
+ "id": "https://openalex.org/W2153927649",
+ "doi": "https://doi.org/10.1112/plms/s1-10.1.4",
+ "title": "On The Instability Of Jets",
+ "display_name": "On The Instability Of Jets",
+ "publication_year": 1878,
+ "publication_date": "1878-11-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2153927649",
+  "doi": "https://doi.org/10.1112/plms/s1-10.1.4",
+  "mag": "2153927649"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1112/plms/s1-10.1.4",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1112/plms/s1-10.1.4",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1112/plms/s1-10.1.4",
+  "source": {
+   "id": "https://openalex.org/S2898222998",
+   "display_name": "Proceedings of the London Mathematical Society",
+   "issn_l": "0024-6115",
+   "issn": [
+    "0024-6115",
+    "1460-244X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the London Mathematical Society",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "bronze",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1112/plms/s1-10.1.4",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5103608189",
+    "display_name": "Lord Rayleigh",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Lord Rayleigh",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5103608189"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": {
+  "value": 4700,
+  "currency": "USD",
+  "value_usd": 4700
+ },
+ "apc_paid": null,
+ "fwci": 0.0,
+ "has_fulltext": true,
+ "cited_by_count": 3061,
+ "citation_normalized_percentile": {
+  "value": 0.47798742,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "s1-10",
+  "issue": "1",
+  "first_page": "4",
+  "last_page": "13"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10360",
+  "display_name": "Fluid Dynamics and Turbulent Flows",
+  "score": 0.3239000141620636,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2206",
+   "display_name": "Computational Mechanics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10360",
+   "display_name": "Fluid Dynamics and Turbulent Flows",
+   "score": 0.3239000141620636,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12472",
+   "display_name": "Plant responses to water stress",
+   "score": 0.2793000042438507,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1110",
+    "display_name": "Plant Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/11",
+    "display_name": "Agricultural and Biological Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/citation",
+   "display_name": "Citation",
+   "score": 0.7111001014709473
+  },
+  {
+   "id": "https://openalex.org/keywords/instability",
+   "display_name": "Instability",
+   "score": 0.5197041630744934
+  },
+  {
+   "id": "https://openalex.org/keywords/rayleigh-scattering",
+   "display_name": "Rayleigh scattering",
+   "score": 0.5118740797042847
+  },
+  {
+   "id": "https://openalex.org/keywords/rayleigh\u2013taylor-instability",
+   "display_name": "Rayleigh\u2013Taylor instability",
+   "score": 0.4842112064361572
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.38280749320983887
+  },
+  {
+   "id": "https://openalex.org/keywords/combinatorics",
+   "display_name": "Combinatorics",
+   "score": 0.3610725402832031
+  },
+  {
+   "id": "https://openalex.org/keywords/information-retrieval",
+   "display_name": "Information retrieval",
+   "score": 0.3547248840332031
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.3403582274913788
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.28689274191856384
+  },
+  {
+   "id": "https://openalex.org/keywords/library-science",
+   "display_name": "Library science",
+   "score": 0.2512510418891907
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanics",
+   "display_name": "Mechanics",
+   "score": 0.0949525535106659
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.059585005044937134
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2778805511",
+   "wikidata": "https://www.wikidata.org/wiki/Q1713",
+   "display_name": "Citation",
+   "level": 2,
+   "score": 0.7111001014709473
+  },
+  {
+   "id": "https://openalex.org/C207821765",
+   "wikidata": "https://www.wikidata.org/wiki/Q405372",
+   "display_name": "Instability",
+   "level": 2,
+   "score": 0.5197041630744934
+  },
+  {
+   "id": "https://openalex.org/C46244369",
+   "wikidata": "https://www.wikidata.org/wiki/Q193709",
+   "display_name": "Rayleigh scattering",
+   "level": 2,
+   "score": 0.5118740797042847
+  },
+  {
+   "id": "https://openalex.org/C2916875",
+   "wikidata": "https://www.wikidata.org/wiki/Q899055",
+   "display_name": "Rayleigh\u2013Taylor instability",
+   "level": 3,
+   "score": 0.4842112064361572
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.38280749320983887
+  },
+  {
+   "id": "https://openalex.org/C114614502",
+   "wikidata": "https://www.wikidata.org/wiki/Q76592",
+   "display_name": "Combinatorics",
+   "level": 1,
+   "score": 0.3610725402832031
+  },
+  {
+   "id": "https://openalex.org/C23123220",
+   "wikidata": "https://www.wikidata.org/wiki/Q816826",
+   "display_name": "Information retrieval",
+   "level": 1,
+   "score": 0.3547248840332031
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.3403582274913788
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.28689274191856384
+  },
+  {
+   "id": "https://openalex.org/C161191863",
+   "wikidata": "https://www.wikidata.org/wiki/Q199655",
+   "display_name": "Library science",
+   "level": 1,
+   "score": 0.2512510418891907
+  },
+  {
+   "id": "https://openalex.org/C57879066",
+   "wikidata": "https://www.wikidata.org/wiki/Q41217",
+   "display_name": "Mechanics",
+   "level": 1,
+   "score": 0.0949525535106659
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.059585005044937134
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1112/plms/s1-10.1.4",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1112/plms/s1-10.1.4",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1112/plms/s1-10.1.4",
+   "source": {
+    "id": "https://openalex.org/S2898222998",
+    "display_name": "Proceedings of the London Mathematical Society",
+    "issn_l": "0024-6115",
+    "issn": [
+     "0024-6115",
+     "1460-244X"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the London Mathematical Society",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:zenodo.org:2095384",
+   "is_oa": true,
+   "landing_page_url": "https://zenodo.org/record/2095384",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400562",
+    "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I67311998",
+    "host_organization_name": "European Organization for Nuclear Research",
+    "host_organization_lineage": [
+     "https://openalex.org/I67311998"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "public-domain",
+   "license_id": "https://openalex.org/licenses/public-domain",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1112/plms/s1-10.1.4",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1112/plms/s1-10.1.4",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1112/plms/s1-10.1.4",
+  "source": {
+   "id": "https://openalex.org/S2898222998",
+   "display_name": "Proceedings of the London Mathematical Society",
+   "issn_l": "0024-6115",
+   "issn": [
+    "0024-6115",
+    "1460-244X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the London Mathematical Society",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/4",
+   "score": 0.5099999904632568,
+   "display_name": "Quality Education"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W2153927649.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W2153927649.grobid-xml"
+ },
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W2123515573",
+  "https://openalex.org/W4386113314",
+  "https://openalex.org/W2357825302",
+  "https://openalex.org/W2276655801",
+  "https://openalex.org/W2183922057",
+  "https://openalex.org/W2085982701",
+  "https://openalex.org/W55175148",
+  "https://openalex.org/W2087785412",
+  "https://openalex.org/W2020643677",
+  "https://openalex.org/W2019450749"
+ ],
+ "abstract_inverted_index": {
+  "%Lord": [
+   0
+  ],
+  "Bayleigh": [
+   1
+  ],
+  "on": [
+   2
+  ],
+  "the": [
+   3
+  ],
+  "[Nov": [
+   4
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 85
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 114
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 125
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 118
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 134
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 147
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 129
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 141
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 131
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 135
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 124
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 115
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 113
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 92
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 105
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

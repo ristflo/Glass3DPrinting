@@ -1,0 +1,1221 @@
+{
+ "id": "https://openalex.org/W4308431151",
+ "doi": "https://doi.org/10.1089/3dp.2022.0137",
+ "title": "Efficient Fabrication of Quartz Glass Using Laser Coaxial Powder-Fed Additive Manufacturing Approach",
+ "display_name": "Efficient Fabrication of Quartz Glass Using Laser Coaxial Powder-Fed Additive Manufacturing Approach",
+ "publication_year": 2022,
+ "publication_date": "2022-11-07",
+ "ids": {
+  "openalex": "https://openalex.org/W4308431151",
+  "doi": "https://doi.org/10.1089/3dp.2022.0137",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/38689901"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1089/3dp.2022.0137",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1089/3dp.2022.0137",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210174904",
+   "display_name": "3D Printing and Additive Manufacturing",
+   "issn_l": "2329-7662",
+   "issn": [
+    "2329-7662",
+    "2329-7670"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310320443",
+   "host_organization_name": "Mary Ann Liebert, Inc.",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320443",
+    "https://openalex.org/P4310320017"
+   ],
+   "host_organization_lineage_names": [
+    "Mary Ann Liebert, Inc.",
+    "SAGE Publishing"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "3D Printing and Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11057532/pdf/3dp.2022.0137.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5103031644",
+    "display_name": "Ming Lang",
+    "orcid": "https://orcid.org/0000-0002-6986-526X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210165038",
+     "display_name": "University of Chinese Academy of Sciences",
+     "ror": "https://ror.org/05qbk4x57",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ming Lang",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+    "University of Chinese Academy of Sciences, Beijing, P.R. China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6986-526X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5013858669",
+    "display_name": "Xiao-Li Ruan",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Xiao-Li Ruan",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5112660472",
+    "display_name": "Chong He",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chong He",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100434672",
+    "display_name": "Zhiqiang Chen",
+    "orcid": "https://orcid.org/0000-0003-0242-6577"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zhi-Qiang Chen",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5072269262",
+    "display_name": "Tao Xu",
+    "orcid": "https://orcid.org/0000-0002-4228-4895"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tao Xu",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100356594",
+    "display_name": "Haibin Zhang",
+    "orcid": "https://orcid.org/0000-0003-4086-3823"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hai-Bin Zhang",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": null,
+    "display_name": "Yun-Tao Cheng",
+    "orcid": "https://orcid.org/0000-0002-2718-7464"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Yun-Tao Cheng",
+   "raw_affiliation_strings": [
+    "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-2718-7464",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I4210128284"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.434,
+ "has_fulltext": true,
+ "cited_by_count": 6,
+ "citation_normalized_percentile": {
+  "value": 0.52536005,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 97
+ },
+ "biblio": {
+  "volume": "11",
+  "issue": "2",
+  "first_page": "655",
+  "last_page": "665"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10705",
+  "display_name": "Additive Manufacturing Materials and Processes",
+  "score": 0.9994000196456909,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9994000196456909,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9983999729156494,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9596999883651733,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/quartz",
+   "display_name": "Quartz",
+   "score": 0.8751708269119263
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.8021093606948853
+  },
+  {
+   "id": "https://openalex.org/keywords/coaxial",
+   "display_name": "Coaxial",
+   "score": 0.6672577857971191
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.6609280705451965
+  },
+  {
+   "id": "https://openalex.org/keywords/fused-quartz",
+   "display_name": "Fused quartz",
+   "score": 0.622835099697113
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.6094058752059937
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.5711635947227478
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.5579050183296204
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.4671074151992798
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal",
+   "display_name": "Thermal",
+   "score": 0.42950159311294556
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.2973378598690033
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.10804378986358643
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779870107",
+   "wikidata": "https://www.wikidata.org/wiki/Q43010",
+   "display_name": "Quartz",
+   "level": 2,
+   "score": 0.8751708269119263
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.8021093606948853
+  },
+  {
+   "id": "https://openalex.org/C51221625",
+   "wikidata": "https://www.wikidata.org/wiki/Q1751466",
+   "display_name": "Coaxial",
+   "level": 2,
+   "score": 0.6672577857971191
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.6609280705451965
+  },
+  {
+   "id": "https://openalex.org/C2779441425",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Fused quartz",
+   "level": 3,
+   "score": 0.622835099697113
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.6094058752059937
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.5711635947227478
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.5579050183296204
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.4671074151992798
+  },
+  {
+   "id": "https://openalex.org/C204530211",
+   "wikidata": "https://www.wikidata.org/wiki/Q752823",
+   "display_name": "Thermal",
+   "level": 2,
+   "score": 0.42950159311294556
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.2973378598690033
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.10804378986358643
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C153294291",
+   "wikidata": "https://www.wikidata.org/wiki/Q25261",
+   "display_name": "Meteorology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.1089/3dp.2022.0137",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1089/3dp.2022.0137",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210174904",
+    "display_name": "3D Printing and Additive Manufacturing",
+    "issn_l": "2329-7662",
+    "issn": [
+     "2329-7662",
+     "2329-7670"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310320443",
+    "host_organization_name": "Mary Ann Liebert, Inc.",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320443",
+     "https://openalex.org/P4310320017"
+    ],
+    "host_organization_lineage_names": [
+     "Mary Ann Liebert, Inc.",
+     "SAGE Publishing"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "3D Printing and Additive Manufacturing",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:38689901",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38689901",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "3D printing and additive manufacturing",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:europepmc.org:10767450",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11057532",
+   "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11057532/pdf/3dp.2022.0137.pdf",
+   "source": {
+    "id": "https://openalex.org/S4306400806",
+    "display_name": "Europe PMC (PubMed Central)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1303153112",
+    "host_organization_name": "European Bioinformatics Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/I1303153112"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:11057532",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11057532",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "3D Print Addit Manuf",
+   "raw_type": "Text"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:europepmc.org:10767450",
+  "is_oa": true,
+  "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11057532",
+  "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11057532/pdf/3dp.2022.0137.pdf",
+  "source": {
+   "id": "https://openalex.org/S4306400806",
+   "display_name": "Europe PMC (PubMed Central)",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": "https://openalex.org/I1303153112",
+   "host_organization_name": "European Bioinformatics Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/I1303153112"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": null,
+  "raw_type": "Text"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.5199999809265137
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4308431151.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4308431151.grobid-xml"
+ },
+ "referenced_works_count": 34,
+ "referenced_works": [
+  "https://openalex.org/W1984937435",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2098459033",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2553343222",
+  "https://openalex.org/W2564813127",
+  "https://openalex.org/W2590172821",
+  "https://openalex.org/W2595827090",
+  "https://openalex.org/W2601356813",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2799619960",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2888707004",
+  "https://openalex.org/W2890926643",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2906426973",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W3005060727",
+  "https://openalex.org/W3087188450",
+  "https://openalex.org/W3090120030",
+  "https://openalex.org/W3093210795",
+  "https://openalex.org/W3096139204",
+  "https://openalex.org/W3127651791",
+  "https://openalex.org/W3133513309",
+  "https://openalex.org/W3134493939",
+  "https://openalex.org/W3134643057",
+  "https://openalex.org/W3134904038",
+  "https://openalex.org/W3135450136"
+ ],
+ "related_works": [
+  "https://openalex.org/W2324063386",
+  "https://openalex.org/W3210380514",
+  "https://openalex.org/W4310525441",
+  "https://openalex.org/W4309764928",
+  "https://openalex.org/W2101369562",
+  "https://openalex.org/W2091378077",
+  "https://openalex.org/W4310123716",
+  "https://openalex.org/W2087176794",
+  "https://openalex.org/W2163971243",
+  "https://openalex.org/W2050653091"
+ ],
+ "abstract_inverted_index": {
+  "This": [
+   0
+  ],
+  "article": [
+   1
+  ],
+  "investigates": [
+   2
+  ],
+  "a": [
+   3
+  ],
+  "laser-directed": [
+   4
+  ],
+  "energy": [
+   5
+  ],
+  "deposition": [
+   6,
+   25,
+   28
+  ],
+  "additive": [
+   7
+  ],
+  "manufacturing": [
+   8
+  ],
+  "(AM)": [
+   9
+  ],
+  "method,": [
+   10
+  ],
+  "based": [
+   11,
+   112
+  ],
+  "on": [
+   12,
+   113
+  ],
+  "coaxial": [
+   13,
+   34,
+   114
+  ],
+  "powder": [
+   14,
+   35,
+   115
+  ],
+  "feeding,": [
+   15
+  ],
+  "for": [
+   16,
+   135
+  ],
+  "preparing": [
+   17
+  ],
+  "quartz": [
+   18,
+   61,
+   75,
+   87,
+   119,
+   129
+  ],
+  "glass.": [
+   19
+  ],
+  "Through": [
+   20
+  ],
+  "synergistic": [
+   21
+  ],
+  "optimization": [
+   22
+  ],
+  "of": [
+   23,
+   32,
+   48,
+   58,
+   74,
+   84
+  ],
+  "line": [
+   24
+  ],
+  "and": [
+   26,
+   46,
+   124,
+   138
+  ],
+  "plane": [
+   27
+  ],
+  "experiments,": [
+   29
+  ],
+  "key": [
+   30
+  ],
+  "parameters": [
+   31
+  ],
+  "laser": [
+   33,
+   107
+  ],
+  "feeding": [
+   36,
+   116
+  ],
+  "AM": [
+   37,
+   108
+  ],
+  "were": [
+   38,
+   52,
+   90
+  ],
+  "identified.": [
+   39
+  ],
+  "The": [
+   40,
+   54,
+   81,
+   99
+  ],
+  "corresponding": [
+   41
+  ],
+  "mechanical": [
+   42,
+   56
+  ],
+  "properties,": [
+   43,
+   45
+  ],
+  "thermal": [
+   44,
+   82
+  ],
+  "microstructure": [
+   47
+  ],
+  "the": [
+   49,
+   59,
+   85
+  ],
+  "bulk": [
+   50
+  ],
+  "parts": [
+   51
+  ],
+  "analyzed.": [
+   53
+  ],
+  "maximum": [
+   55
+  ],
+  "strength": [
+   57
+  ],
+  "obtained": [
+   60,
+   86
+  ],
+  "glass": [
+   62,
+   76,
+   88,
+   120,
+   130
+  ],
+  "element": [
+   63,
+   89
+  ],
+  "reached": [
+   64
+  ],
+  "72.36": [
+   65
+  ],
+  "\u00b1": [
+   66
+  ],
+  "5.98": [
+   67
+  ],
+  "MPa,": [
+   68
+  ],
+  "which": [
+   69
+  ],
+  "is": [
+   70,
+   111
+  ],
+  "ca.": [
+   71
+  ],
+  "95%": [
+   72
+  ],
+  "that": [
+   73,
+   103,
+   110
+  ],
+  "prepared": [
+   77,
+   95
+  ],
+  "by": [
+   78,
+   96
+  ],
+  "traditional": [
+   79,
+   97
+  ],
+  "methods.": [
+   80,
+   98
+  ],
+  "properties": [
+   83
+  ],
+  "also": [
+   91
+  ],
+  "close": [
+   92
+  ],
+  "to": [
+   93,
+   117
+  ],
+  "those": [
+   94
+  ],
+  "present": [
+   100
+  ],
+  "research": [
+   101
+  ],
+  "indicates": [
+   102
+  ],
+  "one": [
+   104
+  ],
+  "can": [
+   105
+  ],
+  "use": [
+   106
+  ],
+  "technology": [
+   109
+  ],
+  "form": [
+   118
+  ],
+  "with": [
+   121
+  ],
+  "high": [
+   122
+  ],
+  "density": [
+   123
+  ],
+  "good": [
+   125
+  ],
+  "thermodynamic": [
+   126
+  ],
+  "properties.": [
+   127
+  ],
+  "Such": [
+   128
+  ],
+  "has": [
+   131
+  ],
+  "substantial": [
+   132
+  ],
+  "potential": [
+   133
+  ],
+  "in,": [
+   134
+  ],
+  "example,": [
+   136
+  ],
+  "optics": [
+   137
+  ],
+  "biomedicine.": [
+   139
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-09T07:26:56.047234",
+ "created_date": "2025-10-10T00:00:00"
+}

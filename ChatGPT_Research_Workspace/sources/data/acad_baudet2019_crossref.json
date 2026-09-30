@@ -1,0 +1,790 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T12:27:35Z",
+    "timestamp": 1790252855738,
+    "version": "4.1.0"
+  },
+  "reference-count": 42,
+  "publisher": "Optica Publishing Group",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            18
+          ]
+        ],
+        "date-time": "2019-04-18T00:00:00Z",
+        "timestamp": 1555545600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.1364/OA_License_v1#VOR-OA"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            18
+          ]
+        ],
+        "date-time": "2019-04-18T00:00:00Z",
+        "timestamp": 1555545600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100002784",
+      "name": "Canada Excellence Research Chairs, Government of Canada",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100002784",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000038",
+      "name": "Natural Sciences and Engineering Research Council of Canada",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100000038",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000196",
+      "name": "Canada Foundation for Innovation",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100000196",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003151",
+      "name": "Fonds de Recherche du Québec - Nature et Technologies",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100003151",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.osapublishing.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Opt. Mater. Express"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2019,
+        5,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1364/ome.9.002307",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2019,
+        4,
+        18
+      ]
+    ],
+    "date-time": "2019-04-18T08:59:57Z",
+    "timestamp": 1555577997000
+  },
+  "page": "2307",
+  "update-policy": "https://doi.org/10.1364/osa_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 56,
+  "title": [
+    "3D-printing of arsenic sulfide chalcogenide glasses"
+  ],
+  "prefix": "10.1364",
+  "volume": "9",
+  "author": [
+    {
+      "given": "E.",
+      "family": "Baudet",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Y.",
+      "family": "Ledemi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "P.",
+      "family": "Larochelle",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Morency",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Y.",
+      "family": "Messaddeq",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "285",
+  "published-online": {
+    "date-parts": [
+      [
+        2019,
+        4,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ome-9-5-2307-R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "336",
+      "DOI": "10.1038/nmat1889",
+      "volume": "6",
+      "author": "Abouraddy",
+      "year": "2007",
+      "journal-title": "Nat. Mater."
+    },
+    {
+      "key": "ome-9-5-2307-R2",
+      "doi-asserted-by": "crossref",
+      "first-page": "13",
+      "DOI": "10.1002/adom.201500319",
+      "volume": "4",
+      "author": "Schmidt",
+      "year": "2016",
+      "journal-title": "Adv. Opt. Mater."
+    },
+    {
+      "key": "ome-9-5-2307-R3",
+      "doi-asserted-by": "crossref",
+      "first-page": "349",
+      "DOI": "10.1111/ijag.12007",
+      "volume": "3",
+      "author": "Tao",
+      "year": "2012",
+      "journal-title": "Int. J. Appl. Glass Sci."
+    },
+    {
+      "key": "ome-9-5-2307-R4",
+      "first-page": "432",
+      "volume": "14",
+      "author": "Zhang",
+      "year": "2008",
+      "journal-title": "Chem. Eng. J."
+    },
+    {
+      "key": "ome-9-5-2307-R5",
+      "doi-asserted-by": "crossref",
+      "first-page": "F25",
+      "DOI": "10.1364/AO.54.000F25",
+      "volume": "54",
+      "author": "Gattass",
+      "year": "2015",
+      "journal-title": "Appl. Opt."
+    },
+    {
+      "key": "ome-9-5-2307-R6",
+      "doi-asserted-by": "crossref",
+      "first-page": "379",
+      "DOI": "10.1364/AOP.7.000379",
+      "volume": "7",
+      "author": "Tao",
+      "year": "2015",
+      "journal-title": "Adv. Opt. Photonics"
+    },
+    {
+      "key": "ome-9-5-2307-R7",
+      "doi-asserted-by": "crossref",
+      "first-page": "1439",
+      "DOI": "10.1134/S0020168509130019",
+      "volume": "45",
+      "author": "Snopatin",
+      "year": "2009",
+      "journal-title": "Inorg. Mater."
+    },
+    {
+      "key": "ome-9-5-2307-R8",
+      "doi-asserted-by": "crossref",
+      "first-page": "2893",
+      "DOI": "10.1364/OL.43.002893",
+      "volume": "43",
+      "author": "Ari",
+      "year": "2018",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R9",
+      "doi-asserted-by": "crossref",
+      "first-page": "2887",
+      "DOI": "10.1364/OME.8.002887",
+      "volume": "8",
+      "author": "Abdellaoui",
+      "year": "2018",
+      "journal-title": "Opt. Mater. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R10",
+      "doi-asserted-by": "crossref",
+      "first-page": "830",
+      "DOI": "10.1038/nphoton.2014.213",
+      "volume": "8",
+      "author": "Petersen",
+      "year": "2014",
+      "journal-title": "Nat. Photonics"
+    },
+    {
+      "key": "ome-9-5-2307-R11",
+      "doi-asserted-by": "crossref",
+      "first-page": "26655",
+      "DOI": "10.1364/OE.18.026655",
+      "volume": "18",
+      "author": "El-Amraoui",
+      "year": "2010",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1163",
+      "DOI": "10.1364/OPTICA.4.001163",
+      "volume": "4",
+      "author": "Hudson",
+      "year": "2017",
+      "journal-title": "Optica"
+    },
+    {
+      "key": "ome-9-5-2307-R13",
+      "doi-asserted-by": "crossref",
+      "first-page": "141",
+      "DOI": "10.1038/nphoton.2011.309",
+      "volume": "5",
+      "author": "Eggleton",
+      "year": "2011",
+      "journal-title": "Nat. Photonics"
+    },
+    {
+      "key": "ome-9-5-2307-R14",
+      "doi-asserted-by": "crossref",
+      "first-page": "A183",
+      "DOI": "10.1364/JOSAB.36.00A183",
+      "volume": "36",
+      "author": "Lemiere",
+      "year": "2019",
+      "journal-title": "J. Opt. Soc. Am. B"
+    },
+    {
+      "key": "ome-9-5-2307-R15",
+      "doi-asserted-by": "crossref",
+      "first-page": "2052",
+      "DOI": "10.1364/OL.39.002052",
+      "volume": "39",
+      "author": "Bernier",
+      "year": "2014",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R16",
+      "doi-asserted-by": "crossref",
+      "first-page": "15086",
+      "DOI": "10.1364/OE.15.015086",
+      "volume": "15",
+      "author": "Ebendorff-Heidepriem",
+      "year": "2007",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R17",
+      "doi-asserted-by": "crossref",
+      "first-page": "203",
+      "DOI": "10.1364/OL.41.000203",
+      "volume": "41",
+      "author": "Lapointe",
+      "year": "2016",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R18",
+      "doi-asserted-by": "crossref",
+      "first-page": "358",
+      "DOI": "10.1126/science.1079280",
+      "volume": "299",
+      "author": "Russell",
+      "year": "2003",
+      "journal-title": "Science"
+    },
+    {
+      "key": "ome-9-5-2307-R19",
+      "doi-asserted-by": "crossref",
+      "first-page": "21608",
+      "DOI": "10.1364/OE.17.021608",
+      "volume": "17",
+      "author": "Liao",
+      "year": "2009",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R20",
+      "doi-asserted-by": "crossref",
+      "first-page": "337",
+      "DOI": "10.1038/nature22061",
+      "volume": "544",
+      "author": "Kotz",
+      "year": "2017",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "ome-9-5-2307-R21",
+      "doi-asserted-by": "crossref",
+      "first-page": "1701181",
+      "DOI": "10.1002/adma.201701181",
+      "volume": "29",
+      "author": "Nguyen",
+      "year": "2017",
+      "journal-title": "Adv. Mater."
+    },
+    {
+      "key": "ome-9-5-2307-R22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1061",
+      "DOI": "10.1080/00207540903479786",
+      "volume": "49",
+      "author": "Petrovic",
+      "year": "2011",
+      "journal-title": "Int. J. Prod. Res."
+    },
+    {
+      "key": "ome-9-5-2307-R23",
+      "doi-asserted-by": "crossref",
+      "first-page": "496",
+      "DOI": "10.1016/j.mattod.2013.11.017",
+      "volume": "16",
+      "author": "Bose",
+      "year": "2013",
+      "journal-title": "Mater. Today"
+    },
+    {
+      "key": "ome-9-5-2307-R24",
+      "doi-asserted-by": "crossref",
+      "first-page": "10212",
+      "DOI": "10.1021/acs.chemrev.7b00074",
+      "volume": "117",
+      "author": "Ligon",
+      "year": "2017",
+      "journal-title": "Chem. Rev."
+    },
+    {
+      "key": "ome-9-5-2307-R25",
+      "doi-asserted-by": "crossref",
+      "first-page": "665",
+      "DOI": "10.1016/j.ijheatmasstransfer.2016.08.107",
+      "volume": "104",
+      "author": "Protasov",
+      "year": "2017",
+      "journal-title": "Int. J. Heat Mass Transfer"
+    },
+    {
+      "key": "ome-9-5-2307-R26",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1111/ijac.12338",
+      "volume": "12",
+      "author": "Fateri",
+      "year": "2015",
+      "journal-title": "Int. J. Appl. Ceram. Technol."
+    },
+    {
+      "key": "ome-9-5-2307-R28",
+      "doi-asserted-by": "crossref",
+      "first-page": "119",
+      "DOI": "10.1016/j.mechatronics.2015.05.004",
+      "volume": "34",
+      "author": "Wolfer",
+      "year": "2016",
+      "journal-title": "Mechatronics"
+    },
+    {
+      "key": "ome-9-5-2307-R30",
+      "doi-asserted-by": "crossref",
+      "first-page": "3966",
+      "DOI": "10.1364/OL.40.003966",
+      "volume": "40",
+      "author": "Cook",
+      "year": "2015",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R31",
+      "doi-asserted-by": "crossref",
+      "first-page": "4554",
+      "DOI": "10.1364/OL.41.004554",
+      "volume": "41",
+      "author": "Cook",
+      "year": "2016",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R32",
+      "doi-asserted-by": "crossref",
+      "first-page": "5551",
+      "DOI": "10.1364/OL.41.005551",
+      "volume": "41",
+      "author": "Canning",
+      "year": "2016",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R33",
+      "doi-asserted-by": "crossref",
+      "first-page": "061024",
+      "DOI": "10.1115/1.4028531",
+      "volume": "136",
+      "author": "Luo",
+      "year": "2014",
+      "journal-title": "Journal of Manufacturing Science and Engineering-Transactions of the Asme"
+    },
+    {
+      "key": "ome-9-5-2307-R34",
+      "doi-asserted-by": "crossref",
+      "first-page": "92",
+      "DOI": "10.1089/3dp.2015.0021",
+      "volume": "2",
+      "author": "Klein",
+      "year": "2015",
+      "journal-title": "3D Printing and Additive Manufacturing"
+    },
+    {
+      "key": "ome-9-5-2307-R37",
+      "doi-asserted-by": "crossref",
+      "first-page": "1494",
+      "DOI": "10.1364/OME.4.001494",
+      "volume": "4",
+      "author": "Ebendorff-Heidepriem",
+      "year": "2014",
+      "journal-title": "Opt. Mater. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R38",
+      "doi-asserted-by": "crossref",
+      "first-page": "2751",
+      "DOI": "10.1364/OL.37.002751",
+      "volume": "37",
+      "author": "Tao",
+      "year": "2012",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ome-9-5-2307-R39",
+      "doi-asserted-by": "crossref",
+      "first-page": "1722",
+      "DOI": "10.1364/OME.5.001722",
+      "volume": "5",
+      "author": "Tang",
+      "year": "2015",
+      "journal-title": "Opt. Mater. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R40",
+      "doi-asserted-by": "crossref",
+      "first-page": "3418",
+      "DOI": "10.1016/j.jnoncrysol.2008.01.032",
+      "volume": "354",
+      "author": "Savage",
+      "year": "2008",
+      "journal-title": "J. Non-Cryst. Solids"
+    },
+    {
+      "key": "ome-9-5-2307-R41",
+      "doi-asserted-by": "crossref",
+      "first-page": "1259",
+      "DOI": "10.1364/OME.3.001259",
+      "volume": "3",
+      "author": "Zha",
+      "year": "2013",
+      "journal-title": "Opt. Mater. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R42",
+      "doi-asserted-by": "crossref",
+      "first-page": "26728",
+      "DOI": "10.1364/OE.18.026728",
+      "volume": "18",
+      "author": "Carlie",
+      "year": "2010",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R43",
+      "doi-asserted-by": "crossref",
+      "first-page": "256",
+      "DOI": "10.1111/ijag.12020",
+      "volume": "4",
+      "author": "Skripachev",
+      "year": "2013",
+      "journal-title": "Int. J. Appl. Glass Sci."
+    },
+    {
+      "key": "ome-9-5-2307-R44",
+      "doi-asserted-by": "crossref",
+      "first-page": "525",
+      "DOI": "10.1364/OME.4.000525",
+      "volume": "4",
+      "author": "Olivier",
+      "year": "2014",
+      "journal-title": "Opt. Mater. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R46",
+      "doi-asserted-by": "crossref",
+      "first-page": "16273",
+      "DOI": "10.1364/OE.19.016273",
+      "volume": "19",
+      "author": "Deng",
+      "year": "2011",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ome-9-5-2307-R49",
+      "doi-asserted-by": "crossref",
+      "first-page": "230",
+      "DOI": "10.1364/OME.6.000230",
+      "volume": "6",
+      "author": "Galstyan",
+      "year": "2016",
+      "journal-title": "Opt. Mater. Express"
+    }
+  ],
+  "container-title": [
+    "Optical Materials Express"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=ome-9-5-2307&seq=0",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        6
+      ]
+    ],
+    "date-time": "2024-08-06T15:24:20Z",
+    "timestamp": 1722957860000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://opg.optica.org/abstract.cfm?URI=ome-9-5-2307"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        4,
+        18
+      ]
+    ]
+  },
+  "references-count": 42,
+  "journal-issue": {
+    "issue": "5",
+    "published-online": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1364/ome.9.002307",
+  "relation": {},
+  "ISSN": [
+    "2159-3930"
+  ],
+  "issn-type": [
+    {
+      "value": "2159-3930",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2019,
+        4,
+        18
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "OSA - The Optical Society",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "https://doi.org/10.1364/OME.9.002307",
+      "name": "articlelink",
+      "label": "Crossref DOI link to publisher maintained version"
+    },
+    {
+      "value": "research-article",
+      "name": "content_type",
+      "label": "Article type"
+    },
+    {
+      "value": "Screened by Similarity Check",
+      "name": "cross_check",
+      "label": "Similarity check"
+    },
+    {
+      "value": "Yes",
+      "order": 0,
+      "name": "peer_reviewed",
+      "label": "Peer reviewed",
+      "group": {
+        "name": "peer_review",
+        "label": "Peer review"
+      }
+    },
+    {
+      "value": "Single blind",
+      "order": 1,
+      "name": "review_process",
+      "label": "Review process",
+      "group": {
+        "name": "peer_review",
+        "label": "Peer review"
+      }
+    },
+    {
+      "value": "26 February 2019",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "28 March 2019",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "18 April 2019",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "© 2019 Optical Society of America under the terms of the OSA Open Access Publishing Agreement",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

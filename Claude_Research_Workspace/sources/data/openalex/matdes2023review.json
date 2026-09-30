@@ -1,0 +1,1330 @@
+{
+ "id": "https://openalex.org/W4320487118",
+ "doi": "https://doi.org/10.1016/j.matdes.2023.111736",
+ "title": "A comprehensive review on additive manufacturing of glass: Recent progress and future outlook",
+ "display_name": "A comprehensive review on additive manufacturing of glass: Recent progress and future outlook",
+ "relevance_score": 3269.313,
+ "publication_year": 2023,
+ "publication_date": "2023-02-13",
+ "ids": {
+  "openalex": "https://openalex.org/W4320487118",
+  "doi": "https://doi.org/10.1016/j.matdes.2023.111736"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.matdes.2023.111736",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.matdes.2023.111736",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S8792693",
+   "display_name": "Materials & Design",
+   "issn_l": "0264-1275",
+   "issn": [
+    "0264-1275",
+    "1873-4197"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials &amp; Design",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.1016/j.matdes.2023.111736",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5072142286",
+    "display_name": "Chenxing Xin",
+    "orcid": "https://orcid.org/0000-0001-8054-0485",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8054-0485"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Chenxing Xin",
+   "raw_affiliation_strings": [
+    "Gemmological Institute, China of Geosciences, 430074, PR China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Gemmological Institute, China of Geosciences, 430074, PR China",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5054668480",
+    "display_name": "Zheng Li",
+    "orcid": "https://orcid.org/0000-0002-0227-4609",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0227-4609"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I3124059619",
+     "display_name": "China University of Geosciences",
+     "ror": "https://ror.org/04gcegc37",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I3124059619"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zheng Li",
+   "raw_affiliation_strings": [
+    "Advanced Manufacturing Center, China University of Geosciences, Wuhan 430074, PR China",
+    "Gemmological Institute, China of Geosciences, 430074, PR China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Advanced Manufacturing Center, China University of Geosciences, Wuhan 430074, PR China",
+     "institution_ids": [
+      "https://openalex.org/I3124059619"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Gemmological Institute, China of Geosciences, 430074, PR China",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100728285",
+    "display_name": "Liang Hao",
+    "orcid": "https://orcid.org/0000-0002-6088-1343",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6088-1343"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I3124059619",
+     "display_name": "China University of Geosciences",
+     "ror": "https://ror.org/04gcegc37",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I3124059619"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Liang Hao",
+   "raw_affiliation_strings": [
+    "Advanced Manufacturing Center, China University of Geosciences, Wuhan 430074, PR China",
+    "Gemmological Institute, China of Geosciences, 430074, PR China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Advanced Manufacturing Center, China University of Geosciences, Wuhan 430074, PR China",
+     "institution_ids": [
+      "https://openalex.org/I3124059619"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Gemmological Institute, China of Geosciences, 430074, PR China",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5100380271",
+    "display_name": "Yan Li",
+    "orcid": "https://orcid.org/0000-0001-8141-9732",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8141-9732",
+     "https://orcid.org/0000-0002-1015-0390",
+     "https://orcid.org/0000-0002-4689-9723"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I3124059619",
+     "display_name": "China University of Geosciences",
+     "ror": "https://ror.org/04gcegc37",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I3124059619"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Yan Li",
+   "raw_affiliation_strings": [
+    "Advanced Manufacturing Center, China University of Geosciences, Wuhan 430074, PR China",
+    "Gemmological Institute, China of Geosciences, 430074, PR China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-8141-9732",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Advanced Manufacturing Center, China University of Geosciences, Wuhan 430074, PR China",
+     "institution_ids": [
+      "https://openalex.org/I3124059619"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Gemmological Institute, China of Geosciences, 430074, PR China",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5100380271"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I3124059619"
+ ],
+ "apc_list": {
+  "value": 2800,
+  "currency": "USD",
+  "value_usd": 2800
+ },
+ "apc_paid": {
+  "value": 2800,
+  "currency": "USD",
+  "value_usd": 2800
+ },
+ "fwci": 5.7172,
+ "has_fulltext": false,
+ "cited_by_count": 82,
+ "citation_normalized_percentile": {
+  "value": 0.97323465,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 97,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "227",
+  "issue": null,
+  "first_page": "111736",
+  "last_page": "111736"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9984999895095825,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9984999895095825,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10024",
+   "display_name": "TiO2 Photocatalysis and Solar Cells",
+   "score": 0.984499990940094,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2105",
+    "display_name": "Renewable Energy, Sustainability and the Environment"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.9768000245094299,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7548348903656006
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.7229357957839966
+  },
+  {
+   "id": "https://openalex.org/keywords/polishing",
+   "display_name": "Polishing",
+   "score": 0.6977102756500244
+  },
+  {
+   "id": "https://openalex.org/keywords/surface-finish",
+   "display_name": "Surface finish",
+   "score": 0.5247169733047485
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.47852835059165955
+  },
+  {
+   "id": "https://openalex.org/keywords/surface-roughness",
+   "display_name": "Surface roughness",
+   "score": 0.4720129668712616
+  },
+  {
+   "id": "https://openalex.org/keywords/transparency",
+   "display_name": "Transparency (behavior)",
+   "score": 0.4657733142375946
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.44027677178382874
+  },
+  {
+   "id": "https://openalex.org/keywords/machining",
+   "display_name": "Machining",
+   "score": 0.4400429427623749
+  },
+  {
+   "id": "https://openalex.org/keywords/ceramic",
+   "display_name": "Ceramic",
+   "score": 0.43594303727149963
+  },
+  {
+   "id": "https://openalex.org/keywords/microfluidics",
+   "display_name": "Microfluidics",
+   "score": 0.4258894622325897
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.42460373044013977
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.24993163347244263
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.152653306722641
+  },
+  {
+   "id": "https://openalex.org/keywords/metallurgy",
+   "display_name": "Metallurgy",
+   "score": 0.10871148109436035
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.09723389148712158
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7548348903656006
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.7229357957839966
+  },
+  {
+   "id": "https://openalex.org/C138113353",
+   "wikidata": "https://www.wikidata.org/wiki/Q611639",
+   "display_name": "Polishing",
+   "level": 2,
+   "score": 0.6977102756500244
+  },
+  {
+   "id": "https://openalex.org/C71039073",
+   "wikidata": "https://www.wikidata.org/wiki/Q3439090",
+   "display_name": "Surface finish",
+   "level": 2,
+   "score": 0.5247169733047485
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.47852835059165955
+  },
+  {
+   "id": "https://openalex.org/C107365816",
+   "wikidata": "https://www.wikidata.org/wiki/Q114817",
+   "display_name": "Surface roughness",
+   "level": 2,
+   "score": 0.4720129668712616
+  },
+  {
+   "id": "https://openalex.org/C2780233690",
+   "wikidata": "https://www.wikidata.org/wiki/Q535347",
+   "display_name": "Transparency (behavior)",
+   "level": 2,
+   "score": 0.4657733142375946
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.44027677178382874
+  },
+  {
+   "id": "https://openalex.org/C523214423",
+   "wikidata": "https://www.wikidata.org/wiki/Q192047",
+   "display_name": "Machining",
+   "level": 2,
+   "score": 0.4400429427623749
+  },
+  {
+   "id": "https://openalex.org/C134132462",
+   "wikidata": "https://www.wikidata.org/wiki/Q45621",
+   "display_name": "Ceramic",
+   "level": 2,
+   "score": 0.43594303727149963
+  },
+  {
+   "id": "https://openalex.org/C8673954",
+   "wikidata": "https://www.wikidata.org/wiki/Q138845",
+   "display_name": "Microfluidics",
+   "level": 2,
+   "score": 0.4258894622325897
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.42460373044013977
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.24993163347244263
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.152653306722641
+  },
+  {
+   "id": "https://openalex.org/C191897082",
+   "wikidata": "https://www.wikidata.org/wiki/Q11467",
+   "display_name": "Metallurgy",
+   "level": 1,
+   "score": 0.10871148109436035
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.09723389148712158
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C38652104",
+   "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+   "display_name": "Computer security",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.matdes.2023.111736",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.matdes.2023.111736",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S8792693",
+    "display_name": "Materials & Design",
+    "issn_l": "0264-1275",
+    "issn": [
+     "0264-1275",
+     "1873-4197"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Materials &amp; Design",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:4f2b7384fca248f2b1c959d4222722a5",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/4f2b7384fca248f2b1c959d4222722a5",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Materials & Design, Vol 227, Iss , Pp 111736- (2023)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.matdes.2023.111736",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.matdes.2023.111736",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S8792693",
+   "display_name": "Materials & Design",
+   "issn_l": "0264-1275",
+   "issn": [
+    "0264-1275",
+    "1873-4197"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials &amp; Design",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "score": 0.47999998927116394,
+   "id": "https://metadata.un.org/sdg/9",
+   "display_name": "Industry, innovation and infrastructure"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 124,
+ "referenced_works": [
+  "https://openalex.org/W327539564",
+  "https://openalex.org/W650885625",
+  "https://openalex.org/W1160581166",
+  "https://openalex.org/W1970569241",
+  "https://openalex.org/W1972596683",
+  "https://openalex.org/W1974962567",
+  "https://openalex.org/W1975555130",
+  "https://openalex.org/W1978012684",
+  "https://openalex.org/W1979551322",
+  "https://openalex.org/W1985793906",
+  "https://openalex.org/W1990435226",
+  "https://openalex.org/W1990746017",
+  "https://openalex.org/W1994277498",
+  "https://openalex.org/W1996855571",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2011985008",
+  "https://openalex.org/W2015722957",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2046850055",
+  "https://openalex.org/W2047947115",
+  "https://openalex.org/W2076595518",
+  "https://openalex.org/W2077333490",
+  "https://openalex.org/W2082450384",
+  "https://openalex.org/W2144042868",
+  "https://openalex.org/W2144808603",
+  "https://openalex.org/W2145930691",
+  "https://openalex.org/W2146167535",
+  "https://openalex.org/W2165441364",
+  "https://openalex.org/W2191045182",
+  "https://openalex.org/W2261489731",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2319334792",
+  "https://openalex.org/W2322711744",
+  "https://openalex.org/W2339633866",
+  "https://openalex.org/W2346564489",
+  "https://openalex.org/W2346885928",
+  "https://openalex.org/W2471406299",
+  "https://openalex.org/W2519398628",
+  "https://openalex.org/W2521019653",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2567177733",
+  "https://openalex.org/W2603775437",
+  "https://openalex.org/W2605054679",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2765479659",
+  "https://openalex.org/W2776986383",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2792900765",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2800695185",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2883016740",
+  "https://openalex.org/W2883339251",
+  "https://openalex.org/W2889830791",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2912770848",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2951090891",
+  "https://openalex.org/W2954992272",
+  "https://openalex.org/W2964505522",
+  "https://openalex.org/W2966927321",
+  "https://openalex.org/W2981245438",
+  "https://openalex.org/W2982673880",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W2990819255",
+  "https://openalex.org/W2994250992",
+  "https://openalex.org/W2998098840",
+  "https://openalex.org/W2999729355",
+  "https://openalex.org/W3005950493",
+  "https://openalex.org/W3007217633",
+  "https://openalex.org/W3009585797",
+  "https://openalex.org/W3011779622",
+  "https://openalex.org/W3013197775",
+  "https://openalex.org/W3013431617",
+  "https://openalex.org/W3014113438",
+  "https://openalex.org/W3023001773",
+  "https://openalex.org/W3023525367",
+  "https://openalex.org/W3033785573",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3042079915",
+  "https://openalex.org/W3083958169",
+  "https://openalex.org/W3086120890",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3103574754",
+  "https://openalex.org/W3108266633",
+  "https://openalex.org/W3118742912",
+  "https://openalex.org/W3126509770",
+  "https://openalex.org/W3126949540",
+  "https://openalex.org/W3132800235",
+  "https://openalex.org/W3134904038",
+  "https://openalex.org/W3145519504",
+  "https://openalex.org/W3146972801",
+  "https://openalex.org/W3150592967",
+  "https://openalex.org/W3156222846",
+  "https://openalex.org/W3170380770",
+  "https://openalex.org/W3187101920",
+  "https://openalex.org/W3201498567",
+  "https://openalex.org/W3202058913",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W3206670844",
+  "https://openalex.org/W3214346243",
+  "https://openalex.org/W4200232794",
+  "https://openalex.org/W4205770747",
+  "https://openalex.org/W4206387910",
+  "https://openalex.org/W4213189404",
+  "https://openalex.org/W4214828589",
+  "https://openalex.org/W4246925829",
+  "https://openalex.org/W4292686633",
+  "https://openalex.org/W6627618766",
+  "https://openalex.org/W6700516313",
+  "https://openalex.org/W6734223158",
+  "https://openalex.org/W6765669413",
+  "https://openalex.org/W6770645720",
+  "https://openalex.org/W6777476192",
+  "https://openalex.org/W6785735003",
+  "https://openalex.org/W6786823055",
+  "https://openalex.org/W6789906692",
+  "https://openalex.org/W6801417591",
+  "https://openalex.org/W6808340731"
+ ],
+ "related_works": [
+  "https://openalex.org/W2355958986",
+  "https://openalex.org/W2359200184",
+  "https://openalex.org/W2037225514",
+  "https://openalex.org/W2366623665",
+  "https://openalex.org/W2246607813",
+  "https://openalex.org/W2977384378",
+  "https://openalex.org/W3035613609",
+  "https://openalex.org/W2381926258",
+  "https://openalex.org/W2386760886",
+  "https://openalex.org/W4214830273"
+ ],
+ "abstract_inverted_index": {
+  "As": [
+   0
+  ],
+  "an": [
+   1,
+   152
+  ],
+  "advanced": [
+   2
+  ],
+  "and": [
+   3,
+   43,
+   63,
+   87,
+   111,
+   125,
+   161,
+   173,
+   186
+  ],
+  "revolutionary": [
+   4
+  ],
+  "technology,": [
+   5
+  ],
+  "additive": [
+   6,
+   127
+  ],
+  "manufacturing": [
+   7,
+   28,
+   79
+  ],
+  "(AM)": [
+   8
+  ],
+  "has": [
+   9,
+   91,
+   117
+  ],
+  "received": [
+   10
+  ],
+  "significant": [
+   11,
+   32
+  ],
+  "research": [
+   12
+  ],
+  "attention": [
+   13
+  ],
+  "in": [
+   14,
+   66,
+   77,
+   84,
+   95
+  ],
+  "the": [
+   15,
+   72,
+   96,
+   133,
+   155,
+   168,
+   183,
+   189
+  ],
+  "field": [
+   16
+  ],
+  "of": [
+   17,
+   34,
+   68,
+   74,
+   98,
+   147,
+   164,
+   182,
+   192,
+   195
+  ],
+  "materials": [
+   18
+  ],
+  "processing.": [
+   19
+  ],
+  "It": [
+   20
+  ],
+  "is": [
+   21,
+   80
+  ],
+  "also": [
+   22,
+   198
+  ],
+  "gradually": [
+   23
+  ],
+  "being": [
+   24,
+   35
+  ],
+  "applied": [
+   25
+  ],
+  "to": [
+   26,
+   30,
+   37
+  ],
+  "glass": [
+   27,
+   39,
+   78,
+   100,
+   138
+  ],
+  "owing": [
+   29
+  ],
+  "its": [
+   31
+  ],
+  "advantages": [
+   33
+  ],
+  "able": [
+   36
+  ],
+  "fabricate": [
+   38
+  ],
+  "components": [
+   40,
+   139
+  ],
+  "with": [
+   41,
+   151
+  ],
+  "arbitrary": [
+   42
+  ],
+  "complex": [
+   44
+  ],
+  "geometry.": [
+   45
+  ],
+  "In": [
+   46,
+   166
+  ],
+  "addition,": [
+   47,
+   167
+  ],
+  "it": [
+   48,
+   90,
+   129
+  ],
+  "ensures": [
+   49
+  ],
+  "a": [
+   50,
+   144
+  ],
+  "high": [
+   51,
+   60
+  ],
+  "spatial": [
+   52
+  ],
+  "resolution,": [
+   53,
+   158
+  ],
+  "low": [
+   54
+  ],
+  "surface": [
+   55
+  ],
+  "roughness": [
+   56
+  ],
+  "(without": [
+   57
+  ],
+  "polishing": [
+   58
+  ],
+  "treatment),": [
+   59
+  ],
+  "optical": [
+   61,
+   113
+  ],
+  "transparency,": [
+   62
+  ],
+  "guarantees": [
+   64
+  ],
+  "accuracy": [
+   65
+  ],
+  "terms": [
+   67
+  ],
+  "small-scale": [
+   69
+  ],
+  "characteristics.": [
+   70
+  ],
+  "Whilst": [
+   71
+  ],
+  "development": [
+   73
+  ],
+  "AM": [
+   75,
+   149,
+   196
+  ],
+  "technology": [
+   76
+  ],
+  "relatively": [
+   81
+  ],
+  "slower": [
+   82
+  ],
+  "than": [
+   83
+  ],
+  "polymer,": [
+   85
+  ],
+  "metal,": [
+   86
+  ],
+  "ceramics": [
+   88
+  ],
+  "manufacturing,": [
+   89,
+   128
+  ],
+  "made": [
+   92
+  ],
+  "considerable": [
+   93
+  ],
+  "progress": [
+   94
+  ],
+  "fabrication": [
+   97
+  ],
+  "functional": [
+   99
+  ],
+  "devices,": [
+   101
+  ],
+  "including": [
+   102
+  ],
+  "gradient": [
+   103
+  ],
+  "refractive": [
+   104
+  ],
+  "index": [
+   105
+  ],
+  "optics,": [
+   106
+  ],
+  "microlenses,": [
+   107
+  ],
+  "colour": [
+   108
+  ],
+  "converters,": [
+   109
+  ],
+  "microfluidics,": [
+   110
+  ],
+  "micro-toroid": [
+   112
+  ],
+  "resonators.": [
+   114
+  ],
+  "Great": [
+   115
+  ],
+  "potential": [
+   116
+  ],
+  "been": [
+   118
+  ],
+  "exhibited": [
+   119
+  ],
+  "on": [
+   120,
+   136,
+   154,
+   188
+  ],
+  "multi-material,": [
+   121
+  ],
+  "multi-scale,": [
+   122
+  ],
+  "multi-functionality": [
+   123
+  ],
+  "(M3),": [
+   124
+  ],
+  "hybrid": [
+   126
+  ],
+  "will": [
+   130
+  ],
+  "definitely": [
+   131
+  ],
+  "be": [
+   132
+  ],
+  "future": [
+   134,
+   190
+  ],
+  "trend": [
+   135
+  ],
+  "transparent": [
+   137
+  ],
+  "fabrication.": [
+   140
+  ],
+  "This": [
+   141
+  ],
+  "review": [
+   142
+  ],
+  "provides": [
+   143
+  ],
+  "systematic": [
+   145
+  ],
+  "summary": [
+   146
+  ],
+  "different": [
+   148
+  ],
+  "techniques,": [
+   150
+  ],
+  "emphasis": [
+   153
+  ],
+  "printing": [
+   156
+  ],
+  "strategies,": [
+   157
+  ],
+  "multi-material": [
+   159
+  ],
+  "capability,": [
+   160
+  ],
+  "property": [
+   162
+  ],
+  "evaluation": [
+   163
+  ],
+  "glass.": [
+   165
+  ],
+  "defect": [
+   169
+  ],
+  "formation,": [
+   170
+  ],
+  "feasible": [
+   171
+  ],
+  "solutions,": [
+   172
+  ],
+  "potentially": [
+   174
+  ],
+  "suitable": [
+   175
+  ],
+  "applications": [
+   176
+  ],
+  "are": [
+   177,
+   197
+  ],
+  "discussed.": [
+   178
+  ],
+  "An": [
+   179
+  ],
+  "in-depth": [
+   180
+  ],
+  "analysis": [
+   181
+  ],
+  "current": [
+   184
+  ],
+  "limitations": [
+   185
+  ],
+  "perspectives": [
+   187
+  ],
+  "developments": [
+   191
+  ],
+  "each": [
+   193
+  ],
+  "category": [
+   194
+  ],
+  "provided.": [
+   199
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 30
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 27
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 20
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 5
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

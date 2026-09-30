@@ -1,0 +1,854 @@
+{
+ "id": "https://openalex.org/W2031587351",
+ "doi": "https://doi.org/10.1595/147106710x514012",
+ "title": "Platinum Group Metals in Glass Making",
+ "display_name": "Platinum Group Metals in Glass Making",
+ "publication_year": 2010,
+ "publication_date": "2010-07-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2031587351",
+  "doi": "https://doi.org/10.1595/147106710x514012",
+  "mag": "2031587351"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1595/147106710x514012",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1595/147106710x514012",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S3814210",
+   "display_name": "Platinum Metals Review",
+   "issn_l": "0032-1400",
+   "issn": [
+    "0032-1400",
+    "1471-0676"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj"
+   ],
+   "host_organization": "https://openalex.org/P4310311780",
+   "host_organization_name": "Johnson Matthey",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310311780"
+   ],
+   "host_organization_lineage_names": [
+    "Johnson Matthey"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Platinum Metals Review",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "diamond",
+  "oa_url": "https://doi.org/10.1595/147106710x514012",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5079508976",
+    "display_name": "Christophe Couderc",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Christophe Couderc",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5079508976"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.1876,
+ "has_fulltext": false,
+ "cited_by_count": 14,
+ "citation_normalized_percentile": {
+  "value": 0.57174083,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 97
+ },
+ "biblio": {
+  "volume": "54",
+  "issue": "3",
+  "first_page": "186",
+  "last_page": "191"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T13552",
+  "display_name": "Advanced Materials Characterization Techniques",
+  "score": 0.9872999787330627,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T13552",
+   "display_name": "Advanced Materials Characterization Techniques",
+   "score": 0.9872999787330627,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7469173073768616
+  },
+  {
+   "id": "https://openalex.org/keywords/platinum-group",
+   "display_name": "Platinum group",
+   "score": 0.7316935062408447
+  },
+  {
+   "id": "https://openalex.org/keywords/platinum",
+   "display_name": "Platinum",
+   "score": 0.7120720744132996
+  },
+  {
+   "id": "https://openalex.org/keywords/iridium",
+   "display_name": "Iridium",
+   "score": 0.6171740293502808
+  },
+  {
+   "id": "https://openalex.org/keywords/metallurgy",
+   "display_name": "Metallurgy",
+   "score": 0.6142563819885254
+  },
+  {
+   "id": "https://openalex.org/keywords/ceramic",
+   "display_name": "Ceramic",
+   "score": 0.5568102598190308
+  },
+  {
+   "id": "https://openalex.org/keywords/corrosion",
+   "display_name": "Corrosion",
+   "score": 0.5556151270866394
+  },
+  {
+   "id": "https://openalex.org/keywords/coating",
+   "display_name": "Coating",
+   "score": 0.5225871801376343
+  },
+  {
+   "id": "https://openalex.org/keywords/sintering",
+   "display_name": "Sintering",
+   "score": 0.4942040741443634
+  },
+  {
+   "id": "https://openalex.org/keywords/rhodium",
+   "display_name": "Rhodium",
+   "score": 0.41250312328338623
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.29638391733169556
+  },
+  {
+   "id": "https://openalex.org/keywords/catalysis",
+   "display_name": "Catalysis",
+   "score": 0.11191937327384949
+  },
+  {
+   "id": "https://openalex.org/keywords/chemistry",
+   "display_name": "Chemistry",
+   "score": 0.088530033826828
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7469173073768616
+  },
+  {
+   "id": "https://openalex.org/C2781251403",
+   "wikidata": "https://www.wikidata.org/wiki/Q223995",
+   "display_name": "Platinum group",
+   "level": 4,
+   "score": 0.7316935062408447
+  },
+  {
+   "id": "https://openalex.org/C518104683",
+   "wikidata": "https://www.wikidata.org/wiki/Q880",
+   "display_name": "Platinum",
+   "level": 3,
+   "score": 0.7120720744132996
+  },
+  {
+   "id": "https://openalex.org/C528581852",
+   "wikidata": "https://www.wikidata.org/wiki/Q877",
+   "display_name": "Iridium",
+   "level": 3,
+   "score": 0.6171740293502808
+  },
+  {
+   "id": "https://openalex.org/C191897082",
+   "wikidata": "https://www.wikidata.org/wiki/Q11467",
+   "display_name": "Metallurgy",
+   "level": 1,
+   "score": 0.6142563819885254
+  },
+  {
+   "id": "https://openalex.org/C134132462",
+   "wikidata": "https://www.wikidata.org/wiki/Q45621",
+   "display_name": "Ceramic",
+   "level": 2,
+   "score": 0.5568102598190308
+  },
+  {
+   "id": "https://openalex.org/C20625102",
+   "wikidata": "https://www.wikidata.org/wiki/Q137056",
+   "display_name": "Corrosion",
+   "level": 2,
+   "score": 0.5556151270866394
+  },
+  {
+   "id": "https://openalex.org/C2781448156",
+   "wikidata": "https://www.wikidata.org/wiki/Q1570182",
+   "display_name": "Coating",
+   "level": 2,
+   "score": 0.5225871801376343
+  },
+  {
+   "id": "https://openalex.org/C2777581544",
+   "wikidata": "https://www.wikidata.org/wiki/Q844613",
+   "display_name": "Sintering",
+   "level": 2,
+   "score": 0.4942040741443634
+  },
+  {
+   "id": "https://openalex.org/C521398313",
+   "wikidata": "https://www.wikidata.org/wiki/Q1087",
+   "display_name": "Rhodium",
+   "level": 3,
+   "score": 0.41250312328338623
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.29638391733169556
+  },
+  {
+   "id": "https://openalex.org/C161790260",
+   "wikidata": "https://www.wikidata.org/wiki/Q82264",
+   "display_name": "Catalysis",
+   "level": 2,
+   "score": 0.11191937327384949
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.088530033826828
+  },
+  {
+   "id": "https://openalex.org/C55493867",
+   "wikidata": "https://www.wikidata.org/wiki/Q7094",
+   "display_name": "Biochemistry",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1595/147106710x514012",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1595/147106710x514012",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S3814210",
+    "display_name": "Platinum Metals Review",
+    "issn_l": "0032-1400",
+    "issn": [
+     "0032-1400",
+     "1471-0676"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj"
+    ],
+    "host_organization": "https://openalex.org/P4310311780",
+    "host_organization_name": "Johnson Matthey",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310311780"
+    ],
+    "host_organization_lineage_names": [
+     "Johnson Matthey"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Platinum Metals Review",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1595/147106710x514012",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1595/147106710x514012",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S3814210",
+   "display_name": "Platinum Metals Review",
+   "issn_l": "0032-1400",
+   "issn": [
+    "0032-1400",
+    "1471-0676"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj"
+   ],
+   "host_organization": "https://openalex.org/P4310311780",
+   "host_organization_name": "Johnson Matthey",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310311780"
+   ],
+   "host_organization_lineage_names": [
+    "Johnson Matthey"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Platinum Metals Review",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.5600000023841858
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 12,
+ "referenced_works": [
+  "https://openalex.org/W2033893313",
+  "https://openalex.org/W2506719629",
+  "https://openalex.org/W4391433123",
+  "https://openalex.org/W4391433398",
+  "https://openalex.org/W4391433617",
+  "https://openalex.org/W4391433676",
+  "https://openalex.org/W4391600851",
+  "https://openalex.org/W4391600916",
+  "https://openalex.org/W4391606919",
+  "https://openalex.org/W4391606999",
+  "https://openalex.org/W4391607061",
+  "https://openalex.org/W4391626591"
+ ],
+ "related_works": [
+  "https://openalex.org/W2047587718",
+  "https://openalex.org/W1984241065",
+  "https://openalex.org/W2486993578",
+  "https://openalex.org/W2172104651",
+  "https://openalex.org/W2056282397",
+  "https://openalex.org/W2123957762",
+  "https://openalex.org/W2352545358",
+  "https://openalex.org/W2035871937",
+  "https://openalex.org/W2951154062",
+  "https://openalex.org/W2341642001"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   16
+  ],
+  "platinum": [
+   1
+  ],
+  "group": [
+   2
+  ],
+  "metals": [
+   3,
+   111
+  ],
+  "(pgms)": [
+   4
+  ],
+  "are": [
+   5,
+   105
+  ],
+  "characterised": [
+   6
+  ],
+  "by": [
+   7,
+   43
+  ],
+  "their": [
+   8
+  ],
+  "high": [
+   9
+  ],
+  "melting": [
+   10
+  ],
+  "points": [
+   11
+  ],
+  "and": [
+   12,
+   34,
+   49,
+   92,
+   116,
+   134,
+   141
+  ],
+  "resistance": [
+   13
+  ],
+  "to": [
+   14,
+   65,
+   74,
+   121,
+   131
+  ],
+  "corrosion.": [
+   15
+  ],
+  "glass": [
+   17,
+   39
+  ],
+  "industry": [
+   18,
+   133
+  ],
+  "most": [
+   19
+  ],
+  "commonly": [
+   20
+  ],
+  "uses": [
+   21
+  ],
+  "platinum,": [
+   22
+  ],
+  "platinum-rhodium": [
+   23
+  ],
+  "alloys": [
+   24
+  ],
+  "and,": [
+   25
+  ],
+  "recently,": [
+   26
+  ],
+  "iridium.": [
+   27
+  ],
+  "These": [
+   28
+  ],
+  "protect": [
+   29
+  ],
+  "a": [
+   30,
+   58,
+   62,
+   66,
+   124
+  ],
+  "variety": [
+   31
+  ],
+  "of": [
+   32,
+   57,
+   89,
+   126
+  ],
+  "components": [
+   33
+  ],
+  "ceramic": [
+   35,
+   90
+  ],
+  "substrates": [
+   36
+  ],
+  "used": [
+   37
+  ],
+  "in": [
+   38,
+   95
+  ],
+  "manufacture": [
+   40
+  ],
+  "from": [
+   41
+  ],
+  "erosion": [
+   42
+  ],
+  "molten": [
+   44
+  ],
+  "glass,": [
+   45,
+   109
+  ],
+  "including": [
+   46
+  ],
+  "thermocouples,": [
+   47
+  ],
+  "furnace": [
+   48
+  ],
+  "forehearth": [
+   50
+  ],
+  "parts.": [
+   51
+  ],
+  "This": [
+   52
+  ],
+  "protection": [
+   53,
+   140
+  ],
+  "takes": [
+   54
+  ],
+  "the": [
+   55,
+   96,
+   132
+  ],
+  "form": [
+   56
+  ],
+  "fabricated": [
+   59
+  ],
+  "part": [
+   60
+  ],
+  "or": [
+   61
+  ],
+  "coating": [
+   63
+  ],
+  "applied": [
+   64
+  ],
+  "substrate.": [
+   67
+  ],
+  "Glass": [
+   68
+  ],
+  "manufacturers": [
+   69
+  ],
+  "use": [
+   70,
+   143
+  ],
+  "these": [
+   71,
+   122
+  ],
+  "pgm": [
+   72
+  ],
+  "products": [
+   73
+  ],
+  "get": [
+   75
+  ],
+  "financial": [
+   76
+  ],
+  "benefits,": [
+   77
+  ],
+  "such": [
+   78
+  ],
+  "as": [
+   79,
+   107
+  ],
+  "increased": [
+   80
+  ],
+  "output,": [
+   81
+  ],
+  "reduced": [
+   82
+  ],
+  "downtime,": [
+   83
+  ],
+  "extended": [
+   84
+  ],
+  "equipment": [
+   85
+  ],
+  "life,": [
+   86
+  ],
+  "shape": [
+   87
+  ],
+  "retention": [
+   88
+  ],
+  "parts": [
+   91
+  ],
+  "fewer": [
+   93
+  ],
+  "defects": [
+   94
+  ],
+  "end": [
+   97
+  ],
+  "product.": [
+   98
+  ],
+  "Another": [
+   99
+  ],
+  "important": [
+   100
+  ],
+  "advantage": [
+   101
+  ],
+  "is": [
+   102,
+   129
+  ],
+  "that": [
+   103,
+   138
+  ],
+  "pgms": [
+   104
+  ],
+  "recyclable:": [
+   106
+  ],
+  "with": [
+   108
+  ],
+  "precious": [
+   110
+  ],
+  "can": [
+   112,
+   144
+  ],
+  "be": [
+   113,
+   145
+  ],
+  "recycled,": [
+   114
+  ],
+  "melted": [
+   115
+  ],
+  "reused": [
+   117
+  ],
+  "indefinitely.": [
+   118
+  ],
+  "In": [
+   119
+  ],
+  "addition": [
+   120
+  ],
+  "advantages,": [
+   123
+  ],
+  "choice": [
+   125
+  ],
+  "pgm-based": [
+   127
+  ],
+  "technologies": [
+   128
+  ],
+  "available": [
+   130
+  ],
+  "this": [
+   135
+  ],
+  "flexibility": [
+   136
+  ],
+  "ensures": [
+   137
+  ],
+  "both": [
+   139
+  ],
+  "metal": [
+   142
+  ],
+  "optimised": [
+   146
+  ],
+  ".": [
+   147
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

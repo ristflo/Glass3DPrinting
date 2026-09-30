@@ -1,0 +1,1684 @@
+{
+ "id": "https://openalex.org/W4396693099",
+ "doi": "https://doi.org/10.1002/admt.202400043",
+ "title": "Printing, Characterizing, and Assessing Transparent 3D Printed Lenses for Optical Imaging",
+ "display_name": "Printing, Characterizing, and Assessing Transparent 3D Printed Lenses for Optical Imaging",
+ "publication_year": 2024,
+ "publication_date": "2024-05-07",
+ "ids": {
+  "openalex": "https://openalex.org/W4396693099",
+  "doi": "https://doi.org/10.1002/admt.202400043"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1002/admt.202400043",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1002/admt.202400043",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.202400043",
+  "source": {
+   "id": "https://openalex.org/S2765038284",
+   "display_name": "Advanced Materials Technologies",
+   "issn_l": "2365-709X",
+   "issn": [
+    "2365-709X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Advanced Materials Technologies",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.202400043",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5031256325",
+    "display_name": "Liam M. Rooney",
+    "orcid": "https://orcid.org/0000-0002-2237-501X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2237-501X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Liam M. Rooney",
+   "raw_affiliation_strings": [
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-2237-501X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5074020816",
+    "display_name": "Jay L. Christopher",
+    "orcid": "https://orcid.org/0009-0009-0707-8947",
+    "observed_orcids": [
+     "https://orcid.org/0009-0009-0707-8947"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jay Christopher",
+   "raw_affiliation_strings": [
+    "Department of Electronic and Electrical Engineering University of Strathclyde  Glasgow G1 1XW UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0009-0707-8947",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde  Glasgow G1 1XW UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5063738086",
+    "display_name": "Ben Watson",
+    "orcid": "https://orcid.org/0009-0007-9971-786X",
+    "observed_orcids": [
+     "https://orcid.org/0009-0007-9971-786X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ben Watson",
+   "raw_affiliation_strings": [
+    "Department of Physics University of Strathclyde  Glasgow G4 0NG UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0007-9971-786X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde  Glasgow G4 0NG UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101270160",
+    "display_name": "Yash Susir Kumar",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yash Susir Kumar",
+   "raw_affiliation_strings": [
+    "Department of Physics University of Strathclyde  Glasgow G4 0NG UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde  Glasgow G4 0NG UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5021203886",
+    "display_name": "Laura S. Copeland",
+    "orcid": "https://orcid.org/0009-0008-7117-3626",
+    "observed_orcids": [
+     "https://orcid.org/0009-0008-7117-3626"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Laura Copeland",
+   "raw_affiliation_strings": [
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0008-7117-3626",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5082122562",
+    "display_name": "Lewis D. Walker",
+    "orcid": "https://orcid.org/0009-0008-0375-7793",
+    "observed_orcids": [
+     "https://orcid.org/0009-0008-0375-7793"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lewis D. Walker",
+   "raw_affiliation_strings": [
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0008-0375-7793",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5010150807",
+    "display_name": "Shannan Foylan",
+    "orcid": "https://orcid.org/0000-0001-8565-9207",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8565-9207"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shannan Foylan",
+   "raw_affiliation_strings": [
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-8565-9207",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5023034399",
+    "display_name": "W. B. Amos",
+    "orcid": "https://orcid.org/0000-0001-9979-5920",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9979-5920"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "William B. Amos",
+   "raw_affiliation_strings": [
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-9979-5920",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5012364805",
+    "display_name": "Ralf Bauer",
+    "orcid": "https://orcid.org/0000-0001-7927-9435",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7927-9435"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ralf Bauer",
+   "raw_affiliation_strings": [
+    "Department of Electronic and Electrical Engineering University of Strathclyde  Glasgow G1 1XW UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-7927-9435",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde  Glasgow G1 1XW UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5043238908",
+    "display_name": "Gail McConnell",
+    "orcid": "https://orcid.org/0000-0002-7213-0686",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7213-0686"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181647926",
+     "display_name": "University of Strathclyde",
+     "ror": "https://ror.org/00n3w3b69",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Gail McConnell",
+   "raw_affiliation_strings": [
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+    "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+    "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+    "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-7213-0686",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde  Glasgow G4 0RE UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Electronic and Electrical Engineering University of Strathclyde Glasgow G1 1XW, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Physics University of Strathclyde Glasgow G4 0NG, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Strathclyde Institute for Pharmacy and Biomedical Sciences University of Strathclyde Glasgow G4 0RE, UK",
+     "institution_ids": [
+      "https://openalex.org/I181647926"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5031256325"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I181647926"
+ ],
+ "apc_list": {
+  "value": 4650,
+  "currency": "USD",
+  "value_usd": 4650
+ },
+ "apc_paid": {
+  "value": 4650,
+  "currency": "USD",
+  "value_usd": 4650
+ },
+ "fwci": 2.9214,
+ "has_fulltext": true,
+ "cited_by_count": 26,
+ "citation_normalized_percentile": {
+  "value": 0.91896549,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 97,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "9",
+  "issue": "15",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11569",
+  "display_name": "Optical Coherence Tomography Applications",
+  "score": 0.9993000030517578,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11569",
+   "display_name": "Optical Coherence Tomography Applications",
+   "score": 0.9993000030517578,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10540",
+   "display_name": "Advanced Fluorescence Microscopy Techniques",
+   "score": 0.9980999827384949,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1304",
+    "display_name": "Biophysics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/13",
+    "display_name": "Biochemistry, Genetics and Molecular Biology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13114",
+   "display_name": "Image Processing Techniques and Applications",
+   "score": 0.9969000220298767,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2214",
+    "display_name": "Media Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.7860398888587952
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.6922203302383423
+  },
+  {
+   "id": "https://openalex.org/keywords/lens",
+   "display_name": "Lens (geology)",
+   "score": 0.6289759874343872
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.5628064274787903
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.5601983666419983
+  },
+  {
+   "id": "https://openalex.org/keywords/subtractive-color",
+   "display_name": "Subtractive color",
+   "score": 0.43320974707603455
+  },
+  {
+   "id": "https://openalex.org/keywords/curvature",
+   "display_name": "Curvature",
+   "score": 0.42733463644981384
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.3562876582145691
+  },
+  {
+   "id": "https://openalex.org/keywords/biomedical-engineering",
+   "display_name": "Biomedical engineering",
+   "score": 0.18329492211341858
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.16010940074920654
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.08982840180397034
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.7860398888587952
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.6922203302383423
+  },
+  {
+   "id": "https://openalex.org/C15336307",
+   "wikidata": "https://www.wikidata.org/wiki/Q1766051",
+   "display_name": "Lens (geology)",
+   "level": 2,
+   "score": 0.6289759874343872
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5628064274787903
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.5601983666419983
+  },
+  {
+   "id": "https://openalex.org/C150799807",
+   "wikidata": "https://www.wikidata.org/wiki/Q374081",
+   "display_name": "Subtractive color",
+   "level": 2,
+   "score": 0.43320974707603455
+  },
+  {
+   "id": "https://openalex.org/C195065555",
+   "wikidata": "https://www.wikidata.org/wiki/Q214881",
+   "display_name": "Curvature",
+   "level": 2,
+   "score": 0.42733463644981384
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.3562876582145691
+  },
+  {
+   "id": "https://openalex.org/C136229726",
+   "wikidata": "https://www.wikidata.org/wiki/Q327092",
+   "display_name": "Biomedical engineering",
+   "level": 1,
+   "score": 0.18329492211341858
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.16010940074920654
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.08982840180397034
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1002/admt.202400043",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1002/admt.202400043",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.202400043",
+   "source": {
+    "id": "https://openalex.org/S2765038284",
+    "display_name": "Advanced Materials Technologies",
+    "issn_l": "2365-709X",
+    "issn": [
+     "2365-709X"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "ki-jl-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Advanced Materials Technologies",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:strathprints.strath.ac.uk:88934",
+   "is_oa": true,
+   "landing_page_url": "https://strathprints.strath.ac.uk/view/author/1088948.html>",
+   "pdf_url": "https://strathprints.strath.ac.uk/88934/13/Rooney-etal-AMT-2024-Printing-characterising-and-assessing-transparent-3D-printed-lenses.pdf",
+   "source": {
+    "id": "https://openalex.org/S4306402226",
+    "display_name": "Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I181647926",
+    "host_organization_name": "University of Strathclyde",
+    "host_organization_lineage": [
+     "https://openalex.org/I181647926"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1002/admt.202400043",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1002/admt.202400043",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.202400043",
+  "source": {
+   "id": "https://openalex.org/S2765038284",
+   "display_name": "Advanced Materials Technologies",
+   "issn_l": "2365-709X",
+   "issn": [
+    "2365-709X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Advanced Materials Technologies",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/8",
+   "display_name": "Decent work and economic growth",
+   "score": 0.4099999964237213
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2082601977",
+   "display_name": null,
+   "funder_award_id": "BB/T011602/1",
+   "funder_id": "https://openalex.org/F4320334629",
+   "funder_display_name": "Biotechnology and Biological Sciences Research Council"
+  },
+  {
+   "id": "https://openalex.org/G2783880021",
+   "display_name": null,
+   "funder_award_id": "RF1516/15/8",
+   "funder_id": "https://openalex.org/F4320320005",
+   "funder_display_name": "Royal Academy of Engineering"
+  },
+  {
+   "id": "https://openalex.org/G2812698002",
+   "display_name": null,
+   "funder_award_id": "EP/S032606/1",
+   "funder_id": "https://openalex.org/F4320334627",
+   "funder_display_name": "Engineering and Physical Sciences Research Council"
+  },
+  {
+   "id": "https://openalex.org/G6342896665",
+   "display_name": "FASPRI: a new method for increased spatial resolution in surface plasmon imaging of unlabelled living cells",
+   "funder_award_id": "BB/T011602/1",
+   "funder_id": "https://openalex.org/F4320334629",
+   "funder_display_name": "Biotechnology and Biological Sciences Research Council"
+  },
+  {
+   "id": "https://openalex.org/G6977231230",
+   "display_name": null,
+   "funder_award_id": "MR/K015583/1",
+   "funder_id": "https://openalex.org/F4320334626",
+   "funder_display_name": "Medical Research Council"
+  },
+  {
+   "id": "https://openalex.org/G7477708501",
+   "display_name": "Mesolab: A Centre for Optical Mesoscopy for Biomedical Research at the University of Strathclyde",
+   "funder_award_id": "MR/K015583/1",
+   "funder_id": "https://openalex.org/F4320334626",
+   "funder_display_name": "Medical Research Council"
+  },
+  {
+   "id": "https://openalex.org/G7760558787",
+   "display_name": "Industrial CASE Account - University of Strathclyde 2023",
+   "funder_award_id": "EP/Y528833/1",
+   "funder_id": "https://openalex.org/F4320334627",
+   "funder_display_name": "Engineering and Physical Sciences Research Council"
+  },
+  {
+   "id": "https://openalex.org/G8635180772",
+   "display_name": null,
+   "funder_award_id": "BB/P02565X/1",
+   "funder_id": "https://openalex.org/F4320334629",
+   "funder_display_name": "Biotechnology and Biological Sciences Research Council"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320315216",
+   "display_name": "Royal Microscopical Society",
+   "ror": "https://ror.org/04a5k2919"
+  },
+  {
+   "id": "https://openalex.org/F4320319993",
+   "display_name": "Leverhulme Trust",
+   "ror": "https://ror.org/012mzw131"
+  },
+  {
+   "id": "https://openalex.org/F4320320005",
+   "display_name": "Royal Academy of Engineering",
+   "ror": "https://ror.org/0526snb40"
+  },
+  {
+   "id": "https://openalex.org/F4320334626",
+   "display_name": "Medical Research Council",
+   "ror": "https://ror.org/03x94j517"
+  },
+  {
+   "id": "https://openalex.org/F4320334627",
+   "display_name": "Engineering and Physical Sciences Research Council",
+   "ror": "https://ror.org/0439y7842"
+  },
+  {
+   "id": "https://openalex.org/F4320334629",
+   "display_name": "Biotechnology and Biological Sciences Research Council",
+   "ror": "https://ror.org/00cwqg982"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4396693099.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4396693099.grobid-xml"
+ },
+ "referenced_works_count": 48,
+ "referenced_works": [
+  "https://openalex.org/W632883848",
+  "https://openalex.org/W1557789337",
+  "https://openalex.org/W1994092976",
+  "https://openalex.org/W2001412060",
+  "https://openalex.org/W2002419320",
+  "https://openalex.org/W2008108113",
+  "https://openalex.org/W2014343487",
+  "https://openalex.org/W2070398104",
+  "https://openalex.org/W2075509235",
+  "https://openalex.org/W2077500037",
+  "https://openalex.org/W2089715053",
+  "https://openalex.org/W2113220543",
+  "https://openalex.org/W2149899237",
+  "https://openalex.org/W2159230671",
+  "https://openalex.org/W2167279371",
+  "https://openalex.org/W2253658535",
+  "https://openalex.org/W2402336340",
+  "https://openalex.org/W2588550473",
+  "https://openalex.org/W2738708094",
+  "https://openalex.org/W2790312704",
+  "https://openalex.org/W2793887430",
+  "https://openalex.org/W2883828352",
+  "https://openalex.org/W2922125863",
+  "https://openalex.org/W2945966841",
+  "https://openalex.org/W2979300535",
+  "https://openalex.org/W2979403566",
+  "https://openalex.org/W2986213142",
+  "https://openalex.org/W3003280119",
+  "https://openalex.org/W3012392814",
+  "https://openalex.org/W3018195139",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3043596011",
+  "https://openalex.org/W3081660217",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3109022162",
+  "https://openalex.org/W3196735068",
+  "https://openalex.org/W3199992400",
+  "https://openalex.org/W3204004352",
+  "https://openalex.org/W3204754049",
+  "https://openalex.org/W3211093808",
+  "https://openalex.org/W4210643112",
+  "https://openalex.org/W4220776252",
+  "https://openalex.org/W4237168541",
+  "https://openalex.org/W4289653794",
+  "https://openalex.org/W4293093123",
+  "https://openalex.org/W4307027212",
+  "https://openalex.org/W4318069202",
+  "https://openalex.org/W4392385028"
+ ],
+ "related_works": [
+  "https://openalex.org/W1955801659",
+  "https://openalex.org/W4200415650",
+  "https://openalex.org/W3036311796",
+  "https://openalex.org/W4367665844",
+  "https://openalex.org/W4285543619",
+  "https://openalex.org/W2290740043",
+  "https://openalex.org/W4319589397",
+  "https://openalex.org/W2582005554",
+  "https://openalex.org/W3131618301",
+  "https://openalex.org/W3158363272"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "High\u2010quality": [
+   1
+  ],
+  "lens": [
+   2
+  ],
+  "production": [
+   3
+  ],
+  "has": [
+   4
+  ],
+  "involved": [
+   5
+  ],
+  "subtractive": [
+   6
+  ],
+  "manufacturing": [
+   7,
+   184
+  ],
+  "methods": [
+   8,
+   12,
+   75,
+   95
+  ],
+  "for": [
+   9,
+   157,
+   182,
+   188
+  ],
+  "centuries.": [
+   10
+  ],
+  "These": [
+   11
+  ],
+  "demand": [
+   13
+  ],
+  "specialist": [
+   14
+  ],
+  "equipment": [
+   15
+  ],
+  "and": [
+   16,
+   29,
+   55,
+   60,
+   73,
+   83,
+   106,
+   115,
+   127,
+   142,
+   172,
+   192
+  ],
+  "expertise": [
+   17
+  ],
+  "that": [
+   18,
+   135
+  ],
+  "often": [
+   19
+  ],
+  "render": [
+   20
+  ],
+  "custom": [
+   21
+  ],
+  "high\u2010grade": [
+   22
+  ],
+  "glass": [
+   23,
+   67,
+   146
+  ],
+  "optics": [
+   24,
+   187,
+   197
+  ],
+  "inaccessible.": [
+   25
+  ],
+  "A": [
+   26,
+   69
+  ],
+  "low\u2010cost,": [
+   27
+  ],
+  "accessible,": [
+   28
+  ],
+  "reproducible": [
+   30
+  ],
+  "method": [
+   31
+  ],
+  "is": [
+   32,
+   133,
+   155
+  ],
+  "developed": [
+   33
+  ],
+  "to": [
+   34,
+   65,
+   78,
+   98,
+   144,
+   195
+  ],
+  "manufacture": [
+   35
+  ],
+  "high\u2010quality": [
+   36,
+   196
+  ],
+  "three": [
+   37
+  ],
+  "dimensional": [
+   38
+  ],
+  "(3D)": [
+   39
+  ],
+  "printed": [
+   40,
+   61,
+   87,
+   104,
+   119,
+   137,
+   153,
+   177
+  ],
+  "lenses": [
+   41,
+   47,
+   62,
+   105,
+   120,
+   138,
+   154,
+   178
+  ],
+  "using": [
+   42,
+   50,
+   123
+  ],
+  "consumer\u2010grade": [
+   43,
+   52
+  ],
+  "technology.": [
+   44
+  ],
+  "Various": [
+   45
+  ],
+  "planoconvex": [
+   46
+  ],
+  "are": [
+   48,
+   63,
+   76,
+   96,
+   121
+  ],
+  "produced": [
+   49
+  ],
+  "a": [
+   51,
+   165
+  ],
+  "3D": [
+   53,
+   86,
+   118,
+   136,
+   152,
+   176
+  ],
+  "printer": [
+   54
+  ],
+  "low\u2010cost": [
+   56,
+   189
+  ],
+  "spin": [
+   57
+  ],
+  "coating": [
+   58
+  ],
+  "setup,": [
+   59
+  ],
+  "compared": [
+   64
+  ],
+  "commercial": [
+   66,
+   145
+  ],
+  "counterparts.": [
+   68
+  ],
+  "range": [
+   70
+  ],
+  "of": [
+   71,
+   85,
+   103,
+   110,
+   117,
+   151,
+   175,
+   185
+  ],
+  "mechanical": [
+   72
+  ],
+  "optical": [
+   74,
+   113,
+   124
+  ],
+  "introduced": [
+   77
+  ],
+  "determine": [
+   79
+  ],
+  "the": [
+   80,
+   100,
+   149
+  ],
+  "surface": [
+   81,
+   102
+  ],
+  "quality": [
+   82
+  ],
+  "curvature": [
+   84,
+   141
+  ],
+  "lenses.": [
+   88,
+   147
+  ],
+  "Amongst": [
+   89
+  ],
+  "others,": [
+   90
+  ],
+  "high\u2010resolution": [
+   91
+  ],
+  "interference": [
+   92
+  ],
+  "reflection": [
+   93
+  ],
+  "microscopy": [
+   94
+  ],
+  "used": [
+   97
+  ],
+  "reconstruct": [
+   99
+  ],
+  "convex": [
+   101
+  ],
+  "quantify": [
+   107
+  ],
+  "their": [
+   108
+  ],
+  "radius": [
+   109
+  ],
+  "curvature.": [
+   111
+  ],
+  "The": [
+   112,
+   169
+  ],
+  "throughput": [
+   114
+  ],
+  "performance": [
+   116,
+   143,
+   174
+  ],
+  "assessed": [
+   122
+  ],
+  "transmissivity": [
+   125
+  ],
+  "measurements": [
+   126
+  ],
+  "classical": [
+   128
+  ],
+  "beam": [
+   129
+  ],
+  "characterization": [
+   130
+  ],
+  "methods.": [
+   131
+  ],
+  "It": [
+   132
+  ],
+  "determined": [
+   134
+  ],
+  "have": [
+   139
+  ],
+  "comparable": [
+   140,
+   173
+  ],
+  "Finally,": [
+   148
+  ],
+  "application": [
+   150
+  ],
+  "demonstrated": [
+   156
+  ],
+  "brightfield": [
+   158
+  ],
+  "transmission": [
+   159
+  ],
+  "microscopy,": [
+   160
+  ],
+  "resolving": [
+   161
+  ],
+  "sub\u2010cellular": [
+   162
+  ],
+  "structures": [
+   163
+  ],
+  "over": [
+   164
+  ],
+  "2.3": [
+   166
+  ],
+  "mm": [
+   167
+  ],
+  "field\u2010of\u2010view.": [
+   168
+  ],
+  "high": [
+   170
+  ],
+  "reproducibility": [
+   171
+  ],
+  "present": [
+   179
+  ],
+  "great": [
+   180
+  ],
+  "opportunities": [
+   181
+  ],
+  "additive": [
+   183
+  ],
+  "bespoke": [
+   186
+  ],
+  "rapid": [
+   190
+  ],
+  "prototyping": [
+   191
+  ],
+  "improved": [
+   193
+  ],
+  "accessibility": [
+   194
+  ],
+  "in": [
+   198
+  ],
+  "low\u2010resource": [
+   199
+  ],
+  "settings.": [
+   200
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 14
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 4
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

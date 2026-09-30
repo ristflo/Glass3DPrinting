@@ -1,0 +1,1086 @@
+{
+ "id": "https://openalex.org/W3173521547",
+ "doi": "https://doi.org/10.1364/ao.427525",
+ "title": "Optical transmittance of 3D printing materials",
+ "display_name": "Optical transmittance of 3D printing materials",
+ "publication_year": 2021,
+ "publication_date": "2021-06-28",
+ "ids": {
+  "openalex": "https://openalex.org/W3173521547",
+  "doi": "https://doi.org/10.1364/ao.427525",
+  "mag": "3173521547",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/34612899"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1364/ao.427525",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1364/ao.427525",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210211917",
+   "display_name": "Applied Optics",
+   "issn_l": "0003-6935",
+   "issn": [
+    "0003-6935",
+    "1539-4522",
+    "1540-8981",
+    "1559-128X",
+    "2155-3165"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [
+    "jufo-1",
+    "medline",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310315679",
+   "host_organization_name": "Optica Publishing Group",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315679"
+   ],
+   "host_organization_lineage_names": [
+    "Optica Publishing Group"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Applied Optics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "https://scholarworks.montana.edu/bitstreams/83115eb3-593b-494a-83ed-769b8f24cff2/download",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5046298730",
+    "display_name": "Shannon M. Hamp",
+    "orcid": "https://orcid.org/0000-0002-5036-2152",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-5036-2152"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I23732399",
+     "display_name": "Montana State University",
+     "ror": "https://ror.org/02w0trx84",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I23732399",
+      "https://openalex.org/I4210126032"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Shannon M. Hamp",
+   "raw_affiliation_strings": [
+    "Montana State University",
+    "Electrical and Computer Engineering Department and Optical Technology Center, Montana State University, P.O. Box 173515 Bozeman, Montana 59717-3515, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-5036-2152",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Montana State University",
+     "institution_ids": [
+      "https://openalex.org/I23732399"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Electrical and Computer Engineering Department and Optical Technology Center, Montana State University, P.O. Box 173515 Bozeman, Montana 59717-3515, USA",
+     "institution_ids": [
+      "https://openalex.org/I23732399"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5062721364",
+    "display_name": "Riley D. Logan",
+    "orcid": "https://orcid.org/0000-0002-5258-5472",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-5258-5472"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I23732399",
+     "display_name": "Montana State University",
+     "ror": "https://ror.org/02w0trx84",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I23732399",
+      "https://openalex.org/I4210126032"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Riley D. Logan",
+   "raw_affiliation_strings": [
+    "Montana State University",
+    "Electrical and Computer Engineering Department and Optical Technology Center, Montana State University, P.O. Box 173515 Bozeman, Montana 59717-3515, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-5258-5472",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Montana State University",
+     "institution_ids": [
+      "https://openalex.org/I23732399"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Electrical and Computer Engineering Department and Optical Technology Center, Montana State University, P.O. Box 173515 Bozeman, Montana 59717-3515, USA",
+     "institution_ids": [
+      "https://openalex.org/I23732399"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5070495574",
+    "display_name": "Joseph A. A. Shaw",
+    "orcid": "https://orcid.org/0000-0003-1056-1269",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1056-1269"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I23732399",
+     "display_name": "Montana State University",
+     "ror": "https://ror.org/02w0trx84",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I23732399",
+      "https://openalex.org/I4210126032"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Joseph A. Shaw",
+   "raw_affiliation_strings": [
+    "Montana State University",
+    "Electrical and Computer Engineering Department and Optical Technology Center, Montana State University, P.O. Box 173515 Bozeman, Montana 59717-3515, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-1056-1269",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Montana State University",
+     "institution_ids": [
+      "https://openalex.org/I23732399"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Electrical and Computer Engineering Department and Optical Technology Center, Montana State University, P.O. Box 173515 Bozeman, Montana 59717-3515, USA",
+     "institution_ids": [
+      "https://openalex.org/I23732399"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5046298730",
+  "https://openalex.org/A5062721364",
+  "https://openalex.org/A5070495574"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I23732399"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.4461,
+ "has_fulltext": true,
+ "cited_by_count": 9,
+ "citation_normalized_percentile": {
+  "value": 0.57946261,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 97
+ },
+ "biblio": {
+  "volume": "60",
+  "issue": "22",
+  "first_page": "6573",
+  "last_page": "6573"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9929999709129333,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9929999709129333,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12111",
+   "display_name": "Industrial Vision Systems and Defect Detection",
+   "score": 0.9860000014305115,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2209",
+    "display_name": "Industrial and Manufacturing Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11666",
+   "display_name": "Color Science and Applications",
+   "score": 0.9825000166893005,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3107",
+    "display_name": "Atomic and Molecular Physics, and Optics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/transmittance",
+   "display_name": "Transmittance",
+   "score": 0.9239802360534668
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.8239820599555969
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.728062629699707
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.5774150490760803
+  },
+  {
+   "id": "https://openalex.org/keywords/spectrometer",
+   "display_name": "Spectrometer",
+   "score": 0.5706009864807129
+  },
+  {
+   "id": "https://openalex.org/keywords/wavelength",
+   "display_name": "Wavelength",
+   "score": 0.5556631684303284
+  },
+  {
+   "id": "https://openalex.org/keywords/light-scattering",
+   "display_name": "Light scattering",
+   "score": 0.5025966167449951
+  },
+  {
+   "id": "https://openalex.org/keywords/stray-light",
+   "display_name": "Stray light",
+   "score": 0.4762409031391144
+  },
+  {
+   "id": "https://openalex.org/keywords/infrared",
+   "display_name": "Infrared",
+   "score": 0.4583240747451782
+  },
+  {
+   "id": "https://openalex.org/keywords/scattering",
+   "display_name": "Scattering",
+   "score": 0.4382582902908325
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.4203379154205322
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.0958513617515564
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.07634565234184265
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C150493377",
+   "wikidata": "https://www.wikidata.org/wiki/Q1427863",
+   "display_name": "Transmittance",
+   "level": 2,
+   "score": 0.9239802360534668
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.8239820599555969
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.728062629699707
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.5774150490760803
+  },
+  {
+   "id": "https://openalex.org/C33390570",
+   "wikidata": "https://www.wikidata.org/wiki/Q188463",
+   "display_name": "Spectrometer",
+   "level": 2,
+   "score": 0.5706009864807129
+  },
+  {
+   "id": "https://openalex.org/C6260449",
+   "wikidata": "https://www.wikidata.org/wiki/Q41364",
+   "display_name": "Wavelength",
+   "level": 2,
+   "score": 0.5556631684303284
+  },
+  {
+   "id": "https://openalex.org/C120456961",
+   "wikidata": "https://www.wikidata.org/wiki/Q210028",
+   "display_name": "Light scattering",
+   "level": 3,
+   "score": 0.5025966167449951
+  },
+  {
+   "id": "https://openalex.org/C144028864",
+   "wikidata": "https://www.wikidata.org/wiki/Q1428588",
+   "display_name": "Stray light",
+   "level": 2,
+   "score": 0.4762409031391144
+  },
+  {
+   "id": "https://openalex.org/C158355884",
+   "wikidata": "https://www.wikidata.org/wiki/Q11388",
+   "display_name": "Infrared",
+   "level": 2,
+   "score": 0.4583240747451782
+  },
+  {
+   "id": "https://openalex.org/C191486275",
+   "wikidata": "https://www.wikidata.org/wiki/Q210028",
+   "display_name": "Scattering",
+   "level": 2,
+   "score": 0.4382582902908325
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.4203379154205322
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0958513617515564
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.07634565234184265
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1364/ao.427525",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1364/ao.427525",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210211917",
+    "display_name": "Applied Optics",
+    "issn_l": "0003-6935",
+    "issn": [
+     "0003-6935",
+     "1539-4522",
+     "1540-8981",
+     "1559-128X",
+     "2155-3165"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [
+     "jufo-1",
+     "medline",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Applied Optics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:34612899",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34612899",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Applied optics",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:scholarworks.montana.edu:1/17151",
+   "is_oa": true,
+   "landing_page_url": "https://scholarworks.montana.edu/xmlui/handle/1/17151",
+   "pdf_url": "https://scholarworks.montana.edu/bitstreams/83115eb3-593b-494a-83ed-769b8f24cff2/download",
+   "source": {
+    "id": "https://openalex.org/S4306402563",
+    "display_name": "Montana State University ScholarWorks (Montana State University)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I23732399",
+    "host_organization_name": "Montana State University",
+    "host_organization_lineage": [
+     "https://openalex.org/I23732399"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:scholarworks.montana.edu:1/17151",
+  "is_oa": true,
+  "landing_page_url": "https://scholarworks.montana.edu/xmlui/handle/1/17151",
+  "pdf_url": "https://scholarworks.montana.edu/bitstreams/83115eb3-593b-494a-83ed-769b8f24cff2/download",
+  "source": {
+   "id": "https://openalex.org/S4306402563",
+   "display_name": "Montana State University ScholarWorks (Montana State University)",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I23732399",
+   "host_organization_name": "Montana State University",
+   "host_organization_lineage": [
+    "https://openalex.org/I23732399"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": null,
+  "raw_type": "Article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/11",
+   "score": 0.5299999713897705,
+   "display_name": "Sustainable cities and communities"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G5756157339",
+   "display_name": null,
+   "funder_award_id": "OIA-1757351",
+   "funder_id": "https://openalex.org/F4320338283",
+   "funder_display_name": "Office of Experimental Program to Stimulate Competitive Research"
+  },
+  {
+   "id": "https://openalex.org/G6010191646",
+   "display_name": "RII Track-1 Consortium for Research on Environmental Water Systems",
+   "funder_award_id": "1757351",
+   "funder_id": "https://openalex.org/F4320306076",
+   "funder_display_name": "National Science Foundation"
+  },
+  {
+   "id": "https://openalex.org/G7435979894",
+   "display_name": null,
+   "funder_award_id": "1757351",
+   "funder_id": "https://openalex.org/F4320338283",
+   "funder_display_name": "Office of Experimental Program to Stimulate Competitive Research"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306076",
+   "display_name": "National Science Foundation",
+   "ror": "https://ror.org/021nxhr62"
+  },
+  {
+   "id": "https://openalex.org/F4320311310",
+   "display_name": "Montana State University",
+   "ror": "https://ror.org/02w0trx84"
+  },
+  {
+   "id": "https://openalex.org/F4320332467",
+   "display_name": "U.S. Air Force",
+   "ror": "https://ror.org/006gmme17"
+  },
+  {
+   "id": "https://openalex.org/F4320337368",
+   "display_name": "Division of Graduate Education",
+   "ror": "https://ror.org/00whkrf32"
+  },
+  {
+   "id": "https://openalex.org/F4320337776",
+   "display_name": "Office of the Vice President for Research and Economic Development, University at Buffalo",
+   "ror": null
+  },
+  {
+   "id": "https://openalex.org/F4320338283",
+   "display_name": "Office of Experimental Program to Stimulate Competitive Research",
+   "ror": "https://ror.org/04k9mqs78"
+  },
+  {
+   "id": "https://openalex.org/F4320338294",
+   "display_name": "Air Force Research Laboratory",
+   "ror": "https://ror.org/02e2egq70"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W3173521547.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W3173521547.grobid-xml"
+ },
+ "referenced_works_count": 30,
+ "referenced_works": [
+  "https://openalex.org/W2120037961",
+  "https://openalex.org/W2147326417",
+  "https://openalex.org/W2156273918",
+  "https://openalex.org/W2164920745",
+  "https://openalex.org/W2183348908",
+  "https://openalex.org/W2471354798",
+  "https://openalex.org/W2606023727",
+  "https://openalex.org/W2625475794",
+  "https://openalex.org/W2748700453",
+  "https://openalex.org/W2751848801",
+  "https://openalex.org/W2766184600",
+  "https://openalex.org/W2766998986",
+  "https://openalex.org/W2804516145",
+  "https://openalex.org/W2807165046",
+  "https://openalex.org/W2852839214",
+  "https://openalex.org/W2896489920",
+  "https://openalex.org/W2920435926",
+  "https://openalex.org/W2939121473",
+  "https://openalex.org/W2947187018",
+  "https://openalex.org/W2950349047",
+  "https://openalex.org/W2972525371",
+  "https://openalex.org/W3007087847",
+  "https://openalex.org/W3010554711",
+  "https://openalex.org/W3015699030",
+  "https://openalex.org/W3082691073",
+  "https://openalex.org/W3102624756",
+  "https://openalex.org/W3121478804",
+  "https://openalex.org/W3125316506",
+  "https://openalex.org/W3135829589",
+  "https://openalex.org/W3137744890"
+ ],
+ "related_works": [
+  "https://openalex.org/W2037097066",
+  "https://openalex.org/W2349149525",
+  "https://openalex.org/W2105620498",
+  "https://openalex.org/W2083552051",
+  "https://openalex.org/W2138658413",
+  "https://openalex.org/W3132240366",
+  "https://openalex.org/W2094163144",
+  "https://openalex.org/W2017327475",
+  "https://openalex.org/W2073101353",
+  "https://openalex.org/W3112829778"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0
+  ],
+  "increasing": [
+   1
+  ],
+  "prevalence": [
+   2
+  ],
+  "of": [
+   3,
+   7,
+   16,
+   20,
+   32,
+   60,
+   71,
+   97,
+   106,
+   133
+  ],
+  "three-dimensional": [
+   4
+  ],
+  "(3D)": [
+   5
+  ],
+  "printing": [
+   6,
+   21,
+   34
+  ],
+  "optical": [
+   8,
+   18
+  ],
+  "housings": [
+   9
+  ],
+  "and": [
+   10,
+   64,
+   95,
+   100,
+   115,
+   120
+  ],
+  "mounts": [
+   11
+  ],
+  "necessitates": [
+   12
+  ],
+  "a": [
+   13,
+   26,
+   72,
+   77,
+   107,
+   121
+  ],
+  "better": [
+   14
+  ],
+  "understanding": [
+   15
+  ],
+  "the": [
+   17,
+   81,
+   86,
+   93,
+   98,
+   104,
+   128,
+   137
+  ],
+  "properties": [
+   19
+  ],
+  "materials.": [
+   22
+  ],
+  "This": [
+   23
+  ],
+  "paper": [
+   24,
+   129
+  ],
+  "describes": [
+   25
+  ],
+  "method": [
+   27
+  ],
+  "for": [
+   28
+  ],
+  "using": [
+   29
+  ],
+  "multithickness": [
+   30
+  ],
+  "samples": [
+   31,
+   56
+  ],
+  "3D": [
+   33,
+   55,
+   122
+  ],
+  "materials": [
+   35,
+   135
+  ],
+  "to": [
+   36,
+   44,
+   48,
+   84,
+   111,
+   130
+  ],
+  "measure": [
+   37,
+   85
+  ],
+  "transmittance": [
+   38
+  ],
+  "spectra": [
+   39
+  ],
+  "at": [
+   40
+  ],
+  "wavelengths": [
+   41
+  ],
+  "from": [
+   42
+  ],
+  "400": [
+   43
+  ],
+  "2400": [
+   45
+  ],
+  "nm": [
+   46
+  ],
+  "[visible": [
+   47
+  ],
+  "short-wave": [
+   49
+  ],
+  "infrared": [
+   50
+  ],
+  "(IR)].": [
+   51
+  ],
+  "In": [
+   52
+  ],
+  "this": [
+   53
+  ],
+  "method,": [
+   54
+  ],
+  "with": [
+   57,
+   76,
+   127,
+   136
+  ],
+  "material": [
+   58
+  ],
+  "thicknesses": [
+   59
+  ],
+  "1,": [
+   61
+  ],
+  "2,": [
+   62
+  ],
+  "3,": [
+   63
+  ],
+  "4": [
+   65
+  ],
+  "mm": [
+   66
+  ],
+  "were": [
+   67
+  ],
+  "positioned": [
+   68
+  ],
+  "in": [
+   69
+  ],
+  "front": [
+   70
+  ],
+  "uniform": [
+   73
+  ],
+  "light": [
+   74,
+   87
+  ],
+  "source": [
+   75
+  ],
+  "spectrometer": [
+   78
+  ],
+  "probe": [
+   79
+  ],
+  "on": [
+   80,
+   92
+  ],
+  "opposing": [
+   82
+  ],
+  "side": [
+   83
+  ],
+  "transmittance.": [
+   88
+  ],
+  "Transmission": [
+   89
+  ],
+  "depended": [
+   90
+  ],
+  "primarily": [
+   91
+  ],
+  "thickness": [
+   94
+  ],
+  "color": [
+   96
+  ],
+  "sample,": [
+   99
+  ],
+  "multiple": [
+   101
+  ],
+  "scattering": [
+   102
+  ],
+  "prevented": [
+   103
+  ],
+  "use": [
+   105
+  ],
+  "simple": [
+   108
+  ],
+  "exponential": [
+   109
+  ],
+  "model": [
+   110
+  ],
+  "relate": [
+   112
+  ],
+  "transmittance,": [
+   113
+  ],
+  "extinction,": [
+   114
+  ],
+  "thickness.": [
+   116
+  ],
+  "A": [
+   117
+  ],
+  "Solidworks": [
+   118
+  ],
+  "file": [
+   119,
+   124
+  ],
+  "printer": [
+   123
+  ],
+  "are": [
+   125
+  ],
+  "included": [
+   126
+  ],
+  "enable": [
+   131
+  ],
+  "measurements": [
+   132
+  ],
+  "additional": [
+   134
+  ],
+  "same": [
+   138
+  ],
+  "method.": [
+   139
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

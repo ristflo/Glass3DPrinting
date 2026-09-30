@@ -1,0 +1,1225 @@
+{
+ "id": "https://openalex.org/W4313891513",
+ "doi": "https://doi.org/10.1007/s44150-022-00080-7",
+ "title": "Prototyping of digitally manufactured thin glass composite fa\u00e7ade panels",
+ "display_name": "Prototyping of digitally manufactured thin glass composite fa\u00e7ade panels",
+ "publication_year": 2023,
+ "publication_date": "2023-01-09",
+ "ids": {
+  "openalex": "https://openalex.org/W4313891513",
+  "doi": "https://doi.org/10.1007/s44150-022-00080-7"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s44150-022-00080-7",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s44150-022-00080-7",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44150-022-00080-7.pdf",
+  "source": {
+   "id": "https://openalex.org/S4210189922",
+   "display_name": "Architecture Structures and Construction",
+   "issn_l": "2730-9886",
+   "issn": [
+    "2730-9886",
+    "2730-9894"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319965",
+   "host_organization_name": "Springer Nature",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Architecture, Structures and Construction",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://link.springer.com/content/pdf/10.1007/s44150-022-00080-7.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5089963818",
+    "display_name": "Daniel Pfarr",
+    "orcid": "https://orcid.org/0000-0002-5497-0649",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-5497-0649"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I78650965",
+     "display_name": "Technische Universit\u00e4t Dresden",
+     "ror": "https://ror.org/042aqky30",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I78650965"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Daniel Pfarr",
+   "raw_affiliation_strings": [
+    "Institute of Building Construction, Faculty of Civil Engineering, Technische Universit\u00e4t Dresden, Dresden, Germany"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-5497-0649",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Building Construction, Faculty of Civil Engineering, Technische Universit\u00e4t Dresden, Dresden, Germany",
+     "institution_ids": [
+      "https://openalex.org/I78650965"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5084321960",
+    "display_name": "Christian Louter",
+    "orcid": "https://orcid.org/0000-0003-2131-4351",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2131-4351"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I78650965",
+     "display_name": "Technische Universit\u00e4t Dresden",
+     "ror": "https://ror.org/042aqky30",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I78650965"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I98358874",
+     "display_name": "Delft University of Technology",
+     "ror": "https://ror.org/02e2c7k09",
+     "country_code": "NL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I98358874"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "NL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Christian Louter",
+   "raw_affiliation_strings": [
+    "Institute of Building Construction, Faculty of Civil Engineering, Technische Universit\u00e4t Dresden, Dresden, Germany",
+    "Structural Design & Building Engineering, Faculty of Civil Engineering & Geosciences, Delft University of Technology, Delft, The Netherlands"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2131-4351",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Building Construction, Faculty of Civil Engineering, Technische Universit\u00e4t Dresden, Dresden, Germany",
+     "institution_ids": [
+      "https://openalex.org/I78650965"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Structural Design & Building Engineering, Faculty of Civil Engineering & Geosciences, Delft University of Technology, Delft, The Netherlands",
+     "institution_ids": [
+      "https://openalex.org/I98358874"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5089963818"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I78650965"
+ ],
+ "apc_list": {
+  "value": 2890,
+  "currency": "USD",
+  "value_usd": 2890
+ },
+ "apc_paid": {
+  "value": 2890,
+  "currency": "USD",
+  "value_usd": 2890
+ },
+ "fwci": 0.4296,
+ "has_fulltext": true,
+ "cited_by_count": 4,
+ "citation_normalized_percentile": {
+  "value": 0.54185903,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 94,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "3",
+  "issue": "2",
+  "first_page": "263",
+  "last_page": "273"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12190",
+  "display_name": "Innovations in Concrete and Construction Materials",
+  "score": 0.9979000091552734,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2215",
+   "display_name": "Building and Construction"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12190",
+   "display_name": "Innovations in Concrete and Construction Materials",
+   "score": 0.9979000091552734,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2215",
+    "display_name": "Building and Construction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9955999851226807,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9801999926567078,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/workflow",
+   "display_name": "Workflow",
+   "score": 0.742695689201355
+  },
+  {
+   "id": "https://openalex.org/keywords/digital-manufacturing",
+   "display_name": "Digital manufacturing",
+   "score": 0.5519121885299683
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.5478562712669373
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.4505390524864197
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-engineering",
+   "display_name": "Manufacturing engineering",
+   "score": 0.44933128356933594
+  },
+  {
+   "id": "https://openalex.org/keywords/finite-element-method",
+   "display_name": "Finite element method",
+   "score": 0.44533565640449524
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-number",
+   "display_name": "Composite number",
+   "score": 0.433495432138443
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering-design-process",
+   "display_name": "Engineering design process",
+   "score": 0.4306696653366089
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.4248887300491333
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.4134780764579773
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.3372798562049866
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.2706536054611206
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.20629173517227173
+  },
+  {
+   "id": "https://openalex.org/keywords/structural-engineering",
+   "display_name": "Structural engineering",
+   "score": 0.1832588016986847
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C177212765",
+   "wikidata": "https://www.wikidata.org/wiki/Q627335",
+   "display_name": "Workflow",
+   "level": 2,
+   "score": 0.742695689201355
+  },
+  {
+   "id": "https://openalex.org/C2780841897",
+   "wikidata": "https://www.wikidata.org/wiki/Q25349015",
+   "display_name": "Digital manufacturing",
+   "level": 2,
+   "score": 0.5519121885299683
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.5478562712669373
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.4505390524864197
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.44933128356933594
+  },
+  {
+   "id": "https://openalex.org/C135628077",
+   "wikidata": "https://www.wikidata.org/wiki/Q220184",
+   "display_name": "Finite element method",
+   "level": 2,
+   "score": 0.44533565640449524
+  },
+  {
+   "id": "https://openalex.org/C104779481",
+   "wikidata": "https://www.wikidata.org/wiki/Q50707",
+   "display_name": "Composite number",
+   "level": 2,
+   "score": 0.433495432138443
+  },
+  {
+   "id": "https://openalex.org/C34972735",
+   "wikidata": "https://www.wikidata.org/wiki/Q2920267",
+   "display_name": "Engineering design process",
+   "level": 2,
+   "score": 0.4306696653366089
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.4248887300491333
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.4134780764579773
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.3372798562049866
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.2706536054611206
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.20629173517227173
+  },
+  {
+   "id": "https://openalex.org/C66938386",
+   "wikidata": "https://www.wikidata.org/wiki/Q633538",
+   "display_name": "Structural engineering",
+   "level": 1,
+   "score": 0.1832588016986847
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C77088390",
+   "wikidata": "https://www.wikidata.org/wiki/Q8513",
+   "display_name": "Database",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.1007/s44150-022-00080-7",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s44150-022-00080-7",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44150-022-00080-7.pdf",
+   "source": {
+    "id": "https://openalex.org/S4210189922",
+    "display_name": "Architecture Structures and Construction",
+    "issn_l": "2730-9886",
+    "issn": [
+     "2730-9886",
+     "2730-9894"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319965",
+    "host_organization_name": "Springer Nature",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Architecture, Structures and Construction",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:qucosa:de:qucosa:95986",
+   "is_oa": true,
+   "landing_page_url": "https://tud.qucosa.de/id/qucosa%3A95986",
+   "pdf_url": "https://tud.qucosa.de/api/qucosa%3A95986/attachment/ATT-0/",
+   "source": {
+    "id": "https://openalex.org/S4377196435",
+    "display_name": "Qucosa (Saxon State and University Library Dresden)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I3132420320",
+    "host_organization_name": "SLUB Dresden",
+    "host_organization_lineage": [
+     "https://openalex.org/I3132420320"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "info:eu-repo/semantics/publishedVersion"
+  },
+  {
+   "id": "pmh:oai:tudelft.nl:uuid:91a40a75-a00d-4cc8-8f79-55f83adbf9ac",
+   "is_oa": true,
+   "landing_page_url": "http://resolver.tudelft.nl/uuid:91a40a75-a00d-4cc8-8f79-55f83adbf9ac",
+   "pdf_url": "https://repository.tudelft.nl/file/File_44e56ce5-4b38-4e92-8560-844614846b7b",
+   "source": {
+    "id": "https://openalex.org/S4306400906",
+    "display_name": "Research Repository (Delft University of Technology)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I98358874",
+    "host_organization_name": "Delft University of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I98358874"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "journal article"
+  },
+  {
+   "id": "pmh:tud:oai:tudelft.nl:uuid:91a40a75-a00d-4cc8-8f79-55f83adbf9ac",
+   "is_oa": true,
+   "landing_page_url": "http://resolver.tudelft.nl/uuid:91a40a75-a00d-4cc8-8f79-55f83adbf9ac",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401843",
+    "display_name": "Data Archiving and Networked Services (DANS)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1322597698",
+    "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+    "host_organization_lineage": [
+     "https://openalex.org/I1322597698"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "other-oa",
+   "license_id": "https://openalex.org/licenses/other-oa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Architecture, Structures and Construction, 3(2)",
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1007/s44150-022-00080-7",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s44150-022-00080-7",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44150-022-00080-7.pdf",
+  "source": {
+   "id": "https://openalex.org/S4210189922",
+   "display_name": "Architecture Structures and Construction",
+   "issn_l": "2730-9886",
+   "issn": [
+    "2730-9886",
+    "2730-9894"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319965",
+   "host_organization_name": "Springer Nature",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Architecture, Structures and Construction",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.5199999809265137
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2469086920",
+   "display_name": null,
+   "funder_award_id": "ZF4123725WZ9",
+   "funder_id": "https://openalex.org/F4320318088",
+   "funder_display_name": "AiF Projekt"
+  },
+  {
+   "id": "https://openalex.org/G3173445855",
+   "display_name": null,
+   "funder_award_id": "100537005",
+   "funder_id": "https://openalex.org/F4320323752",
+   "funder_display_name": "S\u00e4chsische Aufbaubank"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320318088",
+   "display_name": "AiF Projekt",
+   "ror": "https://ror.org/00jhvev34"
+  },
+  {
+   "id": "https://openalex.org/F4320320300",
+   "display_name": "European Commission",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320321613",
+   "display_name": "Technische Universit\u00e4t Dresden",
+   "ror": "https://ror.org/042aqky30"
+  },
+  {
+   "id": "https://openalex.org/F4320323752",
+   "display_name": "S\u00e4chsische Aufbaubank",
+   "ror": "https://ror.org/04ekv3k57"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4313891513.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4313891513.grobid-xml"
+ },
+ "referenced_works_count": 11,
+ "referenced_works": [
+  "https://openalex.org/W1645548342",
+  "https://openalex.org/W1978081392",
+  "https://openalex.org/W2016473963",
+  "https://openalex.org/W2021292633",
+  "https://openalex.org/W2793443227",
+  "https://openalex.org/W2802948937",
+  "https://openalex.org/W2936934529",
+  "https://openalex.org/W3012041222",
+  "https://openalex.org/W3103262454",
+  "https://openalex.org/W3164397208",
+  "https://openalex.org/W3171044447"
+ ],
+ "related_works": [
+  "https://openalex.org/W2362834542",
+  "https://openalex.org/W2088298833",
+  "https://openalex.org/W2348355667",
+  "https://openalex.org/W3173056534",
+  "https://openalex.org/W3165358186",
+  "https://openalex.org/W1943981837",
+  "https://openalex.org/W4388585214",
+  "https://openalex.org/W3005460686",
+  "https://openalex.org/W4321608292",
+  "https://openalex.org/W2566164249"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "The": [
+   1,
+   101,
+   180
+  ],
+  "use": [
+   2,
+   24
+  ],
+  "of": [
+   3,
+   11,
+   21,
+   25,
+   73,
+   87,
+   113,
+   125,
+   129,
+   166,
+   183,
+   195,
+   205,
+   216
+  ],
+  "thin": [
+   4,
+   34,
+   43,
+   74,
+   131
+  ],
+  "glass": [
+   5,
+   44,
+   75,
+   132
+  ],
+  "promises": [
+   6
+  ],
+  "to": [
+   7,
+   17,
+   54,
+   108
+  ],
+  "enable": [
+   8,
+   109
+  ],
+  "a": [
+   9,
+   49,
+   56,
+   88,
+   104,
+   130,
+   160
+  ],
+  "variety": [
+   10
+  ],
+  "construction": [
+   12
+  ],
+  "industry": [
+   13
+  ],
+  "pursuits.": [
+   14
+  ],
+  "In": [
+   15
+  ],
+  "addition": [
+   16
+  ],
+  "the": [
+   18,
+   38,
+   41,
+   70,
+   85,
+   110,
+   121,
+   126,
+   167,
+   184,
+   193,
+   196,
+   200,
+   203,
+   214
+  ],
+  "ecological": [
+   19
+  ],
+  "benefits": [
+   20
+  ],
+  "more": [
+   22
+  ],
+  "efficient": [
+   23
+  ],
+  "resources,": [
+   26
+  ],
+  "architects": [
+   27
+  ],
+  "can": [
+   28,
+   45
+  ],
+  "anticipate": [
+   29
+  ],
+  "new": [
+   30
+  ],
+  "design": [
+   31,
+   106,
+   186
+  ],
+  "freedoms": [
+   32
+  ],
+  "with": [
+   33,
+   48,
+   79
+  ],
+  "glass.": [
+   35
+  ],
+  "Based": [
+   36
+  ],
+  "on": [
+   37,
+   69
+  ],
+  "sandwich": [
+   39
+  ],
+  "theory,": [
+   40
+  ],
+  "flexible": [
+   42
+  ],
+  "be": [
+   46
+  ],
+  "combined": [
+   47
+  ],
+  "3D-printed": [
+   50
+  ],
+  "open-cell": [
+   51
+  ],
+  "polymer": [
+   52
+  ],
+  "core": [
+   53
+  ],
+  "form": [
+   55
+  ],
+  "very": [
+   57
+  ],
+  "rigid": [
+   58
+  ],
+  "yet": [
+   59
+  ],
+  "lightweight": [
+   60
+  ],
+  "composite": [
+   61,
+   76,
+   133,
+   168
+  ],
+  "element.": [
+   62
+  ],
+  "This": [
+   63
+  ],
+  "paper": [
+   64
+  ],
+  "presents": [
+   65
+  ],
+  "an": [
+   66,
+   80,
+   141
+  ],
+  "exploratory": [
+   67
+  ],
+  "attempt": [
+   68
+  ],
+  "digital": [
+   71,
+   89,
+   114,
+   127,
+   185
+  ],
+  "manufacturing": [
+   72,
+   128,
+   188
+  ],
+  "fa\u00e7ade": [
+   77
+  ],
+  "panels": [
+   78
+  ],
+  "industrial": [
+   81,
+   142
+  ],
+  "robot.": [
+   82
+  ],
+  "It": [
+   83
+  ],
+  "explains": [
+   84
+  ],
+  "idea": [
+   86
+  ],
+  "\u201cfile-to-factory\u201d-workflow": [
+   90
+  ],
+  "which": [
+   91
+  ],
+  "includes": [
+   92
+  ],
+  "Computer-Aided": [
+   93
+  ],
+  "Design": [
+   94
+  ],
+  "(CAD),": [
+   95
+  ],
+  "Engineering": [
+   96
+  ],
+  "(CAE)": [
+   97
+  ],
+  "and": [
+   98,
+   123,
+   154,
+   172,
+   175,
+   187,
+   208
+  ],
+  "Manufacturing": [
+   99
+  ],
+  "(CAM).": [
+   100
+  ],
+  "research": [
+   102
+  ],
+  "shows": [
+   103,
+   120
+  ],
+  "parametric": [
+   105
+  ],
+  "process": [
+   107,
+   119,
+   156
+  ],
+  "seamless": [
+   111
+  ],
+  "integration": [
+   112,
+   204
+  ],
+  "analytic": [
+   115
+  ],
+  "tools.": [
+   116
+  ],
+  "Furthermore,": [
+   117
+  ],
+  "this": [
+   118
+  ],
+  "potentials": [
+   122
+  ],
+  "challenges": [
+   124
+  ],
+  "panel.": [
+   134
+  ],
+  "Here,": [
+   135
+  ],
+  "partial": [
+   136
+  ],
+  "production": [
+   137
+  ],
+  "steps": [
+   138
+  ],
+  "executed": [
+   139
+  ],
+  "by": [
+   140
+  ],
+  "robot": [
+   143
+  ],
+  "arm,": [
+   144
+  ],
+  "such": [
+   145
+  ],
+  "as": [
+   146,
+   190,
+   192,
+   211,
+   213
+  ],
+  "large-format": [
+   147
+  ],
+  "additive": [
+   148
+  ],
+  "manufacturing,": [
+   149
+  ],
+  "mechanical": [
+   150,
+   164,
+   218
+  ],
+  "surface": [
+   151,
+   178
+  ],
+  "preparation,": [
+   152
+  ],
+  "bonding": [
+   153
+  ],
+  "assembly": [
+   155
+  ],
+  "are": [
+   157,
+   170
+  ],
+  "explained.": [
+   158
+  ],
+  "Finally,": [
+   159
+  ],
+  "first": [
+   161
+  ],
+  "insight": [
+   162
+  ],
+  "into": [
+   163
+  ],
+  "properties": [
+   165
+  ],
+  "panel": [
+   169
+  ],
+  "experimentally": [
+   171
+  ],
+  "numerically": [
+   173
+  ],
+  "investigated": [
+   174
+  ],
+  "evaluated": [
+   176
+  ],
+  "under": [
+   177
+  ],
+  "load.": [
+   179
+  ],
+  "general": [
+   181
+  ],
+  "concept": [
+   182
+  ],
+  "workflow": [
+   189
+  ],
+  "well": [
+   191,
+   212
+  ],
+  "results": [
+   194
+  ],
+  "experimental": [
+   197
+  ],
+  "study": [
+   198
+  ],
+  "provide": [
+   199
+  ],
+  "background": [
+   201
+  ],
+  "for": [
+   202
+  ],
+  "further": [
+   206
+  ],
+  "form-finding": [
+   207
+  ],
+  "analysis": [
+   209
+  ],
+  "methods": [
+   210
+  ],
+  "implementation": [
+   215
+  ],
+  "extensive": [
+   217
+  ],
+  "investigations": [
+   219
+  ],
+  "in": [
+   220
+  ],
+  "future": [
+   221
+  ],
+  "research.": [
+   222
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-22T17:25:34.749102",
+ "created_date": "2025-10-10T00:00:00"
+}

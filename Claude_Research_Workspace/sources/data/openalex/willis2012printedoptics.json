@@ -1,0 +1,880 @@
+{
+ "id": "https://openalex.org/W2147326417",
+ "doi": "https://doi.org/10.1145/2380116.2380190",
+ "title": "Printed optics",
+ "display_name": "Printed optics",
+ "publication_year": 2012,
+ "publication_date": "2012-10-05",
+ "ids": {
+  "openalex": "https://openalex.org/W2147326417",
+  "doi": "https://doi.org/10.1145/2380116.2380190",
+  "mag": "2147326417"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/2380116.2380190",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/2380116.2380190",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the 25th annual ACM symposium on User interface software and technology",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5079002770",
+    "display_name": "Karl D. D. Willis",
+    "orcid": "https://orcid.org/0000-0002-6990-2294",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6990-2294"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Karl Willis",
+   "raw_affiliation_strings": [
+    "Disney Research Pittsburgh &amp; Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+    "Disney Research Pittsburgh & Carnegie Mellon University, Pittsburgh, Pennsylvania, USA#TAB#"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Pittsburgh &amp; Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Pittsburgh & Carnegie Mellon University, Pittsburgh, Pennsylvania, USA#TAB#",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5017750168",
+    "display_name": "Eric Brockmeyer",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210142140",
+     "display_name": "Walt Disney (United States)",
+     "ror": "https://ror.org/04eg47h42",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Eric Brockmeyer",
+   "raw_affiliation_strings": [
+    "Disney Research Pittsburgh, Pittsburgh, Pennsylvania, USA",
+    "Disney Research Pittsburgh, Pittsburgh, Pennsylvania, USA#TAB#"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Pittsburgh, Pittsburgh, Pennsylvania, USA",
+     "institution_ids": [
+      "https://openalex.org/I4210142140"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Pittsburgh, Pittsburgh, Pennsylvania, USA#TAB#",
+     "institution_ids": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5039238746",
+    "display_name": "Scott E. Hudson",
+    "orcid": "https://orcid.org/0000-0002-0948-3251",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0948-3251"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Scott Hudson",
+   "raw_affiliation_strings": [
+    "Disney Research Pittsburgh &amp; Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+    "Disney Research Pittsburgh & Carnegie Mellon University, Pittsburgh, Pennsylvania, USA#TAB#"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Pittsburgh &amp; Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Pittsburgh & Carnegie Mellon University, Pittsburgh, Pennsylvania, USA#TAB#",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5004961545",
+    "display_name": "Ivan Poupyrev",
+    "orcid": "https://orcid.org/0009-0008-7389-4726",
+    "observed_orcids": [
+     "https://orcid.org/0009-0008-7389-4726"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210142140",
+     "display_name": "Walt Disney (United States)",
+     "ror": "https://ror.org/04eg47h42",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ivan Poupyrev",
+   "raw_affiliation_strings": [
+    "Disney Research, Pittsburgh, Pennsylvania, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research, Pittsburgh, Pennsylvania, USA",
+     "institution_ids": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 13.9676,
+ "has_fulltext": false,
+ "cited_by_count": 306,
+ "citation_normalized_percentile": {
+  "value": 0.9964455,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 100
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "589",
+  "last_page": "598"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10789",
+  "display_name": "Interactive and Immersive Displays",
+  "score": 0.9998999834060669,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1709",
+   "display_name": "Human-Computer Interaction"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10789",
+   "display_name": "Interactive and Immersive Displays",
+   "score": 0.9998999834060669,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1709",
+    "display_name": "Human-Computer Interaction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10914",
+   "display_name": "Tactile and Sensory Interactions",
+   "score": 0.9975000023841858,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2805",
+    "display_name": "Cognitive Neuroscience"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/28",
+    "display_name": "Neuroscience"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10888",
+   "display_name": "Augmented Reality Applications",
+   "score": 0.9941999912261963,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.5623886585235596
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.557131290435791
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.5486869215965271
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.5202487707138062
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-graphics",
+   "display_name": "Computer graphics (images)",
+   "score": 0.350711464881897
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.3410758376121521
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.33866578340530396
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.32017314434051514
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.22307509183883667
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.11970436573028564
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.5623886585235596
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.557131290435791
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.5486869215965271
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.5202487707138062
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.350711464881897
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.3410758376121521
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.33866578340530396
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.32017314434051514
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.22307509183883667
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.11970436573028564
+  },
+  {
+   "id": "https://openalex.org/C136229726",
+   "wikidata": "https://www.wikidata.org/wiki/Q327092",
+   "display_name": "Biomedical engineering",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1145/2380116.2380190",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/2380116.2380190",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the 25th annual ACM symposium on User interface software and technology",
+   "raw_type": "proceedings-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 39,
+ "referenced_works": [
+  "https://openalex.org/W1516425447",
+  "https://openalex.org/W1868662354",
+  "https://openalex.org/W1967033510",
+  "https://openalex.org/W1970618367",
+  "https://openalex.org/W1984355190",
+  "https://openalex.org/W1996053522",
+  "https://openalex.org/W1997491611",
+  "https://openalex.org/W1998297311",
+  "https://openalex.org/W1999013213",
+  "https://openalex.org/W2000943253",
+  "https://openalex.org/W2006909308",
+  "https://openalex.org/W2023207621",
+  "https://openalex.org/W2026286411",
+  "https://openalex.org/W2030054644",
+  "https://openalex.org/W2030297198",
+  "https://openalex.org/W2038123466",
+  "https://openalex.org/W2046850055",
+  "https://openalex.org/W2073214136",
+  "https://openalex.org/W2075095917",
+  "https://openalex.org/W2076403089",
+  "https://openalex.org/W2079196436",
+  "https://openalex.org/W2091491784",
+  "https://openalex.org/W2101102258",
+  "https://openalex.org/W2107460475",
+  "https://openalex.org/W2129146498",
+  "https://openalex.org/W2133258886",
+  "https://openalex.org/W2140280838",
+  "https://openalex.org/W2140982079",
+  "https://openalex.org/W2149804034",
+  "https://openalex.org/W2151045871",
+  "https://openalex.org/W2151833588",
+  "https://openalex.org/W2162255345",
+  "https://openalex.org/W2164734420",
+  "https://openalex.org/W2166493117",
+  "https://openalex.org/W2167023109",
+  "https://openalex.org/W2168926782",
+  "https://openalex.org/W2802453271",
+  "https://openalex.org/W2858802250",
+  "https://openalex.org/W2913524657"
+ ],
+ "related_works": [
+  "https://openalex.org/W3036311796",
+  "https://openalex.org/W4367665844",
+  "https://openalex.org/W3004274744",
+  "https://openalex.org/W4285543619",
+  "https://openalex.org/W4319589397",
+  "https://openalex.org/W1955801659",
+  "https://openalex.org/W2582005554",
+  "https://openalex.org/W3131618301",
+  "https://openalex.org/W3158363272",
+  "https://openalex.org/W3089387070"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0
+  ],
+  "present": [
+   1
+  ],
+  "an": [
+   2,
+   35
+  ],
+  "approach": [
+   3
+  ],
+  "to": [
+   4,
+   24
+  ],
+  "3D": [
+   5,
+   80,
+   104
+  ],
+  "printing": [
+   6,
+   105
+  ],
+  "custom": [
+   7,
+   47,
+   99
+  ],
+  "optical": [
+   8,
+   48,
+   100
+  ],
+  "elements": [
+   9,
+   23,
+   101
+  ],
+  "for": [
+   10,
+   58,
+   75,
+   92
+  ],
+  "interactive": [
+   11,
+   36,
+   64,
+   76
+  ],
+  "devices": [
+   12,
+   77
+  ],
+  "labelled": [
+   13
+  ],
+  "Printed": [
+   14,
+   16,
+   66
+  ],
+  "Optics.": [
+   15
+  ],
+  "Optics": [
+   17,
+   67
+  ],
+  "enable": [
+   18
+  ],
+  "sensing,": [
+   19
+  ],
+  "display,": [
+   20
+  ],
+  "and": [
+   21,
+   50
+  ],
+  "illumination": [
+   22,
+   45
+  ],
+  "be": [
+   25,
+   55
+  ],
+  "directly": [
+   26
+  ],
+  "embedded": [
+   27,
+   51
+  ],
+  "in": [
+   28,
+   82
+  ],
+  "the": [
+   29,
+   90
+  ],
+  "casing": [
+   30
+  ],
+  "or": [
+   31
+  ],
+  "mechanical": [
+   32
+  ],
+  "structure": [
+   33
+  ],
+  "of": [
+   34,
+   70,
+   98
+  ],
+  "device.": [
+   37
+  ],
+  "Using": [
+   38
+  ],
+  "these": [
+   39
+  ],
+  "elements,": [
+   40
+  ],
+  "unique": [
+   41
+  ],
+  "display": [
+   42
+  ],
+  "surfaces,": [
+   43
+  ],
+  "novel": [
+   44
+  ],
+  "techniques,": [
+   46
+  ],
+  "sensors,": [
+   49
+  ],
+  "optoelectronic": [
+   52
+  ],
+  "components": [
+   53
+  ],
+  "can": [
+   54
+  ],
+  "digitally": [
+   56
+  ],
+  "fabricated": [
+   57
+  ],
+  "rapid,": [
+   59
+  ],
+  "high": [
+   60
+  ],
+  "fidelity,": [
+   61
+  ],
+  "highly": [
+   62
+  ],
+  "customized": [
+   63
+  ],
+  "devices.": [
+   65
+  ],
+  "is": [
+   68
+  ],
+  "part": [
+   69
+  ],
+  "our": [
+   71
+  ],
+  "long": [
+   72
+  ],
+  "term": [
+   73
+  ],
+  "vision": [
+   74,
+   94
+  ],
+  "that": [
+   78
+  ],
+  "are": [
+   79
+  ],
+  "printed": [
+   81
+  ],
+  "their": [
+   83
+  ],
+  "entirety.": [
+   84
+  ],
+  "In": [
+   85
+  ],
+  "this": [
+   86,
+   93
+  ],
+  "paper": [
+   87
+  ],
+  "we": [
+   88
+  ],
+  "explore": [
+   89
+  ],
+  "possibilities": [
+   91
+  ],
+  "afforded": [
+   95
+  ],
+  "by": [
+   96
+  ],
+  "fabrication": [
+   97
+  ],
+  "using": [
+   102
+  ],
+  "today's": [
+   103
+  ],
+  "technology.": [
+   106
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 21
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 33
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 35
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 32
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 33
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 39
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 25
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 11
+  }
+ ],
+ "updated_date": "2026-09-12T09:15:50.089291",
+ "created_date": "2016-06-24T00:00:00"
+}

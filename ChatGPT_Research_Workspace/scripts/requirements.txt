@@ -1,0 +1,9 @@
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+requests==2.34.2
+pypdf==6.19.0
+Pillow==12.3.0
+beautifulsoup4==4.15.0
+PyMuPDF==1.28.2
+bibtexparser==1.4.4

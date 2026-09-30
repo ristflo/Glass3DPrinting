@@ -1,0 +1,1122 @@
+{
+ "id": "https://openalex.org/W4386569715",
+ "doi": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+ "title": "Selective laser melting of glass with irregular shaped powder",
+ "display_name": "Selective laser melting of glass with irregular shaped powder",
+ "relevance_score": 1212.9572,
+ "publication_year": 2023,
+ "publication_date": "2023-09-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4386569715",
+  "doi": "https://doi.org/10.1016/j.jmrt.2023.09.011"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.jmrt.2023.09.011",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2765010971",
+   "display_name": "Journal of Materials Research and Technology",
+   "issn_l": "2214-0697",
+   "issn": [
+    "2214-0697",
+    "2238-7854"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Materials Research and Technology",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5101630566",
+    "display_name": "Tian Yang",
+    "orcid": "https://orcid.org/0009-0006-9625-5391"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I24943067",
+     "display_name": "Fudan University",
+     "ror": "https://ror.org/013q1eq08",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tian Yang",
+   "raw_affiliation_strings": [
+    "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0006-9625-5391",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China",
+     "institution_ids": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5110320217",
+    "display_name": "Zhijian Feng",
+    "orcid": "https://orcid.org/0009-0007-0235-7475"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I24943067",
+     "display_name": "Fudan University",
+     "ror": "https://ror.org/013q1eq08",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zhijian Feng",
+   "raw_affiliation_strings": [
+    "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China",
+     "institution_ids": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5102856014",
+    "display_name": "Yating Qiu",
+    "orcid": "https://orcid.org/0009-0001-8427-8549"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I24943067",
+     "display_name": "Fudan University",
+     "ror": "https://ror.org/013q1eq08",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yating Qiu",
+   "raw_affiliation_strings": [
+    "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0001-8427-8549",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China",
+     "institution_ids": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5026743733",
+    "display_name": "Wei Han",
+    "orcid": "https://orcid.org/0000-0003-0531-0473"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I24943067",
+     "display_name": "Fudan University",
+     "ror": "https://ror.org/013q1eq08",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Wei Han",
+   "raw_affiliation_strings": [
+    "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China",
+     "institution_ids": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5030834608",
+    "display_name": "Lingbao Kong",
+    "orcid": "https://orcid.org/0000-0003-4522-2961"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I24943067",
+     "display_name": "Fudan University",
+     "ror": "https://ror.org/013q1eq08",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lingbao Kong",
+   "raw_affiliation_strings": [
+    "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shanghai Engineering Research Center of Ultra-Precision Optical Manufacturing, Department of Optical Science and Engineering, Fudan University, Shanghai 200433, People's Republic of China",
+     "institution_ids": [
+      "https://openalex.org/I24943067"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5026743733"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I24943067"
+ ],
+ "apc_list": {
+  "value": 1300,
+  "currency": "USD",
+  "value_usd": 1300
+ },
+ "apc_paid": {
+  "value": 1300,
+  "currency": "USD",
+  "value_usd": 1300
+ },
+ "fwci": 0.6573,
+ "has_fulltext": false,
+ "cited_by_count": 7,
+ "citation_normalized_percentile": {
+  "value": 0.6112493,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 94,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "26",
+  "issue": null,
+  "first_page": "7259",
+  "last_page": "7272"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10705",
+  "display_name": "Additive Manufacturing Materials and Processes",
+  "score": 0.9912999868392944,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9912999868392944,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9733999967575073,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13113",
+   "display_name": "Engineering Technology and Methodologies",
+   "score": 0.972599983215332,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2209",
+    "display_name": "Industrial and Manufacturing Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.9219571948051453
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.8360059261322021
+  },
+  {
+   "id": "https://openalex.org/keywords/porosity",
+   "display_name": "Porosity",
+   "score": 0.6177709698677063
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.5764420628547668
+  },
+  {
+   "id": "https://openalex.org/keywords/soda-lime-glass",
+   "display_name": "Soda-lime glass",
+   "score": 0.562294065952301
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.5398176908493042
+  },
+  {
+   "id": "https://openalex.org/keywords/relative-density",
+   "display_name": "Relative density",
+   "score": 0.49598488211631775
+  },
+  {
+   "id": "https://openalex.org/keywords/yield",
+   "display_name": "Yield (engineering)",
+   "score": 0.493368536233902
+  },
+  {
+   "id": "https://openalex.org/keywords/cube",
+   "display_name": "Cube (algebra)",
+   "score": 0.49141252040863037
+  },
+  {
+   "id": "https://openalex.org/keywords/porous-glass",
+   "display_name": "Porous glass",
+   "score": 0.4635206162929535
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-conductivity",
+   "display_name": "Thermal conductivity",
+   "score": 0.41258078813552856
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.14913251996040344
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.9219571948051453
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.8360059261322021
+  },
+  {
+   "id": "https://openalex.org/C6648577",
+   "wikidata": "https://www.wikidata.org/wiki/Q622669",
+   "display_name": "Porosity",
+   "level": 2,
+   "score": 0.6177709698677063
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.5764420628547668
+  },
+  {
+   "id": "https://openalex.org/C35288751",
+   "wikidata": "https://www.wikidata.org/wiki/Q745127",
+   "display_name": "Soda-lime glass",
+   "level": 2,
+   "score": 0.562294065952301
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.5398176908493042
+  },
+  {
+   "id": "https://openalex.org/C82455628",
+   "wikidata": "https://www.wikidata.org/wiki/Q11027905",
+   "display_name": "Relative density",
+   "level": 3,
+   "score": 0.49598488211631775
+  },
+  {
+   "id": "https://openalex.org/C134121241",
+   "wikidata": "https://www.wikidata.org/wiki/Q899301",
+   "display_name": "Yield (engineering)",
+   "level": 2,
+   "score": 0.493368536233902
+  },
+  {
+   "id": "https://openalex.org/C53051483",
+   "wikidata": "https://www.wikidata.org/wiki/Q861555",
+   "display_name": "Cube (algebra)",
+   "level": 2,
+   "score": 0.49141252040863037
+  },
+  {
+   "id": "https://openalex.org/C159151202",
+   "wikidata": "https://www.wikidata.org/wiki/Q2105561",
+   "display_name": "Porous glass",
+   "level": 3,
+   "score": 0.4635206162929535
+  },
+  {
+   "id": "https://openalex.org/C97346530",
+   "wikidata": "https://www.wikidata.org/wiki/Q487005",
+   "display_name": "Thermal conductivity",
+   "level": 2,
+   "score": 0.41258078813552856
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.14913251996040344
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C114614502",
+   "wikidata": "https://www.wikidata.org/wiki/Q76592",
+   "display_name": "Combinatorics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.jmrt.2023.09.011",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2765010971",
+    "display_name": "Journal of Materials Research and Technology",
+    "issn_l": "2214-0697",
+    "issn": [
+     "2214-0697",
+     "2238-7854"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Materials Research and Technology",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:16f8359c03cb422592fb99ac8634b9be",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/16f8359c03cb422592fb99ac8634b9be",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Journal of Materials Research and Technology, Vol 26, Iss , Pp 7259-7272 (2023)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.jmrt.2023.09.011",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.jmrt.2023.09.011",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2765010971",
+   "display_name": "Journal of Materials Research and Technology",
+   "issn_l": "2214-0697",
+   "issn": [
+    "2214-0697",
+    "2238-7854"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Materials Research and Technology",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G8368404079",
+   "display_name": null,
+   "funder_award_id": "23ZR1404200",
+   "funder_id": "https://openalex.org/F4320321885",
+   "funder_display_name": "Science and Technology Commission of Shanghai Municipality"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321885",
+   "display_name": "Science and Technology Commission of Shanghai Municipality",
+   "ror": "https://ror.org/03kt66j61"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 43,
+ "referenced_works": [
+  "https://openalex.org/W82995718",
+  "https://openalex.org/W587588427",
+  "https://openalex.org/W1542294665",
+  "https://openalex.org/W1678842167",
+  "https://openalex.org/W1968232530",
+  "https://openalex.org/W1969792151",
+  "https://openalex.org/W1972824427",
+  "https://openalex.org/W1988871411",
+  "https://openalex.org/W1991001035",
+  "https://openalex.org/W2040943293",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2129493819",
+  "https://openalex.org/W2146167535",
+  "https://openalex.org/W2231578823",
+  "https://openalex.org/W2507435465",
+  "https://openalex.org/W2563012899",
+  "https://openalex.org/W2609600752",
+  "https://openalex.org/W2618526178",
+  "https://openalex.org/W2759766116",
+  "https://openalex.org/W2775041632",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2954992272",
+  "https://openalex.org/W2980003661",
+  "https://openalex.org/W2998489916",
+  "https://openalex.org/W3015608418",
+  "https://openalex.org/W3111233419",
+  "https://openalex.org/W3126949540",
+  "https://openalex.org/W3183462461",
+  "https://openalex.org/W3195210031",
+  "https://openalex.org/W3211217001",
+  "https://openalex.org/W4206595772",
+  "https://openalex.org/W4232623737",
+  "https://openalex.org/W4241312153",
+  "https://openalex.org/W4362519205",
+  "https://openalex.org/W6632188757",
+  "https://openalex.org/W6643404482",
+  "https://openalex.org/W6679276387",
+  "https://openalex.org/W6765669413",
+  "https://openalex.org/W6774163792",
+  "https://openalex.org/W6782488006",
+  "https://openalex.org/W6789906692",
+  "https://openalex.org/W6807046002"
+ ],
+ "related_works": [
+  "https://openalex.org/W2673397755",
+  "https://openalex.org/W3125665561",
+  "https://openalex.org/W3023991719",
+  "https://openalex.org/W4387779543",
+  "https://openalex.org/W2767691403",
+  "https://openalex.org/W2773774402",
+  "https://openalex.org/W3022092467",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W3044265606",
+  "https://openalex.org/W4317494036"
+ ],
+ "abstract_inverted_index": {
+  "Glass": [
+   0
+  ],
+  "has": [
+   1
+  ],
+  "unique": [
+   2
+  ],
+  "physical": [
+   3
+  ],
+  "characteristics,": [
+   4
+  ],
+  "such": [
+   5
+  ],
+  "as": [
+   6,
+   104,
+   106
+  ],
+  "transparency,": [
+   7
+  ],
+  "chemical": [
+   8
+  ],
+  "durability,": [
+   9
+  ],
+  "thermal": [
+   10
+  ],
+  "stability,": [
+   11
+  ],
+  "and": [
+   12,
+   56,
+   73,
+   129
+  ],
+  "electric": [
+   13
+  ],
+  "resistivity,": [
+   14
+  ],
+  "making": [
+   15
+  ],
+  "it": [
+   16
+  ],
+  "an": [
+   17
+  ],
+  "attractive": [
+   18
+  ],
+  "material": [
+   19
+  ],
+  "for": [
+   20
+  ],
+  "numerous": [
+   21
+  ],
+  "industries.": [
+   22
+  ],
+  "As": [
+   23
+  ],
+  "a": [
+   24,
+   28,
+   85
+  ],
+  "result,": [
+   25
+  ],
+  "there": [
+   26,
+   57
+  ],
+  "is": [
+   27
+  ],
+  "growing": [
+   29
+  ],
+  "interest": [
+   30
+  ],
+  "in": [
+   31,
+   80,
+   125
+  ],
+  "the": [
+   32,
+   41,
+   50,
+   62,
+   71,
+   97,
+   115,
+   126
+  ],
+  "additive": [
+   33
+  ],
+  "manufacturing": [
+   34
+  ],
+  "of": [
+   35,
+   40,
+   52,
+   61,
+   64,
+   75,
+   82,
+   87,
+   100
+  ],
+  "glass": [
+   36,
+   54,
+   66,
+   119
+  ],
+  "powder.": [
+   37,
+   149
+  ],
+  "However,": [
+   38
+  ],
+  "most": [
+   39
+  ],
+  "selective": [
+   42
+  ],
+  "laser": [
+   43
+  ],
+  "melting": [
+   44
+  ],
+  "(SLM)": [
+   45
+  ],
+  "processes": [
+   46
+  ],
+  "primarily": [
+   47
+  ],
+  "rely": [
+   48
+  ],
+  "on": [
+   49
+  ],
+  "utilization": [
+   51
+  ],
+  "spherical": [
+   53,
+   148
+  ],
+  "powder,": [
+   55
+  ],
+  "are": [
+   58
+  ],
+  "no": [
+   59
+  ],
+  "reports": [
+   60
+  ],
+  "use": [
+   63
+  ],
+  "non-spherical": [
+   65
+  ],
+  "powders.": [
+   67
+  ],
+  "This": [
+   68
+  ],
+  "paper": [
+   69
+  ],
+  "explores": [
+   70
+  ],
+  "benefits": [
+   72
+  ],
+  "possibilities": [
+   74
+  ],
+  "irregular": [
+   76
+  ],
+  "shaped": [
+   77
+  ],
+  "powder": [
+   78,
+   120
+  ],
+  "used": [
+   79,
+   124
+  ],
+  "SLM": [
+   81,
+   127
+  ],
+  "glass.": [
+   83
+  ],
+  "Through": [
+   84
+  ],
+  "progression": [
+   86
+  ],
+  "experiments": [
+   88
+  ],
+  "from": [
+   89
+  ],
+  "single-track": [
+   90
+  ],
+  "to": [
+   91,
+   137,
+   144
+  ],
+  "single-layer": [
+   92
+  ],
+  "and,": [
+   93
+  ],
+  "ultimately,": [
+   94
+  ],
+  "cube": [
+   95,
+   101
+  ],
+  "fabrication,": [
+   96
+  ],
+  "relative": [
+   98
+  ],
+  "density": [
+   99
+  ],
+  "samples": [
+   102
+  ],
+  "was": [
+   103
+  ],
+  "high": [
+   105
+  ],
+  "95%.": [
+   107
+  ],
+  "Feasibility": [
+   108
+  ],
+  "examples": [
+   109
+  ],
+  "were": [
+   110
+  ],
+  "successfully": [
+   111,
+   123
+  ],
+  "demonstrated,": [
+   112
+  ],
+  "indicating": [
+   113
+  ],
+  "that": [
+   114,
+   130
+  ],
+  "irregularly-shaped": [
+   116
+  ],
+  "soda-lime": [
+   117
+  ],
+  "silica": [
+   118
+  ],
+  "can": [
+   121,
+   134
+  ],
+  "be": [
+   122,
+   135
+  ],
+  "process": [
+   128,
+   131
+  ],
+  "parameter": [
+   132
+  ],
+  "changes": [
+   133
+  ],
+  "optimized": [
+   136
+  ],
+  "yield": [
+   138
+  ],
+  "builds": [
+   139,
+   145
+  ],
+  "with": [
+   140
+  ],
+  "comparable": [
+   141
+  ],
+  "porosity": [
+   142
+  ],
+  "levels": [
+   143
+  ],
+  "using": [
+   146
+  ],
+  "typical": [
+   147
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-21T07:43:02.447757",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1216 @@
+{
+ "id": "https://openalex.org/W2552717612",
+ "doi": "https://doi.org/10.1115/1.4035182",
+ "title": "Additive Manufacturing of Transparent Soda-Lime Glass Using a Filament-Fed Process",
+ "display_name": "Additive Manufacturing of Transparent Soda-Lime Glass Using a Filament-Fed Process",
+ "relevance_score": 3793.111,
+ "publication_year": 2016,
+ "publication_date": "2016-11-08",
+ "ids": {
+  "openalex": "https://openalex.org/W2552717612",
+  "doi": "https://doi.org/10.1115/1.4035182",
+  "mag": "2552717612"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1115/1.4035182",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1115/1.4035182",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S193263997",
+   "display_name": "Journal of Manufacturing Science and Engineering",
+   "issn_l": "1087-1357",
+   "issn": [
+    "1087-1357",
+    "1528-8935"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310316053",
+   "host_organization_name": "ASM International",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310316053"
+   ],
+   "host_organization_lineage_names": [
+    "ASM International"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Manufacturing Science and Engineering",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5007444223",
+    "display_name": "Junjie Luo",
+    "orcid": "https://orcid.org/0000-0003-0667-6581",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0667-6581"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Junjie Luo",
+   "raw_affiliation_strings": [
+    "Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5035647741",
+    "display_name": "Luke J. Gilbert",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Luke J. Gilbert",
+   "raw_affiliation_strings": [
+    "Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5061100143",
+    "display_name": "Chuang Qu",
+    "orcid": "https://orcid.org/0000-0002-4102-7192",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4102-7192"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Chuang Qu",
+   "raw_affiliation_strings": [
+    "Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5020875577",
+    "display_name": "Robert G. Landers",
+    "orcid": "https://orcid.org/0000-0002-4669-2693",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4669-2693"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Robert G. Landers",
+   "raw_affiliation_strings": [
+    "Fellow ASME Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Fellow ASME Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5008112862",
+    "display_name": "Douglas A. Bristow",
+    "orcid": "https://orcid.org/0000-0002-4581-7351",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4581-7351"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Douglas A. Bristow",
+   "raw_affiliation_strings": [
+    "Mem. ASME Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mem. ASME Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5002415526",
+    "display_name": "Edward C. Kinzel",
+    "orcid": "https://orcid.org/0000-0002-4492-8682",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4492-8682"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20382870",
+     "display_name": "Missouri University of Science and Technology",
+     "ror": "https://ror.org/00scwqd12",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Edward C. Kinzel",
+   "raw_affiliation_strings": [
+    "Mem. ASME Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mem. ASME Mechanical and Aerospace Engineering, Missouri University of Science and Technology, 400 West 13th Street, Rolla, MO 65401 e-mail:",
+     "institution_ids": [
+      "https://openalex.org/I20382870"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002415526",
+  "https://openalex.org/A5007444223",
+  "https://openalex.org/A5008112862",
+  "https://openalex.org/A5020875577",
+  "https://openalex.org/A5035647741",
+  "https://openalex.org/A5061100143"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I20382870"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 3.5663,
+ "has_fulltext": false,
+ "cited_by_count": 76,
+ "citation_normalized_percentile": {
+  "value": 0.92478677,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 94,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "139",
+  "issue": "6",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9995999932289124,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9995999932289124,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9983999729156494,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9836000204086304,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7073288559913635
+  },
+  {
+   "id": "https://openalex.org/keywords/homogeneity",
+   "display_name": "Homogeneity (statistics)",
+   "score": 0.5032746195793152
+  },
+  {
+   "id": "https://openalex.org/keywords/protein-filament",
+   "display_name": "Protein filament",
+   "score": 0.48911792039871216
+  },
+  {
+   "id": "https://openalex.org/keywords/refractive-index",
+   "display_name": "Refractive index",
+   "score": 0.4688013195991516
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-glass",
+   "display_name": "Optical glass",
+   "score": 0.46794572472572327
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.46008065342903137
+  },
+  {
+   "id": "https://openalex.org/keywords/soda-lime-glass",
+   "display_name": "Soda-lime glass",
+   "score": 0.45059216022491455
+  },
+  {
+   "id": "https://openalex.org/keywords/flat-glass",
+   "display_name": "Flat glass",
+   "score": 0.44140657782554626
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.4389249384403229
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.43664830923080444
+  },
+  {
+   "id": "https://openalex.org/keywords/bubble",
+   "display_name": "Bubble",
+   "score": 0.4158706068992615
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.30779772996902466
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.152136892080307
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7073288559913635
+  },
+  {
+   "id": "https://openalex.org/C142259097",
+   "wikidata": "https://www.wikidata.org/wiki/Q5891314",
+   "display_name": "Homogeneity (statistics)",
+   "level": 2,
+   "score": 0.5032746195793152
+  },
+  {
+   "id": "https://openalex.org/C14228908",
+   "wikidata": "https://www.wikidata.org/wiki/Q2920483",
+   "display_name": "Protein filament",
+   "level": 2,
+   "score": 0.48911792039871216
+  },
+  {
+   "id": "https://openalex.org/C42067758",
+   "wikidata": "https://www.wikidata.org/wiki/Q174102",
+   "display_name": "Refractive index",
+   "level": 2,
+   "score": 0.4688013195991516
+  },
+  {
+   "id": "https://openalex.org/C2984142464",
+   "wikidata": "https://www.wikidata.org/wiki/Q11469",
+   "display_name": "Optical glass",
+   "level": 2,
+   "score": 0.46794572472572327
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.46008065342903137
+  },
+  {
+   "id": "https://openalex.org/C35288751",
+   "wikidata": "https://www.wikidata.org/wiki/Q745127",
+   "display_name": "Soda-lime glass",
+   "level": 2,
+   "score": 0.45059216022491455
+  },
+  {
+   "id": "https://openalex.org/C96170274",
+   "wikidata": "https://www.wikidata.org/wiki/Q1426151",
+   "display_name": "Flat glass",
+   "level": 2,
+   "score": 0.44140657782554626
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.4389249384403229
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.43664830923080444
+  },
+  {
+   "id": "https://openalex.org/C157915830",
+   "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+   "display_name": "Bubble",
+   "level": 2,
+   "score": 0.4158706068992615
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.30779772996902466
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.152136892080307
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C119857082",
+   "wikidata": "https://www.wikidata.org/wiki/Q2539",
+   "display_name": "Machine learning",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C173608175",
+   "wikidata": "https://www.wikidata.org/wiki/Q232661",
+   "display_name": "Parallel computing",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1115/1.4035182",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1115/1.4035182",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S193263997",
+    "display_name": "Journal of Manufacturing Science and Engineering",
+    "issn_l": "1087-1357",
+    "issn": [
+     "1087-1357",
+     "1528-8935"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310316053",
+    "host_organization_name": "ASM International",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310316053"
+    ],
+    "host_organization_lineage_names": [
+     "ASM International"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Manufacturing Science and Engineering",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320333028",
+   "display_name": "University of North Carolina at Charlotte",
+   "ror": "https://ror.org/04dawnj30"
+  },
+  {
+   "id": "https://openalex.org/F4320333675",
+   "display_name": "Intelligent Systems Center",
+   "ror": "https://ror.org/04wg2aj17"
+  },
+  {
+   "id": "https://openalex.org/F4320337367",
+   "display_name": "Division of Materials Research",
+   "ror": "https://ror.org/01pc7k308"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 47,
+ "referenced_works": [
+  "https://openalex.org/W655150850",
+  "https://openalex.org/W659299008",
+  "https://openalex.org/W1518219215",
+  "https://openalex.org/W1610859725",
+  "https://openalex.org/W1666853924",
+  "https://openalex.org/W1860026484",
+  "https://openalex.org/W1970178753",
+  "https://openalex.org/W1972341723",
+  "https://openalex.org/W1976727336",
+  "https://openalex.org/W1979811364",
+  "https://openalex.org/W1987463240",
+  "https://openalex.org/W1988586571",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2004708762",
+  "https://openalex.org/W2018515743",
+  "https://openalex.org/W2019702531",
+  "https://openalex.org/W2022677074",
+  "https://openalex.org/W2027082521",
+  "https://openalex.org/W2037276854",
+  "https://openalex.org/W2042571793",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2049770293",
+  "https://openalex.org/W2051072499",
+  "https://openalex.org/W2055603340",
+  "https://openalex.org/W2059563261",
+  "https://openalex.org/W2077187403",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2081292061",
+  "https://openalex.org/W2085132876",
+  "https://openalex.org/W2094552739",
+  "https://openalex.org/W2095681477",
+  "https://openalex.org/W2099908542",
+  "https://openalex.org/W2119593576",
+  "https://openalex.org/W2128961932",
+  "https://openalex.org/W2130255952",
+  "https://openalex.org/W2134998949",
+  "https://openalex.org/W2147326417",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2320900984",
+  "https://openalex.org/W2464476051",
+  "https://openalex.org/W2491441296",
+  "https://openalex.org/W3013722267",
+  "https://openalex.org/W3022302466",
+  "https://openalex.org/W3184518629",
+  "https://openalex.org/W4241214195",
+  "https://openalex.org/W4296979420",
+  "https://openalex.org/W6775599209"
+ ],
+ "related_works": [
+  "https://openalex.org/W2359909806",
+  "https://openalex.org/W1969290562",
+  "https://openalex.org/W2364786606",
+  "https://openalex.org/W1979893330",
+  "https://openalex.org/W2495685917",
+  "https://openalex.org/W4286629043",
+  "https://openalex.org/W1979533176",
+  "https://openalex.org/W1984534197",
+  "https://openalex.org/W2379664963",
+  "https://openalex.org/W2281925704"
+ ],
+ "abstract_inverted_index": {
+  "There": [
+   0
+  ],
+  "are": [
+   1,
+   115,
+   120
+  ],
+  "many": [
+   2
+  ],
+  "scientific": [
+   3
+  ],
+  "and": [
+   4,
+   14,
+   35,
+   55,
+   96,
+   109,
+   172,
+   184
+  ],
+  "engineering": [
+   5
+  ],
+  "applications": [
+   6
+  ],
+  "of": [
+   7,
+   28,
+   42,
+   102,
+   111,
+   133,
+   143
+  ],
+  "transparent": [
+   8,
+   29,
+   43,
+   46,
+   85,
+   187
+  ],
+  "glass": [
+   9,
+   30,
+   47,
+   114,
+   151
+  ],
+  "including": [
+   10
+  ],
+  "optics,": [
+   11
+  ],
+  "communications,": [
+   12
+  ],
+  "electronics,": [
+   13
+  ],
+  "hermetic": [
+   15
+  ],
+  "seals.": [
+   16
+  ],
+  "However,": [
+   17
+  ],
+  "there": [
+   18
+  ],
+  "has": [
+   19
+  ],
+  "been": [
+   20
+  ],
+  "minimal": [
+   21
+  ],
+  "research": [
+   22
+  ],
+  "toward": [
+   23
+  ],
+  "the": [
+   24,
+   58,
+   64,
+   72,
+   107,
+   112,
+   127,
+   131,
+   134,
+   141,
+   144,
+   150,
+   161,
+   176
+  ],
+  "additive": [
+   25
+  ],
+  "manufacturing": [
+   26
+  ],
+  "(AM)": [
+   27
+  ],
+  "parts.": [
+   31
+  ],
+  "This": [
+   32
+  ],
+  "paper": [
+   33
+  ],
+  "describes": [
+   34
+  ],
+  "demonstrates": [
+   36
+  ],
+  "a": [
+   37,
+   52,
+   76,
+   123
+  ],
+  "filament-fed": [
+   38
+  ],
+  "technique": [
+   39
+  ],
+  "for": [
+   40
+  ],
+  "AM": [
+   41
+  ],
+  "glass.": [
+   44,
+   146,
+   188
+  ],
+  "A": [
+   45
+  ],
+  "filament": [
+   48
+  ],
+  "is": [
+   49,
+   60,
+   138,
+   152
+  ],
+  "melted": [
+   50
+  ],
+  "by": [
+   51
+  ],
+  "CO2": [
+   53
+  ],
+  "laser": [
+   54,
+   66
+  ],
+  "solidifies": [
+   56
+  ],
+  "as": [
+   57
+  ],
+  "workpiece": [
+   59,
+   73
+  ],
+  "translated": [
+   61
+  ],
+  "relative": [
+   62
+  ],
+  "to": [
+   63,
+   82,
+   122,
+   130,
+   140
+  ],
+  "stationary": [
+   65
+  ],
+  "beam.": [
+   67
+  ],
+  "To": [
+   68
+  ],
+  "prevent": [
+   69
+  ],
+  "thermal": [
+   70
+  ],
+  "shock,": [
+   71
+  ],
+  "rests": [
+   74
+  ],
+  "on": [
+   75,
+   106
+  ],
+  "heated": [
+   77
+  ],
+  "build": [
+   78
+  ],
+  "platform.": [
+   79
+  ],
+  "In": [
+   80
+  ],
+  "order": [
+   81
+  ],
+  "obtain": [
+   83
+  ],
+  "optically": [
+   84,
+   186
+  ],
+  "parts,": [
+   86
+  ],
+  "several": [
+   87
+  ],
+  "challenges": [
+   88
+  ],
+  "must": [
+   89
+  ],
+  "be": [
+   90
+  ],
+  "overcome,": [
+   91
+  ],
+  "notably": [
+   92
+  ],
+  "producing": [
+   93
+  ],
+  "index": [
+   94,
+   158
+  ],
+  "homogeneity": [
+   95
+  ],
+  "avoiding": [
+   97
+  ],
+  "bubble": [
+   98
+  ],
+  "formation.": [
+   99
+  ],
+  "The": [
+   100,
+   178
+  ],
+  "effects": [
+   101
+  ],
+  "key": [
+   103
+  ],
+  "process": [
+   104,
+   128,
+   180
+  ],
+  "parameters": [
+   105,
+   129
+  ],
+  "morphology": [
+   108
+  ],
+  "transparency": [
+   110
+  ],
+  "printed": [
+   113
+  ],
+  "explored": [
+   116
+  ],
+  "experimentally.": [
+   117
+  ],
+  "These": [
+   118
+  ],
+  "results": [
+   119
+  ],
+  "compared": [
+   121
+  ],
+  "low-order": [
+   124
+  ],
+  "model": [
+   125
+  ],
+  "relating": [
+   126
+  ],
+  "temperature": [
+   132
+  ],
+  "molten": [
+   135
+  ],
+  "region,": [
+   136
+  ],
+  "which": [
+   137
+  ],
+  "critical": [
+   139
+  ],
+  "quality": [
+   142
+  ],
+  "deposited": [
+   145
+  ],
+  "At": [
+   147
+  ],
+  "lower": [
+   148
+  ],
+  "temperatures,": [
+   149,
+   167
+  ],
+  "not": [
+   153
+  ],
+  "fully": [
+   154
+  ],
+  "melted,": [
+   155
+  ],
+  "resulting": [
+   156
+  ],
+  "in": [
+   157,
+   160
+  ],
+  "variations": [
+   159
+  ],
+  "final": [
+   162
+  ],
+  "part,": [
+   163
+  ],
+  "while": [
+   164
+  ],
+  "at": [
+   165
+  ],
+  "higher": [
+   166
+  ],
+  "phase": [
+   168
+  ],
+  "separation": [
+   169
+  ],
+  "introduces": [
+   170
+  ],
+  "bubbles": [
+   171
+  ],
+  "other": [
+   173
+  ],
+  "defects": [
+   174
+  ],
+  "into": [
+   175
+  ],
+  "part.": [
+   177
+  ],
+  "correct": [
+   179
+  ],
+  "avoids": [
+   181
+  ],
+  "these": [
+   182
+  ],
+  "issues": [
+   183
+  ],
+  "deposits": [
+   185
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

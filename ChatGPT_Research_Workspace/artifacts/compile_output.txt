@@ -1,0 +1,28 @@
+note: Running TeX ...
+warning: sections/06_academic_landscape_directory:22: Underfull \hbox (badness 1297) in paragraph at lines 22--22
+warning: sections/06_academic_landscape_directory:24: Underfull \hbox (badness 2245) in paragraph at lines 24--24
+warning: sections/06_academic_landscape_directory:25: Underfull \hbox (badness 1622) in paragraph at lines 25--25
+warning: sections/08_open_frontiers_research_roadmap:19: Underfull \hbox (badness 2512) in paragraph at lines 19--19
+warning: sections/08_open_frontiers_research_roadmap:33: Underfull \hbox (badness 1442) in paragraph at lines 32--33
+note: Running BibTeX on main.aux ...
+note: Rerunning TeX because bibtex was run ...
+warning: sections/06_academic_landscape_directory:22: Underfull \hbox (badness 1297) in paragraph at lines 22--22
+warning: sections/06_academic_landscape_directory:24: Underfull \hbox (badness 2245) in paragraph at lines 24--24
+warning: sections/06_academic_landscape_directory:25: Underfull \hbox (badness 1622) in paragraph at lines 25--25
+warning: sections/08_open_frontiers_research_roadmap:19: Underfull \hbox (badness 2512) in paragraph at lines 19--19
+warning: sections/08_open_frontiers_research_roadmap:33: Underfull \hbox (badness 1442) in paragraph at lines 32--33
+note: Rerunning TeX because "main.aux" changed ...
+warning: sections/06_academic_landscape_directory:22: Underfull \hbox (badness 1297) in paragraph at lines 22--22
+warning: sections/06_academic_landscape_directory:24: Underfull \hbox (badness 2245) in paragraph at lines 24--24
+warning: sections/06_academic_landscape_directory:25: Underfull \hbox (badness 1622) in paragraph at lines 25--25
+warning: sections/08_open_frontiers_research_roadmap:19: Underfull \hbox (badness 2512) in paragraph at lines 19--19
+warning: sections/08_open_frontiers_research_roadmap:33: Underfull \hbox (badness 1442) in paragraph at lines 32--33
+note: Running xdvipdfmx ...
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Writing `build\main.pdf` (1.7602310180664063 MiB)
+note: Writing `build\main.out` (10.423828125 KiB)
+note: Writing `build\main.blg` (194 B)
+note: Writing `build\main.aux` (19.78125 KiB)
+note: Writing `build\main.bbl` (15.7783203125 KiB)
+note: Writing `build\main.toc` (3.9189453125 KiB)
+note: Writing `build\main.log` (29.3154296875 KiB)

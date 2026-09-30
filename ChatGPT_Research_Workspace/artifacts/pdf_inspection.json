@@ -1,0 +1,393 @@
+{
+  "page_count": 27,
+  "page_records": [
+    {
+      "page": 1,
+      "characters": 2609,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 2,
+      "characters": 2049,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 3,
+      "characters": 3732,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 4,
+      "characters": 3404,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 5,
+      "characters": 2173,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 6,
+      "characters": 2483,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 7,
+      "characters": 954,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 8,
+      "characters": 2086,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 9,
+      "characters": 3618,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 10,
+      "characters": 3723,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 11,
+      "characters": 2547,
+      "images": 2,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 12,
+      "characters": 3053,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 13,
+      "characters": 3666,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 14,
+      "characters": 3628,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 15,
+      "characters": 368,
+      "images": 1,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 16,
+      "characters": 1397,
+      "images": 1,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 17,
+      "characters": 2337,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 18,
+      "characters": 3160,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 19,
+      "characters": 3867,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 20,
+      "characters": 4459,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 21,
+      "characters": 3668,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 22,
+      "characters": 3280,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 23,
+      "characters": 2880,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 24,
+      "characters": 3134,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 25,
+      "characters": 3267,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 26,
+      "characters": 3295,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    },
+    {
+      "page": 27,
+      "characters": 823,
+      "images": 0,
+      "width_pt": 595.280029296875,
+      "height_pt": 841.8900146484375
+    }
+  ],
+  "bookmarks": [
+    [
+      1,
+      "Introduction, scope, and process taxonomy",
+      3
+    ],
+    [
+      2,
+      "The manufacturing question",
+      3
+    ],
+    [
+      2,
+      "A taxonomy by material state and consolidation step",
+      3
+    ],
+    [
+      2,
+      "Evidence selection and reproducibility",
+      3
+    ],
+    [
+      1,
+      "Rheology, thermal properties, and material physics",
+      5
+    ],
+    [
+      2,
+      "A glass name is not a constitutive law",
+      5
+    ],
+    [
+      2,
+      "Viscosity law, units, and fitting method",
+      5
+    ],
+    [
+      2,
+      "Flow, capillarity, and a worked scaling example",
+      8
+    ],
+    [
+      2,
+      "Instability, slumping, and interlayer contact",
+      8
+    ],
+    [
+      2,
+      "Thermal scales and materials outside the fitted set",
+      9
+    ],
+    [
+      1,
+      "Nozzle mechanics, hardware, and kinematics",
+      9
+    ],
+    [
+      2,
+      "Two materially different ways to deliver hot glass",
+      9
+    ],
+    [
+      2,
+      "Flow resistance and nozzle selection",
+      10
+    ],
+    [
+      2,
+      "Motion control is also material control",
+      10
+    ],
+    [
+      2,
+      "Proposed hardware qualification sequence",
+      11
+    ],
+    [
+      1,
+      "In-situ thermal management and annealing",
+      11
+    ],
+    [
+      2,
+      "Deposition temperature and annealing temperature serve different purposes",
+      11
+    ],
+    [
+      2,
+      "A thermal model with explicit boundary assumptions",
+      12
+    ],
+    [
+      2,
+      "Stress relaxation and cooling history",
+      12
+    ],
+    [
+      2,
+      "A proposed measurement-driven annealing workflow",
+      13
+    ],
+    [
+      1,
+      "Defect mechanisms and optical quality",
+      13
+    ],
+    [
+      2,
+      "A transparent object is not necessarily an imaging optic",
+      13
+    ],
+    [
+      2,
+      "Mechanism-based diagnosis",
+      13
+    ],
+    [
+      2,
+      "Interlayer bonding and mechanical evidence",
+      14
+    ],
+    [
+      2,
+      "Polarimetry and an application-specific acceptance chain",
+      14
+    ],
+    [
+      1,
+      "Academic landscape and evidence-qualified directory",
+      16
+    ],
+    [
+      2,
+      "How to interpret the research network",
+      18
+    ],
+    [
+      1,
+      "Commercial systems, applications, and economics",
+      19
+    ],
+    [
+      2,
+      "What the available evidence establishes",
+      19
+    ],
+    [
+      2,
+      "Company profiles and limits of comparison",
+      19
+    ],
+    [
+      2,
+      "Application fit and competitive alternatives",
+      20
+    ],
+    [
+      2,
+      "Transparent cost model and illustrative sensitivities",
+      21
+    ],
+    [
+      1,
+      "Open frontiers and a research roadmap",
+      21
+    ],
+    [
+      2,
+      "Prioritize a repeatable process window",
+      21
+    ],
+    [
+      2,
+      "Measurements that could change engineering decisions",
+      22
+    ],
+    [
+      2,
+      "An intellectual-property and demonstration map",
+      23
+    ],
+    [
+      2,
+      "Reproducibility and remaining evidence gaps",
+      23
+    ]
+  ],
+  "warnings": [
+    "Underfull \\hbox (badness 1297) in paragraph at lines 22--22",
+    "Underfull \\hbox (badness 2245) in paragraph at lines 24--24",
+    "Underfull \\hbox (badness 1622) in paragraph at lines 25--25",
+    "Underfull \\hbox (badness 2512) in paragraph at lines 19--19",
+    "Underfull \\hbox (badness 1442) in paragraph at lines 32--33"
+  ],
+  "undefined_reference_warning": false,
+  "checked_at_utc": "2026-09-30T09:16:28.621541+00:00",
+  "pdf_sha256": "2bb29674f6ca9e6d90daf61050c8a959b9f8f12505e39ba9eb0cfc9fe7925303",
+  "bibtex_warnings": [],
+  "link_annotation_count": 224
+}

@@ -1,0 +1,1319 @@
+{
+ "id": "https://openalex.org/W4414017264",
+ "doi": "https://doi.org/10.3390/jmmp9090305",
+ "title": "Laser-Based Additive Manufacturing of Alkali Borosilicate Glass Powder: Influence of Laser-Beam Properties on Component Quality",
+ "display_name": "Laser-Based Additive Manufacturing of Alkali Borosilicate Glass Powder: Influence of Laser-Beam Properties on Component Quality",
+ "publication_year": 2025,
+ "publication_date": "2025-09-05",
+ "ids": {
+  "openalex": "https://openalex.org/W4414017264",
+  "doi": "https://doi.org/10.3390/jmmp9090305"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/jmmp9090305",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/jmmp9090305",
+  "pdf_url": "https://www.mdpi.com/2504-4494/9/9/305/pdf?version=1757070924",
+  "source": {
+   "id": "https://openalex.org/S4210232045",
+   "display_name": "Journal of Manufacturing and Materials Processing",
+   "issn_l": "2504-4494",
+   "issn": [
+    "2504-4494"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Manufacturing and Materials Processing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2504-4494/9/9/305/pdf?version=1757070924",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5023272927",
+    "display_name": "Anne-Marie Layher",
+    "orcid": "https://orcid.org/0000-0002-5319-5038"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1302207122",
+     "display_name": "Carl Zeiss (Germany)",
+     "ror": "https://ror.org/02mp31p96",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Anne-Marie Layher",
+   "raw_affiliation_strings": [
+    "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-5319-5038",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany",
+     "institution_ids": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5119549586",
+    "display_name": "Lisa Tewes",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1302207122",
+     "display_name": "Carl Zeiss (Germany)",
+     "ror": "https://ror.org/02mp31p96",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lisa Tewes",
+   "raw_affiliation_strings": [
+    "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany",
+     "institution_ids": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5119549587",
+    "display_name": "Felix Thumann",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1302207122",
+     "display_name": "Carl Zeiss (Germany)",
+     "ror": "https://ror.org/02mp31p96",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Felix Thumann",
+   "raw_affiliation_strings": [
+    "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany",
+     "institution_ids": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5114479371",
+    "display_name": "Thekla Boeckh",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1302207122",
+     "display_name": "Carl Zeiss (Germany)",
+     "ror": "https://ror.org/02mp31p96",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Thekla Boeckh",
+   "raw_affiliation_strings": [
+    "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany",
+     "institution_ids": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5088348314",
+    "display_name": "Sharon Koppka",
+    "orcid": "https://orcid.org/0000-0003-2392-9819"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I119449181",
+     "display_name": "Technische Universit\u00e4t Ilmenau",
+     "ror": "https://ror.org/01weqhp73",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I119449181"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I147765834",
+     "display_name": "Leipzig University of Applied Sciences",
+     "ror": "https://ror.org/03xgcq477",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I147765834"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I926574661",
+     "display_name": "Leipzig University",
+     "ror": "https://ror.org/03s7gtk40",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I926574661"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Sharon Koppka",
+   "raw_affiliation_strings": [
+    "Department of Inorganic and Non-Metallic Materials, Technical University of Ilmenau, Ehrenbergstra\u00dfe 29, 98693 Ilmenau, Germany",
+    "Institute of Chemical Technology, University at Leipzig, Linn\u00e9stra\u00dfe 3, 04103 Leipzig, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Inorganic and Non-Metallic Materials, Technical University of Ilmenau, Ehrenbergstra\u00dfe 29, 98693 Ilmenau, Germany",
+     "institution_ids": [
+      "https://openalex.org/I119449181"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Chemical Technology, University at Leipzig, Linn\u00e9stra\u00dfe 3, 04103 Leipzig, Germany",
+     "institution_ids": [
+      "https://openalex.org/I147765834",
+      "https://openalex.org/I926574661"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5113551843",
+    "display_name": "Dirk Enke",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I147765834",
+     "display_name": "Leipzig University of Applied Sciences",
+     "ror": "https://ror.org/03xgcq477",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I147765834"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I926574661",
+     "display_name": "Leipzig University",
+     "ror": "https://ror.org/03s7gtk40",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I926574661"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dirk Enke",
+   "raw_affiliation_strings": [
+    "Institute of Chemical Technology, University at Leipzig, Linn\u00e9stra\u00dfe 3, 04103 Leipzig, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute of Chemical Technology, University at Leipzig, Linn\u00e9stra\u00dfe 3, 04103 Leipzig, Germany",
+     "institution_ids": [
+      "https://openalex.org/I147765834",
+      "https://openalex.org/I926574661"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5057636478",
+    "display_name": "Edda R\u00e4dlein",
+    "orcid": "https://orcid.org/0000-0001-9205-9488"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I119449181",
+     "display_name": "Technische Universit\u00e4t Ilmenau",
+     "ror": "https://ror.org/01weqhp73",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I119449181"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Edda R\u00e4dlein",
+   "raw_affiliation_strings": [
+    "Department of Inorganic and Non-Metallic Materials, Technical University of Ilmenau, Ehrenbergstra\u00dfe 29, 98693 Ilmenau, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Inorganic and Non-Metallic Materials, Technical University of Ilmenau, Ehrenbergstra\u00dfe 29, 98693 Ilmenau, Germany",
+     "institution_ids": [
+      "https://openalex.org/I119449181"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5057178613",
+    "display_name": "Jens Bliedtner",
+    "orcid": "https://orcid.org/0000-0002-0824-1509"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1302207122",
+     "display_name": "Carl Zeiss (Germany)",
+     "ror": "https://ror.org/02mp31p96",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jens Bliedtner",
+   "raw_affiliation_strings": [
+    "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty SciTec, Ernst-Abbe-University of Applied Sciences Jena, Carl-Zeiss-Promenade 2, 07745 Jena, Germany",
+     "institution_ids": [
+      "https://openalex.org/I1302207122"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5023272927"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I1302207122"
+ ],
+ "apc_list": {
+  "value": 1800,
+  "currency": "CHF",
+  "value_usd": 2172
+ },
+ "apc_paid": {
+  "value": 1800,
+  "currency": "CHF",
+  "value_usd": 2172
+ },
+ "fwci": 0.8846,
+ "has_fulltext": true,
+ "cited_by_count": 3,
+ "citation_normalized_percentile": {
+  "value": 0.69701638,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 91,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "9",
+  "issue": "9",
+  "first_page": "305",
+  "last_page": "305"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10705",
+  "display_name": "Additive Manufacturing Materials and Processes",
+  "score": 0.9987999796867371,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9987999796867371,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.998199999332428,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9940000176429749,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/borosilicate-glass",
+   "display_name": "Borosilicate glass",
+   "score": 0.9502319097518921
+  },
+  {
+   "id": "https://openalex.org/keywords/alkali-metal",
+   "display_name": "Alkali metal",
+   "score": 0.7398439049720764
+  },
+  {
+   "id": "https://openalex.org/keywords/component",
+   "display_name": "Component (thermodynamics)",
+   "score": 0.6567376255989075
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.6234747171401978
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.6131953597068787
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-beams",
+   "display_name": "Laser beams",
+   "score": 0.5486243963241577
+  },
+  {
+   "id": "https://openalex.org/keywords/quality",
+   "display_name": "Quality (philosophy)",
+   "score": 0.4735138714313507
+  },
+  {
+   "id": "https://openalex.org/keywords/beam",
+   "display_name": "Beam (structure)",
+   "score": 0.43871381878852844
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.34044432640075684
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.23166635632514954
+  },
+  {
+   "id": "https://openalex.org/keywords/chemistry",
+   "display_name": "Chemistry",
+   "score": 0.14317423105239868
+  },
+  {
+   "id": "https://openalex.org/keywords/organic-chemistry",
+   "display_name": "Organic chemistry",
+   "score": 0.06420701742172241
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.05345907807350159
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C206802598",
+   "wikidata": "https://www.wikidata.org/wiki/Q1422588",
+   "display_name": "Borosilicate glass",
+   "level": 2,
+   "score": 0.9502319097518921
+  },
+  {
+   "id": "https://openalex.org/C198091228",
+   "wikidata": "https://www.wikidata.org/wiki/Q19557",
+   "display_name": "Alkali metal",
+   "level": 2,
+   "score": 0.7398439049720764
+  },
+  {
+   "id": "https://openalex.org/C168167062",
+   "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+   "display_name": "Component (thermodynamics)",
+   "level": 2,
+   "score": 0.6567376255989075
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.6234747171401978
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.6131953597068787
+  },
+  {
+   "id": "https://openalex.org/C2984025587",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser beams",
+   "level": 3,
+   "score": 0.5486243963241577
+  },
+  {
+   "id": "https://openalex.org/C2779530757",
+   "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+   "display_name": "Quality (philosophy)",
+   "level": 2,
+   "score": 0.4735138714313507
+  },
+  {
+   "id": "https://openalex.org/C168834538",
+   "wikidata": "https://www.wikidata.org/wiki/Q3705329",
+   "display_name": "Beam (structure)",
+   "level": 2,
+   "score": 0.43871381878852844
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.34044432640075684
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.23166635632514954
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.14317423105239868
+  },
+  {
+   "id": "https://openalex.org/C178790620",
+   "wikidata": "https://www.wikidata.org/wiki/Q11351",
+   "display_name": "Organic chemistry",
+   "level": 1,
+   "score": 0.06420701742172241
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.05345907807350159
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.3390/jmmp9090305",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/jmmp9090305",
+   "pdf_url": "https://www.mdpi.com/2504-4494/9/9/305/pdf?version=1757070924",
+   "source": {
+    "id": "https://openalex.org/S4210232045",
+    "display_name": "Journal of Manufacturing and Materials Processing",
+    "issn_l": "2504-4494",
+    "issn": [
+     "2504-4494"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Manufacturing and Materials Processing",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:1bdfcb2fd9144b3c82e8c6fd4e0991b2",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/1bdfcb2fd9144b3c82e8c6fd4e0991b2",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Journal of Manufacturing and Materials Processing, Vol 9, Iss 9, p 305 (2025)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/jmmp9090305",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/jmmp9090305",
+  "pdf_url": "https://www.mdpi.com/2504-4494/9/9/305/pdf?version=1757070924",
+  "source": {
+   "id": "https://openalex.org/S4210232045",
+   "display_name": "Journal of Manufacturing and Materials Processing",
+   "issn_l": "2504-4494",
+   "issn": [
+    "2504-4494"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Manufacturing and Materials Processing",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4414017264.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4414017264.grobid-xml"
+ },
+ "referenced_works_count": 21,
+ "referenced_works": [
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2146167535",
+  "https://openalex.org/W2746495370",
+  "https://openalex.org/W2793181400",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2994250992",
+  "https://openalex.org/W3009585797",
+  "https://openalex.org/W3080171307",
+  "https://openalex.org/W3081657492",
+  "https://openalex.org/W3126949540",
+  "https://openalex.org/W3175405418",
+  "https://openalex.org/W3196467017",
+  "https://openalex.org/W4220719948",
+  "https://openalex.org/W4236700682",
+  "https://openalex.org/W4248017548",
+  "https://openalex.org/W4297176871",
+  "https://openalex.org/W4327940569",
+  "https://openalex.org/W4367625586",
+  "https://openalex.org/W4386569715",
+  "https://openalex.org/W4391887161",
+  "https://openalex.org/W4414699223"
+ ],
+ "related_works": [
+  "https://openalex.org/W2144863835",
+  "https://openalex.org/W4210301137",
+  "https://openalex.org/W2083969019",
+  "https://openalex.org/W1986509466",
+  "https://openalex.org/W2080470237",
+  "https://openalex.org/W2032958196",
+  "https://openalex.org/W2472321744",
+  "https://openalex.org/W2383387597",
+  "https://openalex.org/W2341675752",
+  "https://openalex.org/W2964892269"
+ ],
+ "abstract_inverted_index": {
+  "Research": [
+   0
+  ],
+  "and": [
+   1,
+   18,
+   36,
+   78,
+   95,
+   106,
+   129,
+   171
+  ],
+  "development": [
+   2
+  ],
+  "in": [
+   3,
+   98,
+   104,
+   152
+  ],
+  "the": [
+   4,
+   31,
+   45,
+   65,
+   69,
+   74,
+   84,
+   96,
+   115,
+   126,
+   134,
+   146,
+   153,
+   163,
+   167,
+   172,
+   176,
+   181,
+   197
+  ],
+  "field": [
+   5
+  ],
+  "of": [
+   6,
+   34,
+   68,
+   76,
+   86,
+   117,
+   136,
+   155,
+   166,
+   175,
+   184
+  ],
+  "glass-based": [
+   7
+  ],
+  "laser": [
+   8,
+   27
+  ],
+  "additive": [
+   9,
+   32
+  ],
+  "manufacturing": [
+   10,
+   33
+  ],
+  "continues": [
+   11
+  ],
+  "to": [
+   12,
+   123,
+   162,
+   190
+  ],
+  "receive": [
+   13
+  ],
+  "significant": [
+   14
+  ],
+  "interest": [
+   15
+  ],
+  "within": [
+   16,
+   133
+  ],
+  "scientific": [
+   17
+  ],
+  "industrial": [
+   19
+  ],
+  "contexts.": [
+   20
+  ],
+  "In": [
+   21,
+   82,
+   179
+  ],
+  "particular,": [
+   22,
+   83
+  ],
+  "powder": [
+   23
+  ],
+  "bed": [
+   24
+  ],
+  "fusion": [
+   25
+  ],
+  "by": [
+   26
+  ],
+  "radiation": [
+   28
+  ],
+  "(PBF-LB)": [
+   29
+  ],
+  "enables": [
+   30
+  ],
+  "porous": [
+   35,
+   77
+  ],
+  "vitrified,": [
+   37
+  ],
+  "complex": [
+   38
+  ],
+  "three-dimensional": [
+   39
+  ],
+  "components.": [
+   40
+  ],
+  "The": [
+   41,
+   61
+  ],
+  "present": [
+   42
+  ],
+  "study": [
+   43
+  ],
+  "investigates": [
+   44
+  ],
+  "glass": [
+   46,
+   80,
+   169,
+   185
+  ],
+  "morphology": [
+   47,
+   170
+  ],
+  "that": [
+   48,
+   114,
+   145
+  ],
+  "can": [
+   49
+  ],
+  "be": [
+   50,
+   194
+  ],
+  "achieved": [
+   51,
+   92
+  ],
+  "using": [
+   52
+  ],
+  "PBF-LB": [
+   53,
+   177
+  ],
+  "for": [
+   54,
+   196
+  ],
+  "components": [
+   55
+  ],
+  "made": [
+   56
+  ],
+  "from": [
+   57,
+   188
+  ],
+  "alkali": [
+   58
+  ],
+  "borosilicate": [
+   59
+  ],
+  "glass.": [
+   60
+  ],
+  "investigations": [
+   62
+  ],
+  "focus": [
+   63
+  ],
+  "on": [
+   64
+  ],
+  "comprehensive": [
+   66
+  ],
+  "analysis": [
+   67
+  ],
+  "entire": [
+   70,
+   182
+  ],
+  "process": [
+   71,
+   116,
+   173
+  ],
+  "window,": [
+   72
+  ],
+  "including": [
+   73
+  ],
+  "characterisation": [
+   75
+  ],
+  "molten": [
+   79
+  ],
+  "morphology.": [
+   81
+  ],
+  "influence": [
+   85
+  ],
+  "different": [
+   87
+  ],
+  "laser-beam": [
+   88
+  ],
+  "diameters,": [
+   89
+  ],
+  "which": [
+   90
+  ],
+  "are": [
+   91,
+   102
+  ],
+  "through": [
+   93
+  ],
+  "defocusing,": [
+   94
+  ],
+  "variation": [
+   97
+  ],
+  "volume": [
+   99
+  ],
+  "energy": [
+   100,
+   149
+  ],
+  "density": [
+   101
+  ],
+  "examined": [
+   103
+  ],
+  "detail": [
+   105
+  ],
+  "compared": [
+   107
+  ],
+  "with": [
+   108
+  ],
+  "conventional": [
+   109
+  ],
+  "shaping.": [
+   110
+  ],
+  "It": [
+   111
+  ],
+  "was": [
+   112
+  ],
+  "determined": [
+   113
+  ],
+  "mechanically": [
+   118
+  ],
+  "stable": [
+   119
+  ],
+  "shaping": [
+   120
+  ],
+  "is": [
+   121
+  ],
+  "constrained": [
+   122
+  ],
+  "temperatures": [
+   124
+  ],
+  "above": [
+   125
+  ],
+  "softening": [
+   127
+  ],
+  "temperature": [
+   128
+  ],
+  "relative": [
+   130
+  ],
+  "component": [
+   131
+  ],
+  "densities": [
+   132
+  ],
+  "range": [
+   135,
+   183
+  ],
+  "\u03c1rel": [
+   137
+  ],
+  "=": [
+   138
+  ],
+  "37.8\u202694.2%.": [
+   139
+  ],
+  "Furthermore,": [
+   140
+  ],
+  "it": [
+   141
+  ],
+  "has": [
+   142
+  ],
+  "been": [
+   143
+  ],
+  "demonstrated": [
+   144
+  ],
+  "process-related": [
+   147
+  ],
+  "line-like": [
+   148
+  ],
+  "input": [
+   150
+  ],
+  "results": [
+   151
+  ],
+  "formation": [
+   154
+  ],
+  "characteristic": [
+   156
+  ],
+  "vitrification": [
+   157
+  ],
+  "strands.": [
+   158
+  ],
+  "This": [
+   159
+  ],
+  "research": [
+   160
+  ],
+  "contributes": [
+   161
+  ],
+  "overall": [
+   164
+  ],
+  "understanding": [
+   165
+  ],
+  "producible": [
+   168
+  ],
+  "limitations": [
+   174
+  ],
+  "process.": [
+   178
+  ],
+  "addition,": [
+   180
+  ],
+  "morphologies,": [
+   186
+  ],
+  "ranging": [
+   187
+  ],
+  "open-pored": [
+   189
+  ],
+  "closed-melt": [
+   191
+  ],
+  "configurations,": [
+   192
+  ],
+  "could": [
+   193
+  ],
+  "analysed": [
+   195
+  ],
+  "first": [
+   198
+  ],
+  "time.": [
+   199
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-21T07:43:02.447757",
+ "created_date": "2025-10-10T00:00:00"
+}

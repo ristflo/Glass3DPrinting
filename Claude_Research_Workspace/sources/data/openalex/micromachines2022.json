@@ -1,0 +1,1455 @@
+{
+ "id": "https://openalex.org/W4205770747",
+ "doi": "https://doi.org/10.3390/mi13010081",
+ "title": "Overview of 3D-Printed Silica Glass",
+ "display_name": "Overview of 3D-Printed Silica Glass",
+ "relevance_score": 1829.1287,
+ "publication_year": 2022,
+ "publication_date": "2022-01-03",
+ "ids": {
+  "openalex": "https://openalex.org/W4205770747",
+  "doi": "https://doi.org/10.3390/mi13010081",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/35056246"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/mi13010081",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/mi13010081",
+  "pdf_url": "https://www.mdpi.com/2072-666X/13/1/81/pdf?version=1641301030",
+  "source": {
+   "id": "https://openalex.org/S96702057",
+   "display_name": "Micromachines",
+   "issn_l": "2072-666X",
+   "issn": [
+    "2072-666X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Micromachines",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2072-666X/13/1/81/pdf?version=1641301030",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5100399276",
+    "display_name": "Han Zhang",
+    "orcid": "https://orcid.org/0000-0002-0166-1973",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0166-1973",
+     "https://orcid.org/0009-0006-9948-2696",
+     "https://orcid.org/0000-0001-7336-6394",
+     "https://orcid.org/0000-0002-6645-8810",
+     "https://orcid.org/0000-0003-4043-1967",
+     "https://orcid.org/0009-0000-9999-1649",
+     "https://orcid.org/0009-0003-1573-2167",
+     "https://orcid.org/0009-0005-9122-1638",
+     "https://orcid.org/0009-0008-4560-0372",
+     "https://orcid.org/0009-0002-1183-4142",
+     "https://orcid.org/0000-0002-1483-5899",
+     "https://orcid.org/0000-0002-3185-5680"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Han Zhang",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5103150390",
+    "display_name": "Long Huang",
+    "orcid": "https://orcid.org/0000-0002-6227-669X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6227-669X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Long Huang",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5009541680",
+    "display_name": "Mingyue Tan",
+    "orcid": "https://orcid.org/0000-0001-6373-9652",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6373-9652"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mingyue Tan",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5104143143",
+    "display_name": "Shaoqing Zhao",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shaoqing Zhao",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5090948294",
+    "display_name": "Hua Liu",
+    "orcid": "https://orcid.org/0000-0003-1455-8948",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1455-8948"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Hua Liu",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-1455-8948",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5027859501",
+    "display_name": "Zifeng Lu",
+    "orcid": "https://orcid.org/0000-0001-8981-8789",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8981-8789"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zifeng Lu",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5041351358",
+    "display_name": "Jinhuan Li",
+    "orcid": "https://orcid.org/0000-0001-5098-0850",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5098-0850"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jinhuan Li",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5115594885",
+    "display_name": "Zhongzhu Liang",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I184983240",
+     "display_name": "Northeast Normal University",
+     "ror": "https://ror.org/02rkvz144",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zhongzhu Liang",
+   "raw_affiliation_strings": [
+    "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Center for Advanced Optoelectronic Functional Materials Research, and Key Laboratory for UV Emitting Materials and Technology of Ministry of Education, National Demonstration Center for Experimental Physics Education, Northeast Normal University, 5268 Renmin Street, Changchun 130024, China",
+     "institution_ids": [
+      "https://openalex.org/I184983240"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5090948294"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I184983240"
+ ],
+ "apc_list": {
+  "value": 2000,
+  "currency": "CHF",
+  "value_usd": 2094
+ },
+ "apc_paid": {
+  "value": 2000,
+  "currency": "CHF",
+  "value_usd": 2094
+ },
+ "fwci": 2.4658,
+ "has_fulltext": true,
+ "cited_by_count": 45,
+ "citation_normalized_percentile": {
+  "value": 0.89124072,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "13",
+  "issue": "1",
+  "first_page": "81",
+  "last_page": "81"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9998000264167786,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9998000264167786,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11190",
+   "display_name": "3D Printing in Biomedical Research",
+   "score": 0.9814000129699707,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12570",
+   "display_name": "Photopolymerization techniques and applications",
+   "score": 0.9754999876022339,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1605",
+    "display_name": "Organic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.8050615787506104
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.7724995017051697
+  },
+  {
+   "id": "https://openalex.org/keywords/casting",
+   "display_name": "Casting",
+   "score": 0.5630514025688171
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.5581007599830627
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-melting",
+   "display_name": "Glass melting",
+   "score": 0.5008125305175781
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.4874999225139618
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-engineering",
+   "display_name": "Manufacturing engineering",
+   "score": 0.4775710701942444
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.4410320222377777
+  },
+  {
+   "id": "https://openalex.org/keywords/process-engineering",
+   "display_name": "Process engineering",
+   "score": 0.4008519649505615
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.39510706067085266
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.37093836069107056
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering-drawing",
+   "display_name": "Engineering drawing",
+   "score": 0.3371121287345886
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.2551020383834839
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.08811038732528687
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.8050615787506104
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.7724995017051697
+  },
+  {
+   "id": "https://openalex.org/C16635281",
+   "wikidata": "https://www.wikidata.org/wiki/Q496098",
+   "display_name": "Casting",
+   "level": 2,
+   "score": 0.5630514025688171
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.5581007599830627
+  },
+  {
+   "id": "https://openalex.org/C2994430024",
+   "wikidata": "https://www.wikidata.org/wiki/Q5567118",
+   "display_name": "Glass melting",
+   "level": 2,
+   "score": 0.5008125305175781
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.4874999225139618
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.4775710701942444
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.4410320222377777
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.4008519649505615
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.39510706067085266
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.37093836069107056
+  },
+  {
+   "id": "https://openalex.org/C199639397",
+   "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+   "display_name": "Engineering drawing",
+   "level": 1,
+   "score": 0.3371121287345886
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.2551020383834839
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.08811038732528687
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.3390/mi13010081",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/mi13010081",
+   "pdf_url": "https://www.mdpi.com/2072-666X/13/1/81/pdf?version=1641301030",
+   "source": {
+    "id": "https://openalex.org/S96702057",
+    "display_name": "Micromachines",
+    "issn_l": "2072-666X",
+    "issn": [
+     "2072-666X"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Micromachines",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:35056246",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/35056246",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Micromachines",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:8779994",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8779994",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Micromachines (Basel)",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:56aba0d13d414faa8c98d9e9f2d231c3",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/56aba0d13d414faa8c98d9e9f2d231c3",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Micromachines, Vol 13, Iss 1, p 81 (2022)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/mi13010081",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/mi13010081",
+  "pdf_url": "https://www.mdpi.com/2072-666X/13/1/81/pdf?version=1641301030",
+  "source": {
+   "id": "https://openalex.org/S96702057",
+   "display_name": "Micromachines",
+   "issn_l": "2072-666X",
+   "issn": [
+    "2072-666X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Micromachines",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.5,
+   "display_name": "Industry, innovation and infrastructure"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2956991357",
+   "display_name": null,
+   "funder_award_id": "No. 61875036",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  },
+  {
+   "id": "https://openalex.org/G5387001689",
+   "display_name": null,
+   "funder_award_id": "61875036",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321001",
+   "display_name": "National Natural Science Foundation of China",
+   "ror": "https://ror.org/01h0zpd94"
+  },
+  {
+   "id": "https://openalex.org/F4320322174",
+   "display_name": "People's Government of Jilin Province",
+   "ror": "https://ror.org/02fzqav45"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4205770747.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4205770747.grobid-xml"
+ },
+ "referenced_works_count": 108,
+ "referenced_works": [
+  "https://openalex.org/W844871572",
+  "https://openalex.org/W1511465068",
+  "https://openalex.org/W1666890712",
+  "https://openalex.org/W1864929055",
+  "https://openalex.org/W1915531950",
+  "https://openalex.org/W1962135887",
+  "https://openalex.org/W1967524905",
+  "https://openalex.org/W1969566657",
+  "https://openalex.org/W1985793906",
+  "https://openalex.org/W1994908093",
+  "https://openalex.org/W2003587676",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2008156359",
+  "https://openalex.org/W2025138352",
+  "https://openalex.org/W2031476233",
+  "https://openalex.org/W2035707072",
+  "https://openalex.org/W2041495053",
+  "https://openalex.org/W2043611950",
+  "https://openalex.org/W2047459256",
+  "https://openalex.org/W2051890790",
+  "https://openalex.org/W2052954140",
+  "https://openalex.org/W2057511425",
+  "https://openalex.org/W2067341908",
+  "https://openalex.org/W2067889786",
+  "https://openalex.org/W2088863330",
+  "https://openalex.org/W2090572943",
+  "https://openalex.org/W2092016229",
+  "https://openalex.org/W2093404715",
+  "https://openalex.org/W2098459033",
+  "https://openalex.org/W2123494811",
+  "https://openalex.org/W2129923368",
+  "https://openalex.org/W2140829145",
+  "https://openalex.org/W2142721422",
+  "https://openalex.org/W2143765114",
+  "https://openalex.org/W2154255972",
+  "https://openalex.org/W2155943302",
+  "https://openalex.org/W2165441364",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2192772080",
+  "https://openalex.org/W2218190479",
+  "https://openalex.org/W2264718512",
+  "https://openalex.org/W2319334792",
+  "https://openalex.org/W2342593170",
+  "https://openalex.org/W2471406299",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2553221934",
+  "https://openalex.org/W2565037204",
+  "https://openalex.org/W2568662989",
+  "https://openalex.org/W2588550473",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2607085098",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2617612984",
+  "https://openalex.org/W2618596241",
+  "https://openalex.org/W2735660862",
+  "https://openalex.org/W2741181432",
+  "https://openalex.org/W2741304731",
+  "https://openalex.org/W2755965525",
+  "https://openalex.org/W2758567842",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2789582116",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2793887430",
+  "https://openalex.org/W2795361861",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2799310699",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2803265486",
+  "https://openalex.org/W2805454887",
+  "https://openalex.org/W2805926569",
+  "https://openalex.org/W2891857689",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2897018545",
+  "https://openalex.org/W2900429435",
+  "https://openalex.org/W2901272870",
+  "https://openalex.org/W2903723527",
+  "https://openalex.org/W2921179414",
+  "https://openalex.org/W2924373750",
+  "https://openalex.org/W2927742238",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2953743301",
+  "https://openalex.org/W2966869300",
+  "https://openalex.org/W2966927321",
+  "https://openalex.org/W2970810967",
+  "https://openalex.org/W2971298841",
+  "https://openalex.org/W2979300535",
+  "https://openalex.org/W2982673880",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W2994490823",
+  "https://openalex.org/W2999729355",
+  "https://openalex.org/W3014113438",
+  "https://openalex.org/W3015612025",
+  "https://openalex.org/W3023001773",
+  "https://openalex.org/W3033785573",
+  "https://openalex.org/W3041438049",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3048942414",
+  "https://openalex.org/W3049679595",
+  "https://openalex.org/W3086315669",
+  "https://openalex.org/W3087622448",
+  "https://openalex.org/W3097320914",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3108266633",
+  "https://openalex.org/W3123355763",
+  "https://openalex.org/W3170380770",
+  "https://openalex.org/W3206670844",
+  "https://openalex.org/W6784972609"
+ ],
+ "related_works": [
+  "https://openalex.org/W2082914599",
+  "https://openalex.org/W2756570351",
+  "https://openalex.org/W2606427896",
+  "https://openalex.org/W4280652955",
+  "https://openalex.org/W2007805353",
+  "https://openalex.org/W2132500134",
+  "https://openalex.org/W2387433897",
+  "https://openalex.org/W2008392873",
+  "https://openalex.org/W2100589902",
+  "https://openalex.org/W3004274744"
+ ],
+ "abstract_inverted_index": {
+  "Not": [
+   0
+  ],
+  "satisfied": [
+   1
+  ],
+  "with": [
+   2,
+   163
+  ],
+  "the": [
+   3,
+   7,
+   34,
+   57,
+   77,
+   85,
+   105,
+   114,
+   118,
+   125,
+   130,
+   158
+  ],
+  "current": [
+   4
+  ],
+  "stage": [
+   5
+  ],
+  "of": [
+   6,
+   37,
+   59,
+   66,
+   89,
+   96,
+   109,
+   120,
+   140
+  ],
+  "extensive": [
+   8
+  ],
+  "research": [
+   9
+  ],
+  "on": [
+   10,
+   155
+  ],
+  "3D": [
+   11,
+   24,
+   67,
+   82,
+   97,
+   164
+  ],
+  "printing": [
+   12,
+   25,
+   68,
+   98,
+   165
+  ],
+  "technology": [
+   13,
+   69,
+   121,
+   166
+  ],
+  "for": [
+   14,
+   21,
+   27,
+   99,
+   160
+  ],
+  "polymers": [
+   15
+  ],
+  "and": [
+   16,
+   48,
+   87,
+   92,
+   107,
+   123,
+   173
+  ],
+  "metals,": [
+   17
+  ],
+  "researchers": [
+   18
+  ],
+  "are": [
+   19,
+   167
+  ],
+  "searching": [
+   20
+  ],
+  "more": [
+   22
+  ],
+  "innovative": [
+   23
+  ],
+  "technologies": [
+   26
+  ],
+  "glass": [
+   28,
+   41,
+   62,
+   81,
+   100,
+   144,
+   161
+  ],
+  "fabrication": [
+   29,
+   58,
+   145
+  ],
+  "in": [
+   30,
+   80,
+   117,
+   135,
+   143,
+   147
+  ],
+  "what": [
+   31
+  ],
+  "has": [
+   32,
+   151
+  ],
+  "become": [
+   33
+  ],
+  "latest": [
+   35
+  ],
+  "trend": [
+   36
+  ],
+  "interest.": [
+   38
+  ],
+  "The": [
+   39,
+   64,
+   138
+  ],
+  "traditional": [
+   40
+  ],
+  "manufacturing": [
+   42,
+   142
+  ],
+  "process": [
+   43,
+   119
+  ],
+  "requires": [
+   44
+  ],
+  "complex": [
+   45,
+   61
+  ],
+  "high-temperature": [
+   46
+  ],
+  "melting": [
+   47
+  ],
+  "casting": [
+   49
+  ],
+  "processes,": [
+   50
+  ],
+  "which": [
+   51
+  ],
+  "presents": [
+   52
+  ],
+  "a": [
+   53,
+   71
+  ],
+  "great": [
+   54,
+   152
+  ],
+  "challenge": [
+   55
+  ],
+  "to": [
+   56,
+   128,
+   169
+  ],
+  "arbitrarily": [
+   60
+  ],
+  "devices.": [
+   63
+  ],
+  "emergence": [
+   65
+  ],
+  "provides": [
+   70
+  ],
+  "good": [
+   72
+  ],
+  "solution.": [
+   73
+  ],
+  "This": [
+   74,
+   102
+  ],
+  "paper": [
+   75
+  ],
+  "reviews": [
+   76
+  ],
+  "recent": [
+   78
+  ],
+  "advances": [
+   79
+  ],
+  "printing,": [
+   83
+  ],
+  "describes": [
+   84
+  ],
+  "history": [
+   86
+  ],
+  "development": [
+   88
+  ],
+  "related": [
+   90
+  ],
+  "technologies,": [
+   91
+  ],
+  "lists": [
+   93
+  ],
+  "popular": [
+   94
+  ],
+  "applications": [
+   95
+  ],
+  "preparation.": [
+   101
+  ],
+  "review": [
+   103
+  ],
+  "compares": [
+   104
+  ],
+  "advantages": [
+   106
+  ],
+  "disadvantages": [
+   108
+  ],
+  "various": [
+   110
+  ],
+  "processing": [
+   111
+  ],
+  "methods,": [
+   112
+  ],
+  "summarizes": [
+   113
+  ],
+  "problems": [
+   115
+  ],
+  "encountered": [
+   116
+  ],
+  "application,": [
+   122
+  ],
+  "proposes": [
+   124
+  ],
+  "corresponding": [
+   126
+  ],
+  "solutions": [
+   127
+  ],
+  "select": [
+   129
+  ],
+  "most": [
+   131
+  ],
+  "appropriate": [
+   132
+  ],
+  "preparation": [
+   133,
+   162
+  ],
+  "method": [
+   134
+  ],
+  "practical": [
+   136
+  ],
+  "applications.": [
+   137
+  ],
+  "application": [
+   139
+  ],
+  "additive": [
+   141
+  ],
+  "is": [
+   146
+  ],
+  "its": [
+   148
+  ],
+  "infancy": [
+   149
+  ],
+  "but": [
+   150
+  ],
+  "potential.": [
+   153
+  ],
+  "Based": [
+   154
+  ],
+  "this": [
+   156
+  ],
+  "view,": [
+   157
+  ],
+  "methods": [
+   159
+  ],
+  "expected": [
+   168
+  ],
+  "achieve": [
+   170
+  ],
+  "both": [
+   171
+  ],
+  "high-speed": [
+   172
+  ],
+  "high-precision": [
+   174
+  ],
+  "fabrication.": [
+   175
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 9
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

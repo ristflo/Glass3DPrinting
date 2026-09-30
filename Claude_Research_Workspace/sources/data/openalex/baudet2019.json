@@ -1,0 +1,1051 @@
+{
+ "id": "https://openalex.org/W2938119208",
+ "doi": "https://doi.org/10.1364/ome.9.002307",
+ "title": "3D-printing of arsenic sulfide chalcogenide glasses",
+ "display_name": "3D-printing of arsenic sulfide chalcogenide glasses",
+ "publication_year": 2019,
+ "publication_date": "2019-04-18",
+ "ids": {
+  "openalex": "https://openalex.org/W2938119208",
+  "doi": "https://doi.org/10.1364/ome.9.002307",
+  "mag": "2938119208"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1364/ome.9.002307",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1364/ome.9.002307",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2496121912",
+   "display_name": "Optical Materials Express",
+   "issn_l": "2159-3930",
+   "issn": [
+    "2159-3930"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-2",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310315679",
+   "host_organization_name": "Optica Publishing Group",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315679"
+   ],
+   "host_organization_lineage_names": [
+    "Optica Publishing Group"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Optical Materials Express",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.1364/ome.9.002307",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5112202891",
+    "display_name": "E. Baudet",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I43406934",
+     "display_name": "Universit\u00e9 Laval",
+     "ror": "https://ror.org/04sjchr03",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "E. Baudet",
+   "raw_affiliation_strings": [
+    "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada",
+     "institution_ids": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5056254570",
+    "display_name": "Yannick Ledemi",
+    "orcid": "https://orcid.org/0000-0002-5867-2729",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-5867-2729"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I43406934",
+     "display_name": "Universit\u00e9 Laval",
+     "ror": "https://ror.org/04sjchr03",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Y. Ledemi",
+   "raw_affiliation_strings": [
+    "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada",
+     "institution_ids": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5023490313",
+    "display_name": "Pierre M. Larochelle",
+    "orcid": "https://orcid.org/0000-0001-9123-4483",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9123-4483"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I43406934",
+     "display_name": "Universit\u00e9 Laval",
+     "ror": "https://ror.org/04sjchr03",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "P. Larochelle",
+   "raw_affiliation_strings": [
+    "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada",
+     "institution_ids": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5055433746",
+    "display_name": "Steeve Morency",
+    "orcid": "https://orcid.org/0000-0003-0055-7047",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0055-7047"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I43406934",
+     "display_name": "Universit\u00e9 Laval",
+     "ror": "https://ror.org/04sjchr03",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "S. Morency",
+   "raw_affiliation_strings": [
+    "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada",
+     "institution_ids": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5080759731",
+    "display_name": "Youn\u00e8s Messaddeq",
+    "orcid": "https://orcid.org/0000-0002-0868-2726",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0868-2726"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I43406934",
+     "display_name": "Universit\u00e9 Laval",
+     "ror": "https://ror.org/04sjchr03",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Y. Messaddeq",
+   "raw_affiliation_strings": [
+    "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre d\u2019Optique, Photonique et Laser (COPL), Universit\u00e9 Laval, 2375 rue de la Terrasse, G1\u2005V 0A6, Qu\u00e9bec (QC), Canada",
+     "institution_ids": [
+      "https://openalex.org/I43406934"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I43406934"
+ ],
+ "apc_list": {
+  "value": 1843,
+  "currency": "USD",
+  "value_usd": 1843
+ },
+ "apc_paid": {
+  "value": 1843,
+  "currency": "USD",
+  "value_usd": 1843
+ },
+ "fwci": 2.7665,
+ "has_fulltext": false,
+ "cited_by_count": 60,
+ "citation_normalized_percentile": {
+  "value": 0.91309631,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 94,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "9",
+  "issue": "5",
+  "first_page": "2307",
+  "last_page": "2307"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11315",
+  "display_name": "Phase-change materials and chalcogenides",
+  "score": 0.9998000264167786,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2505",
+   "display_name": "Materials Chemistry"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11315",
+   "display_name": "Phase-change materials and chalcogenides",
+   "score": 0.9998000264167786,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.991100013256073,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10544",
+   "display_name": "Glass properties and applications",
+   "score": 0.9613999724388123,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2503",
+    "display_name": "Ceramics and Composites"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/chalcogenide",
+   "display_name": "Chalcogenide",
+   "score": 0.8137688040733337
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7627017498016357
+  },
+  {
+   "id": "https://openalex.org/keywords/chalcogenide-glass",
+   "display_name": "Chalcogenide glass",
+   "score": 0.6324360370635986
+  },
+  {
+   "id": "https://openalex.org/keywords/sulfide",
+   "display_name": "Sulfide",
+   "score": 0.6071341633796692
+  },
+  {
+   "id": "https://openalex.org/keywords/arsenic",
+   "display_name": "Arsenic",
+   "score": 0.5919568538665771
+  },
+  {
+   "id": "https://openalex.org/keywords/lead-sulfide",
+   "display_name": "Lead sulfide",
+   "score": 0.42895203828811646
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.3793761432170868
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.2940569818019867
+  },
+  {
+   "id": "https://openalex.org/keywords/metallurgy",
+   "display_name": "Metallurgy",
+   "score": 0.23185038566589355
+  },
+  {
+   "id": "https://openalex.org/keywords/quantum-dot",
+   "display_name": "Quantum dot",
+   "score": 0.19930323958396912
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2778177714",
+   "wikidata": "https://www.wikidata.org/wiki/Q898920",
+   "display_name": "Chalcogenide",
+   "level": 2,
+   "score": 0.8137688040733337
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7627017498016357
+  },
+  {
+   "id": "https://openalex.org/C112234648",
+   "wikidata": "https://www.wikidata.org/wiki/Q5068626",
+   "display_name": "Chalcogenide glass",
+   "level": 3,
+   "score": 0.6324360370635986
+  },
+  {
+   "id": "https://openalex.org/C2780596425",
+   "wikidata": "https://www.wikidata.org/wiki/Q221205",
+   "display_name": "Sulfide",
+   "level": 2,
+   "score": 0.6071341633796692
+  },
+  {
+   "id": "https://openalex.org/C502230775",
+   "wikidata": "https://www.wikidata.org/wiki/Q871",
+   "display_name": "Arsenic",
+   "level": 2,
+   "score": 0.5919568538665771
+  },
+  {
+   "id": "https://openalex.org/C2777958824",
+   "wikidata": "https://www.wikidata.org/wiki/Q6508438",
+   "display_name": "Lead sulfide",
+   "level": 3,
+   "score": 0.42895203828811646
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.3793761432170868
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.2940569818019867
+  },
+  {
+   "id": "https://openalex.org/C191897082",
+   "wikidata": "https://www.wikidata.org/wiki/Q11467",
+   "display_name": "Metallurgy",
+   "level": 1,
+   "score": 0.23185038566589355
+  },
+  {
+   "id": "https://openalex.org/C124657808",
+   "wikidata": "https://www.wikidata.org/wiki/Q1133068",
+   "display_name": "Quantum dot",
+   "level": 2,
+   "score": 0.19930323958396912
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1364/ome.9.002307",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1364/ome.9.002307",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2496121912",
+    "display_name": "Optical Materials Express",
+    "issn_l": "2159-3930",
+    "issn": [
+     "2159-3930"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-2",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310315679",
+    "host_organization_name": "Optica Publishing Group",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315679"
+    ],
+    "host_organization_lineage_names": [
+     "Optica Publishing Group"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Optical Materials Express",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1364/ome.9.002307",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1364/ome.9.002307",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2496121912",
+   "display_name": "Optical Materials Express",
+   "issn_l": "2159-3930",
+   "issn": [
+    "2159-3930"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-2",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310315679",
+   "host_organization_name": "Optica Publishing Group",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315679"
+   ],
+   "host_organization_lineage_names": [
+    "Optica Publishing Group"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Optical Materials Express",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G5896840996",
+   "display_name": "PRinting of ExOtic multi-maTErials fibers",
+   "funder_award_id": "ANR-17-CE08-0042",
+   "funder_id": "https://openalex.org/F4320320883",
+   "funder_display_name": "Agence Nationale de la Recherche"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320319952",
+   "display_name": "Canada Foundation for Innovation",
+   "ror": "https://ror.org/000az4664"
+  },
+  {
+   "id": "https://openalex.org/F4320320883",
+   "display_name": "Agence Nationale de la Recherche",
+   "ror": "https://ror.org/00rbzpz17"
+  },
+  {
+   "id": "https://openalex.org/F4320321481",
+   "display_name": "Canada Excellence Research Chairs, Government of Canada",
+   "ror": "https://ror.org/02tvrwm90"
+  },
+  {
+   "id": "https://openalex.org/F4320334593",
+   "display_name": "Natural Sciences and Engineering Research Council of Canada",
+   "ror": "https://ror.org/01h531d29"
+  },
+  {
+   "id": "https://openalex.org/F4320334841",
+   "display_name": "Fonds de recherche du Qu\u00e9bec \u2013 Nature et technologies",
+   "ror": "https://ror.org/00b9f9778"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 41,
+ "referenced_works": [
+  "https://openalex.org/W2423500",
+  "https://openalex.org/W437732360",
+  "https://openalex.org/W1967941655",
+  "https://openalex.org/W1982459888",
+  "https://openalex.org/W1986144597",
+  "https://openalex.org/W1988348516",
+  "https://openalex.org/W1994157976",
+  "https://openalex.org/W1996474751",
+  "https://openalex.org/W1997556497",
+  "https://openalex.org/W1999764167",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2017545194",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2059097640",
+  "https://openalex.org/W2064698447",
+  "https://openalex.org/W2073264272",
+  "https://openalex.org/W2076734271",
+  "https://openalex.org/W2105930050",
+  "https://openalex.org/W2115922366",
+  "https://openalex.org/W2160436985",
+  "https://openalex.org/W2168758757",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2170919735",
+  "https://openalex.org/W2289064065",
+  "https://openalex.org/W2297874747",
+  "https://openalex.org/W2299072587",
+  "https://openalex.org/W2469693497",
+  "https://openalex.org/W2508388961",
+  "https://openalex.org/W2521019653",
+  "https://openalex.org/W2553161527",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2741181432",
+  "https://openalex.org/W2757333824",
+  "https://openalex.org/W2886906487",
+  "https://openalex.org/W2909404195",
+  "https://openalex.org/W2909761628",
+  "https://openalex.org/W2911827497",
+  "https://openalex.org/W4211206082",
+  "https://openalex.org/W4211236585",
+  "https://openalex.org/W4211243935"
+ ],
+ "related_works": [
+  "https://openalex.org/W1485395888",
+  "https://openalex.org/W589840713",
+  "https://openalex.org/W4210342135",
+  "https://openalex.org/W647748641",
+  "https://openalex.org/W2374200147",
+  "https://openalex.org/W2095363637",
+  "https://openalex.org/W574024483",
+  "https://openalex.org/W2130683785",
+  "https://openalex.org/W2730113340",
+  "https://openalex.org/W3088751286"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   46
+  ],
+  "use": [
+   1
+  ],
+  "of": [
+   2,
+   17,
+   30,
+   39,
+   61,
+   103,
+   111,
+   114,
+   125,
+   141
+  ],
+  "a": [
+   3,
+   22,
+   69,
+   73
+  ],
+  "3D-printing": [
+   4
+  ],
+  "additive": [
+   5,
+   112
+  ],
+  "manufacturing": [
+   6,
+   113
+  ],
+  "process": [
+   7
+  ],
+  "is": [
+   8
+  ],
+  "reported": [
+   9
+  ],
+  "for": [
+   10,
+   14,
+   52,
+   122
+  ],
+  "the": [
+   11,
+   15,
+   35,
+   78,
+   97,
+   120,
+   123,
+   139
+  ],
+  "first": [
+   12,
+   109
+  ],
+  "time": [
+   13
+  ],
+  "extrusion": [
+   16,
+   40
+  ],
+  "chalcogenide": [
+   18,
+   31,
+   48,
+   115
+  ],
+  "glasses": [
+   19
+  ],
+  "by": [
+   20,
+   34,
+   135
+  ],
+  "using": [
+   21,
+   68
+  ],
+  "filament": [
+   23,
+   44
+  ],
+  "feed.": [
+   24
+  ],
+  "Several": [
+   25
+  ],
+  "challenges": [
+   26
+  ],
+  "were": [
+   27,
+   85
+  ],
+  "overcome:": [
+   28
+  ],
+  "preparation": [
+   29
+  ],
+  "glass": [
+   32,
+   49,
+   55,
+   79,
+   83,
+   100,
+   116
+  ],
+  "filaments": [
+   33
+  ],
+  "crucible": [
+   36
+  ],
+  "technique,": [
+   37
+  ],
+  "optimization": [
+   38
+  ],
+  "temperature": [
+   41,
+   57,
+   74
+  ],
+  "or": [
+   42
+  ],
+  "even": [
+   43
+  ],
+  "feeding.": [
+   45
+  ],
+  "As40S60": [
+   47
+  ],
+  "was": [
+   50,
+   66,
+   92
+  ],
+  "selected": [
+   51
+  ],
+  "its": [
+   53
+  ],
+  "low": [
+   54
+  ],
+  "transition": [
+   56,
+   80
+  ],
+  "(Tg\u2009=\u2009188\u00b0C)": [
+   58
+  ],
+  "and": [
+   59,
+   63,
+   88,
+   105
+  ],
+  "ease": [
+   60
+  ],
+  "synthesis": [
+   62
+  ],
+  "processing.": [
+   64
+  ],
+  "It": [
+   65
+  ],
+  "extruded": [
+   67
+  ],
+  "commercial": [
+   70
+  ],
+  "3D-printer": [
+   71
+  ],
+  "at": [
+   72
+  ],
+  "around": [
+   75
+  ],
+  "140\u00b0C": [
+   76
+  ],
+  "above": [
+   77
+  ],
+  "temperature.": [
+   81
+  ],
+  "3D-printed": [
+   82
+  ],
+  "specimens": [
+   84
+  ],
+  "then": [
+   86
+  ],
+  "characterized": [
+   87
+  ],
+  "no": [
+   89
+  ],
+  "significant": [
+   90
+  ],
+  "difference": [
+   91
+  ],
+  "observed": [
+   93
+  ],
+  "in": [
+   94,
+   101
+  ],
+  "comparison": [
+   95
+  ],
+  "with": [
+   96
+  ],
+  "bulk": [
+   98
+  ],
+  "precursor": [
+   99
+  ],
+  "terms": [
+   102
+  ],
+  "chemical": [
+   104
+  ],
+  "thermal": [
+   106
+  ],
+  "properties.": [
+   107
+  ],
+  "This": [
+   108
+  ],
+  "report": [
+   110
+  ],
+  "complex": [
+   117
+  ],
+  "shapes": [
+   118
+  ],
+  "paves": [
+   119
+  ],
+  "way": [
+   121
+  ],
+  "development": [
+   124
+  ],
+  "novel": [
+   126
+  ],
+  "specialty": [
+   127
+  ],
+  "optical": [
+   128,
+   143
+  ],
+  "components": [
+   129
+  ],
+  "that": [
+   130
+  ],
+  "could": [
+   131
+  ],
+  "not": [
+   132
+  ],
+  "be": [
+   133
+  ],
+  "produced": [
+   134
+  ],
+  "conventional": [
+   136
+  ],
+  "methods,": [
+   137
+  ],
+  "including": [
+   138
+  ],
+  "fabrication": [
+   140
+  ],
+  "multimaterial": [
+   142
+  ],
+  "fiber": [
+   144
+  ],
+  "preforms.": [
+   145
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 11
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

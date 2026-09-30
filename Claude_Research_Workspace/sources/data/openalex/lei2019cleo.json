@@ -1,0 +1,628 @@
+{
+ "id": "https://openalex.org/W4256226002",
+ "doi": "https://doi.org/10.1364/cleo_at.2019.aw3i.4",
+ "title": "Additive Manufacturing of Fused Silica Glass Using Direct Laser Melting",
+ "display_name": "Additive Manufacturing of Fused Silica Glass Using Direct Laser Melting",
+ "relevance_score": 1370.6162,
+ "publication_year": 2019,
+ "publication_date": "2019-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4256226002",
+  "doi": "https://doi.org/10.1364/cleo_at.2019.aw3i.4"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1364/cleo_at.2019.aw3i.4",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1364/cleo_at.2019.aw3i.4",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306418073",
+   "display_name": "Conference on Lasers and Electro-Optics",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "conference"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Conference on Lasers and Electro-Optics",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": null,
+    "display_name": "Jincheng Lei",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I8078737",
+     "display_name": "Clemson University",
+     "ror": "https://ror.org/037s24f05",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jincheng Lei",
+   "raw_affiliation_strings": [
+    "Department of Electrical and Computer Engineering, Clemson University, Clemson, SC 29634, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Electrical and Computer Engineering, Clemson University, Clemson, SC 29634, USA",
+     "institution_ids": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Yuzhe Hong",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I8078737",
+     "display_name": "Clemson University",
+     "ror": "https://ror.org/037s24f05",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yuzhe Hong",
+   "raw_affiliation_strings": [
+    "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA",
+     "institution_ids": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Qi Zhang",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I8078737",
+     "display_name": "Clemson University",
+     "ror": "https://ror.org/037s24f05",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Qi Zhang",
+   "raw_affiliation_strings": [
+    "Department of Electrical and Computer Engineering, Clemson University, Clemson, SC 29634, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Electrical and Computer Engineering, Clemson University, Clemson, SC 29634, USA",
+     "institution_ids": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Fei Peng",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I8078737",
+     "display_name": "Clemson University",
+     "ror": "https://ror.org/037s24f05",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Fei Peng",
+   "raw_affiliation_strings": [
+    "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA",
+     "institution_ids": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": null,
+    "display_name": "Hai Xiao",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I8078737",
+     "display_name": "Clemson University",
+     "ror": "https://ror.org/037s24f05",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hai Xiao",
+   "raw_affiliation_strings": [
+    "Department of Electrical and Computer Engineering, Clemson University, Clemson, SC 29634, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Electrical and Computer Engineering, Clemson University, Clemson, SC 29634, USA",
+     "institution_ids": [
+      "https://openalex.org/I8078737"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I8078737"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 1.1525,
+ "has_fulltext": false,
+ "cited_by_count": 9,
+ "citation_normalized_percentile": {
+  "value": 0.79823405,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 96
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "AW3I.4",
+  "last_page": "AW3I.4"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9973000288009644,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9973000288009644,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.989799976348877,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.989300012588501,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/silica-glass",
+   "display_name": "Silica glass",
+   "score": 0.5777999758720398
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.4925000071525574
+  },
+  {
+   "id": "https://openalex.org/keywords/manufacturing-process",
+   "display_name": "Manufacturing process",
+   "score": 0.47679999470710754
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.3626999855041504
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.31029999256134033
+  },
+  {
+   "id": "https://openalex.org/keywords/transparency",
+   "display_name": "Transparency (behavior)",
+   "score": 0.3052000105381012
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.8051000237464905
+  },
+  {
+   "id": "https://openalex.org/C3020492233",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Silica glass",
+   "level": 2,
+   "score": 0.5777999758720398
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.5550000071525574
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.4925000071525574
+  },
+  {
+   "id": "https://openalex.org/C2987875673",
+   "wikidata": "https://www.wikidata.org/wiki/Q187939",
+   "display_name": "Manufacturing process",
+   "level": 2,
+   "score": 0.47679999470710754
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.3626999855041504
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.31029999256134033
+  },
+  {
+   "id": "https://openalex.org/C2780233690",
+   "wikidata": "https://www.wikidata.org/wiki/Q535347",
+   "display_name": "Transparency (behavior)",
+   "level": 2,
+   "score": 0.3052000105381012
+  },
+  {
+   "id": "https://openalex.org/C2984142464",
+   "wikidata": "https://www.wikidata.org/wiki/Q11469",
+   "display_name": "Optical glass",
+   "level": 2,
+   "score": 0.28360000252723694
+  },
+  {
+   "id": "https://openalex.org/C206802598",
+   "wikidata": "https://www.wikidata.org/wiki/Q1422588",
+   "display_name": "Borosilicate glass",
+   "level": 2,
+   "score": 0.2685000002384186
+  },
+  {
+   "id": "https://openalex.org/C54237361",
+   "wikidata": "https://www.wikidata.org/wiki/Q428412",
+   "display_name": "Selective laser sintering",
+   "level": 3,
+   "score": 0.26080000400543213
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1364/cleo_at.2019.aw3i.4",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1364/cleo_at.2019.aw3i.4",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306418073",
+    "display_name": "Conference on Lasers and Electro-Optics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "conference"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Conference on Lasers and Electro-Optics",
+   "raw_type": "proceedings-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 5,
+ "referenced_works": [
+  "https://openalex.org/W1642712619",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "A": [
+   0
+  ],
+  "direct": [
+   1
+  ],
+  "method": [
+   2
+  ],
+  "for": [
+   3
+  ],
+  "additive": [
+   4
+  ],
+  "manufacturing": [
+   5
+  ],
+  "of": [
+   6
+  ],
+  "fused": [
+   7,
+   23,
+   27
+  ],
+  "silica": [
+   8,
+   24,
+   28
+  ],
+  "glass": [
+   9,
+   29
+  ],
+  "without": [
+   10
+  ],
+  "any": [
+   11
+  ],
+  "post": [
+   12
+  ],
+  "treatment": [
+   13
+  ],
+  "has": [
+   14
+  ],
+  "been": [
+   15
+  ],
+  "developed.": [
+   16
+  ],
+  "By": [
+   17
+  ],
+  "applying": [
+   18
+  ],
+  "laser": [
+   19
+  ],
+  "to": [
+   20
+  ],
+  "process": [
+   21
+  ],
+  "the": [
+   22
+  ],
+  "paste,": [
+   25
+  ],
+  "three-dimensional": [
+   26
+  ],
+  "with": [
+   30
+  ],
+  "high": [
+   31
+  ],
+  "transparency": [
+   32
+  ],
+  "was": [
+   33
+  ],
+  "obtained.": [
+   34
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-09T07:26:56.047234",
+ "created_date": "2022-05-12T00:00:00"
+}

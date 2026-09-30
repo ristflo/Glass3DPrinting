@@ -1,0 +1,1107 @@
+{
+ "id": "https://openalex.org/W4378078085",
+ "doi": "https://doi.org/10.3390/jimaging9050105",
+ "title": "Perceptual Translucency in 3D Printing Using Surface Texture",
+ "display_name": "Perceptual Translucency in 3D Printing Using Surface Texture",
+ "publication_year": 2023,
+ "publication_date": "2023-05-22",
+ "ids": {
+  "openalex": "https://openalex.org/W4378078085",
+  "doi": "https://doi.org/10.3390/jimaging9050105",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/37233324"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/jimaging9050105",
+  "is_oa": true,
+  "landing_page_url": "http://dx.doi.org/10.3390/jimaging9050105",
+  "pdf_url": "https://www.mdpi.com/2313-433X/9/5/105/pdf?version=1684830699",
+  "source": {
+   "id": "https://openalex.org/S2736465063",
+   "display_name": "Journal of Imaging",
+   "issn_l": "2313-433X",
+   "issn": [
+    "2313-433X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Imaging",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2313-433X/9/5/105/pdf?version=1684830699",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5076455275",
+    "display_name": "Kazuki Nagasawa",
+    "orcid": "https://orcid.org/0000-0001-5717-4405",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5717-4405"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I159385669",
+     "display_name": "Chiba University",
+     "ror": "https://ror.org/01hjzeq58",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I159385669"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Kazuki Nagasawa",
+   "raw_affiliation_strings": [
+    "Graduate School of Science and Engineering, Chiba University, Chiba 263-8522, Japan"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5717-4405",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Graduate School of Science and Engineering, Chiba University, Chiba 263-8522, Japan",
+     "institution_ids": [
+      "https://openalex.org/I159385669"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5080265842",
+    "display_name": "Kamui Ono",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I159385669",
+     "display_name": "Chiba University",
+     "ror": "https://ror.org/01hjzeq58",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I159385669"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kamui Ono",
+   "raw_affiliation_strings": [
+    "Graduate School of Science and Engineering, Chiba University, Chiba 263-8522, Japan"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Graduate School of Science and Engineering, Chiba University, Chiba 263-8522, Japan",
+     "institution_ids": [
+      "https://openalex.org/I159385669"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Wataru Arai",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Wataru Arai",
+   "raw_affiliation_strings": [
+    "Mimaki Engineering Co., Ltd., Nagano 389-0512, Japan"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mimaki Engineering Co., Ltd., Nagano 389-0512, Japan",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5109934226",
+    "display_name": "Norimichi Tsumura",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I159385669",
+     "display_name": "Chiba University",
+     "ror": "https://ror.org/01hjzeq58",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I159385669"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Norimichi Tsumura",
+   "raw_affiliation_strings": [
+    "Graduate School of Science and Engineering, Chiba University, Chiba 263-8522, Japan"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Graduate School of Science and Engineering, Chiba University, Chiba 263-8522, Japan",
+     "institution_ids": [
+      "https://openalex.org/I159385669"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5076455275",
+  "https://openalex.org/A5109934226"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I159385669"
+ ],
+ "apc_list": {
+  "value": 1600,
+  "currency": "CHF",
+  "value_usd": 1779
+ },
+ "apc_paid": {
+  "value": 1600,
+  "currency": "CHF",
+  "value_usd": 1779
+ },
+ "fwci": 0.1367,
+ "has_fulltext": true,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": {
+  "value": 0.38625365,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 94
+ },
+ "biblio": {
+  "volume": "9",
+  "issue": "5",
+  "first_page": "105",
+  "last_page": "105"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11666",
+  "display_name": "Color Science and Applications",
+  "score": 0.9980000257492065,
+  "subfield": {
+   "id": "https://openalex.org/subfields/3107",
+   "display_name": "Atomic and Molecular Physics, and Optics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/31",
+   "display_name": "Physics and Astronomy"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11666",
+   "display_name": "Color Science and Applications",
+   "score": 0.9980000257492065,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3107",
+    "display_name": "Atomic and Molecular Physics, and Optics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10531",
+   "display_name": "Advanced Vision and Imaging",
+   "score": 0.9969000220298767,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10638",
+   "display_name": "Optical measurement and interference techniques",
+   "score": 0.9940999746322632,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.7544407248497009
+  },
+  {
+   "id": "https://openalex.org/keywords/artificial-intelligence",
+   "display_name": "Artificial intelligence",
+   "score": 0.672746479511261
+  },
+  {
+   "id": "https://openalex.org/keywords/perception",
+   "display_name": "Perception",
+   "score": 0.6572862863540649
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-vision",
+   "display_name": "Computer vision",
+   "score": 0.651391863822937
+  },
+  {
+   "id": "https://openalex.org/keywords/focus",
+   "display_name": "Focus (optics)",
+   "score": 0.5674415826797485
+  },
+  {
+   "id": "https://openalex.org/keywords/contrast",
+   "display_name": "Contrast (vision)",
+   "score": 0.5572903156280518
+  },
+  {
+   "id": "https://openalex.org/keywords/texture",
+   "display_name": "Texture (cosmology)",
+   "score": 0.5144336819648743
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-graphics",
+   "display_name": "Computer graphics",
+   "score": 0.42624276876449585
+  },
+  {
+   "id": "https://openalex.org/keywords/gradation",
+   "display_name": "Gradation",
+   "score": 0.4226524233818054
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-graphics",
+   "display_name": "Computer graphics (images)",
+   "score": 0.3985024690628052
+  },
+  {
+   "id": "https://openalex.org/keywords/image",
+   "display_name": "Image (mathematics)",
+   "score": 0.19274699687957764
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.11315047740936279
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.7544407248497009
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.672746479511261
+  },
+  {
+   "id": "https://openalex.org/C26760741",
+   "wikidata": "https://www.wikidata.org/wiki/Q160402",
+   "display_name": "Perception",
+   "level": 2,
+   "score": 0.6572862863540649
+  },
+  {
+   "id": "https://openalex.org/C31972630",
+   "wikidata": "https://www.wikidata.org/wiki/Q844240",
+   "display_name": "Computer vision",
+   "level": 1,
+   "score": 0.651391863822937
+  },
+  {
+   "id": "https://openalex.org/C192209626",
+   "wikidata": "https://www.wikidata.org/wiki/Q190909",
+   "display_name": "Focus (optics)",
+   "level": 2,
+   "score": 0.5674415826797485
+  },
+  {
+   "id": "https://openalex.org/C2776502983",
+   "wikidata": "https://www.wikidata.org/wiki/Q690182",
+   "display_name": "Contrast (vision)",
+   "level": 2,
+   "score": 0.5572903156280518
+  },
+  {
+   "id": "https://openalex.org/C2781195486",
+   "wikidata": "https://www.wikidata.org/wiki/Q289436",
+   "display_name": "Texture (cosmology)",
+   "level": 3,
+   "score": 0.5144336819648743
+  },
+  {
+   "id": "https://openalex.org/C77660652",
+   "wikidata": "https://www.wikidata.org/wiki/Q150971",
+   "display_name": "Computer graphics",
+   "level": 2,
+   "score": 0.42624276876449585
+  },
+  {
+   "id": "https://openalex.org/C29314403",
+   "wikidata": "https://www.wikidata.org/wiki/Q15637103",
+   "display_name": "Gradation",
+   "level": 2,
+   "score": 0.4226524233818054
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.3985024690628052
+  },
+  {
+   "id": "https://openalex.org/C115961682",
+   "wikidata": "https://www.wikidata.org/wiki/Q860623",
+   "display_name": "Image (mathematics)",
+   "level": 2,
+   "score": 0.19274699687957764
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.11315047740936279
+  },
+  {
+   "id": "https://openalex.org/C169760540",
+   "wikidata": "https://www.wikidata.org/wiki/Q207011",
+   "display_name": "Neuroscience",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.3390/jimaging9050105",
+   "is_oa": true,
+   "landing_page_url": "http://dx.doi.org/10.3390/jimaging9050105",
+   "pdf_url": "https://www.mdpi.com/2313-433X/9/5/105/pdf?version=1684830699",
+   "source": {
+    "id": "https://openalex.org/S2736465063",
+    "display_name": "Journal of Imaging",
+    "issn_l": "2313-433X",
+    "issn": [
+     "2313-433X"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Imaging",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:37233324",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37233324",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of imaging",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:10219096",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10219096",
+   "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10219096/pdf/jimaging-09-00105.pdf",
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "J Imaging",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:a73a16531d954d8ab5b08a94820de952",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/a73a16531d954d8ab5b08a94820de952",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Journal of Imaging, Vol 9, Iss 5, p 105 (2023)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/jimaging9050105",
+  "is_oa": true,
+  "landing_page_url": "http://dx.doi.org/10.3390/jimaging9050105",
+  "pdf_url": "https://www.mdpi.com/2313-433X/9/5/105/pdf?version=1684830699",
+  "source": {
+   "id": "https://openalex.org/S2736465063",
+   "display_name": "Journal of Imaging",
+   "issn_l": "2313-433X",
+   "issn": [
+    "2313-433X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Imaging",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4378078085.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4378078085.grobid-xml"
+ },
+ "referenced_works_count": 40,
+ "referenced_works": [
+  "https://openalex.org/W65018654",
+  "https://openalex.org/W1945935723",
+  "https://openalex.org/W2000139664",
+  "https://openalex.org/W2003526930",
+  "https://openalex.org/W2011812795",
+  "https://openalex.org/W2057788268",
+  "https://openalex.org/W2073454546",
+  "https://openalex.org/W2075881548",
+  "https://openalex.org/W2087719434",
+  "https://openalex.org/W2088255295",
+  "https://openalex.org/W2089218882",
+  "https://openalex.org/W2092584107",
+  "https://openalex.org/W2096341283",
+  "https://openalex.org/W2099111277",
+  "https://openalex.org/W2120448006",
+  "https://openalex.org/W2132713314",
+  "https://openalex.org/W2161986481",
+  "https://openalex.org/W2691535055",
+  "https://openalex.org/W2736733649",
+  "https://openalex.org/W2770723990",
+  "https://openalex.org/W2775723022",
+  "https://openalex.org/W2807350277",
+  "https://openalex.org/W2810000000",
+  "https://openalex.org/W2902793570",
+  "https://openalex.org/W2952748422",
+  "https://openalex.org/W3157988977",
+  "https://openalex.org/W3165526861",
+  "https://openalex.org/W3181909955",
+  "https://openalex.org/W3191257171",
+  "https://openalex.org/W3214852058",
+  "https://openalex.org/W4210631042",
+  "https://openalex.org/W4221031121",
+  "https://openalex.org/W4254042883",
+  "https://openalex.org/W4288326634",
+  "https://openalex.org/W4293102818",
+  "https://openalex.org/W4308368587",
+  "https://openalex.org/W6602647839",
+  "https://openalex.org/W6672136539",
+  "https://openalex.org/W6804358581",
+  "https://openalex.org/W6967163063"
+ ],
+ "related_works": [
+  "https://openalex.org/W1987421842",
+  "https://openalex.org/W2990667865",
+  "https://openalex.org/W2016648070",
+  "https://openalex.org/W2154757407",
+  "https://openalex.org/W1511650216",
+  "https://openalex.org/W2004643608",
+  "https://openalex.org/W1967418220",
+  "https://openalex.org/W2891108385",
+  "https://openalex.org/W3011691993",
+  "https://openalex.org/W2170701234"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   92
+  ],
+  "propose": [
+   1
+  ],
+  "a": [
+   2,
+   46,
+   72,
+   127
+  ],
+  "method": [
+   3,
+   47,
+   98,
+   116,
+   128,
+   134
+  ],
+  "of": [
+   4,
+   22,
+   30,
+   48,
+   55,
+   66,
+   77,
+   96,
+   109,
+   152
+  ],
+  "reproducing": [
+   5,
+   49
+  ],
+  "perceptual": [
+   6,
+   28,
+   121
+  ],
+  "translucency": [
+   7,
+   122
+  ],
+  "in": [
+   8
+  ],
+  "three-dimensional": [
+   9
+  ],
+  "printing.": [
+   10
+  ],
+  "In": [
+   11,
+   79
+  ],
+  "contrast": [
+   12
+  ],
+  "to": [
+   13,
+   35,
+   40,
+   61,
+   86,
+   149
+  ],
+  "most": [
+   14
+  ],
+  "conventional": [
+   15
+  ],
+  "methods,": [
+   16
+  ],
+  "which": [
+   17
+  ],
+  "reproduce": [
+   18,
+   62
+  ],
+  "the": [
+   19,
+   27,
+   53,
+   63,
+   67,
+   75,
+   94,
+   97,
+   110,
+   114,
+   136,
+   142,
+   150,
+   155
+  ],
+  "physical": [
+   20
+  ],
+  "properties": [
+   21
+  ],
+  "translucency,": [
+   23,
+   42
+  ],
+  "we": [
+   24,
+   44,
+   82
+  ],
+  "focus": [
+   25
+  ],
+  "on": [
+   26,
+   37,
+   141
+  ],
+  "aspects": [
+   29
+  ],
+  "translucency.": [
+   31,
+   78
+  ],
+  "Humans": [
+   32
+  ],
+  "are": [
+   33,
+   59
+  ],
+  "known": [
+   34
+  ],
+  "rely": [
+   36
+  ],
+  "simple": [
+   38
+  ],
+  "cues": [
+   39,
+   51
+  ],
+  "perceive": [
+   41
+  ],
+  "and": [
+   43,
+   69
+  ],
+  "develop": [
+   45,
+   87
+  ],
+  "these": [
+   50
+  ],
+  "using": [
+   52,
+   103,
+   117
+  ],
+  "gradation": [
+   54
+  ],
+  "surface": [
+   56,
+   164
+  ],
+  "textures.": [
+   57,
+   165
+  ],
+  "Textures": [
+   58
+  ],
+  "designed": [
+   60
+  ],
+  "intensity": [
+   64
+  ],
+  "distribution": [
+   65
+  ],
+  "shading": [
+   68
+  ],
+  "thus": [
+   70
+  ],
+  "provide": [
+   71
+  ],
+  "cue": [
+   73
+  ],
+  "for": [
+   74,
+   129
+  ],
+  "perception": [
+   76,
+   153
+  ],
+  "creating": [
+   80
+  ],
+  "textures,": [
+   81
+  ],
+  "adopt": [
+   83
+  ],
+  "computer": [
+   84
+  ],
+  "graphics": [
+   85
+  ],
+  "an": [
+   88
+  ],
+  "image-based": [
+   89
+  ],
+  "optimization": [
+   90
+  ],
+  "method.": [
+   91
+  ],
+  "validate": [
+   93
+  ],
+  "effectiveness": [
+   95
+  ],
+  "through": [
+   99
+  ],
+  "subjective": [
+   100
+  ],
+  "evaluation": [
+   101
+  ],
+  "experiments": [
+   102
+  ],
+  "three-dimensionally": [
+   104
+  ],
+  "printed": [
+   105
+  ],
+  "objects.": [
+   106
+  ],
+  "The": [
+   107
+  ],
+  "results": [
+   108
+  ],
+  "validation": [
+   111
+  ],
+  "suggest": [
+   112
+  ],
+  "that": [
+   113,
+   138,
+   154
+  ],
+  "proposed": [
+   115
+  ],
+  "texture": [
+   118
+  ],
+  "may": [
+   119
+  ],
+  "increase": [
+   120
+  ],
+  "under": [
+   123
+  ],
+  "specific": [
+   124
+  ],
+  "conditions.": [
+   125
+  ],
+  "As": [
+   126
+  ],
+  "translucent": [
+   130
+  ],
+  "3D": [
+   131
+  ],
+  "printing,": [
+   132
+  ],
+  "our": [
+   133
+  ],
+  "has": [
+   135
+  ],
+  "limitation": [
+   137
+  ],
+  "it": [
+   139,
+   146
+  ],
+  "depends": [
+   140
+  ],
+  "observation": [
+   143
+  ],
+  "conditions;": [
+   144
+  ],
+  "however,": [
+   145
+  ],
+  "provides": [
+   147
+  ],
+  "knowledge": [
+   148
+  ],
+  "field": [
+   151
+  ],
+  "human": [
+   156
+  ],
+  "visual": [
+   157
+  ],
+  "system": [
+   158
+  ],
+  "can": [
+   159
+  ],
+  "be": [
+   160
+  ],
+  "cheated": [
+   161
+  ],
+  "by": [
+   162
+  ],
+  "only": [
+   163
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2024,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-29T14:09:16.559479",
+ "created_date": "2025-10-10T00:00:00"
+}

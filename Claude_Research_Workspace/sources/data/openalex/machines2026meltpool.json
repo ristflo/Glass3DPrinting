@@ -1,0 +1,1010 @@
+{
+ "id": "https://openalex.org/W7125126941",
+ "doi": "https://doi.org/10.3390/machines14010122",
+ "title": "Melt Pool Dynamics and Quantitative Prediction of Surface Topography in Laser Selective Forming of Optical Glass",
+ "display_name": "Melt Pool Dynamics and Quantitative Prediction of Surface Topography in Laser Selective Forming of Optical Glass",
+ "publication_year": 2026,
+ "publication_date": "2026-01-21",
+ "ids": {
+  "openalex": "https://openalex.org/W7125126941",
+  "doi": "https://doi.org/10.3390/machines14010122"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/machines14010122",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/machines14010122",
+  "pdf_url": "https://www.mdpi.com/2075-1702/14/1/122/pdf",
+  "source": {
+   "id": "https://openalex.org/S4210219839",
+   "display_name": "Machines",
+   "issn_l": "2075-1702",
+   "issn": [
+    "2075-1702"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Machines",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2075-1702/14/1/122/pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5011674397",
+    "display_name": "Lianshuang Ning",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I106645853",
+     "display_name": "Changchun University of Science and Technology",
+     "ror": "https://ror.org/007mntk44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I106645853"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lianshuang Ning",
+   "raw_affiliation_strings": [
+    "School of Mechanical and Electrical Engineering, Changchun University of Science and Technology, Changchun 130022, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Mechanical and Electrical Engineering, Changchun University of Science and Technology, Changchun 130022, China",
+     "institution_ids": [
+      "https://openalex.org/I106645853"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5073774085",
+    "display_name": "Weijie Fu",
+    "orcid": "https://orcid.org/0000-0003-2392-3951",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2392-3951",
+     "https://orcid.org/0009-0008-6056-0268"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I14894300",
+     "display_name": "Foshan University",
+     "ror": "https://ror.org/02xvvvp28",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I14894300"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Weijie Fu",
+   "raw_affiliation_strings": [
+    "School of Mechatronic Engineering and Automation, Foshan University, Foshan 528001, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Mechatronic Engineering and Automation, Foshan University, Foshan 528001, China",
+     "institution_ids": [
+      "https://openalex.org/I14894300"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5123535831",
+    "display_name": "Xinming Zhang",
+    "orcid": "https://orcid.org/0000-0002-6713-1430",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6713-1430"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I106645853",
+     "display_name": "Changchun University of Science and Technology",
+     "ror": "https://ror.org/007mntk44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I106645853"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I14894300",
+     "display_name": "Foshan University",
+     "ror": "https://ror.org/02xvvvp28",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I14894300"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Xinming Zhang",
+   "raw_affiliation_strings": [
+    "School of Mechanical and Electrical Engineering, Changchun University of Science and Technology, Changchun 130022, China",
+    "School of Mechatronic Engineering and Automation, Foshan University, Foshan 528001, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6713-1430",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Mechanical and Electrical Engineering, Changchun University of Science and Technology, Changchun 130022, China",
+     "institution_ids": [
+      "https://openalex.org/I106645853"
+     ]
+    },
+    {
+     "raw_affiliation_string": "School of Mechatronic Engineering and Automation, Foshan University, Foshan 528001, China",
+     "institution_ids": [
+      "https://openalex.org/I14894300"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5123535831"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I106645853",
+  "https://openalex.org/I14894300"
+ ],
+ "apc_list": {
+  "value": 2400,
+  "currency": "CHF",
+  "value_usd": 2896
+ },
+ "apc_paid": {
+  "value": 2400,
+  "currency": "CHF",
+  "value_usd": 2896
+ },
+ "fwci": 0.0,
+ "has_fulltext": true,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": {
+  "value": 0.06718398,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": "14",
+  "issue": "1",
+  "first_page": "122",
+  "last_page": "122"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T13965",
+  "display_name": "Laser and Thermal Forming Techniques",
+  "score": 0.6953999996185303,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2206",
+   "display_name": "Computational Mechanics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T13965",
+   "display_name": "Laser and Thermal Forming Techniques",
+   "score": 0.6953999996185303,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.19509999454021454,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11517",
+   "display_name": "Advanced optical system design",
+   "score": 0.02800000086426735,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.6499999761581421
+  },
+  {
+   "id": "https://openalex.org/keywords/surface-tension",
+   "display_name": "Surface tension",
+   "score": 0.609499990940094
+  },
+  {
+   "id": "https://openalex.org/keywords/surface",
+   "display_name": "Surface (topology)",
+   "score": 0.6001999974250793
+  },
+  {
+   "id": "https://openalex.org/keywords/viscosity",
+   "display_name": "Viscosity",
+   "score": 0.5834000110626221
+  },
+  {
+   "id": "https://openalex.org/keywords/deformation",
+   "display_name": "Deformation (meteorology)",
+   "score": 0.5752999782562256
+  },
+  {
+   "id": "https://openalex.org/keywords/phase",
+   "display_name": "Phase (matter)",
+   "score": 0.48399999737739563
+  },
+  {
+   "id": "https://openalex.org/keywords/flow",
+   "display_name": "Flow (mathematics)",
+   "score": 0.40059998631477356
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-scanning",
+   "display_name": "Laser scanning",
+   "score": 0.375900000333786
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7250999808311462
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.6499999761581421
+  },
+  {
+   "id": "https://openalex.org/C8892853",
+   "wikidata": "https://www.wikidata.org/wiki/Q170749",
+   "display_name": "Surface tension",
+   "level": 2,
+   "score": 0.609499990940094
+  },
+  {
+   "id": "https://openalex.org/C2776799497",
+   "wikidata": "https://www.wikidata.org/wiki/Q484298",
+   "display_name": "Surface (topology)",
+   "level": 2,
+   "score": 0.6001999974250793
+  },
+  {
+   "id": "https://openalex.org/C127172972",
+   "wikidata": "https://www.wikidata.org/wiki/Q128709",
+   "display_name": "Viscosity",
+   "level": 2,
+   "score": 0.5834000110626221
+  },
+  {
+   "id": "https://openalex.org/C204366326",
+   "wikidata": "https://www.wikidata.org/wiki/Q3027650",
+   "display_name": "Deformation (meteorology)",
+   "level": 2,
+   "score": 0.5752999782562256
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.499099999666214
+  },
+  {
+   "id": "https://openalex.org/C44280652",
+   "wikidata": "https://www.wikidata.org/wiki/Q104837",
+   "display_name": "Phase (matter)",
+   "level": 2,
+   "score": 0.48399999737739563
+  },
+  {
+   "id": "https://openalex.org/C38349280",
+   "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+   "display_name": "Flow (mathematics)",
+   "level": 2,
+   "score": 0.40059998631477356
+  },
+  {
+   "id": "https://openalex.org/C57879066",
+   "wikidata": "https://www.wikidata.org/wiki/Q41217",
+   "display_name": "Mechanics",
+   "level": 1,
+   "score": 0.3937000036239624
+  },
+  {
+   "id": "https://openalex.org/C141349535",
+   "wikidata": "https://www.wikidata.org/wiki/Q1361664",
+   "display_name": "Laser scanning",
+   "level": 3,
+   "score": 0.375900000333786
+  },
+  {
+   "id": "https://openalex.org/C145912823",
+   "wikidata": "https://www.wikidata.org/wiki/Q113558",
+   "display_name": "Dynamics (music)",
+   "level": 2,
+   "score": 0.3702999949455261
+  },
+  {
+   "id": "https://openalex.org/C122865956",
+   "wikidata": "https://www.wikidata.org/wiki/Q825643",
+   "display_name": "Glass transition",
+   "level": 3,
+   "score": 0.3188000023365021
+  },
+  {
+   "id": "https://openalex.org/C171889981",
+   "wikidata": "https://www.wikidata.org/wiki/Q1454008",
+   "display_name": "Free surface",
+   "level": 2,
+   "score": 0.3043999969959259
+  },
+  {
+   "id": "https://openalex.org/C148043351",
+   "wikidata": "https://www.wikidata.org/wiki/Q4456944",
+   "display_name": "Current (fluid)",
+   "level": 2,
+   "score": 0.30230000615119934
+  },
+  {
+   "id": "https://openalex.org/C149288129",
+   "wikidata": "https://www.wikidata.org/wiki/Q185357",
+   "display_name": "Phase transition",
+   "level": 2,
+   "score": 0.3012000024318695
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.2879999876022339
+  },
+  {
+   "id": "https://openalex.org/C96170274",
+   "wikidata": "https://www.wikidata.org/wiki/Q1426151",
+   "display_name": "Flat glass",
+   "level": 2,
+   "score": 0.2847000062465668
+  },
+  {
+   "id": "https://openalex.org/C72293138",
+   "wikidata": "https://www.wikidata.org/wiki/Q909741",
+   "display_name": "Temperature measurement",
+   "level": 2,
+   "score": 0.27639999985694885
+  },
+  {
+   "id": "https://openalex.org/C90278072",
+   "wikidata": "https://www.wikidata.org/wiki/Q216320",
+   "display_name": "Fluid dynamics",
+   "level": 2,
+   "score": 0.26739999651908875
+  },
+  {
+   "id": "https://openalex.org/C2775936607",
+   "wikidata": "https://www.wikidata.org/wiki/Q466845",
+   "display_name": "Tracking (education)",
+   "level": 2,
+   "score": 0.2563999891281128
+  },
+  {
+   "id": "https://openalex.org/C186068551",
+   "wikidata": "https://www.wikidata.org/wiki/Q13255585",
+   "display_name": "Tension (geology)",
+   "level": 3,
+   "score": 0.2558000087738037
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.3390/machines14010122",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/machines14010122",
+   "pdf_url": "https://www.mdpi.com/2075-1702/14/1/122/pdf",
+   "source": {
+    "id": "https://openalex.org/S4210219839",
+    "display_name": "Machines",
+    "issn_l": "2075-1702",
+    "issn": [
+     "2075-1702"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Machines",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:c512d662f92b419ca9058bd79032c200",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/c512d662f92b419ca9058bd79032c200",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Machines, Vol 14, Iss 1, p 122 (2026)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/machines14010122",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/machines14010122",
+  "pdf_url": "https://www.mdpi.com/2075-1702/14/1/122/pdf",
+  "source": {
+   "id": "https://openalex.org/S4210219839",
+   "display_name": "Machines",
+   "issn_l": "2075-1702",
+   "issn": [
+    "2075-1702"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Machines",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320327292",
+   "display_name": "Changchun University of Science and Technology",
+   "ror": "https://ror.org/007mntk44"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W7125126941.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W7125126941.grobid-xml"
+ },
+ "referenced_works_count": 20,
+ "referenced_works": [
+  "https://openalex.org/W2007434585",
+  "https://openalex.org/W2030305832",
+  "https://openalex.org/W2743029604",
+  "https://openalex.org/W2965159538",
+  "https://openalex.org/W3110307341",
+  "https://openalex.org/W3161889741",
+  "https://openalex.org/W3175175304",
+  "https://openalex.org/W3207504787",
+  "https://openalex.org/W4205087405",
+  "https://openalex.org/W4320168959",
+  "https://openalex.org/W4320920724",
+  "https://openalex.org/W4367302022",
+  "https://openalex.org/W4382753007",
+  "https://openalex.org/W4387296481",
+  "https://openalex.org/W4400812908",
+  "https://openalex.org/W4401520818",
+  "https://openalex.org/W4402135078",
+  "https://openalex.org/W4403193007",
+  "https://openalex.org/W4405538045",
+  "https://openalex.org/W4408150466"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "Laser": [
+   0
+  ],
+  "local": [
+   1
+  ],
+  "forming": [
+   2
+  ],
+  "is": [
+   3,
+   90
+  ],
+  "an": [
+   4,
+   40
+  ],
+  "effective": [
+   5
+  ],
+  "method": [
+   6
+  ],
+  "for": [
+   7,
+   134
+  ],
+  "reshaping": [
+   8
+  ],
+  "optical": [
+   9
+  ],
+  "glass,": [
+   10
+  ],
+  "yet": [
+   11
+  ],
+  "the": [
+   12,
+   15,
+   18,
+   27,
+   31,
+   37,
+   63,
+   67,
+   77,
+   84,
+   88,
+   116,
+   126,
+   138
+  ],
+  "deformation": [
+   13
+  ],
+  "of": [
+   14,
+   30,
+   103,
+   140
+  ],
+  "material": [
+   16,
+   85
+  ],
+  "during": [
+   17,
+   81
+  ],
+  "cooling": [
+   19,
+   70,
+   96
+  ],
+  "phase": [
+   20
+  ],
+  "remains": [
+   21
+  ],
+  "poorly": [
+   22
+  ],
+  "understood.": [
+   23
+  ],
+  "This": [
+   24
+  ],
+  "study": [
+   25,
+   117
+  ],
+  "investigates": [
+   26
+  ],
+  "dynamic": [
+   28
+  ],
+  "evolution": [
+   29
+  ],
+  "molten": [
+   32
+  ],
+  "pool,": [
+   33
+  ],
+  "specifically": [
+   34
+  ],
+  "focusing": [
+   35
+  ],
+  "on": [
+   36
+  ],
+  "transition": [
+   38
+  ],
+  "from": [
+   39
+  ],
+  "initial": [
+   41
+  ],
+  "convex": [
+   42
+  ],
+  "shape": [
+   43
+  ],
+  "to": [
+   44,
+   61,
+   94,
+   125
+  ],
+  "a": [
+   45,
+   119,
+   131
+  ],
+  "final": [
+   46,
+   127
+  ],
+  "\u201cM-shaped\u201d": [
+   47
+  ],
+  "profile.": [
+   48
+  ],
+  "A": [
+   49
+  ],
+  "combined": [
+   50
+  ],
+  "approach": [
+   51
+  ],
+  "using": [
+   52
+  ],
+  "thermal-fluid": [
+   53
+  ],
+  "simulation": [
+   54
+  ],
+  "and": [
+   55,
+   69,
+   97,
+   105,
+   136
+  ],
+  "high-speed": [
+   56
+  ],
+  "imaging": [
+   57
+  ],
+  "experiments": [
+   58
+  ],
+  "was": [
+   59
+  ],
+  "employed": [
+   60
+  ],
+  "track": [
+   62
+  ],
+  "surface": [
+   64,
+   78,
+   106,
+   128
+  ],
+  "changes": [
+   65
+  ],
+  "throughout": [
+   66
+  ],
+  "heating": [
+   68
+  ],
+  "cycles.": [
+   71
+  ],
+  "The": [
+   72,
+   100
+  ],
+  "results": [
+   73
+  ],
+  "show": [
+   74
+  ],
+  "that": [
+   75
+  ],
+  "while": [
+   76
+  ],
+  "bulges": [
+   79
+  ],
+  "outward": [
+   80
+  ],
+  "laser": [
+   82,
+   89,
+   123
+  ],
+  "irradiation,": [
+   83
+  ],
+  "redistributes": [
+   86
+  ],
+  "after": [
+   87
+  ],
+  "switched": [
+   91
+  ],
+  "off": [
+   92
+  ],
+  "due": [
+   93
+  ],
+  "non-uniform": [
+   95
+  ],
+  "volumetric": [
+   98
+  ],
+  "shrinkage.": [
+   99
+  ],
+  "specific": [
+   101
+  ],
+  "roles": [
+   102
+  ],
+  "viscosity": [
+   104
+  ],
+  "tension": [
+   107
+  ],
+  "in": [
+   108
+  ],
+  "driving": [
+   109
+  ],
+  "this": [
+   110
+  ],
+  "reverse": [
+   111
+  ],
+  "flow": [
+   112
+  ],
+  "were": [
+   113
+  ],
+  "identified.": [
+   114
+  ],
+  "Furthermore,": [
+   115
+  ],
+  "established": [
+   118
+  ],
+  "quantitative": [
+   120
+  ],
+  "model": [
+   121
+  ],
+  "linking": [
+   122
+  ],
+  "parameters": [
+   124
+  ],
+  "dimensions,": [
+   129
+  ],
+  "providing": [
+   130
+  ],
+  "reliable": [
+   132
+  ],
+  "tool": [
+   133
+  ],
+  "predicting": [
+   135
+  ],
+  "controlling": [
+   137
+  ],
+  "precision": [
+   139
+  ],
+  "glass": [
+   141
+  ],
+  "forming.": [
+   142
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2026-01-22T00:00:00"
+}

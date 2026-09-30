@@ -1,0 +1,334 @@
+{
+ "id": "https://openalex.org/W4403030838",
+ "doi": "https://doi.org/10.1016/b978-0-323-85488-7.00010-6",
+ "title": "Digital glass forming using direct heating techniques",
+ "display_name": "Digital glass forming using direct heating techniques",
+ "relevance_score": 493.18555,
+ "publication_year": 2024,
+ "publication_date": "2024-10-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4403030838",
+  "doi": "https://doi.org/10.1016/b978-0-323-85488-7.00010-6"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/b978-0-323-85488-7.00010-6",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/b978-0-323-85488-7.00010-6",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306463230",
+   "display_name": "Elsevier eBooks",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "ebook platform"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Additive Manufacturing of Glass",
+  "raw_type": "book-chapter"
+ },
+ "type": "book-chapter",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5002415526",
+    "display_name": "Edward C. Kinzel",
+    "orcid": "https://orcid.org/0000-0002-4492-8682"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I107639228",
+     "display_name": "University of Notre Dame",
+     "ror": "https://ror.org/00mkhxb43",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "E.C. Kinzel",
+   "raw_affiliation_strings": [
+    "Aerospace and Mechanical Engineering, University of Notre Dame, Notre Dame, IN, United States"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Aerospace and Mechanical Engineering, University of Notre Dame, Notre Dame, IN, United States",
+     "institution_ids": [
+      "https://openalex.org/I107639228"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002415526"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I107639228"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 2.3122,
+ "has_fulltext": false,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": {
+  "value": 0.9175527,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 91,
+  "max": 95
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "15",
+  "last_page": "55"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T13965",
+  "display_name": "Laser and Thermal Forming Techniques",
+  "score": 0.9947999715805054,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2206",
+   "display_name": "Computational Mechanics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T13965",
+   "display_name": "Laser and Thermal Forming Techniques",
+   "score": 0.9947999715805054,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9905999898910522,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9833999872207642,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.6207736134529114
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.348690390586853
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.6207736134529114
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.348690390586853
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/b978-0-323-85488-7.00010-6",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/b978-0-323-85488-7.00010-6",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306463230",
+    "display_name": "Elsevier eBooks",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "ebook platform"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Additive Manufacturing of Glass",
+   "raw_type": "book-chapter"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.7699999809265137
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 35,
+ "referenced_works": [
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2076669525",
+  "https://openalex.org/W2079089178",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2511681193",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2735176209",
+  "https://openalex.org/W2765743879",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2883339251",
+  "https://openalex.org/W2892630033",
+  "https://openalex.org/W2906426973",
+  "https://openalex.org/W2921179414",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2993507898",
+  "https://openalex.org/W3014573520",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3117636712",
+  "https://openalex.org/W3143196192",
+  "https://openalex.org/W3150793675",
+  "https://openalex.org/W3195076897",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W3208888355",
+  "https://openalex.org/W3209114884",
+  "https://openalex.org/W4205797673",
+  "https://openalex.org/W4214744287",
+  "https://openalex.org/W4214828589",
+  "https://openalex.org/W4293221272",
+  "https://openalex.org/W4307027212",
+  "https://openalex.org/W4308592103",
+  "https://openalex.org/W4385244497",
+  "https://openalex.org/W6771575178",
+  "https://openalex.org/W6802864300",
+  "https://openalex.org/W6944880958"
+ ],
+ "related_works": [
+  "https://openalex.org/W4391375266",
+  "https://openalex.org/W2748952813",
+  "https://openalex.org/W4402299999",
+  "https://openalex.org/W4246450666",
+  "https://openalex.org/W4388998267",
+  "https://openalex.org/W2898370298",
+  "https://openalex.org/W2137437058",
+  "https://openalex.org/W2884249467",
+  "https://openalex.org/W4390401159",
+  "https://openalex.org/W2744391499"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-06-15T08:34:33.830935",
+ "created_date": "2025-10-10T00:00:00"
+}

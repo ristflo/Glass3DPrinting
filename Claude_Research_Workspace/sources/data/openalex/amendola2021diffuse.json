@@ -1,0 +1,1626 @@
+{
+ "id": "https://openalex.org/W3166115091",
+ "doi": "https://doi.org/10.1371/journal.pone.0253181",
+ "title": "Optical characterization of 3D printed PLA and ABS filaments for diffuse optics applications",
+ "display_name": "Optical characterization of 3D printed PLA and ABS filaments for diffuse optics applications",
+ "publication_year": 2021,
+ "publication_date": "2021-06-16",
+ "ids": {
+  "openalex": "https://openalex.org/W3166115091",
+  "doi": "https://doi.org/10.1371/journal.pone.0253181",
+  "mag": "3166115091",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/34133454"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1371/journal.pone.0253181",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1371/journal.pone.0253181",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S202381698",
+   "display_name": "PLoS ONE",
+   "issn_l": "1932-6203",
+   "issn": [
+    "1932-6203"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "doyens",
+    "erih-plus",
+    "jufo-1",
+    "ki-jl-1",
+    "medline",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310315706",
+   "host_organization_name": "Public Library of Science",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315706"
+   ],
+   "host_organization_lineage_names": [
+    "Public Library of Science"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "PLOS ONE",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.1371/journal.pone.0253181",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5004942935",
+    "display_name": "Caterina Amendola",
+    "orcid": "https://orcid.org/0000-0002-6738-9589",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6738-9589"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Caterina Amendola",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6738-9589",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5056328307",
+    "display_name": "Michele Lacerenza",
+    "orcid": "https://orcid.org/0000-0002-8214-9882",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8214-9882"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Michele Lacerenza",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5022910841",
+    "display_name": "Ileana Pirovano",
+    "orcid": "https://orcid.org/0000-0003-4905-3990",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4905-3990"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ileana Pirovano",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5060063553",
+    "display_name": "Davide Contini",
+    "orcid": "https://orcid.org/0000-0003-1209-9397",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1209-9397"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Davide Contini",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5072560189",
+    "display_name": "Lorenzo Spinelli",
+    "orcid": "https://orcid.org/0000-0002-4414-4351",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4414-4351"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210134310",
+     "display_name": "Istituto di Fotonica e Nanotecnologie",
+     "ror": "https://ror.org/049ebw417",
+     "country_code": "IT",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210155236",
+     "display_name": "National Research Council",
+     "ror": "https://ror.org/04zaypm56",
+     "country_code": "IT",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210155236"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lorenzo Spinelli",
+   "raw_affiliation_strings": [
+    "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5021994126",
+    "display_name": "Rinaldo Cubeddu",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210134310",
+     "display_name": "Istituto di Fotonica e Nanotecnologie",
+     "ror": "https://ror.org/049ebw417",
+     "country_code": "IT",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210155236",
+     "display_name": "National Research Council",
+     "ror": "https://ror.org/04zaypm56",
+     "country_code": "IT",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Rinaldo Cubeddu",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+    "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5004522727",
+    "display_name": "Alessandro M. Torricelli",
+    "orcid": "https://orcid.org/0000-0002-6878-8936",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6878-8936"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210134310",
+     "display_name": "Istituto di Fotonica e Nanotecnologie",
+     "ror": "https://ror.org/049ebw417",
+     "country_code": "IT",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210155236",
+     "display_name": "National Research Council",
+     "ror": "https://ror.org/04zaypm56",
+     "country_code": "IT",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Alessandro Torricelli",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+    "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5003101702",
+    "display_name": "Rebecca Re",
+    "orcid": "https://orcid.org/0000-0002-9521-8066",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9521-8066"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210134310",
+     "display_name": "Istituto di Fotonica e Nanotecnologie",
+     "ror": "https://ror.org/049ebw417",
+     "country_code": "IT",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210155236",
+     "display_name": "National Research Council",
+     "ror": "https://ror.org/04zaypm56",
+     "country_code": "IT",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210155236"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I93860229",
+     "display_name": "Politecnico di Milano",
+     "ror": "https://ror.org/01nffqt88",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I93860229"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Rebecca Re",
+   "raw_affiliation_strings": [
+    "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+    "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9521-8066",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Dipartimento di Fisica, Politecnico di Milano, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I93860229"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Istituto di Fotonica e Nanotecnologie (IFN), Consiglio Nazionale delle Ricerche, Milan, Italy",
+     "institution_ids": [
+      "https://openalex.org/I4210134310",
+      "https://openalex.org/I4210155236"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5004942935"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I93860229"
+ ],
+ "apc_list": {
+  "value": 1749,
+  "currency": "USD",
+  "value_usd": 1749
+ },
+ "apc_paid": {
+  "value": 1749,
+  "currency": "USD",
+  "value_usd": 1749
+ },
+ "fwci": 1.9799,
+ "has_fulltext": true,
+ "cited_by_count": 40,
+ "citation_normalized_percentile": {
+  "value": 0.85267507,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "16",
+  "issue": "6",
+  "first_page": "e0253181",
+  "last_page": "e0253181"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9987999796867371,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9987999796867371,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10977",
+   "display_name": "Optical Imaging and Spectroscopy Techniques",
+   "score": 0.9775999784469604,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2741",
+    "display_name": "Radiology, Nuclear Medicine and Imaging"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/27",
+    "display_name": "Medicine"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11190",
+   "display_name": "3D Printing in Biomedical Research",
+   "score": 0.9108999967575073,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/polylactic-acid",
+   "display_name": "Polylactic acid",
+   "score": 0.7839491963386536
+  },
+  {
+   "id": "https://openalex.org/keywords/acrylonitrile-butadiene-styrene",
+   "display_name": "Acrylonitrile butadiene styrene",
+   "score": 0.6963425874710083
+  },
+  {
+   "id": "https://openalex.org/keywords/spectroscopy",
+   "display_name": "Spectroscopy",
+   "score": 0.6370667219161987
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.6259250044822693
+  },
+  {
+   "id": "https://openalex.org/keywords/characterization",
+   "display_name": "Characterization (materials science)",
+   "score": 0.5771542191505432
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.5560156106948853
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.5161598920822144
+  },
+  {
+   "id": "https://openalex.org/keywords/near-infrared-spectroscopy",
+   "display_name": "Near-infrared spectroscopy",
+   "score": 0.4120490550994873
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.22580868005752563
+  },
+  {
+   "id": "https://openalex.org/keywords/polymer",
+   "display_name": "Polymer",
+   "score": 0.21970871090888977
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.19022420048713684
+  },
+  {
+   "id": "https://openalex.org/keywords/biomedical-engineering",
+   "display_name": "Biomedical engineering",
+   "score": 0.18027427792549133
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.10797816514968872
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.06197050213813782
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2781162966",
+   "wikidata": "https://www.wikidata.org/wiki/Q413769",
+   "display_name": "Polylactic acid",
+   "level": 3,
+   "score": 0.7839491963386536
+  },
+  {
+   "id": "https://openalex.org/C2781431410",
+   "wikidata": "https://www.wikidata.org/wiki/Q143496",
+   "display_name": "Acrylonitrile butadiene styrene",
+   "level": 2,
+   "score": 0.6963425874710083
+  },
+  {
+   "id": "https://openalex.org/C32891209",
+   "wikidata": "https://www.wikidata.org/wiki/Q483666",
+   "display_name": "Spectroscopy",
+   "level": 2,
+   "score": 0.6370667219161987
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.6259250044822693
+  },
+  {
+   "id": "https://openalex.org/C2780841128",
+   "wikidata": "https://www.wikidata.org/wiki/Q5073781",
+   "display_name": "Characterization (materials science)",
+   "level": 2,
+   "score": 0.5771542191505432
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.5560156106948853
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.5161598920822144
+  },
+  {
+   "id": "https://openalex.org/C43571822",
+   "wikidata": "https://www.wikidata.org/wiki/Q599037",
+   "display_name": "Near-infrared spectroscopy",
+   "level": 2,
+   "score": 0.4120490550994873
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.22580868005752563
+  },
+  {
+   "id": "https://openalex.org/C521977710",
+   "wikidata": "https://www.wikidata.org/wiki/Q81163",
+   "display_name": "Polymer",
+   "level": 2,
+   "score": 0.21970871090888977
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.19022420048713684
+  },
+  {
+   "id": "https://openalex.org/C136229726",
+   "wikidata": "https://www.wikidata.org/wiki/Q327092",
+   "display_name": "Biomedical engineering",
+   "level": 1,
+   "score": 0.18027427792549133
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.10797816514968872
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.06197050213813782
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [
+  {
+   "descriptor_ui": "D000181",
+   "descriptor_name": "Acrylonitrile",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D000181",
+   "descriptor_name": "Acrylonitrile",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D000181",
+   "descriptor_name": "Acrylonitrile",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D002070",
+   "descriptor_name": "Butadienes",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D002070",
+   "descriptor_name": "Butadienes",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D002070",
+   "descriptor_name": "Butadienes",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D007259",
+   "descriptor_name": "Infrared Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D007259",
+   "descriptor_name": "Infrared Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D007259",
+   "descriptor_name": "Infrared Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D011091",
+   "descriptor_name": "Polyesters",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D011091",
+   "descriptor_name": "Polyesters",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D011091",
+   "descriptor_name": "Polyesters",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D013343",
+   "descriptor_name": "Styrenes",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D013343",
+   "descriptor_name": "Styrenes",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D013343",
+   "descriptor_name": "Styrenes",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D014466",
+   "descriptor_name": "Ultraviolet Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D014466",
+   "descriptor_name": "Ultraviolet Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D014466",
+   "descriptor_name": "Ultraviolet Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D019265",
+   "descriptor_name": "Spectroscopy, Near-Infrared",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D019265",
+   "descriptor_name": "Spectroscopy, Near-Infrared",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D019265",
+   "descriptor_name": "Spectroscopy, Near-Infrared",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D020724",
+   "descriptor_name": "Elastomers",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D020724",
+   "descriptor_name": "Elastomers",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D020724",
+   "descriptor_name": "Elastomers",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D055620",
+   "descriptor_name": "Optical Phenomena",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D055620",
+   "descriptor_name": "Optical Phenomena",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D055620",
+   "descriptor_name": "Optical Phenomena",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D066330",
+   "descriptor_name": "Printing, Three-Dimensional",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D066330",
+   "descriptor_name": "Printing, Three-Dimensional",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D066330",
+   "descriptor_name": "Printing, Three-Dimensional",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  }
+ ],
+ "locations_count": 6,
+ "locations": [
+  {
+   "id": "doi:10.1371/journal.pone.0253181",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1371/journal.pone.0253181",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S202381698",
+    "display_name": "PLoS ONE",
+    "issn_l": "1932-6203",
+    "issn": [
+     "1932-6203"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "doyens",
+     "erih-plus",
+     "jufo-1",
+     "ki-jl-1",
+     "medline",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310315706",
+    "host_organization_name": "Public Library of Science",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315706"
+    ],
+    "host_organization_lineage_names": [
+     "Public Library of Science"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "PLOS ONE",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:34133454",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34133454",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "PloS one",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:8208549",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8208549",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "PLoS One",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:RePEc:plo:pone00:0253181",
+   "is_oa": false,
+   "landing_page_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253181",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:9ce893ab60ec452eb2da71522e57d8b5",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/9ce893ab60ec452eb2da71522e57d8b5",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "PLoS ONE, Vol 16, Iss 6, p e0253181 (2021)",
+   "raw_type": "article"
+  },
+  {
+   "id": "pmh:oai:re.public.polimi.it:11311/1195099",
+   "is_oa": true,
+   "landing_page_url": "http://hdl.handle.net/11311/1195099",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400312",
+    "display_name": "Virtual Community of Pathological Anatomy (University of Castilla La Mancha)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I79189158",
+    "host_organization_name": "University of Castilla-La Mancha",
+    "host_organization_lineage": [
+     "https://openalex.org/I79189158"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "other-oa",
+   "license_id": "https://openalex.org/licenses/other-oa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1371/journal.pone.0253181",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1371/journal.pone.0253181",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S202381698",
+   "display_name": "PLoS ONE",
+   "issn_l": "1932-6203",
+   "issn": [
+    "1932-6203"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "doyens",
+    "erih-plus",
+    "jufo-1",
+    "ki-jl-1",
+    "medline",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310315706",
+   "host_organization_name": "Public Library of Science",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315706"
+   ],
+   "host_organization_lineage_names": [
+    "Public Library of Science"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "PLOS ONE",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "score": 0.5,
+   "display_name": "Decent work and economic growth",
+   "id": "https://metadata.un.org/sdg/8"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G1027256758",
+   "display_name": null,
+   "funder_award_id": "101016087",
+   "funder_id": "https://openalex.org/F4320335254",
+   "funder_display_name": "Horizon 2020"
+  },
+  {
+   "id": "https://openalex.org/G434337789",
+   "display_name": null,
+   "funder_award_id": "HORIZON2020",
+   "funder_id": "https://openalex.org/F4320320300",
+   "funder_display_name": "European Commission"
+  },
+  {
+   "id": "https://openalex.org/G6127449868",
+   "display_name": "PORTABLE PLATFORM FOR THE ASSESSMENT OF MICROVASCULAR HEALTH IN COVID-19 PATIENTS AT THE INTENSIVE CARE",
+   "funder_award_id": "101016087",
+   "funder_id": "https://openalex.org/F4320320300",
+   "funder_display_name": "European Commission"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320320300",
+   "display_name": "European Commission",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320335254",
+   "display_name": "Horizon 2020",
+   "ror": null
+  }
+ ],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 26,
+ "referenced_works": [
+  "https://openalex.org/W582153733",
+  "https://openalex.org/W1837197540",
+  "https://openalex.org/W2001262493",
+  "https://openalex.org/W2003972237",
+  "https://openalex.org/W2050035166",
+  "https://openalex.org/W2059383011",
+  "https://openalex.org/W2061135416",
+  "https://openalex.org/W2081242417",
+  "https://openalex.org/W2092655682",
+  "https://openalex.org/W2095907705",
+  "https://openalex.org/W2133404950",
+  "https://openalex.org/W2137523819",
+  "https://openalex.org/W2528713775",
+  "https://openalex.org/W2529635858",
+  "https://openalex.org/W2595013640",
+  "https://openalex.org/W2774061382",
+  "https://openalex.org/W2788345606",
+  "https://openalex.org/W2791283858",
+  "https://openalex.org/W2901162426",
+  "https://openalex.org/W2958055877",
+  "https://openalex.org/W2972986887",
+  "https://openalex.org/W3005252857",
+  "https://openalex.org/W3015300309",
+  "https://openalex.org/W3034347380",
+  "https://openalex.org/W3086453399",
+  "https://openalex.org/W6779262335"
+ ],
+ "related_works": [
+  "https://openalex.org/W4313456392",
+  "https://openalex.org/W4400870174",
+  "https://openalex.org/W4226049342",
+  "https://openalex.org/W2953290598",
+  "https://openalex.org/W4293280826",
+  "https://openalex.org/W4389475951",
+  "https://openalex.org/W4405186702",
+  "https://openalex.org/W2769063324",
+  "https://openalex.org/W2057696611",
+  "https://openalex.org/W3006174710"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   17,
+   94
+  ],
+  "interest": [
+   1
+  ],
+  "for": [
+   2,
+   73,
+   102
+  ],
+  "Fused": [
+   3
+  ],
+  "Deposition": [
+   4
+  ],
+  "Modelling": [
+   5
+  ],
+  "(FDM)": [
+   6
+  ],
+  "in": [
+   7,
+   41,
+   55,
+   66,
+   76
+  ],
+  "the": [
+   8,
+   56,
+   59,
+   63,
+   99,
+   108
+  ],
+  "field": [
+   9
+  ],
+  "of": [
+   10,
+   47,
+   110
+  ],
+  "Diffuse": [
+   11,
+   88
+  ],
+  "Optics": [
+   12
+  ],
+  "(DO)": [
+   13
+  ],
+  "is": [
+   14,
+   39
+  ],
+  "rapidly": [
+   15
+  ],
+  "increasing.": [
+   16
+  ],
+  "most": [
+   18
+  ],
+  "widespread": [
+   19
+  ],
+  "FDM": [
+   20
+  ],
+  "materials": [
+   21,
+   51
+  ],
+  "are": [
+   22
+  ],
+  "polylactic": [
+   23
+  ],
+  "acid": [
+   24
+  ],
+  "(PLA)": [
+   25
+  ],
+  "and": [
+   26,
+   36,
+   49,
+   87
+  ],
+  "acrylonitrile": [
+   27
+  ],
+  "butadiene": [
+   28
+  ],
+  "styrene": [
+   29
+  ],
+  "(ABS),": [
+   30
+  ],
+  "thanks": [
+   31
+  ],
+  "to": [
+   32,
+   62,
+   68
+  ],
+  "their": [
+   33,
+   70
+  ],
+  "low": [
+   34
+  ],
+  "cost": [
+   35
+  ],
+  "easiness-to-print.": [
+   37
+  ],
+  "This": [
+   38
+  ],
+  "why,": [
+   40
+  ],
+  "this": [
+   42,
+   80
+  ],
+  "study,": [
+   43
+  ],
+  "3D": [
+   44
+  ],
+  "printed": [
+   45
+  ],
+  "samples": [
+   46
+  ],
+  "PLA": [
+   48
+  ],
+  "ABS": [
+   50
+  ],
+  "were": [
+   52,
+   92
+  ],
+  "optically": [
+   53
+  ],
+  "characterized": [
+   54
+  ],
+  "range": [
+   57
+  ],
+  "from": [
+   58
+  ],
+  "UV": [
+   60
+  ],
+  "up": [
+   61
+  ],
+  "IR": [
+   64
+  ],
+  "wavelengths,": [
+   65
+  ],
+  "order": [
+   67
+  ],
+  "test": [
+   69
+  ],
+  "possible": [
+   71
+  ],
+  "employment": [
+   72
+  ],
+  "probe": [
+   74,
+   103
+  ],
+  "construction": [
+   75,
+   104
+  ],
+  "DO": [
+   77,
+   111
+  ],
+  "applications.": [
+   78
+  ],
+  "To": [
+   79
+  ],
+  "purpose,": [
+   81
+  ],
+  "measurements": [
+   82
+  ],
+  "with": [
+   83
+  ],
+  "Near": [
+   84
+  ],
+  "Infrared": [
+   85
+  ],
+  "Spectroscopy": [
+   86,
+   90
+  ],
+  "Correlation": [
+   89
+  ],
+  "techniques": [
+   91
+  ],
+  "considered.": [
+   93
+  ],
+  "results": [
+   95
+  ],
+  "obtained": [
+   96
+  ],
+  "show": [
+   97
+  ],
+  "how": [
+   98
+  ],
+  "material": [
+   100
+  ],
+  "employed": [
+   101
+  ],
+  "can": [
+   105
+  ],
+  "negatively": [
+   106
+  ],
+  "affect": [
+   107
+  ],
+  "quality": [
+   109
+  ],
+  "measurements.": [
+   112
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 15
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

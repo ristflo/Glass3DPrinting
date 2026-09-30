@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setsansfont{texgyreheros}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\usepackage{amsmath,amssymb,booktabs,graphicx,microtype,siunitx,tabularx,longtable,array,subcaption}
+\usepackage{ragged2e}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xcolor}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+\hypersetup{colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black,pdftitle={Additive Manufacturing of Molten Glass: Evidence, Physics and Engineering Roadmap}}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.18}
+\newcommand{\NR}{\textit{NR}}
+\title{Additive Manufacturing of Molten Glass\\\large Evidence, Process Physics, Hardware, and an Engineering Roadmap}
+\author{Glass 3D Printing Research Project\\\small Technical evidence review and reproducible analysis}
+\date{30 September 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Molten-glass additive manufacturing connects glass chemistry, viscous flow, thermal history, motion planning, and defect-sensitive qualification. This review distinguishes reservoir extrusion and laser filament deposition from powder-bed processing and indirect composite routes. It synthesizes primary apparatus studies, manufacturer reference data, patent disclosures, and commercial evidence while making gaps in measurement explicit. Reproducible viscosity fits and flow/thermal scaling calculations explain process tradeoffs without presenting model scenarios as machine performance. A practical roadmap prioritizes feedstock identity, interlayer contact, temperature measurement, dimensional control, and end-use qualification. The accompanying archive includes source records, downloaded literature, figures, scripts, and the modular LaTeX project.
+\end{abstract}
+\textbf{Evidence status.} Initial sourcing occurred on 26 September 2026; targeted source verification continued on 29 September, with final editorial review on 30 September. This is a scoped technical review, not a certified exhaustive systematic review or a design certification. Missing specifications are reported as unknown. Calculated scenarios are identified separately from experimental findings.
+\tableofcontents
+\clearpage
+\input{sections/01_introduction_taxonomy}
+\input{sections/02_rheology_thermal_materials_physics}
+\input{sections/03_nozzle_mechanics_hardware_kinematics}
+\input{sections/04_in_situ_thermal_management_annealing}
+\input{sections/05_defect_mechanisms_optical_quality}
+\input{sections/06_academic_landscape_directory}
+\input{sections/07_commercial_systems_market_economics}
+\input{sections/08_open_frontiers_research_roadmap}
+\clearpage
+\begingroup
+\RaggedRight
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

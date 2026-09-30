@@ -1,0 +1,1252 @@
+{
+ "id": "https://openalex.org/W2003526930",
+ "doi": "https://doi.org/10.1145/2461912.2461974",
+ "title": "Fabricating translucent materials using continuous pigment mixtures",
+ "display_name": "Fabricating translucent materials using continuous pigment mixtures",
+ "publication_year": 2013,
+ "publication_date": "2013-07-16",
+ "ids": {
+  "openalex": "https://openalex.org/W2003526930",
+  "doi": "https://doi.org/10.1145/2461912.2461974",
+  "mag": "2003526930"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/2461912.2461974",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/2461912.2461974",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S185367456",
+   "display_name": "ACM Transactions on Graphics",
+   "issn_l": "0730-0301",
+   "issn": [
+    "0730-0301",
+    "1557-7368"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319798",
+   "host_organization_name": "Association for Computing Machinery",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319798"
+   ],
+   "host_organization_lineage_names": [
+    "Association for Computing Machinery"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "ACM Transactions on Graphics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5027754969",
+    "display_name": "Marios Papas",
+    "orcid": "https://orcid.org/0000-0001-7084-1831",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7084-1831"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I35440088",
+     "display_name": "ETH Zurich",
+     "ror": "https://ror.org/05a28rw58",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I35440088"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Marios Papas",
+   "raw_affiliation_strings": [
+    "Disney Research Z\u00fcrich and ETH Z\u00fcrich",
+    "Disney Research Zurich, and ETH Zurich"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Z\u00fcrich and ETH Z\u00fcrich",
+     "institution_ids": [
+      "https://openalex.org/I35440088"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Zurich, and ETH Zurich",
+     "institution_ids": [
+      "https://openalex.org/I35440088"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5078029514",
+    "display_name": "Christian Regg",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I35440088",
+     "display_name": "ETH Zurich",
+     "ror": "https://ror.org/05a28rw58",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I35440088"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Christian Regg",
+   "raw_affiliation_strings": [
+    "Disney Research Z\u00fcrich and ETH Z\u00fcrich",
+    "Disney Research Zurich, and ETH Zurich"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Z\u00fcrich and ETH Z\u00fcrich",
+     "institution_ids": [
+      "https://openalex.org/I35440088"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Zurich, and ETH Zurich",
+     "institution_ids": [
+      "https://openalex.org/I35440088"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5009820805",
+    "display_name": "Wojciech Jarosz",
+    "orcid": "https://orcid.org/0000-0002-1652-0954",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1652-0954"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210137357",
+     "display_name": "Walt Disney (Switzerland)",
+     "ror": "https://ror.org/04h1x1p54",
+     "country_code": "CH",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210137357",
+      "https://openalex.org/I4210142140"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210142140",
+     "display_name": "Walt Disney (United States)",
+     "ror": "https://ror.org/04eg47h42",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ],
+   "countries": [
+    "CH",
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Wojciech Jarosz",
+   "raw_affiliation_strings": [
+    "Disney Research Z\u00fcrich"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Z\u00fcrich",
+     "institution_ids": [
+      "https://openalex.org/I4210137357",
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5000482372",
+    "display_name": "Bernd Bickel",
+    "orcid": "https://orcid.org/0000-0001-6511-9385",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6511-9385"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210137357",
+     "display_name": "Walt Disney (Switzerland)",
+     "ror": "https://ror.org/04h1x1p54",
+     "country_code": "CH",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210137357",
+      "https://openalex.org/I4210142140"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210142140",
+     "display_name": "Walt Disney (United States)",
+     "ror": "https://ror.org/04eg47h42",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ],
+   "countries": [
+    "CH",
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Bernd Bickel",
+   "raw_affiliation_strings": [
+    "Disney Research Z\u00fcrich"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Z\u00fcrich",
+     "institution_ids": [
+      "https://openalex.org/I4210137357",
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Philip Jackson",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210142140",
+     "display_name": "Walt Disney (United States)",
+     "ror": "https://ror.org/04eg47h42",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Philip Jackson",
+   "raw_affiliation_strings": [
+    "Walt Disney Imagineering"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Walt Disney Imagineering",
+     "institution_ids": [
+      "https://openalex.org/I4210142140"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5018010391",
+    "display_name": "Wojciech Matusik",
+    "orcid": "https://orcid.org/0000-0003-0212-5643",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0212-5643"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4405258931",
+     "display_name": "MIT Computer Science and Artificial Intelligence Laboratory",
+     "ror": "https://ror.org/01e85r662",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4405258931",
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Wojciech Matusik",
+   "raw_affiliation_strings": [
+    "Disney Research Z\u00fcrich and MIT CSAIL",
+    "Disney Research Zurich, and MIT CSAIL#TAB#"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Z\u00fcrich and MIT CSAIL",
+     "institution_ids": [
+      "https://openalex.org/I4405258931"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Zurich, and MIT CSAIL#TAB#",
+     "institution_ids": [
+      "https://openalex.org/I4405258931"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5031672248",
+    "display_name": "Steve Marschner",
+    "orcid": "https://orcid.org/0000-0001-9810-0306",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9810-0306"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I205783295",
+     "display_name": "Cornell University",
+     "ror": "https://ror.org/05bnh6r87",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I205783295"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Steve Marschner",
+   "raw_affiliation_strings": [
+    "Cornell University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Cornell University",
+     "institution_ids": [
+      "https://openalex.org/I205783295"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5033076979",
+    "display_name": "Markus H. Gro\u00df",
+    "orcid": "https://orcid.org/0009-0003-9324-779X",
+    "observed_orcids": [
+     "https://orcid.org/0009-0003-9324-779X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I35440088",
+     "display_name": "ETH Zurich",
+     "ror": "https://ror.org/05a28rw58",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I35440088"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Markus Gross",
+   "raw_affiliation_strings": [
+    "Disney Research Z\u00fcrich and ETH Z\u00fcrich",
+    "Disney Research Zurich, and ETH Zurich"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Disney Research Z\u00fcrich and ETH Z\u00fcrich",
+     "institution_ids": [
+      "https://openalex.org/I35440088"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Disney Research Zurich, and ETH Zurich",
+     "institution_ids": [
+      "https://openalex.org/I35440088"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 5,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 7.1872,
+ "has_fulltext": false,
+ "cited_by_count": 52,
+ "citation_normalized_percentile": {
+  "value": 0.95887779,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "32",
+  "issue": "4",
+  "first_page": "1",
+  "last_page": "12"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10481",
+  "display_name": "Computer Graphics and Visualization Techniques",
+  "score": 0.9976000189781189,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1704",
+   "display_name": "Computer Graphics and Computer-Aided Design"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.9976000189781189,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12923",
+   "display_name": "Digital Image Processing Techniques",
+   "score": 0.9890000224113464,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9646000266075134,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/pigment",
+   "display_name": "Pigment",
+   "score": 0.6323916912078857
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.6038150191307068
+  },
+  {
+   "id": "https://openalex.org/keywords/homogeneous",
+   "display_name": "Homogeneous",
+   "score": 0.5928095579147339
+  },
+  {
+   "id": "https://openalex.org/keywords/reflectivity",
+   "display_name": "Reflectivity",
+   "score": 0.5740170478820801
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.5669873952865601
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.48245126008987427
+  },
+  {
+   "id": "https://openalex.org/keywords/scattering",
+   "display_name": "Scattering",
+   "score": 0.4110028147697449
+  },
+  {
+   "id": "https://openalex.org/keywords/biological-system",
+   "display_name": "Biological system",
+   "score": 0.40862125158309937
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.3349698483943939
+  },
+  {
+   "id": "https://openalex.org/keywords/chemistry",
+   "display_name": "Chemistry",
+   "score": 0.16489458084106445
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.12862259149551392
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.09872335195541382
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C64584667",
+   "wikidata": "https://www.wikidata.org/wiki/Q161179",
+   "display_name": "Pigment",
+   "level": 2,
+   "score": 0.6323916912078857
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.6038150191307068
+  },
+  {
+   "id": "https://openalex.org/C66882249",
+   "wikidata": "https://www.wikidata.org/wiki/Q169336",
+   "display_name": "Homogeneous",
+   "level": 2,
+   "score": 0.5928095579147339
+  },
+  {
+   "id": "https://openalex.org/C108597893",
+   "wikidata": "https://www.wikidata.org/wiki/Q663650",
+   "display_name": "Reflectivity",
+   "level": 2,
+   "score": 0.5740170478820801
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.5669873952865601
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.48245126008987427
+  },
+  {
+   "id": "https://openalex.org/C191486275",
+   "wikidata": "https://www.wikidata.org/wiki/Q210028",
+   "display_name": "Scattering",
+   "level": 2,
+   "score": 0.4110028147697449
+  },
+  {
+   "id": "https://openalex.org/C186060115",
+   "wikidata": "https://www.wikidata.org/wiki/Q30336093",
+   "display_name": "Biological system",
+   "level": 1,
+   "score": 0.40862125158309937
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.3349698483943939
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.16489458084106445
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.12862259149551392
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.09872335195541382
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C114614502",
+   "wikidata": "https://www.wikidata.org/wiki/Q76592",
+   "display_name": "Combinatorics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C178790620",
+   "wikidata": "https://www.wikidata.org/wiki/Q11351",
+   "display_name": "Organic chemistry",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1145/2461912.2461974",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/2461912.2461974",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S185367456",
+    "display_name": "ACM Transactions on Graphics",
+    "issn_l": "0730-0301",
+    "issn": [
+     "0730-0301",
+     "1557-7368"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Graphics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:CiteSeerX.psu:10.1.1.675.6426",
+   "is_oa": false,
+   "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.675.6426",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://www.disneyresearch.com/wp-content/uploads/Fabricating-Translucent-Materials-Using-Continuous-Pigment-Mixtures-Paper.pdf",
+   "raw_type": "text"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 26,
+ "referenced_works": [
+  "https://openalex.org/W1543394532",
+  "https://openalex.org/W1878898662",
+  "https://openalex.org/W1968660742",
+  "https://openalex.org/W1984786105",
+  "https://openalex.org/W1998072801",
+  "https://openalex.org/W2005524596",
+  "https://openalex.org/W2013492930",
+  "https://openalex.org/W2026976750",
+  "https://openalex.org/W2027480687",
+  "https://openalex.org/W2037747943",
+  "https://openalex.org/W2088255295",
+  "https://openalex.org/W2101094702",
+  "https://openalex.org/W2106726792",
+  "https://openalex.org/W2109406977",
+  "https://openalex.org/W2112066751",
+  "https://openalex.org/W2112340554",
+  "https://openalex.org/W2120448006",
+  "https://openalex.org/W2126733192",
+  "https://openalex.org/W2130700878",
+  "https://openalex.org/W2132713314",
+  "https://openalex.org/W2150266006",
+  "https://openalex.org/W2151045871",
+  "https://openalex.org/W2163753106",
+  "https://openalex.org/W3138161122",
+  "https://openalex.org/W4251841376",
+  "https://openalex.org/W4301045096"
+ ],
+ "related_works": [
+  "https://openalex.org/W2384928466",
+  "https://openalex.org/W2363884240",
+  "https://openalex.org/W1996744175",
+  "https://openalex.org/W2056749715",
+  "https://openalex.org/W2356830845",
+  "https://openalex.org/W2391452440",
+  "https://openalex.org/W2375178935",
+  "https://openalex.org/W2041485442",
+  "https://openalex.org/W2408708265",
+  "https://openalex.org/W2385073622"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   80,
+   91,
+   135,
+   150
+  ],
+  "present": [
+   1,
+   152
+  ],
+  "a": [
+   2,
+   20,
+   30,
+   50,
+   63,
+   87,
+   102,
+   144,
+   153,
+   167
+  ],
+  "method": [
+   3,
+   141
+  ],
+  "for": [
+   4,
+   166
+  ],
+  "practical": [
+   5
+  ],
+  "physical": [
+   6
+  ],
+  "reproduction": [
+   7
+  ],
+  "and": [
+   8,
+   46
+  ],
+  "design": [
+   9
+  ],
+  "of": [
+   10,
+   22,
+   49,
+   65,
+   69,
+   72,
+   101,
+   109,
+   126,
+   139,
+   146,
+   163,
+   170
+  ],
+  "homogeneous": [
+   11
+  ],
+  "materials": [
+   12
+  ],
+  "with": [
+   13,
+   76
+  ],
+  "desired": [
+   14
+  ],
+  "subsurface": [
+   15,
+   47
+  ],
+  "scattering.": [
+   16
+  ],
+  "Our": [
+   17,
+   34
+  ],
+  "process": [
+   18,
+   121
+  ],
+  "uses": [
+   19
+  ],
+  "collection": [
+   21,
+   64
+  ],
+  "different": [
+   23,
+   147
+  ],
+  "pigments": [
+   24,
+   75,
+   127
+  ],
+  "that": [
+   25,
+   41,
+   155
+  ],
+  "can": [
+   26
+  ],
+  "be": [
+   27
+  ],
+  "suspended": [
+   28
+  ],
+  "in": [
+   29
+  ],
+  "clear": [
+   31
+  ],
+  "base": [
+   32,
+   78
+  ],
+  "material.": [
+   33,
+   53,
+   79,
+   104
+  ],
+  "goal": [
+   35
+  ],
+  "is": [
+   36
+  ],
+  "to": [
+   37,
+   56,
+   96,
+   114,
+   122,
+   128,
+   159
+  ],
+  "determine": [
+   38
+  ],
+  "pigment": [
+   39,
+   112
+  ],
+  "concentrations": [
+   40,
+   113
+  ],
+  "best": [
+   42,
+   129
+  ],
+  "reproduce": [
+   43
+  ],
+  "the": [
+   44,
+   73,
+   77,
+   93,
+   98,
+   107,
+   124,
+   131,
+   137,
+   157,
+   161
+  ],
+  "appearance": [
+   45
+  ],
+  "scattering": [
+   48
+  ],
+  "given": [
+   51,
+   168
+  ],
+  "target": [
+   52,
+   103,
+   132
+  ],
+  "In": [
+   54
+  ],
+  "order": [
+   55
+  ],
+  "achieve": [
+   57
+  ],
+  "this": [
+   58
+  ],
+  "task": [
+   59
+  ],
+  "we": [
+   60,
+   117
+  ],
+  "first": [
+   61
+  ],
+  "fabricate": [
+   62
+  ],
+  "material": [
+   66,
+   133
+  ],
+  "samples": [
+   67
+  ],
+  "composed": [
+   68
+  ],
+  "known": [
+   70
+  ],
+  "mixtures": [
+   71
+  ],
+  "available": [
+   74
+  ],
+  "then": [
+   81
+  ],
+  "acquire": [
+   82
+  ],
+  "their": [
+   83
+  ],
+  "reflectance": [
+   84,
+   99,
+   115
+  ],
+  "profiles": [
+   85
+  ],
+  "using": [
+   86
+  ],
+  "custom-built": [
+   88
+  ],
+  "measurement": [
+   89
+  ],
+  "device.": [
+   90
+  ],
+  "use": [
+   92,
+   118
+  ],
+  "same": [
+   94
+  ],
+  "device": [
+   95
+  ],
+  "measure": [
+   97
+  ],
+  "profile": [
+   100
+  ],
+  "Based": [
+   105
+  ],
+  "on": [
+   106
+  ],
+  "database": [
+   108
+  ],
+  "mappings": [
+   110
+  ],
+  "from": [
+   111
+  ],
+  "profiles,": [
+   116
+  ],
+  "an": [
+   119
+  ],
+  "optimization": [
+   120
+  ],
+  "compute": [
+   123
+  ],
+  "concentration": [
+   125
+  ],
+  "replicate": [
+   130
+  ],
+  "appearance.": [
+   134
+  ],
+  "demonstrate": [
+   136
+  ],
+  "practicality": [
+   138
+  ],
+  "our": [
+   140
+  ],
+  "by": [
+   142
+  ],
+  "reproducing": [
+   143
+  ],
+  "variety": [
+   145
+  ],
+  "translucent": [
+   148
+  ],
+  "materials.": [
+   149
+  ],
+  "also": [
+   151
+  ],
+  "tool": [
+   154
+  ],
+  "allows": [
+   156
+  ],
+  "user": [
+   158
+  ],
+  "explore": [
+   160
+  ],
+  "range": [
+   162
+  ],
+  "achievable": [
+   164
+  ],
+  "appearances": [
+   165
+  ],
+  "set": [
+   169
+  ],
+  "pigments.": [
+   171
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-29T14:09:16.559479",
+ "created_date": "2025-10-10T00:00:00"
+}

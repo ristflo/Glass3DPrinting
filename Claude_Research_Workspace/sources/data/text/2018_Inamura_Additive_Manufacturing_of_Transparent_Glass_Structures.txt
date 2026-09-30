@@ -1,0 +1,1122 @@
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+ORIGINAL ARTICLE
+Additive Manufacturing of Transparent Glass Structures
+Chikara Inamura,1,* Michael Stern,1,* Daniel Lizardo,1,* Peter Houk,2 and Neri Oxman 1
+Abstract
+Advancements in manufacturing during the Industrial Revolution enabled the widespread use of glass in buildings
+and household objects. Nonetheless, processes for the fabrication of complex geometry and custom objects with
+glass remain elusive. We present G3DP2—a second iteration of the novel additive manufacturing (AM) technology
+for transparent glass products developed by The Mediated Matter Group at MIT. One of the oldest production
+materials, glass involves complex material chemistry and requires extreme working temperatures underlying the
+persistent challenges associated with its design and production. AM with molten glass presents a potential path
+toward production of highly complex geometry and custom-designed objects while retaining the optical transpar-
+ency and chemical stability available through traditional manufacturing processes. G3DP2 is a new AM platform
+for molten glass that combines digitally integrated three-zone thermal control system with four-axis motion control
+system, introducing industrial-scale production capabilities with enhanced production rate and reliability while
+ensuring product accuracy and repeatability, all previously unattainable for glass. A series of material character-
+izations were conducted to evaluate the mechanical properties of the 3D-printed glass products produced by G3DP2.
+A set of 3-m-tall glass columns was designed, engineered, and digitally fabricated for Milan Design Week 2017,
+highlighting the geometric complexity, accuracy, strength, and transparency of 3D-printed glass at an architectural
+scale for the ﬁrst time and a critical step in utilizing the true structural capacity of the material. Together, the
+installation and the G3DP2 platform serve as a foundation for future work and suggest exciting possibilities
+associated with the digital fabrication of glass as well as potential applications in product and architectural design.
+Keywords: 3D printing, additive manufacturing, glass, glass structures, printed glass, transparent
+Introduction
+Glass and the built environment
+Glass is one of the oldest production materials. Its earliest
+appearance as cast glass during 2500 BCE and blown glass
+in 100 BCE has changed little throughout history constrained
+by the complex material chemistry and extreme working
+temperatures required. Innovations in glass blowing and
+molding, combined with seminal glass science research, re-
+volutionized glass making and enabled individual production
+lines to output *10 million containers per year or 2000 light
+bulbs per minute.1 During the same period, the invention of
+the ﬂoat glass manufacturing process allowed for faster
+continuous production of ﬂat glass panels. 2 The rate of ﬂat
+glass production increased by 25 times, a sixfold increase
+per capita, between 1899 and 2009, 3–5 and industrialization
+brought a new wave of affordable glass products with increased
+performance (see Supplementary Data; Supplementary Data
+are available online at www.liebertpub.com/3dp). Machine-
+made bottles, light bulbs, and windows have all contributed
+to reshaping the world and the built environment. Alas, these
+products were characterized by increased homogeneity and
+decreased customizability.
+Since the mid-20th century, glass manufacturing has
+shifted again, with a diverse group of functionalized products
+arising from innovations in glass chemistry, including che-
+mical doping for high-strength sheet glass and controlled
+refractive index for ﬁber optic data lines. These processes
+have expanded the applications of glass products, but geo-
+metries remain simple as the cost of complexity remains
+prohibitively high. Recent studies on additive manufacturing
+(AM) of glass suggest possible intersections of both types of
+1The Mediated Matter Group, MIT Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts.
+2MIT Glass Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts.
+*These authors contributed equally to this work.
+Opposite page: 3D printed glass column installation. Milan Design Week 2017. Photo Credit: Paula Aguilera and Jonathan Williams.
+3D PRINTING AND ADDITIVE MANUFACTURING
+Volume 5, Number 4, 2018
+ª Mary Ann Liebert, Inc.
+DOI: 10.1089/3dp.2018.0157
+269
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+sectors, where creativity and complexity are achieved with-
+out limitation by quality, performance, or cost.
+Glass in architecture
+Although glass windows existed in Rome by 100 ACE, 6
+early architectural windows predominantly comprised of
+other translucent materials, including shells, minerals,
+and hide. Even as late as the Middle Ages, stained glass
+adorned only the most ornate structures. 7 Glass making
+technologies and applications of glass products evolved
+throughout the Modern Era, and by the turn of 19th century,
+glass had begun to appear in substantial parts of the built
+environment.
+As of 2015, the global market for glass production was
+>200 million tons. Of that, the building sector uses 59 million
+tons *7.3 billion square meters of plate glass, embracing the
+low cost and ubiquity of the current industry to populate
+skylines and allow daylight into homes. Economically, the
+architectural glass represents a *45-billion-dollar industry.8
+Printed glass
+AM was invented over 30 years ago, but only in the last
+decade has it spread from rapid prototyping to rapid manu-
+facturing (RM), which is deﬁned as the industrial application
+of AM to produce functional end-use parts rather than pro-
+totypes. This shift was driven by a collective effort across
+disciplines, from engineers and scientists developing im-
+proved machines and materials to designers and artists
+acquiring advanced knowledge and implementing novel ap-
+plications, such that today, RM accounts for at least 60% of
+all printed parts. The economic impact of RM is magniﬁed
+by continued industrial growth, at an average growth rate of
+25.9% over the last 28 years. 9
+Early examples of 3D printing with sintered glass powder
+lack the transparency and mechanical properties that the
+material is prized for, but represent serious attempts to in-
+dustrialize a glass manufacturing process with complex
+geometry at reduced cost. 10,11 In recent years, new methods
+for printing glass have emerged, and dramatically changed
+the potential of AM for glass designs and products by en-
+abling the creation of objects with increased geometric
+complexity, optical transparency, and reliability of mechan-
+ical strength.
+Several major developments in high-resolution sintered
+glass printing have been achieved through vat photopoly-
+merization and direct ink writing, in which silicate glass
+particles are suspended in resin and formed into complex
+geometries.12,13Postprocessing is then required to remove the
+resin and generate a glass body. As an example in the Kotz
+et al. process, the resin–glass composite forms undergo a
+50-h debinding and vacuum furnace treatment at 1300/C176 C and
+0.005 millibar to remove trapped air and heal cracks. This
+approach is suitable for fabricating small and highly detailed
+parts such as microﬂuidics and optics because it delivers
+high precision and optical transparency. However, de-
+pendency on typical high-resolution vat photopolymerization
+systems limits the speed of this process to print glass at a rate
+of *0.02 kg/h (see Supplementary Data).12,14,15 An additional
+challenge in scaling this indirect methodology is the high level
+of shrinkage and distortion which occurs as the binder is re-
+moved during the sintering process.
+Recent advancements in glass printing technology also
+include nonsintered processes such as material extrusions
+with both solid and molten feedstock. Similar to traditional
+plastic fused deposition modeling, a stick-based material
+feedstock and high-temperature nozzle process was devel-
+oped by Micron3DP as a means to print detailed glass objects
+with ﬁne layer thickness. Little technical information has
+been published, but this similarity to plastic systems suggests
+a print rate of *0.05 kg/h (see Supplementary Data).16 One
+of the limitations of the use of small ﬁlament size is that light
+scatters as it passes through the printed walls of the object,
+rendering it more translucent than transparent. 17,18 Alter-
+nately, a method for extruding much larger ﬁlaments that
+achieve transparency by using molten material stock ex-
+truded through a heated nozzle was developed by the Medi-
+ated Matter Group at MIT in 2014 and reported in 2015, and
+is noted hereafter as G3DP.19 The ﬁrst version of this process
+had a typical deposition rate of 2.2 kg/h (see Supplementary
+Data) and build chamber dimensions of 250 · 250 · 300 mm,
+making it 42 times faster than Micron3DP and 118 times
+faster than a typical high-resolution vat photopolymerization
+while also achieving optical transparency. 20
+Goals for the industrial-scale glass 3D printer G3DP2
+The ﬁrst phase of glass printer development focused on a
+proof of concept that demonstrated the feasibility of creating
+optically transparent objects through the deposition of molten
+glass. The second phase focused on research and develop-
+ment of an industrial-scale platform, and established a new
+set of objectives that guided system design, development, and
+production of parts. With structural applications the goal,
+dimensional accuracy, and ﬁdelity of both process and pro-
+duct were the measures of feasibility, linking two distinct
+objectives, which were pursued together. These objectives
+served as a backbone for the research presented in this article
+and are summarized here:
+1. Develop an industrial-scale molten glass feedstock 3D
+printer by extending the research previously conducted
+at MIT, enhancing the material properties and range of
+products that could be produced.
+2. Develop an architectural-scale 3D-printed glass struc-
+ture to evaluate the practical capabilities of the new
+system in an industrial production.
+New Platform: From Prototype to Industrial Platform
+System architecture
+Key performance metrics of speed, volume, repeatability,
+and reliability were identiﬁed for improvement in upgrading
+the platform for industrial and architectural output capability.
+In addition, the small feed volume and fragility of compo-
+nents in the previous platform (including a mobile ceramic
+print head and resistive heater) challenged the scale of
+output. Improving it required addressing even greater phy-
+sical and thermal inertia and stress on mechanical compo-
+nents, prompting a ground-up machine redesign. The new
+platform is a two-part vertical assembly: an upper, stationary
+thermal module with a digitally integrated three-zone heating
+control system regulating glass ﬂow and a lower, motion
+module with a four-axis computer numerical control (CNC)
+system that moves the print bed.
+270 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+In this architecture, the thermal energy applied to the
+heating system was decoupled from the mechanical load of
+the motion system. This allowed for improved durability
+of both systems through careful consideration of material
+properties and detailed analysis of constituent parts sup-
+porting each separate module. Still, critical focus was given
+to the print head itself, situated at the interface between the
+modules and requiring the highest thermal and mechanical
+performance from its material choice.
+Printed glass behavior: understanding and control
+A critical challenge in developing industrial glass manu-
+facturing is to understand material behavior across a wide
+range of temperatures. Glass is a viscous liquid with many
+nonlinear properties, and its behavior is highly sensitive to
+temperature. Furthermore, due to the high-temperature at-
+mosphere and materials involved in fabrication, it is difﬁcult
+to observe and even harder to measure in situ during the
+printing process. Only after a part is printed it can be properly
+analyzed, but the result is a product of the compound beha-
+viors of both the machine and the material itself (Fig. 1).
+With special sensitivity to glass behavior, signiﬁcant im-
+portance was assigned to engineering the structural, me-
+chanical, and thermal performance of the machine to improve
+its control and repeatability, such that unexpected outputs
+could be attributed to inherent material properties of the glass
+rather than the machine. As an example of this confounding
+nature, a product from G3DP had noticeable deviations from
+the intended tool path at inﬂection points along its curves, but
+it was difﬁcult to determine what had caused them (Fig. 2).
+The fundamental question was whether the deviations oc-
+curred as a result of aberrant behavior of the machine or the
+behavior of the glass.
+Platform speciﬁcation
+To evaluate the transition from a prototype system to the
+industrial system described here, some key performance
+metrics are provided as a means of examining the improve-
+ments that were implemented. These metrics will be con-
+textualized with respect to the goals outlined above, and then
+additional details on the system will be provided (Table 1).
+The ﬁrst key metric of comparison is scale. An increase in
+each of the principle axes of the system resulted in a near
+doubling of the size of the objects that could be fabricated.
+The mass of the glass reservoir saw an even greater increase,
+with the ratio of reservoir to print volume rising from 5% to
+30% and eliminating the need to reﬁll the reservoir during
+prints. From an absolute standpoint, this represented an in-
+crease in available material by a factor of 12.
+The second key metric of comparison is speed. With a
+minor increase in nozzle size, layer height, and feed rate, the
+compound effect was a more than doubling in printing rate,
+making this platform one of the fastest globally, independent
+of material.16
+The third and fourth key metrics of repeatability and re-
+liability are harder to compare quantitatively with the pre-
+vious version. Instead, absolute metrics are presented here to
+show a deﬁnitive result for future comparison. Testing of the
+G3DP2 system indicates the ability to hold positional accu-
+racy to ﬁner than 1 mm and produce a set of circular products
+that are within 1 mm of the predicted dimensions. In addition,
+the new static architecture introduced thermal and mechan-
+ical systems that could operate for months at a time without
+the daily adjustments required by G3DP. Current limitations
+FIG. 1. A ﬂowchart diagram illustrating the printing pro-
+cess and its confounding sensitivity to both the machine and
+material behaviors.
+FIG. 2. Left: part produced on G3DPwith unexplained deviations from the intended CAD, orange highlight indicates
+convex CAD surface, blue indicates concave CAD surface. Right: plan view of path of base layer, bold line shows deviation
+from intended proﬁle, dotted lines indicate aberrant generated curvatures.
+AM OF TRANSPARENT GLASS STRUCTURES 271
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+in nozzle joinery dictate 2–3 week print campaigns, and
+ongoing research aims to further extend.
+Platform architecture
+The G3DP2 platform is a modular system of two-part
+vertical assembly: the upper thermal and the lower motion
+control systems are integrated with a separate control station
+to enable concurrent development and independent system
+calibration to make future upgrades efﬁcient (Fig. 3).
+The thermal control module is an assembly of three in-
+dependent heating systems that are digitally integrated with a
+centralized control system to provide a continuous tempera-
+ture proﬁle across the glass transition temperature from
+melting to annealing.
+The motion control module is the motion control system, a
+set of linear actuators along X, Y, and Z axes, and an addi-
+tional A-axis rotary table with an inﬁnite rotation capability
+about the Z-axis to provide a fourth degree of freedom.
+The control station is comprised of two independent sets of
+power electronics and microcontrollers for the thermal con-
+trol modules and motion control modules. These modules
+provide a uniﬁed access point and control interface to the
+thermokinematic control system of the G3DP2 (Fig. 4).
+Platform engineering: thermal control
+The thermal control module of G3DP2 is a vertical as-
+sembly of the following three subsystems: the Material Re-
+servoir, the Nozzle Control, and the Build Chamber. Total
+power consumption of the thermal module is 19 kW at its
+peak and *15 kW during the normal printing cycle.
+The Material Reservoir subsystem was designed in colla-
+boration with Skutt, Inc. (Seattle, WA) and Engineered
+Ceramics (Gilberts, IL). It consists of a custom-designed cast
+alumina crucible and a resistive wire-based electrical kiln. The
+kiln supplies 6.5 kW and operates at 1090/C176 C during printing.
+The crucible was designed with an opening at the bottom
+and stepped groove in which to mount the nozzle. The kiln is
+equipped with two type-S thermocouples, and the temperature
+of the Material Reservoir is managed through the control
+station.
+The Nozzle Control subsystem was designed in collabora-
+tion with Deltech, Inc. (Denver, CO) and Smart Ceramics, Inc.
+Table 1. Comparison Between the First and Second
+Generation of the Printer Highlighting Key Metrics
+Unit G3DP G3DP2
+Change,
+%
+Platform
+X-axis mm 250 320 128
+Y-axis mm 250 320 128
+Z-axis mm 300 350 117
+Print volume cm 3 18,750 35,840 191
+Reservoir size kg 2.1 25.5 1214
+Material ratio % 4.6 29.0 624
+Process
+Nozzle size mm 10.0 11.5 115
+Feed rate mm/s 6.1 10.0 164
+Bead height mm 4.5 5.0 111
+Bead width mm 9.5 12.0 126
+Bead area mm 2 40 57 145
+Print rate mm 3/s 240 570 238
+Flow rate kg/h 2.2 5.2 234
+Absolute values as well as the relative change are included.
+FIG. 3. The two platforms and dimensions of G3DP on the left, and G3DP2 on the right.
+272 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+(Woburn, MA). It is located below the Material Reservoir,
+and consists of a custom-machined alumina nozzle and two-
+part thermal control mechanisms.
+The nozzle acts as an interface between the thermal and
+mechanical systems of the printer. Molten glass is highly
+viscous and easily adheres to the bottom exterior face of
+the ceramic nozzle. This phenomenon, called wetting,
+became problematic during the previous research phase.
+Especially when this wetting took place asymmetrically
+with respect to its central axis, the nozzle applied uneven
+shear force to the molten glass based on its relative or-
+ientation to the direction of deposition, which subse-
+quently distorted the cross-sectional proﬁle and width of
+the glass ﬁlament. The development of G3DP2 focused on
+managing and mitigating this asymmetric wetting and its
+effect on print ﬁdelity. To decrease the impact of wetting,
+the geometry of nozzle tip angle was increased from 30 /C176 to
+45/C176 to reduce the contact surface area with the molten
+glass. The nozzle was machined from a solid alumina at
+the MIT Central Machine Shop (Cambridge, MA) and as-
+sembled with the crucible in the Material Reservoir using
+silica-based refractory cement.
+Nozzle body temperature is controlled by a custom-
+designed resistive wire heating system wrapped around a
+silicon carbide tubular mandrel. Temperature is controlled
+by a pair of type-S thermocouples. These components are
+housed in a structural grade refractory (Smart Ceramics SG-
+70) forming the nozzle kiln, which supplies 600 W and op-
+erates at 800/C176 C during printing.
+Nozzle tip temperature is controlled by propane combus-
+tion or the application of compressed air through the nozzle
+gas manifold. The manifold is mounted at the bottom face of
+the nozzle kiln, concentric to the central axis of the nozzle.
+Used in conjunction with the nozzle kiln, digital control of
+the ﬂow initialization and termination process is achieved.
+Gas is turned on with a digital igniter when used as the burner
+and is turned off when used as the cooler. Its concentric
+design allows even distribution of air pressure and thermal
+stress around the nozzle to prevent asymmetric smearing of
+the nozzle with directional airﬂow.
+The Build Chamber subsystem was designed in colla-
+boration with Spiral Arts, Inc. (Seattle, WA), and comprised
+of an electric kiln with interior volume of D1100 ·
+W1100 · H500 mm, full height double doors in the front,
+and W400 · D400 mm opening on the bottom. The Build
+Chamber supplies 12 kW and operates at 480 /C176 Cd u r i n g
+printing. It provides dual type-K thermocouples for re-
+dundant temperature measurement. The pair of front doors is
+furnished with double pane Neoceram—a low CTE heat-
+resistant ceramic—windows and allows process monitoring
+while maintaining the thermal proﬁle inside. The bottom
+opening allows the print bed support tube to travel across the
+entire print size. This opening is sealed by a thermal in-
+sulation shield made of a 13 mm thick Duraboard mounted on
+an aluminum frame support. The shield assembly is mounted
+on the Z-axis linear actuator and travels in the XY-plane
+while allowing the print bed support tube to pass through
+and rotate around the Z-axis.
+FIG. 4. Left: an exploded view of the upper thermal module and the lower motion control module.Right: a cross-section of
+the entire system that reveals the interior detail.
+AM OF TRANSPARENT GLASS STRUCTURES 273
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+The Control Station subsystem was developed in colla-
+boration with Spiral Arts, Inc. The system contains an EZ-
+Zone/C210 Controller from Watlow (St. Louis, MO) providing
+a single control interface with full back-end and front-end
+programming capability across all three heating systems that
+constitute the thermal control system of G3DP2. Back-end
+control provides proportional-integral-derivative (PID) tem-
+perature controls, power output controls, current monitoring,
+and safety limit controls with network connectivity. Front-
+end control is enabled by a custom user interface installed on
+a touchscreen panel from Watlow. This interface allows
+process temperature control as well as monitoring of the
+current temperature across all three thermal systems. Current
+temperatures, target temperatures, and ramp rates can be
+speciﬁed for each thermal module, connecting each process
+module to a manufacturing system (Fig. 5).
+Platform engineering: motion control
+Four-axis CNC structure was designed to meet the target
+repeatability of –10% relative to the 10 mm ﬁlament size,
+resulting in the maximum deviation of –1.0 mm in position-
+ing accuracy under the maximum load criteria based on the
+combination of the target print mass, cantilever length in
+Z-axis, lateral acceleration in XY-axes, and rotational ac-
+celeration in A-axis. The required ﬂexural and torsional
+stiffness values of each linear actuator were calculated based
+on these conditions to ensure the target positional accuracy.
+The motion control system of the G3DP2 platform is
+comprised of a custom-designed four-axis CNC system.
+XYZ-axes consist of a set of linear actuators (LM Guide
+Actuator Model KR-46; THK Co., Ltd., Tokyo, Japan), ser-
+ving as both internal free-spanning structures and motion
+guide rails for the traveling cart inside. A pair of parallel
+linear actuators forms the X-axis and provides rigidity to
+support the rest of the motion axes. Y-axis is supported on
+both ends by the pair of X-axes, acting as a simple free-
+spanning beam. Z-axis is mounted on Y-axis, acting as a
+cantilever beam. A-axis, the fourth axis, providing rotational
+motion around the Z-axis, is made of a precision rotary table
+(ServoBelt Rotary Stage SBR-50-31; Bell-Everman, Inc.,
+Goleta, CA). The print bed is mounted onto this rotary table
+with an extension tube forming a rigid connection between
+the bottom of the support tube and the rotary table. This
+support tube serves as a thermal break together with an in-
+sulation shield panel at the interface between the build
+chamber and the motion control module.
+Four-axis motion control was developed to provide control
+over the orientation of the print nozzle and the relative di-
+rection of the deposition with respect to the trajectory of the
+FIG. 5. Top left : exterior and interior. Top right : G3DP2 platform during the deposition of molten glass. Bottom left :
+nozzle control module gas manifold during heating. Bottom right: build chamber during idling before printing is initiated.
+274 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+print path. It was further expected to address asymmetric
+wetting of the nozzle and expand the capability of the plat-
+form by exploring nozzles with noncircular oriﬁce proﬁles
+such as rectangles or nozzles with multiple oriﬁces to enable
+simultaneous deposition of different glass compositions. Fi-
+nally, it has the capability to deposit glass of varying thick-
+ness as a calligrapher does with pen and ink.
+To implement four-axis motion control for the print bed
+with the stationary nozzle architecture, algorithms were de-
+veloped to translate input path geometry to required com-
+pound motion. A sequence of 3D coordinates (X, Y, and Z)
+and individual feed rates F1 were assigned to each co-
+ordinate, then transformed into four-dimensional coordinates
+(X, Y, Z, and A) and corresponding feed rates F2 for four-axis
+CNC motion.
+Control and actuators. Motion of all four axes is powered
+by high torque servomotors (ClearPath SDSK-2341S-RLN;
+Teknic, Inc., Victor, NY) with integrated encoders that have
+position and torque feedback loop capability. G3DP2 makes
+use of the position encoders to attain closed-loop account-
+ability, marking a signiﬁcant improvement over the open-
+loop stepper motor motion system of the G3DP platform.
+Integration of four-axis motion control is enabled by
+an open-source CNC controller (TinyG CNC Controller;
+Synthetos, LLC, Brookeville, MD). Its multiaxis motion
+control capacity with the open-source architecture enables
+the ground-up development of custom algorithms for the
+fourth axis rotational motion and its integration with the three-
+axis motion control system.
+Software. Custom motion control software that executes
+G-Code commands was developed for the TinyG workspace
+in Chilipeppr, an open-source JavaScript-based hardware
+control interface software. It communicates with the TinyG
+through Serial Port JSON Server to establish the close-loop
+feedback between the servomotors and the digital interface.
+Feedback. To enable automated responses to failure
+conditions, a bridge was created to communicate high-level
+feedback from the motors back to the server, which in turn
+notiﬁes the user interface (UI) and commands the motion
+controller appropriately. For example, upon failure of the X-
+axis, an automatic lowering of the Z-axis could prevent da-
+mage to the nozzle. Notifying the operator of error reduces
+waste and helps prevent unnecessary damage.
+Accuracy of motion. To evaluate the process ﬁdelity and
+repeatability of this four-axis motion control, preliminary
+tests were conducted at room temperature. A pair of pens was
+used in place of the molten glass to record the system motion.
+The ceramic nozzle was replaced with two pens ﬁxed side by
+side, constraining their rotational motion and position to that
+of the machine. The test was conducted to draw a constant
+radius two-dimensional curve forming a three-lobe proﬁle
+by turning on and off the fourth axis rotation, as shown in
+Figure 6.
+First, three-axis positioning accuracy was evaluated with a
+single pen, making repetitive motions and measuring sample
+points to ensure basic machine tolerance. Results found the
+positioning tolerance to be <1 mm. The next series of tests
+FIG. 6. Top right: scan of three-axis pen test. Left: scan of four-axis pen test. Nozzle replaced by blue and orange pens
+capturing relative orientation between nozzle and build plate during motion. Bottom left : test of extrusion with three-axis
+motion control showing constant wall thickness. Bottom right : test of extrusion with four-axis motion showing increased
+wall thickness at inﬂection points as a result of jerk-limited accelerations.
+AM OF TRANSPARENT GLASS STRUCTURES 275
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+were conducted by printing molten glass at temperature. By
+measuring the system repeatability across 10 cylinders of
+D200 · H200 mm, positional accuracy was found to be very
+stable. Average outer diameter was 197.3 mm, or a difference
+of 2.7 mm (1.4%) compared with the target value of 200 mm,
+which can primarily be attributed to shrinkage due to thermal
+expansion. Importantly, when we compare the mean diameter
+between samples, a maximum range of 0.7 mm (0.3%) with
+a standard deviation of 0.5 mm (0.3%) was found. These
+results demonstrate a highly repeatable process at elevated
+temperature.
+Next, the effects of four-axis motion were explored. The
+results show unexpected changes in wall thickness at every
+inﬂection point of the geometry. This effect was more sub-
+stantial in the four-axis print than in the three-axis print. The
+increase in wall thickness at the concave sections of the four-
+axis product is likely a result of acceleration management of
+the CNC module. To minimize system vibration, the motion
+system was designed to be jerk limited, where jerk is the
+second derivative of the velocity with respect to time. The
+jerk limit slowed acceleration and created a delay in rota-
+tional velocity at every inﬂection point, and thus a decrease
+in feed rate. This change in feed rate caused inconsistent
+deposition rates and thus, incorrect wall thickness in parts.
+Additional development work has already been initiated
+to optimize acceleration control on the fourth axis. In this
+article, the products described were printed with three-axis
+motion.
+Platform control
+Nozzle ﬂow rate. Following the success of gravity-based
+ﬂow control achieved with the G3DP platform, the G3DP2
+platform employs the same methodology. The ﬂow rate is a
+function of nozzle resistivity, which is driven by its internal
+dimensions, and the pressure head of molten glass in the
+crucible, driven by its height (Fig. 7). 20
+Improved insulation between the Material Reservoir and
+Build Chamber unfortunately necessitated an increase in
+nozzle length. To offset the corresponding increase in re-
+sistance due to length, the diameters were also increased,
+providing a modest 17% reduction of nozzle resistance. In
+combination with a doubling of head pressure, ﬂow rate was
+more than doubled. Results of this analysis were later con-
+ﬁrmed to be very close to the observed behavior.
+Flow rate calculation. The ﬂow resistance R of the
+crucible–nozzle assembly in the G3DP2 platform is esti-
+mated based on the Hagen–Poiseuille equation. R is a
+function of the length L and the diameter D of each section of
+the crucible–nozzle assembly. Here, the change in R is di-
+rectly proportional to the change in L and inversely propor-
+tional to the fourth power of the change in D. Therefore, the
+smaller the diameter of the tube, the greater the inﬂuence of
+its change on the ﬂow resistance.
+R¼ 8gL
+p D=2ðÞ 4 : (1)
+The head pressure P is the pressure difference between the
+top of the molten glass in the crucible and the bottom of the
+nozzle. It is a function of the glass densityq and gravity g, and
+linearly dependent on the difference in the heightH, such that
+P ¼ qgH: (2)
+The volumetric ﬂow rate Q (m3/s) of the G3DP2 platform
+is determined based on the head pressure P (N/m2) and the
+ﬂow resistance R [N/m2/(m3/s)], such that
+Q ¼ P
+R : (3)
+Platform operation
+The platform operation of the printer can be divided
+into the following three phases: preprinting, printing, and
+FIG. 7. Left: dimensions of G3DP and G3DP2 nozzles. Right: effects on nozzle resistance of geometric changes are
+shown.
+276 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+postprinting. In this section, key process steps are examined
+in software, motion control, and thermal control (Fig. 8).
+Preprinting. During the preprocessing stage, a series of
+operations are prepared in parallel to begin fabrication. In
+software, design of the desired object is processed with a C#
+script to form a single continuous path. Then, this print path is
+converted from geometry into a series of actions for each
+motor to execute in the form of G-Code. The Chilipeppr
+control interface loads the ﬁle and compiles commands to the
+TinyG and ultimately, to the motors that command the printer
+to trace out the desired path.
+In hardware, the platform is readied. The motion system is
+homed to re-establish the origin of the system. The thermal
+control module is kept in an idling mode. In this state, the
+Nozzle Control subsystem is set at a reduced temperature of
+800/C176 C, maintaining an environment in which glass is unable
+to ﬂow through the nozzle. The Glass Reservoir and Build
+Chamber are both kept at the standard operating temperature.
+The printer is ﬁlled with build material for the upcoming
+print. While idling, the printer can be reﬁlled with either
+molten glass or room temperature cullet (preprocessed solid
+glass pieces that are already melted and conditioned from
+the constituent raw materials). For expediency of operation,
+molten glass is typically used. The material is transferred
+from a large auxiliary furnace using a gather ball, a typical
+glass-casting tool, to the Material Reservoir.
+With all other preprinting steps complete, the thermal
+module of the system can now be readied for ﬂow. This is
+achieved by increasing the temperature set point of the nozzle
+kiln from 800 /C176 C to 915 /C176 C. In conjunction, the nozzle gas
+manifold is activated to heat the nozzle tip. The combined
+effect of these thermal changes initiates the ﬂow of molten
+glass. After glass begins to ﬂow, the burner is extinguished,
+allowing the nozzle to reach a steady-state ﬂow condition.
+Printing. After ﬂow has reached steady state, printing can
+begin. G-Code is sent from the Chilipeppr interface to the
+TinyG motion controller, and the build plate begins to move
+to initialize printing.
+Postprinting. Upon completion of the G-Code ﬁle, the
+printed object is subjected to a thermal soak at 525 /C176 C
+for *5 min, providing a temperature buffer while it is
+transported to an external annealing oven. While the Build
+Chamber in the G3DP2 platform is capable of annealing each
+print, an external oven is utilized to facilitate the production
+cycle.
+Finally, the ﬂow of glass is terminated by lowering the set
+point of the Nozzle Control subsystem back to the idle tem-
+perature of 800/C176 C and by activating the compressed air sent
+through the ring manifold.
+The Product Space
+Process to product
+One of the key objectives in this research was to develop a
+new AM technology for glass capable of addressing the
+scalability in both quality and quantity required to transition
+from a proof of concept to a full-scale industrial manu-
+facturing platform. Production accountability is of speciﬁc
+importance to industrial glass due to the physical nature of
+the material. While soda-lime glass has a theoretical strength
+of *10,000 MPa, real-world microscopic ﬂaws within the
+material restrict nominal tensile strength to a range of 40–
+80 MPa.19 Additional surface ﬂaws created by various man-
+ufacturing processes, along with the brittle nature of glass,
+result in extremely high safety factors in structural applica-
+tions, leaving designers and engineers with a maximum al-
+lowable strength of just 10 MPa. 21 Therefore, this research
+works toward a high-ﬁdelity manufacturing platform capable
+of translating design input into glass products with known
+tolerances and reliable performance through process under-
+standing and mechanical characterization. This enables novel
+glass designs that take advantage of the optical transparency
+and mechanical strength of the material, culminating in the
+design and installation of a ﬁrst expression of the technology
+at the architectural scale—a public installation of a set of
+3-m-tall freestanding 3D-printed glass columns.
+The following section presents the design space and as-
+sociated design methodologies developed along with the
+G3DP2 platform, speciﬁcally relating to material behavior
+and machine engineering. Also presented are methods for
+characterization and validation of products and components,
+the results of which serve as a performance evaluation for this
+new manufacturing platform.
+FIG. 8. Print phases and the corresponding actions of software, motion control and thermal control are shown.
+AM OF TRANSPARENT GLASS STRUCTURES 277
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+Product design space
+Extreme operating temperatures and high viscosity of glass
+create a challenge in any manufacturing process, and must be
+accounted for dynamically in a 3D printing context. The glass
+ﬁlament cools relatively slowly and maintains a low enough
+viscosity that resulting dynamic shear forces may alter the
+geometry of previously deposited glass during printing.
+Sensitivity to this material–process interaction is critical, and
+can manifest as a nonlinear response of molten glass, in-
+cluding curvature and rate of change. To limit this effect,
+print curvature must be an explicitly controlled variable in the
+design space.
+Traditional 3D printing processes accept input geometry as
+3D surfaces. The geometry is sliced horizontally, and its
+boundaries are implicitly translated into ﬁlament deposition
+paths acceptable to the constraints of the machine, inevitably
+leading to ﬁlament-scale deviations from design input.
+G3DP2 utilizes a molten glass ﬁlament with a diameter of
+10 mm, an order of magnitude larger than most of the syn-
+thetic ﬁlaments used in the commercially available extrusion-
+based 3D printers, and consequently the subtle deviations in
+position and curvature at ﬁlament scale cause substantial
+effect on output geometry.
+To establish the process ﬁdelity at this ﬁlament scale
+and control the curvature-dependent material behavior, the
+requirements for the design process were re-evaluated in
+parallel to the system re-engineering. As a result, a suite
+of computational algorithms was developed to establish a
+parametric design space for glass products, where product
+morphologies are explicitly managed at the design input le-
+vel, by the control of curvatures and their rates of change in
+3D space, affording a lossless input to output design ﬂow.
+This parametric framework enables a multivariable cross-
+domain design space, where the geometric variables of the
+design can be directly linked to external variables such as
+the feed rate in the machine domain, focal point of incoming
+lights in optics domain, and section modulus and other
+properties in the structural domain.
+From the design of parametric geometries to preparation of
+executable G-Code ﬁle for the CNC platform, the connecting
+computational process was developed as an integrated series
+of computational algorithms written in C# and implemented
+with a 3D CAD software and programming interface (Rhi-
+noceros 5.0 and Grasshopper 1.0; Robert McNeel and As-
+sociates, Seattle, WA). Curvature-based parametric design
+space was explored. The algorithm takes three arguments as
+input variables: a ﬂoating-point variable R1 denoting the
+radius of a circumscribing circle that deﬁnes the exterior
+boundary of the output geometry, a ﬂoating-point variable R2
+deﬁning the radii of a network arcs and bitangent arcs, and
+an integer variable N deﬁning the number of arcs within the
+single closed proﬁle curve.
+Here, various geometric conﬁgurations in two-dimensional
+space were explored morphologically in continuous domains
+by incrementally changing each input variable. A series of
+case studies were conducted to evaluate the inﬂuence of
+different curvatures on printed glass output. Five objects
+were printed with constant R1 value of 150 mm, incremental
+R2 values of 150, 60, 30, 20, and 15 mm, andN values of 1, 3,
+6, 12, and 24, respectively, denoting the number of lobes
+formed per object (Fig. 9).
+Next, 3D morphologies were explored by assigning a
+number of instances in vertical axis corresponding to the
+layer count LC, an offset height between each instance cor-
+responding to the layer height LH, and a rate of change for
+each radius DR1 and DR2.
+By taking this curvature-dependent and process-informed
+approach, we were able to expand the preliminary design
+space where glass products and architectural designs began to
+form within the constraints of the newly formed machine
+space. The components printed through this approach were
+repeatable in fabrication and without deviations from ex-
+pected tool path such as those observed on the previous
+generation platform.
+Mechanical characterization
+Throughout the engineering phase of the new manu-
+facturing platform and design phase of the new glass pro-
+ducts, a series of geometric and mechanical characterizations
+were conducted to evaluate the dimensional tolerance and
+repeatability as well as the mechanical responses of the 3D-
+printed glass products under various loading conditions.
+These ﬁndings guided the product speciﬁcations for the new
+products and served to evaluate the process ﬁdelity of the new
+platform. The appropriate safety factors for the design and
+engineering of the 3D-printed glass structures were derived
+from these results.
+FIG. 9. Left: 3D-printed glass object with R1 = 150, R2 = 150, N = 1. Right: 3D-printed glass object with R1 = 150, R2 = 15,
+N = 24.
+278 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+For the initial geometric and mechanical characterizations,
+eight standard cylindrical samples of 3D-printed glass pro-
+ducts (R150 mm, H100 mm) were tested. All samples were
+fully annealed before the characterizations. Of the eight
+samples, four were chemically tempered (noted hereafter as
+tempered), and the other four were left as nontempered (noted
+hereafter as annealed). Two samples of each were used in
+single-point bending tests on the major axis along the grains
+of layers at full scale. The other two samples of each were
+sliced in segments for use in three-point bending tests on the
+minor axis.
+Major axis single-point bending tests. Inside diameter
+ID, cylinder height H, and interior wall thickness IT, deﬁned
+as the minimum width of the wall occurring between layers,
+were measured at each quadrant along the circumference of
+each sample digital caliper. The average values and range of
+values from each sample were calculated from the mea-
+surements. The following table presents a summary of the
+dimensional properties and measured tolerances along with
+the resulting section properties and their expected tolerances,
+where the section modulus Z and the area moment of inertiaI
+determine the structural performance of each product. Given
+the quadratic and cubic order relationship to the linear di-
+mensions, the expected ranges of section properties and
+structural performances of products are far more sensitive
+than the dimensional variations governed by the manu-
+facturing processes (Table 2).
+Mechanical characterizations were carried out in the ma-
+terial research laboratory at the Simpson Gumperz & Heger,
+Inc. (Waltham, MA). MTS-30G Uniaxial Load Frame
+with 30 kN load cell was used for the major axis single-
+point bending tests on the full-scale cylindrical prints of
+D300 · H100. Based on the peak load F and the corre-
+sponding peak displacement d, along with the estimated Z
+and I, the peak stress r and the elastic modulus E for each
+sample were calculated using Castigliano’s theorem on
+bending dominant systems. Considering the single-point load
+P applied to a thin curved beam with radius R, the maximum
+bending moment M and the maximum displacement d take
+place at the top quadrant of the structure, and their corre-
+sponding values were calculated accordingly.
+d ¼ FR3
+EI
+p
+4 /C0 2
+p
+/C18/C19
+(4)
+r ¼ M
+Z ¼ FR
+pZ : (5)
+The following table provides the summary of the major
+axis bending tests. F and d were measured peak values from
+each sample, whereas r and E were calculated values. Ex-
+pected ranges presented for r and E based on the corre-
+sponding dimensional variability calculated previously for
+Z and I (Table 3 and Fig. 10).
+Minor axis three-point bending tests. Minor axis three-
+point bending tests were conducted to evaluate potential
+anisotropic responses of the 3D-printed glass products due
+to their corrugated textures on exterior and interior sur-
+faces. Two annealed and two tempered cylindrical samples
+were sliced across the grains of layers into rectilinear bars
+of *13.0 mm width. MTS-30G Uniaxial Load Frame with
+30 kN load cell was used for the test. The following table
+presents the average dimensional properties, including test
+span L, measured from each sample along with the resulting
+section properties (Table 4).
+Peak load P was directly measured from the tests. Corre-
+sponding displacement d was adjusted based on the offset
+value determined by the intersection between the slope of the
+linear elastic region of the load-displacement curve and the
+Table 2. Geometric Data for Single-Point Bending Test Samples
+Treatment Sample ID, mm H, mm IT, mm Z,m m 3 I,m m 4
+Annealed 1 285.9 98.2 8.8 1300 5600
+Annealed 2 284.5 98.0 9.4 1400 6800
+Tempered 3 286.6 98.0 9.0 1300 5900
+Tempered 4 285.6 97.8 9.4 1400 6700
+Range D 2.1 0.4 0.6 100 1200
+% 0.74 0.4 7 7 19
+Table 3. Load Test Results and Corresponding Calculations of Internal Stress
+and Elastic Modulus Are Reported
+Treatment Sample F,N d,m m r, MPa E, GPa
+Annealed 1 1240 1.7 47 65
+Annealed 2 1690 1.7 56 74
+Tempered 3 1060 1.4 39 65
+Tempered 4 3050 3.3 100 71
+Annealed Range D 450 0.0 9.0 9.0
+% 30.7 0 17 13
+Tempered Range D 1990 1.9 61 6.0
+% 96.8 81 88 8.8
+AM OF TRANSPARENT GLASS STRUCTURES 279
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+horizontal axis of the displacement. Based on the Euler–
+Bernoulli beam theory on a simple beam structure, the
+maximum bending moment M, ultimate stress r, and
+elastic modulus E were calculated using the test results F,
+d, and the section properties Z and I that were estimated
+based on the measured dimensional properties of each
+sample.
+d ¼ FL3
+48EI (6)
+r ¼ M
+Z ¼ FL
+4Z (7)
+The next table presents the results from the minor axis
+three-point bending tests on the rectilinear bar samples
+(Table 5).
+Discussion
+While the small sample size of this data set does not yet
+provide comprehensive material properties of glass, it does
+FIG. 10. Top: single-point bending test of 3D-printed glass cylinders shown during structural failure. Bottom: sample
+during minor axis three-point bending test.
+Table 4. Geometric Data for Single-Point Bending Test Samples
+Treatment Sample L, mm W, mm IT, mm Z, mm 3 I, mm 4
+Annealed Avg 69.9 13.1 8.5 160 660
+Range D 1.2 0.3 7.6 33
+% 9.1 3.7 4.9 5.1
+Tempered Avg 79.4 13.7 9.0 180 830
+Range D 1.2 0.6 28 170
+% 9.1 7 15 21
+280 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+provide a basis on which to design and execute glass pro-
+ducts. In addition, it shows initial agreement within a range of
+expected values.
+Average tensile yield strengths for the annealed samples
+were 51 MPa in major axis single-point bending tests and
+41 MPa in minor axis three-point bending tests. These values
+are in line with commonly accepted values for soda-lime
+glass mechanical strength.
+Tempered samples recorded strengths at the extremes of
+the range. The increased range of results and lower minimum
+strength led us to focus initially on annealed glass. Further
+studies are warranted to better understand the source of this
+variability and the potential increase in strength that certain
+samples exhibit.
+The strength of the structural design of the columns
+adopts a high safety factor of 10, combining a typical
+building safety factor with an additional material safety
+factor to account for the uncertainty created by the wide range
+of results and small sample size of the tests. Maximum design
+strength of the 3D-printed glass products was derived as
+4.1 MPa, and served as an upper bound for the design and
+engineering of the three unique glass column structures dis-
+cussed in the next section.
+Public installation of the glass structures
+Using the G3DP2 technology and a series of preliminary
+geometric and mechanical characterizations of its products, a
+set of 3-m-tall structural glass columns were produced for
+an architectural installation for the Lexus ‘‘Yet’’ exhibition
+during Milan Design Week 2017. In the new glass design
+space and material-informed parametric framework, the col-
+umns were designed with curvature-dependent methods for
+geometric morphology, which provided repeatable results in
+the preliminary design evaluations presented earlier. This
+repeatability and predictability of manufacturing tolerances
+strongly inform the derivation of safety and performance
+factors and the resulting opportunities for design.
+The glass columns were structurally optimized within this
+predictable domain for performance as freestanding canti-
+lever columns with continuous cross-sectional morphology
+along their height. The cross-sectional proﬁles at any are
+deﬁned by a single constant curvature composed of a network
+of constant radius arcs and bitangent arcs. Along the vertical
+axis of the columns, that radius undergoes incremental linear
+change to smoothly transition its morphology in both lateral
+and longitudinal directions, resulting in bifurcating lobe
+structures. The continuity of morphology prevented stress
+concentrations at any local point across the structures. The
+bifurcation relates structural performance to cross-sectional
+moment of inertia, with the greatest moment occurring at the
+point of greatest bending load and continuously decreasing
+until the point of least load.
+Individual columns were constructed from sets of 15 un-
+ique printed glass components that were assembled vertically
+with thin silicone ﬁlm joinery and steel post-tensioning sys-
+tems to ensure vertical stability. Each column contained a
+mobile LED light module set on a linear motion system, with
+illumination controlled by the intersection of the moving
+light rays and the continuous morphology of the glass
+structure. This created a dynamic display of large-scale
+caustic patterns, expressing the incredible potential of glass
+Table 5. Test Results of Minor Axis Three-Point
+Bending with Maximum Load P, Displacement
+D and the Calculated Moment M,
+Stress S, and Elastic Modulus E
+Treatment Sample F,N d,m m r, MPa E, GPa
+Annealed Avg 360 0.05 41 71
+Range D 260 0.03 31 18
+%7 1 5 6 7 6 2 5
+Tempered Avg 380 0.07 41 67
+Range D 350 0.02 34 58
+%9 3 3 5 8 3 8 6
+FIG. 11. Left: cross-section diagram of the glass columns. Right: isometric view of the three instantiations of the glass
+columns.
+AM OF TRANSPARENT GLASS STRUCTURES 281
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+structures and illumination systems at an architectural scale
+(Figs. 11 and 12).
+Conclusion
+From the development of a new manufacturing technology
+to the deployment of novel products, which demonstrate its
+capability through the construction of the large-scale printed
+glass structures, this article presents a promising application
+of AM technology for glass at industrial-scale production;
+a technology that builds upon the concept previously in-
+troduced by the G3DP platform and exhibits signiﬁcant im-
+provement of the ﬁdelity and reliability, while achieving
+faster production speed and volume, all critical to its in-
+dustrialization.
+Glass is brittle, susceptive to stress concentration, and
+often considered to be fragile and even avoided as a material
+for structural applications. AM is undergoing exponential
+growth in both research and application, yet leaves many
+questions unanswered when it comes to the structural appli-
+cations. At the intersection of these challenges, an archetype
+for building structure—the column—was chosen to set re-
+search objectives and requirements for the development of
+our new platform and as demonstration of the challenges and
+capabilities.
+The installation presented here demonstrates the potential
+of this AM technology to produce freestanding glass struc-
+tures for the ﬁrst time at architectural scale. The set of 3-m-
+tall glass columns manifests their own structural integrity
+afforded by the novelty and capability of the new manu-
+facturing platform.
+In the future, combining the advantages of this AM tech-
+nology with the multitude of unique material properties of
+glass such as transparency, strength, and chemical stability,
+we may start to see new archetypes of multifunctional building
+blocks. Transparent and hollow-section glass tubes simulta-
+neously act as an heating, ventilation, and air conditioning
+(HVAC) system, performing as structure and vasculatures at
+the same time at building scale, through which synthetic and
+biological mediums circulate and react to incoming sunlight
+and surrounding temperature, passively regulating the building
+while illuminating the interior space as if they were a dynamic
+stained glass—embodying the fundamental shift in the notion
+of glass in architecture from human centric toward a symbiosis
+between human, inhuman, and the built environment.
+Acknowledgments
+We thank Mori Building Co. Ltd. for their initial support
+and funding for the development and invention of the G3DP2
+platform, Lexus Design for their support in producing and
+hosting the ﬁrst architectural installation in 3D-printed glass,
+as well as GETTYLAB for their continued support of re-
+search into 3D-printed glass; Andrew Magdanz, Susan Sha-
+piro, Mary Ann Babula, D.J. Benyosef, and Robert Phillips of
+Almost Perfect Glass for hosting the team and providing
+invaluable hard work and insights into glass making; Spiral
+Arts, Inc., Nikon USA, Smart Ceramics, Skutt Kilns, Teknic,
+Inc., THK, Bell-Everman, Deltech Furnaces, Engineered
+Ceramics, the MIT Central Machine Shop, and Simpson
+Gumpertz & Heger for their technical support and colla-
+borative development of the glass printing technology; Front
+Inc. and Pentagram for additional contributions to the in-
+stallation La Triennale di Milano for hosting our exhibition;
+the MIT Media Lab and the MIT Center for Bits and Atoms
+for use of their facilities; and The Mediated Matter Group
+for their continuing teamwork and help at every stage of
+the project.
+Authors’ Contributions
+Design and development of the G3DP2 platform were led
+and conducted by Chikara Inamura (MIT Media Lab), Daniel
+Lizardo (MIT Media Lab), Michael Stern (MIT Lincoln
+Laboratory/MIT Media Lab), Tal Achituv (MIT Media Lab),
+Peter Houk (MIT Glass Lab), Sadie Whitcher (MIT Glass
+Lab), Niels LaWhite (MIT Glass Lab), and Professor Neri
+Oxman (MIT Media Lab). Fabrication and installation of
+glass columns for Milan Design Week were completed by the
+platform development team along with Giorgia Franchin
+(Universita` degli Studi di Padova), Nassia Inglessis (Royal
+College of Arts), Tomer Weller (MIT Media Lab), and Owen
+Trueblood (MIT Media Lab). Image credits go to Paula
+Aguilera, Jonathan Williams, Andrew Ryan, and The Medi-
+ated Matter Group.
+FIG. 12. Left: 3D-printed glass columns displayed during Milan Design Week 2017. Right: close-up view of one of the
+glass columns and the caustics projected on the ﬂoor.
+282 INAMURA ET AL.
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 
+
+Author Disclosure Statement
+C.I., M.S., D.L., P.H., and N.O. are listed inventors on
+patent application US15331898, ‘‘Methods and Apparatus
+for Additive Manufacturing with Molten Glass.’’
+References
+1. Pratt EE. The Glass Industry: Report on the Cost of Pro-
+duction of Glass in the United States. Washington, DC:
+Department of Commerce, Bureau of Foreign and Domestic
+Commerce, 1917.
+2. Uusitalo O. Float Glass Innovation in the Flat Glass In-
+dustry. Cham, Switzerland: Springer International Pub-
+lishing, 2014.
+3. US Bureau of the Census. Twelfth Census of the
+United States, Taken in the Year 1900. Population Part I.
+Volume I. Washington DC: United States Census Ofﬁce,
+1901.
+4. Nippon Sheet Glass Co. Ltd. Pilkington and the Flat Glass
+Industry. In: Glass Industry, 2010. Available at: https://www
+.pilkington.com/resources/pfgi2010.pdf (last accessed April
+18, 2018).
+5. United States Census Bureau. Age and sex: 2012–2016
+American Community Survey 5-year estimates, 2016.
+Available at: https://factﬁnder.census.gov/faces/tableservices/
+jsf/pages/productview.xhtml?src=CF (last accessed April 18,
+2018).
+6. British Museum. Collection Online—Window Pane.
+Available at: www.britishmuseum.org/research/collection_
+online/collection_object_details.aspx?objectId=466288&
+partId=1&searchText=roman +window&images=true&pa
+(last accessed August 1, 2018).
+7. Wittel Falk, Wangler T. Science and engineering of glass
+and natural stone in construc tion. Available at: www.ifb
+.ethz.ch/education/msc-courses/msc-science-of-glass-stone-
+in-construction.html (last accessed January 31, 2018).
+8. Statista. Glass industry, 2018. Available at: https://www
+.statista.com/study/43866/glass-industry (last accessed
+March 26, 2018).
+9. Wohlers T. Wohlers Report 2017. 3D Printing and Additive
+Manufacturing State of the Industry. In: Wohlers Report
+2017. Fort Collins, CO: Wohlers Associates, 2017.
+10. The Ex One Company LLC. The New Standard for Manu-
+facturing from ExOne. 2012. Available at: http://prometal
+.com/sites/default/ﬁles/broc hures/X1_General_sellSheets
+.pdf (last accessed January 9, 2015).
+11. Marchelli G, Prabhakar R, Storti D, et al. The guide to glass
+3D printing: Developments, methods, diagnostics and re-
+sults. Rapid Prototyp J 2011;17:187–194.
+12. Kotz F, Arnold K, Bauer W, et al. Three-dimensional
+printing of transparent fused silica glass. Nature 2017;544:
+337–339.
+13. Destino JF, Dudukovic NA, Johnson MA, et al. 3D printed
+optical quality silica and silica–titania glasses from sol–gel
+feedstocks. Adv Mater Technol 2018;3:1–10.
+14. Asiga. The PICO2, 2017. Available at: https://www.asiga
+.com/products/printers/pico2 (last accessed December 21,
+2017).
+15. Asiga. Precision on your desktop. 2013. Available at: https://
+www.asiga.com/media/main/ﬁles/printers/Pico Brochure_
+us_en.pdf (last accessed April 6, 2018).
+16. Gutowski T, Jiang S, Cooper D, et al. Note on the rate and
+energy efﬁciency limits for additive manufacturing. J Ind
+Ecol 2017;21:S69–S79.
+17. Today Prototype. Micron3DP Announces Improved Glass
+3D Printer, 2017. Available at: www.prototypetoday.com/
+micron3dp/micron3dp-announces-improved-glass-3d-printer
+(last accessed January 1, 2017).
+18. 3DPrinting. Micron3DP Completes Installation of Pio-
+neering Glass 3D Printer, Prepares for Beta Release, 2017.
+Available at: https://3dprint.com/167638/micron3dp-
+glass-3d-printer-beta (last accessed December 21, 2017).
+19. Khorasani N. Design Principles for Glass Used Structu-
+rally. Lund, Sweden: Lund University, 2004.
+20. Klein J, Stern M, Franchin G, et al. Additive manufacturing
+of optically transparent glass. 3D Print Addit Manuf 2015;
+2:92–105.
+21. Feldmann M, Kasper R, et al. Guidance for European
+Structural Design of Glass Components. Luxembuorg:
+Publications Ofﬁce of the European Union, 2014.
+Address correspondence to:
+Neri Oxman
+The Mediated Matter Group
+MIT Media Lab
+Massachusetts Institute of Technology
+Cambridge, MA 02139
+E-mail: neri@mit.edu
+AM OF TRANSPARENT GLASS STRUCTURES 283
+Downloaded by Massachusetts Inst Tech/ 02620874 from www.liebertpub.com at 07/23/19. For personal use only. 

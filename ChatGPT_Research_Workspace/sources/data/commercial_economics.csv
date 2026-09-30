@@ -1,0 +1,7 @@
+scenario,evidence,capital,years,fixed,attempts,yield_fraction,material,kwh,tariff,labour_hours,wage,quality,consumables,cost_per_accepted_part_usd
+molten_baseline,analyst-selected illustrative assumptions,100000,5,10000,1000,0.8,4,20,0.15,1,30,10,5,102.5
+molten_low_utilization,analyst-selected illustrative assumptions,100000,5,10000,250,0.8,4,20,0.15,1,30,10,5,215.0
+molten_high_utilization,analyst-selected illustrative assumptions,100000,5,10000,2000,0.8,4,20,0.15,1,30,10,5,83.75
+molten_lower_yield,analyst-selected illustrative assumptions,100000,5,10000,1000,0.6,4,20,0.15,1,30,10,5,136.6667
+molten_double_tariff,analyst-selected illustrative assumptions,100000,5,10000,1000,0.8,4,20,0.3,1,30,10,5,106.25
+indirect_different_small_part,analyst-selected illustrative assumptions,60000,5,6000,2000,0.9,5,2,0.15,0.25,30,3,2,29.7778

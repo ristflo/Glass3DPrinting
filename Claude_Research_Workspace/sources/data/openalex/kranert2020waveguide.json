@@ -1,0 +1,1456 @@
+{
+ "id": "https://openalex.org/W3014573520",
+ "doi": "https://doi.org/10.1117/12.2554516",
+ "title": "Generation of functional curved waveguides by CO2-laser based deposition of coreless fused silica fibers",
+ "display_name": "Generation of functional curved waveguides by CO2-laser based deposition of coreless fused silica fibers",
+ "publication_year": 2020,
+ "publication_date": "2020-03-30",
+ "ids": {
+  "openalex": "https://openalex.org/W3014573520",
+  "doi": "https://doi.org/10.1117/12.2554516",
+  "mag": "3014573520"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1117/12.2554516",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1117/12.2554516",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "3D Printed Optics and Additive Photonic Manufacturing II",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5082606844",
+    "display_name": "Fabian Kranert",
+    "orcid": "https://orcid.org/0000-0001-7388-7800",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7388-7800"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Fabian Kranert",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5048870031",
+    "display_name": "Katharina Rettschlag",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Katharina Rettschlag",
+   "raw_affiliation_strings": [
+    "Institut f\u00fcr Produktentwicklung und Ger\u00e4tebau, Leibniz Univ. Hannover (Germany)",
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institut f\u00fcr Produktentwicklung und Ger\u00e4tebau, Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5015552786",
+    "display_name": "Andreas Wienke",
+    "orcid": "https://orcid.org/0000-0002-8927-6534",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8927-6534",
+     "https://orcid.org/0000-0001-5871-2586"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Andreas Wienke",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5041338156",
+    "display_name": "Arndt Hohnholz",
+    "orcid": "https://orcid.org/0000-0002-2853-4608",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2853-4608"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Arndt Hohnholz",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5006357343",
+    "display_name": "J\u00f6rg Neumann",
+    "orcid": "https://orcid.org/0000-0002-2900-0712",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2900-0712"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "J\u00f6rg Neumann",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5033303252",
+    "display_name": "Peter J\u00e4schke",
+    "orcid": "https://orcid.org/0009-0007-7398-9699",
+    "observed_orcids": [
+     "https://orcid.org/0009-0007-7398-9699"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Peter J\u00e4schke",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5085623188",
+    "display_name": "Dietmar Kracht",
+    "orcid": "https://orcid.org/0000-0003-3473-4814",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-3473-4814"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dietmar Kracht",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5058325632",
+    "display_name": "Roland Lachmayer",
+    "orcid": "https://orcid.org/0000-0002-3181-6323",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3181-6323"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Roland Lachmayer",
+   "raw_affiliation_strings": [
+    "Institut f\u00fcr Produktentwicklung und Ger\u00e4tebau, Leibniz Univ. Hannover (Germany)",
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institut f\u00fcr Produktentwicklung und Ger\u00e4tebau, Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 2.3194,
+ "has_fulltext": false,
+ "cited_by_count": 14,
+ "citation_normalized_percentile": {
+  "value": 0.94027633,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 97
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "11",
+  "last_page": "11"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10732",
+  "display_name": "Laser Material Processing Techniques",
+  "score": 0.9990000128746033,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2206",
+   "display_name": "Computational Mechanics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9990000128746033,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11429",
+   "display_name": "Semiconductor Lasers and Optical Devices",
+   "score": 0.9857000112533569,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10205",
+   "display_name": "Advanced Fiber Optic Sensors",
+   "score": 0.9646999835968018,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7673168182373047
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.6954614520072937
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.6447495222091675
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-fiber",
+   "display_name": "Optical fiber",
+   "score": 0.5976429581642151
+  },
+  {
+   "id": "https://openalex.org/keywords/bend-radius",
+   "display_name": "Bend radius",
+   "score": 0.5118615031242371
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-beam-machining",
+   "display_name": "Laser beam machining",
+   "score": 0.5064488649368286
+  },
+  {
+   "id": "https://openalex.org/keywords/bending",
+   "display_name": "Bending",
+   "score": 0.4980783462524414
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-drilling",
+   "display_name": "Laser drilling",
+   "score": 0.4869140386581421
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.48664507269859314
+  },
+  {
+   "id": "https://openalex.org/keywords/coating",
+   "display_name": "Coating",
+   "score": 0.46500715613365173
+  },
+  {
+   "id": "https://openalex.org/keywords/welding",
+   "display_name": "Welding",
+   "score": 0.46202051639556885
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-beam-welding",
+   "display_name": "Laser beam welding",
+   "score": 0.4435182809829712
+  },
+  {
+   "id": "https://openalex.org/keywords/substrate",
+   "display_name": "Substrate (aquarium)",
+   "score": 0.4423849880695343
+  },
+  {
+   "id": "https://openalex.org/keywords/waveguide",
+   "display_name": "Waveguide",
+   "score": 0.43417567014694214
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.3854980170726776
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.2858346700668335
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-beams",
+   "display_name": "Laser beams",
+   "score": 0.28435587882995605
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7673168182373047
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.6954614520072937
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.6447495222091675
+  },
+  {
+   "id": "https://openalex.org/C194232370",
+   "wikidata": "https://www.wikidata.org/wiki/Q162",
+   "display_name": "Optical fiber",
+   "level": 2,
+   "score": 0.5976429581642151
+  },
+  {
+   "id": "https://openalex.org/C161690185",
+   "wikidata": "https://www.wikidata.org/wiki/Q16984090",
+   "display_name": "Bend radius",
+   "level": 3,
+   "score": 0.5118615031242371
+  },
+  {
+   "id": "https://openalex.org/C2778386843",
+   "wikidata": "https://www.wikidata.org/wiki/Q6493035",
+   "display_name": "Laser beam machining",
+   "level": 4,
+   "score": 0.5064488649368286
+  },
+  {
+   "id": "https://openalex.org/C87210426",
+   "wikidata": "https://www.wikidata.org/wiki/Q1072476",
+   "display_name": "Bending",
+   "level": 2,
+   "score": 0.4980783462524414
+  },
+  {
+   "id": "https://openalex.org/C2780997931",
+   "wikidata": "https://www.wikidata.org/wiki/Q6493062",
+   "display_name": "Laser drilling",
+   "level": 3,
+   "score": 0.4869140386581421
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.48664507269859314
+  },
+  {
+   "id": "https://openalex.org/C2781448156",
+   "wikidata": "https://www.wikidata.org/wiki/Q1570182",
+   "display_name": "Coating",
+   "level": 2,
+   "score": 0.46500715613365173
+  },
+  {
+   "id": "https://openalex.org/C19474535",
+   "wikidata": "https://www.wikidata.org/wiki/Q131172",
+   "display_name": "Welding",
+   "level": 2,
+   "score": 0.46202051639556885
+  },
+  {
+   "id": "https://openalex.org/C89344249",
+   "wikidata": "https://www.wikidata.org/wiki/Q937468",
+   "display_name": "Laser beam welding",
+   "level": 3,
+   "score": 0.4435182809829712
+  },
+  {
+   "id": "https://openalex.org/C2777289219",
+   "wikidata": "https://www.wikidata.org/wiki/Q7632154",
+   "display_name": "Substrate (aquarium)",
+   "level": 2,
+   "score": 0.4423849880695343
+  },
+  {
+   "id": "https://openalex.org/C200687136",
+   "wikidata": "https://www.wikidata.org/wiki/Q11233438",
+   "display_name": "Waveguide",
+   "level": 2,
+   "score": 0.43417567014694214
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.3854980170726776
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.2858346700668335
+  },
+  {
+   "id": "https://openalex.org/C2984025587",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser beams",
+   "level": 3,
+   "score": 0.28435587882995605
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111368507",
+   "wikidata": "https://www.wikidata.org/wiki/Q43518",
+   "display_name": "Oceanography",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C127313418",
+   "wikidata": "https://www.wikidata.org/wiki/Q1069",
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1117/12.2554516",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1117/12.2554516",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "3D Printed Optics and Additive Photonic Manufacturing II",
+   "raw_type": "proceedings-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W2469047175",
+  "https://openalex.org/W1973263164",
+  "https://openalex.org/W1991608266",
+  "https://openalex.org/W2122278058",
+  "https://openalex.org/W2322910814",
+  "https://openalex.org/W2022789534",
+  "https://openalex.org/W1983639194",
+  "https://openalex.org/W4311693812",
+  "https://openalex.org/W2895914885",
+  "https://openalex.org/W2045934477"
+ ],
+ "abstract_inverted_index": {
+  "There": [
+   0
+  ],
+  "is": [
+   1,
+   35,
+   114,
+   129,
+   137,
+   175,
+   192,
+   222,
+   235
+  ],
+  "an": [
+   2,
+   240
+  ],
+  "increasing": [
+   3
+  ],
+  "demand": [
+   4
+  ],
+  "for": [
+   5,
+   26,
+   62,
+   166,
+   182,
+   268,
+   284
+  ],
+  "highly": [
+   6
+  ],
+  "integrated": [
+   7
+  ],
+  "optical": [
+   8,
+   20,
+   285
+  ],
+  "and": [
+   9,
+   18,
+   32,
+   57,
+   64,
+   99,
+   136,
+   157,
+   184,
+   199,
+   228,
+   237,
+   251,
+   265
+  ],
+  "optoelectronical": [
+   10
+  ],
+  "devices": [
+   11
+  ],
+  "that": [
+   12
+  ],
+  "provide": [
+   13
+  ],
+  "active": [
+   14
+  ],
+  "laser": [
+   15,
+   124,
+   144,
+   154
+  ],
+  "emission,": [
+   16
+  ],
+  "adaptability": [
+   17
+  ],
+  "low": [
+   19
+  ],
+  "losses.": [
+   21
+  ],
+  "A": [
+   22
+  ],
+  "well-established": [
+   23
+  ],
+  "production": [
+   24
+  ],
+  "technology": [
+   25
+  ],
+  "customized": [
+   27
+  ],
+  "structures": [
+   28
+  ],
+  "with": [
+   29,
+   93,
+   116,
+   177,
+   239,
+   271
+  ],
+  "high": [
+   30,
+   272
+  ],
+  "functionality": [
+   31
+  ],
+  "geometrical": [
+   33
+  ],
+  "flexibility": [
+   34
+  ],
+  "additive": [
+   36
+  ],
+  "manufacturing": [
+   37,
+   195
+  ],
+  "(AM).": [
+   38
+  ],
+  "It": [
+   39
+  ],
+  "enables": [
+   40
+  ],
+  "new": [
+   41
+  ],
+  "constructional": [
+   42
+  ],
+  "degrees": [
+   43
+  ],
+  "of": [
+   44,
+   50,
+   85,
+   96,
+   153,
+   159,
+   196,
+   214,
+   231,
+   246,
+   282
+  ],
+  "freedom": [
+   45
+  ],
+  "to": [
+   46,
+   148
+  ],
+  "overcome": [
+   47
+  ],
+  "the": [
+   48,
+   83,
+   127,
+   133,
+   142,
+   160,
+   167,
+   190,
+   194,
+   200,
+   209,
+   215,
+   219,
+   225,
+   232,
+   244,
+   247,
+   252,
+   256
+  ],
+  "limitations": [
+   49
+  ],
+  "substractive": [
+   51
+  ],
+  "material": [
+   52
+  ],
+  "processing": [
+   53,
+   134
+  ],
+  "such": [
+   54
+  ],
+  "as": [
+   55
+  ],
+  "milling": [
+   56
+  ],
+  "drilling.": [
+   58
+  ],
+  "Commercial": [
+   59
+  ],
+  "AM": [
+   60,
+   70,
+   84
+  ],
+  "systems": [
+   61,
+   71
+  ],
+  "metals": [
+   63
+  ],
+  "polymers": [
+   65
+  ],
+  "are": [
+   66,
+   259,
+   275
+  ],
+  "ubiquitous;": [
+   67
+  ],
+  "whereas": [
+   68
+  ],
+  "glass": [
+   69,
+   79,
+   257
+  ],
+  "almost": [
+   72
+  ],
+  "exclusively": [
+   73
+  ],
+  "exist": [
+   74
+  ],
+  "in": [
+   75,
+   255
+  ],
+  "scientific": [
+   76
+  ],
+  "environments.": [
+   77
+  ],
+  "Laser": [
+   78
+  ],
+  "deposition": [
+   80,
+   112,
+   125,
+   210
+  ],
+  "welding": [
+   81
+  ],
+  "allows": [
+   82
+  ],
+  "waveguides": [
+   86,
+   198,
+   267
+  ],
+  "by": [
+   87,
+   141
+  ],
+  "fusing": [
+   88
+  ],
+  "coreless": [
+   89
+  ],
+  "fused": [
+   90,
+   108,
+   140
+  ],
+  "silica": [
+   91,
+   109
+  ],
+  "fibers": [
+   92,
+   234
+  ],
+  "a": [
+   94,
+   100,
+   107,
+   150,
+   162,
+   178,
+   279
+  ],
+  "diameter": [
+   95
+  ],
+  "400": [
+   97
+  ],
+  "\u00b5m": [
+   98,
+   102
+  ],
+  "50": [
+   101
+  ],
+  "thick": [
+   103
+  ],
+  "polymer": [
+   104
+  ],
+  "coating": [
+   105
+  ],
+  "onto": [
+   106
+  ],
+  "substrate.": [
+   110
+  ],
+  "The": [
+   111,
+   173,
+   212
+  ],
+  "process": [
+   113,
+   165,
+   181
+  ],
+  "performed": [
+   115,
+   176
+  ],
+  "defocused": [
+   117
+  ],
+  "CO2-laser": [
+   118,
+   179
+  ],
+  "radiation": [
+   119,
+   155
+  ],
+  "(10.6": [
+   120
+  ],
+  "\u00b5m).": [
+   121
+  ],
+  "Based": [
+   122
+  ],
+  "on": [
+   123,
+   193,
+   218
+  ],
+  "welding,": [
+   126
+  ],
+  "fiber": [
+   128
+  ],
+  "fed": [
+   130
+  ],
+  "laterally": [
+   131
+  ],
+  "into": [
+   132,
+   156
+  ],
+  "zone": [
+   135
+  ],
+  "melted": [
+   138
+  ],
+  "or": [
+   139
+  ],
+  "incoming": [
+   143
+  ],
+  "beam.": [
+   145
+  ],
+  "In": [
+   146,
+   187
+  ],
+  "order": [
+   147
+  ],
+  "achieve": [
+   149
+  ],
+  "sufficient": [
+   151
+  ],
+  "coupling": [
+   152
+  ],
+  "out": [
+   158
+  ],
+  "fibers,": [
+   161
+  ],
+  "proper": [
+   163
+  ],
+  "cleaving": [
+   164,
+   174
+  ],
+  "end": [
+   168,
+   249
+  ],
+  "faces": [
+   169,
+   250
+  ],
+  "has": [
+   170
+  ],
+  "been": [
+   171
+  ],
+  "established.": [
+   172
+  ],
+  "based": [
+   180
+  ],
+  "optimized": [
+   183
+  ],
+  "reproducible": [
+   185
+  ],
+  "results.": [
+   186
+  ],
+  "this": [
+   188
+  ],
+  "contribution,": [
+   189
+  ],
+  "focus": [
+   191
+  ],
+  "bended": [
+   197
+  ],
+  "feasible": [
+   201
+  ],
+  "bending": [
+   202,
+   216
+  ],
+  "radii,": [
+   203
+  ],
+  "which": [
+   204,
+   277
+  ],
+  "can": [
+   205
+  ],
+  "be": [
+   206
+  ],
+  "accomplished": [
+   207
+  ],
+  "during": [
+   208
+  ],
+  "process.": [
+   211
+  ],
+  "influence": [
+   213
+  ],
+  "radius": [
+   217
+  ],
+  "guiding": [
+   220
+  ],
+  "efficiency": [
+   221
+  ],
+  "investigated.": [
+   223
+  ],
+  "Therefore,": [
+   224
+  ],
+  "light": [
+   226,
+   269
+  ],
+  "transmission": [
+   227,
+   270
+  ],
+  "beam": [
+   229
+  ],
+  "profile": [
+   230
+  ],
+  "deposited": [
+   233
+  ],
+  "measured": [
+   236
+  ],
+  "compared": [
+   238
+  ],
+  "untreated": [
+   241
+  ],
+  "one.": [
+   242
+  ],
+  "Furthermore,": [
+   243
+  ],
+  "appearance": [
+   245
+  ],
+  "cleaved": [
+   248
+  ],
+  "internal": [
+   253
+  ],
+  "stress": [
+   254
+  ],
+  "substrate": [
+   258
+  ],
+  "characterized.": [
+   260
+  ],
+  "Functional,": [
+   261
+  ],
+  "nearly": [
+   262
+  ],
+  "stress-free": [
+   263
+  ],
+  "curved": [
+   264
+  ],
+  "straight": [
+   266
+  ],
+  "position": [
+   273
+  ],
+  "stability": [
+   274
+  ],
+  "achieved,": [
+   276
+  ],
+  "opens": [
+   278
+  ],
+  "wide": [
+   280
+  ],
+  "range": [
+   281
+  ],
+  "applications": [
+   283
+  ],
+  "system": [
+   286
+  ],
+  "integration.": [
+   287
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

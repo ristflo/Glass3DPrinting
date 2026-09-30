@@ -1,0 +1,179 @@
+[
+  {
+    "id": "ar_glas",
+    "label": "Soda-lime: SCHOTT AR-GLAS",
+    "source": "phys_ar",
+    "model": "VFT",
+    "T_C": [
+      530,
+      720,
+      1040
+    ],
+    "log10_dPas": [
+      13,
+      7.6,
+      4
+    ],
+    "source_page": 11,
+    "A": -1.8965517241379333,
+    "B_K": 4977.502972651608,
+    "T0_C": 195.86206896551712,
+    "T0_K": 469.0120689655171,
+    "residual_log10_dPas": [
+      0.0,
+      8.881784197001252e-16,
+      0.0
+    ],
+    "rms_log10_dPas": 5.127900497022837e-16,
+    "calibration_interval_C": [
+      530.0,
+      1040.0
+    ],
+    "thresholds": {
+      "strain": {
+        "T_C": 499.43217665615146,
+        "log10_dPas": 14.5,
+        "extrapolated": true
+      },
+      "annealing": {
+        "T_C": 530.0,
+        "log10_dPas": 13.0,
+        "extrapolated": false
+      },
+      "softening": {
+        "T_C": 720.0,
+        "log10_dPas": 7.6,
+        "extrapolated": false
+      },
+      "working_band_low_temperature": {
+        "T_C": 755.3488372093024,
+        "log10_dPas": 7.0,
+        "extrapolated": false
+      },
+      "working_point": {
+        "T_C": 1040.0,
+        "log10_dPas": 4.0,
+        "extrapolated": false
+      }
+    }
+  },
+  {
+    "id": "borofloat33",
+    "label": "Borosilicate: BOROFLOAT 33",
+    "source": "phys_boro",
+    "model": "VFT",
+    "T_C": [
+      518,
+      560,
+      820,
+      1270
+    ],
+    "log10_dPas": [
+      14.5,
+      13,
+      7.6,
+      4
+    ],
+    "source_page": 1,
+    "A": -1.6808093473315067,
+    "B_K": 6578.032171646414,
+    "T0_C": 111.63109223894384,
+    "T0_K": 384.7810922389438,
+    "residual_log10_dPas": [
+      0.006531873946865829,
+      -0.009782748957370302,
+      0.005357930164652025,
+      -0.002107055191509666
+    ],
+    "rms_log10_dPas": 0.006548180122179563,
+    "calibration_interval_C": [
+      518.0,
+      1270.0
+    ],
+    "thresholds": {
+      "strain": {
+        "T_C": 518.1640431219752,
+        "log10_dPas": 14.5,
+        "extrapolated": false
+      },
+      "annealing": {
+        "T_C": 559.701223525138,
+        "log10_dPas": 13.0,
+        "extrapolated": false
+      },
+      "softening": {
+        "T_C": 820.4089504478061,
+        "log10_dPas": 7.6,
+        "extrapolated": false
+      },
+      "working_band_low_temperature": {
+        "T_C": 869.3982437164163,
+        "log10_dPas": 7.0,
+        "extrapolated": false
+      },
+      "working_point": {
+        "T_C": 1269.570352203084,
+        "log10_dPas": 4.0,
+        "extrapolated": false
+      }
+    }
+  },
+  {
+    "id": "hpfs7980",
+    "label": "Fused silica: Corning HPFS 7980",
+    "source": "phys_silica",
+    "model": "Arrhenius limit of VFT",
+    "T_C": [
+      893,
+      1042,
+      1585
+    ],
+    "log10_dPas": [
+      14.5,
+      13,
+      7.6
+    ],
+    "source_page": 3,
+    "A": -4.162933663755829,
+    "B_K": 22072.09462725603,
+    "T0_C": -273.15,
+    "T0_K": 0.0,
+    "residual_log10_dPas": [
+      0.26438668719046987,
+      -0.3799852341044385,
+      0.11559854691393934
+    ],
+    "rms_log10_dPas": 0.2754705807338723,
+    "calibration_interval_C": [
+      893.0,
+      1585.0
+    ],
+    "thresholds": {
+      "strain": {
+        "T_C": 909.52015384194,
+        "log10_dPas": 14.5,
+        "extrapolated": false
+      },
+      "annealing": {
+        "T_C": 1012.882741236262,
+        "log10_dPas": 13.0,
+        "extrapolated": false
+      },
+      "softening": {
+        "T_C": 1603.2607031619996,
+        "log10_dPas": 7.6,
+        "extrapolated": true
+      },
+      "working_band_low_temperature": {
+        "T_C": 1704.1164867588,
+        "log10_dPas": 7.0,
+        "extrapolated": true
+      },
+      "working_point": {
+        "T_C": 2430.7914426774214,
+        "log10_dPas": 4.0,
+        "extrapolated": true
+      }
+    }
+  }
+]

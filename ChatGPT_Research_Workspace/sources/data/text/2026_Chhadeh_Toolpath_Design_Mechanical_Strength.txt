@@ -1,0 +1,845 @@
+npj | advanced manufacturing
+Article
+https://doi.org/10.1038/s44334-026-00072-1
+The effect of toolpath design on the
+mechanical strength of additively
+manufactured glass components
+Check for updates
+Philipp Amir Chhadeh1,3, Emanuel Nowak1,3, Dylan Vlahopoulos2,3
+, Matthias Seel1 & Nick Birbilis2
+To date, there has been a paucity of results regarding mechanical properties of additively
+manufactured (AM) glass. The ﬁndings herein provide valuable insights into optimising AM processes
+for glass, aiming to enhance the reliability, structural performance, and practical application of glass
+components in both engineering and architectural contexts. This study investigates the mechanical
+behaviour of glass components fabricated using a Fused Deposition Modelling (FDM) type technique.
+The research focuses on understanding the bending strength and overall structural integrity of FDM-
+manufactured glass, in comparison to conventionally prepared glass, with particular attention to the
+layer-to-layer bonding imparted by the AM process. Soda-lime glass rods, produced via an automated
+pulling method, were used as ﬁlament feedstock for the AM process. Mechanical testing, including
+four-point bending, highlighted the inﬂuence of layer orientation and AM toolpath on mechanical
+performance. The results show toolpath optimisation can improve strength by controlling heat
+retention during deposition.
+Glass has long been a material of choice in numerous engineering appli-
+cations due to its transparency, durability, and resistance to environmental
+factors. Traditional glass manufacturing methods, such as ﬂoat glass pro-
+duction and casting, have been extensively studied and optimised. The ﬂoat
+process is the standard industrial process for ﬂat glass production for more
+than60years.Thematerialpropertiesofglass,suchasstrength,aretherefore
+known and accepted, including in standardisation (see EN 572-11). How-
+ever, these methods often face limitations when it comes to producing
+complex shapes. The recent advent of additive manufacturing (AM) tech-
+niques offers a potential solution to these challenges, allowing for greater
+design freedom and the ability to tailor mechanical properties.
+The direct AM (i.e., ‘3D printing’) of glass presents signiﬁcant chal-
+lenges due to the high melting temperatures required, the non- linear
+thermomechanical properties, the development of undesired residual stress
+during the cool process, and the inherent brittleness of the material.
+Additionally, the low process tolerance and the necessity for achieving full
+density further complicate the AM process. Even if the ﬁeld of AM glass is
+difﬁcult and new, various AM glass techniques have become established in
+recent years. The four most common are brieﬂy explained here. Selective
+laser melting (SLM) uses a high-power laser to fuse glass powder layer by
+layer, resulting in precise and intricate, but also opaque structures2,3. Fused
+deposition modelling (FDM), also known as Fused ﬁlament facrication
+(FFF), involves extruding molten glass through a nozzle, which solidiﬁes
+upon deposition, making it suitable for larger forms, as depicted in Fig. 14–6.
+Stereolithography (SLA) uses a laser to cure a photosensitive resin mixed
+with glass particles, creating high-resolution and complex shapes7–9. Lastly,
+Directed energy deposition (DED) involves feeding glass in the form of
+powder or wire into a focused energy source, such as a laser or electron
+beam, allowing for the creation of large and robust components10–13.
+Speciﬁcally in regards to the present study, FDM, a process that
+involves the layer-by-layer deposition of a semi-solid material to create a
+three-dimensional object, is still a novel process with the material glass. This
+method provides several advantages, including precise control over the
+geometry and the ability to fabricate intricate structures. Despite these
+advantages, the mechanical performance of FDM-fabricated glass compo-
+nents is not known, particularly concerning the integrity of layer-to-layer
+connections. The reasons for concern include an inhomogeneous joining
+zone and sharp edge between the individual layers as well as the resulting
+residual stress at uneven process temperatures.
+The objective of the present study is to characterise the mechanical
+behaviour of AM glass components produced via the FDM process.
+Understanding the mechanical properties of these components is crucial for
+their potential application in engineering and architectural contexts, where
+reliability and structural integrity are paramount. To achieve this, a series of
+1Glass Competence Center, Institute of Structural Mechanics and Design, Technical University of Darmstadt, Darmstadt, Germany. 2Deakin University, Faculty of
+Science, Engineering and Built Environment, Melbourne, VIC, Australia. 3These authors contributed equally: Philipp Amir Chhadeh, Emanuel Nowak, Dylan
+Vlahopoulos.
+e-mail: d.vlahopoulos@deakin.edu.au; nick.birbilis@deakin.edu.au
+npj Advanced Manufacturing | (2026) 3:16 
+1
+1234567890():,;
+1234567890():,;
+
+mechanical tests are conducted to examine the strength of the layer-to-layer
+connections in FDM-manufactured glass specimens as a function of the
+layer arrangement and orientation.
+The advancement of AM technologies has potential to revolutionise
+glass fabrication - ﬁnally enabling reproducible, intricate and customised
+glass components with high precision (and without the need for human
+intervention or artisanal skills). This may be realised by either standalone
+(ﬁnal net-shape) AM glass components or AM glass components fused to
+either existing glass products or other AM prepared components.
+AM glass has emerged as a tool to simplify material manipulation
+throughtheuseofdigitaldesignsandautomation.Theabilitytoexpeditethe
+feedbackloopwith glassmaterials,fromconcepttocreation,holdsimmense
+potential for various industries. The industries in which AM glass is cur-
+rently active include art and design, architecture, education, research and
+optics.Ineachoftheseindustries,traditionalglassproductionrequiresyears
+of glass working experience or outsourcing to factories. AM glass offers the
+capability to rapidly manufacture glass components onsite. This is parti-
+cularly beneﬁcial to scenarios where delivery is not feasible (e.g., space or
+submarine environments) or to reduce reliance on supply chains.
+In the case of art and design, AM glass enables the creation of unique
+geometries not possible with traditional glass manufacturing techniques.
+Internalstructures,assemblies, thinfeatures and interlockingparts are more
+easily created without the need for skilled artistry (e.g., glassblowing or
+lampworking) or additional tooling costs (e.g., moulds). This allows for
+bespoke designs in interior design and commercial use, including storage
+containers, lighting pieces, furniture and jewellery. See for example Fig. 1.
+For research and development, this study exempliﬁed how AM glass
+enabled mechanical testing to commence quickly, without the need for a
+mould or intensive manual labour. In optical applications, there is ongoing
+interest in using AM glass for optical ﬁbre and lens applications. Pan14
+investigated the AM of glass preforms and successfully drew them into
+optical ﬁbres, indicating a promising future for complex microstructured
+ﬁbre fabrication.
+AM glass also offers the ability to exploit the use of ﬁbres during the
+printing process. The precise control of ﬁbrous glass structures holds
+excitingpotential.Additionally,manyAM glasstechniquesallow the userto
+pause production, enabling modiﬁcation during the print, such as embed-
+ding components or introducing unique materials.
+In addition to the potential for the production of three-dimensional
+objects from glass, the possibility of fusing glass onto existing glass products
+presents a vast array of applications.
+In the present era, designers are investigating the potential of AM. A
+multitudeofconceptscanbeactualisedthroughtheuseofglassasamaterial.
+Existent glass products can also be modiﬁed through the application of 3D
+printing technology. Flat objects are particularly amenable to this process.
+Printing can also be employed on glass tubes or other shapes.
+The potential for printing on ﬂat glass panes offers a means to achieve
+both enhanced design ﬂexibility and load bearing capacity of the glass, see
+ref. 15. In ref. 16, an analytical study was conducted for the construction
+industry with the objective of optimising the deﬂection of a glass façade
+under load by applying stiffeners. The results of this study demonstrate that
+the application of stiffeners can result in material savings of up to 70% for a
+two sided supported glass plate. Additionally, the study highlights that
+signiﬁcantsavingscanbeachievedevenwhentheplacementofthestiffeners
+is not optimal. This provides designers with considerable design freedom,
+allowing for innovative solutions that may not have been previously con-
+sidered. For instance, the redirection of solar radiation and sound waves
+could be utilised to enhance the comfort of the interior environment.
+The conceivable applications in the ﬁeld of architecture can be con-
+tinued indeﬁnitely, AM glass can be used to apply stiffeners but also fused
+ﬁxings for ﬂat glass, see ref. 17. It would also be possible to enhance the
+production of insulating glazing units by permanently sealing the units by
+using AM glass and additionally create the spacers for vacuum insulating
+glazing units.
+Results
+Setup
+The machines and components used for this test can be found in Table 1.
+Theexperimentalsetupillustrated inFig.2followstheguidelinesofEN
+1288-318. The dimensions are as
+follows:
+• Support span Ls = 130 mm
+• Load application span Lb = 70 mm
+• Lever arm (distance between support and load application)
+Lw = 30 mm.
+This setup deviates from EN 1288-318 in terms of dimensions and does
+not use load and support rollers that are freely rotatable along their long-
+itudinal axis. The dimensions conform to DIN 843-119 for four-point testing
+Fig. 1 | Additive manufactured glass lamp pre-
+pared by FDM (using Maple 4TM printer). a Final
+product assembled from three printed parts;
+b standalone part before assembly. Material: Kugler
+glass (K047 aquamarine blue).
+Table 1 | Machines and components used for the four-point
+bending test
+Component
+Description
+Testing Machine
+ZwickRoell Z050
+Load Cell
+ZwickRoell Performance P (within the range of 5
+N-150 kN linearity of ± 1%)
+Displacement
+Transducer
+Laser displacement sensor Keyence IL-030 (in the
+range of 20-45mm linearity of ± 0.1%).
+Rollers
+Made of stainless steel with a radius of 6 mm, length
+100 mm
+Elastomer on Rollers
+3 mm thick EPDM conforming to ISO 48 (IRHD:
+40 ± 10)
+Testing Software
+ZwickRoell testXpert III
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+2
+
+of small ceramics, which speciﬁes that the rolls must be rotatable up to 15°
+parallel to the longitudinal axis of the specimen. In this setup, the support
+rolls allow rotation of ± 10°, while the load rolls permit coupled rotation of ±
+1° around the specimen’s longitudinal axis (see Fig. 2). The plate with the
+load rolls is pivotally mounted at the point of force application, allowing the
+rolls to align towards the specimen. The deﬂection of the specimen at its
+centre of gravity was recorded using a laser displacement sensor.
+Specimen production
+A dog-bone geometry was selected as the specimen type. The 3D model was
+ﬁrst created using computer aided design software. This was then inputted
+into the slicing software to prepare the ﬁles for 3D printing. All samples
+featured zero perimeters and 100% rectilinear inﬁll, with various inﬁll
+orientations. ‘PrusaSlicer 2.6’ was employed to prepare the 45° and 90°
+samples. However, the 0° samples were created using ‘Grasshopper 3D +
+Rhino’, to optimise the tool path. This is because the tool path generated by
+the slicing software was inefﬁcient, with potential to create inconsistent
+results. Settings remained consistent between all samples, to ensure com-
+parable parameters.
+A challenge encountered during the dog-bone production involved
+achieving consistent levelling of the ﬁrst layer. Manual mesh bed levelling
+was employed, involving the probing of six points, which were inspected by
+the operator before each print. Human error is likely introduced during this
+process, as observing deviations smaller than 1mm through the viewing
+window of the heated chamber is challenging. This resulted in different
+levels of adhesion to the printing platform for eachsample.In some samples
+curlingofthecornerswasobserved.Thiseffectworsened iftheprintingpath
+created a shearing force on these low adhesion areas.
+Efforts were undertaken to maintain consistent parameters during the
+production of specimens, with the exception of toolpaths, which varied
+signiﬁcantly across series to achieve different layer orientations. These
+variations in toolpaths, particularly regarding thermal management, had a
+substantial impact on the manufactured specimens.
+Theorientationof0°speciﬁesthatthelayersareorientedinthedirection
+ofbending.Thevalueof90°indicatesthatthelayersareorientedinadirection
+transverse to the direction of bending. Finally, the value of 45° represents the
+orientation of the layers at an angle of 45° to the direction of bending.
+Accordingly, the sample code follows the format ‘inﬁll angle – sample
+number’. A representation of the layer progressions can be found in Fig. 3.
+The toolpaths are detailed as follows:
+For the 90° series, the paths were short and rapidly repeated, allowing
+previously printed layers to retain heat. Additionally, nozzle radiation
+continuously warmed the contact surfaces. As an example, Fig. 4 shows a
+dog-bone specimen with the 90° inﬁll pattern. In the 45° series, the paths
+were approximately 50 percent longer than those of the 90° series. The
+nozzle paused twice during the printing of the web to complete external
+corners, moving more slowly at the corners of layer lines compared to the
+90° series. The 0° series involved extremely long paths, with the nozzle
+printing over distances exceeding 300 mm to reach certain contact points.
+Outer contours were printed ﬁrst, resulting in the subsequently printed
+internal lines encountering cooler contact points.
+Execution
+The experiment 1 was conducted at a temperature of 22 °C and a relative
+humidityof44%.Theexperiment2wasconductedatatemperatureof24 °C
+and a relative humidity of 48%. Due to the very low forces encountered, the
+load application rate prescribed in EN 1288-318 was reduced from 2 MPa/s
+to 1 MPa/s (equivalent to ca. 1.5 N/s). Measurements were taken every 0.1 s
+using the testXpert III software.
+Specimenswerecentrallyplacedandalignedinthesetup,withtheprint
+bed side facing upwards (into the compression zone) so that the typical AM
+surfacewasinthetensionzone.Apreloadof3–5Nwasappliedtoensurethe
+rollers aligned properly with the specimen and made uniform contact
+everywhere. Same applies to the testing of the ﬁlament rods. The selected
+alignment was negligible due to the circle shaped cross section geometry.
+When the test commenced, load, specimen’s deﬂection, and crosshead
+displacementwererecordeduntilfailure.Uponfracture,thetestingmachine
+rapidly retracted to prevent further loading on the break or inducing
+additional fractures. Figure 5a shows the specimen 90-1 after testing, as well
+as the other layer orientations in Fig. 5b, c.
+Experiment 1: Dog-bone bending tests
+Table 2 displays the fracture load (Fu) and the calculated fracture stress (σu)
+in the specimen during four-point bending tests. The fracture stress was
+calculated using Equation (1), where the inner lever arm, z, is taken as the
+distance from the centroid of the fracture area to the fracture origin. Since
+thefractureoriginliesonthebottomsurfaceofthespecimens,zisequaltoh/
+2. The bending moment Mu is derived from the four-point bending set up,
+see Equation (2), where Lw = 30 mm. The geometrical moment of inertia, Iy,
+was calculated using hand measurements of the actual specimen geometry,
+at the location of failure after testing, rather than the nominal (target)
+dimensions from the design. For simplicity, a rectangular section is
+assumed,allowingEquation(3)tobeapplied,wherebisthemeasuredwidth
+of the specimen and h is the measured thickness of the specimen (see Fig. 6).
+σu ¼ Mu
+Iy
+ z
+ð1Þ
+Mu ¼ Fu
+2  Lw
+ð2Þ
+Iy;rec ¼ b  h3
+12
+ð3Þ
+Allfracturesoccurredasintendedwithinthenarrowsectionofthedog-
+bone geometry, consistent with the chosen design, except of one specimen
+(0-3) where the fracture extended from the narrow section into the broader
+area. Seven out of ten specimens (0-1, 0-2, 0-4, 45-1, 45-3, 45-4, 45-5)
+exhibited a completely straight crack perpendicular to the longitudinal axis,
+indicating effective interlayer adhesion that did not follow individual layer
+deposition directions. This straight fracture path also suggests uniform load
+introduction.
+Fig. 2 | Front facing view schematic of the four-point
+bend test set up, where 1) test specimen 2) load roller
+3) support roller 4) elastomer on rollers according
+to ref. 18.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+3
+
+All specimens in the 90° series exhibited at least three cracks,
+typically originating from the same point, which did not always follow a
+straight path but sometimes angled through the thin web. Specimen 90-2
+exhibited six cracks, indicating signiﬁcant energy release upon failure,
+consistent with the high fracture stresses observed in the 90° series (see
+Fig. 5).
+Experiment 2: Filament Bending
+In order to put the results of the additive manufactured dog-bone geometry
+intoperspective,thesamefour-pointbendingtestwasdonewiththe3.5 mm
+diameter ﬁlament rods.
+For the calculation of the fracture stress of the rod, the geometrical
+moment of inertia for a circle was used according to Equation (4), assuming
+a perfectly circular cross-section for the ﬁlament rods.
+Iy;circ ¼ π  d4
+64
+ð4Þ
+However, the determination of the maximum inner lever arm (z)
+requiresadiscussionofthefractureorigin’sposition.Thefractureoriginwas
+not consistently located on the underside of the rod, which leads to a dif-
+ferent distance between fracture origin and centroid of the circular cross
+section. Therefore, its precise position was determined for each individual
+specimen using a microscope and described by the angular deviation alpha.
+Consequently, the maximum fracture stress (σu) was calculated for each rod
+Fig. 3 | Toolpaths at 50% layer completion, for each
+type of specimen geometry prepared for this study.
+Fig. 4 | An AM glass specimen that was prepared
+with a 90 degree inﬁll orientation (Specimen 90-
+1). The positions of the load rollers (located on the
+top surface) and support rollers (bottom surface) are
+indicated by red and green lines, respectively.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+4
+
+according to Equations (1), (2), and (4), taking into account the measured
+diameter of the respective rod and the determined alpha.
+An example is shown in Fig. 7, where a microscopic image of the rod 14
+is shown in (a), the fracture origin of which is at an angle of approx. 45°. As a
+result,zis1.25 mm.In(b)thedeviationinrod3isonlyapprox.15°leadingto
+asmallerinnerleverarm.Theinnerleverarmisusedtocalculatethefracture
+stress. The individual rods, their diameters, fracture origins and the resulting
+fracture stress are shown in the supplementary information (see Supple-
+mentary Table 1), which gives a mean value of 73.5 N/mm2 and a standard
+deviation of 12.5 N/mm2, resulting in a coefﬁcient of variation of 0.17. For
+comparison, a coefﬁcient of variation of up to 0.3 is accepted in practice
+when testing ﬂoat glass in accordance with EN 1288, see for reference20.
+Evaluation and Comparison
+The experimental results, compared in Fig. 8, show a clear dependence on
+the print direction. A correlation analysis (Spearman) between the layer
+orientationangles(0°/45°/90°)and thefracturestressindicatesthatthereisa
+statistically signiﬁcant (p-value = 0.03) and a large correlation (correlation
+value of 0.56) according to Cohen21. The strong scattering of the results of
+the 45° specimens compared to the other directions reduces the correlation
+coefﬁcient substantially.
+It was initially hypothesised that the 90° layer orientation would pro-
+mote premature crack propagation, due to the critical notch orientation.
+However, contrary to expectations, the 90° specimens exhibited the highest
+fracture stress (mean value 56 N/mm2), while the 0° specimens showed the
+lowest (mean value 40 N/mm2). Therefore, the orientation of the layers
+should be taken into account in the design of the components, in combi-
+nation with the printing strategy.
+One probable cause for this phenomenon is the tool path itself. In the
+specimens with a 90° orientation, the glass remains in a warmerstate, which
+facilitates its effective fusion with the newly deposited glass. During the long
+distances the nozzle travels while producing the 0° specimens the cooling
+process of deposited glass impacts the layer-to-layer adhesion, leading to
+reduced fracture stress.
+Fig. 5 | Post-testing view of AM glass specimens (in
+top view) type after testing deﬁned in Table 2.
+Images correspond to a specimen 90-1, b specimen
+45-2, c specimen 0-1.
+Table 2 | Fracture stress σu of the 15 tested AM specimen
+under fracture load Fu from experiment 1
+#
+Iy
+z
+Fu
+σu
+mm4
+mm
+N
+N/mm2
+0-1
+38.4
+1.4
+81.8
+43
+0-2
+22.2
+1.2
+54.5
+42
+0-3
+29.4
+1.2
+62.2
+37
+0-4
+16.1
+1.0
+42.5
+40
+0-5
+19.5
+1.1
+45.1
+38
+90-1
+42.9
+1.5
+92.5
+47
+90-2
+60.1
+1.6
+142.4
+57
+90-3
+29.1
+1.3
+81.3
+54
+90-4
+33.7
+1.3
+101.9
+59
+90-5
+44.9
+1.4
+128.0
+61
+45-1
+42.7
+1.5
+51.1
+26
+45-2
+18.1
+1.1
+66.3
+60
+45-3
+37.5
+1.4
+61.6
+35
+45-4
+41.2
+1.4
+76.1
+39
+45-5
+28.4
+1.3
+55.3
+37
+The values for σu should beconsidered withan approximateuncertainty of up to± 4 N/mm2, attributable
+to measurement inaccuracies in the fracture sides, the fracture load and length of lever arm.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+5
+
+Microscopic examinations of the fracture surfaces support this ﬁnding
+and offer a complementary explanation. For these examinations, the Dino-
+LightEdgePlus,wasemployed,utilisingpolarisedlightandmultiplepolarising
+ﬁltersinordertoachievehigh-contrastandinformativeimages.Thesmalland
+oftennon-ﬂatfracturesurface,combinedwithsigniﬁcantreﬂectionsduetothe
+surface structure, presented a considerable challenge in terms of imaging.
+The microscopy images presented include specimens from each series,
+with the pressurised side (also the print bed side) oriented upwards. Blue
+lines serve to highlight the boundaries of individual layers, a yellow circle is
+used to indicate the presumed origin of the fracture, and red circles are
+employedtomarkthelocationsofvoids.ThegreentracesrepresentWallner
+lines, which are visible in some specimens. The fracture mirror could not be
+identiﬁed using the technology employed in this study. As indicated by the
+redcircles,amultitudeofvoidswereobservedwithinthefracturesurfaces.A
+correlation was identiﬁed between the number and size of these voids and
+the fracture stress of the specimen. The highest-performing specimens (90°
+series) exhibited a paucity of voids (see Fig. 9a), whereas specimens from the
+45° (see Fig. 9b) and 0° (see Fig. 9c) series displayed a considerable pre-
+valence of such voids. It is noteworthy that the strongest specimen of the 45°
+series exhibited a low number of voids, which aligns with this observation.
+These observations were made solely on the fracture surface. To provide
+robust support for this hypothesis, further sectional analysis of the speci-
+mens, both longitudinally and transversely, would be necessary.
+Figure 8 also shows that the rods have a higher average fracture stress
+than the fabricated dog-bone specimens. The decrease in this fracture stress
+(which for brittle materials determines the material’s strength and is here-
+after referred to as ’strength’) with an increase in surface under tension can
+be described by the size effect of structural strength. The size effect on
+structural strength is a phenomenon observed in materials, particularly
+brittle materials such as glass, where the strength of a structure decreases as
+its size increases22,23. This effect is primarily due to the increased probability
+of encountering critical ﬂaws or imperfections within the material as its
+surface area grows. The larger the structure, the more likely it is that a ﬂaw
+will exist that can precipitate failure under stress.
+Discussion
+The test results presented in this study were analysed to characterise the
+mechanical behaviour of AM soda-lime glass components. The 90°
+Fig. 7 | Optical microscopy images to determine the fracture origin. As per the described Experiment 2, the cross section image was used to determine the fracture origin of:
+a rod 14 with α = 45°; b rod 3 with α = 15°; in different magniﬁcations.
+Fig. 6 | Test geometry for the dog-bone tests (measurements in [mm]; top view and two side views).
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+6
+
+specimens exhibited a mean strength value approximately 40% higher than
+the 0° specimens. Additionally, the glass ﬁlament samples showed a 30%
+increase in mean strength value compared to the 90° specimens. The initial
+hypothesis proposed that the 0° specimens would withstand the greatest
+loading force before failure, with the 90° specimens expected to fail ﬁrst.
+However, the experimental results showed the opposite. This hypothesis
+was based on fracture mechanics theories, which suggest that glass typically
+fractures at defects or discontinuities24. The layers in an AM component can
+be considered discontinuities, implying that failure is likely to occur at the
+interfaces between printed layers. In the 90° specimens, the inﬁll direction
+forms discontinuities aligned orthogonal to the longitudinal axis, theoreti-
+cally providing a low-energy fracture path. However, the disparity between
+theory and experimental results can be attributed to the toolpath required
+for each inﬁll orientation. The 90° conﬁguration uses a shorter, more direct
+toolpath with minimal travel movements, which promotes localisedheating
+and maintainshighertemperatureswithinthe recentlydepositedregions.In
+contrast, the 0° orientation requires extended travel moves, leading to less
+effective heat accumulation and greater thermal dissipation. Moreover, the
+longer deposition paths in the 0° samples cause the tool head to alternate
+between recentlydeposited and cooler regions,potentially resulting in lower
+interlayer bonding strength compared to the 90° conﬁguration. This sug-
+gests that toolpath continuity may directly inﬂuence local heat retention,
+whichinturnaffectsthedegreeoffusionbetweenlayers.Fracturemechanics
+theories align with experimental results when considering the crack origin.
+In almost all 90° test specimens, see Fig. 5, the crack origin was commonly
+observed at the layer discontinuities, on the tension side. For 0° and 45°
+specimens, it is difﬁcult to make conclusive statements regarding crack
+origin locations. Given that the fracture lines in the 90° specimens were not
+observed to follow the discontinuity lines, this indicates that strong inter-
+layer bonds were successfully formed during production.
+TheseﬁndingsindicatethatAMglassspecimensproducedviaﬁlament
+extrusion exhibit a complex relationship between the thermal proﬁles
+generated by the AM toolpath and interlayer bond strength. A critical
+insight from this investigation is that the toolpath signiﬁcantly affects
+heating,therebyinﬂuencinginterlayerbondingstrength.Itisrecommended
+that continuous and concise deposition paths be employed during printing
+to optimise the thermal effects from nozzle-generated radiation and con-
+vection. Furthermore, the coefﬁcient of variation for all 3D-printed
+componentsaveraged 0.16, signiﬁcantlylower than the industry standard of
+0.3 for sheet glass20. This could be an indication of the consistency and
+reliability of the glass AM process, particularly if a consistent toolpath
+(ensuring consistent heat distribution) is employed.
+Future advancements in this research could explore advanced tool-
+paths involving non-planar movements. The results show the dependence
+of structural performance on the toolpath. These aspects must be further
+investigated to reﬁne printing processes and to determine the optimum
+deposition strategy for layering, tailored to the speciﬁc requirementsof each
+application. In the immediate term, investigations into parameters such as
+printing speed, layer count (part thickness), deposition size, and printing
+temperatures could provide valuable insights. Speciﬁcally, a detailed
+investigation into the formation of pores within the AM specimens should
+also be conducted. Increasing the overlap between layers to reduce pore size
+would be of interest in assessing how this inﬂuences fracture strength.
+Future work should increase the sample size of AM test specimens to
+enhance statistical analysis and further investigate variation between com-
+ponents. Additionally, post-processing techniques, including reheating or
+chemical and thermal pre-stressing, hold promise for enhancing the
+material properties, like strength. With this knowledge of the process and
+the material, an understanding of the structural behaviour of complex
+geometries,such asthoseshowninFig. 1,canbeestimatedinthefuture.The
+results of this paper are an important step forward in ensuring that the
+visions outlined in Chapter 2 will be realised. The ability to pause AM
+processes offers opportunities to integrate powders, alternative materials, or
+objects, thereby increasing versatility. The evolution of glass AM is expected
+to beneﬁt from a range of hardware and software innovations. Notable
+directions include adjustments to nozzle outlet shape and size and the
+introduction of composite materials through co-extrusion.
+Methods
+In this section the production of the ﬁlaments for the AM process and the
+AM glass specimen, as well as the applied mechanical testing methods are
+presented.
+Filament production
+In order to 3D print glass a suitable ﬁlament is needed, in this case thin glass
+rods. Thin glass rods may be manufactured with various techniques. An
+Fig. 8 | Mean fracture stress, standard deviation
+(error bars) and coefﬁcient of variation for tested
+glass specimens. An external study with 3 mm soda-
+lime sheet glass is also included for comparison26.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+7
+
+automated-pulling method was selected for this study. A Vitri-GlassTM
+instrument (see Fig. 10) was employed to manufacture semi-inﬁnite glass
+rods,measuring3.5 mmindiameter.Thisprocessisthesameasthatutilised
+to commonly fabricate glass ﬁlament (i.e., rods), for glass 3D printing. An
+advantage of using the Vitri-Glass system is the ability to select the exact
+glass composition required for 3D printing, thereby avoiding the mixing of
+different batches or types of glass and reducing the risk of residual stresses
+caused by mismatched thermal expansion. The rod tests additionally serve
+as a baseline for comparing between the 3D-printed specimens with a
+simpliﬁed geometry made from the same material.
+The Vitri-Glass instrument comprises a heated chamber and a cruci-
+ble, featuring concentric exit holes. Solid glass is initially input to the cru-
+cible, and converted to glass rods as it passes through the heated chamber
+into ambient conditions. In this study, soda-lime sheet glass “001100 Tekta
+Clear” from Bullseye-Glass Co., was employed as the glass material. The
+sheet glass was sourced as waste from a glass workshop (in the previously
+unﬁred condition). Glass was loaded into the crucible, before heating the
+chamber to 790 °C. A thermocouple was located at the chamber centre, to
+continuously monitor temperature. Holding at 790 °C temperature for
+60 min allows the glass to achieve an optimal viscosity for the “pulling”
+process, with a calculated viscosity of 107.9 Poise. Subsequently, glass rods
+with a diameter of 3.5 mm were drawn at a speed of 11.3 mm/s.
+Positioned beneath the heated chamber is a motorised system,
+responsible for pulling the glass from the crucible at constant speed. The
+speed selected by the user dictates the diameter of the rod. Increasing the
+pulling speed results in thinner glass rods and vice versa. The glass rods are
+automatically cut to lengths of approximately one metre, with this process
+repeating until the crucible is depleted. A single session was adequate to
+produce enough glass rods required for all 15 of the 3D printed dog-bone
+samples, with additional material remaining for glass rod testing.
+To ensure a consistent diameter across all rods, regular inspections
+using calipers were conducted. A general tolerance for the drawn glass rods
+was 3.5 ± 0.1 mm. The diameters of the rods are listed in the supplementary
+information (see Supplementary Table 1). One challenge in manufacturing
+glass rods with this method is creating a homogeneous glass structure
+without air bubbles. When sheet glass is used as the input material, air
+bubbles can form between the sheets during heating. If the air has no escape
+route,theywillbedrawnintotheglassrod,introducingweakpointsthatcan
+affect the mechanical testing results. During the production of the 3.5 mm
+rods the inclusion of air bubbles could be avoided.
+3D-Printing process
+The glass rods produced also served as the feedstock for the 3D printed dog-
+bone samples. A Maple 4TM glass 3D printer (see Fig. 11) was employed to
+additively manufacture the samples. The printer operates as a cartesian
+FDM printer, with the nozzle manoeuvring along the XY-axis, while the
+printing platform moves vertically in the Z-direction. The printer’s nozzle
+washeated to940 °C,asmeasuredbythethermocouplepositioned inthe tip
+of the nozzle. The nozzle extends into a heated chamber, maintained at
+500 °C, slightly below the annealing temperature of the soda-lime silicate
+glass. The printing platform is a ceramic plate, referred to as a kiln shelf.
+Once at temperature, the glass rod can be extruded through the 1.5 mm
+diameter outlet of the nozzle.
+Each sample was printed individually to ensure precision and con-
+sistency. A layer height and line width of 1 mm and 2 mm was selected,
+respectively. Due to the nature of the process, the initial layer is compressed
+into the platform to encourage bonding. This can result in the ﬁrst layer
+measuringslightlyunder1 mm.Oncetheﬁrstlayeriscomplete,theprinting
+platform moves down 1 mm, before depositing the next layer. The ﬁrst layer
+speed was selected as 2 mm/s, while subsequent layers were printed at
+4 mm/s.Uponconclusionoftheprintingprocess,eachsamplewasannealed
+for 15 min at 500 °C, before passively cooling to room temperature in the
+insulated chamber. The glass separates from the ceramic plate during
+cooldown, as both materials contract at different rates. A release agent,
+known as kiln wash, is applied before printing, to ensure safe and easy
+separation. Although kiln wash residue adheres to the ﬁrst layer of the glass
+specimens, it is not expected to inﬂuence the test results due to the chosen
+testing orientation. Additionally, out of the experience of the authors there
+will be no signiﬁcant residual stress because of the subsequent annealing
+process. Residual stresses could not be monitored using optical devices, due
+to the intransparency of the 3D printed specimen.
+Testing methods
+The objective of these tests is to determine the strength of AM glass as a
+function of layer orientation. While this is typically assessed in AM
+Fig. 9 | Optical micrographs of post bend test areas. Micrographs are from spe-
+cimens following experiment 1, of post bend test area, where a 90° series, b 45°series,
+c 0°series.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+8
+
+Fig. 10 | Vitri-GlassTM instrument schematic, where
+1) crucible for input glass 2) heated chamber 3)
+drawn glass rod 4) stand and support structure 5)
+motorised pulling system.
+Fig. 11 | Glass 3D printer schematic, where 1) glass
+rod feedstock 2) direct drive extruder 3) heating
+block 4) nozzle tip 5) ceramic printing platform 6)
+heated chamber insulation.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+9
+
+(excluding glass) using a dog-bone tensile test25, the brittleness of glass is
+considered here and a bending test is performed instead (tensile strength =
+bending tensile strength). Bending testing methods are typical for brittle
+materials (EN 84319, EN 1288-318).
+A novel aspect of this study is the use of dog-bone test geometry in a
+bending setup, which is made possible by the design freedom of AM. The
+selected test geometry including the dimensions can be found in Fig. 6. The
+dog-bone geometry helps reduce stress concentrations at the support and
+load points due to the increased surface area, thereby promoting failure in
+the centre of the specimen’s narrow section (see Fig. 4). The geometry was
+additionally validated using FEM analysis to ensure that no signiﬁcant shear
+stresses occurred in the narrow section. A comparative value is necessary to
+evaluate the collected results. To establish this, individual thin glass rods are
+tested using the same four-point bending setup.
+These bending tests offer a relatively straightforward and efﬁcient
+method of mechanical evaluation, requiring minimal specimen preparation
+and a simple experimental setup. Established standards, such as EN 1288-
+318, are available to provide guidance and ensure consistency. However, it
+must be noted that for bending tests, specimens must exhibit high
+straightness and geometric uniformity, as deviations may compromise the
+accuracy and reliability of the results. Furthermore, elevated stress levels are
+often observed in bending tests at the sample edges, which may inﬂuence
+failure behaviour.
+The method presented here can serve as a basis for the development of
+an established standard for determining the strength of additively manu-
+facturedglassstructures.Inthefuture,thiswillenableobjectivecomparisons
+between different AM methods for glass.
+Data Availability
+The processed data supporting the ﬁndings of this study are available within
+the paper. Raw and/or unprocessed data required to reproduce any ﬁndings
+will be made available upon reasonable request.
+Received: 4 August 2025; Accepted: 10 February 2026;
+References
+1.
+EN 572-1:2016-06. Glass in building - basic soda-lime silicate glass
+products–part 1: deﬁnitions and general physical and mechanical
+properties. https://doi.org/10.31030/2412853.
+2.
+Fateri, M., Gebhardt, A., Thuemmler, S. & Thurn, L. Experimental
+investigation on selective laser melting of glass. Phys. Procedia 56,
+357–364 (2014).
+3.
+Luo, J., Pan, H. & Kinzel, E. C. Additive manufacturing of glass. Appl.
+Sci. 136, 061024. https://asmedigitalcollection.asme.org/
+manufacturingscience/article/doi/10.1115/1.4028531/377638/
+Additive-Manufacturing-of-Glass.
+4.
+Brun, P.-T. et al. The molten glass sewing machine 375,
+20160156https://royalsocietypublishing.org/doi/10.1098/rsta.2016.
+0156 (2017).
+5.
+Inamura, C. Towards a new transparency: high ﬁdelity additive
+manufacturing of transparent glass structures across scales
+(Massachusetts Institute of Technology, 2017).
+6.
+Klein, J. et al. Additive manufacturing of optically transparent glass.
+Add. Manuf. 2, 92–105 (2015).
+7.
+Cooperstein, I., Shukrun, E., Press, O., Kamyshny, A. & Magdassi, S.
+Additivemanufacturingof transparent silicaglassfromsolutions.ACS
+Appl. Mater. Interface 10, 18879–18885 https://doi.org/10.1021/
+acsami.8b03766 (2018).
+8.
+Kotz, F. et al. Glassomer-processing fused silica glass like a polymer.
+Adv. Mater. 30, 1707100 (2018). MAG ID: 2795372384.
+9.
+Liu, C., Qian, B., Ni, R., Liu, X. & Qiu, J. 3D printing of multicolor
+luminescent glass. RSC Adv. 8, 31564–31567 http://xlink.rsc.org/?
+DOI=C8RA06706F (2018).
+10. Fröhlich, F., Hildebrand, J. & Bergmann, J. P.Additive manufacturing
+with borosilicate glass and soda-lime glass.In da Silva, L. F. M.,
+Martins, P. A. F. & Reisgen, U. (eds.) 2nd International Conference on
+Advanced Joining Processes (AJP 2021), Proceedings in Engineering
+Mechanics, 151–164 (Springer International Publishing, 2022).
+11. Hostetler, J. M., Goldstein, J. T., Bristow, D. A., Landers, R. G. &
+Kinzel, E. C. Fiber-fed laser-heated process for printing transparent
+glass from single mode optical ﬁber. SPIE 10523, 1052307 (2018).
+12. Luo, J. et al. Additive manufacturing of transparent soda-lime glass
+using a ﬁlament-fed process. J. Manuf. Sci. Eng. 139, 061006 (2017).
+13. von Witzendorff, P. et al. Additive manufacturing of glass: CO2-laser
+glass deposition printing. Procedia CIRP 74, 272–275 (2018).
+14. Pan, X. et al. 3D printing bullseye glass preform for ﬁbre drawing. Add.
+Manuf. 79, 103899 (2022).
+15. Seel, M. et al. Additive manufacturing of glass components - exploring
+the potential of glass connections by fused deposition modeling
+381–388.https://proceedings.challengingglass.com/index.php/cgc/
+article/view/130. Artwork Size: 381-388 (Challenging Glass
+Conference Proceedings, 2019).
+16. Nowak, E. G.Optimization of Glass Plate Structures with Additive
+Manufacturing. B.S. thesis.(Technische Universität Darmstadt,2024).
+17. Chhadeh, P. A. et al. Design of additive manufactured glass
+components for glass point ﬁxings. (Springer, 2025).
+18. EN 1288-3:2000-09, glass in building_- determination of ﬂexural
+strength of glass_- part_3: Testing of specimens when supported on
+two sides (four-edge method). https://www.beuth.de/de/-/-/
+23376390.
+19. EN 843-1:2008-08, advanced technical ceramics - mechanical
+properties of monolithic ceramics at room temperature - part 1:
+Determination of ﬂexural strength.
+20. Schula, S.Charakterisierung der Kratzanfälligkeit von Gläsern im
+Bauwesen: Characterisation of the scratch sensitivity of glasses in civil
+engineering, vol. 43 (Springer-Verlag, 2015).
+21. Cohen, J. Set correlation and contingency tables. Appl. Psychol.
+Meas. 12, 425–434 (1988).
+22. EN 1288-1:2000-09, glass in building - determination of ﬂexural
+strength of glass - part 1: Fundamentals.
+23. Scheidler, H.Verletzlichkeit und technische Festigkeit von Glas
+(Vulnerability and technological strength of glass), vol. 50
+(Glastechnische Berichte, 1977).
+24. Shelby, J. E. Introduction to glass science and technology (Royal
+Society of Chemistry, 2020).
+25. EN 52948:2023-11. Additive manufacturing for metals - non-
+destructive testing and evaluation. https://doi.org/10.31030/
+3490274.
+26. Veer, F. A. The strength of glass, a nontransparent value. Heron 12,
+237619386 https://www.researchgate.net/publication/237619386_
+The_strength_of_glass_a_nontransparent_value (2007).
+Acknowledgements
+We would like to acknowledge Nitsan Bartov, for designing the 0° dog-bone
+specimen toolpath. D.V. and N.B. would like to acknowledge the CSIRO
+Next Generation Graduate Program. P.A.C., E.N. and M.S. would like to
+acknowledge the “Fused Glass Deposition Modelling on Flat Glass“ project.
+(Deutsche Forschungsgemeinschaft; project #439726461).
+Author contributions
+P.A.C., E.N., and D.V.: project administration, data curation, formal analysis,
+original draft, reviewing and editing. D.V.: production of the test samples,
+glass rods and AM components. P.A.C., E.N., and M.S.: conducted the 4-pt
+bend tests, microscopy and their analysis. M.S. and N.B.: project super-
+vision, funding acquisition, writing, reviewing and editing. E.N. developed
+the concept for the bending tests. D.V., E.N., P.A.C., M.S., and N.B. have
+read and approved the manuscript.
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+10
+
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s44334-026-00072-1.
+Correspondence and requests for materials should be addressed to
+Dylan Vlahopoulos or Nick Birbilis.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modiﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+isnot includedin thearticle’s CreativeCommons licenceandyour intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/.
+© The Author(s) 2026
+https://doi.org/10.1038/s44334-026-00072-1
+Article
+npj Advanced Manufacturing | (2026) 3:16 
+11

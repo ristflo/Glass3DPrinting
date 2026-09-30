@@ -1,0 +1,150 @@
+[klein2015] 10.1089/3dp.2015.0021
+   no OA PDF via OpenAlex
+[inamura2018] 10.1089/3dp.2018.0157
+   no OA PDF via OpenAlex
+[mit2024masonry] 10.1007/s40940-024-00279-8
+   PDF ok <- https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf
+[brun2017] 10.1098/rsta.2016.0156
+   no OA PDF via OpenAlex
+[tomotika1935] 10.1098/rspa.1935.0104
+   no OA PDF via OpenAlex
+[rayleigh1878] 10.1112/plms/s1-10.1.4
+   no OA PDF via OpenAlex
+[luo2017sodalime] T:Additive Manufacturing of Transparent Soda-Lime Glass Using a Filament-Fed Process
+   no OA PDF via OpenAlex
+[luo2018quartz] T:Additive manufacturing of transparent fused quartz
+   no OA PDF via OpenAlex
+[luo2017heat] T:Heat Transfer in Additive Manufacturing of Glass
+   no OA PDF via OpenAlex
+[hostetler2018fiber] T:Fiber-fed laser-heated process for printing transparent glass from single mode optical fiber
+   no OA PDF via OpenAlex
+[kinzel2025dgf] T:Digital glass forming using direct heating techniques
+   no OA PDF via OpenAlex
+[dgf2026control] T:Temperature control of digital glass forming processes
+   !! not resolved in OpenAlex
+[witzendorff2018] T:Additive manufacturing of glass: CO2-Laser glass deposition printing
+   PDF ok <- https://repo.uni-hannover.de/bitstreams/baee6a93-3205-4ec1-897e-f30abaa371ff/download
+[lgd2021coaxial] 10.1117/12.2577205
+   no OA PDF via OpenAlex
+[lgd2022fibers] 10.1007/978-3-031-05918-6_18
+   no OA PDF via OpenAlex
+[lgd2024homog] T:Experimental investigation on the surface and volume homogeneity of additive manufactured fused silica components in the Laser Glass Deposition process
+   PDF ok <- https://repo.uni-hannover.de/bitstreams/db679f92-1741-4b6e-91f1-c91758598483/download
+[lgd2025tempctrl] T:Temperature Control of Quartz-Glass Melting Areas in Laser Additive Manufacturing
+   no OA PDF via OpenAlex
+[froehlich2022] 10.1007/978-3-030-95463-5_10
+   no OA PDF via OpenAlex
+[kth2022bonding] 10.3389/fmats.2022.978861
+   PDF ok <- https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/pdf
+[kth2024microlens] T:Rapid Fabrication of Silica Microlens Arrays via Glass 3D Printing
+   no OA PDF via OpenAlex
+[fateri2015] 10.1111/ijac.12338
+   no OA PDF via OpenAlex
+[khmyrov2016] T:Crack-free selective laser melting of silica glass: single beads and monolayers on the substrate of the same material
+   no OA PDF via OpenAlex
+[datsiou2019] 10.1111/jace.16440
+   PDF ok <- https://eprints.whiterose.ac.uk/144780/13/Datsiou_et_al-2019-Journal_of_the_American_Ceramic_Society.pdf
+[datsiou2021] T:Laser powder bed fusion of soda lime silica glass: Optimisation of processing parameters and evaluation of part properties
+   PDF ok <- https://uhra.herts.ac.uk/id/eprint/9377/1/1_s2.0_S2214860421000452_main.pdf
+[spirrett2023] 10.1111/jace.18638
+   PDF ok <- https://uhra.herts.ac.uk/id/eprint/10451/1/Journal_of_the_American_Ceramic_Society_-_2022_-_Spirrett_-_Powder_fed_directed_energy_deposition_of_soda_lime_silica_glass.pdf
+[lang2024] 10.1089/3dp.2022.0137
+   no OA PDF via OpenAlex
+[paste2024] T:Direct additive manufacturing of transparent fused silica glasses using an integrated paste printing and laser in-situ melting technology
+   no OA PDF via OpenAlex
+[boro2025laser] 10.3390/jmmp9090305
+   no OA PDF via OpenAlex
+[slmsim2024] 10.1007/s00170-024-13076-y
+   PDF ok <- https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf
+[slmirregular2023] T:Selective laser melting of glass with irregular shaped powder
+   no OA PDF via OpenAlex
+[ieee2019dlm] T:Additive Manufacturing of Fused Silica Glass Using Direct Laser Melting
+   no OA PDF via OpenAlex
+[kotz2017] 10.1038/nature22061
+   no OA PDF via OpenAlex
+[mader2021] 10.1002/advs.202103180
+   no OA PDF via OpenAlex
+[nguyen2017] T:3D-Printed Transparent Glass
+   retry 0 https://www.osti.gov/servlets/purl/1393335: HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /servlets/purl/1393335 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.osti.gov', port=443) at 0x206584e3b10>, 'Connection to www.osti.gov timed out. (connect timeout=60)'))
+   retry 1 https://www.osti.gov/servlets/purl/1393335: HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /servlets/purl/1393335 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.osti.gov', port=443) at 0x206584e3ed0>, 'Connection to www.osti.gov timed out. (connect timeout=60)'))
+   retry 2 https://www.osti.gov/servlets/purl/1393335: HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /servlets/purl/1393335 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.osti.gov', port=443) at 0x20658664190>, 'Connection to www.osti.gov timed out. (connect timeout=60)'))
+   no OA PDF via OpenAlex
+[destino2018] T:3D Printed Optical Quality Silica and Silica-Titania Glasses from Sol-Gel Feedstocks
+   no OA PDF via OpenAlex
+[toombs2022] 10.1126/science.abm6459
+   PDF ok <- https://arxiv.org/pdf/2110.01651
+[baudet2019] 10.1364/OME.9.002307
+   no OA PDF via OpenAlex
+[laval2023preform] T:3D soft glass printing of preforms for microstructured optical fibers
+   no OA PDF via OpenAlex
+[zhang2021review] 10.1007/s12200-020-1009-z
+   no OA PDF via OpenAlex
+[critical2025] 10.3390/app15063414
+   no OA PDF via OpenAlex
+[jmmp2026review] 10.3390/jmmp10080289
+   no OA PDF via OpenAlex
+[matdes2023review] T:A comprehensive review on additive manufacturing of glass: Recent progress and future outlook
+   no OA PDF via OpenAlex
+[micromachines2022] T:Overview of 3D-Printed Silica Glass
+   no OA PDF via OpenAlex
+[solgel2025] 10.1007/s10971-025-06664-1
+   PDF ok <- https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf
+[fluegel2007] T:Glass viscosity calculation based on a global statistical modelling approach
+   no OA PDF via OpenAlex
+[aben2008] T:Modern photoelasticity for residual stress measurement in glass
+   no OA PDF via OpenAlex
+[pgm2010] 10.1595/147106710X508966
+   !! not resolved in OpenAlex
+[zircorr2025] 10.1111/ijac.15064
+   no OA PDF via OpenAlex
+[microfluidics2019] 10.1039/c8ay01934g
+   no OA PDF via OpenAlex
+[vti2022] 10.1145/3559400.3565596
+   no OA PDF via OpenAlex
+[patent US9919510B2]
+   PDF ok <- USPTO ppubs
+[patent US10464305B2]
+   PDF ok <- USPTO ppubs
+[patent US10266442B2]
+   PDF ok <- USPTO ppubs
+[patent US20210101818A1]
+   PDF ok <- USPTO ppubs
+DONE: 48/50 resolved, 10 paper PDFs, 4/4 patent PDFs
+[luo2016spie] 10.1117/12.2218137
+[capps2021interface] T:Direct laser heating of the filament/substrate interface in digital glass forming
+[dgf2023tubes] T:Printing Hollow Tubes Using Digital Glass Forming
+[hostetler2019optics] T:Glass Printing for Optics and Photonics Applications using a Filament-Fed Laser-Heated Process
+[bubbles2018] T:Bubble formation in additive manufacturing of glass
+[seel2018] 10.1002/mawe.201800075
+[pointfixings2024] 10.1007/s40940-024-00290-z
+   PDF ok <- https://link.springer.com/content/pdf/10.1007/s40940-024-00290-z.pdf
+[multimat2026] 10.1007/s40964-026-01543-9
+   PDF ok <- https://link.springer.com/content/pdf/10.1007/s40964-026-01543-9.pdf
+[regolithreview2023] 10.1007/s40964-023-00537-1
+[regolithvac2024] T:Additive Manufacturing with Molten Lunar Regolith under Vacuum Conditions
+   !! not resolved
+[grotesk2022] 10.1007/978-3-030-96501-3_1
+[pgm2010] 10.1595/147106710x514012
+[stern2024cgc] 10.47982/cgc.9.583
+   PDF ok <- https://proceedings.challengingglass.com/index.php/cgc/article/download/583/483
+[machines2026meltpool] 10.3390/machines14010122
+[packaging2026] 10.3390/ma19030506
+[pfarr2023] 10.1007/s44150-022-00080-7
+   PDF ok <- https://link.springer.com/content/pdf/10.1007/s44150-022-00080-7.pdf
+[lei2019cleo] T:Additive Manufacturing of Fused Silica Glass Using Direct Laser Melting
+[khmyrov2014] T:On the possibility of selective laser melting of quartz glass
+[rammig2012] T:Direct Glass Fabrication - New Applications of Glass with Additive Processes
+   retry 0 https://www.diva-portal.org/smash/get/diva2:1650507/FULLTEXT03.pdf: HTTPSConnectionPool(host='www.diva-portal.org', port=443): Max retries exceeded with url: /smash/get/diva2:1650507/FULLTEXT03.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.diva-portal.org', port=443) at 0x2808c02f250>, 'Connection to www.diva-portal.org timed out. (connect timeout=60)'))
+   retry 1 https://www.diva-portal.org/smash/get/diva2:1650507/FULLTEXT03.pdf: HTTPSConnectionPool(host='www.diva-portal.org', port=443): Max retries exceeded with url: /smash/get/diva2:1650507/FULLTEXT03.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.diva-portal.org', port=443) at 0x2808c02fed0>, 'Connection to www.diva-portal.org timed out. (connect timeout=60)'))
+   retry 2 https://www.diva-portal.org/smash/get/diva2:1650507/FULLTEXT03.pdf: HTTPSConnectionPool(host='www.diva-portal.org', port=443): Max retries exceeded with url: /smash/get/diva2:1650507/FULLTEXT03.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.diva-portal.org', port=443) at 0x2808c02ed50>, 'Connection to www.diva-portal.org timed out. (connect timeout=60)'))
+EXTRA DONE: papers in manifest = 68, resolved = 66, pdfs = 14
+
+# round I 2026-09-29
+rettschlag2020microlens: pdf FAIL HTTP Error 403: Forbidden
+hong2023germanate: pdf FAIL HTTP Error 403: Forbidden
+vochozka2024translucency: pdf FAIL HTTP Error 403: Forbidden
+blachowicz2021optical: pdf response not PDF (https://www.degruyter.com/document/doi/10.1515/epoly-2021-0061/pdf)
+rooney2024lenses: pdf FAIL HTTP Error 403: Forbidden
+kiser2013caustics: pdf FAIL HTTP Error 429: Too Many Requests
+zhao2016lampshades: pdf FAIL IncompleteRead(2097152 bytes read, 9421993 more expected)
+nagasawa2023translucency: pdf FAIL HTTP Error 403: Forbidden

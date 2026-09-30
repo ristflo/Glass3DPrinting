@@ -1,0 +1,527 @@
+{
+ "id": "https://openalex.org/W4407840815",
+ "doi": "https://doi.org/10.3233/978-1-61499-061-1-315",
+ "title": "Direct Glass Fabrication \u2013 New Applications of Glass with Additive Processes",
+ "display_name": "Direct Glass Fabrication \u2013 New Applications of Glass with Additive Processes",
+ "relevance_score": 585.88275,
+ "publication_year": 2012,
+ "publication_date": "2012-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4407840815",
+  "doi": "https://doi.org/10.3233/978-1-61499-061-1-315"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3233/978-1-61499-061-1-315",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.3233/978-1-61499-061-1-315",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306463470",
+   "display_name": "IOS Press eBooks",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": "https://openalex.org/P4310318577",
+   "host_organization_name": "IOS Press",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310318577"
+   ],
+   "host_organization_lineage_names": [
+    "IOS Press"
+   ],
+   "type": "ebook platform"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Challenging Glass 3",
+  "raw_type": "book-chapter"
+ },
+ "type": "book-chapter",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5116379973",
+    "display_name": "Rammig Lisa",
+    "orcid": null
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Rammig Lisa",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5116379973"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": {
+  "value": 0.68251121,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 90,
+  "max": 94
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.8213000297546387,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.8213000297546387,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.713802695274353
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.5487221479415894
+  },
+  {
+   "id": "https://openalex.org/keywords/medicine",
+   "display_name": "Medicine",
+   "score": 0.04476889967918396
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.713802695274353
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5487221479415894
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.04476889967918396
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.3233/978-1-61499-061-1-315",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.3233/978-1-61499-061-1-315",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306463470",
+    "display_name": "IOS Press eBooks",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/P4310318577",
+    "host_organization_name": "IOS Press",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310318577"
+    ],
+    "host_organization_lineage_names": [
+     "IOS Press"
+    ],
+    "type": "ebook platform"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Challenging Glass 3",
+   "raw_type": "book-chapter"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W2899084033",
+  "https://openalex.org/W4404995717",
+  "https://openalex.org/W2016187641",
+  "https://openalex.org/W4404725684",
+  "https://openalex.org/W2082914599",
+  "https://openalex.org/W4246450666",
+  "https://openalex.org/W4388998267",
+  "https://openalex.org/W2898370298",
+  "https://openalex.org/W2137437058",
+  "https://openalex.org/W2756570351"
+ ],
+ "abstract_inverted_index": {
+  "Direct": [
+   0
+  ],
+  "fabrication": [
+   1,
+   43,
+   81
+  ],
+  "technologies": [
+   2,
+   35,
+   53
+  ],
+  "for": [
+   3,
+   13,
+   60
+  ],
+  "different": [
+   4
+  ],
+  "materials": [
+   5,
+   21
+  ],
+  "have": [
+   6
+  ],
+  "been": [
+   7
+  ],
+  "developed": [
+   8
+  ],
+  "to": [
+   9,
+   78,
+   90
+  ],
+  "great": [
+   10
+  ],
+  "detail,": [
+   11
+  ],
+  "yet": [
+   12
+  ],
+  "glass,": [
+   14
+  ],
+  "one": [
+   15
+  ],
+  "of": [
+   16,
+   44,
+   63,
+   73
+  ],
+  "the": [
+   17,
+   27,
+   38,
+   41,
+   46,
+   61,
+   101
+  ],
+  "most": [
+   18
+  ],
+  "aesthetically": [
+   19
+  ],
+  "pleasing": [
+   20
+  ],
+  "known,": [
+   22
+  ],
+  "developments": [
+   23
+  ],
+  "are": [
+   24,
+   54
+  ],
+  "still": [
+   25
+  ],
+  "in": [
+   26,
+   100
+  ],
+  "early": [
+   28
+  ],
+  "stages.": [
+   29
+  ],
+  "By": [
+   30
+  ],
+  "examining": [
+   31
+  ],
+  "material": [
+   32
+  ],
+  "properties,": [
+   33
+  ],
+  "common": [
+   34
+  ],
+  "and": [
+   36
+  ],
+  "analysing": [
+   37
+  ],
+  "parameters": [
+   39
+  ],
+  "governing": [
+   40
+  ],
+  "direct": [
+   42
+  ],
+  "glass": [
+   45
+  ],
+  "following": [
+   47
+  ],
+  "conclusions": [
+   48
+  ],
+  "can": [
+   49
+  ],
+  "be": [
+   50,
+   58
+  ],
+  "made;": [
+   51
+  ],
+  "Fabrication": [
+   52
+  ],
+  "available": [
+   55
+  ],
+  "but": [
+   56
+  ],
+  "must": [
+   57
+  ],
+  "adapted": [
+   59
+  ],
+  "properties": [
+   62
+  ],
+  "glass.": [
+   64
+  ],
+  "This": [
+   65
+  ],
+  "case": [
+   66
+  ],
+  "study": [
+   67
+  ],
+  "which": [
+   68
+  ],
+  "was": [
+   69
+  ],
+  "elaborated": [
+   70
+  ],
+  "as": [
+   71
+  ],
+  "part": [
+   72
+  ],
+  "a": [
+   74,
+   91
+  ],
+  "master": [
+   75
+  ],
+  "thesis,": [
+   76
+  ],
+  "tries": [
+   77
+  ],
+  "show": [
+   79
+  ],
+  "these": [
+   80
+  ],
+  "abilities": [
+   82
+  ],
+  "by": [
+   83
+  ],
+  "moving": [
+   84
+  ],
+  "away": [
+   85
+  ],
+  "from": [
+   86,
+   95
+  ],
+  "computer-controlled": [
+   87
+  ],
+  "additive": [
+   88
+  ],
+  "processes": [
+   89
+  ],
+  "manual": [
+   92
+  ],
+  "process,": [
+   93
+  ],
+  "derived": [
+   94
+  ],
+  "conventional": [
+   96
+  ],
+  "welding": [
+   97
+  ],
+  "techniques": [
+   98
+  ],
+  "used": [
+   99
+  ],
+  "chemical": [
+   102
+  ],
+  "industry.": [
+   103
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2024,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-08-21T09:56:20.448147",
+ "created_date": "2025-10-10T00:00:00"
+}

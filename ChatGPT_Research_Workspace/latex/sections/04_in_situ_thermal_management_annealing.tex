@@ -1,0 +1,43 @@
+\section{In-situ thermal management and annealing}
+\label{sec:thermal}
+\subsection{Deposition temperature and annealing temperature serve different purposes}
+Hot-glass printing must establish intimate contact at a new interface while preserving the geometry already deposited. Heating promotes flow and bonding but also allows deformation; cooling arrests geometry but develops gradients and eventually freezes stress. A heated build chamber consequently addresses only part of the problem. It does not automatically certify completion of annealing, and a chamber thermocouple does not directly measure the coldest or hottest point inside a thick section.
+
+G3DP2's separated thermal zones demonstrate an architecture that can manage melt preparation, delivery, and the receiving environment independently.\cite{acad_inamura2018} At smaller scales, Chen and colleagues report a closed-loop system adjusting CO$_2$ laser power from measured melt-zone temperature. Their quartz-glass experiments compare temperature-controlled deposition with constant-power cases and report improved formation quality. The paper supports feedback as an experimentally tested route; it does not establish that its sensor calibration, controller gains, or power limits transfer to another glass or optical arrangement. The article appeared online in December 2024 in the 2025 journal issue.\cite{acad_chen2025}
+
+\subsection{A thermal model with explicit boundary assumptions}
+For a continuum model with no internal chemical heat release, the local energy balance is
+\begin{equation}
+ \rho c_p(T)\left(\frac{\partial T}{\partial t}+\mathbf{u}\cdot\nabla T\right)
+ =\nabla\cdot\left(k(T)\nabla T\right)+q_{\mathrm{abs}}.
+ \label{eq:thermaltransport}
+\end{equation}
+Here $q_{\mathrm{abs}}$ represents absorbed volumetric heating. A solid or nearly arrested region can use $\mathbf{u}=0$; a flowing cord generally cannot. A common opaque-surface approximation is
+\begin{equation}
+ -k\nabla T\cdot\mathbf{n}
+ =h(T-T_\infty)+\epsilon\sigma_{\mathrm{SB}}(T^4-T_{\mathrm{sur}}^4)-q''_{\mathrm{laser}}.
+\end{equation}
+All fourth-power temperatures must be in kelvin. Surface and volumetric laser absorption are alternative idealizations and must not count the same energy twice. Semitransparent glass may require spectral radiative transfer rather than an opaque gray surface. Contact with the substrate introduces another uncertain boundary: real conductance depends on wetting, interface area, and local conformity.
+
+The dimensionless numbers
+\begin{equation}
+ \mathrm{Bi}=\frac{hL_c}{k},\qquad
+ \mathrm{Fo}=\frac{a t}{L_c^2},\qquad a=\frac{k}{\rho c_p}
+\end{equation}
+provide a first check on model selection. A small convective Biot number favors a lumped-temperature approximation, but radiation and contact losses must also be included before invoking that approximation. The diffusion time $t_d\sim L_c^2/a$ explains why the thickest thermal section often matters more than total height. Doubling a conduction distance multiplies this time estimate by four for unchanged properties and boundary conditions. These equations are engineering models presented for interpretation; this review does not claim a validated three-dimensional simulation of any cited printer.
+
+\subsection{Stress relaxation and cooling history}
+SCHOTT's technical guidance identifies annealing conditions, glass type, size, and geometry as determinants of residual stress. Its conventional upper annealing and strain-point viscosities are $10^{13}$ and $10^{14.5}$ dPa\,s, respectively, equivalent to $10^{12}$ and $10^{13.5}$ Pa\,s. Confusing these units shifts a viscosity curve by one decade. Fine annealing involves temperature equalization and controlled cooling through the relevant relaxation range; rapid cooling farther below that range can still cause damaging temporary stress.\cite{acad_schott2023}
+
+For interpretation, a Maxwell estimate gives a stress-relaxation time $\tau_M\sim\eta/G$, where $G$ is an appropriate shear modulus. The ratio $\tau_M/t_{\mathrm{process}}$ compares relaxation with the imposed thermal history. It is not a universal annealing recipe: real glass exhibits a relaxation spectrum and structural history dependence. Likewise, the restrained elastic estimate
+\begin{equation}
+ \sigma_{\mathrm{th}}\sim\frac{E\alpha_T\Delta T}{1-\nu}
+\end{equation}
+is a scale for stress magnitude, with coefficient depending on constraint and geometry. It must not be inserted as an exact residual-stress prediction for a free, three-dimensional print. Mechanical equilibrium, free surfaces, and viscoelastic relaxation determine the actual stress field.
+
+\subsection{A proposed measurement-driven annealing workflow}
+A defensible qualification program would first measure or obtain the specific batch's transition, expansion, and relaxation characteristics. Next, instrument a representative thick-section surrogate to estimate how chamber readings relate to internal temperature. Use that information to propose a dwell and cooling program, and verify the resulting parts by calibrated stress measurement and dimensional inspection. A hollow wall, solid base, and junction may require different local interpretation even within one object.
+
+For thermal imaging, record spectral band, viewing geometry, reflected surroundings, assumed emissivity, and calibration method. A visually stable thermal image is not evidence of an accurate absolute temperature if the camera sees transmitted or reflected radiation. Recycled-glass printing work by Stern and colleagues explicitly investigated glass-dependent viscosity and used infrared thermography during extrusion, emphasizing why changing feedstock requires renewed process characterization.\cite{acad_stern2024}
+
+In-situ heating and a separate annealing furnace should therefore be evaluated as a complete production schedule. Include transfer delays, loading orientation, furnace occupancy, and the slowest qualified cooling step when estimating throughput. A continuous lehr is a possible industrial design, but its residence-time distribution and compatibility with individually printed geometries would need demonstration. No operating continuous annealing lehr is inferred from the mere presence of a heated build chamber in the cited prototypes.

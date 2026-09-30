@@ -1,0 +1,990 @@
+{
+ "id": "https://openalex.org/W4391444785",
+ "doi": "https://doi.org/10.1007/s00170-024-13076-y",
+ "title": "A simulation model of selective laser melting (SLM) of glass silica monolayer",
+ "display_name": "A simulation model of selective laser melting (SLM) of glass silica monolayer",
+ "publication_year": 2024,
+ "publication_date": "2024-01-31",
+ "ids": {
+  "openalex": "https://openalex.org/W4391444785",
+  "doi": "https://doi.org/10.1007/s00170-024-13076-y"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s00170-024-13076-y",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s00170-024-13076-y",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+  "source": {
+   "id": "https://openalex.org/S77056576",
+   "display_name": "The International Journal of Advanced Manufacturing Technology",
+   "issn_l": "0268-3768",
+   "issn": [
+    "0268-3768",
+    "1433-3015"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "The International Journal of Advanced Manufacturing Technology",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5045264931",
+    "display_name": "Wanrui Zhang",
+    "orcid": "https://orcid.org/0009-0002-5739-1340"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I177725633",
+     "display_name": "Chinese University of Hong Kong",
+     "ror": "https://ror.org/00t33hh48",
+     "country_code": "HK",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I177725633"
+     ]
+    }
+   ],
+   "countries": [
+    "HK"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Wanrui Zhang",
+   "raw_affiliation_strings": [
+    "Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong, Shatin, NT, Hong Kong Special Administrative Region, Hong Kong"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0002-5739-1340",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong, Shatin, NT, Hong Kong Special Administrative Region, Hong Kong",
+     "institution_ids": [
+      "https://openalex.org/I177725633"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5045264931"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I177725633"
+ ],
+ "apc_list": {
+  "value": 3790,
+  "currency": "USD",
+  "value_usd": 3790
+ },
+ "apc_paid": {
+  "value": 3790,
+  "currency": "USD",
+  "value_usd": 3790
+ },
+ "fwci": 0.2458,
+ "has_fulltext": true,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": {
+  "value": 0.40496474,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 91,
+  "max": 94
+ },
+ "biblio": {
+  "volume": "131",
+  "issue": "1",
+  "first_page": "381",
+  "last_page": "391"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10732",
+  "display_name": "Laser Material Processing Techniques",
+  "score": 0.9879000186920166,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2206",
+   "display_name": "Computational Mechanics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9879000186920166,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9872999787330627,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9785000085830688,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.8773784637451172
+  },
+  {
+   "id": "https://openalex.org/keywords/monolayer",
+   "display_name": "Monolayer",
+   "score": 0.731907308101654
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.6364680528640747
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.48824289441108704
+  },
+  {
+   "id": "https://openalex.org/keywords/silica-glass",
+   "display_name": "Silica glass",
+   "score": 0.4873724579811096
+  },
+  {
+   "id": "https://openalex.org/keywords/chemical-engineering",
+   "display_name": "Chemical engineering",
+   "score": 0.370505154132843
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.3376666307449341
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.3168521225452423
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.23152020573616028
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.1863805055618286
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.07805606722831726
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.8773784637451172
+  },
+  {
+   "id": "https://openalex.org/C7070889",
+   "wikidata": "https://www.wikidata.org/wiki/Q902488",
+   "display_name": "Monolayer",
+   "level": 2,
+   "score": 0.731907308101654
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.6364680528640747
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.48824289441108704
+  },
+  {
+   "id": "https://openalex.org/C3020492233",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Silica glass",
+   "level": 2,
+   "score": 0.4873724579811096
+  },
+  {
+   "id": "https://openalex.org/C42360764",
+   "wikidata": "https://www.wikidata.org/wiki/Q83588",
+   "display_name": "Chemical engineering",
+   "level": 1,
+   "score": 0.370505154132843
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.3376666307449341
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.3168521225452423
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.23152020573616028
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.1863805055618286
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.07805606722831726
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/s00170-024-13076-y",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s00170-024-13076-y",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+   "source": {
+    "id": "https://openalex.org/S77056576",
+    "display_name": "The International Journal of Advanced Manufacturing Technology",
+    "issn_l": "0268-3768",
+    "issn": [
+     "0268-3768",
+     "1433-3015"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "The International Journal of Advanced Manufacturing Technology",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1007/s00170-024-13076-y",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s00170-024-13076-y",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+  "source": {
+   "id": "https://openalex.org/S77056576",
+   "display_name": "The International Journal of Advanced Manufacturing Technology",
+   "issn_l": "0268-3768",
+   "issn": [
+    "0268-3768",
+    "1433-3015"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "The International Journal of Advanced Manufacturing Technology",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4391444785.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4391444785.grobid-xml"
+ },
+ "referenced_works_count": 22,
+ "referenced_works": [
+  "https://openalex.org/W1970223841",
+  "https://openalex.org/W1980520839",
+  "https://openalex.org/W1984814873",
+  "https://openalex.org/W2015909044",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2048553479",
+  "https://openalex.org/W2050748471",
+  "https://openalex.org/W2079271027",
+  "https://openalex.org/W2079332321",
+  "https://openalex.org/W2088606919",
+  "https://openalex.org/W2090604768",
+  "https://openalex.org/W2104823535",
+  "https://openalex.org/W2146167535",
+  "https://openalex.org/W2521019653",
+  "https://openalex.org/W2537206211",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2607679063",
+  "https://openalex.org/W2963979042",
+  "https://openalex.org/W3042416841",
+  "https://openalex.org/W4224236646",
+  "https://openalex.org/W4235107758",
+  "https://openalex.org/W4313259881"
+ ],
+ "related_works": [
+  "https://openalex.org/W2072594297",
+  "https://openalex.org/W3061217114",
+  "https://openalex.org/W2050317300",
+  "https://openalex.org/W2037348326",
+  "https://openalex.org/W2051355712",
+  "https://openalex.org/W2376711334",
+  "https://openalex.org/W1974457739",
+  "https://openalex.org/W2981194423",
+  "https://openalex.org/W2921614548",
+  "https://openalex.org/W2318741150"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "Although": [
+   1
+  ],
+  "experimental": [
+   2,
+   120
+  ],
+  "research": [
+   3
+  ],
+  "demonstrates": [
+   4
+  ],
+  "the": [
+   5,
+   40,
+   55,
+   64,
+   71,
+   84,
+   90,
+   94,
+   100,
+   109,
+   123,
+   135,
+   147,
+   154,
+   190,
+   194,
+   199,
+   203,
+   219,
+   224
+  ],
+  "feasibility": [
+   6
+  ],
+  "of": [
+   7,
+   19,
+   43,
+   58,
+   70,
+   86,
+   93,
+   103,
+   125,
+   142,
+   149,
+   156,
+   193,
+   202
+  ],
+  "processing": [
+   8,
+   59,
+   129,
+   150,
+   220
+  ],
+  "glass": [
+   9,
+   44,
+   126,
+   196,
+   226
+  ],
+  "via": [
+   10,
+   228
+  ],
+  "selective": [
+   11
+  ],
+  "laser": [
+   12
+  ],
+  "melting": [
+   13
+  ],
+  "(SLM),": [
+   14
+  ],
+  "achieving": [
+   15
+  ],
+  "SLM": [
+   16,
+   75,
+   124
+  ],
+  "precision": [
+   17
+  ],
+  "manufacturing": [
+   18,
+   191
+  ],
+  "fused": [
+   20
+  ],
+  "silica": [
+   21
+  ],
+  "is": [
+   22
+  ],
+  "still": [
+   23
+  ],
+  "a": [
+   24,
+   30,
+   51,
+   79,
+   139,
+   184,
+   209
+  ],
+  "challenging": [
+   25
+  ],
+  "but": [
+   26
+  ],
+  "promising": [
+   27
+  ],
+  "field.": [
+   28
+  ],
+  "Therefore,": [
+   29
+  ],
+  "numerical": [
+   31,
+   110,
+   169,
+   204
+  ],
+  "model": [
+   32,
+   81,
+   111
+  ],
+  "was": [
+   33,
+   97,
+   173
+  ],
+  "developed": [
+   34
+  ],
+  "in": [
+   35
+  ],
+  "this": [
+   36,
+   168
+  ],
+  "work": [
+   37
+  ],
+  "to": [
+   38,
+   82,
+   217
+  ],
+  "predict": [
+   39
+  ],
+  "densification": [
+   41,
+   200
+  ],
+  "kinetics": [
+   42
+  ],
+  "powder": [
+   45,
+   72,
+   95
+  ],
+  "monolayer": [
+   46
+  ],
+  "under": [
+   47,
+   74
+  ],
+  "SLM,": [
+   48
+  ],
+  "which": [
+   49,
+   89,
+   213
+  ],
+  "provided": [
+   50
+  ],
+  "simulation": [
+   52,
+   136
+  ],
+  "tool": [
+   53
+  ],
+  "for": [
+   54,
+   122
+  ],
+  "optimization": [
+   56,
+   211
+  ],
+  "design": [
+   57
+  ],
+  "parameters.": [
+   60
+  ],
+  "To": [
+   61
+  ],
+  "be": [
+   62,
+   163,
+   215
+  ],
+  "particular,": [
+   63
+  ],
+  "relative": [
+   65
+  ],
+  "neck": [
+   66
+  ],
+  "diameter": [
+   67
+  ],
+  "and": [
+   68,
+   99,
+   159,
+   182,
+   222
+  ],
+  "density": [
+   69
+  ],
+  "bed": [
+   73,
+   96
+  ],
+  "were": [
+   76,
+   106
+  ],
+  "calculated": [
+   77
+  ],
+  "using": [
+   78,
+   114,
+   167,
+   176
+  ],
+  "cluster": [
+   80
+  ],
+  "simulate": [
+   83
+  ],
+  "degree": [
+   85
+  ],
+  "consolidation,": [
+   87
+  ],
+  "from": [
+   88,
+   131
+  ],
+  "thermal": [
+   91
+  ],
+  "diffusivity": [
+   92
+  ],
+  "determined": [
+   98
+  ],
+  "corresponding": [
+   101
+  ],
+  "results": [
+   102,
+   121,
+   137,
+   201
+  ],
+  "heat": [
+   104
+  ],
+  "transfer": [
+   105
+  ],
+  "obtained": [
+   107,
+   195
+  ],
+  "through": [
+   108
+  ],
+  "implemented": [
+   112
+  ],
+  "by": [
+   113,
+   166
+  ],
+  "finite": [
+   115
+  ],
+  "difference": [
+   116
+  ],
+  "method": [
+   117
+  ],
+  "(FDM).": [
+   118
+  ],
+  "The": [
+   119
+  ],
+  "with": [
+   127,
+   138,
+   178
+  ],
+  "different": [
+   128
+  ],
+  "parameters": [
+   130,
+   221
+  ],
+  "other": [
+   132
+  ],
+  "references": [
+   133
+  ],
+  "validated": [
+   134
+  ],
+  "prediction": [
+   140
+  ],
+  "error": [
+   141
+  ],
+  "less": [
+   143
+  ],
+  "than": [
+   144
+  ],
+  "2%.": [
+   145
+  ],
+  "Hence,": [
+   146
+  ],
+  "effects": [
+   148
+  ],
+  "settings,": [
+   151
+  ],
+  "such": [
+   152
+  ],
+  "as": [
+   153
+  ],
+  "influence": [
+   155
+  ],
+  "particle": [
+   157,
+   180
+  ],
+  "size": [
+   158
+  ],
+  "preheating": [
+   160
+  ],
+  "temperature,": [
+   161
+  ],
+  "could": [
+   162,
+   188,
+   214
+  ],
+  "accurately": [
+   164
+  ],
+  "investigated": [
+   165
+  ],
+  "modelling": [
+   170
+  ],
+  "method.": [
+   171
+  ],
+  "It": [
+   172
+  ],
+  "found": [
+   174
+  ],
+  "that": [
+   175
+  ],
+  "powders": [
+   177
+  ],
+  "smaller": [
+   179
+  ],
+  "sizes": [
+   181
+  ],
+  "setting": [
+   183
+  ],
+  "higher": [
+   185
+  ],
+  "preheat": [
+   186
+  ],
+  "temperature": [
+   187
+  ],
+  "improve": [
+   189
+  ],
+  "quality": [
+   192
+  ],
+  "parts.": [
+   197
+  ],
+  "From": [
+   198
+  ],
+  "modelling,": [
+   205
+  ],
+  "we": [
+   206
+  ],
+  "also": [
+   207
+  ],
+  "introduced": [
+   208
+  ],
+  "novel": [
+   210
+  ],
+  "criterion,": [
+   212
+  ],
+  "utilized": [
+   216
+  ],
+  "optimise": [
+   218
+  ],
+  "fabricate": [
+   223
+  ],
+  "high-purity": [
+   225
+  ],
+  "parts": [
+   227
+  ],
+  "SLM.": [
+   229
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-08-28T12:50:07.497085",
+ "created_date": "2025-10-10T00:00:00"
+}

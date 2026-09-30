@@ -1,0 +1,1165 @@
+{
+ "id": "https://openalex.org/W2019702531",
+ "doi": "https://doi.org/10.1016/j.phpro.2014.08.117",
+ "title": "On the Possibility of Selective Laser Melting of Quartz Glass",
+ "display_name": "On the Possibility of Selective Laser Melting of Quartz Glass",
+ "relevance_score": 2958.489,
+ "publication_year": 2014,
+ "publication_date": "2014-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2019702531",
+  "doi": "https://doi.org/10.1016/j.phpro.2014.08.117",
+  "mag": "2019702531"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.phpro.2014.08.117",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.phpro.2014.08.117",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S132457063",
+   "display_name": "Physics Procedia",
+   "issn_l": "1875-3892",
+   "issn": [
+    "1875-3892"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Physics Procedia",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "diamond",
+  "oa_url": "https://doi.org/10.1016/j.phpro.2014.08.117",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5086295663",
+    "display_name": "Roman Sergeevich Khmyrov",
+    "orcid": "https://orcid.org/0000-0001-5284-9215",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5284-9215"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "R.S. Khmyrov",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky pereulok 3a, 127055 Moscow, Russia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky pereulok 3a, 127055 Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5012630849",
+    "display_name": "Sergey Nikolaevich Grigoriev",
+    "orcid": "https://orcid.org/0000-0002-8239-5354",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8239-5354",
+     "https://orcid.org/0000-0002-1760-1959"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "S.N. Grigoriev",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky pereulok 3a, 127055 Moscow, Russia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky pereulok 3a, 127055 Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5043565675",
+    "display_name": "Anna A. Okunkova",
+    "orcid": "https://orcid.org/0000-0002-3897-8587",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3897-8587"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19880235",
+     "display_name": "Lomonosov Moscow State University",
+     "ror": "https://ror.org/010pmpe69",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19880235"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2801681975",
+     "display_name": "Moscow State Technological University",
+     "ror": "https://ror.org/05jv2yg47",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2801681975"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210134318",
+     "display_name": "University of Technology",
+     "ror": "https://ror.org/03gbw6p94",
+     "country_code": "RU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ],
+   "countries": [
+    "RU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "A.A. Okunkova",
+   "raw_affiliation_strings": [
+    "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky pereulok 3a, 127055 Moscow, Russia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Moscow State University of Technology \u201cSTANKIN\u201d, Vadkovsky pereulok 3a, 127055 Moscow, Russia",
+     "institution_ids": [
+      "https://openalex.org/I19880235",
+      "https://openalex.org/I2801681975",
+      "https://openalex.org/I4210134318"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5002618272",
+    "display_name": "Andrey Vladimirovich Gusarov",
+    "orcid": "https://orcid.org/0000-0002-8908-1737",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8908-1737"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154490720",
+     "display_name": "Centrale Lyon ENISE",
+     "ror": "https://ror.org/017cfeh02",
+     "country_code": "FR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I112936343",
+      "https://openalex.org/I154490720",
+      "https://openalex.org/I203339264"
+     ]
+    }
+   ],
+   "countries": [
+    "FR"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "A.V. Gusarov",
+   "raw_affiliation_strings": [
+    "Ecole Nationale d\u2019Ing\u00e9nieurs de Saint-Etienne, 58 rue Jean Parot,42023 Saint-Etienne, France",
+    "Ecole Nationale d' Ing\u00e9nieurs de Saint-Etienne, 58 rue Jean Parot, 42023 Saint-Etienne, France"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Ecole Nationale d\u2019Ing\u00e9nieurs de Saint-Etienne, 58 rue Jean Parot,42023 Saint-Etienne, France",
+     "institution_ids": [
+      "https://openalex.org/I154490720"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Ecole Nationale d' Ing\u00e9nieurs de Saint-Etienne, 58 rue Jean Parot, 42023 Saint-Etienne, France",
+     "institution_ids": [
+      "https://openalex.org/I154490720"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002618272"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I154490720"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 6.3297,
+ "has_fulltext": false,
+ "cited_by_count": 89,
+ "citation_normalized_percentile": {
+  "value": 0.96375618,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "56",
+  "issue": null,
+  "first_page": "345",
+  "last_page": "356"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10705",
+  "display_name": "Additive Manufacturing Materials and Processes",
+  "score": 0.9965999722480774,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9965999722480774,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9947999715805054,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9855999946594238,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.9115469455718994
+  },
+  {
+   "id": "https://openalex.org/keywords/bead",
+   "display_name": "Bead",
+   "score": 0.7176998257637024
+  },
+  {
+   "id": "https://openalex.org/keywords/evaporation",
+   "display_name": "Evaporation",
+   "score": 0.6551246643066406
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.6529389023780823
+  },
+  {
+   "id": "https://openalex.org/keywords/porosity",
+   "display_name": "Porosity",
+   "score": 0.6522080898284912
+  },
+  {
+   "id": "https://openalex.org/keywords/substrate",
+   "display_name": "Substrate (aquarium)",
+   "score": 0.6449866890907288
+  },
+  {
+   "id": "https://openalex.org/keywords/ceramic",
+   "display_name": "Ceramic",
+   "score": 0.5723782777786255
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.5669061541557312
+  },
+  {
+   "id": "https://openalex.org/keywords/quartz",
+   "display_name": "Quartz",
+   "score": 0.5491943955421448
+  },
+  {
+   "id": "https://openalex.org/keywords/layer",
+   "display_name": "Layer (electronics)",
+   "score": 0.4950208067893982
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.48926040530204773
+  },
+  {
+   "id": "https://openalex.org/keywords/fused-quartz",
+   "display_name": "Fused quartz",
+   "score": 0.4644384980201721
+  },
+  {
+   "id": "https://openalex.org/keywords/adhesive",
+   "display_name": "Adhesive",
+   "score": 0.4296953082084656
+  },
+  {
+   "id": "https://openalex.org/keywords/adhesion",
+   "display_name": "Adhesion",
+   "score": 0.41251999139785767
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.12630480527877808
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.9115469455718994
+  },
+  {
+   "id": "https://openalex.org/C109386097",
+   "wikidata": "https://www.wikidata.org/wiki/Q1053956",
+   "display_name": "Bead",
+   "level": 2,
+   "score": 0.7176998257637024
+  },
+  {
+   "id": "https://openalex.org/C61441594",
+   "wikidata": "https://www.wikidata.org/wiki/Q132814",
+   "display_name": "Evaporation",
+   "level": 2,
+   "score": 0.6551246643066406
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.6529389023780823
+  },
+  {
+   "id": "https://openalex.org/C6648577",
+   "wikidata": "https://www.wikidata.org/wiki/Q622669",
+   "display_name": "Porosity",
+   "level": 2,
+   "score": 0.6522080898284912
+  },
+  {
+   "id": "https://openalex.org/C2777289219",
+   "wikidata": "https://www.wikidata.org/wiki/Q7632154",
+   "display_name": "Substrate (aquarium)",
+   "level": 2,
+   "score": 0.6449866890907288
+  },
+  {
+   "id": "https://openalex.org/C134132462",
+   "wikidata": "https://www.wikidata.org/wiki/Q45621",
+   "display_name": "Ceramic",
+   "level": 2,
+   "score": 0.5723782777786255
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.5669061541557312
+  },
+  {
+   "id": "https://openalex.org/C2779870107",
+   "wikidata": "https://www.wikidata.org/wiki/Q43010",
+   "display_name": "Quartz",
+   "level": 2,
+   "score": 0.5491943955421448
+  },
+  {
+   "id": "https://openalex.org/C2779227376",
+   "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+   "display_name": "Layer (electronics)",
+   "level": 2,
+   "score": 0.4950208067893982
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.48926040530204773
+  },
+  {
+   "id": "https://openalex.org/C2779441425",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Fused quartz",
+   "level": 3,
+   "score": 0.4644384980201721
+  },
+  {
+   "id": "https://openalex.org/C68928338",
+   "wikidata": "https://www.wikidata.org/wiki/Q131790",
+   "display_name": "Adhesive",
+   "level": 3,
+   "score": 0.4296953082084656
+  },
+  {
+   "id": "https://openalex.org/C84416704",
+   "wikidata": "https://www.wikidata.org/wiki/Q188666",
+   "display_name": "Adhesion",
+   "level": 2,
+   "score": 0.41251999139785767
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.12630480527877808
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C127313418",
+   "wikidata": "https://www.wikidata.org/wiki/Q1069",
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111368507",
+   "wikidata": "https://www.wikidata.org/wiki/Q43518",
+   "display_name": "Oceanography",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.phpro.2014.08.117",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.phpro.2014.08.117",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S132457063",
+    "display_name": "Physics Procedia",
+    "issn_l": "1875-3892",
+    "issn": [
+     "1875-3892"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Physics Procedia",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.phpro.2014.08.117",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.phpro.2014.08.117",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S132457063",
+   "display_name": "Physics Procedia",
+   "issn_l": "1875-3892",
+   "issn": [
+    "1875-3892"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Physics Procedia",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 16,
+ "referenced_works": [
+  "https://openalex.org/W354698498",
+  "https://openalex.org/W379626798",
+  "https://openalex.org/W587550128",
+  "https://openalex.org/W1972817828",
+  "https://openalex.org/W1977873222",
+  "https://openalex.org/W1995972389",
+  "https://openalex.org/W2012587336",
+  "https://openalex.org/W2023130848",
+  "https://openalex.org/W2024853952",
+  "https://openalex.org/W2024940286",
+  "https://openalex.org/W2046024468",
+  "https://openalex.org/W2058515258",
+  "https://openalex.org/W2081385002",
+  "https://openalex.org/W2085673397",
+  "https://openalex.org/W2464251702",
+  "https://openalex.org/W3187596537"
+ ],
+ "related_works": [
+  "https://openalex.org/W2324063386",
+  "https://openalex.org/W2080364432",
+  "https://openalex.org/W3210380514",
+  "https://openalex.org/W4310525441",
+  "https://openalex.org/W4309764928",
+  "https://openalex.org/W4310123716",
+  "https://openalex.org/W2091378077",
+  "https://openalex.org/W2101369562",
+  "https://openalex.org/W2087176794",
+  "https://openalex.org/W2163971243"
+ ],
+ "abstract_inverted_index": {
+  "Quartz": [
+   0
+  ],
+  "glass": [
+   1
+  ],
+  "is": [
+   2,
+   62,
+   121,
+   145
+  ],
+  "considered": [
+   3
+  ],
+  "as": [
+   4
+  ],
+  "model": [
+   5
+  ],
+  "ceramic": [
+   6
+  ],
+  "material": [
+   7,
+   26
+  ],
+  "for": [
+   8,
+   67,
+   107
+  ],
+  "selective": [
+   9
+  ],
+  "laser": [
+   10
+  ],
+  "melting": [
+   11
+  ],
+  "(SLM).": [
+   12
+  ],
+  "Single": [
+   13
+  ],
+  "beads": [
+   14,
+   31,
+   44,
+   61
+  ],
+  "of": [
+   15,
+   23,
+   47,
+   58,
+   69,
+   77,
+   116,
+   140
+  ],
+  "fused": [
+   16
+  ],
+  "powder": [
+   17,
+   119,
+   144
+  ],
+  "bonded": [
+   18
+  ],
+  "with": [
+   19,
+   75,
+   110,
+   133
+  ],
+  "a": [
+   20
+  ],
+  "continuous": [
+   21
+  ],
+  "substrate": [
+   22,
+   53,
+   97,
+   132
+  ],
+  "the": [
+   24,
+   30,
+   33,
+   43,
+   48,
+   52,
+   59,
+   84,
+   87,
+   96,
+   111,
+   114,
+   117,
+   125,
+   128,
+   131,
+   134,
+   138,
+   141,
+   149,
+   154,
+   159
+  ],
+  "same": [
+   25
+  ],
+  "are": [
+   27,
+   37,
+   54,
+   92
+  ],
+  "obtained.": [
+   28
+  ],
+  "Neither": [
+   29
+  ],
+  "nor": [
+   32
+  ],
+  "substrates": [
+   34
+  ],
+  "near": [
+   35
+  ],
+  "them": [
+   36
+  ],
+  "cracked.": [
+   38
+  ],
+  "Low": [
+   39
+  ],
+  "closed": [
+   40,
+   151
+  ],
+  "porosity": [
+   41,
+   152
+  ],
+  "in": [
+   42,
+   137,
+   153
+  ],
+  "and": [
+   45,
+   80,
+   86,
+   94,
+   130,
+   156
+  ],
+  "detachment": [
+   46
+  ],
+  "bead": [
+   49,
+   129,
+   155
+  ],
+  "borders": [
+   50
+  ],
+  "from": [
+   51
+  ],
+  "observed.": [
+   55
+  ],
+  "The": [
+   56
+  ],
+  "quality": [
+   57
+  ],
+  "obtained": [
+   60
+  ],
+  "estimated": [
+   63
+  ],
+  "to": [
+   64,
+   104,
+   123,
+   147,
+   157
+  ],
+  "be": [
+   65,
+   100
+  ],
+  "sufficient": [
+   66
+  ],
+  "fabrication": [
+   68
+  ],
+  "three-dimensional": [
+   70
+  ],
+  "parts": [
+   71
+  ],
+  "by": [
+   72,
+   90
+  ],
+  "SLM.": [
+   73
+  ],
+  "Comparison": [
+   74
+  ],
+  "calculations": [
+   76
+  ],
+  "heat": [
+   78
+  ],
+  "transfer": [
+   79
+  ],
+  "evaporation": [
+   81,
+   91
+  ],
+  "reveals": [
+   82
+  ],
+  "that": [
+   83,
+   95
+  ],
+  "mass": [
+   85
+  ],
+  "energy": [
+   88
+  ],
+  "losses": [
+   89
+  ],
+  "considerable": [
+   93
+  ],
+  "surface": [
+   98
+  ],
+  "should": [
+   99
+  ],
+  "locally": [
+   101
+  ],
+  "heated": [
+   102
+  ],
+  "up": [
+   103
+  ],
+  "1600": [
+   105
+  ],
+  "K": [
+   106
+  ],
+  "strong": [
+   108
+  ],
+  "bonding": [
+   109
+  ],
+  "bead.": [
+   112
+  ],
+  "Decreasing": [
+   113
+  ],
+  "thickness": [
+   115
+  ],
+  "deposited": [
+   118
+  ],
+  "layer": [
+   120
+  ],
+  "proposed": [
+   122
+  ],
+  "improve": [
+   124
+  ],
+  "adhesion": [
+   126
+  ],
+  "between": [
+   127
+  ],
+  "minimum": [
+   135
+  ],
+  "loss": [
+   136
+  ],
+  "productivity": [
+   139
+  ],
+  "process.": [
+   142
+  ],
+  "Finer": [
+   143
+  ],
+  "expected": [
+   146
+  ],
+  "decrease": [
+   148
+  ],
+  "residual": [
+   150
+  ],
+  "make": [
+   158
+  ],
+  "pores": [
+   160
+  ],
+  "finer": [
+   161
+  ],
+  "too.": [
+   162
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

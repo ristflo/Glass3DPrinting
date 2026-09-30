@@ -1,0 +1,1534 @@
+{
+ "id": "https://openalex.org/W4388996518",
+ "doi": "https://doi.org/10.1016/j.addma.2023.103899",
+ "title": "3D soft glass printing of preforms for microstructured optical fibers",
+ "display_name": "3D soft glass printing of preforms for microstructured optical fibers",
+ "relevance_score": 1925.1196,
+ "publication_year": 2023,
+ "publication_date": "2023-11-25",
+ "ids": {
+  "openalex": "https://openalex.org/W4388996518",
+  "doi": "https://doi.org/10.1016/j.addma.2023.103899"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.addma.2023.103899",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.addma.2023.103899",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764842179",
+   "display_name": "Additive manufacturing",
+   "issn_l": "2214-7810",
+   "issn": [
+    "2214-7810",
+    "2214-8604"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://doi.org/10.1016/j.addma.2023.103899",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5002921014",
+    "display_name": "Przemys\u0142aw Go\u0142\u0119biewski",
+    "orcid": "https://orcid.org/0000-0002-3892-2188",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3892-2188"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4654613",
+     "display_name": "University of Warsaw",
+     "ror": "https://ror.org/039bjqg32",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4654613"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Przemys\u0142aw Go\u0142\u0119biewski",
+   "raw_affiliation_strings": [
+    "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+     "institution_ids": [
+      "https://openalex.org/I4654613"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5092093061",
+    "display_name": "Pawe\u0142 Wienc\u0142aw",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4654613",
+     "display_name": "University of Warsaw",
+     "ror": "https://ror.org/039bjqg32",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4654613"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Pawe\u0142 Wienc\u0142aw",
+   "raw_affiliation_strings": [
+    "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+    "Sygnis S.A. Al. Grunwaldzka 472, 80-309 Gdansk, Poland"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+     "institution_ids": [
+      "https://openalex.org/I4654613"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Sygnis S.A. Al. Grunwaldzka 472, 80-309 Gdansk, Poland",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5067380619",
+    "display_name": "Jaros\u0142aw Cimek",
+    "orcid": "https://orcid.org/0000-0002-1886-7986",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1886-7986"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jaros\u0142aw Cimek",
+   "raw_affiliation_strings": [
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5056805600",
+    "display_name": "Pawe\u0142 Socha",
+    "orcid": "https://orcid.org/0000-0001-7178-5587",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7178-5587"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Pawe\u0142 Socha",
+   "raw_affiliation_strings": [
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5049314284",
+    "display_name": "Dariusz Pysz",
+    "orcid": "https://orcid.org/0000-0002-6092-8770",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6092-8770"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dariusz Pysz",
+   "raw_affiliation_strings": [
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5081661592",
+    "display_name": "Adam Filipkowski",
+    "orcid": "https://orcid.org/0000-0002-1027-6751",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1027-6751"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4654613",
+     "display_name": "University of Warsaw",
+     "ror": "https://ror.org/039bjqg32",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4654613"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Adam Filipkowski",
+   "raw_affiliation_strings": [
+    "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+     "institution_ids": [
+      "https://openalex.org/I4654613"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5109102752",
+    "display_name": "Grzegorz St\u0119pniewski",
+    "orcid": "https://orcid.org/0000-0003-2286-6764",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2286-6764"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4654613",
+     "display_name": "University of Warsaw",
+     "ror": "https://ror.org/039bjqg32",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4654613"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Grzegorz St\u0119pniewski",
+   "raw_affiliation_strings": [
+    "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+     "institution_ids": [
+      "https://openalex.org/I4654613"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5097450162",
+    "display_name": "Olga Czerwi\u0144ska",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Olga Czerwi\u0144ska",
+   "raw_affiliation_strings": [
+    "Sygnis S.A. Al. Grunwaldzka 472, 80-309 Gdansk, Poland"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sygnis S.A. Al. Grunwaldzka 472, 80-309 Gdansk, Poland",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5066852400",
+    "display_name": "Ireneusz Kujawa",
+    "orcid": "https://orcid.org/0000-0001-8593-0319",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8593-0319"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ireneusz Kujawa",
+   "raw_affiliation_strings": [
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5018362437",
+    "display_name": "Ryszard St\u0119pie\u0144",
+    "orcid": "https://orcid.org/0000-0003-2352-6382",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2352-6382"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ryszard St\u0119pie\u0144",
+   "raw_affiliation_strings": [
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5045688111",
+    "display_name": "Rafa\u0142 Kasztelanic",
+    "orcid": "https://orcid.org/0000-0002-6901-4641",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6901-4641"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4654613",
+     "display_name": "University of Warsaw",
+     "ror": "https://ror.org/039bjqg32",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4654613"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Rafa\u0142 Kasztelanic",
+   "raw_affiliation_strings": [
+    "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+     "institution_ids": [
+      "https://openalex.org/I4654613"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5093336290",
+    "display_name": "Andrzej Burgs",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Andrzej Burgs",
+   "raw_affiliation_strings": [
+    "Sygnis S.A. Al. Grunwaldzka 472, 80-309 Gdansk, Poland"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sygnis S.A. Al. Grunwaldzka 472, 80-309 Gdansk, Poland",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5042860571",
+    "display_name": "Ryszard R. Buczynski",
+    "orcid": "https://orcid.org/0000-0003-2863-725X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2863-725X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210129336",
+     "display_name": "\u0141ukasiewicz Research Network",
+     "ror": "https://ror.org/036f4sz05",
+     "country_code": "PL",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210129336"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4654613",
+     "display_name": "University of Warsaw",
+     "ror": "https://ror.org/039bjqg32",
+     "country_code": "PL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I4654613"
+     ]
+    }
+   ],
+   "countries": [
+    "PL"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Ryszard Buczy\u0144ski",
+   "raw_affiliation_strings": [
+    "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+    "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Physics, Warsaw University, Pasteura 5, 02-093 Warsaw, Poland",
+     "institution_ids": [
+      "https://openalex.org/I4654613"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Lukasiewicz Research Network, Institute of Microelectronics and Photonics, Al. Lotnikow 32/46, 02-668 Warsaw, Poland 3",
+     "institution_ids": [
+      "https://openalex.org/I4210129336"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5042860571"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I4210129336",
+  "https://openalex.org/I4654613"
+ ],
+ "apc_list": {
+  "value": 3350,
+  "currency": "USD",
+  "value_usd": 3350
+ },
+ "apc_paid": {
+  "value": 3350,
+  "currency": "USD",
+  "value_usd": 3350
+ },
+ "fwci": 1.2528,
+ "has_fulltext": false,
+ "cited_by_count": 18,
+ "citation_normalized_percentile": {
+  "value": 0.77148974,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 96,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "79",
+  "issue": null,
+  "first_page": "103899",
+  "last_page": "103899"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9800000190734863,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9800000190734863,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12570",
+   "display_name": "Photopolymerization techniques and applications",
+   "score": 0.9747999906539917,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1605",
+    "display_name": "Organic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11788",
+   "display_name": "Nonlinear Optical Materials Studies",
+   "score": 0.9599999785423279,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.8761100769042969
+  },
+  {
+   "id": "https://openalex.org/keywords/cladding",
+   "display_name": "Cladding (metalworking)",
+   "score": 0.6075681447982788
+  },
+  {
+   "id": "https://openalex.org/keywords/photonic-crystal-fiber",
+   "display_name": "Photonic-crystal fiber",
+   "score": 0.597072958946228
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-fiber",
+   "display_name": "Optical fiber",
+   "score": 0.5464051365852356
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.4646088182926178
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructured-optical-fiber",
+   "display_name": "Microstructured optical fiber",
+   "score": 0.46375802159309387
+  },
+  {
+   "id": "https://openalex.org/keywords/hard-clad-silica-optical-fiber",
+   "display_name": "Hard-clad silica optical fiber",
+   "score": 0.4616832137107849
+  },
+  {
+   "id": "https://openalex.org/keywords/all-silica-fiber",
+   "display_name": "All-silica fiber",
+   "score": 0.4593307375907898
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.40877267718315125
+  },
+  {
+   "id": "https://openalex.org/keywords/fiber",
+   "display_name": "Fiber",
+   "score": 0.3786506950855255
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.3555270731449127
+  },
+  {
+   "id": "https://openalex.org/keywords/plastic-optical-fiber",
+   "display_name": "Plastic optical fiber",
+   "score": 0.323827862739563
+  },
+  {
+   "id": "https://openalex.org/keywords/fiber-optic-sensor",
+   "display_name": "Fiber optic sensor",
+   "score": 0.18647539615631104
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.8761100769042969
+  },
+  {
+   "id": "https://openalex.org/C36456112",
+   "wikidata": "https://www.wikidata.org/wiki/Q288064",
+   "display_name": "Cladding (metalworking)",
+   "level": 2,
+   "score": 0.6075681447982788
+  },
+  {
+   "id": "https://openalex.org/C107157254",
+   "wikidata": "https://www.wikidata.org/wiki/Q1256244",
+   "display_name": "Photonic-crystal fiber",
+   "level": 3,
+   "score": 0.597072958946228
+  },
+  {
+   "id": "https://openalex.org/C194232370",
+   "wikidata": "https://www.wikidata.org/wiki/Q162",
+   "display_name": "Optical fiber",
+   "level": 2,
+   "score": 0.5464051365852356
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.4646088182926178
+  },
+  {
+   "id": "https://openalex.org/C148582644",
+   "wikidata": "https://www.wikidata.org/wiki/Q6840368",
+   "display_name": "Microstructured optical fiber",
+   "level": 5,
+   "score": 0.46375802159309387
+  },
+  {
+   "id": "https://openalex.org/C50527892",
+   "wikidata": "https://www.wikidata.org/wiki/Q1584974",
+   "display_name": "Hard-clad silica optical fiber",
+   "level": 5,
+   "score": 0.4616832137107849
+  },
+  {
+   "id": "https://openalex.org/C30946103",
+   "wikidata": "https://www.wikidata.org/wiki/Q4728372",
+   "display_name": "All-silica fiber",
+   "level": 5,
+   "score": 0.4593307375907898
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.40877267718315125
+  },
+  {
+   "id": "https://openalex.org/C519885992",
+   "wikidata": "https://www.wikidata.org/wiki/Q161",
+   "display_name": "Fiber",
+   "level": 2,
+   "score": 0.3786506950855255
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.3555270731449127
+  },
+  {
+   "id": "https://openalex.org/C203637571",
+   "wikidata": "https://www.wikidata.org/wiki/Q812875",
+   "display_name": "Plastic optical fiber",
+   "level": 4,
+   "score": 0.323827862739563
+  },
+  {
+   "id": "https://openalex.org/C21651689",
+   "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+   "display_name": "Fiber optic sensor",
+   "level": 3,
+   "score": 0.18647539615631104
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.addma.2023.103899",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.addma.2023.103899",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764842179",
+    "display_name": "Additive manufacturing",
+    "issn_l": "2214-7810",
+    "issn": [
+     "2214-7810",
+     "2214-8604"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Additive Manufacturing",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.addma.2023.103899",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.addma.2023.103899",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764842179",
+   "display_name": "Additive manufacturing",
+   "issn_l": "2214-7810",
+   "issn": [
+    "2214-7810",
+    "2214-8604"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G5443263255",
+   "display_name": null,
+   "funder_award_id": "POIR.01.01.01-00-1326/17",
+   "funder_id": "https://openalex.org/F4320335322",
+   "funder_display_name": "European Regional Development Fund"
+  },
+  {
+   "id": "https://openalex.org/G5841626880",
+   "display_name": null,
+   "funder_award_id": "779472",
+   "funder_id": "https://openalex.org/F4320334322",
+   "funder_display_name": "HORIZON EUROPE Framework Programme"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320320300",
+   "display_name": "European Commission",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320322511",
+   "display_name": "Narodowe Centrum Nauki",
+   "ror": "https://ror.org/03ha2q922"
+  },
+  {
+   "id": "https://openalex.org/F4320332999",
+   "display_name": "Horizon 2020 Framework Programme",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320334322",
+   "display_name": "HORIZON EUROPE Framework Programme",
+   "ror": null
+  },
+  {
+   "id": "https://openalex.org/F4320335322",
+   "display_name": "European Regional Development Fund",
+   "ror": "https://ror.org/00k4n6c32"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 46,
+ "referenced_works": [
+  "https://openalex.org/W1795758901",
+  "https://openalex.org/W1999819240",
+  "https://openalex.org/W2017342572",
+  "https://openalex.org/W2023932408",
+  "https://openalex.org/W2024557266",
+  "https://openalex.org/W2046550001",
+  "https://openalex.org/W2132446703",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2296932825",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2741181432",
+  "https://openalex.org/W2752270631",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2900429435",
+  "https://openalex.org/W2900608483",
+  "https://openalex.org/W2914374315",
+  "https://openalex.org/W2924373750",
+  "https://openalex.org/W2938119208",
+  "https://openalex.org/W2956657545",
+  "https://openalex.org/W2966927321",
+  "https://openalex.org/W2979700798",
+  "https://openalex.org/W2982673880",
+  "https://openalex.org/W2999729355",
+  "https://openalex.org/W3011779622",
+  "https://openalex.org/W3013324035",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3088435639",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3117636712",
+  "https://openalex.org/W3123355763",
+  "https://openalex.org/W3157627332",
+  "https://openalex.org/W3202058913",
+  "https://openalex.org/W3206401333",
+  "https://openalex.org/W3217492279",
+  "https://openalex.org/W4205999949",
+  "https://openalex.org/W4226212562",
+  "https://openalex.org/W4226226132",
+  "https://openalex.org/W4293221272",
+  "https://openalex.org/W4311209817",
+  "https://openalex.org/W4385362165",
+  "https://openalex.org/W6650235008",
+  "https://openalex.org/W6729617267",
+  "https://openalex.org/W6748029883",
+  "https://openalex.org/W6761349647"
+ ],
+ "related_works": [
+  "https://openalex.org/W1968656119",
+  "https://openalex.org/W3110630773",
+  "https://openalex.org/W41941024",
+  "https://openalex.org/W1992338536",
+  "https://openalex.org/W2119456834",
+  "https://openalex.org/W1485940799",
+  "https://openalex.org/W2556625058",
+  "https://openalex.org/W2071053020",
+  "https://openalex.org/W2153183873",
+  "https://openalex.org/W1986314468"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   149
+  ],
+  "report": [
+   1
+  ],
+  "on": [
+   2,
+   52,
+   64
+  ],
+  "the": [
+   3,
+   12,
+   59,
+   65,
+   87,
+   140,
+   165
+  ],
+  "development": [
+   4,
+   88
+  ],
+  "of": [
+   5,
+   14,
+   55,
+   67,
+   74,
+   89,
+   99,
+   104,
+   112,
+   120,
+   127,
+   155,
+   167
+  ],
+  "a": [
+   6,
+   22,
+   30,
+   39,
+   72,
+   110,
+   114,
+   121,
+   144,
+   151
+  ],
+  "3D": [
+   7,
+   37,
+   53
+  ],
+  "printing": [
+   8,
+   20,
+   54
+  ],
+  "process": [
+   9,
+   61
+  ],
+  "dedicated": [
+   10
+  ],
+  "to": [
+   11,
+   49,
+   77
+  ],
+  "production": [
+   13
+  ],
+  "soft": [
+   15
+  ],
+  "glass": [
+   16,
+   27,
+   45
+  ],
+  "optical": [
+   17,
+   56,
+   91,
+   141
+  ],
+  "fibers.": [
+   18
+  ],
+  "Direct": [
+   19
+  ],
+  "with": [
+   21,
+   29,
+   71,
+   102,
+   172
+  ],
+  "miniaturized": [
+   23
+  ],
+  "crucible": [
+   24
+  ],
+  "for": [
+   25
+  ],
+  "melting": [
+   26
+  ],
+  "blocks": [
+   28
+  ],
+  "pneumatic": [
+   31
+  ],
+  "extrusion": [
+   32
+  ],
+  "head": [
+   33
+  ],
+  "was": [
+   34,
+   46,
+   107,
+   134
+  ],
+  "established.": [
+   35
+  ],
+  "For": [
+   36
+  ],
+  "printing,": [
+   38
+  ],
+  "developed": [
+   40
+  ],
+  "in-house": [
+   41
+  ],
+  "heavy": [
+   42
+  ],
+  "metal": [
+   43
+  ],
+  "oxide": [
+   44
+  ],
+  "used.": [
+   47
+  ],
+  "Contrary": [
+   48
+  ],
+  "previous": [
+   50
+  ],
+  "studies": [
+   51
+  ],
+  "fiber": [
+   57,
+   92,
+   96,
+   117,
+   142,
+   146
+  ],
+  "preforms,": [
+   58
+  ],
+  "proposed": [
+   60
+  ],
+  "is": [
+   62
+  ],
+  "based": [
+   63
+  ],
+  "deposition": [
+   66
+  ],
+  "straight": [
+   68
+  ],
+  "horizontally-oriented": [
+   69
+  ],
+  "lines": [
+   70
+  ],
+  "diameter": [
+   73
+  ],
+  "300-500": [
+   75
+  ],
+  "\u00b5m": [
+   76,
+   171
+  ],
+  "replace": [
+   78
+  ],
+  "standard": [
+   79,
+   145
+  ],
+  "stack-and-draw": [
+   80
+  ],
+  "manual": [
+   81
+  ],
+  "assembly": [
+   82
+  ],
+  "technique": [
+   83
+  ],
+  "typically": [
+   84
+  ],
+  "used": [
+   85
+  ],
+  "in": [
+   86,
+   130,
+   164
+  ],
+  "microstructured": [
+   90
+  ],
+  "preforms.": [
+   93
+  ],
+  "A": [
+   94
+  ],
+  "test": [
+   95
+  ],
+  "preform": [
+   97,
+   118
+  ],
+  "composed": [
+   98,
+   119
+  ],
+  "2500": [
+   100
+  ],
+  "microrods": [
+   101
+  ],
+  "dimensions": [
+   103
+  ],
+  "60x25x25": [
+   105
+  ],
+  "mm": [
+   106
+  ],
+  "printed.": [
+   108
+  ],
+  "As": [
+   109
+  ],
+  "proof": [
+   111
+  ],
+  "concept,": [
+   113
+  ],
+  "photonic": [
+   115,
+   131
+  ],
+  "crystal": [
+   116,
+   132
+  ],
+  "solid": [
+   122
+  ],
+  "core": [
+   123
+  ],
+  "and": [
+   124,
+   136,
+   161
+  ],
+  "3": [
+   125
+  ],
+  "rings": [
+   126
+  ],
+  "air": [
+   128
+  ],
+  "holes": [
+   129
+  ],
+  "cladding": [
+   133
+  ],
+  "printed,": [
+   135
+  ],
+  "further": [
+   137
+  ],
+  "processed": [
+   138
+  ],
+  "into": [
+   139
+  ],
+  "using": [
+   143
+  ],
+  "drawing": [
+   147
+  ],
+  "tower.": [
+   148
+  ],
+  "measured": [
+   150
+  ],
+  "single": [
+   152
+  ],
+  "mode": [
+   153
+  ],
+  "performance": [
+   154
+  ],
+  "fabricated": [
+   156
+  ],
+  "fibers": [
+   157
+  ],
+  "at": [
+   158,
+   176
+  ],
+  "1.55": [
+   159
+  ],
+  "\u00b5m,": [
+   160
+  ],
+  "flat": [
+   162
+  ],
+  "dispersion": [
+   163,
+   174
+  ],
+  "range": [
+   166
+  ],
+  "1.6": [
+   168
+  ],
+  "\u2013": [
+   169
+  ],
+  "2.2": [
+   170
+  ],
+  "zero": [
+   173
+  ],
+  "wavelength": [
+   175
+  ],
+  "1.70": [
+   177
+  ],
+  "\u00b5m.": [
+   178
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 11
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,5 @@
+glass	A	B(K)	T0(degC)
+Soda-lime float (SLS)	-2.391	5210	206
+Borosilicate (BOROFLOAT 33)	-1.681	6578	112
+Alkaline-earth boro-aluminosilicate (EAGLE XG)	-1.930	6947	250
+Fused silica (Heraeus lamp grade)	-1.930	13351	317

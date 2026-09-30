@@ -1,0 +1,1092 @@
+{
+ "id": "https://openalex.org/W2005828997",
+ "doi": "https://doi.org/10.1145/2601097.2601200",
+ "title": "High-contrast computational caustic design",
+ "display_name": "High-contrast computational caustic design",
+ "publication_year": 2014,
+ "publication_date": "2014-07-22",
+ "ids": {
+  "openalex": "https://openalex.org/W2005828997",
+  "doi": "https://doi.org/10.1145/2601097.2601200",
+  "mag": "2005828997"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/2601097.2601200",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/2601097.2601200",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S185367456",
+   "display_name": "ACM Transactions on Graphics",
+   "issn_l": "0730-0301",
+   "issn": [
+    "0730-0301",
+    "1557-7368"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319798",
+   "host_organization_name": "Association for Computing Machinery",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319798"
+   ],
+   "host_organization_lineage_names": [
+    "Association for Computing Machinery"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "ACM Transactions on Graphics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "http://infoscience.epfl.ch/record/201509",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5020391696",
+    "display_name": "Yuliy Schwartzburg",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I5124864",
+     "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+     "ror": "https://ror.org/02s376052",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yuliy Schwartzburg",
+   "raw_affiliation_strings": [
+    "EPFL"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "EPFL",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5046438159",
+    "display_name": "Romain Testuz",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I5124864",
+     "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+     "ror": "https://ror.org/02s376052",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Romain Testuz",
+   "raw_affiliation_strings": [
+    "EPFL"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "EPFL",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5037094498",
+    "display_name": "Andrea Tagliasacchi",
+    "orcid": "https://orcid.org/0000-0002-2209-7187",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2209-7187"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I5124864",
+     "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+     "ror": "https://ror.org/02s376052",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Andrea Tagliasacchi",
+   "raw_affiliation_strings": [
+    "EPFL"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "EPFL",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5072048687",
+    "display_name": "Mark V. Pauly",
+    "orcid": "https://orcid.org/0000-0003-4957-4825",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4957-4825"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I5124864",
+     "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+     "ror": "https://ror.org/02s376052",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mark Pauly",
+   "raw_affiliation_strings": [
+    "EPFL"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "EPFL",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I5124864"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 24.4742,
+ "has_fulltext": false,
+ "cited_by_count": 123,
+ "citation_normalized_percentile": {
+  "value": 0.99561491,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "33",
+  "issue": "4",
+  "first_page": "1",
+  "last_page": "11"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10481",
+  "display_name": "Computer Graphics and Visualization Techniques",
+  "score": 0.9991000294685364,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1704",
+   "display_name": "Computer Graphics and Computer-Aided Design"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.9991000294685364,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10531",
+   "display_name": "Advanced Vision and Imaging",
+   "score": 0.9983999729156494,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10996",
+   "display_name": "Computational Geometry and Mesh Generation",
+   "score": 0.9980000257492065,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/caustic",
+   "display_name": "Caustic (mathematics)",
+   "score": 0.945823609828949
+  },
+  {
+   "id": "https://openalex.org/keywords/discretization",
+   "display_name": "Discretization",
+   "score": 0.7336475253105164
+  },
+  {
+   "id": "https://openalex.org/keywords/piecewise",
+   "display_name": "Piecewise",
+   "score": 0.7303931713104248
+  },
+  {
+   "id": "https://openalex.org/keywords/bijection",
+   "display_name": "Bijection",
+   "score": 0.641209602355957
+  },
+  {
+   "id": "https://openalex.org/keywords/surface",
+   "display_name": "Surface (topology)",
+   "score": 0.602095365524292
+  },
+  {
+   "id": "https://openalex.org/keywords/algorithm",
+   "display_name": "Algorithm",
+   "score": 0.5043858289718628
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.48631367087364197
+  },
+  {
+   "id": "https://openalex.org/keywords/computational-geometry",
+   "display_name": "Computational geometry",
+   "score": 0.46963998675346375
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.4663523733615875
+  },
+  {
+   "id": "https://openalex.org/keywords/space",
+   "display_name": "Space (punctuation)",
+   "score": 0.45131799578666687
+  },
+  {
+   "id": "https://openalex.org/keywords/gravitational-singularity",
+   "display_name": "Gravitational singularity",
+   "score": 0.45070549845695496
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematical-optimization",
+   "display_name": "Mathematical optimization",
+   "score": 0.32368671894073486
+  },
+  {
+   "id": "https://openalex.org/keywords/geometry",
+   "display_name": "Geometry",
+   "score": 0.2801492214202881
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematical-analysis",
+   "display_name": "Mathematical analysis",
+   "score": 0.1684339940547943
+  },
+  {
+   "id": "https://openalex.org/keywords/discrete-mathematics",
+   "display_name": "Discrete mathematics",
+   "score": 0.118416428565979
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779567845",
+   "wikidata": "https://www.wikidata.org/wiki/Q3492725",
+   "display_name": "Caustic (mathematics)",
+   "level": 2,
+   "score": 0.945823609828949
+  },
+  {
+   "id": "https://openalex.org/C73000952",
+   "wikidata": "https://www.wikidata.org/wiki/Q17007827",
+   "display_name": "Discretization",
+   "level": 2,
+   "score": 0.7336475253105164
+  },
+  {
+   "id": "https://openalex.org/C164660894",
+   "wikidata": "https://www.wikidata.org/wiki/Q2037833",
+   "display_name": "Piecewise",
+   "level": 2,
+   "score": 0.7303931713104248
+  },
+  {
+   "id": "https://openalex.org/C24424167",
+   "wikidata": "https://www.wikidata.org/wiki/Q180907",
+   "display_name": "Bijection",
+   "level": 2,
+   "score": 0.641209602355957
+  },
+  {
+   "id": "https://openalex.org/C2776799497",
+   "wikidata": "https://www.wikidata.org/wiki/Q484298",
+   "display_name": "Surface (topology)",
+   "level": 2,
+   "score": 0.602095365524292
+  },
+  {
+   "id": "https://openalex.org/C11413529",
+   "wikidata": "https://www.wikidata.org/wiki/Q8366",
+   "display_name": "Algorithm",
+   "level": 1,
+   "score": 0.5043858289718628
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.48631367087364197
+  },
+  {
+   "id": "https://openalex.org/C29123130",
+   "wikidata": "https://www.wikidata.org/wiki/Q874709",
+   "display_name": "Computational geometry",
+   "level": 2,
+   "score": 0.46963998675346375
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.4663523733615875
+  },
+  {
+   "id": "https://openalex.org/C2778572836",
+   "wikidata": "https://www.wikidata.org/wiki/Q380933",
+   "display_name": "Space (punctuation)",
+   "level": 2,
+   "score": 0.45131799578666687
+  },
+  {
+   "id": "https://openalex.org/C12843",
+   "wikidata": "https://www.wikidata.org/wiki/Q201721",
+   "display_name": "Gravitational singularity",
+   "level": 2,
+   "score": 0.45070549845695496
+  },
+  {
+   "id": "https://openalex.org/C126255220",
+   "wikidata": "https://www.wikidata.org/wiki/Q141495",
+   "display_name": "Mathematical optimization",
+   "level": 1,
+   "score": 0.32368671894073486
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.2801492214202881
+  },
+  {
+   "id": "https://openalex.org/C134306372",
+   "wikidata": "https://www.wikidata.org/wiki/Q7754",
+   "display_name": "Mathematical analysis",
+   "level": 1,
+   "score": 0.1684339940547943
+  },
+  {
+   "id": "https://openalex.org/C118615104",
+   "wikidata": "https://www.wikidata.org/wiki/Q121416",
+   "display_name": "Discrete mathematics",
+   "level": 1,
+   "score": 0.118416428565979
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.1145/2601097.2601200",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/2601097.2601200",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S185367456",
+    "display_name": "ACM Transactions on Graphics",
+    "issn_l": "0730-0301",
+    "issn": [
+     "0730-0301",
+     "1557-7368"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Graphics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:CiteSeerX.psu:10.1.1.720.8327",
+   "is_oa": false,
+   "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.720.8327",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://lgg.epfl.ch/publications/2014/Caustics/paper.pdf",
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:infoscience.epfl.ch:201509",
+   "is_oa": true,
+   "landing_page_url": "http://infoscience.epfl.ch/record/201509",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400487",
+    "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I5124864",
+    "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+    "host_organization_lineage": [
+     "https://openalex.org/I5124864"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:infoscience.tind.io:201509",
+   "is_oa": true,
+   "landing_page_url": "https://youtu.be/R00IvqcI9jU",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400487",
+    "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I5124864",
+    "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+    "host_organization_lineage": [
+     "https://openalex.org/I5124864"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://infoscience.epfl.ch/record/201509",
+   "raw_type": "Text"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:infoscience.epfl.ch:201509",
+  "is_oa": true,
+  "landing_page_url": "http://infoscience.epfl.ch/record/201509",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306400487",
+   "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I5124864",
+   "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+   "host_organization_lineage": [
+    "https://openalex.org/I5124864"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": "",
+  "raw_type": "Text"
+ },
+ "sustainable_development_goals": [
+  {
+   "score": 0.5799999833106995,
+   "display_name": "Sustainable cities and communities",
+   "id": "https://metadata.un.org/sdg/11"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G1347479199",
+   "display_name": null,
+   "funder_award_id": "257453",
+   "funder_id": "https://openalex.org/F4320334678",
+   "funder_display_name": "European Research Council"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320334678",
+   "display_name": "European Research Council",
+   "ror": "https://ror.org/0472cxd90"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 28,
+ "referenced_works": [
+  "https://openalex.org/W66695652",
+  "https://openalex.org/W82934484",
+  "https://openalex.org/W89307273",
+  "https://openalex.org/W103825802",
+  "https://openalex.org/W177138860",
+  "https://openalex.org/W385466589",
+  "https://openalex.org/W1511752462",
+  "https://openalex.org/W1798731418",
+  "https://openalex.org/W1982620439",
+  "https://openalex.org/W1994521023",
+  "https://openalex.org/W2009518030",
+  "https://openalex.org/W2020575876",
+  "https://openalex.org/W2037169604",
+  "https://openalex.org/W2049106345",
+  "https://openalex.org/W2049153601",
+  "https://openalex.org/W2051434435",
+  "https://openalex.org/W2056267614",
+  "https://openalex.org/W2098525067",
+  "https://openalex.org/W2099223059",
+  "https://openalex.org/W2128493870",
+  "https://openalex.org/W2151045871",
+  "https://openalex.org/W2151833588",
+  "https://openalex.org/W2566725313",
+  "https://openalex.org/W2951438241",
+  "https://openalex.org/W3005522790",
+  "https://openalex.org/W4233762729",
+  "https://openalex.org/W4241614188",
+  "https://openalex.org/W4253577938"
+ ],
+ "related_works": [
+  "https://openalex.org/W4288805235",
+  "https://openalex.org/W2952259524",
+  "https://openalex.org/W2275922919",
+  "https://openalex.org/W2116544824",
+  "https://openalex.org/W1508013399",
+  "https://openalex.org/W2995857455",
+  "https://openalex.org/W2027277382",
+  "https://openalex.org/W4287020903",
+  "https://openalex.org/W2998840281",
+  "https://openalex.org/W4307286262"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   33,
+   111
+  ],
+  "present": [
+   1
+  ],
+  "a": [
+   2,
+   16,
+   25,
+   30,
+   41,
+   82,
+   92
+  ],
+  "new": [
+   3
+  ],
+  "algorithm": [
+   4,
+   10
+  ],
+  "for": [
+   5,
+   12
+  ],
+  "computational": [
+   6
+  ],
+  "caustic": [
+   7,
+   27,
+   97
+  ],
+  "design.": [
+   8
+  ],
+  "Our": [
+   9,
+   71
+  ],
+  "solves": [
+   11
+  ],
+  "the": [
+   13,
+   21,
+   44,
+   48,
+   64,
+   68,
+   113
+  ],
+  "shape": [
+   14
+  ],
+  "of": [
+   15,
+   84,
+   86,
+   96,
+   103,
+   115
+  ],
+  "transparent": [
+   17
+  ],
+  "object": [
+   18
+  ],
+  "such": [
+   19
+  ],
+  "that": [
+   20
+  ],
+  "refracted": [
+   22
+  ],
+  "light": [
+   23,
+   105
+  ],
+  "paints": [
+   24
+  ],
+  "desired": [
+   26
+  ],
+  "image": [
+   28
+  ],
+  "on": [
+   29,
+   57
+  ],
+  "receiver": [
+   31
+  ],
+  "screen.": [
+   32
+  ],
+  "introduce": [
+   34
+  ],
+  "an": [
+   35,
+   58
+  ],
+  "optimal": [
+   36
+  ],
+  "transport": [
+   37
+  ],
+  "formulation": [
+   38
+  ],
+  "to": [
+   39,
+   91
+  ],
+  "establish": [
+   40
+  ],
+  "correspondence": [
+   42,
+   69
+  ],
+  "between": [
+   43
+  ],
+  "input": [
+   45
+  ],
+  "geometry": [
+   46
+  ],
+  "and": [
+   47,
+   77,
+   107,
+   121
+  ],
+  "unknown": [
+   49
+  ],
+  "target": [
+   50,
+   65
+  ],
+  "shape.": [
+   51
+  ],
+  "A": [
+   52
+  ],
+  "subsequent": [
+   53
+  ],
+  "3D": [
+   54
+  ],
+  "optimization": [
+   55
+  ],
+  "based": [
+   56
+  ],
+  "adaptive": [
+   59
+  ],
+  "discretization": [
+   60
+  ],
+  "scheme": [
+   61
+  ],
+  "then": [
+   62
+  ],
+  "finds": [
+   63
+  ],
+  "surface": [
+   66
+  ],
+  "from": [
+   67
+  ],
+  "map.": [
+   70
+  ],
+  "approach": [
+   72,
+   117
+  ],
+  "supports": [
+   73
+  ],
+  "piecewise": [
+   74
+  ],
+  "smooth": [
+   75,
+   100
+  ],
+  "surfaces": [
+   76
+  ],
+  "non-bijective": [
+   78
+  ],
+  "mappings,": [
+   79
+  ],
+  "which": [
+   80
+  ],
+  "eliminates": [
+   81
+  ],
+  "number": [
+   83
+  ],
+  "shortcomings": [
+   85
+  ],
+  "previous": [
+   87
+  ],
+  "methods.": [
+   88
+  ],
+  "This": [
+   89
+  ],
+  "leads": [
+   90
+  ],
+  "significantly": [
+   93
+  ],
+  "richer": [
+   94
+  ],
+  "space": [
+   95
+  ],
+  "images,": [
+   98
+  ],
+  "including": [
+   99
+  ],
+  "transitions,": [
+   101
+  ],
+  "singularities": [
+   102
+  ],
+  "infinite": [
+   104
+  ],
+  "density,": [
+   106
+  ],
+  "completely": [
+   108
+  ],
+  "black": [
+   109
+  ],
+  "areas.": [
+   110
+  ],
+  "demonstrate": [
+   112
+  ],
+  "effectiveness": [
+   114
+  ],
+  "our": [
+   116
+  ],
+  "with": [
+   118
+  ],
+  "several": [
+   119
+  ],
+  "simulated": [
+   120
+  ],
+  "fabricated": [
+   122
+  ],
+  "examples.": [
+   123
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 14
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 7
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

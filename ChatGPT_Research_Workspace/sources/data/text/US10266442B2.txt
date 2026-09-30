@@ -1,0 +1,4604 @@
+US010266442B2 
+( 12 ) United States Patent 
+Klein et al . 
+( 10 ) Patent No 
+. : 
+US 10 , 266 , 442 B2 
+( 45 ) Date of Patent : 
+* Apr . 23 , 2019 
+( 58 ) Field of Classification Search 
+CPC . . . . . . . . . . . CO3B 19 / 00 ; CO3B 17 / 00 ; CO3B 7 / 12 ; 
+CO3B 17 / 025 ; CO3B 17 / 04 ; CO3B 19 / 02 ; 
+( Continued ) 
+( 56 ) 
+References Cited 
+U . S . PATENT DOCUMENTS 
+2 , 047 , 173 A 
+7 / 1936 Bates 
+3 , 293 , 017 A * 12 / 1966 Jenkins . . . . . . . . . . . . . . . . C03B 5 / 0336 
+65 / 122 
+( Continued ) 
+( 54 ) METHODS AND APPARATUS FOR 
+ADDITIVE MANUFACTURING OF GLASS 
+( 71 ) Applicant : Massachusetts Institute of 
+Technology , Cambridge , MA ( US ) 
+( 72 ) Inventors : John Klein , Boston , MA ( US ) ; Giorgia 
+Franchin , Padua PD ( IT ) ; Michael 
+Stern , Cambridge , MA ( US ) ; Markus 
+Kayser , Cambridge , MA ( US ) ; Chikara 
+Inamura , Somerville , MA ( US ) ; 
+Shreya Dave , Cambridge , MA ( US ) ; 
+Neri Oxman , Cambridge , MA ( US ) ; 
+Peter Houk , Medford , MA ( US ) 
+( 73 ) Assignee : Massachusetts Institute of 
+Technology , Cambridge , MA ( US ) 
+( * ) Notice : 
+Subject to any disclaimer , the term of this 
+patent is extended or adjusted under 35 
+U . S . C . 154 ( b ) by 0 days . 
+This patent is subject to a terminal dis 
+claimer . 
+( 21 ) Appl . No . : 15 / 878 , 167 
+( 22 ) Filed : 
+Jan . 23 , 2018 
+Prior Publication Data 
+US 2018 / 0148364 A1 
+May 31 , 2018 
+FOREIGN PATENT DOCUMENTS 
+CN 
+CN 
+103073174 A 
+5 / 2013 
+103395973 A 
+11 / 2013 
+( Continued ) 
+OTHER PUBLICATIONS 
+Fateri , M . , et al . , 2012 , On - Site Additive Manufacturing by Selec 
+tive Laser Melting of Composite Objects . Concepts and Approaches 
+for Mars Exploration , held Jun . 12 - 14 , 2012 in Houston , Texas . LPI 
+Contribution No . 1679 , id . 4368 . 
+( Continued ) 
+( 65 ) 
+Primary Examiner — Joseph S Del Sole 
+Assistant Examiner – Mohamed K Ahmed Ali 
+( 74 ) Attorney , Agent , or Firm — Stephen R . Otis 
+Related U . S . Application Data 
+( 63 ) Continuation of application No . 15 / 365 , 577 , filed on 
+Nov . 30 , 2016 , now Pat . No 
+. 9 , 896 , 368 , which is a 
+( Continued ) 
+( 51 ) Int . Ci . 
+CO3B 19 / 00 
+( 2006 . 01 ) 
+B33Y 10 / 00 
+( 2015 . 01 ) 
+( Continued ) 
+( 52 ) 
+U . S . CI 
+. 
+CPC . . . . . . . . . . . . . . CO3B 19 / 00 ( 2013 . 01 ) ; B33Y 10 / 00 
+( 2014 . 12 ) ; B33Y 30 / 00 ( 2014 . 12 ) ; B33Y 40 / 00 
+( 2014 . 12 ) ; 
+( Continued ) 
+( 57 ) 
+ABSTRACT 
+In illustrative implementations of this invention , a crucible 
+kiln heats glass such that the glass becomes or remains 
+molten . A nozzle extrudes the molten glass while one or 
+more actuators actuate movements of the nozzle , a build 
+platform or both . A computer controls these movements 
+such that the extruded molten glass is selectively deposited 
+to form a 3D glass object . The selective deposition of molten 
+glass occurs inside an annealing kiln . The annealing kiln 
+anneals the glass after it is extruded . In some cases , the 
+actuators actuate the crucible kiln and nozzle to move in 
+horizontal x , y directions and actuate the build platform to 
+( Continued ) 
+100 
+107 
+CH 
+L - 103 
+105 
+Og 
+125 
+wal 
+109 
+s . 
+90 
+FO 
+: 
+LOON 
+111 
+108 
+S 
+104 
+
+
+US 10 , 266 , 442 B2 
+Page 2 
+move in a z - direction . In some cases , fluid flows through a 
+cavity or tubes adjacent to the nozzle tip , in order to cool the 
+nozzle tip and thereby reduce the amount of glass that sticks 
+to the nozzle tip . 
+USPC . . . . . . . . . . . . 65 / 72 , 122 , 127 , 129 , 146 , 164 , 326 
+See application file for complete search history . 
+References Cited 
+( 56 ) 
+U . S . PATENT DOCUMENTS 
+16 Claims , 19 Drawing Sheets 
+Related U . S . Application Data 
+continuation of application No . 14 / 697 , 564 , filed on 
+Apr . 27 , 2015 , now abandoned . 
+4 , 682 , 995 A 
+4 , 684 , 385 A 
+4 , 816 , 051 A 
+4 , 888 , 036 A 
+5 , 121 , 329 A 
+5 , 402 , 351 A 
+5 , 741 , 557 A 
+6 , 722 , 872 B1 
+8 , 070 , 473 B2 
+8 , 215 , 371 B2 
+2002 / 0002843 Al 
+2009 / 03 14391 Al 
+2013 / 0000549 AL 
+2013 / 0306198 A1 
+2014 / 0265034 AL 
+7 / 1987 Clasen 
+8 / 1987 Clasen 
+3 / 1989 Clasen 
+12 / 1989 Clasen 
+6 / 1992 Crump 
+3 / 1995 Batchelder et al . 
+4 / 1998 Corbin et al . 
+4 / 2004 Swanson et al . 
+12 / 2011 Kozlak 
+7 / 2012 Batchelder 
+1 / 2002 Gotoh et al . 
+12 / 2009 Crump et al . 
+1 / 2013 Hartmann 
+11 / 2013 Prest et al . 
+9 / 2014 Dudley 
+( 60 ) Provisional application No . 61 / 984 , 137 , filed on Apr . 
+25 , 2014 . 
+FOREIGN PATENT DOCUMENTS 
+CN 
+CN 
+CN 
+103524022 A 
+203419844 U 
+203513482 U 
+1 / 2014 
+2 / 2014 
+4 / 2014 
+OTHER PUBLICATIONS 
+( 51 ) Int . Ci 
+. 
+B33Y 30 / 00 
+( 2015 . 01 ) 
+B33Y 40 / 00 
+( 2015 . 01 ) 
+CO3B 17 / 00 
+( 2006 . 01 ) 
+CO3B 17 / 02 
+( 2006 . 01 ) 
+CO3B 17 / 04 
+( 2006 . 01 
+) 
+CO3B 19 / 02 
+( 2006 . 01 ) 
+CO3B 25 / 02 
+( 2006 . 01 ) 
+CO3B 3 / 00 
+( 2006 . 01 ) 
+CO3B 5 / 02 
+( 2006 . 01 ) 
+CO3B 5 / 033 
+( 2006 . 01 ) 
+CO3B 5 / 26 
+( 2006 . 01 
+) 
+CO3B 7 / 088 
+( 2006 . 01 
+) 
+CO3B 7 / 094 
+( 2006 . 01 
+) 
+CO3B 7 / 098 
+( 2006 . 01 ) 
+CO3B 7 / 12 
+( 2006 . 01 
+) 
+B29C 64 / 106 
+( 2017 . 01 ) 
+U . S . CI . 
+. . . . . CO3B 3 / 00 ( 2013 . 01 ) ; CO3B 5 / 021 
+( 2013 . 01 ) ; C03B 5 / 0334 ( 2013 . 01 ) ; CO3B 
+5 / 0336 ( 2013 . 01 ) ; CO3B 5 / 26 ( 2013 . 01 ) ; C03B 
+7 / 088 ( 2013 . 01 ) ; C03B 77094 ( 2013 . 01 ) ; C03B 
+77098 ( 2013 . 01 ) ; C03B 7 / 12 ( 2013 . 01 ) ; C03B 
+17 / 00 ( 2013 . 01 ) ; CO3B 17 / 025 ( 2013 . 01 ) ; 
+CO3B 17 / 04 ( 2013 . 01 ) ; C03B 19 / 02 ( 2013 . 01 ) ; 
+CO3B 25 / 02 ( 2013 . 01 ) ; B29C 64 / 106 
+( 2017 . 08 ) 
+( 58 ) Field of Classification Search 
+CPC . . . . . . . CO3B 5 / 0334 ; CO3B 5 / 0336 ; CO3B 5 / 26 ; 
+CO3B 5 / 021 ; B33Y 30 / 00 ; B33Y 40 / 00 ; 
+B33Y 10 / 00 ; B29C 64 / 106 
+( 52 ) 
+CPC 
+Joris , Apr . 14 , 2010 , You can now 3D print in glass with Shapeways . 
+Posted on Apr . 14 , 2010 on Shapeways , What ' s Hot . Accessed on 
+Jun . 3 , 2015 at http : / / www . shapeways . com / blog / archives / 401 - you 
+can - now - 3D - print - in - glass - with - Shapeways . html 
+. 
+Klein , S . , et al . , 2012 , 3D Printing of Transparent Glass . HP 
+Laboratories , HPL - 2012 - 198 . 
+Luo , J . , et al . , Oct . 24 , 2014 , Additive Manufacturing of Glass . 
+Journal of Manufacturing Science and Engineering , vol . 136 , Issue 
+6 , 061024 , six pages ( Oct . 24 , 2014 ) . 
+Author Unknown , 2005 , The Glass Transition . Polymer Science 
+Learning Center , Department of Polymer Science , The University of 
+Southern Mississippi , 2005 . Accessed on Jun . 3 , 2015 at http : / / pslc . 
+ws 
+/ macrog / tg . htm . 
+Trevarthan , et al . , 2012 , Molten Glass . RepRap Forum , Dec . 21 , 
+2012 . Accessed on Jun . 3 , 2015 at http : / / forums . reprap . org / read . 
+php ? 1 , 172516 , 172520 . 
+Ganter , et al . , Vitraglyphic — 3D Printing in Glass . Date : Jun . 2010 
+or earlier . Accessed on Jun . 3 , 2015 at http : / / depts . washington . edu / 
+open3dp / 2009 / 10 / vitraglyphic - 3d - printing - in - glass / . 
+Whisnant , D . , 2000 , Polymer Chemistry the Glass Transition . Last 
+updated Jul . 11 , 2000 . Accessed on Jun . 3 , 2015 at http : / / faculty . 
+uscupstate . edu / llever / Polymer % 20Resources / GlassTrans . htm . 
+* cited by examiner 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 1 of 19 
+US 10 , 266 , 442 B2 
+100 
+TTTTTTTTTTTTTTTTTTTTTTTT 
+. . 
+I 
+! 
+OLI 
+. 
+. 
+: iiiiiiii 
+: : : 
+: 
+. . . . : 
+: : : 
+. 
+. . : 
+: : : : 
+. . . . : 
+: : ir 
+, 
+107 
+: : : : , 
+, O 
+. 
+n 
+io 
+, 
+november 
+: 03 
+: 
+E ' ' 
+, , 
+, 
+iin 
+05 
+. 
+01 
+. 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: Siii 
+in 
+. 
+P 
+. 
+. 
+. 
+. 
+0 
+W 
+. 
+. 
+wwww 
+. 
+Z 
+ZN 
+ZZ 
+XXXAARRR 
+inimene : : . 
+. 
+w 
+wwwwwwww 
+. 
+miche 
+manannnn 
+L 
+. 
+, 
+. 
+. 
+: 
+1125 
+109 
+: 
+i 
+1 : 
+. 
+. 
+. . 
+: 
+2 
+: 
+: : : 
+0 
+, 
+3 , 
+2 
+, 1 
+, 3 
+0 
+? 
+m 
+aininin 
+winner 
+. 
+. 
+. 
+dependent 
+- 
+- - 
+- - 
+- - 
+- 
+- 
+Arki 
+ww manda wand 
+- 
+. 
+. 
+- 
+. 
+. 
+. 
+15 
+. 
+TAILY 
+???????????? 
+mange sammenhenanahonnanganans 
+108 
+. 
+. 
+: 
+: 
+: 
+: 
+. 
+0 
+. 
+????????????????? ; ; - - - - - - - 
+. 
+O 
+. 
+1 
+11 
+, , , , 
+, , , 
+, 
+, 
+. 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+Setor 106 
+. 
+. 
+ITETUELTEKE 
+111 
+. : , ! 111 
+, 
+On 
+. 
+LIN , , 
+, 
+, 
+, 
+up 
+E 
+Y 
+* * 
+* * * * 
+* * 
+* * 
+* * * * * * * * * 
+Lininiai 
+2 : 
+1 
+0 
+: ' : 
+: 
+ini : 
+21 
+: 
+. 
+' 
+iiiiiii 
+. 
+. 
+: . 
+. . 
+0 
+; ; ' ; 
+: , : 
+. S 
+: : . : . 
+. , 
+: 
+. 
+G 
+104 
+FIG . 1A 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 2 of 19 
+US 10 , 266 , 442 B2 
+800 
+C 
+O 
+. . 
+. 
+LARAK 
+107 
+113 
+K 
+Wwwwww 
+enemmn 115 
+RE 
+Know 
+carierarorum 115 
+1 
+www 
+F . 
+, 
+Y 
+hubungan 
+115 
+115 
+OP 
+EAR . 
+. 
+' 
+' 
+???? 
+: 
+FIG . 1B 
+109 
+125 
+MARAAAAARAY 
+MINEKUTEX 
+121 
+129 
+128 
+po 
+127 
+FIG . 10 
+I 
+m137 
+WARS 
+136 
+7 
+135 
+. 
+. 
+. 
+. 
+1 . . 
+- 
+. 
+. 
+. 
+. 
+. 
+. 
+* 
+- 
+- - 
+- 
+- 
+1 Veo - 139 
+ewwwwwwwwwwwwwwwwwwwwwww 
+n 
+' . " 
+- 
+. 
+. 
+. ! 
+para mantenente 131 
+www 
+. 
+. 
+. 
+. 
+. 
+. 
+: 
+ww 
+. 
+www . 
+www . 
+. 
+M 
+ESES 
+, 
+- 
+- 
+- 
+- 
+. 
+. 
+. 
+! 
+. 
+! 
+! . 
+. 
+! 
+' 
+s 
+w 
+wwwwwwwwwwwwwww 
+w 
+www 
+LINHALLIKLAR 
+?????? ???????????????? 
+. 
+. : 
+. 
+133 
+3 : 16 
+. . . 
+: 
+: 
+: ' , 
+FIG . 1D 
+
+
+atent 
+Apr . 23 , 2019 
+Sheet 3 of 19 
+US 10 , 266 , 442 B2 
+CODE 
+219 
+105 . 
+280 
+217 
+271 
+211 
+280 
+KURALLAR ERRETERIA 
+wwwww 
+ZORICREWER 
+PERKECUASEKSPERTA 
+EKARREKAK 
+205 
+wwwwwwww 
+trong 
+trang 
+tren 
+Mw 
+ESPEAREKAPERKEK 
+andarensen 217 
+ANGKAKAKIWEKEA KATIKA 
+280 
+* www 
+www www 
+t 
+for at 
+201 - 
+ingid he 
+L 
+FIG . 2 
+
+
+. 
+?????????????? 
+?????????? 
+????? 
+atent 
+109 
+. . . " 
+X 
+yununnnnnnhankintayinin 
+itinginanning 
+• 
+??? 
+firewards 
+we 
+investimewa 
+mewn 
+browser 
+or 
+not 
+to 
+the 
+one 
+when ???? 
+Apr 
+. 23 , 2019 
+• 
+???? 
+" 
+? 
+? 
+?????????? 
+????????? 
+- 
+} 
+} 
+} 
+: 
+: 
+. 
+: 
+. 
+: 
+. 
+N 
+, 
+, 
+, 
+, 
+, 
+, 
+1 
+????? 
+???????? 
+??????????????????? 
+?????????? 
+???????????????????? 
+?????????????? 
+????? 
+FIG . 3 
+?????????? 
+??????????????????????????????? 
+?????? 
+?????????? 
+????????? 
+?????????? 
+? 
+???? 
+?????????????????????????????????????????R??????????????? 
+????????? ????????? ????????? ??? 
+???????????????????? 
+???????????????????? 
+?? 
+???????????????????????????????????????????????????????????????????????????????????????????????????????????? 
+- 
+- 
+- 
+- 
+- 
+. 
+???????? 
+?? 
+?? 
+?????? 
+Sheet 4 of 19 
+birincipale 
+???????? 
+????? 
+. 
+* Tr 
+. . 
+?????? 
+. 
+. 
+? 
+. 
+* 
+. 
+* 
+?? 303 
+* 
++ 
+???? 
+~ 301 
+. 
+, 
+?? 
+??? 
+. 
+t 
+www 
+- 
+????????? 
+??????? 
+??????? ? 
+?????????? 
+?? 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+? 
+?????????? 
+???????? ???? 
+??????????? 
+? 
+. 
+?? 
+???? 
+? 
+. 
+???????????? 
+US 10 , 266 , 442 ?2 
+" 
+" 
+: 
+: 
+: 
+" 
+???????????????? . 
+???? 
+
+
+atent 
+Apr . 23 , 2019 
+Sheet 5 of 19 
+US 10 , 266 , 442 B2 
+??????????????? 
+. . . ISTRICTRICS 
+. 
+T 
+. CJ . 
+407 
+WWE 
+TIMEX 
+Kartu 
+WEILER 
+FIG 
+. 
+40 
+DARRER 
+Wwwwwwww 
+SA 
+AUDIO 
+TERUNTERRURERSEESTIS 
+NE 
+407 
+409 
+is 
+. 
+406 
+internetinden 
+403 
+T 
+mantenimenti 
+ON 
+. 
+PER 
+ree www 
+ARA 
+N 
+i 
+FIG 
+. 
+4B 
+??? 
+you / 
+hanno 
+messenger 
+403 
+bow 
+grannbilenen 
+man 
+nu 
+CALHAALALALALALALALA 
+AARALLAL 
+. 
+croche 405 
+UW 
+1121 
+VVV 
+G 
+MARITIME 
+FIG 
+. 
+4A 
+O 
+www 
+wand 
+MA 
+. 
+. 
+. 
+. 
+. 
+IN 
+
+
+U . 
+S . 
+Patent 
+atent 
+Apr . 23 , 2019 
+Sheet 6 of 19 
+US 10 , 266 , 442 B2 
+this 
+00 
+18 : 
+03 . . 
+?mr?????? # 
+swissi 
+?????????? 
+MODUS 
+hewewewewnie 
+AL 
+EN 
+1 . 
+5 . 
+; : : : 
+wimminen 
+www 
+serious 
+i ' 
+wwwwwwww 
+wwwwwwwser 
+www 
+KIRKOHEREIRO KER 
+wwwww 
+ant 
+wwwwww 
+www 
+. 
+FIG . 5A 
+www 
+KERK 
+K 
+KK 
+: 
+. : . 
+: 
+. 
+: . : . 
+: . 
+: . 
+: 
+. 
+: . : . 
+: . 
+MARAMI 
+PERMET 
+ANI 
+a 
+nperhentimentiche 
+A 
+INTERNET 
+Serie 
+ERCA 
+103 - 
+KARAR 
+HEMERENDE 
+M 
+? 
+* 
+' 
+. 
+Picha 
+0 . 000 
+WE 
+WWW 
+* 
+* 
+L 
+rewnienie 
+klientaminen 
+hoeweewielewi www 
+hew formatwn 105 
+WWW 
+* 
+2 
+125 
+. 
+. 
+. 
+. 
+, 
+4 
+* 
+* 
+. 
+. In 
+ma 
+! 
+. 
+, 
+: 
+wwwwwww 
+GEOT 
+????? 
+1 
+ww 
+. 
+w 
+memper 
+wa 
+511603 
+. 
+o 
+FIG . 5B 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 7 of 19 
+US 10 , 266 , 442 B2 
+inn 
+a 103 
+i 
+605 mm 
+605 
+601 
+W 
+handlingargiler 
+603 
+127 
+FIG . 6A 
+FEB 103 
+hy 
+KKKKK ! 
+what 
+paper 
+ARARAR 
+- 
+605 
+605 
+611615 
+1 
+611 
+603 - 
+127 615 
+FIG . 6B 
+
+
+FIG . 7 
+IMMMMidi 
+XXXXXX 
+A 
+SAS 
+. . 
+. . . . 
+. . . . 
+. . . . . 
+. . 
+. . . 
+. . 
+PRODUNDAPPARAADPAPAA 
+- 
+AA 
+- 
+AINARA 
+Karin 
+. 
+. 
+, 
+- 
+' 
+55 
+20 : 
+www 
+. 
+www 
+. 
+www 
+. 
+www 
+. 
+www 
+. 
+MPYARORAPA 
+' 
+Sir 
+: 
+: 
+. 
+. 
+: 
+minn 
+???????? 
+" 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+. . 
+. 
+IZ 
+is 
+. 
+. 
+E 
+. 
+. 
+, 
+rii 
+. 
+' 
+. 
+, 
+, 
+, : 
+, . 
+, 
+' . : 
+, , 
+, , 
+801 
+11 
+wwwwwwwwwwwinyiwwywing 
+! 
+ekorekt 
+N 
+' 
+, 
+. 
+. 
+. 
+w 
+. 
+. 
+. 
+. 
+- 
+- 
+" 
+3 
+. 
+. 
+. 
+. 
+: . 
+: 
+" 
+?????????? 
+IMMER 
+xid 
+* 
+* 
+. 
+MULER 
+WEI 
+Samp 
+: 
+. 
+; 
+17 
+617 
+4 
+' 
+. 
+: 
+. 
+: 
+: 
+: 
+703 
+703 
+, 
+M 
+219 
+, 
+, 
+: 
+: 
+in 
+die 
+min 
+! 
+60L 
+01 
+: 
+37 
+wwwwww 
+, 
+urinoirishniminishwinin 
+ustuminen 
+, 
+, 
+, 
+, 
+, 
+, 
+. 
+: 
+: 
+ZZZZ 
+3 
+, 
+n 
+imum 
+a 
+va 
+, 
+wwwwwww 
+. 
+. 
+with 
+formgewin 
+, 
+TV , 
+N 
+, 
+, 0 
+, 
+, 
+www . 
+indisi 
+; 
+; 
+1 
+; 
+: 
+' 
+: 
+: 
+. 
+; 
+. 
+' 
+; 
+: 
+; 
+. 
+: 
+' 
+: 
+: 
+: 
+: 
+' 
+. 
+: 
+: 
+. 
+' 
+: 
+' 
+. 
+. 
+; 
+- 
+. 
+; 
+; 
+' 
+. 
+; 
+' 
+1 
+1 
+21 
+. 
+. 
+mimin 
+iii 
+0 
+; 
+. 
+; 
+Brex 
+RR 
+RR 
+RRRRRRRRRRRRRRRRRRRRRRRRRR 
+RR 
+R 
+R 
+US 10 , 266 , 442 B2 
+Sheet 8 of 19 
+Apr . 23 , 2019 
+atent 
+
+
+atent 
+Apr . 23 , 2019 
+Sheet 9 of 19 
+US 10 , 266 , 442 B2 
+i s : : : . . . . 
+. 
+. . 
+. . 
+: ; ' 
+anni 
+- 105 
+RA 
+? 
+???????????? . 
+01 
+mi 
+. 
+. 
+. 
+woningen 
+. 
+. 
+. 
+. 
+direciouseumanitioninsimdi?? 
+. 
+. 
+. 
+. 
+SGK 
+. 
+. . 
+. 
+: 
+: 
+riii 
+2809 
+- : 
+KARARAMANMARANAN BARAN 
+ri 
+Q 
+SamnaunannMAMMAMnanananagnananakannanirnarannanna 
+minnaan aminin 
+31 
+125 
+127 
+INDO 42 
+115 
+to . 
+www 
+Aluminium 
+Buda 
+minnirn pest 
+TYYTYFCIENCY 
+805 
+HARAPAAAAAAAAAAAAAAAAADAI 
+E 
+GYETTEYTYTYRYETETTELO 
+808 
+. 
+W 
+PARAZ 
+Z 
+IARRARO 
++ q 
+1801 
+RWRARARARARAMANRAMANAWAHRAMALRAM 
+821 - 
+1802 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+: 
+: ' 
+: 
+. . ? 
+. 
+. 11 
+wwwwwwwwwwww 
+???Me??? 
+. 
+T 
+O 
+LO . 
+0 
+0 . . 
+0 
+. 
+0 . . . 0 
+. 0 . 1 
+k 
+. . 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. . 
+. 
+. 
+FIG . 8A 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 10 of 19 
+US 10 , 266 , 442 B2 
+???????????????????????????????????? 
+wiwiki 
+A 
+. SI 
+: 
+. 
+' 
+. 
+. 
+' 
+: 
+. 
+, 
+' 
+- 
+n 
+n 
+dignissinin 
+naman 
+naminnnnnnnnnnnnnnnnnnnnnnnnnnnn 
+for 
+105 
+WWW 
+V 
+snúningslag 
+869 
+871 
+873 
+871 
+ARNA 
+WWW 
+WWWWWW 
+861 
+W 
+Francia 
+NOWN 
+MAMAMISHA 
+ANCAMAN 
+ICHIMANO 
+LES 
+! 
+- 
+. 
+: : 
+: : : 
+: 
+! 
+" 1 . 1 
+ALAMOWITEKWOWWWWd 
+. 
+! 
+ou 
+pannukunimizante 
+. 
+condut 
+gen 
+I 
+' 
+IIIIIII 
+www 
+WANAWAKE 
+863 . 
+wengi 
+857 
+we 
+meme 
+wa 
+internet 
+market 
+and 
+showed 
+a 
+mediena 
+maisha 
+na 
+wakamwende 
+WMWWWMWMMWW . 
+MMWW . 
+WMWWMMWMWWWWW 
+. 
+hany 
+. 
+W 
+A 
+Od 
+ponad 
+. 
+. 
+' 
+. 
+* 
+. 
+' 
+UTUU 
+vuelvelu 
+. 
+' 
+. 
+ATARI 
+wwwwwww ! 
+THE 
+H 
+w 
+tud 
+AWAKILUWALHARMAWAWAGUCHAKACHA 
+. . 
+ZORUZ . . 
+. 
+winamikommin 
+hekimine 
+mase 
+MCM?R 
+MARKMI 
+. . 
+KUKK 
+. 
+! 
+. 
+! 
+. 
+! 
+. 
+. 
+. 
+' 
+P 
+P 
+i 
+' 
+. 
+. 
+. 
+. 
+. 
+Vominicandongengoror STUNTEMUSEUMUR 
+' 
+wwwwwww 
+' 
+VILANOVA 
+ew 
+, 
+KORKEK 
+wwwwww 
+me 
+n 
+: : : 
+: 
+: : 
+in 
+14 
+. 00 
+. . 
+. : 
+: : 
+AWW 
+WWWWUWAROWANACHAMA W 
+wwwwAWANAN 
+man 856 
+wwww 
+W 
+XNXX CIK 
+XXXXXXXXXXXXXXXX 
+. 
+. 
+. 
+- 
+LLLLLLLS 
+. 
+www 
+854 
+w 
+W 
+TERIORS 
+853 
+863 . 
+FIG . 8B 
+
+
+camere 
+941 
+MEMORY 
+COMPUTER 
+1 
+/ 
+0 
+DEVICE 
+U . S . Patent 
+- 
+923 
+929 
+90210 
+DEVICE 
+Kin 
+VALVE 
+DRIVER 
+AIR 
+DRIVER 
+AIR 
+PUMP 
+innornwoo 
+DE 
+I 
+/ 
+O 
+DEVICE 
+VALVE 
+MOTOR 
+WAWANAN 
+905 
+TER 
+904 
+AIR 
+TUBE MOTOR 
+928 
+X 
+DRIVER 
+wwwwwwy 
+- 
+926 
+MICROCONTROLLER ( 
+S 
+) 
+Poulain 
+menu 
+Apr . 23 , 2019 
+2009 
+RRRRRRRR 
+PLUNGER DRIVER 
+R 
+RRRRRRRRRR 
+PLUNGER MOTOR 
+X 
+MOTOR 
+wwwwwwwwwwwww 
+925 
+hmm 
+931 
+909 
+CONTROLLER FOR CRUCIBLE 
+KILN 
+PID 
+X 
+END 
+STOP 
+FEEDER DRIVER 
+FEEDER MOTOR 
+. 
+930 
+. 
+908 
+- 
+. 
+. 
+. 
+. 
+WWWWWWWWWWWWWW 
+. 
+. 
+. 
+Y 
+DRIVER 
+. 
+. 
+. 
+. 
+CRUCIBLE 
+KILN 
+HEATING 
+ELEMENTS 
+. 
+. 
+CONTROLLER FOR 
+ANNEALING 
+CHAMBER 
+PID 
+ANNEALING 
+CHAMBER TEMPERATURE 
+SENSOR 
+LLGILI 
+. 
+. 
+Sheet 11 of 19 
+916 
+WWMWMWMN 
+. 
+. 
+. 
+Y 
+MOTOR 
+. 
+. 
+w 
+920 
+922 
+w 
+w 
+CRUCIBLE 
+KILN 
+TEMPERATURE 
+SENSOR 
+Y 
+END 
+STOP 
+w 
+ANNEALING 
+CHAMBER HEATING 
+ELEMENTS 
+22902009 
+907 
+921 
+910 
+917 
+Z 
+DRIVER 
+CONTROLLER FOR NOZZLE 
+KILN 
+PID 
+NOZZLE 
+KILN 
+TEMPERATURE 
+SENSOR 
+wwwwww 
+Z 
+MOTOR 
+918 
+913 
+NOZZLE 
+KILN 
+HEATING 
+ELEMENTS 
+US 10 , 266 , 442 B2 
+Z 
+END 
+STOP 
+SARAS912 
+anapangaparegio 
+FIG 
+. 
+9 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 12 of 19 
+US 10 , 266 , 442 B2 
+21001 
+- 1003 
+nenen 
+g 
+oenenan 
+g 
+anan 
+penanananana 
+A COMPUTER TAKES A CAD FILE 
+AS INPUT AND GENERATES 
+G - CODE INSTRUCTIONS FOR 
+ADDITIVE FABRICATION 
+( e . g . , USES A SLICER ALGORITHM 
+AND GENERATES G - CODES ) 
+GLASS ( e . g . , GLASS NUGGETS , POWDER , 
+OR ROD ) IS FED INTO A CRUCIBLE . 
+ALTERNATIVELY , RAW MATERIALS FOR 
+GLASS ARE FED INTO THE CRUCIBLE 
+LEDEL 
+p1004 
+1002 
+A CRUCIBLE KILN HEATS THE CRUCIBLE , 
+CAUSING GLASS ( OR RAW MATERIALS 
+FOR GLASS ) IN THE CRUCIBLE TO MELT 
+. 
+. . 
+. 
+. 
+. 
+. . . . 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+3 
+3733333333333 
+71005 
+ONE OR MORE MICROCONTROLLERS 
+( e . g . , ONE OR MORE ARDUINO BOARDS ) 
+TAKE THE G - CODES AS AN INPUT AND 
+CONTROL AT LEAST ( 1 ) X , Y MOVEMENT 
+OF A CRUCIBLE KILN AND A NOZZLE , AND 
+( 2 ) Z MOVEMENT OF A BUILD PLATFORM 
+BUBBLES ARE REMOVED IN A FINING 
+STEP IN SOME CASES , FINING AGENTS 
+ARE ADDED TO FACILITATE FINING 
+p1006 
+wwwww 
+MOLTEN GLASS FLOWS INTO THE NOZZLE 
+AND IS HEATED BY A NOZZLE KILN 
+WWW 
+w 
+71007 
+nnnnnnnnnnnnnnnnnnnnnnn 
+no 
+n 
+nnnnnnnnn 
+innnnnnn 
+annanongn 
+n 
+MOLTEN GLASS FLOWS OUT OF NOZZLE AND IS SELECTIVELY DEPOSITED TO FORM 
+A 3D OBJECT . IN SOME CASES , THE DEPOSITION OF MOLTEN GLASS IS LAYER - BY - LAYER . 
+IN ADDITION , IN SOME CASES , MOLTEN GLASS IS DRIBBLED OVER AN EDGE SUCH THAT 
+IT DESCENDS TO A LOWER LAYER THAN THE CURRENT LAYER 
+1008 
+AN ANNEALING CHAMBER HEATS THE 3D OBJECT , SUCH THAT THE TEMPERATURE OF THE 
+3D OBJECT IS MAINTAINED AT OR ABOVE A TARGET TEMPERATURE WHILE THE 3D OBJECT 
+IS BEING BUILT BY DEPOSITION OF MOLTEN GLASS . AFTER THE DEPOSITION OF MOLTEN 
+GLASS IS COMPLETE , THE TEMPERATURE IN THE ANNEALING CHAMBER 
+IS SLOWLY LOWERED , SUCH THAT THE GLASS ANNEALS 
+71009 
+IN SOME CASES , THE GLASS IS POLISHED OR UNDERGOES OTHER POST - ANNEALING STEPS 
+SUS29 
+FIG . 10A 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 13 of 19 
+US 10 , 266 , 442 B2 
+OOO 
+GENERATE CAD FILE 
+- 1051 
+mm 1053 
+CONVERT TO SPIRAL G - CODE 
+MELT AND FINE GLASS IN CRUCIBLE 
+www . m 1055 
+VERT TRIER 
+TITRARLERLER 
+TETR 
+1057 
+HEAT CRUCIBLE NOZZLE AND ANNEALER 
+. 
+C 
+A 
+. 
+C 
+SEND G - CODE TO PRINTER , MOVE CARRIAGE ( X , Y ) , 
+BUILD PLATFORM ( Z ) , PLUNGER , AND VALVE 
+1059 
+. 
+. 
+MARWANA 
+- 1061 
+LAYER - BY 
+- LAYER DEPOSITION 
+R 
+. 
+KARKAS 
+1063 
+REFILL CRUCIBLE WITH MOLTEN GLASS ( OPTIONAL ) 
+ANNEALING 
+1065 
+1211 
+ANNELIGT 
+T 
+Tema 
+carreterane 1067 
+POST - PROCESSING 
+FIG . 10B 
+
+
+FIG . 11A 
+} 
+- 
+??? 
+?? 
+- 
+- 
+- 
+? 
+- 
+- 
+- 
+- 
+? 
+7 
+7 
+7 
+77 
+, 
+108 
+, 
+: : : : : : : 
+- . 
+. 
+. 
+* 
+* 
+* 
+??????? 
+?????? 
+, 
+? 
+? 
+. 
+: 
+: 
+: 
+: 
+: 
+: 
+???? 
+, 
+???? 
+?? 
+?????? 
+????????? 
+?????? 
+???????????????????????? 
+, 
+, 
+, 
+??????????????????????????? 
+?????????????????????????? 
+??? ?? ????????? 
+?????????????????????????? 
+301 
+??? 
+?????? 
+: 
+* 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+?????????? 
+????? 
+?????????????????? 
+???? 
+? 
+. 
+. 
+, , , 
+??? 
+2 
+Tr 
+, 
+minimaammmmmmmmmmmmmmmllimmmmmmmmmmmmm 
+, 
+, 
+? 
+- 
+. 
+? 
+. 
+; 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+??????? : 
+: 
+* 
+* 
+* 
+????????? 
+?????? 
+? 
+* 
+* 
+* 
+* 
+* 
+????????? 
+125 
++ 
+4 
+????? 
+? 
+" 
+?????? 
+? 
+. 
+??????? 
+, 
+, 
+, 
+????? 
+????? 
+?????????? 
+?????? 
+????????? 
+??????????? ?? 
+??????? 
+??????????? 
+???????????? 
+??? 
+????????? 
+??? 
+??????? 
+* 
+* 
+. 
+. 
+???? 
+. 
+????????? 
+????? 
+. 
+3 
++ 
+?? 
+?????????????? 
+????????????? 
+???????? 
+??????? 
+??????? 
+???????????? ?? 
+. 
+S03 
+- 
+, 
+??????????? 
+????? 
+? 
+. 
+* 
+" 
+, 
+* 
+* 
+. 
+. 
+? 
+? 
+?????? 
+?????????????????????? 
+?????????? 
+???????????? 
+???????????? 
+2016 
+: 
+????? ? 
+wiki???? 
+. 
+w??????? ???? 
+1 
+1 
+. 
+* 
+* 
+* 
+?????? 
+* 
+????? 
+?????? 
+Severinariumainissemenewani 
+. 
+??? 
+? 
+. 
+????? 
+EOLI 
+??? 
+??????? " 
+? 
+- 
+US 10 , 266 , 442 ?2 
+Sheet 14 of 19 
+Apr . 23 , 2019 
+U . S . Patent 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 15 of 19 
+US 10 , 266 , 442 ?2 
+1151 
+1153 
+o 
+??????????? 
+. 
+????????????????? 
+???????????????? 
+???????? 
+. 
+????????? 
+???? 
+: 
+: 
+: 
+: 
+1155 
+??????? 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+: 
+: 
+??????? . 
+?????? 
+: 
+: 
+. 
+???? 
+??????? ???????????????????????? ?????? 
+???? 
+????????? ????????????????? 
+. 
+. 
+* 
+* 
+* 
+. 
+* 
+* 
+????? ???? 
+???????????? 
+???????? 
+? 
+???????? » 
+????? 
+? 
+? 
+??????????????? 
+?? 
+????? 
+?? 
+* 
+* 
+* 
+? 
+. 
+. 
+. 
+. 
+ker 
+? 
+- 
+???? 
+?????????? 
+105 
+“ ? 
+, 
+???? . ??? 
+. 
+? 
+?? 
+?? 
+??? 
+? 
+? 
+?????????? 
+???????? 
+? 
+?2 
+?? 
+. : 
+????? 
+????? 
+" 
+? 
+???? ????? 
+???? 
+• 
+4 
+125 - ~ 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+??????? 
+• 
+• 
+? 
+?????? , 
+. 
+??????? 
+" : 
+: : 
+: : : 
+• 
+? 
+. 
+• 
+?? ????????? 
+? 
+???????? 
+“ 
+????? 
+127 ~ ~ ~ ~ 
+minn 
+namin 
+na 
+mimi 
+ni 
+mini 
+: 
+: 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+H??????? 
+???????? ???????? ?? ????? ?? ??????? 
+????????? ????????????? ???????????? 
+?????? ???? 
+??????????? 
+minn 
+: 
+: 
+?????? 
+??? 
+?? ????????? ???? 
+? ?? 
+?????? ????? ????? 
+????? ????? 
+???? . 
+????????????????????????? 
+* 
+????????????????????????? 
+?? 
+? 
+? ???? 
+. . 
+. . 
+. . 
+. 
+. . 
+. . 
+. . 
+* 
+- ? . 
+, 1 
+, , 
+, 
+* 
+* 
+* 
+- 
+???????? ? 
+?? 
+??????? ??? 
+? 
+?????????? 
+* 
+* 
+* 
+* 
+????? ?????????? 
+??????????? 
+. . . , . . . , 
+??????? 
+FIG . 11B 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 16 of 19 
+US 10 , 266 , 442 B2 
+CONTOWYCYYYYYYYYYYYYYYYYYYYYYYYTE 
+. 
+. 
+. 
+. . 
+. . 
+. 
+. . . . . 
+. 
+i 
+' ! 
+0 . 
+. . 
+. 
+. 
+10 . 
+. . 
+. 
+. . 
+M 
+. 
+V 
+. 
+. 
+. 
+. 
+. 
+1 . 1 
+3 . 0 
+. 
+STK 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+S . 
+II . 
+R 
+. 
+O 
+. 
+wwwwwwwwwww . . 
+Fraministriminimithin 
+Khasoko 
+OT 
+1207 
+ST 
+FIG 
+. 
+120 
+popeype . 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+Jurii 
+S 
+. 
+. 
+\ 
+, 
+021 
+krankansaRaRKRANARARA MAKARSKA 
+. 
+V 
+w 
+wwwwwwwwwwwwwww 
+w 
+www 
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww 
+PARRORRACHATSW 
+00 
+E 
+' . 
+' 
+. ' Ni AR APARAT 
+i . 
+' 
+. 
+[ 1 
+. 
+! 
+. 
+w 
+waren 
+. 
+. 
+?????????? 
+1205 
+wwwwww 
+. 
+. 
+. , 1 , . 
+, , 
+, , 
+, , , 
+. . 
+. 
+. 
+, , , , 
+, , 
+, , 
+. . 
+, , 
+. 
+, , 
+. 
+, , ! 1 
+. 
+. 
+: . ' , , ' 
+. 
+. 
+, $ , , 
+. 
+. . 11 
+, , 
+, , 
+Pewnienie 
+, 
+- 
+- 
+- 
+. 
+. 
+- 
+- 
+. 
+. 
+. 
+- 
+- 
+" 
+- . 
+. 
+- 
+" 
+. 
+- 
+- - 
+- 
+- 
+FIG 
+. 
+12B 
+1 
+. 
+1 . , 
+. 
+. , ' ' , 
+' 
+1 ' , ' ' , ' ' , ' ' , 
+' 
+1 ' , ' ' 
+manananananahanging 
+. . 11 
+. 
+: . , : 
+. 
+- 
+. . 
+. . ' 
+. 
+, ' . . : . , 
+. 
+. - 
+, 
+Senaran 
+. . 
+. sos 
+! 
+. . 
+. 
+" 
+ginen 
+KAMA 
+minnnnnnnnnnnnnnnnnnnnnnmar 
+return 
+. 
+. 
+. 
+illi 
+, 
+Lakhnathan 
+. . 
+. . 
+- - 
+- - 
+- - 
+- - 
+- - 
+- - 
+- 
+- - 
+- - 
+LOZE 
+LOGL 
+: 
+: : 
+: : 
+: : 
+: 
+: : 
+: 
+: : : ' . 
+' 
+, 
+' 
+' , 
+' 
+' 
+, 
+' : : 
+???????????????????????? 
+= = 
+= ????????????? 
+IIII 
+. 
+. 
+. 
+. 
+113 
+. 
+: 
+: 
+. 
+: 
+1203 
+iwwwwwwwwww 
+wwwwwwin 
+' in 
+MAMLANMIRIS 
+DRAMOS 
+TEATRAS 
+MAMARMARAMUNKÁMAT 
+. 
+: 
+. 
+: 
+. 
+: 
+. . 
+: : 
+Rohoho 
+. 
+Kamang 
+. 
+: 
+. 
+: 
+1 5 
+. 
+: 
+MAAR 
+1 
+1 
+. 3 
+kecedor 
+FIG 
+. 
+12A 
+' 
+' 
+I 
+' 
+. 
+: 
+new 
+SARANIKARÍKAMANSARA 
+. 
+. 
+. 
+! 
+. 
+! 
+. 
+! 
+! 
+1 
+. 
+. 
+. 
+. 
+. . 
+LIKOVNOM 
+
+
+i 
+. 
+113 
+. 
+. 
+. 
+. 
+. . 
+' . 
+" 
+5 
+. . 
+. 
+. . 
+. 
+. 
+. . 
+. 
+????????? ????? 
+a 
+AAALAAAAA 
+werwieg 
+e 
+n 
+d 
+your 
+returning 
+www 
+. 
+miniwing 
+wwwwwwww 
+. . 
+: 
+Jrood 
+' 
+, 
+, 
+FIG 
+. 
+12D 
+uuninnende 
+hand 
+interio 
+NÁKLANKICKASNÍKAMIENIKIACHAMADIKAN 
+Emmandmannalauninni 
+e 
+r 
+sammenhancementerian 
+namin 
+natin 
+anal 
+105 
+- 
+601 
+1200 
+' 
+. 
+' 
+. 
+- 
+' 
+. 
+' 
+. 
+. 
+! 
+' 
+1 
+FIG 
+. 
+12E 
+alb 
+" 
+I 
+' 
+I 
+. 
+' 
+- 
+1131 
+7 
+, 
+7 
+, 
+7 
+, 
+' 
+, 
+V 
+, 
+' 
+, 
+I 
+I 
+: 
+: 
+VU 
+. 
+Bananaskan 
+mineralinisanakan 
+1201 
+, 
+- 
+, 
+- 
+. 
+X 
+N 
+" 
+, 
+- 
+* 
+4 
+' 
+10 
+' 
+. 
+' 
+. 
+. 
+. 
+II 
+. 
+11 
+. 
+' 
+. 
+i 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+0 
+Laerctrix 
+. 
+. 
+0 
+. 
+makanan 
+wogo 
+www 
+* 
+* 
+* 
+* 
+* 
+* 
+bghinowwwwwwwwwww 
+1 
+. 
+FIG 
+. 
+12F 
+heeelt 
+DROG 
+" 
+! 
+TE 
+SITIIVI 
+9 
+* 
+. 
+g 
+. 
+. 
+: 
+. 
+, 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+2 
+SI ? 
+" 
+. 
+. 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+eram 
+113 
+www 
+minii 
+1105 
+US 10 , 266 , 442 B2 
+Sheet 17 of 19 
+Apr . 23 , 2019 
+U . S . Patent 
+
+
+# G . 13 
+??? 
+# 
+we 
+_ 
+_ 
+_ 
+* 
+KAALWAwxw 
+??????????? 
+?????????? 
+?? 
+????????????????? 
+??? 
+" 
+, 
+EL 
+: 
+: 
+: 
+: 
+: 
+Zails 
+. 
+nl 
+????????? 
+' 
+' 
+, 
+, 
+• 
+• 
+• 
+10€ 
+# 
+winnhanwwwyorwaAm 
+/ 
+WiwaliAwwwwww 
+' 
+- 
+- 
+: 
+- 
+- 
+' 
+, 
+' 
+, 
+' 
+www??? 
+. 
+" 
+mwingini 
+???? 
+????? 
+E?khwwwwwwww 
+w 
+wwwara 
+NANA????? 
+sh 
+- 
+M? 
+" 
+" 
+" 
+* 
+* 
+* 
+???????? 
+30 
+. 
+. 
+. 
+1 
+táigning 
+gingariannamining 
+Mastesso 
+. 
+. 
+Jaland 7 
+' 
+; 
+' 
+; 
+sualp?449suadk???eh?? 
+????? 
+? 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+' 
+????? 
+?????? 
+* 
+* 
+: 
+64 
+? 
+????? 
+guywherinworthyweatherlywhey 
+?wwwwwwwww 
+. 
+* 
+* 
+? 
+what 
+asochistostudioStatuoutubducuseaudelous 
+. 
+??????? 
+wwwwwww 
+?? - 
+???????? 
+wwwwwwww 
+kisekresuishikesheimkarketwinskritisanskretarikewisheksik lerimistical 
+. 
+?????? 
+. 
+. 
+* 
+, 
+, 
+Mewykukuwukokulww . 
+??????k 
+weekenhnuwwninnuhaaeewanew 
+# 
+weilerinisters 
+like 
+likewitter 
+# 
+kleelite 
+# 
+plashahisels 
+# 
+t 
+# 
+# 
+likwapninherennavannvener 
+£ 
+?? 
+?? 
+??????? 
+, 
+. 
+. 
+. 
+, 
+, 
+, 
+, 
+€0€ 
+LOCLC 
+US 10 , 266 , 442 B2 
+Sheet 18 of 19 
+Apr . 23 , 2019 
+U . S . Patent 
+
+
+U . S . Patent 
+Apr . 23 , 2019 
+Sheet 19 of 19 
+US 10 , 266 , 442 B2 
+1402 
+1401 
+m 1403 
+MY 
+FIG . 14A 
+W 
+WWW 
+w 
+- 
+ww 
+www 
+. 
+?? 
+??? 
+??? 
+? 
+??? 
+?? 
+? 
+??? 
+??? 
+??? 
+??? 
+? 
+? 
+? 
+??? 
+?? 
+???? 
+? 
+w 
+1412 
+wwwth 
+www 
+FIG . 14B 
+1420 
+1421 
+METAL 
+0 - 1422 
+ro1423 
+( 
+1424 
+www 
+CHOCHOWSOMWWW 
+* 
+WWW 
+* 
+* * 
+CHADO W 
+1423 
+FIG . 140 
+1425 - Rad 
+FIG . 14D 
+
+
+US 10 , 266 , 442 B2 
+METHODS AND APPARATUS FOR 
+is fully lowered , it extends into the nozzle , touching interior 
+ADDITIVE MANUFACTURING OF GLASS 
+walls of the nozzle tip and blocking flow of molten glass 
+through the nozzle . 
+RELATED APPLICATIONS 
+In some implementations , the sole impetus for the flow of 
+5 molten glass through the nozzle is the force of gravity . In 
+This application is a continuation of U . S . patent applica - 
+other implementations , molten glass is actively pushed out 
+tion Ser . No . 15 / 365 , 577 filed Nov . 30 , 2016 , which is a 
+of the nozzle . For example , in some cases , a refractory 
+continuation of U . S . patent application Ser . No 
+. 14 / 697 , 564 
+plunger or compressed air exerts pressure against molten 
+filed Apr . 27 , 2015 , which claims the benefit of U . S . Pro - 
+glass in the crucible and thereby pushes the molten glass 
+visional Application No . 61 / 984 , 137 filed Apr . 25 , 2014 . 
+10 through the nozzle . 
+In some cases , a tube extends into the nozzle almost to the 
+FIELD OF TECHNOLOGY 
+tip of the nozzle . Air is blown through the tube , such that a 
+column of air infiltrates the filament of molten glass as it is 
+The present invention relates generally to additive manu 
+extruded from the nozzle . The column of air is trapped inside 
+facturing of glass , by extrusion of molten glass through a 15 the filament and is co - axial with the filament . 
+nozzle . 
+In illustrative implementations , the 3D glass object pro 
+duced by the selective deposition is optically transparent . 
+SUMMARY 
+The description of the present invention in the Summary 
+and Abstract sections hereof is just a summary . It is intended 
+In illustrative implementations of this invention , a cru - 20 only to give a general introduction to some illustrative 
+cible kiln heats glass such that the glass becomes or remains 
+implementations of this invention . It does not describe all of 
+molten . A nozzle extrudes the molten glass while one or 
+the details and variations of this invention . Likewise , the 
+more actuators actuate movements of the nozzle , a build 
+descriptions of this invention in the field of Technology 
+platform or both . A computer controls these movements 
+section and Field Of Endeavor section are not limiting ; 
+such that the extruded molten glass is selectively deposited 25 instead they identify , in a general , non - exclusive manner , a 
+to form a 3D glass object . 
+field of technology to which exemplary implementations of 
+In some implementations , the actuators actuate the cru 
+this invention generally relate . Likewise , the Title of this 
+cible kiln and nozzle to move in horizontal x , y directions 
+document does not limit the invention in any way ; instead 
+and actuate the build platform to move in a z - direction . In 
+the Title is merely a general , non - exclusive way of referring 
+other implementations , “ polar printing ” occurs in which 30 to this invention . This invention may be implemented in 
+motion occurs in linear r , angular theta , and linear z direc 
+many other ways . 
+tions : the actuators ( a ) actuate the crucible kiln and nozzle 
+to move along a single horizontal “ r ” axis ; ( b ) actuate the 
+BRIEF DESCRIPTION OF THE DRAWINGS 
+build platform to rotate about its center line in an angular 
+theta direction , and ( c ) actuate the build platform to move up 35 
+FIG . 1A is a cross - sectional view of an apparatus for 
+and vertically in a z direction . In yet other implementations , 
+additive manufacture of glass . 
+the nozzle and crucible kiln are stationary , and the actuators 
+FIG . 1B is a cross - sectional view of a crucible kiln . 
+actuate the build platform to move relative to the nozzle . 
+FIG . 1C is a cross - sectional view of a nozzle kiln . 
+In illustrative implementations , the nozzle is indepen - 
+FIG . 1D is a cross - sectional view of an annealing kiln . 
+dently heated by a nozzle kiln . In some cases , the nozzle kiln 40 
+FIG . 2 is a perspective view of an apparatus for additive 
+is partially housed in the crucible kiln , and partially pro - 
+manufacture of glass . 
+trudes below the crucible kiln . 
+FIG . 3 shows deposition of molten glass . 
+In illustrative implementations , the build platform 
+is 
+FIGS . 4A , 4B and 4C are cross - sectional views of tubes 
+located inside an annealing kiln , and the nozzle protrudes 
+or cavities for cooling a nozzle tip . 
+into the annealing kiln . Thus , the selective deposition of 45 
+FIGS . 5A and 5B are cross - sectional views of valves for 
+molten glass occurs inside the annealing kiln . The annealing 
+controlling flow of molten glass from the crucible . 
+kiln heats the extruded glass during the selective deposition , 
+FIG . 6A is a cross - sectional view of a disposable metal 
+and anneals the glass by slowly and progressively lowering 
+sheet that is positioned adjacent to a nozzle tip . 
+the temperature of the extruded glass after the selective 
+FIG . 6B is a cross - sectional view of two disposable metal 
+deposition . 
+50 sheets that are positioned adjacent to a nozzle tip . 
+In some implementations , a fluid flows through a cavity or 
+FIG . 7 is a cross - sectional view of insulation skirts . 
+tubes adjacent to the nozzle tip , in order to cool the nozzle 
+FIG . SA is a cross - sectional view of an apparatus in which 
+tip and thereby reduce the amount of glass that sticks to the 
+the print head is stationary . 
+nozzle tip . The lower the temperature of the nozzle tip , the 
+FIG . 8B is a cross - sectional view of an apparatus , in 
+less glass sticks to the nozzle tip or the easier it is to remove 55 which a first actuator causes the build platform to rotate , and 
+a second actuator causes the crucible kiln to move along a 
+In some implementations , one or more refractory metal 
+linear axis . 
+sheets are press - formed to fit around the exit orifice of the 
+FIG . 9 is a block diagram showing hardware components 
+nozzle and thereby protect the nozzle tip from becoming 
+that interface with , or are controlled by , one or more 
+clogged by glass . When glass becomes stuck to a disposable 60 computers . 
+sheet , the disposable sheet is removed . 
+FIG . 10A is a flowchart that describes steps in a method 
+In some implementations , a valve controls flow of molten 
+for additive manufacture of glass . 
+glass through the nozzle . For example , in some cases , the 
+FIG . 10B is a flowchart that shows steps in a method for 
+valve comprises a pair of refractory shears . When the shears 
+additive manufacture of glass . 
+are closed , they cut the filament of molten glass exiting the 65 
+FIG . 11A is a cross - sectional view of an apparatus , in 
+nozzle and block flow of molten glass through the nozzle . In 
+which a plunger exerts pressure that actively extrudes mol 
+other cases , a motor raises a rod up and down . When the rod 
+ten glass through a nozzle . 
+it . 
+
+
+US 10 , 266 , 442 B2 
+FIG . 11B is a cross - sectional view of an apparatus , in 
+that comprises supports mounted on roller bearings that 
+which air exerts pressure that actively extrudes molten glass 
+travel on structural tracks . The nozzle kiln and nozzle 
+through a nozzle . 
+protrude out of the bottom of the crucible kiln , and thus 
+FIGS . 12A , 12B , 12C , 12D , 12E and 12F each show 
+protrude below the carriage into the annealing chamber . The 
+material being fed into the printer . 
+5 nozzle deposits molten glass , precisely controlling layer 
+FIG . 13 is a cross - sectional view of an apparatus , in which 
+height . The layers of deposited glass adhere to each other . 
+an air tube blows air into molten glass . 
+In this prototype , the molten glass is deposited into an 
+FIGS . 14A , 14B , 14C and 14D show non - limiting 
+annealing chamber . Thus , the 3D object formed by the 
+examples of glass objects printed by a 3D printer . FIG . 14A 
+deposited glass is created inside the annealing chamber . The 
+is a cross - sectional view that shows multiple internal cavi - 10 
+" annealing chamber reduces the cooling rate of the glass , 
+ties . FIG . 14B shows multiple , distinct layers of optically 
+y 
+such that the 3D object being manufactured comprises 
+Sue 
+transparent glass . FIG . 14C shows a spiral filament of glass . 
+crack - free glass with strong adhesion between layers . 
+FIG . 14D is a cross - sectional view of an elongated cavity in 
+In this prototype , the annealing chamber operates at 900 
+the spiral filament . 
+The above Figures show some illustrative implementa - 15 degrees Fahrenheit , before slowly cooling during annealing . 
+tions of this invention , or provide information that relates to 
+The annealing chamber remains stationary . A build platform 
+those implementations . However , this invention may be 
+supports the 3D glass object being fabricated . The build 
+implemented in many other ways . 
+platform is positioned inside the annealing chamber . An 
+actuator moves the build platform up and down vertically . 
+DETAILED DESCRIPTION 
+20 The print head moves horizontally in X - Y directions . 
+In this prototype , the heating elements of the annealing 
+Prototype 
+chamber draw 4000 Watts . Power for the heating elements 
+The following is a description of a prototype of this 
+is obtained by plugging into a 208 V wall outlet . The 
+invention . This prototype is a non - limiting example of this 
+annealing chamber includes two refractory doors . One door 
+invention ; this invention may be implemented in many other 25 provides access to the nozzle . The other door may be 
+ways . 
+opened , in order to remove the 3D printed object from the 
+In this prototype , a 3D printer fabricates 3D glass objects , 
+annealing chamber . In addition , the annealing chamber 
+such as objects that comprise optically transparent glass . The 
+includes a heat - resistant Neoceram® window , through 
+3D printer operates at high temperatures , extrudes highly 
+which a user may look to visually monitor progress of a print 
+viscous molten glass , and overcomes large inertias during 30 job . 
+the 3D printing process . 
+In this prototype , the top of the annealing kiln has a hole , 
+In this prototype , a crucible kiln maintains molten glass at 
+into which the nozzle of the print head protrudes in order to 
+a temperature of 1900 - 2000 degrees Fahrenheit . The tem - 
+deposit molten glass into the annealing chamber . Two light , 
+perature of the feed affects the dimensional accuracy of the 
+thin , refractory Duraboard® insulation skirts , together with 
+print due to the change in viscosity across the temperature 35 the carriage for the print head , block this hole and reduce the 
+range . Electrical specifications of the crucible kiln are : 1800 
+amount of heat that is lost through this hole . One skirt is 
+W , 120V , 15 A , 1 phase , 20 A breaker . The kiln is made of 
+mounted on top of the annealing chamber , whereas the other 
+alumina - silica fiber board ( Duraboard® ) and it is heated 
+one is mounted to the moving carriage below the crucible 
+through Kanthal® A - 1 1 . 8 mm diameter , 0 . 57 Resistance 
+kiln . 
+22 . m 20° C . coils . Temperature of the crucible kiln is read by 40 
+In this prototype , a frame provides structural support for 
+a Type K thermocouple . 
+the printer , and is positioned along the exterior of the printer . 
+In this prototype , a nozzle kiln provides independent 
+The frame is made from 80 / 20 aluminum 1 " stock and 1018 , 
+heating to the printer nozzle . The electrical specifications of 
+1 " square steel tube . Aluminum is used for elements not 
+the nozzle kiln are : 300 W , 48V , 6 A , 1 phase , 15 A breaker . 
+exposed to high heat , while the heavier steel is reserved for 
+The kiln is made of alumina - silica fiber board ( Duraboard® ) 45 central components that may become hot from the feed kiln , 
+and it is heated through Kanthal® A - 1 1 mm diameter , 1 . 85 
+annealing kiln , or radiating molten glass . The print head is 
+Resistance 2 . m 20° C . coils . Temperature of the nozzle kiln 
+mounted on a moveable carriage . The carriage comprises 
+is read by a Type S thermocouple . The characteristics of the 
+steel supports mounted on shielded roller bearings that travel 
+flow of molten glass are highly temperature dependent . The 
+on structural steel tracks . The entire assembly , including the 
+nozzle kiln is partially housed in 
+a bottom wall of the 50 frame 
+, print head , carriage , and annealing chamber , fits 
+crucible kiln , and also protrudes below the bottom of the 
+through a standard door frame . 
+crucible kiln . 
+This prototype includes three independent stepper motor 
+In this prototype , the crucible , crucible kiln , nozzle and 
+lead screw gantry systems . Out of these three stepper 
+nozzle kiln together comprise a compact unit , which is 
+motor - lead screw gantry systems , one actuates x motion of 
+sometimes referred to herein as the " print head ” . All heating 55 the print head carriage , one actuates y motion of the print 
+elements and thermocouples exit on the same side of the 
+head carriage , and one actuates z motion of the build 
+print head in order not to limit the print head movements . 
+carriage . 
+In this prototype , molten glass is contained in a refractory 
+In this prototype , each stepper motor is electronically 
+crucible positioned inside the crucible kiln . The molten glass 
+controlled by a driver circuit , which in turn is electronically 
+flows out of the crucible , then through an alumina nozzle , 60 controlled by an Arduino® PCB and an Arduino 
+Shield 
+and then exits the tip of the nozzle and is deposited . The 
+PCB . The stepper motors are NEMA 23 in size and have a 
+nozzle kiln has a hole , into which the nozzle is inserted . 
+rated holding torque of 400 oz - inches . The stepper motors 
+After the nozzle is inserted , the crucible and the nozzle are 
+operate in their high - torque range due to the inertia of the 
+assembled with a refractory mortar . The nozzle is machined 
+crucible kiln and carriage assembly . The driver circuits 
+from bulk alumina rods . 
+65 permit a maximum current of 7 . 8 Amps to the stepper 
+In this prototype , the print head ( including nozzle , cru - 
+motors and are powered separately from the electronic 
+cible , crucible kiln and nozzle kiln ) is mounted on a carriage 
+controls with a 48 V power supply . 
+
+
+US 10 , 266 , 442 B2 
+TISK 
+In this prototype , each of the x and y motors are connected 
+1A , a crucible kiln 107 heats glass 103 in crucible 105 until 
+to an ACME 1 / 2 - 10 five - start fast travel lead screw with a 
+the glass melts . A nozzle kiln 109 is partially housed in a 
+flexible helical coupling that accommodates slight misalign - 
+bottom wall of the crucible kiln 107 . Part of the nozzle kiln 
+ments during operation . The x and y motors are isolated 
+109 protrudes below the bottom wall of the crucible kiln 
+from axial and radial loads by bearing blocks . Each of the x 
+5 
+107 . The nozzle kiln 107 heats glass in nozzle 15 . 
+and y motors is mounted at the corner of the travel range 
+In FIG . 1A , the crucible kiln 107 and nozzle kiln 109 are 
+actuated by the motor . The lead screws for the x and y 
+positioned above an annealing kiln 111 . A build platform 108 
+motors , respectively , are attached to the carriage with a brass 
+is positioned inside the annealing kiln 111 . A support rod 106 
+nut and the far end is not constrained in order to reduce risk 
+supports the build platform 108 . The support rod 106 is 
+of jamming due to substantial vibration when operating at 10 operatively connected to a gear 104 that transmits mechani 
+full speeds . Plates and mounts are made of mild steel . 
+cal force from an actuator . The force causes rod 106 , and 
+In this prototype , the Z motor is mounted at the base of the 
+thus build platform 108 , to move up and down vertically . 
+frame and drives a standard travel lead screw through radial 
+FIG . 1B is a cross - sectional view of a crucible kiln 107 , 
+bearings to the build platform . The build platform support 
+in an illustrative implementation of this invention . In FIG . 
+rod extends through a hole at the base of the annealing 15 1B , electrical heating elements 115 heat a crucible 105 
+chamber kiln . 
+containing glass 103 . For example , in some cases , heating 
+In this prototype , an emergency stop button is wired to cut 
+elements 115 in crucible kiln 107 : ( a ) heat the glass 103 in 
+power to the drivers and motors and mounted to the frame 
+crucible 105 to a temperature of 2000 degrees Fahrenheit for 
+for easy access . Limit switches are mounted at the “ zeros ” 
+at least two hours , during a melting and fining step ; and ( b ) 
+of the X and Y axes both to provide homing information to 
+20 heat the glass 103 in crucible 105 to a temperature of 1900 
+the control software and to protect the system from mechani - 
+degrees Fahrenheit during deposition of the glass to form the 
+cal crashes . These prevent the motor from driving when 
+3D glass object being manufactured ( i . e . , during printing " ) . 
+activated and are connected directly to the Arduino® shield . 
+During the fining step , bubbles are removed from the melted 
+The limit switch cables are bundled separately from the 
+glass . In some cases , fining agents are placed in the crucible 
+motor cables to prevent interference . 
+25 105 prior to the fining step , and facilitate the fining ( removal 
+In this prototype , a computer slices a CAD model of the 
+of bubbles ) . For example , in some cases , the fining agents 
+desired three - dimensional glass object . To do so , the com 
+comprise a sulfate ( e . g . , 2803 
+) , 4CeO2 
+, arsenic oxide or an 
+puter performs a C # script in Grasshopper Build 0 . 9 . 76 . 0 , 
+antinomy oxide . 
+and imported into an open source printing software , 
+In FIG . 1B , the side and bottom walls 111 of the crucible 
+Repetier - Host V1 . 0 . 6 . Open source Repetier firmware is 30 kiln 107 are insulated . Likewise , the lid 113 of the crucible 
+used to direct the 3D printer . The Repetier firmware is 
+kiln 107 is insulated . A temperature sensor 117 measures 
+adapted for the acceleration , velocities , and size of the 3D 
+temperature in the crucible kiln 107 . For example , in some 
+printer . 
+cases : ( a ) the temperature sensor 117 comprises a Type K 
+In this prototype , a computer performs an algorithm that 
+thermocouple ; ( b ) wires that are rated for high temperatures 
+includes the following steps . The slicing script draws a helix 35 connect the temperature sensor 117 and heating elements 
+around the CAD model structure , providing information for 
+115 to a PID ( proportional - integral - derivative ) controller ; 
+continuous flow and accommodating for the specific fila - 
+and ( c ) the PID controller controls heating elements 115 . 
+ment diameter of extruded glass . This helix is then repre - 
+FIG . 1C is a cross - sectional view of a nozzle kiln 109 , in 
+sented in Cartesian coordinates in the form of g - code . The 
+an illustrative implementation of this invention . In FIG . 1C , 
+g - code generator may take two different types of inputs to 40 electrical heating elements 129 heat glass in a nozzle 125 . 
+create the code : a free - form spline / polyline curve or a 
+For example , in some cases , the nozzle kiln heats glass in the 
+non - uniform rational basis spline ( nurbs ) surface . The layer 
+nozzle to a temperature of 1850 degrees Fahrenheit . Glass 
+height and curve discretization , as well as the feed rate , may 
+enters the nozzle 125 from the crucible 105 and exits the 
+be modified in real - time , while watching the toolpath update 
+nozzle at the nozzle tip 127 . The walls 121 of the nozzle kiln 
+live in the preview pane . Users may also define specific 45 109 are insulated . A temperature sensor 128 measures tem 
+velocities for each point . The algorithm for the wrapping 
+perature in the nozzle kiln 109 . For example , in some cases : 
+toolpath takes the input surface , intersects it based on the 
+( a ) the temperature sensor 128 comprises a Type S thermo 
+layer height , discretizes each intersection curve based on the 
+couple ; ( b ) wires that are rated for high temperatures con 
+input resolution , and then incrementally remaps the dis - 
+nect the temperature sensor 128 and heating elements 129 to 
+cretized points with increasing z values . The remapped 50 
+a PID controller ; and ( c ) the PID controller controls heating 
+points are then connected with a polyline to create the 
+elements 129 . 
+continuous wrapping toolpath for any given complex geom - 
+FIG . ID is a cross - sectional view of an annealing kiln 111 , 
+etry . All remapped points are ordered and formatted to 
+in an illustrative implementation of this invention . The walls 
+g - code syntax which is then be imported directly into 
+131 , 133 of annealing kiln 111 are insulated . In FIG . 1D , 
+Repetier software . 
+55 electrical heating elements 139 heat the interior cavity 
+In this prototype , the 3D printer selectively deposits 
+( annealing chamber ) of the annealing kiln 111 . For example , 
+molten glass with a spatial precision of about 2 mm . The 
+in some cases : ( a ) heating elements 139 maintain a tem 
+crucible kiln , nozzle kiln and annealing kiln are able to heat 
+perature of at least 900 degrees Fahrenheit in the annealing 
+up to 2300° F . , and the maximum build volume is 0 . 7 cubic 
+chamber during deposition of the molten glass ; and ( b ) after 
+feet . 
+60 deposition of the molten glass is complete , heating elements 
+This invention is not limited to the prototype described 
+139 continue to heat the annealing chamber , but at slowly 
+above . Instead , this invention may be implemented in many 
+decreasing temperature setpoints . For example , in some 
+different ways . 
+cases , starting when deposition of the glass is complete , the 
+Drawings 
+temperature setpoint for the annealing chamber is set to 900° 
+Turning now to the drawings , FIG . 1A is a cross - sectional 65 F . for one hour , then 750° F . for three hours , then 300° F . for 
+view of an apparatus 100 for additive manufacture of glass , 
+five hours , then 175° F . for 1 . 5 hours , and then 70° F . for 0 . 5 
+in an illustrative implementation of this invention . In FIG . 
+hours . Slowly lowering the temperature of the glass ( i . e . , 
+
+
+US 10 , 266 , 442 B2 
+annealing the glass ) releases thermal stresses in the glass and 
+direction parallel to horizontal x - axis 272 , along support 
+causes the glass to be crack free and much stronger than it 
+rails that are part of moveable component 217 . Carriage 219 
+would if it were allowed to quickly cool to room tempera - 
+rests on roller bearings that travel along these support rails . 
+ture . 
+In some cases , carriage 219 comprises steel 
+In FIG . 1D , a temperature sensor 141 measures tempera - 5 
+In FIG . 2 , the print head ( including nozzle 125 , crucible 
+ture in the annealing kiln 111 . For example , in some cases : 
+kiln 107 , crucible 105 , and nozzle kiln 109 ) is attached to , 
+( a ) the temperature sensor 141 comprises a Type K thermo - 
+and supported by , carriage 219 . The print head moves with 
+couple ; ( b ) wires that are rated for high temperatures con 
+carriage 219 . 
+nect the temperature sensor 141 and heating elements 139 to 
+In FIG . 2 , motor 201 actuates z movement and is posi 
+a PID controller ; and ( c ) the PID controller controls heating 10 tioned beneath the annealing kiln ( not shown in FIG . 2 ) . 
+elements 139 . 
+Support rod 203 passes through the bottom wall of the 
+In FIG . 1D , a window 137 allows a user outside the 
+annealing kiln and supports the build platform 205 . 
+annealing chamber to look through the window 137 into the 
+In some cases , x , y and z motions are actuated by three 
+annealing chamber . For example , in some cases , window 13 
+lead screw gantry systems that include motors 211 , 221 and 
+comprises a Neoceram® window that is rated for high 15 201 , respectively . In some cases , motors 201 , 211 , and 221 
+temperatures . 
+comprise stepper motors or servo motors . In some cases , the 
+In FIG . 1D , a refractory door 135 provides access to the 
+motors are controlled by driver circuits that are controlled by 
+interior of the annealing chamber , allowing a user to access 
+one or more microcontrollers ( e . g . , an Arduino ® board and 
+the nozzle tip in the annealing chamber . Door 135 has a 
+shield ) . The microcontrollers are in turn controlled by 
+handle 136 . A second , wider refractory door ( not shown in 
+20 another computer . 
+FIG . 1D ) also provides access to the interior of the annealing 
+FIG . 3 shows deposition of molten glass , in an illustrative 
+chamber . This second door is sufficiently wide that a user 
+implementation of this invention . In FIG . 3 , a nozzle tip 127 
+may reach into the annealing chamber and remove the 3D 
+is positioned at a height equal to the top of the layer 303 of 
+glass object that has been created by the printer . 
+molten glass being deposited , while molten glass flows 
+In FIGS . 1B , 1C , 1D , the heating elements 115 , 129 , 139 25 through the nozzle tip 127 . Positioning the nozzle tip at this 
+comprise resistive heating elements or inductive heating 
+height ( equal to the top of the layer then being deposited ) 
+elements . For example , in some cases , each heating element 
+tends to create stronger bonds between layers and print 
+115 , 129 , 139 comprises a Kanthal® resistive coil . For 
+objects with consistent layer height , as compared to posi 
+example , in some other cases , each heating element 115 , 
+tioning the nozzle tip at a greater height . The better adhesion 
+129 , 139 comprises an electromagnet that undergoes induc - 30 and the bigger contact surface between layers lead to higher 
+tive heating when subjected to a high frequency alternating 
+transparency in the vertical direction . 
+current . For example , in some cases , the high frequency AC 
+In some cases , the molten glass comprises a soft , flexible 
+current is generated by an electronic oscillator ( not shown ) . 
+filament of molten glass as it exits the nozzle . 
+FIG . 2 is a perspective view of an apparatus for additive 
+In the example shown in FIG . 3 , the molten glass is 
+manufacture of glass , in an illustrative implementation of 35 selectively deposited layer - by - layer . For each layer , actua 
+this invention . In FIG . 2 , actuators cause x , y motion of the 
+tors ( e . g . , motors 211 , 221 ) move the print head ( including 
+print head ( including the crucible kiln ) and z - motion of the 
+the nozzle 125 , crucible kiln 107 , crucible 105 , and nozzle 
+build platform . 
+kiln 109 ) in x , y movements to control the x , y coordinates 
+As used herein , " X , y motion " means motion in two 
+of where the glass is deposited in the layer . The region ( s ) in 
+horizontal axes that are perpendicular to each other . As used 40 which glass is deposited may vary from layer to layer . 
+herein , “ z motion ” means vertical motion . Likewise , as used 
+Printing instructions ( e . g . , g - codes ) generated by a computer 
+herein , “ X ” and “ y ” directions means two directions that are 
+from a CAD file control the movement of the print head and 
+horizontal and are perpendicular to each other , and “ Z ” 
+thus the region ( s ) in which glass is deposited in each layer . 
+direction means a vertical direction . Likewise , as used 
+While each layer is being deposited , an actuator ( e . g . motor 
+herein , “ X ” and “ y ” axes mean two axes that are horizontal 45 201 ) gradually lowers the build platform by a vertical 
+and are perpendicular to each other , and a “ z ' axis means a 
+distance equal to the vertical thickness of the layer . Printing 
+vertical axis 
+instructions control the actuator ( e . g . , motor 201 ) that causes 
+In FIG . 2 , motor 211 actuates x movement of the print 
+the z movement of the build platform . 
+head ( including nozzle 125 , crucible kiln 107 , crucible 105 , 
+Alternatively or in addition , in some cases , at least a 
+and nozzle kiln 109 ) in a direction parallel to a horizontal x 50 portion of the deposition of glass is not layer - by - layer . For 
+axis 272 . Motor 221 actuates y movement of the print head 
+example , in some cases , molten glass is deposited at a 
+( including nozzle 125 , crucible kiln 107 , crucible 105 , and 
+position such that the glass dribbles down the edge of one or 
+nozzle kiln 109 ) in a direction parallel to horizontal y axis 
+more previously deposited layers and stops at a level lower 
+271 . X - axis 272 and y - axis 271 are horizontal and perpen - 
+than the layer most recently deposited . 
+dicular to each other . Motor 201 actuates movement of the 55 
+In the example shown in FIG . 3 , only part of the layers of 
+build platform 205 and support rod 203 in a direction 
+the glass object 301 have been deposited , the remaining 
+parallel to vertical z axis 273 . 
+layers of glass object 301 have not yet been deposited . 
+In FIG . 2 , motor 221 is attached to frame 280 and is 
+In some implementations of this inventions , cool fluid 
+stationary with respect to frame 280 . Motor 221 causes 
+flows through tubes or cavities near the tip of the nozzle and 
+moveable component 217 ( and the print head , which is 60 cools the nozzle tip , in order to reduce the amount of glass 
+supported by moveable component 217 ) to move in a y 
+that sticks to the nozzle tip , and thus to reduce fouling of the 
+direction . Moveable component 217 includes roller bearings 
+nozzle . As used herein , to " foul ” means to build up glass on 
+that travel in a direction parallel to horizontal y axis 271 
+a surface of the nozzle tip . For example , in some cases , glass 
+along structural tracks that are part of frame 280 . 
+is heated to approximately 1850° Fahrenheit in the nozzle , 
+In FIG . 2 , motor 211 is attached to moveable component 65 and it is desirable that the nozzle tip be at a lower tempera 
+217 and is stationary with respect to moveable component 
+ture than the glass . This is because lowering the temperature 
+217 . Motor 211 causes a carriage 219 to move in an x 
+of the nozzle tip tends to reduce the amount of glass that 
+
+
+US 10 , 266 , 442 B2 
+10 
+sticks to the nozzle tip — that is , the lower the temperature of 
+stationary relative to the nozzle tip 127 . In some cases , the 
+the nozzle tip , the less amount of molten glass that sticks to 
+fasteners ( e . g . , 605 ) comprise refractory clips or refractory 
+the nozzle tip . 
+magnets . 
+FIGS 
+. 4A , 4B and 4C are cross - sectional views of tubes 
+In the example shown in FIG . 6A , a single disposable 
+or cavities for cooling a nozzle tip , in an illustrative imple - 5 
+sheet ( e . g . , stainless steel , Inconel , or tungsten carbide ) 
+mentation of this invention . In FIG . 4A , a cool fluid flows 
+601 is press - formed to follow the shape of nozzle tip 127 . A 
+through tubes 401 , and thereby cools nozzle tip 127 . In FIG . 
+hole is cut in sheet 601 that corresponds to the nozzle orifice 
+4B , a cool fluid flows through cavity 403 , and thereby cools 
+603 to allow glass flow . A tab is introduced during press 
+nozzle tip 127 . Fluid enters and exits cavity 403 through 
+forming to allow easy sheet removal through the use of 
+tubes 405 and 406 , respectively . In FIG . 4C , a cool fluid 
+10 pliers . 
+flows through tubes 407 , and thereby cools a fluid in a cavity 
+In the example shown in FIG . 6B , two or more disposable 
+409 , which in turn cools nozzle tip 127 . 
+sheets are attached to the nozzle tip 127 . After glass gets 
+In the examples shown in FIGS . 4A , 4B and 4C : ( a ) the 
+stuck to the lowest sheet , the lowest sheet is removed by 
+fluid may comprise any liquid or gas , including water or air ; 
+pliers , thus uncovering the upper clean one . Tabs positioned 
+( b ) the fluid may be at a higher pressure than ambient air ; ( C ) 15 
+in different areas allow removal of one sheet at a time 
+. 
+one or more pumps may pump the fluid through , into or out 
+FIG . 7 is a cross - sectional view of two insulation skirts 
+of the tubes or cavity ; and ( d ) the fluid may recirculate , and 
+701 703 , in an illustrative implementation of this invention . 
+in each circulation cycle , one or more heat exchangers may 
+In FIG . 7 , the insulation skirts 701 , 703 assure that the 
+remove heat from the fluid before the fluid is sent near the 
+annealing chamber is always kept closed on the top . A lower , 
+nozzle tip again . 
+20 static insulation skirt 701 is mounted on top of the annealing 
+FIGS . 5A and 5B are cross - sectional views of valves , in 
+chamber . The upper insulation skirt 703 is attached to 
+an illustrative implementation of this invention . The valves 
+moveable carriage 219 . The moveable carriage 219 is 
+control flow of molten glass 103 through the nozzle 125 . 
+attached to and moves with the crucible kiln 107 . The upper 
+In FIG . 5A , the valve comprises a refractory rod 503 
+insulation skirt 219 is dimensioned to completely cover the 
+actuated by a motor 501 mounted on the crucible kiln lid . 25 top of the annealing chamber throughout the entire travel 
+The rod 503 moves up and down in a direction parallel to 
+range of carriage 219 ( and the printer head attached to 
+vertical axis 505 , allowing or blocking flow of molten glass 
+carriage 219 ) . In some cases , the insulation skirts 701 , 703 
+through the exit orifice 603 of nozzle 125 . When the bottom 
+comprise two ceramic fiber boards ( e . g . , Duraboard® ) . 
+tip 507 of rod 503 touches the inside wall of the nozzle tip 
+In some implementations , it is advantageous to immobi 
+127 , exit orifice 603 of nozzle 125 is blocked , and no glass 30 lize the print head ( including nozzle 125 , crucible 105 , 
+flows through exit orifice 603 of nozzle 125 . When the tip 
+crucible kiln 107 , and nozzle kiln 109 ) . For example , 
+507 of the rod is raised , such that tip 507 does not touch the 
+immobilizing the print head allows the crucible to be larger 
+inside wall of the nozzle tip 127 , exit orifice 603 is not 
+and heavier and to contain more glass . 
+blocked , and molten glass flows through the exit orifice 603 
+FIG . 8A is a cross - sectional view of an alternative imple 
+of nozzle 125 . 
+35 mentation of this invention , in which the print head is 
+In FIG . 5B , the valve comprises refractory shears 511 . 
+stationary . In the example shown in FIG . 8A , the print head 
+When open , the shears 511 surround , but do not intrude into , 
+( including nozzle 125 , crucible 105 , crucible kiln 107 , and 
+a region immediately below the nozzle tip 127 , thereby 
+nozzle kiln 109 ) is stationary relative to the walls of the 
+allowing molten glass to flow through the exit orifice 603 of 
+annealing kiln 111 . A build platform 808 is attached to 
+nozzle 125 . As the shears 511 are closed , the shears 511 cut 40 robotic arm 801 . The robotic arm 801 moves with multiple 
+the molten glass filament exiting the nozzle 125 . When the 
+degrees of freedom . For example , in some cases , the robotic 
+shears 511 are closed , they block the exit orifice 603 of 
+arm 801 moves with three , four , five , six or more degrees of 
+nozzle 125 and prevent molten glass from flowing through 
+freedom . In FIG . 8A , one or more motors 809 actuate , via 
+exit orifice 603 . In some cases , the shears 511 comprise 
+robotic arm 801 , motion of build platform 808 relative to 
+stainless steel or an Inconel® austenite nickel - chromium - 45 nozzle 127 ; and ( b ) this motion controls the vertical z 
+based superalloy , or comprise ( or are coated with ) tungsten 
+position and horizontal x , y position of build platform 808 
+carbide . The shears are actuated by motor 517 . 
+and thus controls where glass exiting the nozzle 127 is 
+In each of FIGS . 5A and 5B : ( a ) the actuator ( motor 501 
+deposited . The one or more motors 809 are each controlled 
+or motor 517 ) is controlled by a driver circuit , which is in 
+by a driver circuit , which is in turn controlled by one or more 
+turn controlled by an Arduino® board and shield , which are 50 computers . 
+controlled by another computer ; and ( b ) the g - code instruc - 
+In FIG . 8A , the robotic arm 801 enters annealing kiln 111 
+tions include instructions for controlling valve movements . 
+through an opening 821 in the walls 115 of annealing kiln 
+In some implementations of this inventions , one or more 
+111 . Insulation 803 reduces the amount of heat that exits 
+disposable sheets of refractory material cover the nozzle tip , 
+through this opening 821 . In some cases , insulation 803 
+except the nozzle orifice , in order to reduce fouling of the 55 comprises an insulation skirt or an insulated bellows . Also , 
+nozzle . After solidified glass builds up on a disposable sheet , 
+a refractory door 805 with door handle 807 provides access 
+the sheet is removed and replaced with a new disposable 
+to the interior of annealing chamber 111 . The door 805 is 
+sheet . In some cases , the refractory sheets comprise metal 
+, 
+sufficiently wide that a user may open the door and remove 
+such as stainless steel , or an Inconel® austenite nickel - 
+the fabricated glass object after it cools . 
+chromium - based superalloy , or tungsten carbide . 
+60 
+FIG . 8B is a cross - sectional view of an apparatus 890 in 
+FIG . 6A is a cross - sectional view of a disposable metal 
+which an actuator causes build platform 858 to rotate , in an 
+sheet 601 that is positioned adjacent to nozzle tip 127 , in an 
+illustrative implementation of this invention . This apparatus 
+illustrative implementation of this invention . FIG . 6B is a 
+890 is sometimes referred to herein as a " polar printer ” . In 
+cross - sectional view of two disposable metal sheets 611 , 615 
+the polar printer 890 shown in FIG . 8B : ( a ) motor 851 
+that are positioned adjacent to nozzle tip 127 , in an illus - 65 actuates build platform 857 to rotate about the build plat 
+trative implementation of this invention . In both FIGS . 6A 
+form ' s center line 863 ; ( b ) motor 861 , via a lead screw , 
+and 6B , fasteners ( e . g . , 605 ) hold the disposable sheet ( s ) 
+actuates carriage 869 to move parallel to linear axis “ ” 865 ; 
+
+
+11 
+US 10 , 266 , 442 B2 
+12 
+and ( c ) motor 853 , via a lead screw , actuates build platform 
+from 
+z end stop sensor 912 and controls Z - motor 913 , 
+857 to move vertically ( up or down ) . 
+thereby controlling actuation along a z - axis . 
+Thus , in FIG . 8B , polar printer 890 causes motion in 3 
+In FIG . 9 , controllers 914 , 917 , 920 perform PID control 
+coordinates : r ( radial distance ) , e ( angle ) and z ( height ) . The 
+of heating elements of the crucible kiln , nozzle kiln and 
+print head ( including nozzle 125 , crucible 105 , crucible kiln 
+5 annealing kiln , respectively . For example , in some cases , 
+107 , and nozzle kiln 109 ) moves in the r dimension . The 
+controllers 914 , 917 , 920 each comprise a PLC ( program 
+build platform 857 moves up and down ( z ) in a direction 
+mable logic controller ) or other digital controller . Controller 
+parallel to vertical axis 867 . The build platform 857 also 
+914 receives sensor data from crucible kiln temperature 
+sensor 916 and controls crucible kiln heating elements 915 . 
+rotates ( 0 ) around its center line 863 . The center line 863 of 
+10 Controller 917 receives sensor data from nozzle kiln tem 
+build platform 857 is perpendicular to the top surface of 
+perature sensor 919 and controls nozzle kiln heating ele 
+build platform 857 and intersects the center of build plat 
+ments 918 . Controller 920 receives sensor data from anneal 
+form 857 . The center line 863 of build platform 857 is 
+ing kiln temperature sensor 922 and controls annealing kiln 
+co - located with the longitudinal axis of rod 856 . 
+heating elements 921 . In some cases , the temperature sen 
+In FIG . 8B , polar printer 890 limits the movement of the 15 sors 916 , 919 , 922 comprise thermocouples . 
+print head to only one dimension , the so - called “ r ” dimen - 
+In some cases , valve driver circuit 923 controls a valve 
+sion . This , in turn , allows bigger crucible kilns . 
+motor 924 . The valve motor 924 actuates a valve . For 
+In FIG . 8B , motors 853 , 861 are part of stepper motor - lead 
+example , in some cases , valve motor 924 opens and shuts a 
+screw systems that actuate r and z movements . Motor 851 
+pair of shears 511 , as shown in FIG . 5B . In some cases , valve 
+actuates o movement ( i . e . , rotation ) of build platform 857 20 motor 924 raises or lowers rod 503 , as shown in FIG . 5A . 
+via a series of gears and components , as follows : motor 851 
+In some cases , a plunger driver circuit 925 controls a 
+causes gear 855 to rotate , which in turn causes gear 854 to 
+plunger motor 926 . The plunger motor 926 actuates a 
+rotate . This in turn causes z motor 853 ( which is mounted on 
+plunger ( e . g . , 1103 ) that creates pressure to actively extrude 
+gear 854 ) to rotate . This in turn causes rod 856 and build 
+molten glass , as shown in FIG . 11A . 
+platform 857 to rotate about center line 863 . 
+25 
+In some cases , an air driver circuit 927 controls an air 
+In FIG . 8B , motor 861 actuates the print head ( including 
+pump 929 . The air pump 929 pumps compressed air that is 
+nozzle 125 , crucible 105 , crucible kiln 107 , and nozzle kiln 
+used to created pressure to actively extrude molten glass , as 
+109 ) to move along the r - axis . The print head rests on 
+shown in FIG . 11B . Alternatively , air pump 929 pumps 
+bearings that travel along rails 871 , 873 . 
+compressed air that is pumped through an air blowing tube , 
+In FIG . 8B , motors 851 , 853 , 861 are each controlled by 30 such as air blowing tube 1303 shown in FIG . 13 . In this 
+a driver circuit , which is in turn controlled by one or more 
+alternative case ( with an air blowing tube ) , air driver circuit 
+computers . 
+927 also controls air tube motor 928 . This motor 928 
+FIG . 9 is a block diagram showing hardware components 
+actuates an air blowing tube ( e . g . , 1303 ) , moving the tube up 
+that interface with , or are controlled by , one or more 
+and down and thus closer to or further away from the nozzle 
+computers , in an illustrative implementation of this inven - 35 tip . 
+In some cases , a feeder driver circuit 930 controls a feeder 
+In the example shown in FIG . 9 , a computer 900 receives 
+motor 931 . The feeder motor 931 actuates a feeder mecha 
+input from a human user , and provides output ( in human 
+nism for feeding materials into crucible 105 . For example , in 
+perceptible form ) to a human user , via one or more I / O 
+some cases , the feeder mechanism loads one or more of the 
+devices ( e . g . , 902 , 903 , 941 ) . For example , in some cases , 40 following materials into the crucible 105 : glass nuggets , 
+I / O devices 902 , 903 , 941 comprise a computer monitor , 
+glass ingots , glass powder , a glass rod or filament , or raw 
+keyboard and mouse , respectively . The computer 900 stores 
+materials for manufacturing glass . 
+data in an electronic memory device 901 , and accesses / reads 
+In some cases , instructions for one or more movements of 
+data that is stored in memory device 901 . 
+a plunger , valve or tube are embedded in g - codes that are 
+In the example shown in FIG . 9 , the computer controls 45 generated by computer 900 . 
+one or more microcontrollers 904 . For example , in some 
+In the example shown in FIG . 9 , controllers 914 , 917 , 920 
+cases , the microcontrollers 904 comprise an Arduino® PCB 
+and drivers 923 , 925 , 927 , 930 are connected by communi 
+( printed circuit board ) and one or more Arduino 
+shield 
+cation links to microcontrollers 904 , and interface with , or 
+PCBs 
+, including a shield for controlling motors . In some 
+are controlled by , microcontrollers 904 . Alternatively , in 
+cases : ( a ) the computer 900 takes as input , a CAD ( com - 50 some cases , one or more of controllers 914 , 917 , 920 and 
+puter - aided - design ) file ; ( b ) the CAD file includes a digital 
+drivers 925 , 927 , 930 are connected by communication links 
+3D model of a target object ( i . e . , the 3D glass object to be 
+to computer 900 , and interface with , or are controlled by , 
+fabricated ) ; ( c ) ; the computer " slices ” , layer by layer , the 
+computer 900 . Alternatively , in some cases , one or more of 
+digital model ; ( d ) the computer 900 outputs g - code instruc - 
+controllers 914 , 917 , 920 and drivers 925 , 927 , 930 are 
+tions for each layer , and ( e ) the g - code instructions are 55 connected by communication links to neither the computer 
+transmitted to the microcontrollers 904 and control the 
+900 nor the microcontrollers 904 . 
+selective deposition of glass in layers , in order to manufac - 
+In FIG . 9 , the lines between electronic devices symbolize 
+ture the target object . 
+wired or wireless communication links . 
+In FIG . 9 , the microcontrollers 904 control actuation in x , 
+FIG . 10A is a flowchart that shows steps in a method for 
+y and z directions , as follows : Microcontrollers 904 control 60 additive manufacture of glass , in an illustrative implemen 
+an x - driver circuit 905 , y - driver circuit 906 and z - driver 
+tation of this invention . The method shown in FIG . 10A 
+circuit 907 . The X - driver circuit 905 receives sensor data 
+includes the following steps : A computer takes a CAD file as 
+from 
+x end stop sensor 908 and controls X - motor 909 , 
+input and generates g - code instructions for additive fabri 
+thereby controlling actuation along an x - axis . The y - driver 
+cation ( e . g . , uses a slicer algorithm to generate g - codes ) 
+circuit 906 receives sensor data from y end stop sensor 910 65 ( Step 1001 ) . One or more microcontrollers ( e . g . one or more 
+and controls y motor 911 , thereby controlling actuation 
+Arduino® boards ) take the g - codes as an input and control 
+along a y - axis . The z - driver circuit 907 receives sensor data 
+at least ( 1 ) x , y movement of a crucible kiln and a nozzle , 
+tion . 
+
+
+D 
+US 10 , 266 , 442 B2 
+13 
+14 
+and ( 2 ) z movement of a build platform ( Step 1002 ) . Glass 
+computers . For example , in some cases , the plunger motor 
+( e . g . , glass nuggets , powder , or rod ) is fed into a crucible . 
+926 is controlled by driver circuit 925 that is in turn 
+Alternatively , raw materials for glass are fed into the cru 
+controlled by microcontrollers 904 ( such as an Arduino® 
+cible ( Step 1003 ) . A crucible kiln heats the crucible , causing 
+board and shield ) , which are in turn controlled by a com 
+glass ( or raw materials for glass ) in the crucible to melt ( Step 
+5 puter ( e . g . , 900 ) ; and ( b ) the computer 900 outputs g - codes 
+1004 ) . Bubbles are removed in a fining step . In some cases , 
+that include instructions for the movement of the plunger 
+fining agents are added to facilitate fining ( Step 1005 ) . 
+Molten glass flows into the nozzle and is heated by a nozzle 
+FIG . 11B is a cross - sectional view of an apparatus , in 
+kiln ( Step 1006 ) . Molten glass flows out of nozzle and is 
+which air exerts pressure that actively extrudes molten glass 
+selectively deposited to form a 3D object . In some cases , the 10 through a nozzle , in an illustrative implementation of this 
+deposition of glass is layer - by - layer . In addition , in some 
+invention . In FIG . 11B , air pump 929 pumps compressed air 
+cases , glass is dribbled over an edge such that it descends to 
+through tubes 1151 , 1153 into a pressurized chamber inside 
+a lower layer than the current layer ( Step 1007 ) . An anneal 
+ing chamber heats the 3D object , such that the temperature 
+the walls 1111 of the crucible 105 . The compressed air 1155 
+of the 3D object is maintained at or above a target tempera - 15 exe 
+pera 15 exerts pressure on the molten glass 103 , pushing the molten 
+ture while the 3D obiect is being built by deposition of 
+glass 103 through the nozzle 125 at a controlled rate . The air 
+molten glass . After the deposition of glass is complete , the 
+pump 929 pumps air at a constant or variable flow rate or at 
+temperature in the annealing chamber is slowly lowered , 
+a constant or variable pressure . 
+such that the glass anneals ( Sten 1008 ) In some cases the 
+FIGS . 12A , 12B , 12C , 12D , 12E and 12F each show 
+glass is polished or undergoes other post - annealing steps 20 material being fed into a printer , in an illustrative imple 
+( Step 1009 ) . 
+mentation of this invention . In FIGS . 12A , 12B , 120 , 12D , 
+FIG . 10B is a flowchart that shows steps in another 
+and 12F , materials are inserted into crucible 105 . In FIG . 
+method for additive manufacture of glass , in an illustrative 
+12E , materials are inserted into nozzle 125 . In FIGS . 12A , 
+implementation of this invention . The method shown in FIG . 
+12B , 120 , 12D , 12E and 12F , the materials being fed into the 
+10B includes the following steps : Generate a CAD file ( Step 25 printer comprise , respectively : ( a ) solid glass nuggets 1203 , 
+1051 ) . Convert the CAD file to spiral g - code ( Step 1053 ) . 
+( b ) glass powder or raw materials for glass 1205 , ( c ) a glass 
+Melt and fine glass in a crucible ( Step 1055 ) . Heat the 
+rod 1207 , ( d ) a solid ingot 1208 , ( d ) a molten , bubble - free 
+crucible nozzle and annealing chamber , e . g . , to 1850° F . and 
+glass filament 1209 that has already been melted and fined 
+900° F . , respectively ( Step 1057 ) . Send g - code instructions 
+( e . g . , by another kiln ) , and ( e ) molten , bubble - free glass 
+to the printer . In accordance with the g - code instructions , 30 1210 that has already been melted and fined by another kiln . 
+u 
+move the carriage ( on which the print head is mounted ) in 
+In the examples shown in FIGS . 12A , 12B , 12C , and 12F , 
+x , y directions , and move the build platform in a z direction . 
+the upper lid 113 of the crucible kiln includes a door 1201 
+In some cases , move a plunger or valve ( Step 1059 ) . The 
+through which the materials are inserted . 
+print head deposits molten glass layer by layer ( Step 1061 ) . 
+Optionally , refill the crucible with molten glass ( e . g . , by 35 
+In some cases , the materials are inserted manually . Alter 
+loading solid glass nuggets into the crucible and then 
+natively , in some cases , a feeder motor 931 actuates a feeder 
+melting the nuggets ) ( Step 1063 ) . Anneal the glass , by 
+mechanism that feeds the materials into the crucible or 
+slowly lowering the temperature of the glass ( Step 1065 ) . 
+nozzle . For example , in some cases , the feeder mechanism 
+Perform post - processing steps , including removing the 
+comprises any material handling system , including any 
+printed 3D glass object from the annealing chamber and , in 40 vibrating feeder , rotary feeder , rotary screw feeder , variable 
+some cases , polishing the exterior of the glass ( Step 1067 ) . 
+rate feeder , or volumetric feeder . 
+In some implementations of this invention , the extrusion 
+In some cases , raw materials for glass 1205 are fed into 
+of molten glass through the nozzle is actuated only by 
+crucible 105 . For example , in some cases , the raw materials 
+gravitational force , and the rate of extrusion is controlled by 
+comprise a combination of materials selected from : oxides 
+factors such as the temperature and material composition of 45 
+( e . g . , SiO2 , B , 0z 
+, or P , 0z 
+) , silicate sands , feldspars ( e . g . 
+the glass . 
+albite , anorthite , aplite ) , borax , dolomite , limestone , neph 
+However , in some implementations , it is advantageous to 
+eline , kyanite , sand , soda ash , or recycled glass . In some 
+actively exert pressure against the molten glass , in order to 
+cases , the raw materials also include one or more ( a ) fluxes 
+increase the extrusion rate for a given temperature or mate - 
+to reduce melting temperature ( e . g . , Na , O , PbO , K20 , 
+rial composition of glass . Furthermore , by varying the 50 Li2O ) , ( b ) property modifiers to control material properties 
+pressure exerted against the molten glass , the rate of extru - 
+such as durability , expansion , or viscosity ( e . g . , CaO , 
+sion of the molten glass may be controlled , while ( in some 
+A1203 ) , ( c ) colorants , or ( d ) fining agents ( such as As 
+cases ) holding other factors ( such as temperature or material 
+oxides , Sb - oxides , KNO3 
+, NaNO3 
+, NaCl , fluorides , or sul 
+composition of glass ) constant . 
+fates ) . 
+FIG . 11A is a cross - sectional view of an apparatus , in 55 
+In some cases , it is advantageous to quickly refill the 
+which a plunger exerts pressure that actively extrudes mol 
+- 
+crucible or nozzle with already molten and fined glass , as 
+ten glass through a nozzle , in an illustrative implementation 
+shown in FIGS . 12E and 12F , thereby skipping the time 
+of this invention . In FIG . 11A , a refractory plunger 1103 
+delay of melting and fining the glass in the print head itself . 
+pushes molten glass 103 in the crucible 105 into the nozzle 
+In some cases , it is advantageous for the printer ( a ) to 
+125 at a controlled rate . In some cases , the plunger is 60 extrude a molten glass filament that surrounds an air - filled 
+actuated via lead screw 1101 by plunger motor 926 . Alter - 
+cavity , where the cavity extends for at least a portion of the 
+natively , in some cases : ( a ) plunger 1103 is pneumatically 
+length of the filament , or ( b ) to otherwise extrude blown 
+actuated by compressed air pumped by air pump 929 ; and 
+glass . In illustrative implementations , coaxial infiltration of 
+( b ) the air pump 929 pumps air at a constant or variable flow 
+air into a molten glass filament facilitates hollow object 
+rate or at a constant or variable pressure . In some cases , the 65 fabrication . 
+plunger motor 926 or air pump 929 is affixed to the top lid 
+FIG . 13 is a cross - sectional view of an apparatus , in which 
+of the crucible kiln and is controlled by one or more 
+an air tube blows air into molten glass , in an illustrative 
+
+
+15 
+US 10 , 266 , 442 B2 
+16 
+implementation of this invention . The apparatus shown in 
+In FIGS . 7 , 8A , 8B , 11A , 11B , 12A - 12F , one or both of 
+FIG . 3 achieves coaxial air infiltration , as the molten glass 
+temperature sensors 128 , 141 are not shown , but are actually 
+is extruded through a nozzle . 
+present in apparatus shown in those Figures . 
+In the example shown in FIG . 13 , air pump 929 pumps air 
+Crucible and nozzle materials and shapes may be varied , 
+1301 through a refractory tube 1303 that extends into nozzle 5 depending on the particular implementation of this inven 
+125 . Tube 1303 is hollow . so that air may flow through it . A 
+tion . For example , in some cases , a wide elongated crucible 
+motor 928 controls vertical position of the refractory tube 
+allows refilling farther from the nozzle with less impact on 
+1303 , by actuating motion of the tube 1303 up and down . 
+pressure head and consequently on flow rate . 
+In some implementations , the skirt insulation system 
+During air blowing , the tip 1305 of refractory tube 1303 is 
+positioned almost at the tip 127 of nozzle 125 . By varying 10 ( e . g . , 701 , 703 ) is replaced by a bellow system . 
+In illustrative implementations of this invention , the glass 
+tube height ( i . e . , how far the tip 1305 of tube 1303 is above 
+comprises a glass material , as that term is defined herein . 
+tip 127 of nozzle 125 ) and air pressure , the thickness of the 
+Thus , in illustrative implementations of this invention , glass 
+resulting elongated cavity of air inside the extruded glass is 
+material is melted in a crucible 105 , extruded through a 
+controlled . In some cases , refractory tube 1303 comprises 15 nozzle 125 . and selectively deposited ( laver - by - laver or 
+quartz , mullite , or AZS ( alumina - zirconia - silica ) . 
+otherwise ) to form a 3D object that comprises glass material . 
+In illustrative implementations of this invention , the 
+In illustrative implementations of this invention , the glass 
+printer produces optically transparent glass . In some imple - 
+comprises an amorphous material , as that term is defined 
+mentations , the production of optically transparent glass 
+herein . Thus , in illustrative implementations of this inven 
+includes one of more of the following features : ( a ) starting 20 tion , an amorphous material is melted in a crucible 105 , 
+from large ( and , in some cases , pre - fined ) glass chunks to 
+extruded through a nozzle 125 , and selectively deposited 
+limit bubble amount ; ( b ) fining glass for at least 2 hours ( and 
+( layer - by - layer or otherwise ) to form a 3D object that 
+in some cases , between 3 or 4 hours ) to reduce bubble 
+comprises amorphous material . 
+content ; ( c ) extruding viscous molten glass , instead of 
+Field of Endeavor 
+sintering a powder ; ( d ) depositing a molten glass filament 25 
+The field of endeavor of this invention is additive manu 
+with no vertical offset between the top of the layer of glass 
+facturing of glass , by extrusion of molten glass through a 
+being deposited and the nozzle ( instead of positioning the 
+nozzle . 
+nozzle above the layer being deposited , and thereby causing 
+The inventors confronted at least the following two prob 
+the extruded filament to drop before reaching the level of the 
+lems : ( 1 ) how to additively manufacture a glass object by 
+layer being deposited ) ; ( e ) annealing the extruded glass in an 30 selective deposition of molten glass by extrusion through a 
+annealing chamber ; and ( f ) polishing the exterior surface 
+nozzle ; and ( 2 ) how to additively manufacture an optically 
+( including base and walls ) of the 3D printed glass object , 
+transparent glass object , by selective deposition of molten 
+after the glass cools to room temperature . 
+glass by extrusion through a nozzle . 
+In illustrative implementations , the 3D printer selectively 
+Computers 
+deposits molten glass . This allows the 3D printer to create 35 
+In exemplary implementations of this invention , one or 
+shapes that cannot be fabricated by conventional glassblow 
+more electronic computers ( e . g . 900 , 904 ) are programmed 
+ing or by a conventional manufacturing technique in which 
+and specially adapted : ( 1 ) to control the operation of , or 
+a parison is blow molded . 
+interface with , hardware components of an apparatus for 
+FIGS . 14A , 14B , 14C and 14D show non - limiting 
+additive manufacture of glass , including any heating ele 
+examples of glass objects printed by a 3D printer ( e . g . , 40 ments , motors , actuators , valves , thermocouples or other 
+objects 1400 , 1410 , 1420 ) , in illustrative implementations of 
+sensors ; ( 2 ) to control movement of a print head or build 
+this invention . In the example shown in FIG . 14A , a printed 
+platform ; ( 3 ) to control temperature in the interior of a kiln , 
+glass object 1400 is an integral structure that has multiple , 
+including a crucible kiln , nozzle kiln or annealing kiln , ( 4 ) 
+separate internal cavities 1401 , 1402 , 1403 ; and ( b ) each of 
+to perform any other calculation , computation , program , 
+the cavities has a volume of at least 40 milliliters and is 45 algorithm , computer function or computer task described or 
+entirely enclosed by the glass . In the example shown in FIG . 
+implied above ; ( 5 ) to receive signals indicative of human 
+14B , the printed glass object 1410 includes multiple layers 
+input ; ( 6 ) to output signals for controlling transducers for 
+( e . g . , 1411 , 1412 , 1413 ) of optically transparent glass . The 
+outputting information in human perceivable format ; and ( 7 ) 
+layers ( e . g . , 1411 , 1412 , 1412 ) partially merge into each 
+to process data , to perform computations , to execute any 
+other vertically . In the example shown in FIG . 14B , the 50 algorithm or software , and to control the read or write of data 
+layers ( e . g . , 1411 , 1412 , 1413 ) are part of a single spiral 
+to and from memory devices . The one or more computers 
+filament , and thus are also connected to each other along a 
+may be in any position or positions within or outside of the 
+path that follows the long , spiral central axis of the spiral 
+additive manufacturing apparatus . For example , in some 
+filament . The glass object 1410 also includes an elongated 
+cases ( a ) at least one computer is housed in or together with 
+protuberance 1414 that is located on an exterior surface of 55 other components of the additive manufacturing apparatus , 
+the structure , and comprises a solidified drip of glass . The 
+and ( b ) at least one computer is remote from other compo 
+protuberance 1414 is elongated along an axis 1415 that is 
+nents of the additive manufacturing apparatus . The one or 
+aligned vertically . In the example shown in FIG . 14C , a 
+more computers are connected to each other or to other 
+printed glass object 1420 is a unitary structure that includes 
+components of the additive manufacturing apparatus either : 
+a spiral filament 1421 of optically transparent glass . The 60 ( a ) wirelessly , ( b ) by wired connection , or ( c ) by a combi 
+spiral filament 1421 forms multiple layers ( e . g . , 1422 , 1423 , 
+nation of wired and wireless links . 
+1424 ) , one layer on top of another . The layers partially 
+In exemplary implementations , one or more computers 
+merge into each other . The spiral filament 1421 has an 
+are programmed to perform any and all calculations , com 
+elongated cavity 1425 that is entirely enclosed by the 
+putations , programs , algorithms , computer functions and 
+filament and extends for at least half of a revolution of a 65 computer tasks described or implied above . For example , in 
+spiral formed by the filament . FIG . 14D is a cross - sectional 
+some cases : ( a ) a machine - accessible medium has instruc 
+view of cavity 1425 . 
+tions encoded thereon that specify steps in a software 
+
+
+US 10 , 266 , 442 B2 
+17 
+18 
+program ; and ( b ) the computer accesses the instructions 
+signal processing circuitry . The wireless communication 
+encoded on the machine - accessible medium , in order to 
+module receives and transmits data in accordance with one 
+determine steps to execute in the program . In exemplary 
+or more wireless standards . 
+implementations , the machine - accessible medium com 
+Definitions : 
+prises a tangible non - transitory medium . In some cases , the 5 
+The terms “ a ” and “ an ” , when modifying a noun , do not 
+machine - accessible medium comprises ( a ) a memory unit or 
+imply that only one of the noun exists . 
+( b ) an auxiliary memory storage device . For example , in 
+“ Amorphous material ” means a material that ( a ) has a 
+some cases , a control unit in a computer fetches the instruc 
+non - crystalline atomic structure when solid and ( b ) exhibits 
+tions from memory . 
+a glass transition when cooling toward the amorphous 
+In illustrative implementations , one or more computers 10 material ' s glass transition temperature . As used herein , an 
+" amorphous material ” remains an amorphous material , 
+execute programs according to instructions encoded in one 
+regardless of temperature ( e . g . , above or below glass tran 
+or more tangible , non - transitory , computer - readable media . 
+sition temperature ) or phase ( e . g . , solid or liquid ) . 
+For example , in some cases , these instructions comprise 
+The term 
+“ comprise ” 
+( and grammatical variations 
+instructions for a computer to perform any calculation , 15 thereof ) shall be construed as if followed by “ without 
+computation , program , algorithm , computer function or 
+limitation ” . If A comprises B . then A includes B and may 
+computer task described or implied above . For example , in 
+include other things . 
+some cases , instructions encoded in a tangible , non - transi - 
+The term " computer ” includes any computational device 
+tory , computer - accessible medium comprise instructions for 
+that performs logical and arithmetic operations . For 
+a computer to : ( 1 ) to control the operation of , or interface 20 example , in some cases , a " computer ” comprises an elec 
+with , hardware components of an apparatus for additive 
+tronic computational device , such as an integrated circuit , a 
+manufacturing of glass , including any heating elements , 
+microprocessor , a mobile computing device , a laptop com 
+motors , actuators , valves , thermocouples or other sensors ; 
+puter , a tablet computer , a personal computer , or a main 
+( 2 ) to control movement of a print head or build platform ; 
+frame computer . In some cases , a " computer ” comprises : ( a ) 
+( 3 ) to control temperature in the interior of a kiln , including 25 a central processing unit , ( b ) an ALU ( arithmetic logic unit ) , 
+a crucible kiln , nozzle kiln or annealing kiln , ( 4 ) to perform 
+( c ) a memory unit , and ( d ) a control unit that controls actions 
+any other calculation , computation , program , algorithm , 
+of other components of the computer so that encoded steps 
+computer function or computer task described or implied 
+of a program are executed in a sequence . In some cases , a 
+above ; ( 5 ) to receive signals indicative of human input ; ( 6 ) 
+" computer " also includes peripheral units including an aux 
+to output signals for controlling transducers for outputting 30 
+iliary memory storage device ( e . g . , a disk drive or flash 
+information in human perceivable format ; and ( 7 ) to process 
+memory ) , or includes signal processing circuitry . However , 
+data , to perform computations , to execute any algorithm or 
+a human is not a " computer " , as that term is used herein . 
+software , and to control the read or write of data to and from 
+" Contain ” shall be construed as if followed by " without 
+memory devices . 
+limitation " . If A contains B , then A contains B and may 
+Network Communication 
+35 contain other things . To " contain ” does not require total 
+In illustrative implementations of this invention , one or 
+enclosure . For example , a container " contains ” a fluid within 
+more electronic devices ( e . g . , 900 , 904 , 914 , 917 , 920 , 925 , 
+a cavity formed by the container ' s walls , even if hole in a 
+927 , 930 ) are configured for wireless or wired communica 
+container wall creates an orifice connecting the cavity and 
+tion with other electronic devices in a network . 
+the external environment . 
+In some cases , one or more of the following hardware 40 
+“ Defined Term ” means a term or phrase that is set forth in 
+components are used for network communication : a com 
+quotation marks in this Definitions section . 
+puter bus , a computer port , network connection , network 
+for an event to occur " during ” a time period , it is not 
+interface device , host adapter , wireless module , wireless 
+necessary that the event occur throughout the entire time 
+card , signal processor , modem , router , computer port , cables 
+period . For example , an event that occurs during only a 
+or wiring . 
+45 portion of a given time period occurs “ during ” the given 
+In some cases , one or more computers ( e . g . , 900 , 904 ) are 
+time period . 
+programmed for communication over a network . For 
+The term " e . g . " means for example . 
+example , in some cases , one or more computers are pro - 
+The fact that an " example ” or multiple examples of 
+grammed for network communication : ( a ) in accordance 
+something are given does not imply that they are the only 
+with the Internet Protocol Suite , or ( b ) in accordance with 50 instances of that thing . An example ( or a group of examples ) 
+any other industry standard for communication , including 
+is merely a non - exhaustive and non - limiting illustration . 
+any USB standard , ethernet standard ( e . g . , IEEE 802 . 3 ) , 
+An “ exit orifice ” of a nozzle means an orifice through 
+token ring standard ( e . g . , IEEE 802 . 5 ) , wireless standard 
+which a fluid or other material exits the nozzle . 
+( including IEEE 802 . 11 ( wi 
+- fi ) , IEEE 802 . 15 ( bluetooth 
+A non - limiting example of “ extrusion ” is flow of molten 
+zigbee ) , IEEE 802 . 16 , IEEE 802 . 20 and including any 55 glass through a nozzle , which flow is actuated only by 
+mobile phone standard , including GSM ( global system for 
+gravitational force . 
+mobile communications ) , UMTS ( universal mobile tele 
+Unless the context clearly indicates otherwise : ( 1 ) a 
+communication system ) , CDMA ( code division multiple 
+phrase that includes a first thing and “ a second ” thing does 
+access , including IS - 95 , IS - 2000 , and WCDMA 
+) , or LTS 
+not imply an order of the two things ( or that there are only 
+( long term evolution ) ) , or other IEEE communication stan - 60 two of the things ) ; and ( 2 ) such a phrase is simply a way of 
+dard . 
+identifying the two things , respectively , so that they each 
+In some cases , one or more electronic devices in the 
+may be referred to later with specificity ( e . g . , by referring to 
+additive manufacturing apparatus include a wireless com - 
+" the first thing and “ the second ” thing later ) . For example , 
+munication module for wireless communication with other 
+unless the context clearly indicates otherwise , if an equation 
+electronic devices in a network . Each wireless communica - 65 has a first term and a second term , then the equation may ( or 
+tion module includes ( a ) one or more antennas , ( b ) one or 
+may not ) have more than two terms , and the first term may 
+more wireless transceivers , transmitters or receivers , and ( c ) 
+occur before or after the second term in the equation . A 
+
+
+US 10 , 266 , 442 B2 
+20 
+phrase that includes a " third ” thing , a “ fourth ” thing and so 
+As used herein , “ nozzle ” means any orifice through which 
+on shall be construed in like manner . 
+material ( such as molten glass , gas , liquid , fluid , or solid ) 
+“ Fluid ” means a gas or a liquid . 
+passes . A nozzle may have any shape . For example , in some 
+The term " for instance ” means for example . 
+cases , a nozzle may have a shape that does not accelerate 
+" Glass material ” means a material that comprises , when 5 material the as the material exits the nozzle . 
+solid : ( a ) silicate glass , ( b ) borate glass , ( c ) phosphate glass , 
+To say that glass material is " optically transparent ” means 
+( d ) fluoride glass , or ( e ) chalcogenide glass . As used herein , 
+that the glass material is transparent to light in the visible 
+" glass material ” remains glass material , regardless of tem - 
+light spectrum . To say that amorphous material is “ optically 
+perature ( e . g . , above or below glass transition temperature ) 
+transparent ” means that the amorphous material is transpar 
+or phase ( e . g . , solid or liquid ) . 
+10 ent to light in the visible light spectrum . To say that glass is 
+Non - limiting examples of a “ heating element ” include a 
+" optically transparent ” means that the glass is transparent to 
+resistive heating element and an inductive heater . 
+light in the visible light spectrum . 
+“ Herein ” means in this document , including text , speci 
+The term “ or ” is inclusive , not exclusive . For example A 
+fication , claims , abstract , and drawings . 
+or B is true if A is true , or B is true , or both A or B are true . 
+The term “ hole ” means a hole , cavity , gap , opening or 15 Also , for example , a calculation of A or B means a calcu 
+orifice . 
+lation of A , or a calculation of B , or a calculation of A and 
+The terms “ horizontal ” and “ vertical ” shall be construed 
+B . 
+broadly . For example , in some cases , the terms " horizontal ” 
+parenthesis is simply to make text easier to read , by 
+and “ vertical ” refer to two arbitrarily chosen coordinate axes 
+indicating a grouping of words . A parenthesis does not mean 
+in a Euclidian two dimensional space , regardless of whether 20 that the parenthetical material is optional or may be ignored . 
+the “ vertical ” axis is aligned with the orientation of the local 
+To say that a nozzle " selectively deposits ” material does 
+gravitational field . 
+not have any implication regarding whether the rate of flow 
+As used herein : ( 1 ) “ implementation ” means an imple - 
+of the material varies over time . 
+mentation of this invention ; ( 2 ) " embodiment ” means an 
+As used herein , the term “ set ” does not include a group 
+embodiment of this invention ; ( 3 ) " case " means an imple - 25 with no elements . Mentioning a first set and a second set 
+mentation of this invention ; and ( 4 ) “ use scenario ” means a 
+does not , in and of itself , create any implication regarding 
+use scenario of this invention . 
+whether or not the first and second sets overlap ( that is , 
+The term “ include ” ( and grammatical variations thereof ) 
+intersect ) . 
+shall be construed as if followed by “ without limitation ” . 
+Non - limiting examples of “ silicate glass ” include fused 
+" I / O device ” means an input / output device . For example , 30 quartz glass , soda - lime 
+- silica glass , sodium borosilicate 
+an I / O device includes any device for ( a ) receiving input 
+glass ( including Pyrex® glass ) , lead - oxide glass , and alu 
+from a human , ( b ) providing output to a human , or ( C ) both . 
+minosilicate glass . 
+For example , an I / O device includes a user interface , graphi 
+“ Some ” means one or more . 
+cal user interface , keyboard , mouse , touch screen , micro 
+As used herein , a “ subset of a set consists of less than all 
+phone , handheld controller , display screen , speaker , or pro - 35 of the elements of the set . 
+jector for projecting a visual display . Also , for example , an 
+“ Substantially ” means at least ten percent . For example : 
+I / O device includes any device ( e . g . , button , dial , knob , 
+( a ) 112 is substantially larger than 100 ; and ( b ) 108 is not 
+slider or haptic transducer ) for receiving input from , or 
+substantially larger than 100 . 
+providing output to , a human . 
+The term “ such as ” means for example . 
+A non - limiting example of “ layer - by - layer " deposition is 40 
+To say that a machine - readable medium is " transitory ” 
+to deposit flat , separate layers , one on top of another . A 
+means that the medium is a transitory signal , such as an 
+non - limiting example of “ layer - by - layer " deposition is to 
+electromagnetic wave . 
+deposit a filament in a spiral as shown in FIG . 14C , where 
+Except to the extent that the context clearly requires 
+layers 1422 , 1423 and 1424 are all portions of the same 
+otherwise , if steps in a method are described herein , then the 
+filament 1421 , and layer 1422 rests on top of layer 1423 , 45 method includes variations in which : ( 1 ) steps in the method 
+which in turn rests on top of layer 1424 . Another non - 
+occur in any order or sequence , including any order or 
+limiting example of “ layer - by - layer ” deposition is to deposit 
+sequence different than that described ; ( 2 ) any step or steps 
+a filament such that the filament bends in a non - spiral shape , 
+in the method occurs more than once ; ( 3 ) different steps , out 
+such that a first portion of the filament rests on a second 
+of the steps in the method , occur a different number of times 
+portion of the filament , and the second portion of the 50 during the method , ( 4 ) any combination of steps in the 
+filament rests on a third portion of the filament . 
+method is done in parallel or serially ; ( 5 ) any step or steps 
+As used herein : ( a ) to say that a glass material is “ molten ” 
+in the method is performed iteratively ; ( 6 ) agiven step in the 
+means that the temperature of the glass material is above the 
+method is applied to the same thing each time that the given 
+glass transition temperature of the glass material ; ( b ) to say 
+step occurs or is applied to different things each time that the 
+that an amorphous material is " molten ” means that the 55 given step occurs ; or ( 7 ) the method includes other steps , in 
+temperature of the amorphous material is above the glass 
+addition to the steps described . 
+transition temperature of the amorphous material ; and ( c ) to 
+This Definitions section shall , in all cases , control over 
+say that glass is " molten ” means that the temperature of the 
+and override any other definition of the Defined Terms . For 
+glass is above the glass transition temperature of the glass . 
+example , the definitions of Defined Terms set forth in this 
+As used herein : ( a ) to say that a glass material “ melts ” means 60 Definitions section override common usage or any external 
+that the glass material undergoes a glass transition as the 
+dictionary . If a given term is explicitly or implicitly defined 
+temperature of the glass material increases ; ( b ) to say that an 
+in this document , then that definition shall be controlling , 
+amorphous material “ melts ” means that the amorphous 
+and shall override any definition of the given term arising 
+material undergoes a glass transition as the temperature of 
+from any source ( e . g . , a dictionary or common usage ) that is 
+the amorphous material increases ; and ( c ) to say that glass 65 external to this document 
+. If this document provides clari 
+“ melts ” means that the glass undergoes a glass transition as 
+fication regarding the meaning of a particular term , then that 
+the temperature of the glass increases . 
+clarification shall , to the extent applicable , override any 
+
+
+US 10 , 266 , 442 B2 
+21 
+22 
+definition of the given term arising from any source ( e . g . , a 
+the molten glass material is deposited layer - by - layer ; and ( ii ) 
+dictionary or common usage ) that is external to this docu 
+the one or more computers control where in each layer the 
+ment . To the extent that any term or phrase is defined or 
+molten glass material is deposited , by causing the set of 
+clarified herein , such definition or clarification applies to any 
+actuators to actuate movement of one or both of the nozzle 
+grammatical variation of such term or phrase , taking into 
+5 and build platform . In some cases , at least one actuator , out 
+account the difference in grammatical form . For example , 
+of the set of actuators , is configured to actuate the nozzle to 
+the grammatical variations include noun , verb , participle , 
+move along at least one horizontal axis . In some cases : ( a ) 
+adjective , and possessive forms , and different declensions , 
+a first actuator , out of the set of actuators , is configured to 
+and different tenses . In each case described in this paragraph , 
+actuate the nozzle and at least some of the heating elements 
+Applicant is acting as Applicant ' s own lexicographer . 
+10 to move parallel to a first horizontal axis ; and ( b ) a second 
+Variations : 
+actuator , out of the set of actuators , is configured to actuate 
+This invention may be implemented in many different 
+the nozzle and at least some of the heating elements to move 
+ways . Here are some non - limiting examples : 
+parallel to a second horizontal axis , the first and second 
+In one aspect , this invention is a method that comprises , 
+horizontal axes being perpendicular to each other . In some 
+in combination : ( a ) heating of glass material such that the 15 cases : ( a ) a first actuator , out of the set of actuators , is 
+glass material becomes or remains molten ; and ( b ) deposi - 
+configured to actuate the nozzle to move parallel to a 
+tion of the molten glass material , in which the molten glass 
+horizontal axis ; and ( b ) a second actuator , out of the set of 
+material is extruded through a nozzle to form an object ; 
+actuators , is configured to actuate the build platform to 
+wherein during at least part of the deposition , ( i ) the object 
+rotate . In some cases : ( a ) the build platform is positioned 
+being formed rests on a build platform , ( ii ) the molten glass 20 inside a kiln ; and ( b ) the kiln is configured to anneal 
+material is deposited layer - by - layer ; and ( iii ) one or more 
+extruded glass material . In some cases , the apparatus 
+computers control where in each layer the molten glass 
+includes a valve for controlling flow of molten glass material 
+material is deposited , by controlling a set of actuators that 
+through the nozzle . In some cases : ( a ) the nozzle is station 
+actuate movement of one or both of the nozzle and build 
+ary relative to a wall of the kiln ; and ( b ) at least one actuator , 
+platform . In some cases , at least one actuator , out of the set 25 out of the set of actuators , is configured to actuate the build 
+of actuators , directly or indirectly actuates the nozzle to 
+platform such that the build platform moves relative to the 
+move along at least one horizontal axis . In some cases : ( a ) 
+nozzle and the wall . In some cases : ( a ) an exit portion of the 
+the heating occurs in a kiln ; ( b ) during the deposition , a first 
+nozzle surrounds or is adjacent to an exit orifice of the 
+actuator , out of the set of actuators , actuates the kiln and the 
+nozzle ; and ( b ) the apparatus further comprises one or more 
+nozzle to move along a first horizontal axis ; and ( c ) during 30 tubes or cavities adjacent to the exit portion , which tubes or 
+the deposition , a second actuator , out of the set of actuators , 
+cavities are configured to cool the exit portion when fluid 
+actuates the kiln and the nozzle to move along a second 
+cooler than the molten glass material flows through the tubes 
+horizontal axis , the first and second horizontal axes being 
+or cavities . Each of the cases described above in 
+this 
+perpendicular to each other . In some cases , during the 
+paragraph is an example of the apparatus described in the 
+deposition : ( a ) a first actuator , out of the set of actuators , 35 first sentence of this paragraph , and is also an example of an 
+actuates the nozzle to move along a horizontal axis ; and ( b ) 
+embodiment of this invention that may be combined with 
+a second actuator , out of the set of actuators , actuates the 
+other embodiments of this invention . 
+build platform to rotate . In some cases : ( a ) during the 
+In another aspect , this invention is an apparatus compris 
+deposition , the build platform is positioned inside an anneal - 
+ing : ( a ) heating elements for heating glass material , such that 
+ing kiln ; and ( b ) after the deposition , the annealing kiln 40 the glass material becomes or remains molten ; ( b ) a nozzle 
+anneals extruded glass material . In some cases , extrusion of 
+for extruding the molten glass material ; ( c ) tubes or cham 
+the molten glass material through the nozzle is actuated by 
+b ers that are adjacent to a tip of the nozzle ; ( d ) a pump for 
+gravitational force and is not actuated by any other net 
+pumping fluid through the tubes or chamber to cool the tip 
+mechanical force . In some cases , during the deposition : ( a ) 
+of the nozzle to a temperature that is less than temperature 
+the nozzle is stationary relative to a wall of the annealing 45 of the molten glass material ; ( e ) a set of actuators ; and ( f ) a 
+kiln ; and ( b ) at least one actuator , out of the set of actuators , 
+set of computers that is programmed to control the set of 
+actuates the build platform to cause the build platform to 
+actuators such that the set of actuators actuate movement of 
+move relative to the nozzle and the wall . In some cases : ( a ) 
+one or both of the nozzle and build platform during the 
+an exit portion of the nozzle surrounds or is adjacent to an 
+extruding , such that extruded molten glass material forms an 
+exit orifice of the nozzle ; ( b ) the method further comprises 50 object in accordance with digital instructions accessed or 
+cooling the exit portion of the nozzle by causing fluid to flow 
+generated by at least one computer , out of the set of 
+through a region that adjoins the exit portion ; and ( c ) the 
+computers . In some cases , the apparatus further comprises a 
+fluid is cooler than molten glass material exiting the exit 
+kiln for annealing the molten glass material . In some cases : 
+orifice . Each of the cases described above in this paragraph 
+( a ) a first actuator , out of the set of actuators , is configured 
+is an example of the method described in the first sentence 55 to actuate the nozzle and at least some of the heating 
+of this paragraph , and is also an example of an embodiment 
+elements to move parallel to a first horizontal axis ; and ( b ) 
+of this invention that may be combined with other embodi - 
+a second actuator , out of the set of actuators , is configured 
+ments of this invention . 
+to actuate the nozzle and at least some of the heating 
+In another aspect , this invention is an apparatus compris 
+elements to move parallel to a second horizontal axis , the 
+ing , in combination : ( a ) a build platform ; ( b ) one or more 60 first and second horizontal axes being perpendicular to each 
+heating elements for heating of glass material , such that the 
+other . In some cases : ( a ) a first actuator , out of the set of 
+glass material becomes or remains molten ; ( c ) a nozzle for 
+actuators , is configured to actuate the nozzle to move 
+deposition of the molten glass material , such that the molten 
+parallel to a horizontal axis ; and ( b ) a second actuator , out 
+glass material is extruded through the nozzle to form an 
+of the set of actuators , is configured to actuate the build 
+object that rests on the build platform ; ( d ) a set of actuators ; 65 platform to rotate . Each of the cases described above in this 
+and ( e ) one or more computers for controlling the deposi - 
+paragraph is an example of the apparatus described in the 
+tion , such that , during at least a portion of the deposition ( i ) 
+first sentence of this paragraph , and is also an example of an 
+
+
+US 10 , 266 , 442 B2 
+23 
+24 
+embodiment of this invention that may be combined with 
+( iii ) the apparatus is configured to cause the molten glass 
+other embodiments of this invention . 
+material to undergo an extruding , in which the molten 
+In another aspect , this invention comprises an article of 
+glass material is extruded through the nozzle to form an 
+manufacture that comprises an integral structure , which 
+object , in such a way that 
+integral structure has multiple , separate internal cavities , 5 
+( A ) the molten glass material is , while exiting the 
+such that each of the cavities has a volume of at least 40 
+nozzle , located inside the annealing kiln , and 
+milliliters and is entirely enclosed by the glass material . In 
+( B ) during the extruding 
+some cases , the integral structure includes layers of optically 
+( I ) temperature in the crucible kiln is higher than 
+transparent glass material , such that adjacent layers partially 
+temperature in the annealing kiln , 
+merge into each other . In some cases , the integral structure 
+( II ) the object being formed rests on the build 
+further comprises an elongated protuberance , which protu 
+platform inside the annealing kiln , and 
+berance : ( a ) is located on an exterior surface of the structure ; 
+( III ) the molten glass material travels downward 
+and ( b ) comprises a solidified drip of glass material . In some 
+from the crucible kiln , through the nozzle , and into 
+cases , the protuberance is elongated along an axis that is 
+the annealing kiln . 
+aligned vertically . Each of the cases described above in this 
+2 . The apparatus of claim 1 , wherein the apparatus is 
+paragraph is an example of the article of manufacture 
+configured to cause the molten glass material to be deposited 
+described in the first sentence of this paragraph , and is also 
+layer - by - layer to form the object . 
+an example of an embodiment of this invention that may be 
+3 . The apparatus of claim 1 , wherein : 
+combined with other embodiments of this invention . 
+20 
+( a ) a first actuator , out of the set of actuators , is configured 
+In another aspect , this invention comprises an article of 
+to actuate the kiln and the nozzle to move along a 
+manufacture that comprises a unitary structure , wherein : ( a ) 
+horizontal axis ; 
+the unitary structure includes a spiral filament of optically 
+( b ) a second actuator , out of the set of actuators , is 
+transparent glass material ; ( b ) the spiral filament forms 
+configured to actuate the build platform to rotate ; and 
+( c ) a third actuator , out of the set of actuators , is config 
+multiple layers , one layer on top of another , which layers are 25 
+ured to actuate the build platform to move along a 
+part of the spiral filament and partially merge into each other 
+vertical axis . 
+vertically ; and ( c ) the spiral filament has an elongated cavity 
+4 . The apparatus of 1 , wherein the annealing kiln is 
+that is entirely enclosed by the filament and extends for at 
+configured to anneal extruded glass material . 
+least half of a revolution of a spiral formed by the filament . 0 
+5 . The apparatus of claim 1 , wherein the extruding of the 
+The article of manufacture described in the first sentence of 30 molten glass material through the nozzle is actuated by 
+this paragraph may be combined with other embodiments of 
+gravitational force and is not actuated by any other net force . 
+this invention . 
+6 . The apparatus of claim 
+1 , wherein : 
+The above description ( including without limitation any 
+( a ) a region of the nozzle surrounds a nozzle tip of the 
+attached drawings and figures ) describes illustrative imple 
+nozzle ; and 
+mentations of the invention . However , the invention may be 
+( b ) the apparatus is configured to cause the region to 
+implemented in other ways . The methods and apparatus 
+undergo cooling , by circulating fluid through the 
+which are described above are merely illustrative applica 
+region . 
+tions of the principles of the invention . Other arrangements 
+7 . The apparatus of claim 6 , wherein an effect of the 
+methods , modifications , and substitutions by one of ordinary 40 cooling is that less glass material sticks to the nozzle tip than 
+skill in the art are therefore also within the scope of the 
+would stick to the nozzle tip in the absence of the cooling . 
+8 . The apparatus of claim 1 , wherein : 
+present invention . Numerous modifications may be made by 
+( a ) the apparatus further comprises tubes or cavities that 
+those skilled in the art without departing from the scope of 
+surround a nozzle tip of the nozzle ; and 
+the invention . Also , this invention includes without limita 
+( b ) the apparatus is configured to cause the tubes or 
+tion each combination and permutation of one or more of the 45 
+cavities to undergo cooling , by circulating fluid through 
+abovementioned implementations , embodiments and fea 
+the tubes or cavities . 
+tures . 
+9 . The apparatus of claim 8 , wherein an effect of the 
+cooling is that less glass material sticks to the nozzle tip than 
+What is claimed is : 
+would stick to the nozzle tip in the absence of the cooling . 
+1 . An apparatus comprising : 
+50 
+10 . The apparatus of claim 
+1 , further comprising a valve 
+( a ) a crucible kiln that includes heating elements ; 
+that is configured to control flow of molten glass material 
+( b ) a nozzle ; 
+through the nozzle . 
+( c ) an annealing kiln ; 
+11 . The apparatus of claim 10 , wherein the valve com 
+( d ) a build platform that is located inside the annealing 
+prises a pair of shears that are configured to close in such a 
+kiln ; and 
+way that closing the shears : 
+( e ) a set of actuators that are configured ( 1 ) to cause the 
+( a ) cuts a filament of the molten glass material that is 
+crucible kiln and the nozzle to move horizontally 
+exiting the nozzle , and 
+( b ) blocks the flow of the molten glass material through an 
+relative to the annealing kiln while the crucible kiln and 
+exit orifice of the nozzle . 
+the nozzle remain stationary relative to each other , and 
+12 . The apparatus of claim 10 , wherein : 
+( 2 ) to cause the build platform to move vertically 60 
+u platform to move vertically 60 
+( a ) the valve comprises a rod ; and 
+relative to the nozzle ; 
+( b ) the rod is configured to stop the when the rod is moved 
+wherein 
+into the nozzle and touches interior walls of the nozzle . 
+( i ) the heating elements of the crucible kiln are configured 
+13 . The apparatus of claim 1 , further comprising a plunger 
+to melt and fine glass material in the crucible kiln , to 
+that is configured to : 
+produce a molten glass material , 
+65 
+( a ) exert pressure on the molten glass material ; and 
+( ii ) the crucible kiln is positioned above and exterior to the 
+( b ) thereby push the molten glass material through the 
+annealing kiln , and 
+nozzle . 
+. 35 
+of 
+
+
+US 10 , 266 , 442 B2 
+25 
+26 
+14 . The apparatus of claim 
+1 , wherein : 
+( a ) the apparatus further comprises an air pump and tubes ; 
+and 
+( b ) the air pump is configured to pump air through the 
+tubes , in such a way that the air exerts pressure on the 5 
+molten glass material and thereby pushes the molten 
+glass material through the nozzle . 
+15 . The apparatus of claim 1 , wherein 
+( a ) the apparatus further comprises an air pump and a 
+tube ; and 
+( b ) the air pump is configured to pump air through the 
+tube , in such a way that 
+( i ) a column of air infiltrates a filament of the molten 
+glass material as the filament is extruded through the 
+nozzle , and 
+15 
+( ii ) the column of air is trapped inside the filament and 
+is co - axial with the filament . 
+16 . The apparatus of claim 1 , wherein the object that is 
+formed is optically transparent . 
+10 
+20 
+* 
+* 
+* 
+* 
+* 

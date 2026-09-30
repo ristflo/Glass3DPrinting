@@ -1,0 +1,1159 @@
+{
+ "id": "https://openalex.org/W4307027212",
+ "doi": "https://doi.org/10.1089/3dp.2022.0112",
+ "title": "Rapid Fabrication of Silica Microlens Arrays via Glass 3D Printing",
+ "display_name": "Rapid Fabrication of Silica Microlens Arrays via Glass 3D Printing",
+ "relevance_score": 2085.166,
+ "publication_year": 2022,
+ "publication_date": "2022-10-21",
+ "ids": {
+  "openalex": "https://openalex.org/W4307027212",
+  "doi": "https://doi.org/10.1089/3dp.2022.0112",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/38689924"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1089/3dp.2022.0112",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1089/3dp.2022.0112",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210174904",
+   "display_name": "3D Printing and Additive Manufacturing",
+   "issn_l": "2329-7662",
+   "issn": [
+    "2329-7662",
+    "2329-7670"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "erih-plus",
+    "jufo-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320443",
+   "host_organization_name": "Mary Ann Liebert, Inc.",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320443",
+    "https://openalex.org/P4310320017"
+   ],
+   "host_organization_lineage_names": [
+    "Mary Ann Liebert, Inc.",
+    "SAGE Publishing"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "3D Printing and Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://doi.org/10.1089/3dp.2022.0112",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5026092969",
+    "display_name": "Chunxin Liu",
+    "orcid": "https://orcid.org/0000-0002-1709-4651"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I86987016",
+     "display_name": "KTH Royal Institute of Technology",
+     "ror": "https://ror.org/026vcq606",
+     "country_code": "SE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ],
+   "countries": [
+    "SE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Chunxin Liu",
+   "raw_affiliation_strings": [
+    "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+    "Nobula3D AB, Stockholm, Sweden"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-1709-4651",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+     "institution_ids": [
+      "https://openalex.org/I86987016"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Nobula3D AB, Stockholm, Sweden",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5065215971",
+    "display_name": "Taras Oriekhov",
+    "orcid": "https://orcid.org/0000-0001-6349-9871"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I86987016",
+     "display_name": "KTH Royal Institute of Technology",
+     "ror": "https://ror.org/026vcq606",
+     "country_code": "SE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ],
+   "countries": [
+    "SE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Taras Oriekhov",
+   "raw_affiliation_strings": [
+    "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+    "Nobula3D AB, Stockholm, Sweden"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+     "institution_ids": [
+      "https://openalex.org/I86987016"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Nobula3D AB, Stockholm, Sweden",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5072007621",
+    "display_name": "Cherrie S. J. Lee",
+    "orcid": "https://orcid.org/0000-0002-2700-9190"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I86987016",
+     "display_name": "KTH Royal Institute of Technology",
+     "ror": "https://ror.org/026vcq606",
+     "country_code": "SE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ],
+   "countries": [
+    "SE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Cherrie Lee",
+   "raw_affiliation_strings": [
+    "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+     "institution_ids": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5017677484",
+    "display_name": "C. M. Harvey",
+    "orcid": "https://orcid.org/0000-0002-0645-9379"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I86987016",
+     "display_name": "KTH Royal Institute of Technology",
+     "ror": "https://ror.org/026vcq606",
+     "country_code": "SE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ],
+   "countries": [
+    "SE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Clarissa M. Harvey",
+   "raw_affiliation_strings": [
+    "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+     "institution_ids": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5042357620",
+    "display_name": "Michael Fokine",
+    "orcid": "https://orcid.org/0000-0002-9207-4183"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I86987016",
+     "display_name": "KTH Royal Institute of Technology",
+     "ror": "https://ror.org/026vcq606",
+     "country_code": "SE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I86987016"
+     ]
+    }
+   ],
+   "countries": [
+    "SE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Michael Fokine",
+   "raw_affiliation_strings": [
+    "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+    "Nobula3D AB, Stockholm, Sweden"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Applied Physics, KTH Royal Institute of Technology, Stockholm, Sweden",
+     "institution_ids": [
+      "https://openalex.org/I86987016"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Nobula3D AB, Stockholm, Sweden",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5026092969"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I86987016"
+ ],
+ "apc_list": null,
+ "apc_paid": {
+  "value": 3528,
+  "currency": "EUR",
+  "value_usd": 3804
+ },
+ "fwci": 1.2906,
+ "has_fulltext": true,
+ "cited_by_count": 21,
+ "citation_normalized_percentile": {
+  "value": 0.77136679,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 95,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "11",
+  "issue": "2",
+  "first_page": "460",
+  "last_page": "466"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11517",
+  "display_name": "Advanced optical system design",
+  "score": 0.9994999766349792,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11517",
+   "display_name": "Advanced optical system design",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11408",
+   "display_name": "Advanced Optical Imaging Technologies",
+   "score": 0.9930999875068665,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2214",
+    "display_name": "Media Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11723",
+   "display_name": "Optical Coatings and Gratings",
+   "score": 0.9889000058174133,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2508",
+    "display_name": "Surfaces, Coatings and Films"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/microlens",
+   "display_name": "Microlens",
+   "score": 0.9476256370544434
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7799807786941528
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.7166328430175781
+  },
+  {
+   "id": "https://openalex.org/keywords/lens",
+   "display_name": "Lens (geology)",
+   "score": 0.7127971053123474
+  },
+  {
+   "id": "https://openalex.org/keywords/fabrication",
+   "display_name": "Fabrication",
+   "score": 0.6722300052642822
+  },
+  {
+   "id": "https://openalex.org/keywords/radius-of-curvature",
+   "display_name": "Radius of curvature",
+   "score": 0.6239926218986511
+  },
+  {
+   "id": "https://openalex.org/keywords/fused-filament-fabrication",
+   "display_name": "Fused filament fabrication",
+   "score": 0.5919036269187927
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.5869957208633423
+  },
+  {
+   "id": "https://openalex.org/keywords/focal-length",
+   "display_name": "Focal length",
+   "score": 0.5650596618652344
+  },
+  {
+   "id": "https://openalex.org/keywords/rapid-prototyping",
+   "display_name": "Rapid prototyping",
+   "score": 0.5325108170509338
+  },
+  {
+   "id": "https://openalex.org/keywords/surface-roughness",
+   "display_name": "Surface roughness",
+   "score": 0.5272128582000732
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.44459304213523865
+  },
+  {
+   "id": "https://openalex.org/keywords/silica-glass",
+   "display_name": "Silica glass",
+   "score": 0.4295775294303894
+  },
+  {
+   "id": "https://openalex.org/keywords/curvature",
+   "display_name": "Curvature",
+   "score": 0.4036983847618103
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.37733808159828186
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.15827405452728271
+  },
+  {
+   "id": "https://openalex.org/keywords/biomedical-engineering",
+   "display_name": "Biomedical engineering",
+   "score": 0.07495218515396118
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192560794",
+   "wikidata": "https://www.wikidata.org/wiki/Q500199",
+   "display_name": "Microlens",
+   "level": 3,
+   "score": 0.9476256370544434
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7799807786941528
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.7166328430175781
+  },
+  {
+   "id": "https://openalex.org/C15336307",
+   "wikidata": "https://www.wikidata.org/wiki/Q1766051",
+   "display_name": "Lens (geology)",
+   "level": 2,
+   "score": 0.7127971053123474
+  },
+  {
+   "id": "https://openalex.org/C136525101",
+   "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+   "display_name": "Fabrication",
+   "level": 3,
+   "score": 0.6722300052642822
+  },
+  {
+   "id": "https://openalex.org/C11665553",
+   "wikidata": "https://www.wikidata.org/wiki/Q1136069",
+   "display_name": "Radius of curvature",
+   "level": 5,
+   "score": 0.6239926218986511
+  },
+  {
+   "id": "https://openalex.org/C2777510241",
+   "wikidata": "https://www.wikidata.org/wiki/Q18349149",
+   "display_name": "Fused filament fabrication",
+   "level": 3,
+   "score": 0.5919036269187927
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.5869957208633423
+  },
+  {
+   "id": "https://openalex.org/C82552819",
+   "wikidata": "https://www.wikidata.org/wiki/Q193540",
+   "display_name": "Focal length",
+   "level": 3,
+   "score": 0.5650596618652344
+  },
+  {
+   "id": "https://openalex.org/C2780395129",
+   "wikidata": "https://www.wikidata.org/wiki/Q1128971",
+   "display_name": "Rapid prototyping",
+   "level": 2,
+   "score": 0.5325108170509338
+  },
+  {
+   "id": "https://openalex.org/C107365816",
+   "wikidata": "https://www.wikidata.org/wiki/Q114817",
+   "display_name": "Surface roughness",
+   "level": 2,
+   "score": 0.5272128582000732
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.44459304213523865
+  },
+  {
+   "id": "https://openalex.org/C3020492233",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Silica glass",
+   "level": 2,
+   "score": 0.4295775294303894
+  },
+  {
+   "id": "https://openalex.org/C195065555",
+   "wikidata": "https://www.wikidata.org/wiki/Q214881",
+   "display_name": "Curvature",
+   "level": 2,
+   "score": 0.4036983847618103
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.37733808159828186
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.15827405452728271
+  },
+  {
+   "id": "https://openalex.org/C136229726",
+   "wikidata": "https://www.wikidata.org/wiki/Q327092",
+   "display_name": "Biomedical engineering",
+   "level": 1,
+   "score": 0.07495218515396118
+  },
+  {
+   "id": "https://openalex.org/C175017881",
+   "wikidata": "https://www.wikidata.org/wiki/Q1318998",
+   "display_name": "Mean curvature",
+   "level": 3,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C127813850",
+   "wikidata": "https://www.wikidata.org/wiki/Q6803617",
+   "display_name": "Mean curvature flow",
+   "level": 4,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1089/3dp.2022.0112",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1089/3dp.2022.0112",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210174904",
+    "display_name": "3D Printing and Additive Manufacturing",
+    "issn_l": "2329-7662",
+    "issn": [
+     "2329-7662",
+     "2329-7670"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "erih-plus",
+     "jufo-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320443",
+    "host_organization_name": "Mary Ann Liebert, Inc.",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320443",
+     "https://openalex.org/P4310320017"
+    ],
+    "host_organization_lineage_names": [
+     "Mary Ann Liebert, Inc.",
+     "SAGE Publishing"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "3D Printing and Additive Manufacturing",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:38689924",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38689924",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "3D printing and additive manufacturing",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:11057534",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11057534",
+   "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11057534/pdf/3dp.2022.0112.pdf",
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "3D Print Addit Manuf",
+   "raw_type": "Text"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1089/3dp.2022.0112",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1089/3dp.2022.0112",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210174904",
+   "display_name": "3D Printing and Additive Manufacturing",
+   "issn_l": "2329-7662",
+   "issn": [
+    "2329-7662",
+    "2329-7670"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "erih-plus",
+    "jufo-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320443",
+   "host_organization_name": "Mary Ann Liebert, Inc.",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320443",
+    "https://openalex.org/P4310320017"
+   ],
+   "host_organization_lineage_names": [
+    "Mary Ann Liebert, Inc.",
+    "SAGE Publishing"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "3D Printing and Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 35,
+ "referenced_works": [
+  "https://openalex.org/W1000186440",
+  "https://openalex.org/W1656507452",
+  "https://openalex.org/W1992045041",
+  "https://openalex.org/W1996601703",
+  "https://openalex.org/W2010955011",
+  "https://openalex.org/W2043437906",
+  "https://openalex.org/W2053505191",
+  "https://openalex.org/W2055115199",
+  "https://openalex.org/W2077986488",
+  "https://openalex.org/W2083224879",
+  "https://openalex.org/W2086277710",
+  "https://openalex.org/W2152819877",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2337613760",
+  "https://openalex.org/W2418980608",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2751611035",
+  "https://openalex.org/W2790207082",
+  "https://openalex.org/W2791713863",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2896620458",
+  "https://openalex.org/W2906426973",
+  "https://openalex.org/W2912388629",
+  "https://openalex.org/W2917103557",
+  "https://openalex.org/W2919105691",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W3042391064",
+  "https://openalex.org/W3101500443",
+  "https://openalex.org/W3118742912",
+  "https://openalex.org/W3121898466",
+  "https://openalex.org/W3170380770",
+  "https://openalex.org/W3193231858",
+  "https://openalex.org/W3202058913",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W3211461576"
+ ],
+ "related_works": [
+  "https://openalex.org/W2804481500",
+  "https://openalex.org/W2102480273",
+  "https://openalex.org/W2788575645",
+  "https://openalex.org/W2463730939",
+  "https://openalex.org/W2161347665",
+  "https://openalex.org/W2088556472",
+  "https://openalex.org/W1996105548",
+  "https://openalex.org/W2099485543",
+  "https://openalex.org/W2087120980",
+  "https://openalex.org/W2359750878"
+ ],
+ "abstract_inverted_index": {
+  "Rapid": [
+   0
+  ],
+  "manufacturing": [
+   1
+  ],
+  "of": [
+   2,
+   48,
+   77
+  ],
+  "high": [
+   3
+  ],
+  "purity": [
+   4
+  ],
+  "fused": [
+   5
+  ],
+  "silica": [
+   6,
+   107
+  ],
+  "glass": [
+   7,
+   12
+  ],
+  "micro-optics": [
+   8,
+   108
+  ],
+  "using": [
+   9
+  ],
+  "a": [
+   10,
+   50,
+   102
+  ],
+  "filament-based": [
+   11
+  ],
+  "3D": [
+   13,
+   93
+  ],
+  "printer": [
+   14
+  ],
+  "has": [
+   15
+  ],
+  "been": [
+   16
+  ],
+  "demonstrated.": [
+   17
+  ],
+  "A": [
+   18,
+   42
+  ],
+  "multilayer": [
+   19
+  ],
+  "5": [
+   20,
+   22
+  ],
+  "\u00d7": [
+   21
+  ],
+  "microlens": [
+   23
+  ],
+  "array": [
+   24
+  ],
+  "was": [
+   25,
+   54,
+   61,
+   70
+  ],
+  "printed": [
+   26,
+   78
+  ],
+  "and": [
+   27,
+   38,
+   80,
+   90
+  ],
+  "subsequently": [
+   28
+  ],
+  "characterized,": [
+   29
+  ],
+  "showing": [
+   30
+  ],
+  "fully": [
+   31
+  ],
+  "dense": [
+   32
+  ],
+  "lenses": [
+   33
+  ],
+  "with": [
+   34,
+   66
+  ],
+  "uniform": [
+   35
+  ],
+  "focal": [
+   36
+  ],
+  "lengths": [
+   37
+  ],
+  "good": [
+   39
+  ],
+  "imaging": [
+   40,
+   68
+  ],
+  "performance.": [
+   41
+  ],
+  "surface": [
+   43
+  ],
+  "roughness": [
+   44
+  ],
+  "on": [
+   45
+  ],
+  "the": [
+   46,
+   75,
+   87
+  ],
+  "order": [
+   47
+  ],
+  "R": [
+   49
+  ],
+  "=": [
+   51
+  ],
+  "0.12": [
+   52
+  ],
+  "nm": [
+   53
+  ],
+  "achieved.": [
+   55
+  ],
+  "Printing": [
+   56
+  ],
+  "time": [
+   57
+  ],
+  "for": [
+   58,
+   82,
+   105,
+   110
+  ],
+  "each": [
+   59,
+   83
+  ],
+  "lens": [
+   60,
+   88
+  ],
+  "<10": [
+   62
+  ],
+  "s.": [
+   63
+  ],
+  "Creating": [
+   64
+  ],
+  "arrays": [
+   65
+  ],
+  "multifocal": [
+   67
+  ],
+  "capabilities": [
+   69
+  ],
+  "possible": [
+   71
+  ],
+  "by": [
+   72
+  ],
+  "individually": [
+   73
+  ],
+  "varying": [
+   74
+  ],
+  "number": [
+   76
+  ],
+  "layers": [
+   79
+  ],
+  "radius": [
+   81
+  ],
+  "lens,": [
+   84
+  ],
+  "effectively": [
+   85
+  ],
+  "changing": [
+   86
+  ],
+  "height": [
+   89
+  ],
+  "curvature.": [
+   91
+  ],
+  "Glass": [
+   92
+  ],
+  "printing": [
+   94
+  ],
+  "is": [
+   95
+  ],
+  "shown": [
+   96
+  ],
+  "in": [
+   97
+  ],
+  "this": [
+   98
+  ],
+  "study": [
+   99
+  ],
+  "to": [
+   100
+  ],
+  "be": [
+   101
+  ],
+  "versatile": [
+   103
+  ],
+  "approach": [
+   104
+  ],
+  "fabricating": [
+   106
+  ],
+  "suitable": [
+   109
+  ],
+  "rapid": [
+   111
+  ],
+  "prototyping": [
+   112
+  ],
+  "or": [
+   113
+  ],
+  "manufacturing.": [
+   114
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

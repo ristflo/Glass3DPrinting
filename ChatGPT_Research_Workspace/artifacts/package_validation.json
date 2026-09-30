@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-09-30T09:18:22.358544+00:00",
+  "archive": "output/glass_3d_printing_report.zip",
+  "files": 158,
+  "bytes": 53423888,
+  "sha256": "332bf21d35b2c5cde1d528b054eb1610ca9d387d669295a6ca05d16ff3d84a6f",
+  "crc_check": "passed",
+  "all_member_sha256_checks": "passed",
+  "workspace_relative_paths": true,
+  "excluded_scratch_and_tooling": true,
+  "manifest_sha256": "f1b1e0cc237fae821cf74abe62d8d8c9645894f0a09cb5249ebf6b1947caf182"
+}

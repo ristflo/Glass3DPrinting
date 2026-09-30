@@ -1,0 +1,604 @@
+{
+ "id": "https://openalex.org/W4394693265",
+ "doi": "https://doi.org/10.1016/j.addma.2024.104135",
+ "title": "Direct additive manufacturing of transparent fused silica glasses using an integrated paste printing and laser in-situ melting technology",
+ "display_name": "Direct additive manufacturing of transparent fused silica glasses using an integrated paste printing and laser in-situ melting technology",
+ "relevance_score": 1874.6248,
+ "publication_year": 2024,
+ "publication_date": "2024-03-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4394693265",
+  "doi": "https://doi.org/10.1016/j.addma.2024.104135"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.addma.2024.104135",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.addma.2024.104135",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764842179",
+   "display_name": "Additive manufacturing",
+   "issn_l": "2214-7810",
+   "issn": [
+    "2214-7810",
+    "2214-8604"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Additive Manufacturing",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5100753681",
+    "display_name": "Haobo Zhang",
+    "orcid": "https://orcid.org/0000-0003-3662-3958"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I90610280",
+     "display_name": "South China University of Technology",
+     "ror": "https://ror.org/0530pts50",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Haobo Zhang",
+   "raw_affiliation_strings": [
+    "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China",
+     "institution_ids": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5058742937",
+    "display_name": "Qiurui Zhang",
+    "orcid": "https://orcid.org/0009-0008-0177-8478"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I90610280",
+     "display_name": "South China University of Technology",
+     "ror": "https://ror.org/0530pts50",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Qiurui Zhang",
+   "raw_affiliation_strings": [
+    "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China",
+     "institution_ids": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5108578148",
+    "display_name": "Pei Xiang",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I90610280",
+     "display_name": "South China University of Technology",
+     "ror": "https://ror.org/0530pts50",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Pei Xiang",
+   "raw_affiliation_strings": [
+    "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China",
+     "institution_ids": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5069086968",
+    "display_name": "Yihao Wang",
+    "orcid": "https://orcid.org/0009-0003-7267-0249"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I90610280",
+     "display_name": "South China University of Technology",
+     "ror": "https://ror.org/0530pts50",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yihao Wang",
+   "raw_affiliation_strings": [
+    "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China",
+     "institution_ids": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5023016668",
+    "display_name": "Jincheng Lei",
+    "orcid": "https://orcid.org/0000-0003-1272-9555"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I90610280",
+     "display_name": "South China University of Technology",
+     "ror": "https://ror.org/0530pts50",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Jincheng Lei",
+   "raw_affiliation_strings": [
+    "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-1272-9555",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shien-Ming Wu School of Intelligent Engineering, South China University of Technology,\u00a0Guangzhou,\u00a0Guangdong 511442,\u00a0China",
+     "institution_ids": [
+      "https://openalex.org/I90610280"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5023016668"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I90610280"
+ ],
+ "apc_list": {
+  "value": 3690,
+  "currency": "USD",
+  "value_usd": 3690
+ },
+ "apc_paid": null,
+ "fwci": 0.9782,
+ "has_fulltext": false,
+ "cited_by_count": 9,
+ "citation_normalized_percentile": {
+  "value": 0.70071426,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "84",
+  "issue": null,
+  "first_page": "104135",
+  "last_page": "104135"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9958999752998352,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9958999752998352,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13217",
+   "display_name": "Pigment Synthesis and Properties",
+   "score": 0.9550999999046326,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1604",
+    "display_name": "Inorganic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12570",
+   "display_name": "Photopolymerization techniques and applications",
+   "score": 0.9492999911308289,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1605",
+    "display_name": "Organic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.9346747398376465
+  },
+  {
+   "id": "https://openalex.org/keywords/in-situ",
+   "display_name": "In situ",
+   "score": 0.829850435256958
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.5826118588447571
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.5290210247039795
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.5149675011634827
+  },
+  {
+   "id": "https://openalex.org/keywords/silica-glass",
+   "display_name": "Silica glass",
+   "score": 0.466597318649292
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.40276116132736206
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.19744807481765747
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.13390153646469116
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.9346747398376465
+  },
+  {
+   "id": "https://openalex.org/C2777822432",
+   "wikidata": "https://www.wikidata.org/wiki/Q216681",
+   "display_name": "In situ",
+   "level": 2,
+   "score": 0.829850435256958
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.5826118588447571
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.5290210247039795
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.5149675011634827
+  },
+  {
+   "id": "https://openalex.org/C3020492233",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Silica glass",
+   "level": 2,
+   "score": 0.466597318649292
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.40276116132736206
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.19744807481765747
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.13390153646469116
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C153294291",
+   "wikidata": "https://www.wikidata.org/wiki/Q25261",
+   "display_name": "Meteorology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.addma.2024.104135",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.addma.2024.104135",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764842179",
+    "display_name": "Additive manufacturing",
+    "issn_l": "2214-7810",
+    "issn": [
+     "2214-7810",
+     "2214-8604"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Additive Manufacturing",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G3766320998",
+   "display_name": null,
+   "funder_award_id": "202201010363",
+   "funder_id": "https://openalex.org/F4320335480",
+   "funder_display_name": "Guangzhou Municipal Science and Technology Project"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320335480",
+   "display_name": "Guangzhou Municipal Science and Technology Project",
+   "ror": null
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 27,
+ "referenced_works": [
+  "https://openalex.org/W1642712619",
+  "https://openalex.org/W2048659379",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2493526461",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2801083616",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2949151731",
+  "https://openalex.org/W3000373857",
+  "https://openalex.org/W3033461411",
+  "https://openalex.org/W3041528634",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3118742912",
+  "https://openalex.org/W3136045451",
+  "https://openalex.org/W3155283733",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W4210775930",
+  "https://openalex.org/W4283575441",
+  "https://openalex.org/W4313411514",
+  "https://openalex.org/W6699248120",
+  "https://openalex.org/W6736927630",
+  "https://openalex.org/W6749358437",
+  "https://openalex.org/W6772413631",
+  "https://openalex.org/W6802864300"
+ ],
+ "related_works": [
+  "https://openalex.org/W2889937250",
+  "https://openalex.org/W3061217114",
+  "https://openalex.org/W2523501139",
+  "https://openalex.org/W4376117233",
+  "https://openalex.org/W4200483307",
+  "https://openalex.org/W2192772080",
+  "https://openalex.org/W2566551864",
+  "https://openalex.org/W2182308369",
+  "https://openalex.org/W2079081751",
+  "https://openalex.org/W2792372002"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 8
+  }
+ ],
+ "updated_date": "2026-09-21T07:43:02.447757",
+ "created_date": "2025-10-10T00:00:00"
+}

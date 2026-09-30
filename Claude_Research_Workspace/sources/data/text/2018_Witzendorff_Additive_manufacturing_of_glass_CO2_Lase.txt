@@ -1,0 +1,354 @@
+ScienceDirect
+Available online at www.sciencedirect.comAvailable online at www.sciencedirect.com
+ScienceDirect
+Procedia CIRP 00 (2017) 000–000
+  www.elsevier.com/locate/procedia 
+2212-8271 © 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of the 28th CIRP Design Conference 2018. 
+28th CIRP Design Conference, May 2018, Nantes, France
+A new methodology to analyze the functional and physical architecture of 
+existing products for an assembly oriented product family identification 
+Paul Stief *, Jean-Yves Dantan, Alain Etienne, AliSiadat 
+École Nationale Supérieure d’Arts et Métiers, Arts et Métiers ParisTech, LCFC EA 4495, 4 Rue Augustin Fresnel, Metz 57078, France 
+* Corresponding author. Tel.: +33 3 87 37 54 30; E-mail address: paul.stief@ensam.eu
+Abstract 
+In today’s business environment, the trend towards more product variety and customization is unbroken. Due to this development, the need of 
+agile and reconfigurable production systems emerged to cope with various products and product families. To design and optimize production
+systems as well as to choose the optimal product matches, product analysis methods are needed. Indeed, most of the known methods aim to 
+analyze a product or one product family on the physical level. Different product families, however, may differ largely in terms of the number and 
+nature of components. This fact impedes an efficient comparison and choice of appropriate product family combinations for the production
+system. A new methodology is proposed to analyze existing products in view of their functional and physical architecture. The aim is to cluster
+these products in new assembly oriented product families for the optimization of existing assembly lines and the creation of future reconfigurable 
+assembly systems. Based on Datum Flow Chain, the physical structure of the products is analyzed. Functional subassemblies are identified, and 
+a functional analysis is performed. Moreover, a hybrid functional and physical architecture graph (HyFPAG) is the output which depicts the 
+similarity between product families by providing design support to both, production system planners and product designers. An illustrative
+example of a nail-clipper is used to explain the proposed methodology. An industrial case study on two product families of steering columns of 
+thyssenkrupp Presta France is then carried out to give a first industrial evaluation of the proposed approach. 
+© 2017 The Authors. Published by Elsevier B.V. 
+Peer-review under responsibility of the scientific committee of the 28th CIRP Design Conference 2018. 
+Keywords: Assembly; Design method; Family identification
+1. Introduction 
+Due to the fast development in the domain of 
+communication and an ongoing trend of digitization and
+digitalization, manufacturing enterprises are facing important
+challenges in today’s market environments: a continuing
+tendency towards reduction of product development times and
+shortened product lifecycles. In addition, there is an increasing
+demand of customization, being at the same time in a global 
+competition with competitors all over the world. This trend, 
+which is inducing the development from macro to micro 
+markets, results in diminished lot sizes due to augmenting
+product varieties (high-volume to low-volume production) [1]. 
+To cope with this augmenting variety as well as to be able to
+identify possible optimization potentials in the existing
+production system, it is important to have a precise knowledge
+of the product range and characteristics manufactured and/or 
+assembled in this system. In this context, the main challenge in
+modelling and analysis is now not only to cope with single 
+products, a limited product range or existing product families,
+but also to be able to analyze and to compare products to define
+new product families. It can be observed that classical existing
+product families are regrouped in function of clients or features.
+However, assembly oriented product families are hardly to find. 
+On the product family level, products differ mainly in two
+main characteristics: (i) the number of components and (ii) the
+type of components (e.g. mechanical, electrical, electronical). 
+Classical methodologies considering mainly single products 
+or solitary, already existing product families analyze the
+product structure on a physical level (components level) which 
+causes difficulties regarding an efficient definition and
+comparison of different product families. Addressing this 
+Procedia CIRP 74 (2018) 272–275
+2212-8271 © 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the Bayerisches Laserzentrum GmbH.
+10.1016/j.procir.2018.08.109
+© 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the Bayerisches Laserzentrum GmbH.
+Available online at www.sciencedirect.com
+ScienceDirect 
+Procedia CIRP 00 (2018) 000–000
+www.elsevier.com/locate/procedia
+2212-8271 © 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/)
+Peer-review under responsibility of the Bayerisches Laserzentrum GmbH.
+10th CIRP Conference on Photonic Technologies [LANE 2018]
+Additive manufacturing of glass: CO2-Laser glass deposition printing
+Philipp von Witzendorffa, Leonhard Pohla,*, Oliver Suttmanna, Peter Heinrichb, Achim Heinrichb,
+Jörg Zanderb, Holger Bragardb, Stefan Kaierlea
+aLaser Zentrum Hannover e.V., Hollerithallee 8, 30419, Hannover, Germany
+bQuarzglas-Technologie Heinrich GmbH & Co. KG, Im Süsterfeld 4, 52072 Aachen, Germany
+* Corresponding author. Tel.:+49-511-2788-337 ; fax: +49-511-2788-100. E-mail address: l.pohl@lzh.de
+Abstract
+Additive manufacturing is used in several industrial sectors where polymers and metals are established materials. D ifferent academic studies 
+prove that additive manufacturing methods can be applied on glass materials using powder or fiber based material sources. In terms of quartz 
+glass, with melting temperatures around 2200°C, laser sources are used to achieve the necessary intensities. In the present study, additive 
+manufacturing of quartz glass is achieved by melting a quartz glass fiber with a CO 2 laser source. A combined laser head focusses the laser 
+radiation onto the glass fiber in order to melt the fiber. A three axis system is used to move the printing stage and glass substrate . The 
+experimental investigations show that CO 2-laser glass deposition printing allows for the creation of arbitrary 3D quartz glass structures. This 
+method is envisioned to replace conventional manual glass manufacturing processes for production of complex hollow glass structures which 
+are present in the medical sector.
+© 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/)
+Peer-review under responsibility of the Bayerisches Laserzentrum GmbH.
+Keywords: Additive manufacturing, glass, laser
+1. Introduction
+Glass is a versatile material found in many applications 
+where the glass composition or surface func tionalization is 
+customized to meet the application requirements . When high 
+chemical inertness, transparency and temperature resistance is 
+required, quartz glass is usually used. For example, artificial 
+kidneys or machines used within semi conductor 
+manufacturing consist of quartz glass components. The 
+manufacturing of these quart z glass components involve s
+machining processes such as milling, drilling and polishing 
+and hot processing such as forming and welding. The latter are 
+mostly performed by manual operation with a hydrogen gas 
+flame as an energy source. Small lot sizes, the hard and brittle 
+material properties and the manual operation lead to a high 
+scrap rate when manufacturing complex quar tz glass 
+structures. These challenges motivate the development of 
+additive manufacturing of q uartz glass where complex quartz
+glass structures are manufactured in a single step on one 
+machine.
+Several studies prove that additive manufacturing of glass 
+is feasible by different approaches:
+• Glass extrusion printing [1,2]
+• Selective laser melting/sintering [3,4]
+• Wire-fed additive manufacturing [4,5]
+• Stereolithography and subsequent oven sintering [6] 
+First industrial machines are available which are using the 
+glass extrusion printing process for additive manufacturing of 
+borosilicate glass [7]. In terms of qua rtz glass, temperatures 
+above 2000 °C are required for additive manufacturing which 
+makes the glass extrusion printing process unfavorable due to 
+high energy demand and high temperature stress at the 
+extrusion nozzle. Selective laser melting has shown to allo w 
+the creation of 3D printed parts. However, residual pores led 
+to opaque glass parts [3,4]. The authors from [4,5] use glass 
+rods whereas the present study uses endless glass fibers which 
+are coated with a polymer coating. Stereolithography and 
+subsequent oven sintering allows high resolution 3D printing 
+Available online at www.sciencedirect.com
+ScienceDirect 
+Procedia CIRP 00 (2018) 000–000
+www.elsevier.com/locate/procedia
+2212-8271 © 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/)
+Peer-review under responsibility of the Bayerisches Laserzentrum GmbH.
+10th CIRP Conference on Photonic Technologies [LANE 2018]
+Additive manufacturing of glass: CO2-Laser glass deposition printing
+Philipp von Witzendorffa, Leonhard Pohla,*, Oliver Suttmanna, Peter Heinrichb, Achim Heinrichb,
+Jörg Zanderb, Holger Bragardb, Stefan Kaierlea
+aLaser Zentrum Hannover e.V., Hollerithallee 8, 30419, Hannover, Germany
+bQuarzglas-Technologie Heinrich GmbH & Co. KG, Im Süsterfeld 4, 52072 Aachen, Germany
+* Corresponding author. Tel.:+49-511-2788-337 ; fax: +49-511-2788-100. E-mail address: l.pohl@lzh.de
+Abstract
+Additive manufacturing is used in several industrial sectors where polymers and metals are established materials. D ifferent academic studies 
+prove that additive manufacturing methods can be applied on glass materials using powder or fiber based material sources. In terms of quartz 
+glass, with melting temperatures around 2200°C, laser sources are used to achieve the necessary intensities. In the present study, additive 
+manufacturing of quartz glass is achieved by melting a quartz glass fiber with a CO 2 laser source. A combined laser head focusses the laser 
+radiation onto the glass fiber in order to melt the fiber. A three axis system is used to move the printing stage and glass substrate . The 
+experimental investigations show that CO 2-laser glass deposition printing allows for the creation of arbitrary 3D quartz glass structures. This 
+method is envisioned to replace conventional manual glass manufacturing processes for production of complex hollow glass structures which 
+are present in the medical sector.
+© 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/3.0/)
+Peer-review under responsibility of the Bayerisches Laserzentrum GmbH.
+Keywords: Additive manufacturing, glass, laser
+1. Introduction
+Glass is a versatile material found in many applications 
+where the glass composition or surface func tionalization is 
+customized to meet the application requirements . When high 
+chemical inertness, transparency and temperature resistance is 
+required, quartz glass is usually used. For example, artificial 
+kidneys or machines used within semi conductor 
+manufacturing consist of quartz glass components. The 
+manufacturing of these quart z glass components involve s
+machining processes such as milling, drilling and polishing 
+and hot processing such as forming and welding. The latter are 
+mostly performed by manual operation with a hydrogen gas 
+flame as an energy source. Small lot sizes, the hard and brittle 
+material properties and the manual operation lead to a high 
+scrap rate when manufacturing complex quar tz glass 
+structures. These challenges motivate the development of 
+additive manufacturing of q uartz glass where complex quartz
+glass structures are manufactured in a single step on one 
+machine.
+Several studies prove that additive manufacturing of glass 
+is feasible by different approaches:
+• Glass extrusion printing [1,2]
+• Selective laser melting/sintering [3,4]
+• Wire-fed additive manufacturing [4,5]
+• Stereolithography and subsequent oven sintering [6] 
+First industrial machines are available which are using the 
+glass extrusion printing process for additive manufacturing of 
+borosilicate glass [7]. In terms of qua rtz glass, temperatures 
+above 2000 °C are required for additive manufacturing which 
+makes the glass extrusion printing process unfavorable due to 
+high energy demand and high temperature stress at the 
+extrusion nozzle. Selective laser melting has shown to allo w 
+the creation of 3D printed parts. However, residual pores led 
+to opaque glass parts [3,4]. The authors from [4,5] use glass 
+rods whereas the present study uses endless glass fibers which 
+are coated with a polymer coating. Stereolithography and 
+subsequent oven sintering allows high resolution 3D printing 
+10th CIRP Conference on Photonic Technologies [LANE 2018]
+ Philipp von Witzendorff et al. / Procedia CIRP 74 (2018) 272–275 273
+2 Author name / Procedia CIRP 00 (2018) 000–000
+of transparent and pure fused silica. However, the part size is 
+restricted by the size of the tank holding the silica -polymer 
+mixture. In addition, shrinkage occurring during sintering has 
+to be considered [6]. 
+The current study aims to produce quartz glass for medical 
+components where the additive manufacturing process also 
+has to be performed on semi -finished quartz glass parts such 
+as tubes. Therefore, wire-fed additive manufacturing of quartz 
+glass is investigated where a n endless glass fiber is molten 
+with a CO2-laser.
+2. Experimental Setup and Experiments
+A CO2-laser with a maximum output power of 120 W was 
+used as an energy source. The glass printing head consist of a 
+laser focusing lens with a focal le ngth of f = 190 mm and a 
+self-developed glass fiber feeding system. A three axis system 
+is used to move the printing stage and glass substrate . The 
+laser radiation was applied in defocused position
+perpendicular to the printing stage/glass substrate with spot 
+diameters between 1 -15 mm. The glass fiber w as supplied 
+under an angle between 25 °-60° degrees with respect to the 
+laser radiation. Printing was performed with fiber feed and 
+axis movement in the same ( ) and opposite ( )
+direction. The feed rate of glass fiber and the velocity of the 
+axis movement were kept at the same speed.
+The suppl ied glass fib er diameter was approximately
+0.5 mm. The glass fiber has a polymer coating with a 
+thickness of 50 µm. The polymer coating is necessary to feed 
+the fibe r without breakage. The coating evaporates during 
+laser processing without affecting the deposited quartz glass 
+quality which was shown for welding of quartz glass [8]. 
+Printing was performed on quartz glass plates (HSQ 100 from 
+Heraeus Quarzglas).
+Fig. 1. Sketch of CO2 laser glass deposition printing setup
+The investigations aim to show which combination of glass 
+fiber feeding rate, laser power and velocity of the three axis 
+moving system is suitable to perform reproducible and stable 
+additive manufact uring of quartz glass with glass fibers as 
+supplied addit ive. Glass layer consisting of five overlying 
+printed glass filaments are produced for each investigated 
+parameter combination. On each glass substrat e multiple 
+experiments were conducted with a distance of 20 mm 
+between individual printed glass layers. 
+The results are classified similar to the investigations of 
+Lou et al. [9] with:
+• Evaporation
+• Discontinuous printing
+• Continuous printing
+• Lack of fusion
+Nomenclature
+ffiber     feed rate of glass fiber
+faxis     velocity of axis movement
+P……laser power
+3. Results
+Figure 2 shows an image which was captured during an 
+additive manufacturing process. The magnification (lower 
+right corner) was taken with a grey filter in front of the 
+camera. The figure illustrates how the experiments were 
+conducted, printing straight glass layers with a distance of 
+20 mm.
+Fig. 2. Process image
+Figure 3 shows the results of the process investigations. 
+Two laser powers (P = 90 W and P = 12 0 W) were used. The 
+feed rate of the glass fiber and the velocity of the axis 
+movement were kept at the same speed. The direction of the 
+axis movement and the fiber feeding was set in the same
+( ) and opposite ( ) direction. At low feed rates 
+evaporation occurs due to overheating of t he glass fibers. 
+With increasing feed rates the process shifts from strong 
+evaporation to discontinuous printing . The top image of 
+Figure 4 shows a result within the discontinuous printing 
+regime. In this case the glass fiber temperatures are too high 
+which leads to a very low viscosity of the fiber resulting in 
+deposition of single quartz glass droplets. It has to be noted 
+
+274 Philipp von Witzendorff et al. / Procedia CIRP 74 (2018) 272–275
+Author name / Procedia CIRP 00 (2018) 000–000 3
+that these droplets are deposited in a very reproducible 
+manner so that the deposition occurs in constant distance and 
+on top of each other. 
+To achieve continuous printing (see Fig. 4 bottom) where 
+the glass fiber s are fused on top of each other , the feed rates 
+have to be increased. The process window is larger when 
+using the higher laser power of P=12 0 W. At P = 120 W, a 
+wide process wi ndow of approximately f axis = ffiber = 200 –
+300 mm/min was found . Moreover, it was also investigated
+that printing should be performed with fi ber feeding and axis 
+movement in the same direction due to a slightly greater
+process window. When the feed rates exceed 300 mm/min, 
+heating of the fibers is insufficient so that no fusion occurs 
+between the individual layers.
+Fig. 3. Process regimes with respect to laser power, faxis, ffiber and direction of 
+axis and fiber movement:   fiber and axis movement in same direction; 
+  fiber and axis movement in opposite direction. 
+Fig. 4. Top: Printing result within the discontinuous regime (P= 120 W; 
+faxis=ffiber= 150 mm/min); Bottom: Printing result within the continuous 
+regime (P= 120 W; faxis=ffiber=250 mm/min);
+Fig. 5. Printed quartz glass cylinder with a diameter of 20 mm and 10
+overlying glass layers, P = 120 W, faxis, = ffiber =250 mm/min, .
+The process investigations were used to create a cylinder 
+with 20 mm diameter which consists of 10 overlying glass 
+layers, Fig. 5. For this purpose, a rotational axis was used and 
+printing was performed with fiber feeding and axis movement 
+in the same direction. The created cylinder is free of cracks 
+and pores and shows a homogenous connection between the 
+individual layers.
+4. Conclusion
+Additive manufacturing of quartz glass is feasible by using 
+a CO2-laser which melts a continuously supplied quartz glass 
+fiber. In order to create overlying structures consisting of 
+multiple glass fibers, the heat input has to be controlled. A too 
+high heat input occurring at low feed rates leads to strong 
+evaporation and discontinuous printing. At high feed rates 
+with insufficient heat input and temperatures, fusion between 
+the individual fibers is not present. A reasonable process 
+window was found which allows the creation of arbitrary 
+printed quartz glass structures. The presented method is aimed 
+to replace conventional manual quartz glass production 
+processes.
+Acknowledgements
+The investigations were conducted wit hin the project
+“Development of a new and flexible additive manufacturing 
+method for the production of complex quartz glass products” 
+funded by AIF-ZIM (ZF4102317AG7).
+References
+[1] Klein J., et int., Oxman N. Additive Manufacturing of Optically 
+Transparent Glass , 3D Printing and Add itive Manufacturing VOL. 2, 
+NO. 3, https://doi.org/10.1089/3dp.2015.0021.
+[2] Felismina R., Silva M., Mateus A., Malça C.: Direct Digital 
+Manufacturing: A Challenge to the Artistic Glass Production, Materials 
+Design and Applications, 2017 Vol. 65 ,pp 221-231.
+[3] Fateri M., Gebhardt A., Thuemmler S., Thurn L., Experimental 
+Investigation on Selective Laser Melting of Glass, Physics Procedia 
+Volume 56, 2014, Pages 357-364
+[4] Luo J., Pan H. and Kinzel E.C. Additive Manufacturing of Glass, J. 
+Manuf. Sci. Eng. 2014, 136(6), 
+
+ Philipp von Witzendorff et al. / Procedia CIRP 74 (2018) 272–275 275
+4 Author name / Procedia CIRP 00 (2018) 000–000
+[5] Luo J., Gilbert L., Qu C., Wilson J., Bristow D., Landers R., Kinzel E., 
+Wire-Fed Additive Manufacturing of Transparent Glass Parts , ASME 
+2015 International Manufacturing Science and Engineering Conference, 
+Charlotte, North Carolina, USA, June 8 –12, 2015, 
+doi:10.1115/MSEC2015-9377
+[6] Kotz, F., et int., Rapp B.E. Three-dimensional printing of transparent 
+fused silica glass , Nature volume 544, 2017, pages 337– 339, 
+doi:10.1038/nature22061
+[7] http://www.micron3dp.com/
+[8] Pohl, L., von Witzendorff, P., Chatzizyrli, E., Suttmann, O., Overmeyer,
+L. CO2 laser welding of glass: numerical simulation and experimental 
+study, International Journal of Advanced Man ufacturing Technology, 
+2018, 1–7.
+[9] Luo J., Hostetler J. M., Gilbert L., Goldstein J. T., Urbas A. M., Bristow
+D. A., Landers R. G., Kinzel, E.C. Additive manufacturing of transparent 
+fused quartz, Optical Engineerin g 57(4), 
+https://doi.org/10.1117/1.OE.57.4.041408

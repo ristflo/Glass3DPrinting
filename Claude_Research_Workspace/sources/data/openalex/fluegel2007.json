@@ -1,0 +1,1052 @@
+{
+ "id": "https://openalex.org/W2512218045",
+ "doi": null,
+ "title": "Glass viscosity calculation based on a global statistical modelling approach",
+ "display_name": "Glass viscosity calculation based on a global statistical modelling approach",
+ "relevance_score": 3444.4382,
+ "publication_year": 2007,
+ "publication_date": "2007-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2512218045",
+  "mag": "2512218045"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "mag:2512218045",
+  "is_oa": false,
+  "landing_page_url": "http://glasspro.ipower.com/viscosity/Viscosity_2006_AFluegel.pdf",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S93301610",
+   "display_name": "Glass Technology",
+   "issn_l": "0017-1050",
+   "issn": [
+    "0017-1050"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": "https://openalex.org/P4310314009",
+   "host_organization_name": "German Glass Technology Society (DDG)",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310314009"
+   ],
+   "host_organization_lineage_names": [
+    "German Glass Technology Society (DDG)"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": null,
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": "Glass Technology",
+  "raw_type": null
+ },
+ "type": "article",
+ "indexed_in": [],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5044963375",
+    "display_name": "Alexander Fluegel",
+    "orcid": null
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Alexander Fluegel",
+   "raw_affiliation_strings": [],
+   "affiliations": []
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5044963375"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 3.1611,
+ "has_fulltext": false,
+ "cited_by_count": 144,
+ "citation_normalized_percentile": {
+  "value": 0.91269539,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "48",
+  "issue": "1",
+  "first_page": "13",
+  "last_page": "30"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10544",
+  "display_name": "Glass properties and applications",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2503",
+   "display_name": "Ceramics and Composites"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10544",
+   "display_name": "Glass properties and applications",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2503",
+    "display_name": "Ceramics and Composites"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10474",
+   "display_name": "Material Dynamics and Properties",
+   "score": 0.9940000176429749,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13443",
+   "display_name": "Mineralogy and Gemology Studies",
+   "score": 0.977400004863739,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1906",
+    "display_name": "Geochemistry and Petrology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/borosilicate-glass",
+   "display_name": "Borosilicate glass",
+   "score": 0.9406894445419312
+  },
+  {
+   "id": "https://openalex.org/keywords/viscosity",
+   "display_name": "Viscosity",
+   "score": 0.7445148229598999
+  },
+  {
+   "id": "https://openalex.org/keywords/vitrification",
+   "display_name": "Vitrification",
+   "score": 0.6619051694869995
+  },
+  {
+   "id": "https://openalex.org/keywords/mineralogy",
+   "display_name": "Mineralogy",
+   "score": 0.6316231489181519
+  },
+  {
+   "id": "https://openalex.org/keywords/thermodynamics",
+   "display_name": "Thermodynamics",
+   "score": 0.5652598142623901
+  },
+  {
+   "id": "https://openalex.org/keywords/lead-glass",
+   "display_name": "Lead glass",
+   "score": 0.49115511775016785
+  },
+  {
+   "id": "https://openalex.org/keywords/float-glass",
+   "display_name": "Float glass",
+   "score": 0.4904136657714844
+  },
+  {
+   "id": "https://openalex.org/keywords/alkali-metal",
+   "display_name": "Alkali metal",
+   "score": 0.46647530794143677
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-transition",
+   "display_name": "Glass transition",
+   "score": 0.4512547254562378
+  },
+  {
+   "id": "https://openalex.org/keywords/soda-lime",
+   "display_name": "Soda lime",
+   "score": 0.4212135076522827
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.40694460272789
+  },
+  {
+   "id": "https://openalex.org/keywords/chemistry",
+   "display_name": "Chemistry",
+   "score": 0.38235989212989807
+  },
+  {
+   "id": "https://openalex.org/keywords/analytical-chemistry",
+   "display_name": "Analytical Chemistry (journal)",
+   "score": 0.3388059139251709
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.1756613552570343
+  },
+  {
+   "id": "https://openalex.org/keywords/organic-chemistry",
+   "display_name": "Organic chemistry",
+   "score": 0.11081993579864502
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.10640978813171387
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C206802598",
+   "wikidata": "https://www.wikidata.org/wiki/Q1422588",
+   "display_name": "Borosilicate glass",
+   "level": 2,
+   "score": 0.9406894445419312
+  },
+  {
+   "id": "https://openalex.org/C127172972",
+   "wikidata": "https://www.wikidata.org/wiki/Q128709",
+   "display_name": "Viscosity",
+   "level": 2,
+   "score": 0.7445148229598999
+  },
+  {
+   "id": "https://openalex.org/C2778022349",
+   "wikidata": "https://www.wikidata.org/wiki/Q1072553",
+   "display_name": "Vitrification",
+   "level": 2,
+   "score": 0.6619051694869995
+  },
+  {
+   "id": "https://openalex.org/C199289684",
+   "wikidata": "https://www.wikidata.org/wiki/Q83353",
+   "display_name": "Mineralogy",
+   "level": 1,
+   "score": 0.6316231489181519
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.5652598142623901
+  },
+  {
+   "id": "https://openalex.org/C192505815",
+   "wikidata": "https://www.wikidata.org/wiki/Q392551",
+   "display_name": "Lead glass",
+   "level": 2,
+   "score": 0.49115511775016785
+  },
+  {
+   "id": "https://openalex.org/C199172669",
+   "wikidata": "https://www.wikidata.org/wiki/Q1429077",
+   "display_name": "Float glass",
+   "level": 2,
+   "score": 0.4904136657714844
+  },
+  {
+   "id": "https://openalex.org/C198091228",
+   "wikidata": "https://www.wikidata.org/wiki/Q19557",
+   "display_name": "Alkali metal",
+   "level": 2,
+   "score": 0.46647530794143677
+  },
+  {
+   "id": "https://openalex.org/C122865956",
+   "wikidata": "https://www.wikidata.org/wiki/Q825643",
+   "display_name": "Glass transition",
+   "level": 3,
+   "score": 0.4512547254562378
+  },
+  {
+   "id": "https://openalex.org/C2777256985",
+   "wikidata": "https://www.wikidata.org/wiki/Q754282",
+   "display_name": "Soda lime",
+   "level": 2,
+   "score": 0.4212135076522827
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.40694460272789
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.38235989212989807
+  },
+  {
+   "id": "https://openalex.org/C113196181",
+   "wikidata": "https://www.wikidata.org/wiki/Q485223",
+   "display_name": "Analytical Chemistry (journal)",
+   "level": 2,
+   "score": 0.3388059139251709
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.1756613552570343
+  },
+  {
+   "id": "https://openalex.org/C178790620",
+   "wikidata": "https://www.wikidata.org/wiki/Q11351",
+   "display_name": "Organic chemistry",
+   "level": 1,
+   "score": 0.11081993579864502
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.10640978813171387
+  },
+  {
+   "id": "https://openalex.org/C185544564",
+   "wikidata": "https://www.wikidata.org/wiki/Q81197",
+   "display_name": "Nuclear physics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C521977710",
+   "wikidata": "https://www.wikidata.org/wiki/Q81163",
+   "display_name": "Polymer",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "mag:2512218045",
+   "is_oa": false,
+   "landing_page_url": "http://glasspro.ipower.com/viscosity/Viscosity_2006_AFluegel.pdf",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S93301610",
+    "display_name": "Glass Technology",
+    "issn_l": "0017-1050",
+    "issn": [
+     "0017-1050"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/P4310314009",
+    "host_organization_name": "German Glass Technology Society (DDG)",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310314009"
+    ],
+    "host_organization_lineage_names": [
+     "German Glass Technology Society (DDG)"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": "Glass Technology",
+   "raw_type": null
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 48,
+ "referenced_works": [
+  "https://openalex.org/W50364204",
+  "https://openalex.org/W307737677",
+  "https://openalex.org/W561569434",
+  "https://openalex.org/W594379517",
+  "https://openalex.org/W626738004",
+  "https://openalex.org/W636060623",
+  "https://openalex.org/W1496214508",
+  "https://openalex.org/W1502672770",
+  "https://openalex.org/W1516147479",
+  "https://openalex.org/W1930230087",
+  "https://openalex.org/W1990883562",
+  "https://openalex.org/W1998709696",
+  "https://openalex.org/W2010009722",
+  "https://openalex.org/W2016452073",
+  "https://openalex.org/W2058934962",
+  "https://openalex.org/W2060152846",
+  "https://openalex.org/W2065786402",
+  "https://openalex.org/W2081149658",
+  "https://openalex.org/W2083031820",
+  "https://openalex.org/W2083942662",
+  "https://openalex.org/W2086565011",
+  "https://openalex.org/W2088806240",
+  "https://openalex.org/W2090627946",
+  "https://openalex.org/W2094135445",
+  "https://openalex.org/W2098914852",
+  "https://openalex.org/W2111356498",
+  "https://openalex.org/W2118767978",
+  "https://openalex.org/W2132062974",
+  "https://openalex.org/W2136896126",
+  "https://openalex.org/W2137436098",
+  "https://openalex.org/W2145409896",
+  "https://openalex.org/W2154859979",
+  "https://openalex.org/W2181520792",
+  "https://openalex.org/W2275293405",
+  "https://openalex.org/W2317602568",
+  "https://openalex.org/W2321328284",
+  "https://openalex.org/W2333498558",
+  "https://openalex.org/W2465143167",
+  "https://openalex.org/W2468785649",
+  "https://openalex.org/W2482964971",
+  "https://openalex.org/W2494637569",
+  "https://openalex.org/W2505210475",
+  "https://openalex.org/W2519431322",
+  "https://openalex.org/W2522223666",
+  "https://openalex.org/W2522968383",
+  "https://openalex.org/W2526715211",
+  "https://openalex.org/W2757391991",
+  "https://openalex.org/W3119812215"
+ ],
+ "related_works": [
+  "https://openalex.org/W2085285699",
+  "https://openalex.org/W1984929948",
+  "https://openalex.org/W1968146521",
+  "https://openalex.org/W2164767021",
+  "https://openalex.org/W1967303178",
+  "https://openalex.org/W1518219215",
+  "https://openalex.org/W626738004",
+  "https://openalex.org/W569985532",
+  "https://openalex.org/W2503678074",
+  "https://openalex.org/W2135802069",
+  "https://openalex.org/W2109039011",
+  "https://openalex.org/W2083170317",
+  "https://openalex.org/W2077203357",
+  "https://openalex.org/W2073764497",
+  "https://openalex.org/W2048421180",
+  "https://openalex.org/W2040245274",
+  "https://openalex.org/W2024762626",
+  "https://openalex.org/W1970064559",
+  "https://openalex.org/W1965873397",
+  "https://openalex.org/W1629504995"
+ ],
+ "abstract_inverted_index": {
+  "A": [
+   0
+  ],
+  "viscosity": [
+   1,
+   7,
+   84,
+   189,
+   197
+  ],
+  "model": [
+   2,
+   153,
+   160
+  ],
+  "for": [
+   3,
+   24,
+   56,
+   120,
+   140,
+   195
+  ],
+  "predicting": [
+   4
+  ],
+  "the": [
+   5,
+   82,
+   97,
+   112,
+   132,
+   179,
+   184,
+   188,
+   196
+  ],
+  "complete": [
+   6
+  ],
+  "curve": [
+   8
+  ],
+  "of": [
+   9,
+   32,
+   182
+  ],
+  "glass": [
+   10,
+   100,
+   116,
+   133,
+   180
+  ],
+  "was": [
+   11,
+   163
+  ],
+  "developed": [
+   12,
+   154
+  ],
+  "using": [
+   13
+  ],
+  "a": [
+   14,
+   75,
+   79
+  ],
+  "global": [
+   15,
+   152
+  ],
+  "statistical": [
+   16
+  ],
+  "approach": [
+   17
+  ],
+  "and": [
+   18,
+   38,
+   47,
+   66,
+   99,
+   111,
+   187
+  ],
+  "more": [
+   19
+  ],
+  "than": [
+   20
+  ],
+  "2200": [
+   21
+  ],
+  "composition-viscosity": [
+   22
+  ],
+  "data": [
+   23,
+   104,
+   138
+  ],
+  "silicate": [
+   25
+  ],
+  "glasses": [
+   26,
+   55,
+   142
+  ],
+  "collected": [
+   27
+  ],
+  "from": [
+   28,
+   78,
+   200
+  ],
+  "over": [
+   29
+  ],
+  "50": [
+   30
+  ],
+  "years": [
+   31
+  ],
+  "scientific": [
+   33
+  ],
+  "literature,": [
+   34
+  ],
+  "including": [
+   35
+  ],
+  "soda-lime-silica": [
+   36
+  ],
+  "container": [
+   37
+  ],
+  "float": [
+   39
+  ],
+  "glasses,": [
+   40,
+   43,
+   50,
+   54,
+   62
+  ],
+  "TV": [
+   41
+  ],
+  "panel": [
+   42
+  ],
+  "borosilicate": [
+   44,
+   53,
+   141
+  ],
+  "fibre": [
+   45
+  ],
+  "wool": [
+   46
+  ],
+  "E": [
+   48
+  ],
+  "type": [
+   49
+  ],
+  "low": [
+   51
+  ],
+  "expansion": [
+   52
+  ],
+  "nuclear": [
+   57
+  ],
+  "waste": [
+   58
+  ],
+  "vitrification,": [
+   59
+  ],
+  "lead": [
+   60
+  ],
+  "crystal": [
+   61
+  ],
+  "binary": [
+   63,
+   205
+  ],
+  "alkali": [
+   64,
+   193
+  ],
+  "silicates,": [
+   65
+  ],
+  "various": [
+   67
+  ],
+  "other": [
+   68
+  ],
+  "compositions.": [
+   69
+  ],
+  "It": [
+   70
+  ],
+  "is": [
+   71,
+   198
+  ],
+  "shown": [
+   72
+  ],
+  "that,": [
+   73
+  ],
+  "within": [
+   74
+  ],
+  "measurement": [
+   76,
+   98
+  ],
+  "series": [
+   77
+  ],
+  "specific": [
+   80
+  ],
+  "laboratory,": [
+   81
+  ],
+  "reported": [
+   83,
+   139
+  ],
+  "values": [
+   85
+  ],
+  "are": [
+   86,
+   143
+  ],
+  "commonly": [
+   87
+  ],
+  "overestimated": [
+   88
+  ],
+  "at": [
+   89
+  ],
+  "higher": [
+   90
+  ],
+  "temperatures": [
+   91
+  ],
+  "due": [
+   92,
+   146
+  ],
+  "to": [
+   93,
+   147
+  ],
+  "evaporation": [
+   94
+  ],
+  "losses": [
+   95
+  ],
+  "during": [
+   96
+  ],
+  "preparation;": [
+   101
+  ],
+  "this": [
+   102
+  ],
+  "includes": [
+   103
+  ],
+  "presented": [
+   105
+  ],
+  "by": [
+   106,
+   123,
+   125
+  ],
+  "Lakatos": [
+   107
+  ],
+  "et": [
+   108,
+   127
+  ],
+  "al": [
+   109,
+   128
+  ],
+  "(1972)": [
+   110
+  ],
+  "recent": [
+   113
+  ],
+  "'High": [
+   114
+  ],
+  "temperature": [
+   115
+  ],
+  "melt": [
+   117
+  ],
+  "property": [
+   118
+  ],
+  "database": [
+   119
+  ],
+  "process": [
+   121
+  ],
+  "modelling'": [
+   122
+  ],
+  "published": [
+   124
+  ],
+  "Seward": [
+   126
+  ],
+  "(2005).": [
+   129
+  ],
+  "Similarly,": [
+   130
+  ],
+  "in": [
+   131,
+   173,
+   204
+  ],
+  "transition": [
+   134
+  ],
+  "range": [
+   135
+  ],
+  "many": [
+   136
+  ],
+  "experimental": [
+   137
+  ],
+  "too": [
+   144
+  ],
+  "high": [
+   145
+  ],
+  "phase": [
+   148
+  ],
+  "separation": [
+   149
+  ],
+  "effects.": [
+   150
+  ],
+  "The": [
+   151,
+   159,
+   169,
+   191
+  ],
+  "here": [
+   155
+  ],
+  "corrects": [
+   156
+  ],
+  "those": [
+   157
+  ],
+  "errors.": [
+   158
+  ],
+  "standard": [
+   161
+  ],
+  "error": [
+   162
+  ],
+  "9-17\u00b0C,": [
+   164
+  ],
+  "with": [
+   165
+  ],
+  "R": [
+   166
+  ],
+  "2": [
+   167
+  ],
+  "=0.985-0.989.": [
+   168
+  ],
+  "prediction": [
+   170
+  ],
+  "confidence": [
+   171
+  ],
+  "interval": [
+   172
+  ],
+  "mass": [
+   174
+  ],
+  "production": [
+   175
+  ],
+  "largely": [
+   176
+  ],
+  "depends": [
+   177
+  ],
+  "on": [
+   178
+  ],
+  "composition": [
+   181,
+   185
+  ],
+  "interest,": [
+   183
+  ],
+  "uncertainty,": [
+   186
+  ],
+  "level.": [
+   190
+  ],
+  "mixed": [
+   192
+  ],
+  "effect": [
+   194
+  ],
+  "derived": [
+   199
+  ],
+  "nonlinear": [
+   201
+  ],
+  "alkali-silica": [
+   202
+  ],
+  "interactions": [
+   203
+  ],
+  "systems.": [
+   206
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 18
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 15
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 5
+  }
+ ],
+ "updated_date": "2025-10-10T17:16:08.811792",
+ "created_date": "2025-10-10T00:00:00"
+}

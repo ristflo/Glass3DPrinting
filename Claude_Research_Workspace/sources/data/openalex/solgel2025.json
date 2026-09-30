@@ -1,0 +1,1009 @@
+{
+ "id": "https://openalex.org/W4406591851",
+ "doi": "https://doi.org/10.1007/s10971-025-06664-1",
+ "title": "Sol-gel technologies for additive manufacturing glass materials",
+ "display_name": "Sol-gel technologies for additive manufacturing glass materials",
+ "publication_year": 2025,
+ "publication_date": "2025-01-19",
+ "ids": {
+  "openalex": "https://openalex.org/W4406591851",
+  "doi": "https://doi.org/10.1007/s10971-025-06664-1"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s10971-025-06664-1",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s10971-025-06664-1",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+  "source": {
+   "id": "https://openalex.org/S146449914",
+   "display_name": "Journal of Sol-Gel Science and Technology",
+   "issn_l": "0928-0707",
+   "issn": [
+    "0928-0707",
+    "1573-4846"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Sol-Gel Science and Technology",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5113231888",
+    "display_name": "Mamta Murthi",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114493937",
+     "display_name": "Creighton University",
+     "ror": "https://ror.org/05wf30g94",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114493937"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Monisha Murthi",
+   "raw_affiliation_strings": [
+    "Department of Chemistry and Biochemistry, Creighton University, Omaha, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Chemistry and Biochemistry, Creighton University, Omaha, USA",
+     "institution_ids": [
+      "https://openalex.org/I114493937"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5078861688",
+    "display_name": "Joel F. Destino",
+    "orcid": "https://orcid.org/0000-0001-8100-027X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8100-027X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114493937",
+     "display_name": "Creighton University",
+     "ror": "https://ror.org/05wf30g94",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114493937"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Joel F. Destino",
+   "raw_affiliation_strings": [
+    "Department of Chemistry and Biochemistry, Creighton University, Omaha, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Chemistry and Biochemistry, Creighton University, Omaha, USA",
+     "institution_ids": [
+      "https://openalex.org/I114493937"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5078861688"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I114493937"
+ ],
+ "apc_list": {
+  "value": 3990,
+  "currency": "USD",
+  "value_usd": 3990
+ },
+ "apc_paid": {
+  "value": 3990,
+  "currency": "USD",
+  "value_usd": 3990
+ },
+ "fwci": 4.4132,
+ "has_fulltext": true,
+ "cited_by_count": 15,
+ "citation_normalized_percentile": {
+  "value": 0.95672452,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "116",
+  "issue": "3",
+  "first_page": "2257",
+  "last_page": "2271"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12195",
+  "display_name": "Aerogels and thermal insulation",
+  "score": 0.9980000257492065,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1607",
+   "display_name": "Spectroscopy"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/16",
+   "display_name": "Chemistry"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12195",
+   "display_name": "Aerogels and thermal insulation",
+   "score": 0.9980000257492065,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1607",
+    "display_name": "Spectroscopy"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12420",
+   "display_name": "Silicone and Siloxane Chemistry",
+   "score": 0.9947999715805054,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13217",
+   "display_name": "Pigment Synthesis and Properties",
+   "score": 0.9941999912261963,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1604",
+    "display_name": "Inorganic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.5536679029464722
+  },
+  {
+   "id": "https://openalex.org/keywords/sol-gel",
+   "display_name": "Sol-gel",
+   "score": 0.4599572420120239
+  },
+  {
+   "id": "https://openalex.org/keywords/process-engineering",
+   "display_name": "Process engineering",
+   "score": 0.37230172753334045
+  },
+  {
+   "id": "https://openalex.org/keywords/nanotechnology",
+   "display_name": "Nanotechnology",
+   "score": 0.25996047258377075
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.1438712775707245
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5536679029464722
+  },
+  {
+   "id": "https://openalex.org/C38398224",
+   "wikidata": "https://www.wikidata.org/wiki/Q48350",
+   "display_name": "Sol-gel",
+   "level": 2,
+   "score": 0.4599572420120239
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.37230172753334045
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.25996047258377075
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.1438712775707245
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/s10971-025-06664-1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s10971-025-06664-1",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+   "source": {
+    "id": "https://openalex.org/S146449914",
+    "display_name": "Journal of Sol-Gel Science and Technology",
+    "issn_l": "0928-0707",
+    "issn": [
+     "0928-0707",
+     "1573-4846"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Sol-Gel Science and Technology",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1007/s10971-025-06664-1",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s10971-025-06664-1",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+  "source": {
+   "id": "https://openalex.org/S146449914",
+   "display_name": "Journal of Sol-Gel Science and Technology",
+   "issn_l": "0928-0707",
+   "issn": [
+    "0928-0707",
+    "1573-4846"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Sol-Gel Science and Technology",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G1158887881",
+   "display_name": "CAREER: Investigation of Sol-gel-derived Hybrid Colloids for New Silica-Germania Glasses",
+   "funder_award_id": "2144453",
+   "funder_id": "https://openalex.org/F4320306076",
+   "funder_display_name": "National Science Foundation"
+  },
+  {
+   "id": "https://openalex.org/G1664587136",
+   "display_name": null,
+   "funder_award_id": "2144453",
+   "funder_id": "https://openalex.org/F4320337367",
+   "funder_display_name": "Division of Materials Research"
+  },
+  {
+   "id": "https://openalex.org/G8297993228",
+   "display_name": null,
+   "funder_award_id": "DMR-2144453",
+   "funder_id": "https://openalex.org/F4320332172",
+   "funder_display_name": "Directorate for Mathematical and Physical Sciences"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306076",
+   "display_name": "National Science Foundation",
+   "ror": "https://ror.org/021nxhr62"
+  },
+  {
+   "id": "https://openalex.org/F4320306487",
+   "display_name": "Research Corporation for Science Advancement",
+   "ror": "https://ror.org/00jp8d455"
+  },
+  {
+   "id": "https://openalex.org/F4320332172",
+   "display_name": "Directorate for Mathematical and Physical Sciences",
+   "ror": "https://ror.org/029b7h395"
+  },
+  {
+   "id": "https://openalex.org/F4320337367",
+   "display_name": "Division of Materials Research",
+   "ror": "https://ror.org/01pc7k308"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4406591851.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4406591851.grobid-xml"
+ },
+ "referenced_works_count": 121,
+ "referenced_works": [
+  "https://openalex.org/W94895471",
+  "https://openalex.org/W586102426",
+  "https://openalex.org/W597914982",
+  "https://openalex.org/W1516428338",
+  "https://openalex.org/W1966488528",
+  "https://openalex.org/W1966624513",
+  "https://openalex.org/W1972905563",
+  "https://openalex.org/W1975104836",
+  "https://openalex.org/W1976429594",
+  "https://openalex.org/W1978491102",
+  "https://openalex.org/W1991473433",
+  "https://openalex.org/W1992747950",
+  "https://openalex.org/W1994939627",
+  "https://openalex.org/W1998626321",
+  "https://openalex.org/W2001636644",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2004107888",
+  "https://openalex.org/W2007762157",
+  "https://openalex.org/W2027312062",
+  "https://openalex.org/W2051194659",
+  "https://openalex.org/W2052035093",
+  "https://openalex.org/W2053456047",
+  "https://openalex.org/W2059554039",
+  "https://openalex.org/W2062107444",
+  "https://openalex.org/W2062321210",
+  "https://openalex.org/W2062764176",
+  "https://openalex.org/W2064404788",
+  "https://openalex.org/W2073489944",
+  "https://openalex.org/W2074965162",
+  "https://openalex.org/W2075367033",
+  "https://openalex.org/W2081866631",
+  "https://openalex.org/W2088713963",
+  "https://openalex.org/W2089124524",
+  "https://openalex.org/W2098459033",
+  "https://openalex.org/W2100877564",
+  "https://openalex.org/W2109940957",
+  "https://openalex.org/W2115530408",
+  "https://openalex.org/W2127089336",
+  "https://openalex.org/W2132046880",
+  "https://openalex.org/W2137323283",
+  "https://openalex.org/W2144522679",
+  "https://openalex.org/W2149709030",
+  "https://openalex.org/W2163302951",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2218635931",
+  "https://openalex.org/W2254697873",
+  "https://openalex.org/W2312860284",
+  "https://openalex.org/W2328302599",
+  "https://openalex.org/W2516609227",
+  "https://openalex.org/W2526754434",
+  "https://openalex.org/W2571107022",
+  "https://openalex.org/W2588859054",
+  "https://openalex.org/W2593640437",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2733290055",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2883016740",
+  "https://openalex.org/W2892199143",
+  "https://openalex.org/W2898266815",
+  "https://openalex.org/W2900589997",
+  "https://openalex.org/W2924147730",
+  "https://openalex.org/W2934333663",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W2999729355",
+  "https://openalex.org/W3005966388",
+  "https://openalex.org/W3006142893",
+  "https://openalex.org/W3014760616",
+  "https://openalex.org/W3021401240",
+  "https://openalex.org/W3033785573",
+  "https://openalex.org/W3041745003",
+  "https://openalex.org/W3045141074",
+  "https://openalex.org/W3047352725",
+  "https://openalex.org/W3048348312",
+  "https://openalex.org/W3049618663",
+  "https://openalex.org/W3056414199",
+  "https://openalex.org/W3084505240",
+  "https://openalex.org/W3086650281",
+  "https://openalex.org/W3090120030",
+  "https://openalex.org/W3097290570",
+  "https://openalex.org/W3101034084",
+  "https://openalex.org/W3124158113",
+  "https://openalex.org/W3131455902",
+  "https://openalex.org/W3133601510",
+  "https://openalex.org/W3136045045",
+  "https://openalex.org/W3201037081",
+  "https://openalex.org/W3202058913",
+  "https://openalex.org/W3205890228",
+  "https://openalex.org/W3206670844",
+  "https://openalex.org/W3207496435",
+  "https://openalex.org/W3211725161",
+  "https://openalex.org/W3214198710",
+  "https://openalex.org/W3215484177",
+  "https://openalex.org/W4200470043",
+  "https://openalex.org/W4214478914",
+  "https://openalex.org/W4214828589",
+  "https://openalex.org/W4224436694",
+  "https://openalex.org/W4229443635",
+  "https://openalex.org/W4281668901",
+  "https://openalex.org/W4302009084",
+  "https://openalex.org/W4320487118",
+  "https://openalex.org/W4361199525",
+  "https://openalex.org/W4367312071",
+  "https://openalex.org/W4377232738",
+  "https://openalex.org/W4378976128",
+  "https://openalex.org/W4385759414",
+  "https://openalex.org/W4387102870",
+  "https://openalex.org/W4387353076",
+  "https://openalex.org/W4387866162",
+  "https://openalex.org/W4390818240",
+  "https://openalex.org/W4391213021",
+  "https://openalex.org/W4396724738",
+  "https://openalex.org/W4398203441",
+  "https://openalex.org/W4399128695",
+  "https://openalex.org/W4399383149",
+  "https://openalex.org/W4399514560",
+  "https://openalex.org/W4399764108",
+  "https://openalex.org/W4400307817",
+  "https://openalex.org/W4401367454",
+  "https://openalex.org/W4403027375"
+ ],
+ "related_works": [
+  "https://openalex.org/W2899084033",
+  "https://openalex.org/W4404995717",
+  "https://openalex.org/W2016187641",
+  "https://openalex.org/W4404725684",
+  "https://openalex.org/W4246450666",
+  "https://openalex.org/W4388998267",
+  "https://openalex.org/W2898370298",
+  "https://openalex.org/W2137437058",
+  "https://openalex.org/W4405893659",
+  "https://openalex.org/W4404784341"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0,
+   165
+  ],
+  "The": [
+   1
+  ],
+  "sol-gel": [
+   2,
+   20,
+   49,
+   127
+  ],
+  "method": [
+   3,
+   50
+  ],
+  "has": [
+   4,
+   51
+  ],
+  "shown": [
+   5
+  ],
+  "immense": [
+   6
+  ],
+  "potential": [
+   7
+  ],
+  "in": [
+   8,
+   125,
+   146
+  ],
+  "materials": [
+   9
+  ],
+  "science": [
+   10
+  ],
+  "and": [
+   11,
+   28,
+   97,
+   121,
+   129,
+   149,
+   155,
+   160
+  ],
+  "nanotechnology.": [
+   12
+  ],
+  "One": [
+   13
+  ],
+  "of": [
+   14,
+   18,
+   25,
+   88,
+   152,
+   158
+  ],
+  "the": [
+   15,
+   19,
+   23,
+   48,
+   111,
+   115,
+   142,
+   153
+  ],
+  "cornerstone": [
+   16
+  ],
+  "applications": [
+   17
+  ],
+  "technique": [
+   21
+  ],
+  "includes": [
+   22
+  ],
+  "fabrication": [
+   24,
+   46
+  ],
+  "inorganic": [
+   26,
+   136
+  ],
+  "glasses": [
+   27,
+   74,
+   137
+  ],
+  "glass-ceramics": [
+   29
+  ],
+  "at": [
+   30
+  ],
+  "relatively": [
+   31
+  ],
+  "low": [
+   32
+  ],
+  "temperatures": [
+   33
+  ],
+  "as": [
+   34,
+   60
+  ],
+  "an": [
+   35
+  ],
+  "alternative": [
+   36
+  ],
+  "to": [
+   37,
+   53,
+   59,
+   71,
+   84,
+   91,
+   105
+  ],
+  "conventional": [
+   38
+  ],
+  "high-temperature": [
+   39
+  ],
+  "melt-quench": [
+   40
+  ],
+  "techniques.": [
+   41
+  ],
+  "In": [
+   42,
+   118
+  ],
+  "recent": [
+   43,
+   123
+  ],
+  "times,": [
+   44
+  ],
+  "glass": [
+   45,
+   65,
+   93,
+   108
+  ],
+  "with": [
+   47,
+   95
+  ],
+  "extended": [
+   52
+  ],
+  "additive": [
+   54,
+   130
+  ],
+  "manufacturing": [
+   55,
+   131
+  ],
+  "(AM),": [
+   56
+  ],
+  "also": [
+   57
+  ],
+  "referred": [
+   58
+  ],
+  "3D": [
+   61
+  ],
+  "printing.": [
+   62
+  ],
+  "Current": [
+   63
+  ],
+  "sol-gel,": [
+   64
+  ],
+  "AM": [
+   66,
+   100
+  ],
+  "uses": [
+   67
+  ],
+  "solution-based": [
+   68
+  ],
+  "gel": [
+   69
+  ],
+  "compositions": [
+   70
+  ],
+  "produce": [
+   72
+  ],
+  "three-dimensional": [
+   73
+  ],
+  "through": [
+   75
+  ],
+  "layer-by-layer": [
+   76
+  ],
+  "deposition": [
+   77
+  ],
+  "and/or": [
+   78
+  ],
+  "using": [
+   79
+  ],
+  "photocurable": [
+   80
+  ],
+  "polymer": [
+   81
+  ],
+  "resins.": [
+   82
+  ],
+  "Owing": [
+   83
+  ],
+  "its": [
+   85
+  ],
+  "significant": [
+   86
+  ],
+  "advantages": [
+   87
+  ],
+  "being": [
+   89
+  ],
+  "able": [
+   90
+  ],
+  "fabricate": [
+   92,
+   106
+  ],
+  "components": [
+   94
+  ],
+  "arbitrary": [
+   96
+  ],
+  "complex": [
+   98
+  ],
+  "geometry,": [
+   99
+  ],
+  "presents": [
+   101
+  ],
+  "a": [
+   102,
+   150
+  ],
+  "tantalizing": [
+   103
+  ],
+  "opportunity": [
+   104
+  ],
+  "functionalized": [
+   107
+  ],
+  "materials,": [
+   109
+  ],
+  "increasing": [
+   110
+  ],
+  "technique\u2019s": [
+   112
+  ],
+  "popularity": [
+   113
+  ],
+  "over": [
+   114
+  ],
+  "past": [
+   116
+  ],
+  "decade.": [
+   117
+  ],
+  "this": [
+   119
+  ],
+  "review": [
+   120
+  ],
+  "perspective,": [
+   122
+  ],
+  "progress": [
+   124
+  ],
+  "combining": [
+   126
+  ],
+  "synthesis": [
+   128
+  ],
+  "technologies": [
+   132
+  ],
+  "used": [
+   133
+  ],
+  "for": [
+   134
+  ],
+  "obtaining": [
+   135
+  ],
+  "are": [
+   138
+  ],
+  "discussed,": [
+   139
+  ],
+  "specifically": [
+   140
+  ],
+  "highlighting": [
+   141
+  ],
+  "research": [
+   143
+  ],
+  "carried": [
+   144
+  ],
+  "out": [
+   145
+  ],
+  "North": [
+   147
+  ],
+  "America,": [
+   148
+  ],
+  "prospectus": [
+   151
+  ],
+  "field": [
+   154
+  ],
+  "emerging": [
+   156
+  ],
+  "areas": [
+   157
+  ],
+  "interest": [
+   159
+  ],
+  "need": [
+   161
+  ],
+  "is": [
+   162
+  ],
+  "presented.": [
+   163
+  ],
+  "Graphical": [
+   164
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 8
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

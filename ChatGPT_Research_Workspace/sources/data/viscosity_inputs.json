@@ -1,0 +1,55 @@
+[
+  {
+    "id": "ar_glas",
+    "label": "Soda-lime: SCHOTT AR-GLAS",
+    "source": "phys_ar",
+    "model": "VFT",
+    "T_C": [
+      530,
+      720,
+      1040
+    ],
+    "log10_dPas": [
+      13,
+      7.6,
+      4
+    ],
+    "source_page": 11
+  },
+  {
+    "id": "borofloat33",
+    "label": "Borosilicate: BOROFLOAT 33",
+    "source": "phys_boro",
+    "model": "VFT",
+    "T_C": [
+      518,
+      560,
+      820,
+      1270
+    ],
+    "log10_dPas": [
+      14.5,
+      13,
+      7.6,
+      4
+    ],
+    "source_page": 1
+  },
+  {
+    "id": "hpfs7980",
+    "label": "Fused silica: Corning HPFS 7980",
+    "source": "phys_silica",
+    "model": "Arrhenius limit of VFT",
+    "T_C": [
+      893,
+      1042,
+      1585
+    ],
+    "log10_dPas": [
+      14.5,
+      13,
+      7.6
+    ],
+    "source_page": 3
+  }
+]

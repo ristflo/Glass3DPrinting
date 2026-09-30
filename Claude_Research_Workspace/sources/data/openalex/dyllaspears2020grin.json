@@ -1,0 +1,1284 @@
+{
+ "id": "https://openalex.org/W3101034084",
+ "doi": "https://doi.org/10.1126/sciadv.abc7429",
+ "title": "3D printed gradient index glass optics",
+ "display_name": "3D printed gradient index glass optics",
+ "publication_year": 2020,
+ "publication_date": "2020-11-19",
+ "ids": {
+  "openalex": "https://openalex.org/W3101034084",
+  "doi": "https://doi.org/10.1126/sciadv.abc7429",
+  "mag": "3101034084",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/33208366"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1126/sciadv.abc7429",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1126/sciadv.abc7429",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2737427234",
+   "display_name": "Science Advances",
+   "issn_l": "2375-2548",
+   "issn": [
+    "2375-2548"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "doyens",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310315823",
+   "host_organization_name": "American Association for the Advancement of Science",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315823"
+   ],
+   "host_organization_lineage_names": [
+    "American Association for the Advancement of Science"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Science Advances",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.1126/sciadv.abc7429",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5076208479",
+    "display_name": "Rebecca J. Dylla-Spears",
+    "orcid": "https://orcid.org/0000-0003-1602-4448",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1602-4448"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Rebecca Dylla-Spears",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-1602-4448",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5050265592",
+    "display_name": "Timothy D. Yee",
+    "orcid": "https://orcid.org/0000-0002-6857-0072",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6857-0072"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Timothy D. Yee",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6857-0072",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5038790350",
+    "display_name": "Koroush Sasan",
+    "orcid": "https://orcid.org/0000-0002-5577-8894",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-5577-8894"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Koroush Sasan",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-5577-8894",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5073617416",
+    "display_name": "Du Thai Nguyen",
+    "orcid": "https://orcid.org/0000-0001-5509-3345",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5509-3345"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Du T. Nguyen",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5509-3345",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5054030522",
+    "display_name": "Nikola A. Dudukovic",
+    "orcid": "https://orcid.org/0000-0002-0852-7080",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0852-7080"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Nikola A. Dudukovic",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-0852-7080",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5014766196",
+    "display_name": "Jason M. Ortega",
+    "orcid": "https://orcid.org/0000-0002-6924-6290",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6924-6290"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jason M. Ortega",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6924-6290",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5052303293",
+    "display_name": "Michael Austin Johnson",
+    "orcid": "https://orcid.org/0000-0001-5907-2410",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5907-2410"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Michael A. Johnson",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5907-2410",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5021211153",
+    "display_name": "Oscar D. Herrera",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Oscar D. Herrera",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5089482351",
+    "display_name": "Frederick J. Ryerson",
+    "orcid": "https://orcid.org/0000-0002-6235-4408",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6235-4408"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Frederick J. Ryerson",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-6235-4408",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5091481894",
+    "display_name": "Lana L. Wong",
+    "orcid": "https://orcid.org/0000-0002-9891-3291",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9891-3291"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1282311441",
+     "display_name": "Lawrence Livermore National Laboratory",
+     "ror": "https://ror.org/041nk4h53",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1282311441",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I198811213",
+      "https://openalex.org/I4210138311"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lana L. Wong",
+   "raw_affiliation_strings": [
+    "Lawrence Livermore National Laboratory, Livermore, CA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9891-3291",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore, CA, USA",
+     "institution_ids": [
+      "https://openalex.org/I1282311441"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5076208479"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I1282311441"
+ ],
+ "apc_list": {
+  "value": 4500,
+  "currency": "USD",
+  "value_usd": 4500
+ },
+ "apc_paid": {
+  "value": 4500,
+  "currency": "USD",
+  "value_usd": 4500
+ },
+ "fwci": 5.3917,
+ "has_fulltext": false,
+ "cited_by_count": 154,
+ "citation_normalized_percentile": {
+  "value": 0.97090802,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "6",
+  "issue": "47",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11517",
+  "display_name": "Advanced optical system design",
+  "score": 0.996399998664856,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2204",
+   "display_name": "Biomedical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11517",
+   "display_name": "Advanced optical system design",
+   "score": 0.996399998664856,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11723",
+   "display_name": "Optical Coatings and Gratings",
+   "score": 0.9947999715805054,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2508",
+    "display_name": "Surfaces, Coatings and Films"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10666",
+   "display_name": "Photonic Crystals and Applications",
+   "score": 0.9922000169754028,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3107",
+    "display_name": "Atomic and Molecular Physics, and Optics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/index",
+   "display_name": "Index (typography)",
+   "score": 0.5962488055229187
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printed",
+   "display_name": "3d printed",
+   "score": 0.5049219727516174
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.46497607231140137
+  },
+  {
+   "id": "https://openalex.org/keywords/refractive-index",
+   "display_name": "Refractive index",
+   "score": 0.4178135395050049
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.3831042945384979
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.3718019723892212
+  },
+  {
+   "id": "https://openalex.org/keywords/biomedical-engineering",
+   "display_name": "Biomedical engineering",
+   "score": 0.22747454047203064
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.2097303569316864
+  },
+  {
+   "id": "https://openalex.org/keywords/medicine",
+   "display_name": "Medicine",
+   "score": 0.1918032467365265
+  },
+  {
+   "id": "https://openalex.org/keywords/world-wide-web",
+   "display_name": "World Wide Web",
+   "score": 0.07844927906990051
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2777382242",
+   "wikidata": "https://www.wikidata.org/wiki/Q6017816",
+   "display_name": "Index (typography)",
+   "level": 2,
+   "score": 0.5962488055229187
+  },
+  {
+   "id": "https://openalex.org/C3019308078",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3d printed",
+   "level": 2,
+   "score": 0.5049219727516174
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.46497607231140137
+  },
+  {
+   "id": "https://openalex.org/C42067758",
+   "wikidata": "https://www.wikidata.org/wiki/Q174102",
+   "display_name": "Refractive index",
+   "level": 2,
+   "score": 0.4178135395050049
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.3831042945384979
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.3718019723892212
+  },
+  {
+   "id": "https://openalex.org/C136229726",
+   "wikidata": "https://www.wikidata.org/wiki/Q327092",
+   "display_name": "Biomedical engineering",
+   "level": 1,
+   "score": 0.22747454047203064
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.2097303569316864
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.1918032467365265
+  },
+  {
+   "id": "https://openalex.org/C136764020",
+   "wikidata": "https://www.wikidata.org/wiki/Q466",
+   "display_name": "World Wide Web",
+   "level": 1,
+   "score": 0.07844927906990051
+  }
+ ],
+ "mesh": [],
+ "locations_count": 5,
+ "locations": [
+  {
+   "id": "doi:10.1126/sciadv.abc7429",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1126/sciadv.abc7429",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2737427234",
+    "display_name": "Science Advances",
+    "issn_l": "2375-2548",
+    "issn": [
+     "2375-2548"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "doyens",
+     "jufo-3",
+     "ki-jl-3",
+     "medline",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310315823",
+    "host_organization_name": "American Association for the Advancement of Science",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315823"
+    ],
+    "host_organization_lineage_names": [
+     "American Association for the Advancement of Science"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Science Advances",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:33208366",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33208366",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Science advances",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:7673801",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7673801",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Sci Adv",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:osti.gov:1720177",
+   "is_oa": false,
+   "landing_page_url": "https://www.osti.gov/biblio/1720177",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402487",
+    "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I139351228",
+    "host_organization_name": "Office of Scientific and Technical Information",
+    "host_organization_lineage": [
+     "https://openalex.org/I139351228"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": null
+  },
+  {
+   "id": "pmh:oai:osti.gov:1736334",
+   "is_oa": false,
+   "landing_page_url": "https://www.osti.gov/biblio/1736334",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402487",
+    "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I139351228",
+    "host_organization_name": "Office of Scientific and Technical Information",
+    "host_organization_lineage": [
+     "https://openalex.org/I139351228"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": null
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1126/sciadv.abc7429",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1126/sciadv.abc7429",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2737427234",
+   "display_name": "Science Advances",
+   "issn_l": "2375-2548",
+   "issn": [
+    "2375-2548"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "doyens",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310315823",
+   "host_organization_name": "American Association for the Advancement of Science",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310315823"
+   ],
+   "host_organization_lineage_names": [
+    "American Association for the Advancement of Science"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Science Advances",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G14554683",
+   "display_name": null,
+   "funder_award_id": "DEAC5207NA27344",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306084",
+   "display_name": "U.S. Department of Energy",
+   "ror": "https://ror.org/01bj3aw27"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 35,
+ "referenced_works": [
+  "https://openalex.org/W1930265297",
+  "https://openalex.org/W1982453258",
+  "https://openalex.org/W1999144447",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2013636021",
+  "https://openalex.org/W2024676441",
+  "https://openalex.org/W2034922620",
+  "https://openalex.org/W2052535456",
+  "https://openalex.org/W2054280548",
+  "https://openalex.org/W2060506966",
+  "https://openalex.org/W2066117687",
+  "https://openalex.org/W2075194901",
+  "https://openalex.org/W2076063460",
+  "https://openalex.org/W2076515823",
+  "https://openalex.org/W2083126162",
+  "https://openalex.org/W2087788098",
+  "https://openalex.org/W2089673743",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2176655155",
+  "https://openalex.org/W2319334792",
+  "https://openalex.org/W2552717612",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2744621523",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2883016740",
+  "https://openalex.org/W2888658792",
+  "https://openalex.org/W2939121473",
+  "https://openalex.org/W2939302009",
+  "https://openalex.org/W2944956737",
+  "https://openalex.org/W2983716217",
+  "https://openalex.org/W2983785405",
+  "https://openalex.org/W2999729355"
+ ],
+ "related_works": [
+  "https://openalex.org/W2899084033",
+  "https://openalex.org/W2016187641",
+  "https://openalex.org/W2805339068",
+  "https://openalex.org/W4246450666",
+  "https://openalex.org/W4388998267",
+  "https://openalex.org/W2898370298",
+  "https://openalex.org/W2137437058",
+  "https://openalex.org/W4390401159",
+  "https://openalex.org/W2744391499",
+  "https://openalex.org/W2800070131"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   66
+  ],
+  "demonstrate": [
+   1
+  ],
+  "an": [
+   2,
+   18
+  ],
+  "additive": [
+   3
+  ],
+  "manufacturing": [
+   4
+  ],
+  "approach": [
+   5,
+   70
+  ],
+  "to": [
+   6,
+   74
+  ],
+  "produce": [
+   7
+  ],
+  "gradient": [
+   8
+  ],
+  "refractive": [
+   9,
+   64
+  ],
+  "index": [
+   10
+  ],
+  "glass": [
+   11,
+   52,
+   87
+  ],
+  "optics.": [
+   12
+  ],
+  "Using": [
+   13
+  ],
+  "direct": [
+   14
+  ],
+  "ink": [
+   15
+  ],
+  "writing": [
+   16
+  ],
+  "with": [
+   17,
+   28,
+   58,
+   89
+  ],
+  "active": [
+   19
+  ],
+  "inline": [
+   20
+  ],
+  "micromixer,": [
+   21
+  ],
+  "we": [
+   22
+  ],
+  "three-dimensionally": [
+   23
+  ],
+  "print": [
+   24
+  ],
+  "multimaterial": [
+   25
+  ],
+  "green": [
+   26,
+   46
+  ],
+  "bodies": [
+   27,
+   47
+  ],
+  "compositional": [
+   29
+  ],
+  "gradients,": [
+   30
+  ],
+  "consisting": [
+   31
+  ],
+  "primarily": [
+   32
+  ],
+  "of": [
+   33,
+   39,
+   62,
+   78
+  ],
+  "silica": [
+   34
+  ],
+  "nanoparticles": [
+   35
+  ],
+  "and": [
+   36,
+   53,
+   80
+  ],
+  "varying": [
+   37
+  ],
+  "concentrations": [
+   38
+  ],
+  "titania": [
+   40
+  ],
+  "as": [
+   41
+  ],
+  "the": [
+   42,
+   63
+  ],
+  "index-modifying": [
+   43
+  ],
+  "dopant.": [
+   44
+  ],
+  "The": [
+   45
+  ],
+  "are": [
+   48
+  ],
+  "then": [
+   49
+  ],
+  "consolidated": [
+   50
+  ],
+  "into": [
+   51
+  ],
+  "polished,": [
+   54
+  ],
+  "resulting": [
+   55
+  ],
+  "in": [
+   56,
+   84
+  ],
+  "optics": [
+   57
+  ],
+  "tailored": [
+   59
+  ],
+  "spatial": [
+   60
+  ],
+  "profiles": [
+   61
+  ],
+  "index.": [
+   65
+  ],
+  "show": [
+   67
+  ],
+  "that": [
+   68
+  ],
+  "this": [
+   69
+  ],
+  "can": [
+   71
+  ],
+  "be": [
+   72
+  ],
+  "used": [
+   73
+  ],
+  "achieve": [
+   75
+  ],
+  "a": [
+   76,
+   85
+  ],
+  "variety": [
+   77
+  ],
+  "conventional": [
+   79
+  ],
+  "unconventional": [
+   81
+  ],
+  "optical": [
+   82
+  ],
+  "functions": [
+   83
+  ],
+  "flat": [
+   86
+  ],
+  "component": [
+   88
+  ],
+  "no": [
+   90
+  ],
+  "surface": [
+   91
+  ],
+  "curvature.": [
+   92
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 16
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 30
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 35
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 33
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 31
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 9
+  }
+ ],
+ "updated_date": "2026-09-29T14:09:16.559479",
+ "created_date": "2025-10-10T00:00:00"
+}

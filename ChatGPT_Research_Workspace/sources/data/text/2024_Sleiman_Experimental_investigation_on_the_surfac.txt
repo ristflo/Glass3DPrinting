@@ -1,0 +1,359 @@
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia CIRP 124 (2024) 275–278
+2212-8271 © 2024 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the international review committee of the 13th CIRP Conference on Photonic Technologies [LANE 2024]
+10.1016/j.procir.2024.08.116
+Keywords: Glass based additive manufacturing; Laser material processing; Fused silica; Free-form optics; Layer-free 3D printing
+1. Introduction
+Silicate glasses play an important role in industrial use of 
+glasses due to their optical, chemical, and thermal properties 
+[1]. Fused silica in particular is distinguished by its low thermal
+expansion coefficient and high thermal shock resistance [2]. It 
+is used for a variety of optical components and optical fibers, 
+but also finds application in chemical and medical apparatus 
+engineering as well as in semiconductor technology [3]. 
+However, the processing temperatures of over 2000 °C pose 
+challenges in handling the low-viscosity fluid to form complex
+or highly individualized components. 
+Thanks to its freedom of design and process, the additive 
+manufacturing of glass enables the realization of special and 
+customized solutions with comparatively little effort compared 
+to conventional manufacturing processes. Several approaches 
+for the additive manufacturing of glass materials can be found 
+in the literature. Xin et al. gave a comprehensive overview of 
+the current state of research into additive glass processing 
+methods in [4]. These can be broadly categorized into the 
+following:
+-
+Sinter-based processes [5]
+-
+Stereolithography processes [6]
+-
+Extrusion processes [7]
+-
+Deposition welding processes [8][9]
+In the investigations presented here, laser glass deposition 
+(LGD), which is one of the deposition welding processes, is 
+used to produce test specimen to analyze the surface quality 
+13th CIRP Conference on Photonic Technologies [LANE 2024], 15-19 September 2024, Fürth, Germany
+Experimental Investigation on the Surface and Volume Homogeneity of 
+Additive Manufactured Fused Silica Components in the Laser Glass 
+Deposition Process
+Khodor Sleimana,c,*, Katharina Rettschlaga,c, Peter Jäschkea, Stefan Kaierlea,b,c
+aLaser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany
+bLeibniz Universität Hannover, Institute for Transport and Automation Technology, An der Universität 2, 30823 Garbsen, Germany
+cCluster of Excellence PhoenixD (Photonics, Optics and Engineering – Innovation Across Disciplines), Hannover, Germany
+* Corresponding author. Tel.: +49 511 2788 337; E-mail address: k.sleiman@lzh.de
+Abstract
+Laser Glass Deposition is an additive manufacturing method to produce individualized structural components out of glass. A CO2 laser is 
+utilized as a heat source to melt fused silica filaments and transform them into a formable viscous state. The fiber filament is fed laterally under 
+a defined angle into the process zone. The viscous filament is deposited layer-by-layer using a 3-axis linear system with an integrated rotational 
+axis. To investigate the surface and volume quality of the additively manufactured fused silica components, fully dense test specimens are 
+analyzed in this paper. Quality characteristics such as surface roughness, formation of boundary layers and optical transparency constitute the 
+focus of the investigations. Consequently, fully dense glass components with homogeneous volume structures without pores and boundary 
+layers and a surface roughness of less than 30 nm were printed successfully.
+© 2024 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the international review committee of the 13th CIRP Conference on Photonic Technologies [LANE 2024]
+
+
+276
+Khodor Sleiman  et al. / Procedia CIRP 124 (2024) 275–278
+and volume homogeneity. For many applications of glass 
+components, a smooth surface and a transparent volume are 
+important quality features.
+2. Methods
+The experimental setup (Fig. 1) consists of a CO2 laser 
+(Diamond J3, Coherent Inc.), a 4-axis system (Jenaer 
+Antriebstechnik GmbH), a fiber feeding unit (MiniStirrer, 
+HiTec Zang GmbH) to feed fused silica filament material 
+(Weinert Optics GmbH) and the quartz glass substrate which 
+serves as printing bed (Schröder Spezialglas GmbH). 
+The radiation of the CO2 laser (PL = 200 W) is used as a heat 
+source for melting and fusing the fused silica glass fiber 
+filament (800 µm diameter) onto the quartz glass substrate. The 
+laser beam diameter (dLaser) is defocused to form a beam 
+diameter of 7 mm. The fiber is introduced laterally into the 
+generated process zone at a rate of vFiber = 90 – 396 mm/min, 
+and an angle of 55°. The glass melt can be deposited on the 
+glass surface in any shape and contour using the 3 linear and a 
+rotational axis. A camera (IDS Imaging Edmund Optics Ltd) is 
+used for monitoring the deposition of the glass filament. The 
+fiber feeding unit, the focus lens and the camera are attached to 
+the Z-axis so that a new layer can be deposited under the same 
+process conditions.
+In the following investigations, cylindrical test specimens 
+are printed to analyze the surface and volume quality. In order 
+to print a dense glass volume, two concentric rings are printed 
+with an overlap of 20% to each other. The inner ring is printed 
+at a speed of vInside = 1 rpm and the outer ring at vOutside = 4 rpm. 
+The printing path can be seen in principle in Fig 1 and is 
+illustrated again in detail in Fig 2 (a).
+3. Results 
+3.1 Contour Study
+To analyze the surface quality and investigate the influence of 
+the test parameters, cylindrical test specimens were 
+manufactured 
+with 
+different
+fiber 
+feed 
+rates
+vFiber = (90 – 396) mm/min. Exemplary images of the test 
+specimens for the respective feed rates can be seen in Fig. 2 (b). 
+An optically visible increase in surface quality can be observed 
+in Fig. 2 (b) with a decreasing feed rate. For the highest value 
+of vFiber = 396 mm/min, a wavy surface contour can be observed
+along the complete structure. At a reduced feed rate, the 
+individual layers can be fused together better, so that the wavy 
+part of the surface shrinks. For vFiber = 180 mm/min the 
+waviness was less prominent, while for vFiber = 126 mm/min a 
+complete smooth area of 8 mm high was achieved. For vFiber =
+90 mm/min the 10 mm high specimen was printed smoothly 
+without any waviness. With the reduced feed rate, however, an 
+increase in the flank angle can also be observed, which is 
+graphical represented in Fig. 3. With the highest feed rate, a 
+good approximation to the target contour can be observed, with 
+a flank angle of 2.15°.
+With the
+lowest
+value of 
+vFiber = 90 mm/min a flank angle of 14.04° +/- 0.93° can be 
+observed. The slower feed rate reduces the mass flow rate 
+supplied, which leads to increased heat input at constant PL, 
+causing the molten glass to spread further. As the laser spot
+diameter is larger than the overlap zone, the layers slowly fall 
+into each other as the number of layers increases. At high feed 
+rates, this effect is not significant, as the high volume flow in 
+the process zone reduces the heat input, resulting in a higher 
+viscosity and a lower surface tension that influences the 
+melting dynamics.
+3.2 Surface Roughness Study
+To analyze the surface quality of the additively 
+manufactured test specimens, the surface roughness was 
+determined exclusively on the smooth areas without boundary 
+layers. It is important to note that the samples were not prepared 
+by subsequent polishing but were measured directly from the 
+printing process. The analysis was carried out using a tactile 
+profile measuring device MarSurf LD 130 from Mahr GmbH. 
+The measurements were carried out in accordance with the 
+standards DIN EN ISO 1661021 and DIN EN ISO 4287 for 
+surface roughness measurements to ensure comparability with 
+industrially manufactured glass components. The roughness 
+profile of an example measurement for vFiber = 90 mm/min can 
+be seen in Fig. 2 (c). An arithmetic roughness of 21 nm was 
+determined for a measuring distance of 1.26 mm. The 
+corresponding arithmetic roughness of the remaining test 
+specimens are shown graphically in Fig. 4. A single specimen 
+is measured at six positions to calculate an average value. This 
+is carried out on four further test specimens of the same process 
+parameters to be able to represent a standard deviation in the 
+form of the error bars in Fig 3.
+Figure 1: Schematic sketch of the experimental set up.
+
+
+Khodor Sleiman  et al. / Procedia CIRP 124 (2024) 275–278
+277
+Roughness’s
+of 20
+-
+40 nm can be observed for 
+vFiber = 90 – 126 mm/min. From vFiber = 180 mm/min, an 
+increased arithmetic roughness of 220 nm is measured, which 
+is caused by the greater unevenness (as can also be seen in 
+Fig. 2 (b). For vFiber > 180 mm/min the waviness becomes too
+significant to measure a reliable roughness value. The small 
+roughness’s in the remaining measurements are caused by the 
+complete fusion of the individual layers, whereby the surface 
+is formed due to the cohesive forces of the low-viscosity glass 
+melt. Based on the small standard deviations of the 
+measurements (+/- 5.6 nm), it can be concluded that 
+reproducible sample bodies can be produced by the process.
+3.3 Optical and Volume Quality Study
+To analyze the optical quality and volume homogeneity of 
+the
+additive manufactured
+specimens, a beam profile 
+measurement was carried out. The setup of the beam profile 
+measurement is shown in Fig. 4. A He-Ne laser (632 nm) is 
+used as the beam source, whose radiation is magnified and 
+collimated to a beam diameter of 2 mm by two focusing lenses. 
+This beam is incident vertically on the underside of the clamped 
+specimen so that the radiation is first propagated through the 
+substrate and then through the specimen and finally detected in 
+the beam camera. The beam camera consists of a CCD camera, 
+which is controlled by a Raspberry Pi 4b and outputs the 
+detected light as a false color live image. The upper side of the 
+test specimen was remelted after the printing of the last layer 
+by rotating the specimen under CO2 laser radiation to obtain a 
+homogeneous surface. The entire specimen can be seen in 
+Fig. 5 (b) and a view from above through the complete 
+specimen can be seen in Fig. 5 (c) already suggesting a bubble-
+free volume. 
+Fig. 5 (a) shows the beam profile measurement at a distance 
+of 30 mm from the focus. It can be observed that the beam 
+profile has an elliptical shape and thus deviates from the 
+circular input profile. The explanation is that due to the additive 
+manufacturing process, no rotationally symmetrical sphere has 
+formed on the surface, but the curvature is more pronounced on 
+one side than on the other. What is remarkable, however, is the 
+homogeneity of the beam profile, which shows neither bubbles 
+nor boundary layer-related distortions for an additively 
+manufactured component. This is a clear indication that the 
+printed material has no boundary layers either in the transition 
+area from the substrate to the printed material or in the internal 
+layer transitions. The results show that targeted beam shaping 
+is also possible with a suitable printing strategy for the surface 
+contour.
+Figure 4: Photography of the measurement set up for beam profile detection.
+Figure 3: Graphical representation of the flank angle and the surface roughness 
+as a function of the feed rate. The error bars represent the standard deviation of
+the measurements.
+Figure 2: a: Schematic sketch of the target contour for the test specimen. The diameter of the outer circle is set up at 10 mm from center to center of the single 
+track. The height is not set up on a specific value. b: Images of the additively manufactured test specimen. The feed rate was decreased from left to right 
+(396 to 90 mm/min). While the surface and optical quality is increasing, the contour quality is decreasing, symbolizing through the increased flank angle. c: Surface 
+roughness measurement for vFiber = 90 mm/min performed with perthometer according to DIN EN ISO 1661021 and DIN EN ISO 4287. The measured arithmetic 
+roughness is 21 nm.
+0
+50
+100
+150
+200
+250
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0
+90
+180
+270
+360
+450
+Roughness in nm
+Flank angle in degree
+Fiber feed rate in mm/min
+Flank angle
+Arithmetic roughness
+a
+b
+c
+
+
+278
+Khodor Sleiman  et al. / Procedia CIRP 124 (2024) 275–278
+The respective beam components in the x/y direction for 
+different distances from the focus are shown graphically in 
+Fig. 6. The respective beam components show a linear increase 
+with larger distance, which underlines the optical function of 
+the printed structure. It can also be observed that the distance 
+between the x and y components increases equally, 
+emphasising the spherical nature of the surface curvature.
+4. Conclusion
+Additive manufactured test specimens were produced using 
+Laser Glass Deposition and analysed to investigate the surface 
+and volume quality. The cylinder-shaped test specimens were 
+printed by depositing two concentric rings with an overlap of 
+20%. The printing parameters (PL = 200 W, vInside = 4 rpm, 
+vOutside = 1 rpm, dL = 7 mm) were kept constant except for 
+vFiber = (90 , 108, 126, 180, 396) mm/min. The resulting 
+component contour deviated more strongly from the target 
+contour as the feed rate decreased. The slower feed rate 
+increased the heat input into the process zone, which led to 
+increased flank formation on the outer contour. On the other 
+hand, the increased heat input allowed the individual layers to 
+fuse together completely, resulting in a smooth surface free of 
+waves and boundary layers. The surface roughness of the 
+smooth areas of each specimen was measured. The arithmetric
+roughness of the specimens was measured at different points 
+for several specimens along a measuring distance of 1.26 mm. 
+The lowest arithmetric
+roughness was determined for 
+vFiber = 90 mm/min at 21 nm. Furthermore, the volume 
+homogeneity and optical quality were demonstrated by a beam 
+profile measurement. The transmitted beam showed a slight 
+ellipticity, but was generally characterised by a homogeneous 
+intensity distribution, which was free of bubble or volume 
+boundary layer distortions.
+The results show the strengths and challenges of the LGD 
+method. It is possible to produce dense, smooth and boundary 
+layer-free glass components with arithmetric roughness’s in the 
+nanometer range. This opens up the possibility of extending the 
+limits of modern glass production and realising components 
+with new or integrated functions. The main challenge lies in 
+contour accuracy and contour retention to form individulized 
+optical functionalities, which will be focused on in future 
+studys.
+Acknowledgements
+This research has been funded by the Deutsche 
+Forschungsgemeinschaft 
+(DFG, 
+German 
+Research 
+Foundation) under Germany’s Excellence Strategy within the 
+Cluster of Excellence PhoenixD [EXC 2122, Project ID 
+390833453]
+References
+[1] H. Scholze, „Glass Nature, Structure and Properties“, Springer-Verlag, 
+3.Version, Berlin, 1988
+[2] F. Nürnberg, B. Kühn, K. Rollmann, "Metrology of fused silica," in SPIE 
+Laser Damage, Boulder CO, 25-28 September 2016 (SPIE Digital Library, 
+2016), https://doi.org/10.1117/12.2242487
+[3] J. Kohli, M. Hubert, R. Youngman, D. Morse, “A Corning perspective on 
+the future of technical glass in our evolving world”, Int J Appl Glass Sci. 
+2022;13:292307, https://doi.org/10.1111/ijag.16560
+[4] C. Xin, Z. Li, L. Hao, Y. Li: “A comprehensive review on additive 
+manufacturing of glass: Recent progress and future outlook.” Materials 
+Design 227:111,736, DOI https://doi.org/10.1016/j.matdes.2023.111736
+(2023)
+[5] M. Fateri, A. Gebhardt, S. Thuemmler, and L. Thurn, "Experimental 
+investigation on selective laser melting of glass," Phys. Proc. 56, 357-364 
+(2014)
+[6] F. Kotz and B. E. Rapp, "Three-dimensional printing of transparent fused 
+silica glass," Nature 544, 337-339 (2017)
+[7] J. Klein, N. Oxman, "Additive manufacturing of optically transparent 
+glass," 3D Printing and Additive Manufacturing 2(3), 92-104 (2015)
+[8] J. Luo, L. Gilbert, C. Qu, J. Wilson, D. Bristow, R. Landers, and E. Kinzel, 
+"Wire-fed additive manufacturing of transparent glass parts," in ASME 
+2015 International Manufacturing Science and Engineering Conference, 
+Charlotte, NC, June 8-12, 2015 (American Society of Mechanical 
+Engineers (ASME), New York, 2015).
+[9] K. Sleiman, K. Rettschlag, P. Jäschke, S. Kaierle, L. Overmeyer, 
+"Experimental investigation of additive manufacturing of fused silica fibers 
+for the production of structural components in the Laser Glass Deposition 
+Process," Innovative Product Development by Additive Manufacturing 
+2021, Springer Nature Switzerland AG, https://doi.org/10.1007/978-3-031-
+05918-6,2023
+Figure 5: a: Beam profile measurement through an additive manufactured test 
+glass specimen. The upper surface was remelted at the end of the printing 
+process. b: Image of the manufactured specimen. c: Top view through the 
+printed structure.
+3 mm
+12 mm
+Figure 6: Graphical representation of the x/y components of the beam 
+diameters for different distances from the focal point.
+0
+2
+4
+6
+0
+20
+40
+60
+80
+100
+Beam divergence in mm
+Distance from focal point in mm 
+Beam component in x direction
+Beam component in y direction
+a
+b
+c
+1 mm

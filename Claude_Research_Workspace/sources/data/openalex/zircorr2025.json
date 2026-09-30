@@ -1,0 +1,1138 @@
+{
+ "id": "https://openalex.org/W4407129670",
+ "doi": "https://doi.org/10.1111/ijac.15064",
+ "title": "Corrosion of zirconium\u2010based refractories in glass\u2010contact areas: Mechanisms and challenges",
+ "display_name": "Corrosion of zirconium\u2010based refractories in glass\u2010contact areas: Mechanisms and challenges",
+ "publication_year": 2025,
+ "publication_date": "2025-02-04",
+ "ids": {
+  "openalex": "https://openalex.org/W4407129670",
+  "doi": "https://doi.org/10.1111/ijac.15064"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1111/ijac.15064",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1111/ijac.15064",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijac.15064",
+  "source": {
+   "id": "https://openalex.org/S75568645",
+   "display_name": "International Journal of Applied Ceramic Technology",
+   "issn_l": "1546-542X",
+   "issn": [
+    "1546-542X",
+    "1744-7402"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "International Journal of Applied Ceramic Technology",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijac.15064",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": null,
+    "display_name": "Cristian Perez Velasquez",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130769515",
+     "display_name": "Pennsylvania State University",
+     "ror": "https://ror.org/04p491231",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Cristian Perez Velasquez",
+   "raw_affiliation_strings": [
+    "Department of Materials Science and Engineering The Pennsylvania State University  University Park Pennsylvania USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering The Pennsylvania State University  University Park Pennsylvania USA",
+     "institution_ids": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5008158668",
+    "display_name": "Maziar Montazerian",
+    "orcid": "https://orcid.org/0000-0002-1409-9182",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1409-9182"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130769515",
+     "display_name": "Pennsylvania State University",
+     "ror": "https://ror.org/04p491231",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Maziar Montazerian",
+   "raw_affiliation_strings": [
+    "Department of Materials Science and Engineering The Pennsylvania State University  University Park Pennsylvania USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-1409-9182",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering The Pennsylvania State University  University Park Pennsylvania USA",
+     "institution_ids": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5039807477",
+    "display_name": "John C. Mauro",
+    "orcid": "https://orcid.org/0000-0002-4319-3530",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4319-3530"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130769515",
+     "display_name": "Pennsylvania State University",
+     "ror": "https://ror.org/04p491231",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "John C. Mauro",
+   "raw_affiliation_strings": [
+    "Department of Materials Science and Engineering The Pennsylvania State University  University Park Pennsylvania USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-4319-3530",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering The Pennsylvania State University  University Park Pennsylvania USA",
+     "institution_ids": [
+      "https://openalex.org/I130769515"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5039807477"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I130769515"
+ ],
+ "apc_list": {
+  "value": 4270,
+  "currency": "USD",
+  "value_usd": 4270
+ },
+ "apc_paid": {
+  "value": 4270,
+  "currency": "USD",
+  "value_usd": 4270
+ },
+ "fwci": 2.6305,
+ "has_fulltext": true,
+ "cited_by_count": 9,
+ "citation_normalized_percentile": {
+  "value": 0.89252737,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 96,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "22",
+  "issue": "3",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12099",
+  "display_name": "Advanced materials and composites",
+  "score": 0.9969000220298767,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12099",
+   "display_name": "Advanced materials and composites",
+   "score": 0.9969000220298767,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12506",
+   "display_name": "Nuclear materials and radiation effects",
+   "score": 0.9959999918937683,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10132",
+   "display_name": "Advanced ceramic materials synthesis",
+   "score": 0.9929999709129333,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2503",
+    "display_name": "Ceramics and Composites"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.8912826776504517
+  },
+  {
+   "id": "https://openalex.org/keywords/zirconium",
+   "display_name": "Zirconium",
+   "score": 0.7245784401893616
+  },
+  {
+   "id": "https://openalex.org/keywords/corrosion",
+   "display_name": "Corrosion",
+   "score": 0.6822736263275146
+  },
+  {
+   "id": "https://openalex.org/keywords/metallurgy",
+   "display_name": "Metallurgy",
+   "score": 0.6167214512825012
+  },
+  {
+   "id": "https://openalex.org/keywords/zirconium-alloy",
+   "display_name": "Zirconium alloy",
+   "score": 0.43630585074424744
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.8912826776504517
+  },
+  {
+   "id": "https://openalex.org/C534791751",
+   "wikidata": "https://www.wikidata.org/wiki/Q1038",
+   "display_name": "Zirconium",
+   "level": 2,
+   "score": 0.7245784401893616
+  },
+  {
+   "id": "https://openalex.org/C20625102",
+   "wikidata": "https://www.wikidata.org/wiki/Q137056",
+   "display_name": "Corrosion",
+   "level": 2,
+   "score": 0.6822736263275146
+  },
+  {
+   "id": "https://openalex.org/C191897082",
+   "wikidata": "https://www.wikidata.org/wiki/Q11467",
+   "display_name": "Metallurgy",
+   "level": 1,
+   "score": 0.6167214512825012
+  },
+  {
+   "id": "https://openalex.org/C34425451",
+   "wikidata": "https://www.wikidata.org/wiki/Q205737",
+   "display_name": "Zirconium alloy",
+   "level": 3,
+   "score": 0.43630585074424744
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1111/ijac.15064",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1111/ijac.15064",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijac.15064",
+   "source": {
+    "id": "https://openalex.org/S75568645",
+    "display_name": "International Journal of Applied Ceramic Technology",
+    "issn_l": "1546-542X",
+    "issn": [
+     "1546-542X",
+     "1744-7402"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "International Journal of Applied Ceramic Technology",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1111/ijac.15064",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1111/ijac.15064",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijac.15064",
+  "source": {
+   "id": "https://openalex.org/S75568645",
+   "display_name": "International Journal of Applied Ceramic Technology",
+   "issn_l": "1546-542X",
+   "issn": [
+    "1546-542X",
+    "1744-7402"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc",
+  "license_id": "https://openalex.org/licenses/cc-by-nc",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "International Journal of Applied Ceramic Technology",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4407129670.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4407129670.grobid-xml"
+ },
+ "referenced_works_count": 154,
+ "referenced_works": [
+  "https://openalex.org/W23585241",
+  "https://openalex.org/W30186724",
+  "https://openalex.org/W124693732",
+  "https://openalex.org/W636060623",
+  "https://openalex.org/W1488549098",
+  "https://openalex.org/W1529057767",
+  "https://openalex.org/W1529746281",
+  "https://openalex.org/W1530285622",
+  "https://openalex.org/W1532657603",
+  "https://openalex.org/W1539878034",
+  "https://openalex.org/W1541388044",
+  "https://openalex.org/W1548822125",
+  "https://openalex.org/W1552016128",
+  "https://openalex.org/W1553080964",
+  "https://openalex.org/W1573761218",
+  "https://openalex.org/W1576680660",
+  "https://openalex.org/W1582091780",
+  "https://openalex.org/W1595764565",
+  "https://openalex.org/W1604098087",
+  "https://openalex.org/W1615808055",
+  "https://openalex.org/W1819528333",
+  "https://openalex.org/W1964740351",
+  "https://openalex.org/W1967898788",
+  "https://openalex.org/W1972025066",
+  "https://openalex.org/W1975063269",
+  "https://openalex.org/W1976604975",
+  "https://openalex.org/W1979464975",
+  "https://openalex.org/W1981590688",
+  "https://openalex.org/W1983978988",
+  "https://openalex.org/W1990281980",
+  "https://openalex.org/W1995043378",
+  "https://openalex.org/W2007225448",
+  "https://openalex.org/W2009803035",
+  "https://openalex.org/W2017967917",
+  "https://openalex.org/W2018165603",
+  "https://openalex.org/W2023152600",
+  "https://openalex.org/W2025326631",
+  "https://openalex.org/W2030951340",
+  "https://openalex.org/W2032676269",
+  "https://openalex.org/W2037062128",
+  "https://openalex.org/W2038745904",
+  "https://openalex.org/W2039269961",
+  "https://openalex.org/W2046212962",
+  "https://openalex.org/W2046571824",
+  "https://openalex.org/W2049395039",
+  "https://openalex.org/W2054129670",
+  "https://openalex.org/W2054393925",
+  "https://openalex.org/W2059098572",
+  "https://openalex.org/W2059110254",
+  "https://openalex.org/W2059161112",
+  "https://openalex.org/W2059719966",
+  "https://openalex.org/W2060017448",
+  "https://openalex.org/W2062334506",
+  "https://openalex.org/W2067565686",
+  "https://openalex.org/W2067795446",
+  "https://openalex.org/W2068190888",
+  "https://openalex.org/W2068326633",
+  "https://openalex.org/W2069753851",
+  "https://openalex.org/W2072062750",
+  "https://openalex.org/W2079685474",
+  "https://openalex.org/W2084951273",
+  "https://openalex.org/W2086733405",
+  "https://openalex.org/W2087589281",
+  "https://openalex.org/W2089464605",
+  "https://openalex.org/W2094012937",
+  "https://openalex.org/W2098849021",
+  "https://openalex.org/W2099016800",
+  "https://openalex.org/W2100935441",
+  "https://openalex.org/W2104566612",
+  "https://openalex.org/W2118983692",
+  "https://openalex.org/W2123490964",
+  "https://openalex.org/W2125926270",
+  "https://openalex.org/W2130201265",
+  "https://openalex.org/W2136666991",
+  "https://openalex.org/W2137374919",
+  "https://openalex.org/W2149018304",
+  "https://openalex.org/W2156522897",
+  "https://openalex.org/W2163033133",
+  "https://openalex.org/W2166437248",
+  "https://openalex.org/W2313741419",
+  "https://openalex.org/W2324674408",
+  "https://openalex.org/W2327168155",
+  "https://openalex.org/W2327278413",
+  "https://openalex.org/W2411329972",
+  "https://openalex.org/W2463377966",
+  "https://openalex.org/W2480963108",
+  "https://openalex.org/W2482152506",
+  "https://openalex.org/W2484693363",
+  "https://openalex.org/W2489328187",
+  "https://openalex.org/W2494608311",
+  "https://openalex.org/W2502146531",
+  "https://openalex.org/W2505157968",
+  "https://openalex.org/W2509588745",
+  "https://openalex.org/W2559135027",
+  "https://openalex.org/W2599499292",
+  "https://openalex.org/W2605154736",
+  "https://openalex.org/W2761094036",
+  "https://openalex.org/W2765380552",
+  "https://openalex.org/W2773117783",
+  "https://openalex.org/W2792581412",
+  "https://openalex.org/W2885134474",
+  "https://openalex.org/W2886865970",
+  "https://openalex.org/W2887321723",
+  "https://openalex.org/W2891107209",
+  "https://openalex.org/W2899942418",
+  "https://openalex.org/W2913781331",
+  "https://openalex.org/W2935286846",
+  "https://openalex.org/W2956159721",
+  "https://openalex.org/W2984370537",
+  "https://openalex.org/W3011681253",
+  "https://openalex.org/W3021153723",
+  "https://openalex.org/W3022156641",
+  "https://openalex.org/W3022439048",
+  "https://openalex.org/W3040548717",
+  "https://openalex.org/W3045070644",
+  "https://openalex.org/W3090120030",
+  "https://openalex.org/W3108131761",
+  "https://openalex.org/W3130356690",
+  "https://openalex.org/W3133023251",
+  "https://openalex.org/W3143789868",
+  "https://openalex.org/W3155181146",
+  "https://openalex.org/W3157562222",
+  "https://openalex.org/W3176615348",
+  "https://openalex.org/W3186960263",
+  "https://openalex.org/W3197893551",
+  "https://openalex.org/W3199418201",
+  "https://openalex.org/W3199420735",
+  "https://openalex.org/W3207453334",
+  "https://openalex.org/W3214673488",
+  "https://openalex.org/W4224224646",
+  "https://openalex.org/W4226532147",
+  "https://openalex.org/W4233312278",
+  "https://openalex.org/W4239329566",
+  "https://openalex.org/W4239387372",
+  "https://openalex.org/W4248400809",
+  "https://openalex.org/W4250094511",
+  "https://openalex.org/W4252681458",
+  "https://openalex.org/W4255043764",
+  "https://openalex.org/W4282977278",
+  "https://openalex.org/W4282981353",
+  "https://openalex.org/W4289936723",
+  "https://openalex.org/W4312193913",
+  "https://openalex.org/W4318567133",
+  "https://openalex.org/W4379875849",
+  "https://openalex.org/W4382644478",
+  "https://openalex.org/W4382985404",
+  "https://openalex.org/W4386439859",
+  "https://openalex.org/W4387358902",
+  "https://openalex.org/W4392697336",
+  "https://openalex.org/W6701302402",
+  "https://openalex.org/W6725431112",
+  "https://openalex.org/W6753970844",
+  "https://openalex.org/W6877101709",
+  "https://openalex.org/W6908780464"
+ ],
+ "related_works": [
+  "https://openalex.org/W2312283086",
+  "https://openalex.org/W1992786565",
+  "https://openalex.org/W2079116062",
+  "https://openalex.org/W107575027",
+  "https://openalex.org/W2360122385",
+  "https://openalex.org/W2127290763",
+  "https://openalex.org/W200601902",
+  "https://openalex.org/W2353277500",
+  "https://openalex.org/W2096240478",
+  "https://openalex.org/W2536296600"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "Zirconium\u2010based": [
+   1
+  ],
+  "refractories": [
+   2,
+   56,
+   205,
+   218
+  ],
+  "are": [
+   3
+  ],
+  "essential": [
+   4
+  ],
+  "materials": [
+   5,
+   114
+  ],
+  "in": [
+   6,
+   39,
+   105,
+   207,
+   210
+  ],
+  "the": [
+   7,
+   31,
+   48,
+   137,
+   142,
+   148,
+   156,
+   172,
+   184,
+   201
+  ],
+  "glass": [
+   8,
+   43,
+   109,
+   139,
+   185,
+   211
+  ],
+  "industry": [
+   9
+  ],
+  "due": [
+   10,
+   119
+  ],
+  "to": [
+   11,
+   28,
+   120,
+   166,
+   183,
+   191
+  ],
+  "their": [
+   12
+  ],
+  "outstanding": [
+   13
+  ],
+  "properties": [
+   14
+  ],
+  "including": [
+   15
+  ],
+  "high": [
+   16,
+   23,
+   96,
+   111
+  ],
+  "refractoriness,": [
+   17
+  ],
+  "good": [
+   18,
+   102
+  ],
+  "thermal": [
+   19
+  ],
+  "shock": [
+   20
+  ],
+  "resistance,": [
+   21
+  ],
+  "and": [
+   22,
+   53,
+   78,
+   95,
+   141,
+   145,
+   219
+  ],
+  "corrosion": [
+   24,
+   129,
+   173,
+   202
+  ],
+  "resistance": [
+   25
+  ],
+  "with": [
+   26,
+   30,
+   67,
+   86,
+   107
+  ],
+  "respect": [
+   27
+  ],
+  "contact": [
+   29,
+   106
+  ],
+  "molten": [
+   32,
+   108
+  ],
+  "glass,": [
+   33
+  ],
+  "making": [
+   34,
+   163
+  ],
+  "them": [
+   35
+  ],
+  "suitable": [
+   36
+  ],
+  "for": [
+   37,
+   83,
+   223
+  ],
+  "use": [
+   38
+  ],
+  "critical": [
+   40,
+   182
+  ],
+  "parts": [
+   41
+  ],
+  "of": [
+   42,
+   58,
+   124,
+   147,
+   155,
+   171,
+   175,
+   179,
+   200,
+   203,
+   216
+  ],
+  "melting": [
+   44
+  ],
+  "furnaces,": [
+   45
+  ],
+  "such": [
+   46,
+   70,
+   135
+  ],
+  "as": [
+   47,
+   71,
+   85,
+   136
+  ],
+  "bottom,": [
+   49
+  ],
+  "side": [
+   50
+  ],
+  "wall": [
+   51
+  ],
+  "lining,": [
+   52
+  ],
+  "throat.": [
+   54
+  ],
+  "Such": [
+   55
+  ],
+  "consist": [
+   57
+  ],
+  "zirconia": [
+   59
+  ],
+  "(ZrO": [
+   60
+  ],
+  "2": [
+   61,
+   74,
+   81,
+   88,
+   92,
+   94,
+   98
+  ],
+  "),": [
+   62,
+   82
+  ],
+  "zircon,": [
+   63
+  ],
+  "or": [
+   64
+  ],
+  "some": [
+   65
+  ],
+  "combination": [
+   66
+  ],
+  "other": [
+   68,
+   152
+  ],
+  "oxides": [
+   69
+  ],
+  "alumina": [
+   72
+  ],
+  "(Al": [
+   73
+  ],
+  "O": [
+   75,
+   89
+  ],
+  "3": [
+   76,
+   90
+  ],
+  ")": [
+   77
+  ],
+  "silica": [
+   79
+  ],
+  "(SiO": [
+   80
+  ],
+  "example,": [
+   84
+  ],
+  "Al": [
+   87
+  ],
+  "\u2013ZrO": [
+   91
+  ],
+  "\u2013SiO": [
+   93
+  ],
+  "ZrO": [
+   97
+  ],
+  "refractories.": [
+   99
+  ],
+  "Despite": [
+   100
+  ],
+  "having": [
+   101
+  ],
+  "behavior": [
+   103
+  ],
+  "when": [
+   104
+  ],
+  "at": [
+   110
+  ],
+  "temperatures,": [
+   112
+  ],
+  "these": [
+   113,
+   217
+  ],
+  "must": [
+   115
+  ],
+  "be": [
+   116
+  ],
+  "replaced": [
+   117
+  ],
+  "periodically": [
+   118
+  ],
+  "wear,": [
+   121
+  ],
+  "primarily": [
+   122
+  ],
+  "because": [
+   123
+  ],
+  "chemical": [
+   125,
+   143
+  ],
+  "corrosion.": [
+   126
+  ],
+  "The": [
+   127,
+   187
+  ],
+  "complex": [
+   128
+  ],
+  "process": [
+   130,
+   174
+  ],
+  "depends": [
+   131
+  ],
+  "on": [
+   132
+  ],
+  "different": [
+   133
+  ],
+  "factors": [
+   134
+  ],
+  "temperature,": [
+   138
+  ],
+  "composition,": [
+   140
+  ],
+  "composition": [
+   144
+  ],
+  "microstructure": [
+   146
+  ],
+  "refractory": [
+   149,
+   180
+  ],
+  "material,": [
+   150
+  ],
+  "among": [
+   151
+  ],
+  "factors.": [
+   153
+  ],
+  "Much": [
+   154
+  ],
+  "information": [
+   157
+  ],
+  "is": [
+   158
+  ],
+  "scattered": [
+   159
+  ],
+  "across": [
+   160
+  ],
+  "various": [
+   161
+  ],
+  "sources,": [
+   162
+  ],
+  "it": [
+   164
+  ],
+  "difficult": [
+   165
+  ],
+  "build": [
+   167
+  ],
+  "a": [
+   168,
+   197
+  ],
+  "holistic": [
+   169
+  ],
+  "understanding": [
+   170,
+   215
+  ],
+  "this": [
+   176,
+   193
+  ],
+  "specific": [
+   177
+  ],
+  "kind": [
+   178
+  ],
+  "so": [
+   181
+  ],
+  "industry.": [
+   186
+  ],
+  "current": [
+   188
+  ],
+  "paper": [
+   189
+  ],
+  "intends": [
+   190
+  ],
+  "fill": [
+   192
+  ],
+  "gap": [
+   194
+  ],
+  "by": [
+   195
+  ],
+  "providing": [
+   196
+  ],
+  "comprehensive": [
+   198
+  ],
+  "review": [
+   199
+  ],
+  "zirconium\u2010based": [
+   204
+  ],
+  "used": [
+   206
+  ],
+  "glass\u2010contact": [
+   208
+  ],
+  "areas": [
+   209,
+   222
+  ],
+  "making,": [
+   212
+  ],
+  "enhancing": [
+   213
+  ],
+  "our": [
+   214
+  ],
+  "identifying": [
+   220
+  ],
+  "new": [
+   221
+  ],
+  "innovation.": [
+   224
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

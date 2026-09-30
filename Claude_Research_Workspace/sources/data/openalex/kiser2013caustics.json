@@ -1,0 +1,625 @@
+{
+ "id": "https://openalex.org/W103825802",
+ "doi": "https://doi.org/10.1007/978-3-7091-1251-9_7",
+ "title": "Architectural Caustics \u2014 Controlling Light with Geometry",
+ "display_name": "Architectural Caustics \u2014 Controlling Light with Geometry",
+ "publication_year": 2012,
+ "publication_date": "2012-12-06",
+ "ids": {
+  "openalex": "https://openalex.org/W103825802",
+  "doi": "https://doi.org/10.1007/978-3-7091-1251-9_7",
+  "mag": "103825802"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/978-3-7091-1251-9_7",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1007/978-3-7091-1251-9_7",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Advances in Architectural Geometry 2012",
+  "raw_type": "book-chapter"
+ },
+ "type": "book-chapter",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "https://infoscience.epfl.ch/record/307096/files/ARCHI-CAUSTICS_KISER_EIGENSATZ_NGUYEN_BOMPAS_PAULYAAG2012%20%281%29.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": null,
+    "display_name": "Thomas Kiser",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I5124864",
+     "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+     "ror": "https://ror.org/02s376052",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Thomas Kiser",
+   "raw_affiliation_strings": [
+    "EPFL, Switzerland",
+    "EPFL, SWITZERLAND"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "EPFL, Switzerland",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    },
+    {
+     "raw_affiliation_string": "EPFL, SWITZERLAND",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5028837585",
+    "display_name": "Michael Eigensatz",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Michael Eigensatz",
+   "raw_affiliation_strings": [
+    "Evolute, Austria"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Evolute, Austria",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5111402558",
+    "display_name": "Minh Man Nguyen",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Minh Man Nguyen",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5061947330",
+    "display_name": "Philippe Bompas",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Philippe Bompas",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5072048687",
+    "display_name": "Mark V. Pauly",
+    "orcid": "https://orcid.org/0000-0003-4957-4825",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4957-4825"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I5124864",
+     "display_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+     "ror": "https://ror.org/02s376052",
+     "country_code": "CH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I2799323385",
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ],
+   "countries": [
+    "CH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mark Pauly",
+   "raw_affiliation_strings": [
+    "EPFL, Switzerland",
+    "EPFL, SWITZERLAND"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "EPFL, Switzerland",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    },
+    {
+     "raw_affiliation_string": "EPFL, SWITZERLAND",
+     "institution_ids": [
+      "https://openalex.org/I5124864"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 16.2997,
+ "has_fulltext": false,
+ "cited_by_count": 28,
+ "citation_normalized_percentile": {
+  "value": 0.99279279,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 98
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "91",
+  "last_page": "106"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11211",
+  "display_name": "3D Surveying and Cultural Heritage",
+  "score": 0.9564999938011169,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1907",
+   "display_name": "Geology"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/19",
+   "display_name": "Earth and Planetary Sciences"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9564999938011169,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14002",
+   "display_name": "Art, Technology, and Culture",
+   "score": 0.9253000020980835,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1213",
+    "display_name": "Visual Arts and Performing Arts"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/12",
+    "display_name": "Arts and Humanities"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11408",
+   "display_name": "Advanced Optical Imaging Technologies",
+   "score": 0.9247999787330627,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2214",
+    "display_name": "Media Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/caustic",
+   "display_name": "Caustic (mathematics)",
+   "score": 0.9442523121833801
+  },
+  {
+   "id": "https://openalex.org/keywords/perspective",
+   "display_name": "Perspective (graphical)",
+   "score": 0.6457486748695374
+  },
+  {
+   "id": "https://openalex.org/keywords/refraction",
+   "display_name": "Refraction",
+   "score": 0.5973225831985474
+  },
+  {
+   "id": "https://openalex.org/keywords/reflection",
+   "display_name": "Reflection (computer programming)",
+   "score": 0.5921512246131897
+  },
+  {
+   "id": "https://openalex.org/keywords/geometry",
+   "display_name": "Geometry",
+   "score": 0.5430945158004761
+  },
+  {
+   "id": "https://openalex.org/keywords/ray",
+   "display_name": "Ray",
+   "score": 0.4976177513599396
+  },
+  {
+   "id": "https://openalex.org/keywords/surface",
+   "display_name": "Surface (topology)",
+   "score": 0.47902384400367737
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.4669094681739807
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.3532218337059021
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.3216060698032379
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.2598669230937958
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779567845",
+   "wikidata": "https://www.wikidata.org/wiki/Q3492725",
+   "display_name": "Caustic (mathematics)",
+   "level": 2,
+   "score": 0.9442523121833801
+  },
+  {
+   "id": "https://openalex.org/C12713177",
+   "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+   "display_name": "Perspective (graphical)",
+   "level": 2,
+   "score": 0.6457486748695374
+  },
+  {
+   "id": "https://openalex.org/C205318122",
+   "wikidata": "https://www.wikidata.org/wiki/Q72277",
+   "display_name": "Refraction",
+   "level": 2,
+   "score": 0.5973225831985474
+  },
+  {
+   "id": "https://openalex.org/C65682993",
+   "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+   "display_name": "Reflection (computer programming)",
+   "level": 2,
+   "score": 0.5921512246131897
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.5430945158004761
+  },
+  {
+   "id": "https://openalex.org/C182610534",
+   "wikidata": "https://www.wikidata.org/wiki/Q633620",
+   "display_name": "Ray",
+   "level": 2,
+   "score": 0.4976177513599396
+  },
+  {
+   "id": "https://openalex.org/C2776799497",
+   "wikidata": "https://www.wikidata.org/wiki/Q484298",
+   "display_name": "Surface (topology)",
+   "level": 2,
+   "score": 0.47902384400367737
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.4669094681739807
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.3532218337059021
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.3216060698032379
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.2598669230937958
+  },
+  {
+   "id": "https://openalex.org/C199360897",
+   "wikidata": "https://www.wikidata.org/wiki/Q9143",
+   "display_name": "Programming language",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1007/978-3-7091-1251-9_7",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1007/978-3-7091-1251-9_7",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Advances in Architectural Geometry 2012",
+   "raw_type": "book-chapter"
+  },
+  {
+   "id": "pmh:oai:CiteSeerX.psu:10.1.1.707.1622",
+   "is_oa": false,
+   "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.707.1622",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://lgg.epfl.ch/publications/2012/caustics/ArchitecturalCaustics_AAG.pdf",
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:infoscience.epfl.ch:307096",
+   "is_oa": true,
+   "landing_page_url": "https://infoscience.epfl.ch/record/307096/files/ARCHI-CAUSTICS_KISER_EIGENSATZ_NGUYEN_BOMPAS_PAULYAAG2012%20%281%29.pdf",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400487",
+    "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I5124864",
+    "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+    "host_organization_lineage": [
+     "https://openalex.org/I5124864"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "conference proceedings"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:infoscience.epfl.ch:307096",
+  "is_oa": true,
+  "landing_page_url": "https://infoscience.epfl.ch/record/307096/files/ARCHI-CAUSTICS_KISER_EIGENSATZ_NGUYEN_BOMPAS_PAULYAAG2012%20%281%29.pdf",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306400487",
+   "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I5124864",
+   "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+   "host_organization_lineage": [
+    "https://openalex.org/I5124864"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": null,
+  "raw_type": "conference proceedings"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Sustainable cities and communities",
+   "id": "https://metadata.un.org/sdg/11",
+   "score": 0.5
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 23,
+ "referenced_works": [
+  "https://openalex.org/W82934484",
+  "https://openalex.org/W562882969",
+  "https://openalex.org/W654824439",
+  "https://openalex.org/W1653226267",
+  "https://openalex.org/W1981867245",
+  "https://openalex.org/W2096860047",
+  "https://openalex.org/W2098525067",
+  "https://openalex.org/W2107393996",
+  "https://openalex.org/W2123689357",
+  "https://openalex.org/W2144237182",
+  "https://openalex.org/W2147967216",
+  "https://openalex.org/W2151045871",
+  "https://openalex.org/W2151833588",
+  "https://openalex.org/W2261601575",
+  "https://openalex.org/W2261645558",
+  "https://openalex.org/W2293760838",
+  "https://openalex.org/W2970217102",
+  "https://openalex.org/W4236457480",
+  "https://openalex.org/W4285719527",
+  "https://openalex.org/W6615595052",
+  "https://openalex.org/W6621471670",
+  "https://openalex.org/W6692658978",
+  "https://openalex.org/W6696876147"
+ ],
+ "related_works": [
+  "https://openalex.org/W2275922919",
+  "https://openalex.org/W2116544824",
+  "https://openalex.org/W2019997658",
+  "https://openalex.org/W2119139662",
+  "https://openalex.org/W2370406101",
+  "https://openalex.org/W1976014747",
+  "https://openalex.org/W2352875260",
+  "https://openalex.org/W2605709415",
+  "https://openalex.org/W1921360183",
+  "https://openalex.org/W2037853404"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-29T14:09:16.559479",
+ "created_date": "2025-10-10T00:00:00"
+}

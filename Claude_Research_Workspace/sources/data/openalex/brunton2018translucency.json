@@ -1,0 +1,1205 @@
+{
+ "id": "https://openalex.org/W2810000000",
+ "doi": "https://doi.org/10.1145/3197517.3201349",
+ "title": "3D printing spatially varying color and translucency",
+ "display_name": "3D printing spatially varying color and translucency",
+ "publication_year": 2018,
+ "publication_date": "2018-07-30",
+ "ids": {
+  "openalex": "https://openalex.org/W2810000000",
+  "doi": "https://doi.org/10.1145/3197517.3201349",
+  "mag": "2810000000"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/3197517.3201349",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/3197517.3201349",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S185367456",
+   "display_name": "ACM Transactions on Graphics",
+   "issn_l": "0730-0301",
+   "issn": [
+    "0730-0301",
+    "1557-7368"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319798",
+   "host_organization_name": "Association for Computing Machinery",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319798"
+   ],
+   "host_organization_lineage_names": [
+    "Association for Computing Machinery"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "ACM Transactions on Graphics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "http://hdl.handle.net/11250/2592720",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5078124597",
+    "display_name": "Alan Brunton",
+    "orcid": "https://orcid.org/0000-0003-1365-7813",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1365-7813"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I3019423309",
+     "display_name": "Fraunhofer Institute for Computer Graphics Research",
+     "ror": "https://ror.org/04gmsar03",
+     "country_code": "DE",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I3019423309",
+      "https://openalex.org/I4923324"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Alan Brunton",
+   "raw_affiliation_strings": [
+    "Fraunhofer IGD"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Fraunhofer IGD",
+     "institution_ids": [
+      "https://openalex.org/I3019423309"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5079086940",
+    "display_name": "Can Ates Arikan",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I3019423309",
+     "display_name": "Fraunhofer Institute for Computer Graphics Research",
+     "ror": "https://ror.org/04gmsar03",
+     "country_code": "DE",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I3019423309",
+      "https://openalex.org/I4923324"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Can Ates Arikan",
+   "raw_affiliation_strings": [
+    "Fraunhofer IGD"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Fraunhofer IGD",
+     "institution_ids": [
+      "https://openalex.org/I3019423309"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5036930168",
+    "display_name": "Tejas Madan Tanksale",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I3019423309",
+     "display_name": "Fraunhofer Institute for Computer Graphics Research",
+     "ror": "https://ror.org/04gmsar03",
+     "country_code": "DE",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I3019423309",
+      "https://openalex.org/I4923324"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tejas Madan Tanksale",
+   "raw_affiliation_strings": [
+    "Fraunhofer IGD"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Fraunhofer IGD",
+     "institution_ids": [
+      "https://openalex.org/I3019423309"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5070239231",
+    "display_name": "Philipp Urban",
+    "orcid": "https://orcid.org/0000-0002-9565-3906",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9565-3906"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I3019423309",
+     "display_name": "Fraunhofer Institute for Computer Graphics Research",
+     "ror": "https://ror.org/04gmsar03",
+     "country_code": "DE",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I3019423309",
+      "https://openalex.org/I4923324"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Philipp Urban",
+   "raw_affiliation_strings": [
+    "Fraunhofer IGD and Norwegian University of Science and Technology NTNU"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Fraunhofer IGD and Norwegian University of Science and Technology NTNU",
+     "institution_ids": [
+      "https://openalex.org/I204778367",
+      "https://openalex.org/I3019423309"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 3.8713,
+ "has_fulltext": false,
+ "cited_by_count": 65,
+ "citation_normalized_percentile": {
+  "value": 0.94311932,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "37",
+  "issue": "4",
+  "first_page": "1",
+  "last_page": "13"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10531",
+  "display_name": "Advanced Vision and Imaging",
+  "score": 0.9995999932289124,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1707",
+   "display_name": "Computer Vision and Pattern Recognition"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10531",
+   "display_name": "Advanced Vision and Imaging",
+   "score": 0.9995999932289124,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.9987999796867371,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11666",
+   "display_name": "Color Science and Applications",
+   "score": 0.9970999956130981,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3107",
+    "display_name": "Atomic and Molecular Physics, and Optics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/gamut",
+   "display_name": "Gamut",
+   "score": 0.8749021887779236
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.7847596406936646
+  },
+  {
+   "id": "https://openalex.org/keywords/pipeline",
+   "display_name": "Pipeline (software)",
+   "score": 0.6116006374359131
+  },
+  {
+   "id": "https://openalex.org/keywords/scalability",
+   "display_name": "Scalability",
+   "score": 0.5942243337631226
+  },
+  {
+   "id": "https://openalex.org/keywords/colored",
+   "display_name": "Colored",
+   "score": 0.5329068303108215
+  },
+  {
+   "id": "https://openalex.org/keywords/artificial-intelligence",
+   "display_name": "Artificial intelligence",
+   "score": 0.47869113087654114
+  },
+  {
+   "id": "https://openalex.org/keywords/inkwell",
+   "display_name": "Inkwell",
+   "score": 0.4726516306400299
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-vision",
+   "display_name": "Computer vision",
+   "score": 0.46576762199401855
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-graphics",
+   "display_name": "Computer graphics (images)",
+   "score": 0.4460676908493042
+  },
+  {
+   "id": "https://openalex.org/keywords/voxel",
+   "display_name": "Voxel",
+   "score": 0.44059643149375916
+  },
+  {
+   "id": "https://openalex.org/keywords/database",
+   "display_name": "Database",
+   "score": 0.09220030903816223
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2780061478",
+   "wikidata": "https://www.wikidata.org/wiki/Q375857",
+   "display_name": "Gamut",
+   "level": 2,
+   "score": 0.8749021887779236
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.7847596406936646
+  },
+  {
+   "id": "https://openalex.org/C43521106",
+   "wikidata": "https://www.wikidata.org/wiki/Q2165493",
+   "display_name": "Pipeline (software)",
+   "level": 2,
+   "score": 0.6116006374359131
+  },
+  {
+   "id": "https://openalex.org/C48044578",
+   "wikidata": "https://www.wikidata.org/wiki/Q727490",
+   "display_name": "Scalability",
+   "level": 2,
+   "score": 0.5942243337631226
+  },
+  {
+   "id": "https://openalex.org/C2778307483",
+   "wikidata": "https://www.wikidata.org/wiki/Q5149038",
+   "display_name": "Colored",
+   "level": 2,
+   "score": 0.5329068303108215
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.47869113087654114
+  },
+  {
+   "id": "https://openalex.org/C109693293",
+   "wikidata": "https://www.wikidata.org/wiki/Q1496072",
+   "display_name": "Inkwell",
+   "level": 2,
+   "score": 0.4726516306400299
+  },
+  {
+   "id": "https://openalex.org/C31972630",
+   "wikidata": "https://www.wikidata.org/wiki/Q844240",
+   "display_name": "Computer vision",
+   "level": 1,
+   "score": 0.46576762199401855
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.4460676908493042
+  },
+  {
+   "id": "https://openalex.org/C54170458",
+   "wikidata": "https://www.wikidata.org/wiki/Q663554",
+   "display_name": "Voxel",
+   "level": 2,
+   "score": 0.44059643149375916
+  },
+  {
+   "id": "https://openalex.org/C77088390",
+   "wikidata": "https://www.wikidata.org/wiki/Q8513",
+   "display_name": "Database",
+   "level": 1,
+   "score": 0.09220030903816223
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C28490314",
+   "wikidata": "https://www.wikidata.org/wiki/Q189436",
+   "display_name": "Speech recognition",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C199360897",
+   "wikidata": "https://www.wikidata.org/wiki/Q9143",
+   "display_name": "Programming language",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 5,
+ "locations": [
+  {
+   "id": "doi:10.1145/3197517.3201349",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/3197517.3201349",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S185367456",
+    "display_name": "ACM Transactions on Graphics",
+    "issn_l": "0730-0301",
+    "issn": [
+     "0730-0301",
+     "1557-7368"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Graphics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:fraunhofer.de:N-525551",
+   "is_oa": false,
+   "landing_page_url": "http://publica.fraunhofer.de/documents/N-525551.html",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400801",
+    "display_name": "Publikationsdatenbank der Fraunhofer-Gesellschaft (Fraunhofer-Gesellschaft)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I4923324",
+    "host_organization_name": "Fraunhofer-Gesellschaft",
+    "host_organization_lineage": [
+     "https://openalex.org/I4923324"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Fraunhofer IGD",
+   "raw_type": "article"
+  },
+  {
+   "id": "pmh:oai:ntnuopen.ntnu.no:11250/2592720",
+   "is_oa": true,
+   "landing_page_url": "http://hdl.handle.net/11250/2592720",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S7407064446",
+    "display_name": "NORA - Norwegian Open Research Archives",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "other-oa",
+   "license_id": "https://openalex.org/licenses/other-oa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "13",
+   "raw_type": "info:eu-repo/semantics/article"
+  },
+  {
+   "id": "pmh:oai:publica.fraunhofer.de:publica/255365",
+   "is_oa": false,
+   "landing_page_url": "https://publica.fraunhofer.de/handle/publica/255365",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400318",
+    "display_name": "Fraunhofer-Publica (Fraunhofer-Gesellschaft)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I4923324",
+    "host_organization_name": "Fraunhofer-Gesellschaft",
+    "host_organization_lineage": [
+     "https://openalex.org/I4923324"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "journal article"
+  },
+  {
+   "id": "pmh:oai:zenodo.org:2586149",
+   "is_oa": true,
+   "landing_page_url": "https://zenodo.org/record/2586149",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400562",
+    "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I67311998",
+    "host_organization_name": "European Organization for Nuclear Research",
+    "host_organization_lineage": [
+     "https://openalex.org/I67311998"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "ACM Transactions on Graphics (Proc. SIGGRAPH) 37(4)",
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "pmh:oai:ntnuopen.ntnu.no:11250/2592720",
+  "is_oa": true,
+  "landing_page_url": "http://hdl.handle.net/11250/2592720",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S7407064446",
+   "display_name": "NORA - Norwegian Open Research Archives",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": "other-oa",
+  "license_id": "https://openalex.org/licenses/other-oa",
+  "version": "submittedVersion",
+  "is_accepted": false,
+  "is_published": false,
+  "raw_source_name": "13",
+  "raw_type": "info:eu-repo/semantics/article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G5329141021",
+   "display_name": null,
+   "funder_award_id": "665091",
+   "funder_id": "https://openalex.org/F4320332999",
+   "funder_display_name": "Horizon 2020 Framework Programme"
+  },
+  {
+   "id": "https://openalex.org/G5733758613",
+   "display_name": null,
+   "funder_award_id": "665091",
+   "funder_id": "https://openalex.org/F4320335254",
+   "funder_display_name": "Horizon 2020"
+  },
+  {
+   "id": "https://openalex.org/G7328148564",
+   "display_name": null,
+   "funder_award_id": "Attract 008- 600075",
+   "funder_id": "https://openalex.org/F4320321773",
+   "funder_display_name": "Fraunhofer-Gesellschaft"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321773",
+   "display_name": "Fraunhofer-Gesellschaft",
+   "ror": "https://ror.org/05hkkdn48"
+  },
+  {
+   "id": "https://openalex.org/F4320332999",
+   "display_name": "Horizon 2020 Framework Programme",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320335254",
+   "display_name": "Horizon 2020",
+   "ror": null
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 50,
+ "referenced_works": [
+  "https://openalex.org/W58978348",
+  "https://openalex.org/W136506321",
+  "https://openalex.org/W575684422",
+  "https://openalex.org/W1518641734",
+  "https://openalex.org/W1557590941",
+  "https://openalex.org/W1655654231",
+  "https://openalex.org/W1946864422",
+  "https://openalex.org/W1985025469",
+  "https://openalex.org/W1990693464",
+  "https://openalex.org/W1998062602",
+  "https://openalex.org/W2003526930",
+  "https://openalex.org/W2009973781",
+  "https://openalex.org/W2011812795",
+  "https://openalex.org/W2014507515",
+  "https://openalex.org/W2018515743",
+  "https://openalex.org/W2027480687",
+  "https://openalex.org/W2031502326",
+  "https://openalex.org/W2040005668",
+  "https://openalex.org/W2049391017",
+  "https://openalex.org/W2054113582",
+  "https://openalex.org/W2059390365",
+  "https://openalex.org/W2072591132",
+  "https://openalex.org/W2087719434",
+  "https://openalex.org/W2088255295",
+  "https://openalex.org/W2089218882",
+  "https://openalex.org/W2120448006",
+  "https://openalex.org/W2122851913",
+  "https://openalex.org/W2128417228",
+  "https://openalex.org/W2132713314",
+  "https://openalex.org/W2133665775",
+  "https://openalex.org/W2147326417",
+  "https://openalex.org/W2161986481",
+  "https://openalex.org/W2165221050",
+  "https://openalex.org/W2172169733",
+  "https://openalex.org/W2284239051",
+  "https://openalex.org/W2501142486",
+  "https://openalex.org/W2580573184",
+  "https://openalex.org/W2736733649",
+  "https://openalex.org/W2761060073",
+  "https://openalex.org/W2770723990",
+  "https://openalex.org/W3006968265",
+  "https://openalex.org/W3010696258",
+  "https://openalex.org/W3034954823",
+  "https://openalex.org/W3137283246",
+  "https://openalex.org/W4238926905",
+  "https://openalex.org/W4244005237",
+  "https://openalex.org/W4244433329",
+  "https://openalex.org/W4250088824",
+  "https://openalex.org/W4293102818",
+  "https://openalex.org/W6695621245"
+ ],
+ "related_works": [
+  "https://openalex.org/W1975324169",
+  "https://openalex.org/W2084765988",
+  "https://openalex.org/W4312764041",
+  "https://openalex.org/W2750875950",
+  "https://openalex.org/W1978099104",
+  "https://openalex.org/W2066729121",
+  "https://openalex.org/W3178368848",
+  "https://openalex.org/W2151447184",
+  "https://openalex.org/W2370088595",
+  "https://openalex.org/W245318469"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   94
+  ],
+  "present": [
+   1,
+   120
+  ],
+  "an": [
+   2,
+   76,
+   84,
+   121
+  ],
+  "efficient": [
+   3,
+   122
+  ],
+  "and": [
+   4,
+   16,
+   32,
+   45,
+   90,
+   103,
+   108,
+   138
+  ],
+  "scalable": [
+   5
+  ],
+  "pipeline": [
+   6,
+   74
+  ],
+  "for": [
+   7,
+   92,
+   98
+  ],
+  "fabricating": [
+   8
+  ],
+  "full-colored": [
+   9
+  ],
+  "objects": [
+   10
+  ],
+  "with": [
+   11,
+   29
+  ],
+  "spatially-varying": [
+   12
+  ],
+  "translucency": [
+   13,
+   68,
+   109
+  ],
+  "from": [
+   14
+  ],
+  "practical": [
+   15,
+   91
+  ],
+  "accessible": [
+   17,
+   89
+  ],
+  "input": [
+   18,
+   71
+  ],
+  "data": [
+   19
+  ],
+  "via": [
+   20
+  ],
+  "multi-material": [
+   21
+  ],
+  "3D": [
+   22,
+   39
+  ],
+  "printing.": [
+   23
+  ],
+  "Observing": [
+   24
+  ],
+  "that": [
+   25,
+   46
+  ],
+  "the": [
+   26,
+   36,
+   47,
+   81
+  ],
+  "costs": [
+   27
+  ],
+  "associated": [
+   28
+  ],
+  "BSSRDF": [
+   30
+  ],
+  "measurement": [
+   31
+  ],
+  "processing": [
+   33
+  ],
+  "are": [
+   34,
+   42
+  ],
+  "high,": [
+   35
+  ],
+  "range": [
+   37
+  ],
+  "of": [
+   38,
+   83,
+   134
+  ],
+  "printable": [
+   40
+  ],
+  "BSSRDFs": [
+   41
+  ],
+  "severely": [
+   43
+  ],
+  "limited,": [
+   44
+  ],
+  "human": [
+   48
+  ],
+  "visual": [
+   49
+  ],
+  "system": [
+   50
+  ],
+  "relies": [
+   51
+  ],
+  "only": [
+   52
+  ],
+  "on": [
+   53,
+   65,
+   80
+  ],
+  "simple": [
+   54
+  ],
+  "high-level": [
+   55
+  ],
+  "cues": [
+   56
+  ],
+  "to": [
+   57,
+   72,
+   105,
+   125
+  ],
+  "perceive": [
+   58
+  ],
+  "translucency,": [
+   59
+  ],
+  "we": [
+   60,
+   116
+  ],
+  "propose": [
+   61,
+   95
+  ],
+  "a": [
+   62,
+   96,
+   112
+  ],
+  "method": [
+   63,
+   124
+  ],
+  "based": [
+   64
+  ],
+  "reproducing": [
+   66
+  ],
+  "perceptual": [
+   67
+  ],
+  "cues.": [
+   69
+  ],
+  "The": [
+   70
+  ],
+  "our": [
+   73,
+   87
+  ],
+  "is": [
+   75
+  ],
+  "RGBA": [
+   77
+  ],
+  "signal": [
+   78
+  ],
+  "defined": [
+   79
+  ],
+  "surface": [
+   82
+  ],
+  "object,": [
+   85
+  ],
+  "making": [
+   86
+  ],
+  "approach": [
+   88
+  ],
+  "designers.": [
+   93
+  ],
+  "framework": [
+   97
+  ],
+  "extending": [
+   99
+  ],
+  "standard": [
+   100
+  ],
+  "color": [
+   101,
+   107
+  ],
+  "management": [
+   102,
+   110
+  ],
+  "profiling": [
+   104
+  ],
+  "combined": [
+   106
+  ],
+  "using": [
+   111
+  ],
+  "gamut": [
+   113
+  ],
+  "correspondence": [
+   114
+  ],
+  "strategy": [
+   115
+  ],
+  "callopaque": [
+   117
+  ],
+  "relative": [
+   118
+  ],
+  "processing.We": [
+   119
+  ],
+  "streaming": [
+   123
+  ],
+  "compute": [
+   126
+  ],
+  "voxel-level": [
+   127
+  ],
+  "material": [
+   128
+  ],
+  "arrangements,": [
+   129
+  ],
+  "achieving": [
+   130
+  ],
+  "both": [
+   131
+  ],
+  "realistic": [
+   132
+  ],
+  "reproduction": [
+   133
+  ],
+  "measured": [
+   135
+  ],
+  "translucent": [
+   136
+  ],
+  "materials": [
+   137
+  ],
+  "artistic": [
+   139
+  ],
+  "effects": [
+   140
+  ],
+  "involving": [
+   141
+  ],
+  "multiple": [
+   142
+  ],
+  "fully": [
+   143
+  ],
+  "or": [
+   144
+  ],
+  "partially": [
+   145
+  ],
+  "transparent": [
+   146
+  ],
+  "geometries.": [
+   147
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 16
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 6
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-29T14:09:16.559479",
+ "created_date": "2025-10-10T00:00:00"
+}

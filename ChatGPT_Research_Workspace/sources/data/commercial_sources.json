@@ -1,0 +1,213 @@
+[
+  {
+    "id": "com_evenline",
+    "title": "Technology: Molten Glass 3D Printer",
+    "authors": [
+      "Evenline"
+    ],
+    "year": 2026,
+    "doi_or_url": "https://www.evenline.co/technology",
+    "url": "https://www.evenline.co/technology",
+    "publisher": "Evenline",
+    "summary": "Supplier specification: Mark III; 325 x 325 x 380 mm; operating 2000 F, not maximum rating; ceramic nozzle and overnight separate cooling.",
+    "evidence_type": "manufacturer claim",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_evenlinepeople",
+    "title": "People",
+    "authors": [
+      "Evenline"
+    ],
+    "year": 2026,
+    "doi_or_url": "https://www.evenline.co/people",
+    "url": "https://www.evenline.co/people",
+    "publisher": "Evenline",
+    "summary": "Michael Stern identified as founder and lead.",
+    "evidence_type": "manufacturer corporate record",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_masonry",
+    "title": "Additive manufacturing of interlocking glass masonry units",
+    "authors": [
+      "Daniel Massimino",
+      "Charlotte Folinus",
+      "Ethan Townsend",
+      "Michael Stern",
+      "Kaitlyn Becker"
+    ],
+    "year": 2024,
+    "doi_or_url": "https://doi.org/10.1007/s40940-024-00279-8",
+    "url": "https://doi.org/10.1007/s40940-024-00279-8",
+    "publisher": "Springer Nature",
+    "summary": "Research on Evenline G3DP3 and interlocking masonry specimens; company-affiliated authors, not independent product qualification.",
+    "evidence_type": "peer-reviewed experiment",
+    "accessed": "2026-09-26",
+    "doi": "10.1007/s40940-024-00279-8",
+    "volume": "9"
+  },
+  {
+    "id": "com_mitbricks",
+    "title": "Engineers 3D print sturdy glass bricks for building structures",
+    "authors": [
+      "Jennifer Chu"
+    ],
+    "year": 2024,
+    "doi_or_url": "https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-building-structures",
+    "url": "https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-building-structures",
+    "publisher": "Massachusetts Institute of Technology",
+    "summary": "Institutional account of tested masonry and strongest configurations using separately manufactured interlocks.",
+    "evidence_type": "institutional research account",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_maple",
+    "title": "Maple Glass Printing",
+    "authors": [
+      "Monash University"
+    ],
+    "year": 2026,
+    "doi_or_url": "https://www.monash.edu/monash-innovation/impact/generator-founders/maple-glass-printing",
+    "url": "https://www.monash.edu/monash-innovation/impact/generator-founders/maple-glass-printing",
+    "publisher": "Monash University",
+    "summary": "Company listing with research, education, architecture and art targets; no current specifications or price.",
+    "evidence_type": "institutional venture record",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_maplepatent",
+    "title": "Three-dimensional printing system",
+    "authors": [
+      "Nick Birbilis",
+      "Darren Robert Feenstra",
+      "Tony Koutsonikolas"
+    ],
+    "year": 2023,
+    "doi_or_url": "https://patents.google.com/patent/AU2021289614A1/en",
+    "url": "https://patents.google.com/patent/AU2021289614A1/en",
+    "publisher": "IP Australia; mirrored by Google Patents",
+    "summary": "AU2021289614A1: Maple assignee and heated-nozzle invention disclosure; publication does not verify current machine sales or grant status.",
+    "evidence_type": "patent disclosure",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_nobulateam",
+    "title": "Nobula",
+    "authors": [
+      "KTH Royal Institute of Technology"
+    ],
+    "year": 2022,
+    "doi_or_url": "https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863",
+    "url": "https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863",
+    "publisher": "KTH",
+    "summary": "Team Michael Fokine, Chunxin Liu, Taras Oriekhov and subsequent Sting participation.",
+    "evidence_type": "institutional venture record",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_nobulainvest",
+    "title": "Ny investering i Nobula3D",
+    "authors": [
+      "KTH Holding"
+    ],
+    "year": 2022,
+    "doi_or_url": "https://kthventures.se/blog-posts/ny-investering-i-nobula3d",
+    "url": "https://kthventures.se/blog-posts/ny-investering-i-nobula3d",
+    "publisher": "KTH Ventures",
+    "summary": "May 5 2022 investment announcement, amount undisclosed; two patent filings claimed as of announcement.",
+    "evidence_type": "investor primary record",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_nobulagrant",
+    "title": "Nobula -- Breaking the glass ceiling in Additive Manufacturing through laser-assisted glass 3D printing",
+    "authors": [
+      "European Commission"
+    ],
+    "year": 2025,
+    "doi_or_url": "https://cordis.europa.eu/project/id/190122644",
+    "url": "https://cordis.europa.eu/project/id/190122644",
+    "publisher": "CORDIS",
+    "summary": "EU contribution EUR 2499875; project cost EUR 3571250; 2023-08-01 through 2026-04-30. Performance descriptions are applicant statements, not measurements.",
+    "evidence_type": "grant administrative record",
+    "accessed": "2026-09-26",
+    "doi": "10.3030/190122644"
+  },
+  {
+    "id": "com_liu",
+    "title": "Rapid Fabrication of Silica Microlens Arrays via Glass 3D Printing",
+    "authors": [
+      "Chunxin Liu",
+      "Taras Oriekhov",
+      "Cherrie Lee",
+      "Clarissa M. Harvey",
+      "Michael Fokine"
+    ],
+    "year": 2024,
+    "doi_or_url": "https://doi.org/10.1089/3dp.2022.0112",
+    "url": "https://doi.org/10.1089/3dp.2022.0112",
+    "publisher": "Mary Ann Liebert",
+    "summary": "Fused silica microlens fabrication with Nobula Zero; authors include Nobula affiliations. Laser postprocessing reported.",
+    "evidence_type": "peer-reviewed experiment",
+    "accessed": "2026-09-26",
+    "doi": "10.1089/3dp.2022.0112",
+    "volume": "11"
+  },
+  {
+    "id": "com_nobula",
+    "title": "Glass fabrication, redefined",
+    "authors": [
+      "Nobula3D AB"
+    ],
+    "year": 2026,
+    "doi_or_url": "https://www.nobula3d.com/",
+    "url": "https://www.nobula3d.com/",
+    "publisher": "Nobula3D AB",
+    "summary": "Live 2026 page describes laser-built glass; accessible 17-line page contains no numerical specifications or prices.",
+    "evidence_type": "manufacturer claim",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_glassomerhistory",
+    "title": "About us",
+    "authors": [
+      "Glassomer GmbH"
+    ],
+    "year": 2026,
+    "doi_or_url": "https://www.glassomer.com/company/about-us.html",
+    "url": "https://www.glassomer.com/company/about-us.html",
+    "publisher": "Glassomer GmbH",
+    "summary": "Corporate timeline: founded Karlsruhe 2018, moved Freiburg; composite-material and parts production.",
+    "evidence_type": "manufacturer corporate record",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_glassomer",
+    "title": "Home: fused silica components and Glassomer technology",
+    "authors": [
+      "Glassomer GmbH"
+    ],
+    "year": 2026,
+    "doi_or_url": "https://www.glassomer.com/",
+    "url": "https://www.glassomer.com/",
+    "publisher": "Glassomer GmbH",
+    "summary": "Room-temperature shaping of silica-organic composites; optical and microfluidic offerings, grant acknowledgment 967328.",
+    "evidence_type": "manufacturer claim",
+    "accessed": "2026-09-26"
+  },
+  {
+    "id": "com_upnano",
+    "title": "Novel Process for 3D-Printing Macro-sized Fused silica Parts with Hi-Res Features",
+    "authors": [
+      "UpNano GmbH"
+    ],
+    "year": 2024,
+    "doi_or_url": "https://www.upnano.com/novel-process-for-3d-printing-macro-sized-fused-silica-parts-with-hi-res-features/",
+    "url": "https://www.upnano.com/novel-process-for-3d-printing-macro-sized-fused-silica-parts-with-hi-res-features/",
+    "publisher": "UpNano GmbH",
+    "summary": "2024-07-23 NanoOne/UpQuartz collaboration: 600 C debinding, 1300 C sintering, about 30% shrinkage, small ferrules and filters.",
+    "evidence_type": "manufacturer process claim",
+    "accessed": "2026-09-26"
+  }
+]

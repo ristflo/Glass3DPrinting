@@ -1,0 +1,1278 @@
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+https://doi.org/10.1007/s10971-025-06664-1
+BRIEF REPORT
+Sol-gel technologies for additive manufacturing glass materials
+Monisha Murthi 1 ●
+Joel F. Destino 1
+Received: 11 November 2024 / Accepted: 6 January 2025 / Published online: 20 January 2025
+© The Author(s) 2025, corrected publication 2025
+Abstract
+The sol-gel method has shown immense potential in materials science and nanotechnology. One of the cornerstone
+applications of the sol-gel technique includes the fabrication of inorganic glasses and glass-ceramics at relatively low
+temperatures as an alternative to conventional high-temperature melt-quench techniques. In recent times, glass fabrication
+with the sol-gel method has extended to additive manufacturing (AM), also referred to as 3D printing. Current sol-gel, glass
+AM uses solution-based gel compositions to produce three-dimensional glasses through layer-by-layer deposition and/or
+using photocurable polymer resins. Owing to its signi ﬁcant advantages of being able to fabricate glass components with
+arbitrary and complex geometry, AM presents a tantalizing opportunity to fabricate functionalized glass materials, increasing
+the technique ’s popularity over the past decade. In this review and perspective, recent progress in combining sol-gel
+synthesis and additive manufacturing technologies used for obtaining inorganic glasses are discussed, speci ﬁcally
+highlighting the research carried out in North America, and a prospectus of the ﬁeld and emerging areas of interest and need
+is presented.
+Graphical Abstract
+(Top) Sol-gel building blocks ranging in scale from molecular precursors to supramolecular, polymeric, colloidal or
+particulate materials. (Bottom) Sol-gel glass additive manufacturing technologies using, from left to right, supramolecular
+precursors, mixed particle and molecular/oligomeric, colloidal, and mixed colloidal binary compositions.
+Keywords Sol-gel
+●
+Additive manufacturing
+●
+3D printing
+●
+Glasses
+Highlights
+● Sol-gel (SG) technologies are well-suited for glass additive manufacturing (AM).
+● Inorganic glass SG AM technologies include a range of precursor types and AM methods.
+● SG bioactive glass AM research has occurred mainly outside of North America.
+● North America leads SG glass AM efforts focusing on optical glasses.
+● Much research space remains open to advance SG glass AM into new materials and technologies.
+* Joel F. Destino
+joeldestino@creighton.edu
+1 Department of Chemistry and Biochemistry, Creighton University,
+2500 California Plaza, Omaha, NE 68178, USA
+1234567890();,:
+1234567890();,:
+1 Introduction
+1.1 Sol-gel technology for glass fabrication
+Sol-gel is a wet-chemical technique for material synthesis,
+that was ﬁrst discovered in the mid-nineteenth century, but
+advanced tremendously in the mid-to-late twentieth [ 1]. A
+sol is a colloidal suspension of solid particles in a liquid
+whereas the gel is a colloidal solution of a liquid dispersed
+in a solid [ 2]. This method has several advantages, includ-
+ing consistent product quality, consistency in particle shape
+and size, desirable rheological properties, ease of making
+multi-component materials, affordability without specia-
+lized equipment, and low processing temperatures [ 3]. Sol-
+gel technology can be used for various material preparation
+such as thin- ﬁlm coating, nanoparticle synthesis, fabrication
+of metal oxides, organic networks, metal-organic frame-
+works, composites, glasses, and ceramics [ 3–7].
+Interest in fabrica ting inorganic glasses using the sol-
+gel technique emerged in the 1960 ’sw h e nR o y[ 8]
+developed a new method of obtaining homogeneous
+glasses from a sol-gel route in a wide variety of silicate
+and aluminosilicate systems subjected to heating at 600 to
+1000 °C. In the decades since this early work, a vast array
+of inorganic glass materials has been reported. Examples
+include, conventional glass formers, such as silicate,
+phosphate, borate glasses, glass-ceramics, and composite
+materials [ 9, 10]. In this array, multicomponent oxide
+glasses using metal alkoxides from the sol-gel process
+have been reported for use in a wide range of applica-
+tions, including optics, transpar ent electronics, photonics,
+etc. [ 11–13].
+The sol-gel method for obtaining various glass material
+forms have been described extensively and are illustrated in
+Fig. 1 [3, 14–16]. Examples shown include the precipitation
+of glassy or amorphous oxide sols and nanoparticles or
+gelation to form a network and remove solvent by super-
+critical extraction (or other means) to form aerogels
+[17, 18]. These low-density, high surface area materials
+such as nanoparticles and aerogels have found utility in
+applications including catalysis and chemical separations
+[19–22]. The sol can also be used to form thin ﬁlms com-
+monly applied in optical waveguides [ 23], dielectrics [ 24],
+and coating technologies [ 25], or drawn/spun into ﬁbers
+used in various biomaterial and catalysis applications
+[26–28]. From a gel state, xerogels can be obtained upon
+solvent evaporation, leaving a porous material, and fully
+dense bulk materials can be formed through consolidation
+by traditional ceramic processing [ 6, 29, 30]. The basic
+processing principles of glass fabrication by 3D printing, or
+Fig. 1 Sol-gel process for materials synthesis and fabrication. (Center)
+Various routes to different forms of materials. (Left) a A photograph
+from the author ’s research involving a silica sol. Scanning electron
+micrographs of b an amorphous silica xerogel thin ﬁlm and c a
+composite silica-gelatin ﬁber. Photographs of a d silica aerogel and e a
+silica xerogel and f glass. b Reproduced with permission from [ 24],
+Copyright 1998, Elsevier; c Reproduced with permission from [ 26],
+Copyright 2017, Springer Nature; d Reproduced from [ 17], under
+Creative Commons license, 2010, Wiley; e, f Reproduced from [ 29],
+under Creative Commons license 2011, Optica
+2258 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+additive manufacturing, closely follow this last route as
+highlighted in Fig. 1.
+1.2 Additive manufacturing techniques and glass
+AM overview
+Additive manufacturing (AM), popularly known as three-
+dimensional (3D) printing uses 3D model data for man-
+ufacturing objects with precise geometries. In contrast to
+conventional manufacturing processes like machining,
+milling, and carving, which are inherently subtractive
+manufacturing methods, removing material to create an
+object, additive manufacturing provides high precision
+and saves material wastage, often with a considerable
+time penalty [ 31]. In the past four decades, several pop-
+ular 3D printing techniques have been invented for var-
+ious applications and material types. Table 1 gives a brief
+summary of the different 3D printing techniques [ 32].
+The 3D printing techniques shown in Table 1 were
+designed for integrating a diverse range of materials as
+feedstocks, including polymers, metal, and ceramic
+powders, nanomaterials, and nanocomposites, towards
+3D printing a range of plastic [ 33, 34], metal [ 35], cera-
+mic [ 36], and composite structures [ 37]. Still, inorganic
+glass AM applications were not reported until well into
+the twenty- ﬁrst century.
+The earliest reports of inorganic glass (or simply glass,
+from here on) 3D printing were direct AM methods, by
+which conventional bulk glass materials were formed into a
+melt and rapidly cooled at the point of deposition. In 2015,
+striking examples of melt- quenched AM soda-lime glass
+were reported [38]. Here, a molten glass was extruded from
+the nozzle of a crucible kiln into a thermally controlled
+chamber to form the glass part. The print feature resolution
+by this method was relatively large, at approximately 5 cm in
+diameter. A few alternative AM methods using glass rod
+feedstocks were demonstrated around the same time. Two
+approaches using CO2 laser beams involved (a): a powder
+bed fusion (PBF) method (a broader type of selective laser
+sintering, or SLS) that directs the laser source at a silica
+powder bed; and (b), a selective laser melting (SLM) method
+directing the laser source at aﬁne glass ﬁlament fed through
+a support [ 39]. Similarly, a fused deposition modeling
+(FDM) approach was reported by feeding a borosilicate rod
+through a heading nozzle onto a substrate [40]. Later, a PBF
+method was reported for forming porous silica networks with
+improved resolution and shape control [41].
+The direct methodologies discussed demonstrate early
+success in glass AM technology for forming complex
+shapes and structures; however, fabricating glasses
+without print line prominence and surface defects by
+these methods is dif ﬁcult due to thermal gradients, brit-
+tleness, and poor tolerance to process errors [ 42]. Further,
+Table 1 List of 3D printing technology inventions (chronological order)
+3D printing technologies Brief description Materials used Inventor Country of
+origin
+Year
+Stereolithography (SLA) UV resin curing point-by-point Photopolymer or thermoplastic
+resin
+Chuck Hull United States 1983
+Selective laser sintering (SLS) Laser-induced sintering Nylon, polyamide Carl Deckard and Joe Beaman United States 1986
+Digital light processing (DLP) UV light resin curing layer-by-layer Photopolymer-containing resin Larry Hornbeck United States 1987
+Fusion deposition modeling (FDM) Thermoplastic ﬁlament extrusion Thermoplastic polymers,
+polylactic acid
+S. Scott Crump United States 1989
+Sheet lamination or laminated object
+manufacturing (LOM)
+Laser cutter layer-by-layer Paper, polymer, metal Helisys Inc. United States 1991
+Binder jetting Precision casting of material and binder Metal, composites, sand Emanuel Sachs United States 1993
+Direct metal laser sintering (DMLS) or
+selective laser melting (SLM)
+Laser-induced feedstock melting Metals (e.g., stainless steel,
+copper, aluminum)
+EOS (Electro Optical Systems) Germany 1995
+Directed energy deposition (DED) Laser or other energy-source focused coincident
+with controlled feedstock delivery
+Metals (e.g., titanium, steel,
+copper)
+Sandia National Laboratories United States 1995
+Robocasting or direct ink writing (DIW) Viscoelastic ink extrusion Polymers, gels, ceramics, metals Sandia National Laboratories United States 19 96
+Two-photon polymerization (TPP) or direct
+laser writing (DLW)
+Laser-induced photocuring of resins point-by-
+point with high precision
+Photopolymer-containing resin Shoji Maruo, Osamu Nakamura,
+and Satoshi Kawata
+Japan 1997
+Electron-beam melting (EBM) Electron beam melting of material Stainless steel, polymers, titanium Arcam AB Sweden 1997
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2259
+other desirable attributes of AM, such as high-precision
+processing at the sub-millimeter level and multimaterial
+fabrication are less accessible, which gave rise to indirect
+glass AM development.
+Indirect glass AM uses molecular or particle-based
+feedstocks and a multistep process to form a ﬁnal glass
+print. In the particle-based feedstock, a slurry, sol or sus-
+pension is prepared from a blend of organic solvents and/or
+polymers and glass-forming (i.e., silica) particles. Whereas
+in resinous feedstocks, a blend of organic solvents, poly-
+mers and liquid molecular or polymeric inorganic pre-
+cursors are used. Currently, all forms of indirect glass AM
+require additional treatment to remove organic additives and
+transform the print into the desired glass component.
+Typically, post-processing treatments include drying to
+remove solvents, de-binding to remove polymer and organic
+components, and sintering to form the bulk network.
+Figure 2 categorizes different direct and indirect methods
+discussed with simpli ﬁed visual representations.
+Indirect AM techniques for glass production tend to focus
+on either sol-gel or particulate -feedstocks and include stereo-
+lithography (SLA), digital light processing (DLP), two-photon
+polymerization (TPP) and direct ink writing (DIW). The ﬁrst
+three methods are based on photopolymer resins whereas DIW
+is traditionally a robocasting o r slurry extrusion method. In
+recent years, several reviews and a textbook have been pub-
+lished detailing the recent advancements in glass AM [42–44].
+Brieﬂy, several types of glass materials have been printed. The
+earliest report of indirect printing fused silica was an SLA
+method with a resin composed of a UV-curable photopolymer
+and commercially available fumed silica (Aerosil OX50) [45].
+Similarly, at about the same time, a DIW method using fumed
+silica (CAB-O-SIL EH-5) suspended into low vapor pressure
+solvent (tetraglyme) was reported [46].
+Several other indirect glass and glass-ceramic printing
+examples using commercial fumed silica has since been
+reported, including binary glass networks [ 47], photo-
+emissive rare earth dopants [ 48, 49], composites [ 50], and
+those that seek to advance printing technology speci ﬁca-
+tions (e.g., resolution) through either unique resin chemis-
+tries or AM equipment design [ 51–56] In bioactive glass
+(BG) research, a novel 6P53B glass ink was reported from
+mixing glass particles in a solution [ 57]. After homo-
+genizing the solution, the glass ink was obtained through a
+transition from a ﬂuid to gel. These inks were then used for
+the preparation of glass scaffolds using DIW 3D printing.
+There also have been DIW, also-called robocasting,
+approaches using recycled and earth abundant glass mate-
+rials (i.e., sand) [ 58, 59]. As indirect methods inherently
+require a conversion from a polymeric, sol, or gel network
+into the ﬁnal form (glass, ceramic, composite, etc.), as
+highlighted in Fig. 1, these approaches are readily adapted
+to the full gamut of sol-gel chemistries [ 60]. As a result, an
+in-depth discussion on AM with sol-gel feedstocks for glass
+and various other materials is presented.
+2 Sol-gel feedstocks for AM
+The parametric diversity of sol- gel chemistry and processing
+make it enticing for AM feedstock designers. AM feedstocks
+are easily accessible over a range of scales, from molecules to
+macromolecules and colloids through to bulk solids and gels.
+Figure 3 presents a graphic illustrating the natural synergy
+Fig. 2 Glass AM categories and examples illustrated for visualization.
+Direct AM processes involve those where glass part fabrication is
+obtained in the ﬁnal form upon printing. Indirect processes involve
+those where glass additives or precursors (ranging from molecular to
+particulate) are formed and processed post-printing form the ﬁnal
+glass part
+2260 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+between sol-gel synthesis pathways towards forming viable 3D
+printing precursors for myriad AM technologies.
+Conceptually, as shown in Fig. 3, sol-gel chemistry and
+processing can be tuned to synthesize sol-gel “AM pre-
+cursors” over a wide range of length scales. Using hydro-
+lytic sol-gel chemistry as a basis [ 3], molecular or
+monomeric AM precursors can be derived directly from
+alkoxides (shown), salts, and complexes or a hydrolysis
+product following Eq. ( 1):
+Hydrolysis : MðORÞ4 þ nH2O ! MðORÞ4/C0 nðOHÞn þ nROH
+ð1Þ
+M ¼ alkoxide central atom
+These precursors can be directly formulated into a
+feedstock material to undergo further processing either
+during and/or post-print to drive condensation, gelation, and
+network formation, as given by Eqs. ( 2)–(4):
+CondensationðiÞ : /C17 M/C0 OH þ HO/C0 M /C17!/C17 M/C0 O/C0 M /C17þ H2O
+ð2Þ
+CondensationðiiÞ : /C17 M/C0 OR þ HO/C0 M /C17!/C17 M/C0 O/C0 M /C17þ ROH
+ð3Þ
+Polycondensation x ð/C17 M/C0 O/C0 M /C17Þ ! ð/C17 M/C0 O/C0 M /C17Þ x ! MOy
+ð4Þ
+Alternatively, condensation and polycondensation
+chemistry can be controlled to synthesize macromolecular
+and supramolecular precursors, such as polymers and caged
+structures, including polyhedral nanomaterials (e.g., poly-
+hedral oligomeric silsesquioxanes or POSS) [ 61–63].
+Varying reaction chemistry, such as pH, water, or even
+introducing sonication or mechanical shear can be leveraged
+to alter macrostructure and rheology through controlling
+gelation [ 64–67]. Further, synthetically tailored colloids or
+nanoparticles can be obtained under appropriate conditions
+that favor the formation of stable suspensions to sustain
+particle ripening [ 68–70].
+The 3D printing precursors effectively act as ﬁnite
+building blocks that can be formulated into a “AM Feed-
+stocks” either in solution (e.g., a resin for photo-
+polymerization routes, or an ink or slurry with various
+viscosities) or undergoing a sol-gel transition to form a gel
+or xerogel that can be further processed into a powder. The
+AM Feedstocks can then be adapted for use in a range of 3D
+printing technologies, like those described in the previous
+section to form gels, composites, hybrid materials, glasses,
+or ceramic materials in arbitrary geometries. To best illus-
+Fig. 3 Synergistic relationship between sol-gel chemistry and synth-
+esis of 3D printing, or AM precursors, the resulting AM feedstock type
+and examples of the various AM technologies for which those mate-
+rials may be feedstocks, including an example of
+a photopolymerization, b direct ink write, and c solid deposition.
+a Reproduced with permission [ 82], Copyright 2016, American Che-
+mical Society; b Reproduced with permission [ 81], Copyright 2007,
+Wiley; c Reproduced with permission [ 124], Copyright 2011, Elsevier
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2261
+trate the types of materials and AM technologies achieved
+using the described sol-gel AM work ﬂow, a brief review of
+previous reports is provided.
+Ink jetting methods represent one of the most common
+and oldest additive-based technologies using sol-gel feed-
+stocks. The earliest reports from the 1990s and 2000s
+focused on 2D printing by either ink jetting or pin-printing
+low viscosity sols to form patterns and arrays or coating for
+various ceramics and chemical-sensing applications
+[71–75]. To obtain a 3D printed structure, methods that
+control droplet geometry, such as electrohydrodynamic
+(EHD) jet printing have advanced the ﬁeld. EHD is an ink
+jetting method that applies an electric ﬁeld to a solution
+containing ions and/or charged particles in a polarizable
+solvent phase to control droplet shape and addition [ 76].
+This method has shown applications for precise direct
+writing ceramic and oxide nanowires for electronics fabri-
+cation, with nanometer print resolution [ 77, 78].
+Concurrent with ink jetting advancements, early robo-
+casting technologies laid the groundwork for sol-gel –AM
+by introducing the use of thixotropic slurry feedstocks
+comprised of inorganic colloids, a dispersant, and polymeric
+binders to AM ceramic materials. In this method, stable,
+shear-thinning slurries were formulated and extruded
+through a nozzle into printed pre-forms, then treated by
+conventional ceramics processing [ 79, 80]. Following this
+same procedure, in 2007, one of the earliest examples of
+AM sol-gel feedstocks was reported for fabricating micro-
+periodic oxide structures by DIW, shown in Fig. 3b[ 81].
+The ink formulation contained titanium di-isopropoxide
+bisacetylacetonate (TBDA) as the sol-gel precursor dis-
+persed in polyvinylpyrrolidone (PVP), along with ethanol as
+solvent and the necessary reactants (H 2O and NH 4OH). To
+prepare the ink, the added alcohol and hydrolysis products
+were removed by evaporation, yielding a thixotropic, vis-
+coelastic gel amenable for high-resolution (~220 nm feature
+size) printing of anatase and rutile titania ceramics. This
+work paved the way to combining the sol-gel method with
+different AM techniques to synthesize various new
+materials.
+A method using digital light processing (DLP) to fabri-
+cate hybrid nanocomposites was reported which further
+broadened the ﬁeld of sol-gel –AM, shown in Fig. 3a[ 82].
+In this report, the DLP resin contained three main compo-
+nents: (1) tetraethoxysilane (TEOS), undoubtedly the most
+common sol-gel precursor, to form the silica network; and
+(2) a methacrylate functionalized organically modi ﬁed
+silane (a.k.a., an ORMOSIL) which act as a bridging
+molecule to join with the (3) diacrylate polymers via pho-
+toinitiation and TEOS via condensation. In the end, printed
+materials with increasing amounts of TEOS were shown to
+be strengthened by the formation of ~200 nm spherical
+silica nanoparticles throughout the polymer matrix.
+However, more broadly, this work had larger implications,
+as introducing DLP opened the sol-gel –AM space to
+printing parts with optical systems which would dramati-
+cally improve print yield and resolution.
+There have been many other noteworthy examples of sol-
+gel–AM utilizing a wide range technologies for materials
+applications. To give a very brief summary, organic aero-
+gels formed from resorcinol-formaldehyde and graphene
+oxide (GO) have been fabricated by DIW for a range of
+electrical, separation, and catalytic applications [ 83]. A later
+example was reported where silica was introduced instead
+of GO into organic aerogels [ 84]. Silica and mixed oxide
+aerogels have also been reported using DIW technology
+[85]. Laser direct writing has been used to form ceramic,
+vacancy-rich oxide semiconductors (SnO 2 and ZnO),
+designed to fabricate 2D gas-sensing devices with high
+resolution (~1 μm) [ 86]. Templated mesoporous silica
+aerogels have been formed in-situ using DLP and sol-gel
+chemistry, enabling the production of specialized prints
+with speci ﬁc surface areas approaching 400 m 2 g−1 [87]. In
+2020, the DIW of sol-gel titania [ 81] inspired an in-
+operando study that better characterized ﬂow properties,
+shape retention, and microstructural evolution in the
+hydrolyzing ink during 3D printing using X-ray spectro-
+scopy [88]. Further, a 3D inorganic ceramic print achieving
+resolution down to nanoscale (~100 nm) using zirconium-
+silicon based sol-gel prepolymer (SZ2080) precursor was
+reported, which used an ultrafast 3D laser nanolithography
+(3D laser writing) to form polycrystalline ceramics 3D
+structures [ 89].
+In all the examples of sol-gel –AM presented, sol-gel
+chemistry and processing has been key in tailoring the
+material structure at the molecular and nanoscales, while
+simultaneously forming micro- and bulk materials for a
+diverse range of applications, including energy, storage,
+medical, and environmental remediation [ 90, 91]. An
+application where sol-gel –AM has seen much growth is in
+glass materials [ 43, 92]. The ability to obtain materials via
+the sol-gel method and AM glass structures has enabled
+new functional inorganic glasses with compositionally tai-
+lored, high-resolution designer control to be fabricated.
+3 Sol-gel –AM for glass material applications
+Conventional sol-gel synthesis and processing for glass
+materials has been well-studied and explored extensively in
+the last 40 years [ 3, 14]. While facile in a laboratory setting,
+sol-gel chemistry costs, which can include specialized alk-
+oxides, solvents, and chemical reagents, thermal processing,
+and waste generation, make the process for manufacturing
+glass materials at reasonable manufacturing scales prohibi-
+tive [ 93]. AM methods being inherently small-batch and
+2262 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+geared towards specialized, designer needs are a natural
+coupling for sol-gel synthesis.
+The earliest forays into glass sol-gel –AM were exten-
+sions of previous robocasting/DIW and DLP reports of
+glass fabrication, which relied on either solid-based, fumed
+silica particle feedstocks dispersed into organic solvent-
+based slurries (or inks), and photopolymer-containing
+resins, respectively [ 45, 46]. To date, reports have pri-
+marily focused on silicates, with a particular interest in
+optical materials and bioactive glass (BG).
+BG is a prime example of a material and application that
+leverages the advantages of the sol-gel process for tailoring
+the chemical and physical properties of multicomponent
+glasses. BG is a soda-lime silica composition that can be
+formed into a highly porous scaffold material for bone tis-
+sue regeneration applications [ 92, 94]. Silicate glasses are
+the most widely explored sol-gel-derived BG compositions
+with the ﬁrst being developed by Hench in 1969 which is
+traditionally named 45S5 bioglass [ 95]. Following this,
+many other BG and glass-ceramics compositions including
+phosphate, silica-titanate, borate, and borosilicate have been
+extensively researched. Mesoporous bioactive glasses
+(MBGs) are the latest development of sol-gel derived
+glasses exhibiting large surface area and porosity [ 92].
+Being one of the most successful and easily adaptable
+methods, the sol-gel method is popular for BG manufacture
+and given the desire to fabricate BG on-demand in unique
+geometries, they represent a slight majority of publications
+in this area. A literature review was conducted on sol-
+gel–AM glasses through available internet sources includ-
+ing Google Scholar, and Scopus, and it was found that
+nearly 52% ( N = 16) of works have been reported on BG,
+whereas the remaining 48% ( N = 15) were reported on
+other inorganic glasses. A complete list of sol-gel AM BG
+manuscripts is included in the Supporting Information,
+Table S1.
+Reports of BG sol-gel –AM extend back more than a
+decade [ 96]. In 2011, sol-gel synthesis of a simple binary
+SiO2-P2O5 by using a one-step sol-gel slurry and DIW was
+reported [ 97]. However, most reports have centered on
+scaffolds made of BG, glass-ceramics and composites, with
+the use of sol-gel-derived BG powders that are processed
+pre-slurry. Different kinds of sol-gel BG include 13-93
+glass [ 98], 45S5 Bioglass ® [99], and MBGs [ 100] are the
+most common bioactive materials printed. Sol-gel compo-
+sites were initially focused on polymer agents that can
+improve the mechanical properties of the slurry and print,
+such as polyvinyl alcohol (PVA) [ 101], polylactic acid
+[102], and various bio-sustainable materials, including
+methyl cellulose [ 103].
+Several challenges were identi ﬁed in early efforts to
+combine BG sol-gel compositions with DIW, namely, (a)
+the high porosity and speci ﬁc surface area of BG particles
+which requires large quantities of liquid dispersants; and
+(b), leaching of mobile ions, such as Na +, that impact
+particle pH and slurry stability [ 104]. Around that same
+time, alternative AM methods were reported, including an
+example using 58S, a composition of BG that was synthe-
+sized by the sol-gel process and formed into a solid-mixture
+containing nano-glass particles and graphene and fabricated
+into a scaffold network by SLS [ 105]. This method did not
+use a liquid dispersant and reported enhanced mechanical
+properties attributed to the addition of graphene. In recent
+years, progress in DIW BG sol-gel –AM has improved and
+yielded promising in vitro and in vivo studies for future
+applications in medical intervention [ 94, 106]. Unfortu-
+nately for the scope of this review, much of the 3D printing
+BG sol-gel research has taken place outside of North
+America. The lone example is an indirect ﬁlament-based
+AM approach by ﬁrst forming 45S5 BG by sol-gel micro-
+wave synthesis, and then mechanically combining the
+resulting glass with polylactic acid (PLA) [ 102].
+For pure silica glass sol-gel –AM, a diverse breadth of
+chemical methodologies has been explored. An early report
+describes starting from molecular precursors including
+acidic hydrolysis of (1) TEOS, which served as the silica
+precursor, (2) APTMS, an acrylate containing ORMOSIL,
+that served as the polymerizable component, and (3) the
+addition of ammonium acetate and water to promote con-
+densation in the photocurable sol that was coupled with
+stereolithography (SLA) [ 107]. The authors demonstrated
+the formation of gel print forms in unique geometries that
+could then be thermally processed to form xerogel and
+fully-dense, transparent, silica glass objects for a range of
+applications, including miniature chemical glassware.
+Recently, multi-component glass systems, including binary
+(Al2O3-SiO2), ternary (ZnO-Al 2O3-SiO2, TiO2-Al2O3-SiO2),
+and quaternary oxide (CaO-P 2O5-Al2O3-SiO2) were repor-
+ted using DLP [ 55]. The authors were able to further post-
+process modify the printed parts, impregnating the nano-
+porous glass with photo-emissive ions (e.g., Eu 3+,T b 3+),
+nanocrystals (CsPbBr 2Cl), and organic emitters (Rhoda-
+mine 6G). Beyond these reports, several noteworthy North
+American efforts have further advanced glass and optics
+sol-gel–AM and are highlighted at length in the following
+section.
+4 Sol-gel–AM for glass material applications:
+highlights from North America
+A review of the literature (collected from Google Scholar
+and Scopus) shows that the use of 3D printing technology
+for glass materials has grown modestly as seen through the
+bar graph (Fig. 4a) which illustrates the number of articles
+published across other countries and North America from
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2263
+2014 till now. Further, in Fig. 4b different types of AM
+techniques adopted for glass prototyping from North
+America are represented in a pie chart. The pie chart shows
+that among the different printing techniques, DIW has
+represented the largest effort, with photopolymerization
+methods (including SLA, DLP, and TPP), being the second
+most common.
+Figure 5 presents a visual contextualization of the sol-
+gel–AM glass progress from North America, containing
+images and key results from the past 7 years. The graphic is
+Fig. 4 a Research glass sol-gel –AM publications from 2014 till now across other countries and North America and b 3D pie chart showing
+different glass sol-gel –AM techniques from North America
+Fig. 5 A graphical summary of sol-gel glass AM advances, con-
+textualizing and highlighting work from North America. a Reproduced
+with permission [ 46], Copyright 2017, Wiley; b Reproduced with
+permission [ 108], Copyright 2018, Wiley; c Reproduced from [ 110],
+under Creative Commons license, 2020, American Association for the
+Advancement of Science; d Reproduced with permission [ 109],
+Copyright 2022, Elsevier; e Reproduced from [ 114], under Creative
+Commons license, 2022, Wiley; f Reproduced with permission [ 45],
+Copyright 2017, Springer Nature; g Reproduced with permission
+[107], Copyright 2018, American Chemical Society; h Reproduced
+from [ 115]), under Creative Commons license 2022, Wiley;
+i Reproduced with permission [ 116]), Copyright 2024, Wiley
+2264 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+divided in half to represent most works, which fall into
+either direct write or lithography (including photo-
+polymerization methods such as DLP and TPP). As detailed
+in the “Introduction” section, sol-gel AM for glass material
+applications is an indirect method, coupling procedures and
+technologies previously published using fumed silica
+[45, 46] with the various sol-gel AM precursors and feedstocks
+detailed in the “Sol-gel feedstocks for AM ” section/Fig. 3.
+A complete list of manuscripts authored on sol-gel –AM for
+glass material applications from North American can be
+found in the Supporting Information, Table S2, for easy of
+review to accompany the discussion.
+4.1 DIW
+Within North America, there has been signi ﬁcant progress
+developing DIW glass AM, primarily leveraging the
+advantages of particulate or colloidal sol-gel precursors to
+prepare slurry inks for single composition, mixed compo-
+sition, and multimaterial glass printing. This sol-gel
+approach mirrors a previously described indirect AM
+report (Fig. 5a) [ 46]. In the sol-gel version, the glass pre-
+cursors particles were SiO 2 colloids (~22 nm in diameter)
+synthesized by the Stöber method [ 68] from TEOS, and
+binary raspberry-like SiO 2-TiO2 colloids between
+25–40 nm in diameter were grown with the addition of
+titanium isopropoxide [ 108]. A graphic depicting the par-
+ticles and glass is shown in Fig. 5b. The resulting inks were
+conveniently one-pot from particle synthesis to suspension
+formulation, and were approximately 35 wt % inorganic
+solids loading. A range of silica and silica-titania glasses
+(0–8 w t%T i O 2) were reported and characterized. Most
+notably, this was the ﬁrst report of optical quality glasses,
+as compared to melt-quench standard fused silica and ultra-
+low expansion (or ULE) glasses on several structural,
+physical, and optical properties. It also demonstrated the
+ability to tune material composition using sol-gel
+chemistry.
+An international collaboration between three groups,
+including one in North America, reported an approach
+combining sol-gel with fumed silica feedstocks in a UV-
+cured DIW AM method to achieve transparent fused silica
+glass with improved mechanical properties (Fig. 5d) [ 109].
+The ink comprised of Aerosil ® OX50 and TEOS along with
+photopolymer ((hydroxyethyl)methacrylate (HEMA),
+2-phenoxyethanol (POE), and tetra (ethylene glycol) dia-
+crylate (TEGDA). The addition of TEOS to the ink was
+shown to improve the solids loading in the ink (from 40 to
+50 wt %), while simultaneously improving shear-thinning
+behavior, and sintered-glass transparency. The imple-
+mentation of UV-curing further improved printed-part
+stiffness, as shown by rheological measurements and
+printing examples.
+The ﬁrst example of multimaterial glass prints was for
+silica and silica-titania glasses using a mixed precursor
+approach. Hydrophilic fumed silica particles were combined
+with TBDA to create the inks [ 47]. In this work, funda-
+mental colloid model equations were applied relating elastic
+modulus to particle charge and size to regulate ink rheology
+to minimize viscoelastic response differences between inks
+composed of silica and those of silica-TBDA. Doing so
+enabled controlled blending of the two inks in-line pre-
+nozzle to program print compositional pro ﬁles and was the
+ﬁrst report of a gradient composition glass print. Such
+incremented advancements ultimately came together
+demonstrating the power of DIW and glass sol-gel –AM for
+fabricating conventional and freeform gradient refractive
+index (GRIN) lenses [ 110]. Here, as shown in Fig. 5c,
+compositional gradient designs were achieved within the
+print by using the ink formulations described in [ 108], and
+varying the concentration of titania which served as the
+index-modifying dopant, ultimately achieving a refractive
+index range of 1.46 –1.49.
+Looking at other glass-former systems, germania-silica
+glasses were ﬁrst demonstrated using a mixed particle
+approach. A dilute sol was prepared by adding a tetra-
+ethoxygermane (TEOG) sol to a TEOS sol, in other words,
+independent GeO2 and SiO2 species were mixed. Following
+a similar one-pot approach to the method described, the ink
+was obtained, printed by DIW, and then converted to
+glasses with varying germania concentrations (0 –5w t % )
+[111]. A core-shell germania-silica colloidal system was
+later reported, presenting similar results, with optical quality
+transparent DIW glasses up to 6 wt % GeO 2 [112]. How-
+ever, in both methods, compositional inhomogeneity was
+observed by electron spectroscopy at the microscale,
+believed to be due to diffusivity of Ge in silica at high
+temperatures [ 113] and challenges with precursor particle
+synthetic control, respectively.
+The ﬁrst reported AM ternary glass system was achieved
+using a mixture of GeO 2 colloids and TiO 2-SiO2 core-shell
+feedstocks towards improving the refractive index range
+(Δn) (Fig. 5e) [ 114]. A transparent glass composed of 20/
+15/65 (w/w/w, %) GeO 2-TiO2-SiO2 was printed that gave a
+refractive index of 1.576, which is a Δn of 0.115 in com-
+parison to pure silica glass. Interestingly, the authors found
+titania had a larger effect on the refractive index, while
+germania had a larger impact on dispersion. Challenges
+were noted as increasing concentrations in ternary glasses
+were limited by the anatase TiO 2 crystallization and phase
+separation of GeO 2, diminishing optical transmission. Still,
+this work tremendously improved the achievable Δn with
+signiﬁcant implications for AM GRIN optics with tailored
+index and dispersion pro ﬁles. It also demonstrates multi-
+dimensional, cross-compatibility of amorphous sol-gel col-
+loids for AM glass.
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2265
+4.2 Photopolymerization/lithography
+Prominent glass AM technologies from North America
+include photopolymerization strategies utilizing sol-gel-
+based macromolecular structures in resinous feedstocks.
+These approaches differ from DIW efforts which generally
+seek to advance multimaterial capabilities; instead, they
+primarily focus on single composition glass printing,
+towards improving print resolution and reducing post-print
+processing. The earliest example of such was a TPP 3D
+printing technique combined with a sol-gel resin to achieve
+transparent glass micro-optics for high-precision applica-
+tions (Fig. 5h) [ 115]. Here, a solvent-free liquid silica resin
+(LSR) was synthesized by hydrolyzing and pre-condensing
+an acid-catalyzed tetramethoxysilane (TMOS) precursor
+with sub-stoichiometric amounts of water, along with a
+photocurable crosslinking silane, methacryloxymethyl-
+trimethoxysilane (MMTS). Unlike sol-gel processes that
+commence from molecular feedstocks, the LSR comprises
+of macromolecular structures that include a polymerized
+core with hydrolyzable and organic substituents, minimiz-
+ing the presence of undesired purely organic products
+within the resin. Post-printing, the hydrolyzable groups and
+organic groups cross-link via condensation and UV-curing,
+respectively, and the parts were thermally processed to form
+high-density silica structures. This work demonstrated the
+capability of the method for AM imaging micro-optics,
+including a lens and spectrometer system orders of magni-
+tude smaller than conventional equivalents.
+A similar approach was adapted utilizing polyhedral
+oligomeric silsesquioxanes (POSS) as silica precursors [ 53].
+Here, a commercially obtained acrylic POSS (poly-
+octahedral silsesquioxanes, Hybrid Plastics MA0736) was
+mixed with trifunctional monomer and photoinitiator and
+used to print micro-optical components by TPP. The report
+does not identify this work as being sol-gel; however, such
+POSS solid precursors require stabilization in a sol resin,
+and the unfunctionalized groups (here, ethoxides) ultimately
+require hydrolysis and condensation, in addition to the
+acrylate cross-linkage, undergoing a sol-gel transition and
+needing additional thermal treatment to render the inorganic
+glass. Thermogravimetric analysis of the resin shows that
+the ﬁnal silica glass component accounts for approximately
+35–40 wt % and suggests full density glass is formed under
+700 °C and is “sinterless”.
+Adding to the macromolecular approach, the team that
+reported an LSR, developed a POSS-like feedstock, referred
+to as a polymeric silsesquioxane (PSQ) resin (Fig. 5i) [116].
+The report touted reduced shrinkage, improved print ﬁde-
+lity, lower temperature processing, and improved moisture
+stability, a challenge for macromolecular oxo-structures
+which tend to hydrolyze and gel with ambient water. The
+PSQ resin enabled TPP glass print resolution of <200 nm,
+and network glass condensation at 650 °C, with increased
+inorganic loading, at ~ 46.2 wt %. While much of this
+manuscript is discussed in comparison to [ 53], another key
+advancement in this report includes incorporation of a zir-
+conium alkoxide precursor stabilized with methyl acrylic
+acid to form a TPP Zr-doped silica glass resin. An example
+of a multimaterial weld print featuring a micro-optic with a
+base formed from a silica PSQ followed by adjoining a lens
+formed from a 5% Zr-doped PSQ was shown and char-
+acterized in detail.
+5 Prospectus and perspective on sol-gel –AM
+for glass and other materials
+The breadth of approaches from North America demon-
+strates the synergy between sol-gel feedstocks and indirect
+glass AM, from macromolecular to synthetically tailored
+colloids or nanoparticles. While the full range of sol-
+gel–AM combinations are far from realized, the bene ﬁts of
+synthetic control across multiple length scales are undeni-
+able. Despite the immense opportunity, feedstock pairings
+with AM technologies have been largely siloed. Colloidal
+sol-gel feedstocks have been preferred in DIW printing,
+while molecular and macromolecular sol-gel precursors
+have been preferred in photopolymerization resins. Theo-
+retically, there is no reason that (1) colloidal feedstocks
+cannot be equally as useful for photopolymerization, so
+long as they do not interfere with the wavelengths necessary
+for photocuring; and (2), macromolecular sol-gel precursors
+can be used for DIW and extrusion-based methods so long
+as they exhibit thixotropic rheological behavior. Reports
+described here present examples suggesting the validity of
+the ﬁrst ([ 45, 52]) and second ([ 109]) points. Research
+cross-pollinating and intermixing approaches could more
+rapidly advance the ﬁeld and yield intriguing new results.
+Glass AM reports have primarily focused on silica
+printing, with emphasis on improving feature resolution
+using existing feedstock approaches (i.e., fumed silica
+photopolymer composite resins, sol-gel precursors, etc.)
+combined with new AM technologies. The drive to push
+resolution is fueled by optical applications, and rightfully
+addresses those needs; however, careful analysis of the
+published data suggests that only slight material improve-
+ments have been realized from the earliest reports. For
+example, the push for low temperature processing and
+“sinterless” glasses are on trend, but curiously, thermo-
+gravimetric analysis from the earliest reports of sol-gel and
+fumed-silica glass AM shows similar pro ﬁles with complete
+decomposition of non-glass additives below 700 °C
+[45, 108]. Without the full complement of key optical silica
+glass characterization metrics (e.g., hydroxyl content, Q-
+speciation, porosity/density, and residual organic content,
+2266 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+etc.) such claims of network densi ﬁcation are challenging to
+assess. Efforts to more directly improve inorganic solids
+loading in sol-gel and other indirect glass AM feedstocks
+would be more valuable to advance the ﬁeld, as well as
+efforts to advance lower-density and hybrid (inorganic-
+organic) glass AM prints for new applications spaces.
+Still, there are new opportunities to integrate sol-gel
+materials with emerging AM methods. Two promising AM
+technologies include volumetric additive manufacturing
+(VAM) and laser powder deposition (LPD). VAM enables
+rapid prototyping using microscale computed axial litho-
+graphy (micro-CAL) [ 117]. Parts can be fabricated rapidly
+by this method without the limitations of slurry viscosity
+and printed part mechanical strength, which are major
+issues for building complex geometries by DIW and con-
+ventional photopolymerization techniques, respectively. A
+recent effort to develop fumed silica particle resins
+demonstrated that precursors with up to 40 vol. % silica
+solids (the equivalent of ~ 60 wt %) were achievable with
+only 25% shrinkage [ 118]. LDP uses powder jetting in a gas
+stream to deposit material at a point coincident with a CO 2
+laser beam, where particles are either sintered or melted
+onto substrate or other particles [ 117]. Examples of multi-
+material printing for ﬁber optic applications with silica,
+alumina, titania, and erbia powders were demonstrated. Sol-
+gel materials could be integrated into either technology for
+optical glass and ceramic AM, while VAM could be par-
+ticularly bene ﬁcial for hybrid sol-gel applications.
+Looking beyond silica, very limited research into glass
+sol-gel–AM has been presented in the literature, as shown in
+Table S2. This is likely because of the signi ﬁcance of silica
+glass in a wide range of technologies, as well as the wealth
+of research in sol-gel silica chemistry and processing. Pur-
+suing new compositions incurs a signi ﬁcant time investment
+to advance chemical and physical understanding of the
+synthetic and processing routes available. The parametric
+nature of sol-gel has historically been the source of allure to
+novices, as well as joy and bewilderment for practitioners.
+Towards that end, materials discovery innovation in the
+areas of automation, machine learning, and arti ﬁcial intel-
+ligence present new, appealing opportunities for exploring
+sol-gel AM, as has been shown in other areas of materials
+science and engineering [ 119, 120]. Multimaterial AM also
+presents unique opportunities to interrogate basic materials
+science and chemistry questions by rapidly generating wide
+compositional ranges and combinations of materials for
+characterization and testing [ 121, 122].
+Beyond glass and ceramics applications, sol-gel proces-
+sing has been a cornerstone technology for forming com-
+posites, and hybrid organic-inorganic amorphous materials
+for diverse applications including chemical separations,
+sensors, and antifouling materials [ 6, 123]. Much research
+exists leveraging the controllability of the sol-to-gel
+transition for thin ﬁlm and coating applications, as well as
+two-dimensional printing methods, like ink jetting. How-
+ever, 3D printing offers an opportunity to hierarchically
+control material structure and produce multimaterial com-
+positions in ways that have not been explored. Revisiting
+and integrating AM with sol-gel technologies is likely a
+fertile space for new research in fabricating novel materials
+and devices.
+Data availability
+No datasets were generated or analyzed during the current
+study.
+Supplementary information The online version contains supplemen-
+tary material available at https://doi.org/10.1007/s10971-025-06664-1.
+Acknowledgements Funding to support the authors was provided by
+the National Science Foundation Award DMR-2144453, and the
+Research Corporation for Science Advancement (RCSA) Cottrell
+Scholar Award.
+Author contributions MM collected and analyzed the literature, wrote
+much of sections “Introduction”, “Sol-gel feedstocks for AM ” and
+“Sol-gel–AM for glass material applications ”, and prepared Table 1,
+Fig. 4, and obtained copyright access to reproduced images. JFD
+prepared Figs. 1–3, 5 and wrote the remaining portions, as well as the
+perspective and prospective components. All authors reviewed the
+manuscript.
+Compliance with ethical standards
+Conﬂict of interest The authors declare no competing interests.
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article ’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article ’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.
+org/licenses/by/4.0/.
+References
+1. Sakka S (2016) History of the sol –gel chemistry and technology.
+In: Klein L, Aparicio M, Jitianu A (eds) Handbook of sol-gel
+science and technology, 1st edn. Springer International Pub-
+lishing, Cham, pp 1 –27
+2. Brinker CJ, Scherer GW (1985) Sol → gel → glass: I. Gelation
+and gel structure. J Non Cryst Solids 70:301 –322. https://doi.org/
+10.1016/0022-3093(85)90103-6
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2267
+3. Brinker CJ, Scherer GW (1990) Sol-gel science: the physics and
+chemistry of sol-gel processing. Academic Press, Boston, MA,
+USA
+4. Avnir D (1995) Organic chemistry within ceramic matrixes:
+doped sol-gel materials. Acc Chem Res 28:328 –334. https://doi.
+org/10.1021/ar00056a002
+5. Wen J, Wilkes GL (1996) Organic/inorganic hybrid network
+materials by the sol-gel approach. Chem Mater 8:1667 –1681.
+https://doi.org/10.1021/cm9601143
+6. Danks AE, Hall SR, Schnepp Z (2016) The evolution of
+‘sol–gel’ chemistry as a technique for materials synthesis. Mater
+Horiz 3:91 –112. https://doi.org/10.1039/C5MH00260E
+7. Sumida K, Liang K, Reboul J et al. (2017) Sol-gel processing of
+metal-organic frameworks. Chem Mater 29:2626 –2645. https://
+doi.org/10.1021/acs.chemmater.6b03934
+8. Roy R (1969) Gel route to homogeneous glass preparation. J Am
+Ceram Soc 52:344 –344. https://doi.org/10.1111/j.1151-2916.
+1969.tb11945.x
+9. Roy R (2010) Glass science and glassmaking: a personal per-
+spective. Int J Appl Glass Sci 1:3 –15. https://doi.org/10.1111/j.
+2041-1294.2010.00002.x
+10. Sakka S (2022) Birth of the sol –gel method: early history. J Sol
+Gel Sci Technol 102:478 –481. https://doi.org/10.1007/s10971-
+021-05640-9
+11. Dislich H, Hinz P (1982) Histor y and principles of the sol-gel
+process, and some new multicomponent oxide coatings. J Non Cryst
+Solids 48:11–16. https://doi.org/10.1016/0022-3093(82)90242-3
+12. Brinker CJ, Mukherjee SP (1981) Conversion of monolithic gels
+to glasses in a multicomponent silicate glass system. J Mater Sci
+16:1980–1988. https://doi.org/10.1007/BF00540646
+13. Yoshida M, Prasad PN (1996) Sol-gel-processed SiO 2/TiO2/
+Poly(vinylpyrrolidone) composite materials for optical wave-
+guides. Chem Mater 8:235 –241. https://doi.org/10.1021/
+cm950331o
+14. Aegerter MA (2004) Sol-gel technologies for glass producers
+and users. Springer, New York, NY, USA
+15. Pénard A-L, Gacoin T, Boilot J-P (2007) Functionalized sol-gel
+coatings for optical applications. Acc Chem Res 40:895 –902.
+https://doi.org/10.1021/ar600025j
+16. Kang DJ, Bae B-S (2007) Photo-imageable sol-gel hybrid
+materials for simple fabrication of micro-optical elements. Acc
+Chem Res 40:903 –912. https://doi.org/10.1021/ar6000439
+17. Gurav JL, Jung I-K, Park H-H, et al (2010) Silica aerogel:
+synthesis and applications. J Nanomater 2010. https://doi.org/10.
+1155/2010/409310
+18. Liu P, Gao H, Chen X et al. (2020) In situ one-step construction
+of monolithic silica aerogel-based composite phase change
+materials for thermal protection. Compos B Eng 195:108072.
+https://doi.org/10.1016/j.compositesb.2020.108072
+19. Bokov D, Turki Jalil A, Chupradit S et al. (2021) Nanomaterial
+by sol‐gel method: synthesis and application. Adv Mater Sci Eng
+2021:5102014. https://doi.org/10.1155/2021/5102014
+20. Borlaf M, Moreno R (2021) Colloidal sol-gel: a powerful low-
+temperature aqueous synthesis route of nanosized powders and
+suspensions. Open Ceram 8:100200. https://doi.org/10.1016/j.
+oceram.2021.100200
+21. Gash AE, Tillotson TM, Satcher Jr JH et al. (2001) New sol –gel
+synthetic route to transition and main-group metal oxide aerogels
+using inorganic salt precursors. J Non Cryst Solids 285:22 –28.
+https://doi.org/10.1016/S0022-3093(01)00427-6
+22. Pierre AC, Pajonk GM (2002) Chemistry of aerogels and their
+applications. Chem Rev 102:4243 –4266. https://doi.org/10.1021/
+cr0101306
+23. Alberti S, Jágerská J (2021) Sol-gel thin ﬁlm processing for
+integrated waveguide sensors. Front Mater 8:629822. https://doi.
+org/10.3389/fmats.2021.629822
+24. Hong J-K, Kim H-R, Park H-H (1998) The effect of sol viscosity
+on the sol –gel derived low density SiO2 xerogel ﬁlm for inter-
+metal dielectric application. Thin Solid Films 332:449 –454.
+https://doi.org/10.1016/S0040-6090(98)01045-1
+25. Detty MR, Ciriminna R, Bright FV, Pagliaro M (2014) Envir-
+onmentally benign sol –gel antifouling and foul-releasing coat-
+ings. Acc Chem Res 47:678 –687. https://doi.org/10.1021/a
+r400240n
+26. Greenhalgh RD, Ambler WS, Quinn SJ et al. (2017) Hybrid
+sol–gel inorganic/gelatin porous ﬁbres via solution blow spin-
+ning. J Mater Sci 52:9066 –9081. https://doi.org/10.1007/s10853-
+017-0868-1
+27. Mazrouei-Sebdani Z, Naeimirad M, Peterek S et al. (2022)
+Multiple assembly strategies for silica aerogel- ﬁber combinations
+—a review. Mater Des 223:111228. https://doi.org/10.1016/j.ma
+tdes.2022.111228
+28. Larsen G, Gonzalez D, Noriega S, Ragusa J (2024) Twenty years
+of making inorganic ultra ﬁne ﬁbers via electrospinning and
+sol–gel techniques I: an update on catalysis, photocatalysis, and
+adsorption R&D opportunities. Chem Eng Commun
+211:1469–1493. https://doi.org/10.1080/00986445.2024.2347915
+29. El Hamzaoui H, Bigot L, Bouwmans G et al. (2011) From
+molecular precursors in solution to microstructured optical ﬁber:
+a sol-gel polymeric route. Opt Mater Express 1:234. https://doi.
+org/10.1364/OME.1.000234
+30. Righini GC, Armellini C, Ferrari M et al. (2023) Sol –gel pho-
+tonic glasses: from material to application. Materials 16:2724.
+https://doi.org/10.3390/ma16072724
+31. Frazier WE (2014) Metal additive manufacturing: a review. J
+Mater Eng Perform 23:1917 –1928. https://doi.org/10.1007/
+s11665-014-0958-z
+32. Fidan I, Huseynov O, Ali MA et al. (2023) Recent inventions in
+additive manufacturing: holistic review. Inventions 8:103.
+https://doi.org/10.3390/inventions8040103
+33. Tan LJ, Zhu W, Zhou K (2020) Recent progress on polymer
+materials for additive manufacturing. Adv Funct Mater
+30:2003062. https://doi.org/10.1002/adfm.202003062
+34. Pal AK, Mohanty AK, Misra M (2021) Additive manufacturing
+technology of polymeric materials for customized products:
+recent developments and future prospective. RSC Adv
+11:36398–36438. https://doi.org/10.1039/D1RA04060J
+35. Cooke S, Ahmadi K, Willerth S, Herring R (2020) Metal addi-
+tive manufacturing: technology, metallurgy and modelling. J
+Manuf Process 57:978 –1003. https://doi.org/10.1016/j.jmapro.
+2020.07.025
+36. Lakhdar Y, Tuck C, Binner J et al. (2021) Additive manu-
+facturing of advanced ceramic materials. Prog Mater Sci
+116:100736. https://doi.org/10.1016/j.pmatsci.2020.100736
+37. Wang Y, Zhou Y, Lin L et al. (2020) Overview of 3D additive
+manufacturing (AM) and corresponding AM composites. Com-
+pos Part A Appl Sci Manuf 139:106114. https://doi.org/10.1016/
+j.compositesa.2020.106114
+38. Klein J, Stern M, Franchin G et al. (2015) Additive manu-
+facturing of optically transparent glass. 3D Print Addit Manuf
+2(3):92–105. https://doi.org/10.1089/3dp.2015.0021
+39. Luo J, Pan H, Kinzel EC (2014) Additive manufacturing of
+glass. J Manuf Sci Eng 136:1 –6. https://doi.org/10.1115/1.
+4028531
+40. Jackson B (2016) Micron3DP & MIT 3D printing in molten
+glass. 3dprintingindustry.com
+41. Datsiou KC, Saleh E, Spirrett F et al. (2019) Additive manu-
+facturing of glass with laser powder bed fusion. J Am Ceram Soc
+102:4410–4414. https://doi.org/10.1111/jace.16440
+42. Zhang D, Liu X, Qiu J (2021) 3D printing of glass by additive
+manufacturing techniques: a review. Front Optoelectron
+14:263–277. https://doi.org/10.1007/s12200-020-1009-z
+2268 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+43. Xin C, Li Z, Hao L, Li Y (2023) A comprehensive review on
+additive manufacturing of glass: recent progress and future out-
+look. Mater Des 227:111736. https://doi.org/10.1016/j.matdes.
+2023.111736
+44. Rapp B, Kotz-Helmer F (2024) Additive manufacturing of glass
+from science to applications, 1st edn, Elsevier, Amsterdam,
+Netherlands
+45. Kotz F, Arnold K, Bauer W et al. (2017) Three-dimensional
+printing of transparent fused silica glass. Nature 544:337 –339
+46. Nguyen DT, Meyers C, Yee TD et al. (2017) 3D-printed trans-
+parent glass. Adv Mater 29:1701181. https://doi.org/10.1002/a
+dma.201701181
+47. Dudukovic NA, Wong LL, Nguyen DT et al. (2018) Predicting
+nanoparticle suspension viscoelasticity for multimaterial 3D
+printing of silica-titania glass. ACS Appl Nano Mater
+1:4038–4044. https://doi.org/10.1021/acsanm.8b00821
+48. Liu C, Qian B, Ni R et al. (2018) 3D printing of multicolor
+luminescent glass. RSC Adv 8:31564 –31567. https://doi.org/10.
+1039/C8RA06706F
+49. Zhang D, Xiao W, Liu C et al. (2020) Highly ef ﬁcient phosphor-
+glass composites by pressureless sintering. Nat Commun
+11:2805. https://doi.org/10.1038/s41467-020-16649-z
+50. Duncan B, Beck D, Miller P et al. (2024) Low-temperature
+additive manufacturing of silica glass composites. ACS Mater
+Lett 6:720–728. https://doi.org/10.1021/acsmaterialslett.3c01510
+51. Moore DG, Barbera L, Masania K, Studart AR (2020) Three-
+dimensional printing of multicomponent glasses using phase-
+separating resins. Nat Mater 19:212 –217. https://doi.org/10.
+1038/s41563-019-0525-y
+52. Wen X, Zhang B, Wang W et al. (2021) 3D-printed silica with
+nanoscale resolution. Nat Mater 20:1506 –1511. https://doi.org/
+10.1038/s41563-021-01111-2
+53. Bauer J, Crook C, Baldacch ini T (2023) A sinterless, low-
+temperature route to 3D print nanos cale optical-grade glass. Sci-
+ence 380(1979):960–966. https://doi.org/10.1126/science.abq3037
+54. Li M, Yue L, Rajan AC et al. (2023) Low-temperature 3D
+printing of transparent silica glass microstructures. Sci Adv
+9:eadi2958. https://doi.org/10.1126/sciadv.adi2958
+55. Li B, Li Z, Cooperstein I et al. (2023) Additive manufacturing of
+transparent multi-component nanoporous glasses. Adv Sci
+10:2305775. https://doi.org/10.1002/advs.202305775
+56. Barbera L, Korhonen H, Masania K, Studart AR (2024) Phase-
+separating resins for light-based three-dimensional printing of
+oxide glasses. Sci Rep 14:12323. https://doi.org/10.1038/
+s41598-024-63069-w
+57. Fu Q, Saiz E, Rahaman MN, Tomsia AP (2011) Bioactive glass
+scaffolds for bone tissue engineering: state of the art and future
+perspectives. Mater Sci Eng C 31:1245 –1256. https://doi.org/10.
+1016/j.msec.2011.04.022
+58. Ting GHA, Tay YWD, Qian Y, Tan MJ (2019) Utilization of
+recycled glass for 3D concrete printing: rheological and
+mechanical properties. J Mater Cycles Waste Manag
+21:994–1003. https://doi.org/10.1007/s10163-019-00857-x
+59. Liu J, Li S, Gunasekara C et al. (2022) 3D-printed concrete with
+recycled glass: effect of glass gradation on ﬂexural strength and
+microstructure. Constr Build Mater 314:125561. https://doi.org/
+10.1016/j.conbuildmat.2021.125561
+60. Innocenzi P (2023) Sol-gel processing for advanced ceramics, a
+perspective. Open Ceram 16:100477. https://doi.org/10.1016/j.
+oceram.2023.100477
+61. Schottner G (2001) Hybrid sol −gel-derived polymers: applica-
+tions of multifunctional materials. Chem Mater 13:3422 –3435.
+https://doi.org/10.1021/cm011060m
+62. Tanaka K, Chujo Y (2012) Advanced functional materials based
+on polyhedral oligomeric silsesquioxane (POSS). J Mater Chem
+22:1733–1746. https://doi.org/10.1039/C1JM14231C
+63. Shi H, Yang J, You M et al. (2020) Polyhedral oligomeric sil-
+sesquioxanes (POSS)-based hybrid soft gels: molecular design,
+material advantages, and emerging applications. ACS Mater Lett
+2:296–316. https://doi.org/10.1021/acsmaterialslett.9b00491
+64. Martin JE, Adolf D (1991) The sol-gel transition in chemical
+gels. Annu Rev Phys Chem 42:311 –339. https://doi.org/10.
+1146/annurev.pc.42.100191.001523
+65. Innocenzi P (2020) Understanding sol –gel transition through a
+picture. A short tutorial. J Sol Gel Sci Technol 94:544 –550.
+https://doi.org/10.1007/s10971-020-05243-w
+66. Ilyin SO, Arinina MP, Malkin AYA, Kulichikhin VG (2016)
+Sol–gel transition and rheological properties of silica nano-
+particle dispersions. Colloid J 78:608 –615. https://doi.org/10.
+1134/S1061933X16050070
+67. Toprakcioglu Z, Knowles TPJ (2021) Shear-mediated sol-gel
+transition of regenerated silk allows the formation of Janus-like
+microgels. Sci Rep 11:6673. https://doi.org/10.1038/s41598-
+021-85199-1
+68. Stober W, Fink A, Bohn AE (1968) Controlled growth of
+monodisperse silica spheres in the micron size range. J Colloid
+Interface Sci 26:62 –69. https://doi.org/10.1016/0021-9797(68)
+90272-5
+69. Bogush GH, Tracy MA, Zukoski CFI (1988) Preparation of
+monodisperse silica particles: control of size and mass fraction. J
+Non Cryst Solids 104:95 –106. https://doi.org/10.1016/0022-
+3093(88)90187-1
+70. Chen H-S, Kumar RV (2012) Sol –gel TiO2 in self-organization
+process: growth, ripening and sintering. RSC Adv 2:2294.
+https://doi.org/10.1039/c2ra00782g
+71. Atkinson A, Doorbar J, Hudd A et al. (1997) Continuous ink-jet
+printing using sol-gel “Ceramic” inks. J Sol Gel Sci Technol
+8:1093–1097. https://doi.org/10.1007/BF02436989
+72. Yoldas BE (1998) Design of sol-gel coating media for ink-jet
+printing. J Sol Gel Sci Technol 13:147 –152. https://doi.org/10.
+1023/A:1008640413941
+73. Cho EJ, Bright FV (2002) Pin-printed chemical sensor arrays for
+simultaneous multianalyte quanti ﬁcation. Anal Chem
+74:1462–1466. https://doi.org/10.1021/ac010907v
+74. Mougenot M, Lejeune M, Baumard J F et al. (2006) Ink jet printing
+of microdot arrays of mesostructured silica. J Am Ceram Soc
+89:1876–1882. https://doi.org/10.1111/j.1551-2916.2006.01048.x
+75. Hossain SMZ, Luckham RE, Smith AM et al. (2009) Develop-
+ment of a bioactive paper sensor for detection of neurotoxins
+using piezoelectric inkjet printing of sol −gel-derived bioinks.
+Anal Chem 81:5474 –5483. https://doi.org/10.1021/ac900660p
+76. Galliker P, Schneider J, Eghlidi H et al. (2012) Direct printing of
+nanostructures by electrostatic autofocussing of ink nano-
+droplets. Nat Commun 3:890. https://doi.org/10.1038/
+ncomms1891
+77. Can TTT, Ko H-L, Choi W-S (2021) EHD-jet patterned MoS 2
+on a high-k dielectric for high mobility in thin ﬁlm transistor
+applications. Nanotechnology 32:245710. https://doi.org/10.
+1088/1361-6528/abed05
+78. Shi S, Abbas Z, Zheng X et al. (2024) Direct writing of sus-
+pended nanowires using coaxial electrohydrodynamic jet with
+double tip assistance. J Sol Gel Sci Technol 111:202 –215.
+https://doi.org/10.1007/s10971-024-06454-1
+79. Lewis JA (2000) Colloidal processing of ceramics. J Am Ceram
+Soc 83:2341 –2359. https://doi.org/10.1111/j.1151-2916.2000.
+tb01560.x
+80. Sigmund WM, Bell NS, Berg ström L (2000) Novel powder-
+processing methods for advan ced ceramics. J Am Ceram Soc
+83:1557–1574. https://doi.org/10.1111/j.1151-2916.2000.tb01432.x
+81. Duoss EB, Twardowski M, Lewis JA (2007) Sol-gel inks for
+direct-write assembly of functional oxides. Adv Mater
+19:3485–3489. https://doi.org/10.1002/adma.200701372
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2269
+82. Chiappone A, Fantino E, Roppolo I et al. (2016) 3D printed
+PEG-based hybrid nanocomposites obtained by sol-gel techni-
+que. ACS Appl Mater Interfaces 8:5627 –5633. https://doi.org/
+10.1021/acsami.5b12578
+83. Zhu C, Han TYJ, Duoss EB et al. (2015) Highly compressible
+3D periodic graphene aerogel microlattices. Nat Commun
+6:6962. https://doi.org/10.1038/ncomms7962
+84. Yang J, Wang H, Zhou B et al. (2021) Versatile direct writing of
+aerogel-based sol-gel inks. Langmuir 37:2129 –2139. https://doi.
+org/10.1021/acs.langmuir.0c03312
+85. Zhao S, Siqueira G, Drdova S et al. (2020) Additive manu-
+facturing of silica aerogels. Nature 584:387 –392. https://doi.org/
+10.1038/s41586-020-2594-0
+86. Long J, Chen X, Mao T et al. (2023) Laser direct writing of sol-gel-
+derived vacancy-rich functional oxide semiconductors. ACS Nano
+17:10033–10040. https://doi.org/10.1021/acsnano.2c12163
+87. Gluns J, Zhao L, Spiehl D, et al (2024) 3D printing of ordered
+mesoporous silica using light-induced sol-gel chemistry. Adv
+Funct Mater 2405511. https://doi.org/10.1002/adfm.202405511
+88. Torres Arango MA, Zhang Y, Li R et al. (2020) In-operando
+study of shape retention and microstructure development in a
+hydrolyzing sol-gel ink during 3D-printing. ACS Appl Mater
+Interfaces 12:51044 –51056. https://doi.org/10.1021/acsami.
+0c14743
+89. Gailevi čius D, Padolskyt ė V, Mikoli ūnaitė L et al. (2019)
+Additive-manufacturing of 3D glass-ceramics down to nanoscale
+resolution. Nanoscale Horiz 4:647 –651. https://doi.org/10.1039/
+C8NH00293B
+90. Guo Z, Zhou C (2021) Recent advances in ink-based additive
+manufacturing for porous structures. Addit Manuf 48:102405
+91. Chandrasekaran S, Lin D, Li Y, Worsley MA (2023) Aerogels,
+additive manufacturing, and energy storage. Joule 7:866 –883.
+https://doi.org/10.1016/j.joule.2023.03.021
+92. Deshmukh K, Ková řík T, K řenek T et al. (2020) Recent
+advances and future perspectives of sol –gel derived porous
+bioactive glasses: a review. RSC Adv 10:33782 –33835. https://
+doi.org/10.1039/D0RA04287K
+93. Baccile N, Babonneau F, Thomas B, Coradin T (2009) Intro-
+ducing ecodesign in silica sol –gel materials. J Mater Chem
+19:8537. https://doi.org/10.1039/b911123a
+94. Piatti E, Miola M, Verné E (2024) Tailoring of bioactive glass
+and glass-ceramics properties for in vitro and in vivo response
+optimization: a review. Biomater Sci 12:4546 –4589. https://doi.
+org/10.1039/D3BM01574B
+95. Hench LL (2006) The story of Bioglass ®. J Mater Sci Mater Med
+17:967–978. https://doi.org/10.1007/s10856-006-0432-z
+96. Gmeiner R, Deisinger U, Schönherr J et al. (2015) Additive
+manufacturing of bioactive glasses and silicate bioceramics. J
+Ceram Sci Technol 6:75 –86. https://doi.org/10.4416/JCST2015-
+00001
+97. García A, Izquierdo-Barba I, Colilla M et al. (2011) Preparation
+of 3-D scaffolds in the SiO2 –P2O5 system with tailored hier-
+archical meso-macroporosity. Acta Biomater 7:1265 –1273.
+https://doi.org/10.1016/j.actbio.2010.10.006
+98. Luo G, Ma Y, Cui X et al. (2017) 13-93 bioactive glass/alginate
+composite scaffolds 3D printed under mild conditions for bone
+regeneration. RSC Adv 7:11880 –11889. https://doi.org/10.1039/
+C6RA27669E
+99. Motealleh A, Eqtesadi S, Pajares A et al. (2017) Case study:
+Reinforcement of 45S5 bioglass robocast scaffolds by HA/PCL
+nanocomposite coatings. J Mech Behav Biomed Mater
+75:114–118. https://doi.org/10.1016/j.jmbbm.2017.07.012
+100. Baino F, Fiume E (2020) 3D printing of hierarchical scaffolds based
+on mesoporous bioactive glasses (MBGs) —fundamentals and
+applications. Materials 13:1688.https://doi.org/10.3390/ma13071688
+101. Wu C, Luo Y, Cuniberti G et al. (2011) Three-dimensional
+printing of hierarchical and tough mesoporous bioactive glass
+scaffolds with a controllable pore architecture, excellent
+mechanical strength and mineralization ability. Acta Biomater
+7:2644–2650. https://doi.org/10.1016/j.actbio.2011.03.009
+102. Estrada SAM, Armendáriz IO, García AT et al. (2017) Evalua-
+tion of in vitro bioactivity of 45S5 bioactive glass/poly lactic acid
+scaffolds produced by 3D printing. Int J Compos Mater
+7:144–149. https://doi.org/10.5923/j.cmaterials.20170705.03
+103. Fermani M, Platania V, Kavasi R-M et al. (2021) 3D-printed
+scaffolds from alginate/methyl cellulose/trimethyl chitosan/sili-
+cate glasses for bone tissue engineering. Appl Sci 11:8677.
+https://doi.org/10.3390/app11188677
+104. Ben-Arfa BAE, Neto AS, Palamá IE et al. (2019) Robocasting of
+ceramic glass scaffolds: sol –gel glass, new horizons. J Eur
+Ceram Soc 39:1625 –1634. https://doi.org/10.1016/j.jeurcera
+msoc.2018.11.019
+105. Gao C, Liu T, Shuai C, Peng S (2014) Enhancement mechanisms
+of graphene in nano-58S bioactive glass scaffold: mechanical
+and biological performance. Sci Rep 4:4712. https://doi.org/10.
+1038/srep04712
+106. Bento R, Gaddam A, Oskoei P et al. (2021) 3D printing of macro
+porous sol-gel derived bioactive glass scaffolds and assessment
+of biological response. Materials 14:5946. https://doi.org/10.
+3390/ma14205946
+107. Cooperstein I, Shukrun E, Press O et al. (2018) Additive man-
+ufacturing of transparent silica glass from solutions. ACS Appl
+Mater Interfaces 10:18879 –18885. https://doi.org/10.1021/acsa
+mi.8b03766
+108. Destino JF, Dudukovic NA, Johnson MA et al. (2018) 3D
+printed optical quality silica and silica-titania glasses from sol-
+gel feedstocks. Adv Mater Technol 3:1 –10. https://doi.org/10.
+1002/admt.201700323
+109. De Marzi A, Giometti G, Erler J et al. (2022) Hybrid additive
+manufacturing for the fabrication of freeform transparent silica
+glass components. Addit Manuf 54:102727. https://doi.org/10.
+1016/j.addma.2022.102727
+110. Dylla-Spears R, Yee TD, Sasan K et al. (2020) 3D printed gra-
+dient index glass optics. Sci Adv 6:1 –8. https://doi.org/10.1126/
+sciadv.abc7429
+111. Sasan K, Lange A, Yee TD et al. (2020) Additive manufacturing
+of optical quality germania-silica glasses. ACS Appl Mater
+Interfaces 12:6736 –6741. https://doi.org/10.1021/acsami.
+9b21136
+112. Chinn AC, Marsh EL, Nguyen T et al. (2022) Silica-
+encapsulated germania colloids as 3D-printable glass pre-
+cursors. ACS Omega 7:17492 –17500. https://doi.org/10.1021/
+ACSOMEGA.2C02292
+113. Lange AP, Sasan K, Bayu Aji LB et al. (2022) Mass transport in
+binary TiO 2:SiO2 and GeO 2:SiO2 direct ink write glasses. J Am
+Ceram Soc 105:4681 –4690. https://doi.org/10.1111/jace.18422
+114. Ha J, Sasan K, Yee TD et al. (2022) Refractive index and abbe
+number tuning via 3D printable optical quality silica-titania-
+germania glasses. Adv Photonics Res 3:2200017. https://doi.org/
+10.1002/adpr.202200017
+115. Hong Z, Ye P, Loy DA, Liang R (2022) High-precision printing
+of complex glass imaging optics with precondensed liquid silica
+resin. Adv Sci 9:2105595. https://doi.org/10.1002/advs.
+202105595
+116. Ye P, Hong Z, Loy DA, Liang R (2024) Solvent ‐free silses-
+quioxane self ‐welding for 3D printing multi ‐refractive index
+glass objects. Adv Opt Mater 12:2400783. https://doi.org/10.
+1002/adom.202400783
+117. Toombs JT, Luitz M, Cook CC et al. (2022) Volumetric additive
+manufacturing of silica glass with microscale computed axial
+2270 Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271
+lithography. Science 376(1979):308 –312. https://doi.org/10.
+1126/science.abm6459
+118. Myers LA, Schwartz JJ, De Beer MP et al. (2024) Development
+of transparent, particle ‐loaded photoresins for volumetric addi-
+tive manufacturing of silica glass. J Polym Sci 62:2683 –2691.
+https://doi.org/10.1002/pol.20230654
+119. Wang C, Tan XP, Tor SB, Lim CS (2020) Machine learning in
+additive manufacturing: state-of-the-art and perspectives. Addit
+Manuf 36:101538. https://doi.org/10.1016/j.addma.2020.101538
+120. Liu M, Lei C, Wang Y, et al (2024) High ‐throughput preparation
+for alloy composition design in additive manufacturing: a com-
+prehensive review. Mater Genome Eng Adv 2. https://doi.org/10.
+1002/mgea.55
+121. Rocha VG, Saiz E, Tirichenko IS, García-Tuñón E (2020) Direct
+ink writing advances in multi-material structures for a sustainable
+future. J Mater Chem A Mater 8:15646 –15657. https://doi.org/
+10.1039/D0TA04181E
+122. Zhu C, Gemeda HB, Duoss EB, Spadaccini CM (2024) Toward
+multiscale, multimaterial 3D printing. Adv Mater 36:2314204.
+https://doi.org/10.1002/adma.202314204
+123. Ciriminna R, Fidalgo A, Pandarus V et al. (2013) The sol-gel
+route to advanced silica-based materials and recent applications.
+Chem Rev 113:6592 –6620. https://doi.org/10.1021/cr300399c
+124. Liu F-H, Shen Y-K, Liao Y-S (2011) Selective laser gelation of
+ceramic–matrix composites. Compos B Eng 42:57 –61. https://
+doi.org/10.1016/j.compositesb.2010.09.011
+Journal of Sol-Gel Science and Technology (2025) 116:2257 –2271 2271

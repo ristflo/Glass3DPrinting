@@ -1,0 +1,704 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        25
+      ]
+    ],
+    "date-time": "2026-09-25T00:37:42Z",
+    "timestamp": 1790296662501,
+    "version": "4.1.0"
+  },
+  "reference-count": 51,
+  "publisher": "Wiley",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            8
+          ]
+        ],
+        "date-time": "2019-01-08T00:00:00Z",
+        "timestamp": 1546905600000
+      },
+      "content-version": "am",
+      "delay-in-days": 365,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            1,
+            8
+          ]
+        ],
+        "date-time": "2018-01-08T00:00:00Z",
+        "timestamp": 1515369600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000015",
+      "name": "U.S. Department of Energy",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/100000015",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100006227",
+      "name": "Lawrence Livermore National Laboratory",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "DE‐AC52‐07NA27344"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DE‐AC52‐07NA27344"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100006227",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Adv Materials Technologies"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2018,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>A method for fabricating optical quality silica and silica–titania glasses by three‐dimensional (3D) printing is reported. Key to this success is the combination of sol–gel derived silica and silica–titania colloidal feedstocks, direct ink writing (DIW) technology, and conventional glass thermal processing methods. Printable silica and silica–titania sol inks are prepared directly from molecular precursors by a simple one‐pot method, which is optimized to yield viscous, shear‐thinning colloidal suspensions with tuned rheology ideal for DIW. After printing, the parts are dried and sintered under optimized thermal conditions to ensure complete organic removal and uniform densification without crystallization. Characterizations of the 3D‐printed pure silica and silica–titania glasses show that they are equivalent to commercial optical fused silica and silica–titania glasses. More specifically, they exhibit comparable chemical composition, SiO<jats:sub>2</jats:sub> network structure, refractive index, dispersion, optical transmission, and coefficient of thermal expansion. 3D‐printed silica and silica–titania glasses also exhibit comparable polished surface roughness and meet refractive index homogeneity standards within range of commercial optical grade glasses. This method establishes 3D printing as a viable tool to create optical glasses with compositional and geometric configurations that are inaccessible by conventional optical fabrication methods.</jats:p>",
+  "DOI": "10.1002/admt.201700323",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        10
+      ]
+    ],
+    "date-time": "2018-01-10T02:28:58Z",
+    "timestamp": 1515551338000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 98,
+  "title": [
+    "3D Printed Optical Quality Silica and Silica–Titania Glasses from Sol–Gel Feedstocks"
+  ],
+  "prefix": "10.1002",
+  "volume": "3",
+  "author": [
+    {
+      "given": "Joel F.",
+      "family": "Destino",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Chemistry Department Creighton University  Omaha NE 68178 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nikola A.",
+      "family": "Dudukovic",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Michael A.",
+      "family": "Johnson",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Du T.",
+      "family": "Nguyen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Timothy D.",
+      "family": "Yee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Garth C.",
+      "family": "Egan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "April M.",
+      "family": "Sawvel",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "William A.",
+      "family": "Steele",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Theodore F.",
+      "family": "Baumann",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Eric B.",
+      "family": "Duoss",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9086-1039",
+      "authenticated-orcid": false,
+      "given": "Tayyab",
+      "family": "Suratwala",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1602-4448",
+      "authenticated-orcid": false,
+      "given": "Rebecca",
+      "family": "Dylla‐Spears",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Livermore National Laboratory  P.O. Box 808 Livermore CA 94551 USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        8
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_7_1_1",
+      "volume-title": "Handbook of Glass Properties",
+      "author": "Bansal N. P.",
+      "year": "2006"
+    },
+    {
+      "key": "e_1_2_7_2_1",
+      "volume-title": "Introduction to Glass Science and Technology",
+      "author": "Shelby J. E.",
+      "year": "2009"
+    },
+    {
+      "key": "e_1_2_7_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1151-2916.1970.tb12146.x"
+    },
+    {
+      "key": "e_1_2_7_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/el:19830398"
+    },
+    {
+      "key": "e_1_2_7_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022-3093(97)00263-9"
+    },
+    {
+      "key": "e_1_2_7_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.29.004061"
+    },
+    {
+      "key": "e_1_2_7_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmat4570"
+    },
+    {
+      "key": "e_1_2_7_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmat4782"
+    },
+    {
+      "key": "e_1_2_7_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/srep43401"
+    },
+    {
+      "key": "e_1_2_7_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.aaa2397"
+    },
+    {
+      "key": "e_1_2_7_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11665-014-0958-z"
+    },
+    {
+      "key": "e_1_2_7_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adma.201301400"
+    },
+    {
+      "key": "e_1_2_7_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmat4561"
+    },
+    {
+      "key": "e_1_2_7_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1108/13552541111124761"
+    },
+    {
+      "key": "e_1_2_7_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1115/1.4028531"
+    },
+    {
+      "key": "e_1_2_7_16_1",
+      "first-page": "V001T02A108",
+      "volume-title": "Proc. ASME 2015 Int. Manufacturing Science and Engineering Conf",
+      "author": "Luo J.",
+      "year": "2015"
+    },
+    {
+      "key": "e_1_2_7_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1115/1.4035182"
+    },
+    {
+      "key": "e_1_2_7_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature22061"
+    },
+    {
+      "key": "e_1_2_7_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adma.201506089"
+    },
+    {
+      "key": "e_1_2_7_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adma.201701181"
+    },
+    {
+      "key": "e_1_2_7_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2017.10.005"
+    },
+    {
+      "key": "e_1_2_7_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/la00014a025"
+    },
+    {
+      "key": "e_1_2_7_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s002040100266"
+    },
+    {
+      "key": "e_1_2_7_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adma.200701372"
+    },
+    {
+      "key": "e_1_2_7_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-3093(88)90187-1"
+    },
+    {
+      "key": "e_1_2_7_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0927-7757(00)00556-2"
+    },
+    {
+      "key": "e_1_2_7_27_1",
+      "volume-title": "Sol‐Gel Science: The Physics and Chemistry of Sol‐Gel Processing",
+      "author": "Brinker C. J.",
+      "year": "1990"
+    },
+    {
+      "key": "e_1_2_7_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0165-1633(81)90027-7"
+    },
+    {
+      "key": "e_1_2_7_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022-3093(02)01629-0"
+    },
+    {
+      "key": "e_1_2_7_30_1",
+      "volume-title": "Sol‐Gel Technologies for Glass Producers and Users",
+      "author": "Aegerter M. A.",
+      "year": "2011"
+    },
+    {
+      "key": "e_1_2_7_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/am400441v"
+    },
+    {
+      "key": "e_1_2_7_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/am401124j"
+    },
+    {
+      "key": "e_1_2_7_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/la991548q"
+    },
+    {
+      "key": "e_1_2_7_34_1",
+      "volume-title": "Colloidal Suspension Rheology",
+      "author": "Mewis J.",
+      "year": "2012"
+    },
+    {
+      "key": "e_1_2_7_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C7SM01035D"
+    },
+    {
+      "key": "e_1_2_7_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/cm00002a016"
+    },
+    {
+      "key": "e_1_2_7_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-3093(82)90250-2"
+    },
+    {
+      "key": "e_1_2_7_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-3093(86)90112-2"
+    },
+    {
+      "key": "e_1_2_7_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF00488372"
+    },
+    {
+      "key": "e_1_2_7_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0040-6090(99)00139-X"
+    },
+    {
+      "key": "e_1_2_7_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/ijms131215925"
+    },
+    {
+      "key": "e_1_2_7_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/la900578u"
+    },
+    {
+      "key": "e_1_2_7_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp3012798"
+    },
+    {
+      "key": "e_1_2_7_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/cm0508423"
+    },
+    {
+      "key": "e_1_2_7_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/anie.201006057"
+    },
+    {
+      "key": "e_1_2_7_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1151-2916.1976.tb10936.x"
+    },
+    {
+      "key": "e_1_2_7_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2041-1294.2012.00080.x"
+    },
+    {
+      "key": "e_1_2_7_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.colsurfa.2014.01.061"
+    },
+    {
+      "key": "e_1_2_7_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/jace.12631"
+    },
+    {
+      "key": "e_1_2_7_50_1",
+      "unstructured": "T.Suratwala personal communication."
+    },
+    {
+      "key": "e_1_2_7_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1151-2916.1982.tb10420.x"
+    }
+  ],
+  "container-title": [
+    "Advanced Materials Technologies"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fadmt.201700323",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/admt.201700323",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/admt.201700323",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/am-pdf/10.1002/admt.201700323",
+      "content-type": "application/pdf",
+      "content-version": "am",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/admt.201700323",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        6
+      ]
+    ],
+    "date-time": "2025-10-06T12:58:24Z",
+    "timestamp": 1759755504000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admt.201700323"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        8
+      ]
+    ]
+  },
+  "references-count": 51,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/admt.201700323"
+  ],
+  "URL": "https://doi.org/10.1002/admt.201700323",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "2365-709X",
+    "2365-709X"
+  ],
+  "issn-type": [
+    {
+      "value": "2365-709X",
+      "type": "print"
+    },
+    {
+      "value": "2365-709X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        8
+      ]
+    ]
+  },
+  "article-number": "1700323"
+}

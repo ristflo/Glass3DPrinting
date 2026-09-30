@@ -1,0 +1,64 @@
+% ---------------------------------------------------------------------------
+%  Additive Manufacturing of Molten Hot Glass: A State-of-the-Art Review
+%  Modular LaTeX monograph. Build: tectonic -X compile main.tex  (or latexmk -pdf)
+% ---------------------------------------------------------------------------
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=22mm,top=24mm,bottom=24mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=green!40!black,urlcolor=blue!70!black]{hyperref}
+\usepackage[capitalise,noabbrev]{cleveref}
+\usepackage{enumitem}
+\usepackage{rotating}
+\usepackage{multirow}
+
+\graphicspath{{figures/}}
+\sisetup{range-phrase=--,range-units=single,separate-uncertainty=true}
+\captionsetup{font=small,labelfont=bf,width=0.95\linewidth}
+\setlength{\parskip}{3pt plus 1pt}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\degC}{\si{\celsius}}
+\newcommand{\Tg}{T_{\mathrm{g}}}
+
+\title{\textbf{Additive Manufacturing of Molten Hot Glass:\\ A State-of-the-Art Review of Direct Deposition Processes, Physics, Hardware, Open Problems and the Academic--Industrial Landscape (2015--2026)}}
+\author{Autonomous research compilation (Claude Code agent)\\ \small Workspace: \texttt{glass\_am\_research/}, compiled \today}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Direct deposition of molten glass, in which the glass is in a liquid or highly viscous state at the moment it is laid down, is the only family of glass additive manufacturing (AM) processes that produces fully dense, optically transparent glass without a post-print sintering step. This monograph reviews the field from the first fully automated molten soda-lime extrusion printer (MIT G3DP, 2015) to the closed-loop laser-heated digital glass forming systems and commercial cane-fed desktop machines of 2026. It distinguishes strictly between direct molten deposition and indirect nanocomposite routes, treats the governing physics (Vogel--Fulcher--Tammann viscosity, Hagen--Poiseuille gravity feed, Rayleigh--Plateau and viscous-thread instabilities, transient radiative cooling and thermal stress), catalogues the hardware (crucibles, ceramic and platinum--rhodium nozzles, kiln architectures, CO$_2$-laser filament heads, four-axis kinematics), surveys in-situ monitoring and annealing strategies, and formulates the open research problems: devitrification, bubble entrapment, layer-seam optics, residual stress, nozzle corrosion and closed-loop slump control. Three comparative directories are provided: a modality comparison matrix, an academic-group directory with key publications, and an industrial-systems directory. The review is based on a harvested corpus of 66 resolved peer-reviewed works, four patents, manufacturer datasheets and industry sources, all catalogued in a machine-readable manifest.
+\end{abstract}
+
+\tableofcontents
+\clearpage
+
+\input{sections/01_introduction_taxonomy}
+\input{sections/02_thermal_materials_physics}
+\input{sections/03_hardware_nozzle_kinematics}
+\input{sections/04_in_situ_monitoring_annealing}
+\input{sections/05_open_problems_research_frontiers}
+\input{sections/06_academic_landscape_map}
+\input{sections/07_industrial_landscape_spinoffs}
+\input{sections/08_future_outlook_roadmap}
+
+\clearpage
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}

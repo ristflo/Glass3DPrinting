@@ -1,0 +1,1072 @@
+Received: 16 July 2021
+Revised: 20 May 2022
+Accepted: 21 May 2022
+DOI: 10.1111/jace.18638
+R E S E A RC H A RT I C L E
+Powder-fed directed energy deposition of soda lime silica
+glass on glass substrates
+Fiona Spirrett1
+Kyriaki Corinna Datsiou1
+Marlin Magallanes2
+Ian Ashcroft1
+Ruth Goodridge1
+1Centre for Additive Manufacturing,
+Faculty of Engineering, University of
+Nottingham, Nottingham, UK
+2Glass Technology Services Ltd,
+Chapeltown, Sheffield, UK
+Correspondence
+Ruth Goodridge, Centre for Additive
+Manufacturing, Faculty of Engineering,
+University of Nottingham, Nottingham
+NG8 1BB, UK.
+Email: ruth.goodridge@nottingham.ac.uk
+Present address
+Fiona Spirrett, Joining and Welding
+Research Institute, Osaka University,
+Suita, Japan.
+Kyriaki Corinna Datsiou, Department of
+Engineering and Technology, University
+of Hertfordshire, Hatfield, Hertfordshire,
+UK.
+Funding information
+EPSRC (Engineering and Physical
+Sciences Research Council, UK) Centre
+for Doctoral Training in Additive
+Manufacturing and 3D Printing,
+Grant/Award Number: EP/L01534X/1;
+Glass Technology Services
+Abstract
+Novel glass processing by powder-fed directed energy deposition was explored
+as a method of adding glass décor to glass surfaces and bottles. Consistent, semi-
+transparent, single-line tracks of soda lime silica glass could be processed onto
+glass substrates of the same composition, without significant cracks forming in
+the substrate. A suitable processing window was found with laser power and scan
+speed showing independent effects on processing. Consideration of processing
+surface conditions and reduction of laser transmission through transparent sub-
+strates was necessary, and the use of an adhesive tape layer aided adhesion of
+glass feedstock to substrate surfaces. The work demonstrates the potential for
+a one-step method of glass bottle decoration for the packaging industry, with
+scope to create 3D designs of high geometric complexity and customizability on
+glass substrates, thereby adding value to glass packaging by brand differentiation
+without the high costs associated with molds and tooling.
+K E Y WO R D S
+additive manufacturing, directed energy deposition, glass, laser, powder, soda lime silica
+1
+INTRODUCTION
+Glass is extensively used in a wide range of indus-
+tries due to its high chemical resistance, durability,
+and esthetic appeal. Traditional glass decoration meth-
+ods include techniques such as embossing, engraving,
+and etching. Laser engraving applies decorative features
+onto the surfaces of glass objects with a laser (typically
+Nd:YAG pulsed),1 whereas conventional engraving works
+by abrading glass surfaces using small abrasive wheels
+and drills, or diamond-tipped burrs. However, these dec-
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the
+original work is properly cited.
+© 2022 The Authors. Journal of the American Ceramic Society published by Wiley Periodicals LLC on behalf of American Ceramic Society.
+orations are often opaque in nature, and the processes
+impart stresses, creating or exaggerating defects that can
+cause cracking or fracturing. Embossing glass objects to
+impart decoration involves the use of molds. For this, the
+customization of design is limited, as each new design
+requires a new mold, increasing associated costs. Fabri-
+cation of customized glass packaging by glass molding in
+small production volumes may, therefore, incur greater
+costs than other methods. Chemical wet etching, while
+low cost, shows poor repeatability and has risks associated
+with chemical contamination.2 Many of these techniques
+J Am Ceram Soc. 2023;106:227–240.
+wileyonlinelibrary.com/journal/jace
+227
+
+
+228
+SPIRRETT et al.
+require multiple production steps to fabricate a customized
+end-product, whereas additive manufacturing (AM) could
+be used to fabricate bespoke glass products in a single step
+with no added cost for customization.
+Glass-AM offers an alternative method for glass decora-
+tion, with the benefit of high geometric freedom, making
+the fabrication of bespoke glass items possible at efficient
+cost.3 A number of AM techniques have been investi-
+gated for glass processing; however, little progress has
+so far been made in glass-on-glass AM, with much of
+the literature reporting processing of glass onto ceramic
+substrates, or methods requiring multiple processing and
+post-processing steps. For example, Nguyen et al. demon-
+strated AM of silica inks by direct ink writing to produce
+transparent glass objects; however, the shrinkage of parts
+during post-process densification was reported.4 Although
+shrinkage is expected during sintering, this needs to be
+accounted for in the model design to achieve accurate part
+dimensions. Further, Dylla-Spears et al. described the chal-
+lenges faced during the fabrication of transparent silica
+parts with gradient refractive index by direct ink writing
+and demonstrated the fabrication of simple geometries
+that required polishing for optical applications.5 Mul-
+tistep AM processing of glass has also been reported
+by Kotz et al., fabricating complex, transparent parts
+from silica inks by stereolithography (SLA) and two-
+photon polymerization.6,7 Some of the challenges reported
+included the shrinkage of parts during post-process heat
+treatments and difficulties removing uncured material
+from hollow structures for SLA. These AM techniques
+require thermal post-processing steps in order to achieve
+densification and remove non-glass substituents, often
+resulting in volumetric shrinking, reducing the geometri-
+cal accuracy of parts, and increasing manufacturing time
+and cost.
+Single-step AM methods have been used to process
+glass-on-ceramic substrates. Klein demonstrated material
+extrusion of molten glass through a ceramic nozzle in a
+layer-by-layer manner to fabricate optically transparent,
+decorative glass parts.8 However, the achievable resolution
+of parts was limited by layer thickness and nozzle diame-
+ter. Glass-on-glass processing was not demonstrated using
+this method, as parts were built on a ceramic substrate to
+deliberately reduce adhesion at annealing temperatures to
+allow removal of parts.9
+The potential benefits of powder bed fusion methods
+of AM have been demonstrated for glass processing in
+a small number of publications. Datsiou et al. demon-
+strated the processing of soda lime silica glass powder
+by selective laser melting (SLM) onto a ceramic substrate
+and optimized parameters for fabrication of parts with
+high geometrical complexity, such as lattices.10 However,
+the parts produced were opaque due to the presence of
+unfused powder on the surface of the structures and high
+internal porosity. The process involved removing the glass
+structures from the ceramic substrate. Datsiou et al. further
+evaluated SLM-processed glass parts, revealing a flexu-
+ral strength of between 6 and 7 MPa for 1 × 2 × 8-mm3
+structures.11 The feasibility of processing quartz glass by
+SLM was investigated by Khmyrov et al., reporting lim-
+ited success in processing glass on substrates of the same
+composition.12 Further work achieved crack-free process-
+ing of quartz glass on glass substrates, likely thanks to the
+extremely low coefficient of thermal expansion (CTE) of
+quartz glass composition (0.5 × 10−6◦C−1)13 avoiding crack-
+ing caused by thermal stress.14 Comparatively, soda lime
+silica glass, with a much higher CTE of 9 × 10−6◦C−1,15
+has been reported to be much more susceptible to ther-
+mal shock during laser treatment.16 Fateri and Gebhardt
+reported the challenges of processing soda lime silica, the
+common composition for drinkware and bottles, by SLM,
+but did not investigate the processing of glass onto a glass
+substrate.17 Opaque, decorative pieces were fabricated
+for jewelry applications.18 The feasibility of processing
+borosilicate glass by SLM was demonstrated by Eichler
+et al., again experiencing adhesion of loose powder to
+part surfaces due to the dissipation of heat energy within
+the powder bed and requiring a post–heat treatment to
+improve the surface finish.19 The reduction in geometri-
+cal accuracy caused by the dissipation of energy through a
+melt pool in powder bed fusion of glass was also noted by
+Luo et al., who also observed a reduction in transparency
+caused by bubble formation.20
+Directed energy deposition (DED) is a single-step pro-
+cess using a high-powered laser to melt wire or powder
+feedstock as they are deposited on to a suitable substrate.
+The wire-fed approach to DED processing of glass fila-
+ments has so far demonstrated simple geometries of soda
+lime silica, borosilicate, and quartz onto a glass substrate.
+Thermal stress and cracking were avoided by employing a
+heated stage; however, the resolution of parts was limited
+by filament size, and the demonstrated geometries were
+limited to walls and simple deposits.21 von Witzendorff
+et al. presented continuous and discontinuous processing
+of quartz glass filaments by DED, and similarly simple
+geometries were demonstrated.22 Melting of 2-mm borosil-
+icate glass filaments has also been described by Capps
+et al., by a digital glass forming method.23 CO2 laser irradi-
+ation was used to melt the glass filament onto a borosilicate
+substrate heated to 450◦C. Transparent structures were
+fabricated; however, resolution and geometric complexity
+appeared to be limited by the large filament size. Pow-
+der feedstock can be used instead of filaments in DED
+to improve resolution; however, to the authors’ knowl-
+edge, DED of glass powders has not been explored in the
+available literature.
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+SPIRRETT et al.
+229
+F I G U R E 1
+Scanning electron microscopy (SEM) micrographs of SLSG-C glass feedstock at (A): 200× magnification and (B): 600×
+magnification
+This study has therefore investigated novel glass pro-
+cessing by powder-fed DED, processing soda lime silica
+glass powder onto a substrate of the same composition.
+Soda lime silica is a common glass composition used in
+applications requiring transparency, and durability, but
+not requiring as much resistance to thermal shock as other
+compositions such as borosilicate. For this reason, it is a
+popular composition for glass bottles and drinkware as it is
+cost-effective and meets all physical requirements. Devel-
+oping AM processing for soda lime silica glass would allow
+it to be used for the decoration of glass items. This com-
+position also has a low melting point and glass transition
+temperature with a wide working range relative to other
+glass compositions, allowing processing at lower energy
+densities. The initial focus of this study was on produc-
+ing single-layered glass tracks on 1-mm substrates, before
+progressing to more complex structures and processing
+onto substrates of 4-mm thickness, and then curved bot-
+tle surfaces with varying wall thickness. Ultimately, this
+study explores the possibility of utilizing powder-fed DED
+to add value in the glass packaging industry, with poten-
+tial exploitation for other applications or fabrication of
+complex, 3D glass parts.
+2
+EXPERIMENTAL DESCRIPTION
+2.1
+Material characterization
+Soda lime silica beads (73SiO2, 13Na2O, 9CaO, 4MgO, and
+1Al2O3), “SLSG-C” were characterized for DED investiga-
+tions (supplied by Glass Technology Services Ltd, UK). The
+feedstock was imaged by scanning electron microscopy
+(SEM) (TM3030, Hitachi, Japan) and measured by laser
+diffraction (Mastersizer 3000, Malvern, UK) to determine
+an average particle size (Dv50) and particle size distribu-
+tion (PSD). SLSG-C presented as a fine, spherical powder
+with some irregular particles within the sample (Figure 1).
+Average particle size was measured as Dv50 = 45 µm
+and PSD as 23–63 µm. The sample demonstrated a Gaus-
+sian PSD, with a relatively wide distribution, which is
+potentially problematic as a large quantity of fine parti-
+cles can reduce the flowability of a powder due to high
+interparticulate forces between smaller particles.24
+Basic flowability energy (BFE), specific energy (SE), and
+flow rate index (FRI) were measured by powder rheome-
+try (FT4 Powder Rheometer, Freeman Technology, UK) to
+determine flow characteristics. BFE is a measure of total
+energy (mJ) and relates to the energy required for the mate-
+rial to flow under confined conditions, akin to those in a
+powder bed. SE is a measure of the energy required for
+material to flow under non-confined flow (mJ/g), which
+is applicable to material being delivered through a nozzle.
+FRI is a measure of sensitivity to flow rate and represents
+the cohesiveness of a powder (i.e., the attractive interac-
+tions among particles due to surface energies and Van der
+Waals forces). SLSG-C showed a high FRI value (1.16), sug-
+gesting significant cohesion due to high inter-particulate
+forces among fine particles. This material also had a BFE
+of 172 mJ, and an SE of 2.22 mJ/g, higher values than those
+measured for larger PSDs with better flow characteristics,
+suggesting a reduced flowability in confined and non-
+confined environments. Further material data is available
+in the Supporting Information section. Laser absorbance at
+the wavelength of interest, 1070 nm, was measured by UV–
+Vis and Fourier transform infrared (FTIR) spectroscopy
+with an absorbance of A = 0.39 cm−1.
+2.2
+DED system
+A custom-made, modular DED system at the University of
+Nottingham was used for this work (Figure 2). This setup
+incorporated a laser, a material feeder, multiple material
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+230
+SPIRRETT et al.
+F I G U R E 2
+Schematic diagram of the directed energy deposition (DED) processing setup and photograph of the side-nozzle delivery
+setup: (A) lateral powder nozzle, (B) laser, (C) argon nozzle, (D) glass substrates affixed to base plate, and (E) darkened base plate
+feedstock nozzles, and a translational stage. A CW Yb fiber
+laser (IPG Photonics, USA) that operates at a wavelength
+of 1070 nm and has a spot size of 1 mm at focus was used
+to process the soda lime silica material described in Sec-
+tion 2.1. The laser operates up to 2-kW power and was used
+in conjunction with a multi-axis stage (Zaber, USA), capa-
+ble of translation in the x- and y-directions with speeds of
+up to 100 mm/s. The multi-axis stage was controlled via
+a computer program, through which G-code files could
+be translated. The process of file preparation involved the
+creation of specific features, such as straight lines, curves,
+and a combination of both, using a 3D CAD package,
+SOLIDWORKS (Dassault Systèmes, FR), and editing of the
+STL file to give single layers written in G-code. The laser
+was mounted on a z axis for multilayer processing. Differ-
+ent feedstock delivery attachments were available, a 1-mm
+coaxial nozzle, and a 2-mm side nozzle, for powder feed.
+An automatic powder feeder (Model 1264, Miller Ther-
+mal Inc, USA) was used in conjunction with the powder
+nozzles, able to vary carrier gas pressure (L/min) and pow-
+der flow rate (powder wheel speed—rpm). An argon bag
+was used for shielding and containment of powder. Soda
+lime silica glass substrates of varying thickness (1, 4, and
+5–7 mm) were mounted to the stage for processing.
+2.3
+Experimental setup
+2.3.1
+Feedstock delivery system
+An automatic powder feeder was used with two separate
+nozzle attachments (Figure 4). Powder was delivered by
+a volumetric feed principle, whereby powder was rotated
+and collected in small slots and then metered into a powder
+F I G U R E 3
+Schematic representations of side-nozzle
+configurations for directed energy deposition (DED) processing
+hose and delivered to the nozzle. Control of rpm deter-
+mined the rate at which powder flowed to the nozzle.
+Off-axis nozzles are easy to use but have been reported
+to result in varying deposit height dependent on scan
+direction with relation to the direction of powder delivery.
+Alternatively, coaxial nozzles can provide better powder
+capture rates and are not affected by scan direction, mak-
+ing them more suited for multilayer processing.25 For
+side powder delivery, a custom-made copper nozzle with
+a 3-mm orifice was lined with a 2-mm Teflon tube and
+positioned at 27.5
+◦relative to the laser beam (Figure 3).
+A coaxial nozzle mounted on the z axis was also tested,
+whereby powder was delivered to a copper nozzle with an
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+SPIRRETT et al.
+231
+F I G U R E 4
+Design geometries: (A) single tracks, (B) straight features, (C) curved features, and (D) text design
+annular orifice, converging streams of powder at the laser
+focal point. Despite the nozzle diameter being 1 mm, the
+coaxial design restricted powder flow. Glass powder feed-
+stock was dried in a furnace at 100◦C before investigations
+to remove moisture and aid flow of powder through the
+delivery system. The powder was delivered to the substrate
+through one of the nozzles at varying carrier gas (Ar) flow
+rates (5–10 L/min) and speeds (1–12 rpm), determining the
+powder flow rate. Powder flow rate (g/s) was measured
+for delivery of SLSG-C via the two nozzle attachments,
+in order to determine suitable feed parameters for glass
+powder processing by DED.
+2.3.2
+Glass substrate considerations
+Soda lime silica glass plates of varying thicknesses (1-mm
+microscope slides, 4-mm glass plates, and 5–7-mm bottle
+surface) were used as substrates in order to match the CTE
+of the feedstock, to aid adhesion, and reduce the risk of
+thermal shock. The influence of mild heating (∼100◦C)
+of 1-mm glass substrate to reduce thermal shock was also
+of interest, and a substrate heater was employed for one
+of the processing trials. The transparent glass substrates
+were highly transmissive to the near IR laser wavelength
+(1070 nm) in use. To address this, modification of the
+base plate underneath the glass substrates and the glass
+substrates themselves was undertaken. Three base plates
+were considered upon which the glass substrates were
+fixed. These were an aluminum plate, a grit-blasted alu-
+minum plate darkened by graphite, and a black anodized
+plate. Darkened base plates were selected as they were
+expected to reduce reflectance and act as a heat source
+(as transmitted energy is absorbed), improving glass pro-
+cessing by reducing temperature gradients. Additionally,
+modification of the glass substrates involved the appli-
+cation of a layer of adhesive cellophane tape on their
+surfaces to improve the laser absorption of glass feed-
+stock on to the glass substrate. For glass bottle substrates,
+removable matt-black paint was applied to the inside
+surface of the bottle. 1-mm glass substrates were used for
+process parameter investigations for process mapping and
+initial testing of different geometries. Glass substrates mea-
+suring 4 mm were expected to have higher resistance to
+thermal shock compared to 1-mm substrates and were
+used to demonstrate the processing of complex geome-
+tries. Glass bottle substrates were used to demonstrate
+the application of DED processing for glass packaging
+décor.
+2.4
+Process parameters
+The main parameters investigated for their effect on glass
+processing were feedstock delivery, energy density (ED),
+and design geometry. Investigations were carried out to
+test different combinations of parameters for processing
+different geometries on glass substrates of varying thick-
+nesses. Resulting structures were assessed based on glass
+consolidation and substrate cracking. Process mapping
+was used to inform process parameters for testing various
+geometries and substrate thickness going forward.
+2.4.1
+Feedstock delivery parameters
+Glass powder material was delivered through a 2-mm side
+nozzle and a 1-mm coaxial nozzle. Glass feedstock was
+delivered to a confined pot and measured at 10-s intervals.
+The average mass delivered per second was recorded for
+each nozzle at various carrier gas flow rates (L/min) and
+powder wheel speeds (rpm). This helped to define an opti-
+mal mass deposition rate for consistent delivery of glass
+powder feedstock.
+Powder wheel speed was varied between 1 and 12 rpm,
+and the resulting structures were observed by SEM. Aver-
+age deposit height was measured by digital calipers.
+Results were used to define suitable parameters for supply-
+ing a consistent quantity of glass material to produce parts
+of consistent deposit height by DED processing.
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+232
+SPIRRETT et al.
+2.4.2
+Energy density
+Laser power and scan speed are important process param-
+eters as they control the energy delivered to the feedstock
+powder. The following equation shows the relationship
+between ED (J/mm2), laser power (P, W), and scan speed
+(v, mm/s) (layer thickness [t] assumed to be 1 mm):
+𝐸𝐷=
+𝑃
+𝑣× 𝑡
+(1)
+where ideal parameters for processing require a high
+enough ED to result in consolidation and adhesion of
+melted glass feedstock onto the glass substrate, but not so
+high to cause cracking and fracturing of parts or substrates
+from thermal shock. Efforts to define a suitable process-
+ing window that fulfills these requirements were made
+by testing a range of combinations of these parameters,
+with scan speed between 500 and 700 mm/min, and laser
+power between 95 and 130 W. Single tracks of soda lime
+silica were processed and used to populate a process map.
+Processed structures and substrates were assessed through
+SEM and X-ray computed tomography (XCT) (MCT225,
+Nikon Metrology NV, JP).
+2.4.3
+Laser focal position
+The effect of laser focal position on glass powder process-
+ing was investigated. The laser used during this study was
+affixed to a mount able to move translationally in the z axis
+(vertically). The z height was adjusted to change the focal
+point of the laser in relation to the substrate. This directly
+impacts the laser spot size and, therefore, the energy input
+during processing. Focal position was investigated at focus
+(F = 0) and up to 3-mm out of focus (F = −3 to F = +3).
+Corresponding spot sizes can be estimated from previous
+beam profiling of the laser system. D86 values, the diam-
+eter of the circle at the centroid of the laser beam profile
+containing 86% of the power, were estimated as 0.9 mm at
+F = 0, increasing to 0.956 mm at F = 2 and 1.068 mm at
+F = 4. Tracks of soda lime silica feedstock were processed
+at 10 and 11 J/mm2 on a 1-mm glass substrate, and average
+deposit height was measured by digital calipers. Results
+were used to determine a suitable laser focal position for
+glass processing by DED.
+2.4.4
+Design geometry
+Simple geometries (single tracks, straight features) were
+written directly in G-code (incremental). More complex
+geometries (text designs) were created using a CAD
+package (SOLIDWORKS, Dassault Systèmes, FR), con-
+verted to G-code (absolute coordinate), and edited for
+single-layer processing. The selected geometries reflected
+features of interest for glass decoration, including straight
+features, curved features, and text using a combination of
+curves and straights. The four designs used are visualized
+in Figure 4. The designs were confined to 60 × 20 mm
+to accommodate processing onto a glass substrate of
+70 × 25 × 1 mm. These designs were processed onto glass
+substrates of different thicknesses, and the effect of design
+feature on DED of glass powder was investigated.
+3
+RESULTS
+3.1
+Experimental setup
+3.1.1
+Feedstock delivery system
+Average masses of powder delivered via a coaxial nozzle
+and a lateral nozzle were measured for soda lime silica
+glass feedstock. Delivery of fine soda lime silica powder
+(SLSG-C, PSD = 23–63 µm) through the coaxial nozzle
+was inconsistent. This was due to the sensitivity of the
+coaxial nozzle to powder flowability and cohesion. Fine
+particles gathered in the powder chamber, preventing a
+consistent flow of glass powder through the nozzle. Using
+powder feed parameters of 5 L/min carrier gas flow, and 2-
+rpm wheel speed, the coaxial nozzle delivered 3.3 mg/s of
+SLSG-C, an insufficient quantity for DED processing.
+Using the same powder feed parameters, the 2-mm cop-
+per side nozzle delivered SLSG-C feedstock at a feed rate
+of 23 mg/s. This nozzle was less sensitive to material
+flowability than the coaxial nozzle; however, electrostatic
+interaction between the copper nozzle and the glass feed-
+stock reduced the consistency of powder delivery. A copper
+nozzle with a Teflon lining (2-mm diameter) was utilized to
+reduce this effect. Powder delivery became more consistent
+and the average mass delivered increased to 39 mg/s. This
+was the preferred powder feed setup for the investigations
+previously outlined.
+3.1.2
+Substrates
+Little to no deposition and adhesion of the glass was
+observed on uncoated soda lime silica glass substrates dur-
+ing processing. However, the application of a single layer
+of cellophane tape on the glass substrate was found to con-
+siderably improve the deposition and adhesion of glass
+powder feedstock to the substrate. This was attributed to
+localized heating when the cellophane tape layer was irra-
+diated and vaporized by the laser, allowing glass powder to
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+SPIRRETT et al.
+233
+F I G U R E 5
+Glass deposits on glass substrate at varying feed rates (energy density [ED] = 11 J/mm2): (A): 12 rpm, (B) 1 rpm
+F I G U R E 6
+Scanning electron microscopy (SEM) micrographs of glass deposits at (A) 12 rpm and (B) 1 rpm, showing variation in deposit
+width
+absorb energy from the heat-affected zone and eventually
+melt on to the substrate during processing.
+The thickness of the glass substrates was also found
+to affect DED of glass. Substrates of 1-mm thickness suf-
+fered from thermal shock when processed at certain energy
+densities, causing microcracks to propagate laterally on
+the top surface of the substrate, along the deposited glass
+tracks. Thicker glass substrates (100 × 100 × 4 mm) and
+bottles with a varying wall thickness of 5–7-mm thickness
+showed a higher thermal shock resistance under the same
+conditions, minimizing crack formation and propagation.
+Glass deposition during DED was also found to depend
+on the base plate beneath the substrates. Laser absorption
+of glass powder was low when the glass substrate was fixed
+to an aluminum base. Laser radiation was transmitted
+through the transparent glass feedstock and substrate and
+was reflected by the aluminum surface. No deposition of
+glass was therefore observed. Using a black anodized base
+plate or a graphite-darkened surface (and matt black paint
+coating for the inside of bottle substrates) was observed
+to improve processing. This is thought to be explained by
+the absorption of laser energy at the base plate, increasing
+the temperature of the substrate and conducting heat to
+the glass feedstock. As the energy absorptivity of the glass
+powder increases with temperature, this heat conduc-
+tion could lead to glass feedstocks self-heating, further
+increasing absorptivity. These darkened base plates also
+acted as a heat sink to prevent thermal runaway during
+processing. Glass feedstocks were melted consistently
+onto glass substrates above these darkened base plates.
+As absorption by glass powder is usually greater than that
+of solid materials, glass substrates did not melt from laser
+processing.
+3.2
+Process parameters
+3.2.1
+Feedstock delivery parameters
+Powder wheel speed was varied to investigate the effect of
+glass powder processing by DED. Single tracks were pro-
+cessed at varying speeds. At high rpm, a larger quantity
+of glass feedstock was delivered to the substrate com-
+pared to low rpm. The resulting glass deposits during
+processing at a high speed (12 rpm) showed an average
+deposit height of 0.9 mm with significant variation in
+deposit height (to one standard deviation), compared to
+low speed (1 rpm) processing, which resulted in an aver-
+age deposit height of 0.2 mm and consistent height (to one
+standard deviation). Deposit height was measured with
+digital calipers across multiple samples. Figure 5 shows
+the resulting glass deposits under conditions of A: 12 rpm
+and B: 1 rpm, and SEM micrographs of these samples
+are shown in Figure 6. The inconsistent width of the
+deposited glass tracks at 12 rpm compared to 1 rpm can be
+seen.
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+234
+SPIRRETT et al.
+F I G U R E 7
+Average deposit height of glass tracks at varying process parameters (one standard deviation)
+Deposit height was compared at 12 and 1 rpm across
+three different energy densities. No significant difference
+was found in deposit height between 11 and 13 J/mm2.
+Figure 7 displays these results to one standard deviation.
+Based on the lower variation in deposit boundaries at
+lower feed rates, and for delivery of sufficient powder,
+feed parameters of 1 and 2 rpm (powder wheel speed) and
+5 L/min (carrier gas flow) are recommended.
+3.2.2
+Energy density
+The investigation of ED, described in Section 2.4.2, was
+unsurprisingly found to be one of the key factors for feed-
+stock consolidation in DED of glass powder. Laser power
+and scan speed were varied to define a suitable process-
+ing window. ED was varied between 8 and 15 J/mm2, and
+effects were assessed based on certain observations: (a)
+if the glass substrate fractured or remained intact, (b) if
+the glass powder feedstock melted and deposited onto the
+substrate, and (c) the consistency of the deposited glass.
+A process map was populated relating ED and success or
+failure of processing (Figure 8).
+The process map shows the effect of laser power and
+scan speed combinations on the processing of SLSG-
+C by this method. An effective “processing window”
+was found between energy densities of 10–13 J/mm2.
+In general, these combinations of scan speed and laser
+power largely resulted in consistent, well-consolidated
+single tracks of glass deposits, and under these condi-
+tions, 1-mm glass substrates did not suffer significant
+cracking from thermal stress. Occasions where processing
+among these energy densities did not result in consis-
+tently deposited glass tracks or suffered thermal shock are
+evident.
+Cracking of substrates occurred only at or above 115 W,
+whereas inconsistent consolidation of glass was seen most
+commonly below 11 J/mm2, where we can assume the
+absorption of laser energy by the glass powder was insuffi-
+cient for glass melting due to low ED. ED was used to relate
+laser power and scan speed into one numerical value; how-
+ever, these results suggest that laser power and scan speed
+had independent effects on glass processing.
+Processing of single tracks of SLSG-C on 1-mm sub-
+strates was most successful at around 11.5–12.5 J/mm2,
+at laser powers below 115 W. However, this process
+map is only relevant for this combination of variables.
+For different compositions of glass, different substrate
+thicknesses, and different scan designs, process maps
+would differ. The required energy for full consolida-
+tion of glass on glass substrates changed depending on
+these factors. For example, thicker substrates required
+an increase in ED, through the increase of laser power
+or decrease in scan speed, in order to achieve consol-
+idation of glass powder on the substrate surface, and
+more complex scan designs required a decrease in ED
+to protect the substrate from thermal shock due to a
+buildup of energy in areas of high stress concentration
+(Section 3.2.3).
+Microcracks were visualized by micro-XCT. Cracks
+appeared to initiate from the top surface of the glass, adja-
+cent to processed glass tracks, penetrating ∼0.5 mm into
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+SPIRRETT et al.
+235
+F I G U R E 8
+Process map for single tracks of SLSG-C (23–63 µm) on a 1-mm substrate of the same composition. Trend lines depict the
+energy density at different combinations of laser power and scan speed. Crosses represent substrate cracking, diamonds represent
+inconsistent consolidation, and circles represent consistent deposition of glass and the absence of substrate cracking.
+F I G U R E 9
+A cross section of a directed energy deposition (DED)-processed glass sample (12 J/mm2) showing crack formation and
+internal porosity
+the glass substrate. These were visible by eye through the
+bottom surface of samples. Evidence of porosity within the
+processed glass tracks was also seen through micro-XCT
+(Figure 9).
+3.2.3
+Laser focal position
+Processing of single tracks was carried out at 10 and
+11 J/mm2, at varying focal positions (F < 0, F = 0, and
+F > 0). Processing at F < 0 was unsuccessful, with melt-
+ing and consolidation of glass feedstock not observed. At
+focal positions of F = 0 and F > 0 (1–3 mm), glass feed-
+stocks melted consistently. A difference was observed in
+the deposit height of processed glass based on the laser
+focal position (Figure 10). The more out of focus, the
+smaller the average deposit height. This is explained by
+the decrease in ED relating to a larger spot size area when
+processing out of focus. Similarly, the effect of ED was
+observed once again, showing a general increase in deposit
+height with increased ED.
+3.2.4
+Design geometry
+Design geometry had a large impact on the success of glass
+powder processing by DED. Using an ED of 11.5 J/mm2,
+processing of a single track resulted in the successful
+consolidation and deposition of glass feedstock, without
+substrate fracture. Single-track processing was deliberately
+carried out in the center of the glass substrates, avoiding
+the edges where stress concentrations are higher.
+For the more complex designs of straight features
+and curved features, in order to achieve consistent glass
+feedstock consolidation in these geometries, ED had
+to be altered. Straight features required a higher ED
+(12.0 J/mm2) and curved features required a lower ED
+(9.24 J/mm2) for consistent glass powder consolidation.
+Due to these geometries utilizing movement in multiple
+axes, two explanations are considered for the altered
+ED requirements. First, the angle of powder delivery in
+relation to processing direction, and second, the acceler-
+ation and deceleration of stage motors during directional
+changes affecting the scan speed.
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+236
+SPIRRETT et al.
+F I G U R E 1 0
+Average deposit height by laser focal position at 10- and 11-J/mm2. Error bars display one standard deviation.
+Unlike in straight track processing, cracking of 1-mm
+substrates was unavoidable for these geometries. Cracking
+initiated at the apex of curves and the points of directional
+change, where stress concentrations were higher. As these
+geometries covered a larger area of the 1-mm substrates,
+cracking was expected when processing occurred closer to
+the weaker substrate edges.
+For text designs, incorporating both straight and curved
+features, scan speed was altered accordingly to account
+for these changes during processing. For curved features,
+scan speed was increased to consequently decrease ED.
+For straight features, and particularly those that traveled
+perpendicularly to the incident of powder delivery, scan
+speed was decreased in order to increase the ED. Addi-
+tionally, scan speed was increased to 100 mm/s between
+features to inhibit glass melting, and pauses were incorpo-
+rated into the G-code to allow for laser dwell time before
+initiating glass melting. Processed structures and their
+corresponding process parameters are shown in Figure 11.
+For the text design, energy densities between 9.2 and
+13.3 J/mm2 were used to successfully process the design
+with consistent glass deposition observed for each feature.
+Pauses of 0.5–0.7 s were used after instances of max travel
+speed (in between features). Cracking was unavoidable for
+processing on 1-mm glass substrates due to the increased
+stress concentrations associated with the more complex
+design, as expected. The design was successfully processed
+onto a 4-mm glass substrate without fracture, due to its
+higher resistance to thermal shock.
+3.2.5
+Demonstration of glass bottle décor
+application by glass powder DED
+For curved bottle surfaces (5–7-mm thickness), an increase
+in the ED (relative to substrates of 4 and 1 mm) was
+well tolerated and allowed consistent consolidation of
+glass powder on the substrate surface. Thermal shock was
+avoided, and substrates did not fracture. Curved features
+design was processed at 9.68 J/mm2 and straight features
+at 13.25 J/mm2 (Figure 12).
+Variation in deposit height across processed struc-
+tures was observed, caused by inconsistencies in powder
+feed. When insufficient powder was delivered to the sub-
+strate/laser beam, the inside surface of the bottle substrate
+showed microcracking, due to excess laser energy being
+absorbed by the black paint coating.
+3.3
+Inspection of deposited glass
+To further assess the nature of the deposited glass, X-ray
+diffraction (XRD) and FTIR were carried out. To assess the
+crystallinity of the deposited glass, segments of deposited
+glass were removed from the substrate, crushed, and ana-
+lyzed by XRD (D8 Advance with DAVINCI, Bruker, GmbH,
+US). The deposited glass remained amorphous, with no
+crystallization peaks seen in the XRD patterns. Feedstock
+glass and deposited glass resulted in comparable XRD
+patterns.
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+SPIRRETT et al.
+237
+F I G U R E 11
+Results for processing of different geometries on glass substrates of 1- and 4-mm thickness
+F I G U R E 1 2
+Demonstration of processing soda lime silica
+glass powder onto a bottle surface in different geometries
+FTIR spectroscopy was carried out on various regions of
+the DED glass samples (Frontier FTIR, Perkin Elmer, US).
+The glass deposit, cellophane tape layer, and black residue
+were inspected. The resulting spectra confirmed that on
+laser irradiation, the cellophane tape was vaporized and
+glass was deposited directly onto the glass substrate. Due
+to the degradation of the organic tape material, a black
+carbon residue was also present adjacent to the deposited
+glass tracks. (Graphical data available in the Supporting
+Information section).
+4
+DISCUSSION
+In this study, soda lime silica glass powder was suc-
+cessfully processed by DED for the first time. Suitable
+parameters were identified for producing consistent glass
+tracks and structures on glass substrates of different thick-
+nesses, whilst avoiding significant cracking from thermal
+shock. Feedstock material, delivery system, setup, and
+laser processing parameters were investigated to allow the
+processing of glass powder by DED.
+The investigation showed that significant consideration
+of the surface beneath a transparent substrate is vital for
+achieving sufficient laser absorption for the successful
+processing of glass powder onto a glass substrate. Reduc-
+ing the transmittance and reflection of the laser energy and
+using a heat/energy sink, such as a black anodized base
+plate, allowed processing by reducing temperature gradi-
+ents. Adhesion of glass structures was achieved by coating
+the glass substrate with a layer of cellophane tape prior to
+processing, which was then vaporized by laser radiation to
+leave melted glass tracks adhered to the glass substrates.
+It was also shown that the flowability of a material has a
+significant impact on powder delivery via nozzles. A well
+flowing, spherical powder is recommended for processing
+by this method.
+As the focus of these investigations was proving the
+feasibility of glass processing by this method, substrate
+modification steps were required. These additional steps
+are expected to be barriers to commercial application. For
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+238
+SPIRRETT et al.
+the application of glass bottle décor, matt-black paint was
+used to coat the inside glass surfaces to improve laser
+absorption and was later removed with acetone. Alterna-
+tive methods should be considered to avoid this additional
+technological step and the introduction of materials that
+may not be approved for use in these industries. For exam-
+ple, processing on colored glass surfaces, whereby color
+is imparted from the glass batch, is expected to have
+improved laser absorption over clear glass substrates. Fur-
+ther optimization of the process is expected to remove the
+requirement of coating with cellophane tape and darken-
+ing glass substrates and may allow consideration of various
+commercial applications in the future.
+The resulting glass deposits varied in the level of opac-
+ity, with greater transparency required for the potential
+decorative applications of this processing method. XRD
+analysis concluded that there was no crystallization of the
+glass material, and so the varying opacity is attributed to
+the presence of bubbles inside deposited glass tracks from
+glass reboil or the presence of microcracks within the parts
+or substrates. This is expected to be improved by further
+optimization of the process, for example, by utilizing a
+substrate heater to reduce thermal gradients and allow pre-
+cise control of heating and cooling rate to prevent crack
+formation, and further optimization of laser parameters
+to prevent excessive melting of glass feedstocks causing
+reboil.
+A powder feedstock of ∼45-µm particle size, and pow-
+der delivery parameters of 1 and 2 rpm (wheel speed) at
+5 L/min (carrier gas flow), through a side fed nozzle, was
+found to be most suitable for powder delivery. Powder
+delivery via lateral nozzle resulted in a consistent deliv-
+ery of glass at a rate of 39 mg/s, allowing the processing
+of single-layer structures. Lateral nozzles are easy to use
+but have been shown to result in varying deposit height
+dependent on scan direction with relation to the delivery of
+powder.26 Although coaxial nozzles do not suffer this effect
+and are therefore better suited to multilayer processing in
+comparison, in this study, powder delivery via coaxial noz-
+zle was impeded by the low flowability of the selected glass
+feedstock and feed rate was insufficient for consistent pro-
+cessing. For multilayer processing, further optimization of
+powder delivery via coaxial nozzle is recommended.
+The experimental setup described in these investigations
+does not represent the capabilities of superior commer-
+cial DED systems. As such, finer optimization could be
+achieved by utilizing a DED system with integrated con-
+trols for simultaneous operation of the laser, stage, and
+material feed. An additional consideration is potential for
+material recycling and/or recirculation, to improve the
+efficiency of the process and reduce the material waste.
+Measurement of ED was used to relate laser power and
+scan speed as a representation of the total energy absorbed
+during processing. The values used for ED are approxima-
+tions of the total energy delivered to the substrate but do
+not reflect the total energy absorbed. Presenting this data
+as a process map allowed the visualization of the effect
+of the delivered ED on substrate cracking and consolida-
+tion of glass powder. Generally, processing above 115-W
+laser power was found to cause substrate and deposit crack-
+ing, likely caused by thermal shock. In contrast, processing
+conditions below 11 J/mm2 frequently resulted in incon-
+sistent consolidation and deposition of glass powder. It is
+possible that initial glass consolidation is determined by
+a critical ED being reached, where below this ED glass
+melting cannot occur. To explain the relationship between
+high laser power and substrate cracking, it is suggested that
+despite the compromise in scan speed to provide a partic-
+ular ED for consolidation, an increased laser power results
+in a reduction in the time taken to reach a critical ED for
+processing and, thus, increases the temperature gradients,
+causing thermal shock.
+It was concluded that although ED allows simple assess-
+ment of parameter combinations, laser power and scan
+speed showed independent effects on processing. At var-
+ious energy densities, results varied across different com-
+binations of laser power and scan speed, despite having
+the same calculated ED. Further investigation will quan-
+tify this difference. Cases that deviated from these general
+trends were observed during testing. These deviations may
+be explained by variations in processing conditions, such
+as inconsistent powder feed, variation in substrate qual-
+ity, or machine error. Computational modeling of energy
+absorption during the DED processing of glass materials
+could allow consideration of significant parameters that
+are missed in the simple ED calculations and provide a
+more accurate representation of energy absorption. Future
+efforts will be made to simulate the effect of laser parame-
+ters on glass powder DED to aid the definition of optimal
+processing conditions. Additionally, due to the many fac-
+tors that impact glass processing by this method, the
+process maps generated may only be considered relevant
+for the exact setup and parameters stated. Process maps
+present different results dependent on substrate thickness
+and process design, with other variables such as glass com-
+position and PSD suspected to also have a significant effect
+on processing windows.
+5
+CONCLUSIONS
+Novel glass processing by powder-fed directed energy
+deposition was demonstrated in this investigation.
+Key findings include the following:
+∙Soda lime silica glass spheres were successfully con-
+solidated and deposited on to glass substrates by laser
+radiation.
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+SPIRRETT et al.
+239
+∙A suitable processing window was found between 11.5
+and 12.5 J/mm2 ED for single-layer processing of soda
+lime silica tracks onto a 1-mm glass substrate.
+∙Substrate cracking was observed in parameter combi-
+nations where laser power exceeded 115 W, suggesting
+this should be taken into account when considering a
+processing window for DED of this glass feedstock.
+∙A powder delivery rate of 39 mg/s was achieved dur-
+ing feed of spherical soda lime silica powder with an
+average particle size of 45 µm, through a 2-mm Teflon-
+lined nozzle.
+∙A single layer of adhesive tape aided the deposition and
+adhesion of glass powder onto glass surfaces.
+∙Laser absorption was improved by utilizing an energy
+sink beneath transparent substrates.
+∙Straight, curved, and text features were successfully built
+on 1 mm, 4 mm, and glass bottle substrates.
+∙ED indicated the effect of different combinations of
+laser power and scan speed; however, it was observed
+that these parameters had independent effects on glass
+processing by this technique.
+Addition of glass décor on glassware and premium
+glass bottles for brand differentiation is demonstrated as
+a prospective application of glass DED, offering possibili-
+ties for translation of this technology to other applications.
+Further optimization of the process will help to secure the
+method as a valid alternative to traditional glass decoration
+techniques. Reduction of thermal stress and microcrack
+development in substrates is still required, with investiga-
+tion into substrate and process heating a promising option
+for improvement. Single-layer structures, while useful for
+glass surface decoration, limit the complexity of design in
+3D. To address this, future investigations will involve for-
+mation of multilayer structures to evaluate the potential of
+this method for processing glass in three dimensions.
+AC K N OW L E D G M E N T S
+This work was funded by the EPSRC (Engineering and
+Physical Sciences Research Council, UK) Centre for Doc-
+toral Training in Additive Manufacturing and 3D Printing
+(Grant no.: EP/L01534X/1). The authors would like to
+acknowledge additional support and funding from Glass
+Technology Services (GTS), as well as Stuart Branston and
+Alexander Jackson-Crisp for technical support, and Ehab
+Saleh for early experimental help.
+O RC I D
+Ruth Goodridge
+https://orcid.org/0000-0003-4335-3327
+R E F E R E N C E S
+1. Gugger H. Laser marking of ceramic materials, glazes, glass
+ceramics and glasses. United States Patent 4769310, 1988.
+2. Zhang S, Zeng X, Matthews DTA, Igartua A, Rodriguez-Vidal
+E, Contreras Fortes J, et al. Selection of micro-fabrication
+techniques on stainless steel sheet for skin friction. Friction.
+2016;4:89–104.
+3. Weller C, Kleer R, Piller FT. Economic implications of 3D print-
+ing: market structure models in light of additive manufacturing
+revisited. Int J Prod Econ. 2015;164:43–56.
+4. Nguyen DT, Meyers C, Yee TD, Dudukovic NA, Destino
+JF, Zhu C, et al. 3D-printed transparent glass. Adv Mater.
+2017;29:1701181.
+5. Dylla-Spears R, Yee TD, Sasan K, Nguyen DT, Dudukovic NA,
+Ortega JM, et al. 3D printed gradient index glass optics. Sci Adv.
+2020;6:eabc7429.
+6. Kotz F, Plewa K, Bauer W, Schneider N, Keller N, Nargang T,
+et al. Liquid glass: a facile soft replication method for structuring
+glass. Adv Mater. 2016;28:4646–50.
+7. Kotz F, Quick AS, Risch P, Martin T, Hoose T, Thiel M, et al.
+Two-photon polymerization of nanocomposites for the fabrica-
+tion of transparent fused silica glass microstructures. Adv Mater.
+2021;33:e2006341. https://doi.org/10.1002/adma.202006341
+8. Klein J. Additive Manufacturing of Optically Transparent Glass.
+Thesis, Massachusetts Institute of Technology, 2014.
+9. Klein J, Stern M, Franchin G, Kayser M, Inamura C, Dave S, et al.
+Additive manufacturing of optically transparent glass. 3D Print
+Addit Manuf. 2015;2:92–105.
+10. Datsiou KC, Saleh E, Spirrett F, Goodridge R, Ashcroft I, Eustice
+D. Additive manufacturing of glass with laser powder bed
+fusion. J Am Ceram Soc. 2019;102:4410–4.
+11. Datsiou KC, Spirrett F, Ashcroft I, Magallanes M, Christie S,
+Goodridge R. Laser powder bed fusion of soda lime silica glass:
+optimisation of processing parameters and evaluation of part
+properties. Addit Manuf. 2021;39:101880.
+12. Khmyrov RS, Grigoriev SN, Okunkova AA, Gusarov AV. On
+the possibility of selective laser melting of quartz glass. Physica
+Procedia. 2014;56:345–56.
+13. Vogel W. Structure and crystallization of glasses. Oxford: Perga-
+mon; 1971.
+14. Khmyrov RS, Protasov CE, Grigoriev SN, Gusarov AV. Crack-
+free selective laser melting of silica glass: single beads and
+monolayers on the substrate of the same material. Int J Adv
+Manuf Technol. 2016;85:1461–9.
+15. Ashby M. Materials and the environment. Oxford: Butterworth-
+Heinemann; 2013. p. 536–7.
+16. Fateri M, Gebhardt A, Thuemmler S, Thurn L. Experimen-
+tal investigation on selective laser melting of glass. In: Physics
+procedia. Elsevier BV; 2014. p. 357–64.
+17. Fateri M, Gebhardt A. Selective laser melting of soda-lime glass
+powder. Int J Appl Ceram Technol. 2015;12:53–61.
+18. Fateri M, Gebhardt A. Jewelry fabrication via selective laser
+melting of glass. In: ASME 2014 12th Biennial Conference on
+Engineering Systems Design and Analysis. American Society of
+Mechanical Engineers; 2014. https://doi.org/10.1115/ESDA2014-
+20380
+19. Eichler F, Skupin M, Katharina Thurn L, Kasch S, Schmidt T.
+Operating limits for beam melting of glass materials. MATEC
+Web Conf. 2019;299:01004.
+20. Luo J, Pan H, Kinzel EC. Additive manufacturing of glass. J
+Manuf Sci Eng J ASME. 2014;136:1–6.
+21. Luo J, Gilbert LJ, Qu C, Landers RG, Bristow DA, Kinzel EC.
+Additive manufacturing of transparent soda-lime glass using
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+240
+SPIRRETT et al.
+a filament-fed process. J Manuf Sci Eng J ASME. 2017;139:
+1–8.
+22. von Witzendorff P, Pohl L, Suttmann O, Heinrich P, Heinrich A,
+Zander J, et al. Additive manufacturing of glass: CO2-laser glass
+deposition printing. Procedia CIRP. 2018;74:272–5.
+23. Capps NE, Goldstein JT, Rettschlag K, Sleiman K, Jaeschke P,
+Kaierle S, et al. Direct laser heating of the filament/substrate
+interface
+in
+digital
+glass
+forming.
+Manuf
+Lett.
+2022;31:
+106–9.
+24. Li PM. Study of the FT4 Powder Rheometer: Comparison of
+the Test Methods and Optimization of the Protocols. Thesis.
+Universite de Technologie de Compiegne, 2017.
+25. Gibson I, Rosen D, Stucker B. Additive manufacturing
+technologies. 2nd ed. New York, NY: Springer New York;
+2015.
+26. Zekovic S, Dwivedi R, Kovacevic R. Numerical simulation and
+experimental investigation of gas-powder flow from radially
+symmetrical nozzles in laser-based direct metal deposition. Int
+J Mach Tools Manuf. 2007;47:112–23.
+S U P P O RT I N G I N FO R M AT I O N
+Additional supporting information can be found online
+in the Supporting Information section at the end of this
+article.
+How to cite this article: Spirrett F, Datsiou KC,
+Magallanes M, Ashcroft I, Goodridge R. Powder-fed
+directed energy deposition of soda lime silica glass
+on glass substrates. J Am Ceram Soc.
+2023;106:227–240. https://doi.org/10.1111/jace.18638
+ 15512916, 2023, 1, Downloaded from https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.18638 by Test, Wiley Online Library on [08/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

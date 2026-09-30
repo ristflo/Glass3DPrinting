@@ -1,0 +1,28 @@
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# LaTeX Build Files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.log
+*.out
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+build/
+latex/build/
+Antigravity_Research_Workspace/latex/build/
+ChatGPT_Research_Workspace/latex/build/
+Claude_Research_Workspace/latex/build/
+
+# General OS
+.DS_Store
+Thumbs.db

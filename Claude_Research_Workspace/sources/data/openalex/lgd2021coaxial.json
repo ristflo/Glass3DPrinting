@@ -1,0 +1,1564 @@
+{
+ "id": "https://openalex.org/W3134904038",
+ "doi": "https://doi.org/10.1117/12.2577205",
+ "title": "Additive anufacturing of fused silica using coaxial laser glass deposition: experiment, simulation and discussion",
+ "display_name": "Additive anufacturing of fused silica using coaxial laser glass deposition: experiment, simulation and discussion",
+ "publication_year": 2021,
+ "publication_date": "2021-03-04",
+ "ids": {
+  "openalex": "https://openalex.org/W3134904038",
+  "doi": "https://doi.org/10.1117/12.2577205",
+  "mag": "3134904038"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1117/12.2577205",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1117/12.2577205",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Laser 3D Manufacturing VIII",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5058336574",
+    "display_name": "Tobias Grabe",
+    "orcid": "https://orcid.org/0000-0002-0006-5782"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tobias Grabe",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5055651231",
+    "display_name": "Marius Lammers",
+    "orcid": "https://orcid.org/0000-0003-3185-2081"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I140025399",
+     "display_name": "Hochschule Hannover",
+     "ror": "https://ror.org/03m2kj587",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I140025399"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Marius Lammers",
+   "raw_affiliation_strings": [
+    "Hochschule Hannover (Germany)",
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Hochschule Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I140025399"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100766793",
+    "display_name": "Song Wang",
+    "orcid": "https://orcid.org/0000-0002-5819-8182"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Song Wang",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101935087",
+    "display_name": "Xuejian Wang",
+    "orcid": "https://orcid.org/0000-0002-3125-4770"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Xuejian Wang",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5048870031",
+    "display_name": "Katharina Rettschlag",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Katharina Rettschlag",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)",
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5031354985",
+    "display_name": "Khodor Sleiman",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Khodor Sleiman",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5090058231",
+    "display_name": "Alexander Barroi",
+    "orcid": "https://orcid.org/0000-0002-9770-5343"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Alexander Barroi",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5088407286",
+    "display_name": "Tobias Biermann",
+    "orcid": "https://orcid.org/0000-0001-8922-9191"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tobias Biermann",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5080034012",
+    "display_name": "Arved Ziebehl",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Arved Ziebehl",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5003072188",
+    "display_name": "Julian R\u00f6ttger",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Julian R\u00f6ttger",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5087429870",
+    "display_name": "Peer-Phillip Ley",
+    "orcid": "https://orcid.org/0000-0001-5154-4129"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Peer-Phillip Ley",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5008725784",
+    "display_name": "Alexander Wolf",
+    "orcid": "https://orcid.org/0000-0001-9780-5953"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Alexander Wolf",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5047139904",
+    "display_name": "Peter Jaeschke",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Peter Jaeschke",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5033253463",
+    "display_name": "J\u00f6rg Hermsdorf",
+    "orcid": "https://orcid.org/0000-0003-1820-1516"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "J\u00f6rg Hermsdorf",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5073961687",
+    "display_name": "Stefan Kaierle",
+    "orcid": "https://orcid.org/0000-0002-7415-5094"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Stefan Kaierle",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V. (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V. (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5030191469",
+    "display_name": "Henning Ahlers",
+    "orcid": "https://orcid.org/0000-0001-6085-3185"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I140025399",
+     "display_name": "Hochschule Hannover",
+     "ror": "https://ror.org/03m2kj587",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I140025399"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Henning Ahlers",
+   "raw_affiliation_strings": [
+    "Hochschule Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Hochschule Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I140025399"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5058325632",
+    "display_name": "Roland Lachmayer",
+    "orcid": "https://orcid.org/0000-0002-3181-6323"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Roland Lachmayer",
+   "raw_affiliation_strings": [
+    "Leibniz Univ. Hannover (Germany)"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Leibniz Univ. Hannover (Germany)",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 5.9438,
+ "has_fulltext": false,
+ "cited_by_count": 24,
+ "citation_normalized_percentile": {
+  "value": 0.97441541,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 99
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "32",
+  "last_page": "32"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10732",
+  "display_name": "Laser Material Processing Techniques",
+  "score": 0.993399977684021,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2206",
+   "display_name": "Computational Mechanics"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.993399977684021,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10544",
+   "display_name": "Glass properties and applications",
+   "score": 0.9527999758720398,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2503",
+    "display_name": "Ceramics and Composites"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.948199987411499,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/coaxial",
+   "display_name": "Coaxial",
+   "score": 0.8739609122276306
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7715297937393188
+  },
+  {
+   "id": "https://openalex.org/keywords/residual-stress",
+   "display_name": "Residual stress",
+   "score": 0.6790770292282104
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.6700327396392822
+  },
+  {
+   "id": "https://openalex.org/keywords/optical-fiber",
+   "display_name": "Optical fiber",
+   "score": 0.5504969358444214
+  },
+  {
+   "id": "https://openalex.org/keywords/layer",
+   "display_name": "Layer (electronics)",
+   "score": 0.5230473279953003
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-fiber",
+   "display_name": "Glass fiber",
+   "score": 0.5101654529571533
+  },
+  {
+   "id": "https://openalex.org/keywords/process",
+   "display_name": "Process (computing)",
+   "score": 0.4894362986087799
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.4640020728111267
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.44820502400398254
+  },
+  {
+   "id": "https://openalex.org/keywords/wavelength",
+   "display_name": "Wavelength",
+   "score": 0.4442150890827179
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.4268578886985779
+  },
+  {
+   "id": "https://openalex.org/keywords/fiber",
+   "display_name": "Fiber",
+   "score": 0.4170871376991272
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.4107546806335449
+  },
+  {
+   "id": "https://openalex.org/keywords/optoelectronics",
+   "display_name": "Optoelectronics",
+   "score": 0.31380942463874817
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.30632418394088745
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.2164495289325714
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.08719831705093384
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.07054129242897034
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C51221625",
+   "wikidata": "https://www.wikidata.org/wiki/Q1751466",
+   "display_name": "Coaxial",
+   "level": 2,
+   "score": 0.8739609122276306
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7715297937393188
+  },
+  {
+   "id": "https://openalex.org/C37292000",
+   "wikidata": "https://www.wikidata.org/wiki/Q1257918",
+   "display_name": "Residual stress",
+   "level": 2,
+   "score": 0.6790770292282104
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.6700327396392822
+  },
+  {
+   "id": "https://openalex.org/C194232370",
+   "wikidata": "https://www.wikidata.org/wiki/Q162",
+   "display_name": "Optical fiber",
+   "level": 2,
+   "score": 0.5504969358444214
+  },
+  {
+   "id": "https://openalex.org/C2779227376",
+   "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+   "display_name": "Layer (electronics)",
+   "level": 2,
+   "score": 0.5230473279953003
+  },
+  {
+   "id": "https://openalex.org/C177229083",
+   "wikidata": "https://www.wikidata.org/wiki/Q5861",
+   "display_name": "Glass fiber",
+   "level": 2,
+   "score": 0.5101654529571533
+  },
+  {
+   "id": "https://openalex.org/C98045186",
+   "wikidata": "https://www.wikidata.org/wiki/Q205663",
+   "display_name": "Process (computing)",
+   "level": 2,
+   "score": 0.4894362986087799
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.4640020728111267
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.44820502400398254
+  },
+  {
+   "id": "https://openalex.org/C6260449",
+   "wikidata": "https://www.wikidata.org/wiki/Q41364",
+   "display_name": "Wavelength",
+   "level": 2,
+   "score": 0.4442150890827179
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.4268578886985779
+  },
+  {
+   "id": "https://openalex.org/C519885992",
+   "wikidata": "https://www.wikidata.org/wiki/Q161",
+   "display_name": "Fiber",
+   "level": 2,
+   "score": 0.4170871376991272
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.4107546806335449
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.31380942463874817
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.30632418394088745
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.2164495289325714
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.08719831705093384
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.07054129242897034
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1117/12.2577205",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1117/12.2577205",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Laser 3D Manufacturing VIII",
+   "raw_type": "proceedings-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W3061217114",
+  "https://openalex.org/W3016774719",
+  "https://openalex.org/W3133911923",
+  "https://openalex.org/W2072455331",
+  "https://openalex.org/W2894803123",
+  "https://openalex.org/W4300426710",
+  "https://openalex.org/W2805732101",
+  "https://openalex.org/W4386143349",
+  "https://openalex.org/W2466772065",
+  "https://openalex.org/W1990411529"
+ ],
+ "abstract_inverted_index": {
+  "Additive": [
+   0,
+   66
+  ],
+  "Manufacturing": [
+   1,
+   67
+  ],
+  "of": [
+   2,
+   13,
+   22,
+   49,
+   71,
+   79,
+   97,
+   108,
+   185
+  ],
+  "glass": [
+   3,
+   72,
+   110,
+   165
+  ],
+  "opens": [
+   4
+  ],
+  "up": [
+   5
+  ],
+  "new": [
+   6
+  ],
+  "possibilities": [
+   7
+  ],
+  "for": [
+   8,
+   103,
+   139
+  ],
+  "the": [
+   9,
+   18,
+   65,
+   93,
+   109,
+   113,
+   126,
+   130,
+   140,
+   160,
+   164,
+   168,
+   178,
+   181,
+   186
+  ],
+  "design": [
+   10
+  ],
+  "and": [
+   11,
+   20,
+   68,
+   75,
+   123,
+   144,
+   176,
+   183
+  ],
+  "integration": [
+   12
+  ],
+  "optical": [
+   14,
+   23,
+   25
+  ],
+  "components.": [
+   15,
+   132
+  ],
+  "By": [
+   16
+  ],
+  "varying": [
+   17
+  ],
+  "shape": [
+   19
+  ],
+  "size": [
+   21
+  ],
+  "elements,": [
+   24
+  ],
+  "systems": [
+   26
+  ],
+  "specifically": [
+   27
+  ],
+  "adapted": [
+   28
+  ],
+  "to": [
+   29,
+   52,
+   118,
+   124,
+   158
+  ],
+  "various": [
+   30
+  ],
+  "applications": [
+   31
+  ],
+  "can": [
+   32,
+   85
+  ],
+  "be": [
+   33
+  ],
+  "fabricated": [
+   34
+  ],
+  "cost-effectively.": [
+   35
+  ],
+  "The": [
+   36,
+   95
+  ],
+  "Laser": [
+   37
+  ],
+  "Glass": [
+   38
+  ],
+  "Deposition": [
+   39
+  ],
+  "(LGD)": [
+   40
+  ],
+  "process": [
+   41,
+   101,
+   115,
+   122,
+   143,
+   189
+  ],
+  "uses": [
+   42
+  ],
+  "a": [
+   43,
+   47,
+   98,
+   104,
+   120,
+   136,
+   152
+  ],
+  "CO2": [
+   44
+  ],
+  "laser": [
+   45
+  ],
+  "with": [
+   46
+  ],
+  "wavelength": [
+   48
+  ],
+  "10.6": [
+   50
+  ],
+  "\u03bcm": [
+   51
+  ],
+  "locally": [
+   53
+  ],
+  "generate": [
+   54
+  ],
+  "temperatures": [
+   55,
+   84
+  ],
+  "above": [
+   56
+  ],
+  "2000": [
+   57
+  ],
+  "\u00b0C": [
+   58
+  ],
+  "in": [
+   59,
+   87,
+   92,
+   116,
+   163
+  ],
+  "fused": [
+   60
+  ],
+  "silica": [
+   61
+  ],
+  "fibers.": [
+   62,
+   80
+  ],
+  "This": [
+   63
+  ],
+  "enables": [
+   64
+  ],
+  "Rapid": [
+   69
+  ],
+  "Prototyping": [
+   70
+  ],
+  "by": [
+   73
+  ],
+  "melting": [
+   74
+  ],
+  "then": [
+   76
+  ],
+  "layer-by-layer": [
+   77
+  ],
+  "deposition": [
+   78
+  ],
+  "However,": [
+   81
+  ],
+  "these": [
+   82
+  ],
+  "high": [
+   83,
+   89
+  ],
+  "result": [
+   86
+  ],
+  "very": [
+   88
+  ],
+  "residual": [
+   90,
+   127
+  ],
+  "stress": [
+   91
+  ],
+  "material.": [
+   94
+  ],
+  "development": [
+   96
+  ],
+  "coaxial": [
+   99,
+   141,
+   169,
+   187
+  ],
+  "LGD": [
+   100,
+   142,
+   170,
+   188
+  ],
+  "aims": [
+   102
+  ],
+  "more": [
+   105
+  ],
+  "uniform": [
+   106
+  ],
+  "heating": [
+   107
+  ],
+  "fiber": [
+   111,
+   166
+  ],
+  "during": [
+   112,
+   167
+  ],
+  "printing": [
+   114
+  ],
+  "order": [
+   117
+  ],
+  "enable": [
+   119
+  ],
+  "direction-independent": [
+   121
+  ],
+  "reduce": [
+   125
+  ],
+  "stresses": [
+   128
+  ],
+  "within": [
+   129
+  ],
+  "printed": [
+   131
+  ],
+  "In": [
+   133
+  ],
+  "this": [
+   134
+  ],
+  "work,": [
+   135
+  ],
+  "novel": [
+   137
+  ],
+  "concept": [
+   138
+  ],
+  "its": [
+   145
+  ],
+  "successful": [
+   146
+  ],
+  "experimental": [
+   147,
+   174
+  ],
+  "application": [
+   148
+  ],
+  "is": [
+   149,
+   156
+  ],
+  "presented.": [
+   150
+  ],
+  "Further,": [
+   151
+  ],
+  "numerical": [
+   153,
+   179
+  ],
+  "simulation": [
+   154
+  ],
+  "model": [
+   155
+  ],
+  "developed": [
+   157
+  ],
+  "describe": [
+   159
+  ],
+  "temperature": [
+   161
+  ],
+  "distribution": [
+   162
+  ],
+  "process.": [
+   171
+  ],
+  "Based": [
+   172
+  ],
+  "on": [
+   173,
+   177
+  ],
+  "results": [
+   175
+  ],
+  "simulation,": [
+   180
+  ],
+  "potentials": [
+   182
+  ],
+  "challenges": [
+   184
+  ],
+  "are": [
+   190
+  ],
+  "discussed.": [
+   191
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 11
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-08-21T09:56:20.448147",
+ "created_date": "2025-10-10T00:00:00"
+}

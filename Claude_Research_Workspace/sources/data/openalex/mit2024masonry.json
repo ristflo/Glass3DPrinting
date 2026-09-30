@@ -1,0 +1,1202 @@
+{
+ "id": "https://openalex.org/W4402605404",
+ "doi": "https://doi.org/10.1007/s40940-024-00279-8",
+ "title": "Additive manufacturing of interlocking glass masonry units",
+ "display_name": "Additive manufacturing of interlocking glass masonry units",
+ "publication_year": 2024,
+ "publication_date": "2024-09-16",
+ "ids": {
+  "openalex": "https://openalex.org/W4402605404",
+  "doi": "https://doi.org/10.1007/s40940-024-00279-8"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s40940-024-00279-8",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s40940-024-00279-8",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+  "source": {
+   "id": "https://openalex.org/S4210171197",
+   "display_name": "Glass Structures & Engineering",
+   "issn_l": "2363-5142",
+   "issn": [
+    "2363-5142",
+    "2363-5150"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Glass Structures &amp; Engineering",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5107451298",
+    "display_name": "Daniel Massimino",
+    "orcid": "https://orcid.org/0000-0003-0753-4075",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0753-4075"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Daniel Massimino",
+   "raw_affiliation_strings": [
+    "Mechanical Engineering, Massachusetts Institude of Technology, 32 Vassar Street, Cambridge, MA, 02143, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-0753-4075",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical Engineering, Massachusetts Institude of Technology, 32 Vassar Street, Cambridge, MA, 02143, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5107565678",
+    "display_name": "Ethan Townsend",
+    "orcid": "https://orcid.org/0009-0000-5136-9009",
+    "observed_orcids": [
+     "https://orcid.org/0009-0000-5136-9009"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Ethan Townsend",
+   "raw_affiliation_strings": [
+    "Evenline Inc., 1237 E. Main Street, Rochester, NY, 14609, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0000-5136-9009",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Evenline Inc., 1237 E. Main Street, Rochester, NY, 14609, USA",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5062009429",
+    "display_name": "Charlotte M. Folinus",
+    "orcid": "https://orcid.org/0009-0001-4059-0127",
+    "observed_orcids": [
+     "https://orcid.org/0009-0001-4059-0127"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Charlotte Folinus",
+   "raw_affiliation_strings": [
+    "Mechanical Engineering, Massachusetts Institude of Technology, 32 Vassar Street, Cambridge, MA, 02143, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0001-4059-0127",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical Engineering, Massachusetts Institude of Technology, 32 Vassar Street, Cambridge, MA, 02143, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5037812505",
+    "display_name": "M. B. Stern",
+    "orcid": "https://orcid.org/0009-0007-0878-1920",
+    "observed_orcids": [
+     "https://orcid.org/0009-0007-0878-1920"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Michael Stern",
+   "raw_affiliation_strings": [
+    "Evenline Inc., 1237 E. Main Street, Rochester, NY, 14609, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0007-0878-1920",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Evenline Inc., 1237 E. Main Street, Rochester, NY, 14609, USA",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5055634612",
+    "display_name": "Kaitlyn P. Becker",
+    "orcid": "https://orcid.org/0000-0003-2650-295X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2650-295X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kaitlyn Becker",
+   "raw_affiliation_strings": [
+    "Mechanical Engineering, Massachusetts Institude of Technology, 32 Vassar Street, Cambridge, MA, 02143, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2650-295X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Mechanical Engineering, Massachusetts Institude of Technology, 32 Vassar Street, Cambridge, MA, 02143, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5107451298"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I63966007"
+ ],
+ "apc_list": {
+  "value": 2890,
+  "currency": "USD",
+  "value_usd": 2890
+ },
+ "apc_paid": {
+  "value": 2890,
+  "currency": "USD",
+  "value_usd": 2890
+ },
+ "fwci": 0.4898,
+ "has_fulltext": true,
+ "cited_by_count": 3,
+ "citation_normalized_percentile": {
+  "value": 0.60136246,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 91,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "9",
+  "issue": "3-4",
+  "first_page": "397",
+  "last_page": "417"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12190",
+  "display_name": "Innovations in Concrete and Construction Materials",
+  "score": 0.9977999925613403,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2215",
+   "display_name": "Building and Construction"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12190",
+   "display_name": "Innovations in Concrete and Construction Materials",
+   "score": 0.9977999925613403,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2215",
+    "display_name": "Building and Construction"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9976999759674072,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9948999881744385,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/interlocking",
+   "display_name": "Interlocking",
+   "score": 0.9554830193519592
+  },
+  {
+   "id": "https://openalex.org/keywords/masonry",
+   "display_name": "Masonry",
+   "score": 0.6686664819717407
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.3713374137878418
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.3489012122154236
+  },
+  {
+   "id": "https://openalex.org/keywords/structural-engineering",
+   "display_name": "Structural engineering",
+   "score": 0.24206998944282532
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.22872096300125122
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2778844933",
+   "wikidata": "https://www.wikidata.org/wiki/Q630950",
+   "display_name": "Interlocking",
+   "level": 2,
+   "score": 0.9554830193519592
+  },
+  {
+   "id": "https://openalex.org/C535899295",
+   "wikidata": "https://www.wikidata.org/wiki/Q272999",
+   "display_name": "Masonry",
+   "level": 2,
+   "score": 0.6686664819717407
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.3713374137878418
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.3489012122154236
+  },
+  {
+   "id": "https://openalex.org/C66938386",
+   "wikidata": "https://www.wikidata.org/wiki/Q633538",
+   "display_name": "Structural engineering",
+   "level": 1,
+   "score": 0.24206998944282532
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.22872096300125122
+  }
+ ],
+ "mesh": [],
+ "locations_count": 3,
+ "locations": [
+  {
+   "id": "doi:10.1007/s40940-024-00279-8",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s40940-024-00279-8",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+   "source": {
+    "id": "https://openalex.org/S4210171197",
+    "display_name": "Glass Structures & Engineering",
+    "issn_l": "2363-5142",
+    "issn": [
+     "2363-5142",
+     "2363-5150"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Glass Structures &amp; Engineering",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:dspace.mit.edu:1721.1/156928",
+   "is_oa": true,
+   "landing_page_url": "https://hdl.handle.net/1721.1/156928",
+   "pdf_url": "https://dspace.mit.edu/bitstream/1721.1/156928/1/40940_2024_Article_279.pdf",
+   "source": {
+    "id": "https://openalex.org/S4306400425",
+    "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I63966007",
+    "host_organization_name": "Massachusetts Institute of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I63966007"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc",
+   "license_id": "https://openalex.org/licenses/cc-by-nc",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Springer International Publishing",
+   "raw_type": "Article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:65c9d5a0b0a640f89ce6b0c6117001d4",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/65c9d5a0b0a640f89ce6b0c6117001d4",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Challenging Glass Conference Proceedings, Vol 9 (2024)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1007/s40940-024-00279-8",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s40940-024-00279-8",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+  "source": {
+   "id": "https://openalex.org/S4210171197",
+   "display_name": "Glass Structures & Engineering",
+   "issn_l": "2363-5142",
+   "issn": [
+    "2363-5142",
+    "2363-5150"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Glass Structures &amp; Engineering",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4402605404.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4402605404.grobid-xml"
+ },
+ "referenced_works_count": 26,
+ "referenced_works": [
+  "https://openalex.org/W560954455",
+  "https://openalex.org/W866184793",
+  "https://openalex.org/W1518219215",
+  "https://openalex.org/W1910066889",
+  "https://openalex.org/W2033102682",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2578252657",
+  "https://openalex.org/W2605482839",
+  "https://openalex.org/W2883717838",
+  "https://openalex.org/W2883986410",
+  "https://openalex.org/W2901027378",
+  "https://openalex.org/W2906426973",
+  "https://openalex.org/W2907469009",
+  "https://openalex.org/W2946370624",
+  "https://openalex.org/W2994445225",
+  "https://openalex.org/W3113261395",
+  "https://openalex.org/W3129273782",
+  "https://openalex.org/W3145834777",
+  "https://openalex.org/W3209787019",
+  "https://openalex.org/W4242640405",
+  "https://openalex.org/W4281758165",
+  "https://openalex.org/W4367679093",
+  "https://openalex.org/W4381191170",
+  "https://openalex.org/W4381383758",
+  "https://openalex.org/W4407840815",
+  "https://openalex.org/W6902574425"
+ ],
+ "related_works": [
+  "https://openalex.org/W2287710223",
+  "https://openalex.org/W3094364298",
+  "https://openalex.org/W2514536182",
+  "https://openalex.org/W4319430794",
+  "https://openalex.org/W770489747",
+  "https://openalex.org/W2351254323",
+  "https://openalex.org/W618039210",
+  "https://openalex.org/W2386012488",
+  "https://openalex.org/W55963706",
+  "https://openalex.org/W2900255777"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "In": [
+   1
+  ],
+  "comparison": [
+   2
+  ],
+  "to": [
+   3,
+   14,
+   49,
+   62,
+   70,
+   118,
+   125,
+   220,
+   229
+  ],
+  "traditional": [
+   4
+  ],
+  "glass": [
+   5,
+   7,
+   68,
+   80,
+   123
+  ],
+  "casting,": [
+   6
+  ],
+  "additive": [
+   8
+  ],
+  "manufacturing": [
+   9
+  ],
+  "(AM)": [
+   10
+  ],
+  "presents": [
+   11
+  ],
+  "an": [
+   12,
+   231
+  ],
+  "opportunity": [
+   13
+  ],
+  "increase": [
+   15
+  ],
+  "design": [
+   16,
+   120
+  ],
+  "flexibility": [
+   17
+  ],
+  "and": [
+   18,
+   59,
+   133,
+   142,
+   152,
+   163,
+   186,
+   235
+  ],
+  "reduce": [
+   19
+  ],
+  "tooling": [
+   20
+  ],
+  "costs": [
+   21
+  ],
+  "for": [
+   22,
+   36,
+   46,
+   75,
+   105,
+   122,
+   183,
+   189
+  ],
+  "the": [
+   23,
+   30,
+   44,
+   64,
+   76,
+   149,
+   227
+  ],
+  "production": [
+   24
+  ],
+  "of": [
+   25,
+   66,
+   89,
+   94,
+   112,
+   155,
+   205
+  ],
+  "highly": [
+   26
+  ],
+  "variable": [
+   27
+  ],
+  "geometries.": [
+   28
+  ],
+  "While": [
+   29
+  ],
+  "latter": [
+   31
+  ],
+  "has": [
+   32
+  ],
+  "been": [
+   33
+  ],
+  "extensively": [
+   34
+  ],
+  "explored": [
+   35
+  ],
+  "masonry": [
+   37,
+   73,
+   108,
+   157,
+   213
+  ],
+  "units,": [
+   38
+  ],
+  "there": [
+   39
+  ],
+  "is": [
+   40,
+   87,
+   166
+  ],
+  "minimal": [
+   41
+  ],
+  "research": [
+   42
+  ],
+  "on": [
+   43
+  ],
+  "former": [
+   45
+  ],
+  "its": [
+   47
+  ],
+  "viability": [
+   48
+  ],
+  "produce": [
+   50,
+   71,
+   126
+  ],
+  "structural": [
+   51,
+   134,
+   153
+  ],
+  "building": [
+   52,
+   237
+  ],
+  "components.": [
+   53
+  ],
+  "This": [
+   54
+  ],
+  "paper": [
+   55
+  ],
+  "encompasses": [
+   56
+  ],
+  "design,": [
+   57
+  ],
+  "manufacturing,": [
+   58
+  ],
+  "experimental": [
+   60
+  ],
+  "testing": [
+   61,
+   165
+  ],
+  "assess": [
+   63
+  ],
+  "feasibility": [
+   65
+  ],
+  "using": [
+   67
+  ],
+  "AM": [
+   69,
+   124
+  ],
+  "interlocking": [
+   72,
+   127
+  ],
+  "units": [
+   74,
+   214,
+   225
+  ],
+  "construction": [
+   77
+  ],
+  "industry.": [
+   78
+  ],
+  "The": [
+   79
+  ],
+  "3D": [
+   81
+  ],
+  "printer": [
+   82
+  ],
+  "employed": [
+   83
+  ],
+  "in": [
+   84,
+   193
+  ],
+  "this": [
+   85,
+   113
+  ],
+  "study": [
+   86
+  ],
+  "capable": [
+   88
+  ],
+  "printing": [
+   90
+  ],
+  "a": [
+   91,
+   202,
+   216
+  ],
+  "maximum": [
+   92
+  ],
+  "volume": [
+   93
+  ],
+  "32.5": [
+   95,
+   99
+  ],
+  "$$\\times": [
+   96,
+   100
+  ],
+  "$$": [
+   97,
+   101
+  ],
+  "\u00d7": [
+   98,
+   102
+  ],
+  "38": [
+   103
+  ],
+  "cm\u2013suitable": [
+   104
+  ],
+  "producing": [
+   106
+  ],
+  "full-size": [
+   107
+  ],
+  "units.": [
+   109,
+   128
+  ],
+  "As": [
+   110
+  ],
+  "part": [
+   111
+  ],
+  "work,": [
+   114
+  ],
+  "we": [
+   115
+  ],
+  "discuss": [
+   116
+  ],
+  "how": [
+   117
+  ],
+  "adapt": [
+   119
+  ],
+  "guidelines": [
+   121
+  ],
+  "To": [
+   129,
+   147
+  ],
+  "evaluate": [
+   130
+  ],
+  "fabrication": [
+   131,
+   137,
+   171,
+   239
+  ],
+  "ease": [
+   132
+  ],
+  "performance,": [
+   135
+  ],
+  "three": [
+   136
+  ],
+  "methods,": [
+   138
+  ],
+  "Fully": [
+   139,
+   143,
+   211,
+   223
+  ],
+  "Hollow,": [
+   140
+  ],
+  "Print-Cast,": [
+   141
+  ],
+  "Printed,": [
+   144
+  ],
+  "are": [
+   145
+  ],
+  "compared.": [
+   146
+  ],
+  "compare": [
+   148
+  ],
+  "accuracy,": [
+   150
+  ],
+  "repeatability,": [
+   151
+  ],
+  "capacity": [
+   154
+  ],
+  "each": [
+   156
+  ],
+  "unit,": [
+   158
+  ],
+  "geometric": [
+   159
+  ],
+  "analysis,": [
+   160
+  ],
+  "surface": [
+   161
+  ],
+  "roughness,": [
+   162
+  ],
+  "mechanical": [
+   164
+  ],
+  "conducted.": [
+   167
+  ],
+  "Results": [
+   168,
+   208
+  ],
+  "varied": [
+   169
+  ],
+  "by": [
+   170
+  ],
+  "method,": [
+   172
+  ],
+  "with": [
+   173,
+   201
+  ],
+  "average": [
+   174
+  ],
+  "strength": [
+   175
+  ],
+  "ranging": [
+   176
+  ],
+  "from": [
+   177
+  ],
+  "3.64": [
+   178
+  ],
+  "$$-$$": [
+   179
+  ],
+  "-": [
+   180
+  ],
+  "42.3": [
+   181
+  ],
+  "MPa": [
+   182,
+   188
+  ],
+  "initial": [
+   184
+  ],
+  "fracture": [
+   185
+  ],
+  "64.0\u2013118": [
+   187
+  ],
+  "ultimate": [
+   190
+  ],
+  "strength.": [
+   191
+  ],
+  "Accuracy": [
+   192
+  ],
+  "print": [
+   194
+  ],
+  "dimensions": [
+   195
+  ],
+  "was": [
+   196
+  ],
+  "less": [
+   197
+  ],
+  "than": [
+   198
+  ],
+  "1": [
+   199
+  ],
+  "mm": [
+   200
+  ],
+  "standard": [
+   203
+  ],
+  "deviation": [
+   204
+  ],
+  "0.14\u20131.6": [
+   206
+  ],
+  "mm.": [
+   207
+  ],
+  "demonstrated": [
+   209
+  ],
+  "that": [
+   210
+  ],
+  "Hollow": [
+   212
+  ],
+  "provide": [
+   215,
+   230
+  ],
+  "more": [
+   217
+  ],
+  "immediate": [
+   218
+  ],
+  "path": [
+   219
+  ],
+  "implementation,": [
+   221
+  ],
+  "while": [
+   222
+  ],
+  "Printed": [
+   224
+  ],
+  "have": [
+   226
+  ],
+  "potential": [
+   228
+  ],
+  "entirely": [
+   232
+  ],
+  "glass,": [
+   233
+  ],
+  "transparent,": [
+   234
+  ],
+  "circular": [
+   236
+  ],
+  "component": [
+   238
+  ],
+  "method.": [
+   240
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

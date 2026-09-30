@@ -1,0 +1,475 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        18
+      ]
+    ],
+    "date-time": "2026-08-18T04:16:29Z",
+    "timestamp": 1787026589511,
+    "version": "build-2736575974"
+  },
+  "reference-count": 27,
+  "publisher": "Frontiers Media SA",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2022-08-25T00:00:00Z",
+        "timestamp": 1661385600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001729",
+      "name": "Stiftelsen för Strategisk Forskning",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "RMA15-0135"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RMA15-0135"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001729",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "frontiersin.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Front. Mater."
+  ],
+  "abstract": "<jats:p>\n                    Additive manufacturing of glass is an emerging technology that is foreseen to have a big impact on glass fabrication for innovative solutions within research, as well as for industrial applications. One approach is 3D printing using glass filaments. This technique is similar to directed energy deposition (DED) of metal wires using laser melting, which is highly versatile in printing complex structures. For glass, however, the technique is still at an early stage of development. Printing complex multi-layer structures have been challenging, often resulting in poor control of print geometry, excessive evaporation, as well as low repeatability. In this work we present a systematic study of filament-based 3D printing of silica-glass using CO\n                    <jats:sub>2</jats:sub>\n                    -laser heating. The study focuses on the bonding width (wetting) during first-layer printing onto fused quartz substrates and during multi-layer printing, i.e., layer-to-layer bonding. The main printing parameters that have been investigated include printing speed, filament feed rate, and incident laser power. Bonding widths from 17 to 221 µm are achieved with 196 µm diameter fused silica filaments in single line printing. Using experimentally determined printing parameters for such filament, 3D printed objects consisting of more than 100 layers were subsequently demonstrated. The results presented here provide an approach in glass 3D printing, using the filament-based technique, enabling highly complex glass structures to be fabricated.\n                  </jats:p>",
+  "DOI": "10.3389/fmats.2022.978861",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        8,
+        25
+      ]
+    ],
+    "date-time": "2022-08-25T00:56:47Z",
+    "timestamp": 1661389007000
+  },
+  "update-policy": "https://doi.org/10.3389/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 15,
+  "title": [
+    "Investigation of glass bonding and multi-layer deposition during filament-based glass 3D printing"
+  ],
+  "prefix": "10.3389",
+  "volume": "9",
+  "author": [
+    {
+      "given": "Chunxin",
+      "family": "Liu",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Taras",
+      "family": "Oriekhov",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Michael",
+      "family": "Fokine",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        8,
+        25
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "B1",
+      "doi-asserted-by": "publisher",
+      "first-page": "2307",
+      "DOI": "10.1364/OME.9.002307",
+      "article-title": "3D-printing of arsenic sulfide chalcogenide glasses",
+      "volume": "9",
+      "author": "Baudet",
+      "year": "2019",
+      "journal-title": "Opt. Mat. Express"
+    },
+    {
+      "key": "B2",
+      "unstructured": "BrachaArik Gal-orEran 3D printing system for printing high melting temperature materials2020"
+    },
+    {
+      "key": "B3",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1117/12.2610698",
+      "article-title": "Digital glass forming of photonics",
+      "volume-title": "Laser applications in microelectronic and optoelectronic manufacturing (LAMOM) XXVII",
+      "author": "Capps",
+      "year": "2022"
+    },
+    {
+      "key": "B4",
+      "doi-asserted-by": "publisher",
+      "first-page": "1802",
+      "DOI": "10.1039/C8AY01934G",
+      "article-title": "Chemical analysis using 3D printed glass microfluidics",
+      "volume": "11",
+      "author": "Gal-Or",
+      "year": "2019",
+      "journal-title": "Anal. Methods"
+    },
+    {
+      "key": "B5",
+      "doi-asserted-by": "crossref",
+      "first-page": "45",
+      "DOI": "10.1117/12.2577205",
+      "article-title": "Additive manufacturing of fused silica using coaxial laser glass deposition: experiment, simulation, and discussion",
+      "volume-title": "Laser 3D manufacturing VIII",
+      "author": "Grabe",
+      "year": "2021"
+    },
+    {
+      "key": "B6",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/978-3-319-56099-1",
+      "volume-title": "Advanced manufacturing technologies",
+      "author": "Gupta",
+      "year": "2017"
+    },
+    {
+      "key": "B7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/12.2291443",
+      "article-title": "Fiber-fed laser-heated process for printing transparent glass from single mode optical fiber",
+      "author": "Hostetler",
+      "year": "2018"
+    },
+    {
+      "key": "B8",
+      "doi-asserted-by": "publisher",
+      "first-page": "269",
+      "DOI": "10.1089/3dp.2018.0157",
+      "article-title": "Additive manufacturing of transparent glass structures",
+      "volume": "5",
+      "author": "Inamura",
+      "year": "2018",
+      "journal-title": "3D Print. Addit. Manuf."
+    },
+    {
+      "key": "B9",
+      "doi-asserted-by": "publisher",
+      "first-page": "92",
+      "DOI": "10.1089/3dp.2015.0021",
+      "article-title": "Additive manufacturing of optically transparent glass",
+      "volume": "2",
+      "author": "Klein",
+      "year": "2015",
+      "journal-title": "3D Print. Addit. Manuf."
+    },
+    {
+      "key": "B10",
+      "article-title": "Direct laser sintering of borosilicate glass",
+      "author": "Klocke",
+      "year": "2004"
+    },
+    {
+      "key": "B11",
+      "doi-asserted-by": "publisher",
+      "first-page": "337",
+      "DOI": "10.1038/nature22061",
+      "article-title": "Three-dimensional printing of transparent fused silica glass",
+      "volume": "544",
+      "author": "Kotz",
+      "year": "2017",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "B12",
+      "doi-asserted-by": "publisher",
+      "first-page": "2006341",
+      "DOI": "10.1002/adma.202006341",
+      "article-title": "Two‐photon polymerization of nanocomposites for the fabrication of transparent fused silica glass microstructures",
+      "volume": "33",
+      "author": "Kotz",
+      "year": "2021",
+      "journal-title": "Adv. Mat."
+    },
+    {
+      "key": "B13",
+      "doi-asserted-by": "crossref",
+      "first-page": "8",
+      "DOI": "10.1117/12.2554516",
+      "article-title": "Generation of functional curved waveguides by CO2-laser based deposition of coreless fused silica fibers",
+      "volume-title": "3D printed optics and additive photonic manufacturing II",
+      "author": "Kranert",
+      "year": "2020"
+    },
+    {
+      "key": "B14",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1117/1.OE.57.4.041408",
+      "article-title": "Additive manufacturing of transparent fused quartz",
+      "volume": "57",
+      "author": "Luo",
+      "year": "2018",
+      "journal-title": "Opt. Eng."
+    },
+    {
+      "key": "B15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1115/1.4028531",
+      "article-title": "Additive manufacturing of glass",
+      "volume": "136",
+      "author": "Luo",
+      "year": "2014",
+      "journal-title": "J. Manuf. Sci. Eng."
+    },
+    {
+      "key": "B16",
+      "doi-asserted-by": "publisher",
+      "first-page": "2103180",
+      "DOI": "10.1002/advs.202103180",
+      "article-title": "Melt-extrusion-based additive manufacturing of transparent fused silica glass",
+      "volume": "8",
+      "author": "Mader",
+      "year": "2021",
+      "journal-title": "Adv. Sci. (Weinh)."
+    },
+    {
+      "key": "B17",
+      "doi-asserted-by": "publisher",
+      "first-page": "187",
+      "DOI": "10.1108/13552541111124761",
+      "article-title": "The guide to glass 3D printing: Developments, methods, diagnostics and results",
+      "volume": "17",
+      "author": "Marchelli",
+      "year": "2011",
+      "journal-title": "Rapid Prototyp. J."
+    },
+    {
+      "key": "B18",
+      "doi-asserted-by": "publisher",
+      "first-page": "212",
+      "DOI": "10.1038/s41563-019-0525-y",
+      "article-title": "Three-dimensional printing of multicomponent glasses using phase-separating resins",
+      "volume": "19",
+      "author": "Moore",
+      "year": "2020",
+      "journal-title": "Nat. Mat."
+    },
+    {
+      "key": "B19",
+      "first-page": "139",
+      "article-title": "Through glass, the rise of modern science",
+      "volume": "37",
+      "author": "Nascimento",
+      "year": "2015",
+      "journal-title": "J. Mater. Educ."
+    },
+    {
+      "key": "B20",
+      "doi-asserted-by": "publisher",
+      "first-page": "1701181",
+      "DOI": "10.1002/adma.201701181",
+      "article-title": "3D-Printed transparent glass",
+      "volume": "29",
+      "author": "Nguyen",
+      "year": "2017",
+      "journal-title": "Adv. Mat."
+    },
+    {
+      "key": "B21",
+      "doi-asserted-by": "publisher",
+      "first-page": "125",
+      "DOI": "10.13128/Substantia-267",
+      "article-title": "A brief history of early silica glass: Impact on science and society",
+      "volume": "3",
+      "author": "Rasmussen",
+      "year": "2019",
+      "journal-title": "Substantia"
+    },
+    {
+      "key": "B22",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1039/9781839169229",
+      "volume-title": "Introduction to glass science and technology",
+      "author": "Shelby",
+      "year": "2020"
+    },
+    {
+      "key": "B23",
+      "doi-asserted-by": "publisher",
+      "first-page": "042050",
+      "DOI": "10.2351/7.0000482",
+      "article-title": "Material loss analysis in glass additive manufacturing by laser glass deposition",
+      "volume": "33",
+      "author": "Sleiman",
+      "year": "2021",
+      "journal-title": "J. Laser Appl."
+    },
+    {
+      "key": "B24",
+      "doi-asserted-by": "publisher",
+      "first-page": "272",
+      "DOI": "10.1016/j.procir.2018.08.109",
+      "article-title": "Additive manufacturing of glass: CO2-Laser glass deposition printing",
+      "volume": "74",
+      "author": "von Witzendorff",
+      "year": "2018",
+      "journal-title": "Procedia CIRP"
+    },
+    {
+      "key": "B25",
+      "doi-asserted-by": "publisher",
+      "first-page": "108957",
+      "DOI": "10.1016/j.matdes.2020.108957",
+      "article-title": "Direct 3D-printing of phosphate glass by fused deposition modeling",
+      "volume": "194",
+      "author": "Zaki",
+      "year": "2020",
+      "journal-title": "Mater. Des."
+    },
+    {
+      "key": "B26",
+      "doi-asserted-by": "publisher",
+      "first-page": "263",
+      "DOI": "10.1007/s12200-020-1009-z",
+      "article-title": "3D printing of glass by additive manufacturing techniques: a review",
+      "volume": "14",
+      "author": "Zhang",
+      "year": "2020",
+      "journal-title": "Front. Optoelectron."
+    },
+    {
+      "key": "B27",
+      "doi-asserted-by": "publisher",
+      "first-page": "81",
+      "DOI": "10.3390/mi13010081",
+      "article-title": "Overview of 3D-printed silica glass",
+      "volume": "13",
+      "author": "Zhang",
+      "year": "2022",
+      "journal-title": "Micromachines"
+    }
+  ],
+  "container-title": [
+    "Frontiers in Materials"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        2,
+        15
+      ]
+    ],
+    "date-time": "2023-02-15T16:57:33Z",
+    "timestamp": 1676480253000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/full"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        8,
+        25
+      ]
+    ]
+  },
+  "references-count": 27,
+  "alternative-id": [
+    "10.3389/fmats.2022.978861"
+  ],
+  "URL": "https://doi.org/10.3389/fmats.2022.978861",
+  "relation": {},
+  "ISSN": [
+    "2296-8016"
+  ],
+  "issn-type": [
+    {
+      "value": "2296-8016",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        8,
+        25
+      ]
+    ]
+  },
+  "article-number": "978861"
+}

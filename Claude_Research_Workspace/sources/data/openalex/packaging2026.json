@@ -1,0 +1,1084 @@
+{
+ "id": "https://openalex.org/W7125835249",
+ "doi": "https://doi.org/10.3390/ma19030506",
+ "title": "Packaging Glasses: From Containers to Encapsulation Composition, Performance, and Sustainability Pathways",
+ "display_name": "Packaging Glasses: From Containers to Encapsulation Composition, Performance, and Sustainability Pathways",
+ "publication_year": 2026,
+ "publication_date": "2026-01-27",
+ "ids": {
+  "openalex": "https://openalex.org/W7125835249",
+  "doi": "https://doi.org/10.3390/ma19030506",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/41681196"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/ma19030506",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/ma19030506",
+  "pdf_url": "https://www.mdpi.com/1996-1944/19/3/506/pdf?version=1769521525",
+  "source": {
+   "id": "https://openalex.org/S18714766",
+   "display_name": "Materials",
+   "issn_l": "1996-1944",
+   "issn": [
+    "1996-1944"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/1996-1944/19/3/506/pdf?version=1769521525",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5070876194",
+    "display_name": "Leonardo Pagnotta",
+    "orcid": "https://orcid.org/0000-0001-7917-5185"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I45204951",
+     "display_name": "University of Calabria",
+     "ror": "https://ror.org/02rc97e94",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I45204951"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Leonardo Pagnotta",
+   "raw_affiliation_strings": [
+    "Department of Mechanical, Energy and Management Engineering, University of Calabria, 87036 Rende, Italy"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-7917-5185",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical, Energy and Management Engineering, University of Calabria, 87036 Rende, Italy",
+     "institution_ids": [
+      "https://openalex.org/I45204951"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5070876194"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I45204951"
+ ],
+ "apc_list": {
+  "value": 2600,
+  "currency": "CHF",
+  "value_usd": 3137
+ },
+ "apc_paid": {
+  "value": 2600,
+  "currency": "CHF",
+  "value_usd": 3137
+ },
+ "fwci": 9.1728,
+ "has_fulltext": true,
+ "cited_by_count": 4,
+ "citation_normalized_percentile": {
+  "value": 0.97679857,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "19",
+  "issue": "3",
+  "first_page": "506",
+  "last_page": "506"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12897",
+  "display_name": "Structural Analysis of Composite Materials",
+  "score": 0.20749999582767487,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12897",
+   "display_name": "Structural Analysis of Composite Materials",
+   "score": 0.20749999582767487,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11208",
+   "display_name": "Lignin and Wood Chemistry",
+   "score": 0.07500000298023224,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10544",
+   "display_name": "Glass properties and applications",
+   "score": 0.07460000365972519,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2503",
+    "display_name": "Ceramics and Composites"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/sustainability",
+   "display_name": "Sustainability",
+   "score": 0.7940999865531921
+  },
+  {
+   "id": "https://openalex.org/keywords/encapsulation",
+   "display_name": "Encapsulation (networking)",
+   "score": 0.7674000263214111
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-recycling",
+   "display_name": "Glass recycling",
+   "score": 0.5206999778747559
+  },
+  {
+   "id": "https://openalex.org/keywords/circular-economy",
+   "display_name": "Circular economy",
+   "score": 0.35510000586509705
+  },
+  {
+   "id": "https://openalex.org/keywords/sustainable-products",
+   "display_name": "Sustainable products",
+   "score": 0.3434000015258789
+  },
+  {
+   "id": "https://openalex.org/keywords/scope",
+   "display_name": "Scope (computer science)",
+   "score": 0.3215999901294708
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C66204764",
+   "wikidata": "https://www.wikidata.org/wiki/Q219416",
+   "display_name": "Sustainability",
+   "level": 2,
+   "score": 0.7940999865531921
+  },
+  {
+   "id": "https://openalex.org/C81147070",
+   "wikidata": "https://www.wikidata.org/wiki/Q1172449",
+   "display_name": "Encapsulation (networking)",
+   "level": 2,
+   "score": 0.7674000263214111
+  },
+  {
+   "id": "https://openalex.org/C185903656",
+   "wikidata": "https://www.wikidata.org/wiki/Q1416361",
+   "display_name": "Glass recycling",
+   "level": 2,
+   "score": 0.5206999778747559
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.4343000054359436
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.41339999437332153
+  },
+  {
+   "id": "https://openalex.org/C2777448596",
+   "wikidata": "https://www.wikidata.org/wiki/Q497743",
+   "display_name": "Circular economy",
+   "level": 2,
+   "score": 0.35510000586509705
+  },
+  {
+   "id": "https://openalex.org/C502907923",
+   "wikidata": "https://www.wikidata.org/wiki/Q7649686",
+   "display_name": "Sustainable products",
+   "level": 3,
+   "score": 0.3434000015258789
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.3228999972343445
+  },
+  {
+   "id": "https://openalex.org/C2778012447",
+   "wikidata": "https://www.wikidata.org/wiki/Q1034415",
+   "display_name": "Scope (computer science)",
+   "level": 2,
+   "score": 0.3215999901294708
+  },
+  {
+   "id": "https://openalex.org/C69567186",
+   "wikidata": "https://www.wikidata.org/wiki/Q5358403",
+   "display_name": "Electronic packaging",
+   "level": 2,
+   "score": 0.3158999979496002
+  },
+  {
+   "id": "https://openalex.org/C548081761",
+   "wikidata": "https://www.wikidata.org/wiki/Q180388",
+   "display_name": "Waste management",
+   "level": 1,
+   "score": 0.31279999017715454
+  },
+  {
+   "id": "https://openalex.org/C104304963",
+   "wikidata": "https://www.wikidata.org/wiki/Q5316114",
+   "display_name": "Durability",
+   "level": 2,
+   "score": 0.2994000017642975
+  },
+  {
+   "id": "https://openalex.org/C117671659",
+   "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+   "display_name": "Manufacturing engineering",
+   "level": 1,
+   "score": 0.29899999499320984
+  },
+  {
+   "id": "https://openalex.org/C107053488",
+   "wikidata": "https://www.wikidata.org/wiki/Q2674423",
+   "display_name": "Construction engineering",
+   "level": 1,
+   "score": 0.29499998688697815
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.29010000824928284
+  },
+  {
+   "id": "https://openalex.org/C2742236",
+   "wikidata": "https://www.wikidata.org/wiki/Q924713",
+   "display_name": "Efficient energy use",
+   "level": 2,
+   "score": 0.2797999978065491
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.2784000039100647
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.267300009727478
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.3390/ma19030506",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/ma19030506",
+   "pdf_url": "https://www.mdpi.com/1996-1944/19/3/506/pdf?version=1769521525",
+   "source": {
+    "id": "https://openalex.org/S18714766",
+    "display_name": "Materials",
+    "issn_l": "1996-1944",
+    "issn": [
+     "1996-1944"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Materials",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:41681196",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41681196",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Materials (Basel, Switzerland)",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:europepmc.org:11704898",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12897758",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400806",
+    "display_name": "Europe PMC (PubMed Central)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1303153112",
+    "host_organization_name": "European Bioinformatics Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/I1303153112"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:12897758",
+   "is_oa": true,
+   "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12897758/",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Materials (Basel)",
+   "raw_type": "Text"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/ma19030506",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/ma19030506",
+  "pdf_url": "https://www.mdpi.com/1996-1944/19/3/506/pdf?version=1769521525",
+  "source": {
+   "id": "https://openalex.org/S18714766",
+   "display_name": "Materials",
+   "issn_l": "1996-1944",
+   "issn": [
+    "1996-1944"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Responsible consumption and production",
+   "score": 0.4551919996738434,
+   "id": "https://metadata.un.org/sdg/12"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W7125835249.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W7125835249.grobid-xml"
+ },
+ "referenced_works_count": 101,
+ "referenced_works": [
+  "https://openalex.org/W1495200328",
+  "https://openalex.org/W1950878733",
+  "https://openalex.org/W1965943622",
+  "https://openalex.org/W1978816191",
+  "https://openalex.org/W1986620377",
+  "https://openalex.org/W2018514358",
+  "https://openalex.org/W2036792166",
+  "https://openalex.org/W2070579500",
+  "https://openalex.org/W2075216356",
+  "https://openalex.org/W2079406761",
+  "https://openalex.org/W2079948882",
+  "https://openalex.org/W2095663425",
+  "https://openalex.org/W2167241908",
+  "https://openalex.org/W2346625558",
+  "https://openalex.org/W2403743245",
+  "https://openalex.org/W2494181680",
+  "https://openalex.org/W2501779233",
+  "https://openalex.org/W2601409558",
+  "https://openalex.org/W2784077144",
+  "https://openalex.org/W2906506207",
+  "https://openalex.org/W2921617929",
+  "https://openalex.org/W2962207924",
+  "https://openalex.org/W2968203839",
+  "https://openalex.org/W2969033528",
+  "https://openalex.org/W3020275801",
+  "https://openalex.org/W3047295504",
+  "https://openalex.org/W3123266749",
+  "https://openalex.org/W3169816097",
+  "https://openalex.org/W3177604948",
+  "https://openalex.org/W4200111018",
+  "https://openalex.org/W4200140650",
+  "https://openalex.org/W4200206400",
+  "https://openalex.org/W4210948972",
+  "https://openalex.org/W4213108902",
+  "https://openalex.org/W4221117574",
+  "https://openalex.org/W4223468610",
+  "https://openalex.org/W4231714900",
+  "https://openalex.org/W4310081346",
+  "https://openalex.org/W4313411514",
+  "https://openalex.org/W4313530818",
+  "https://openalex.org/W4313890872",
+  "https://openalex.org/W4320163169",
+  "https://openalex.org/W4321782420",
+  "https://openalex.org/W4324260130",
+  "https://openalex.org/W4362472201",
+  "https://openalex.org/W4380790373",
+  "https://openalex.org/W4383311318",
+  "https://openalex.org/W4385735894",
+  "https://openalex.org/W4385874362",
+  "https://openalex.org/W4387586353",
+  "https://openalex.org/W4389272668",
+  "https://openalex.org/W4389291844",
+  "https://openalex.org/W4389490170",
+  "https://openalex.org/W4390114955",
+  "https://openalex.org/W4390368537",
+  "https://openalex.org/W4393167348",
+  "https://openalex.org/W4395020930",
+  "https://openalex.org/W4395456897",
+  "https://openalex.org/W4395695387",
+  "https://openalex.org/W4398146977",
+  "https://openalex.org/W4399509061",
+  "https://openalex.org/W4399509091",
+  "https://openalex.org/W4400038328",
+  "https://openalex.org/W4400617249",
+  "https://openalex.org/W4400941402",
+  "https://openalex.org/W4401337802",
+  "https://openalex.org/W4401594874",
+  "https://openalex.org/W4401664665",
+  "https://openalex.org/W4402512308",
+  "https://openalex.org/W4402973101",
+  "https://openalex.org/W4403027405",
+  "https://openalex.org/W4403105531",
+  "https://openalex.org/W4403117292",
+  "https://openalex.org/W4403876908",
+  "https://openalex.org/W4404020786",
+  "https://openalex.org/W4404571942",
+  "https://openalex.org/W4404668705",
+  "https://openalex.org/W4404771210",
+  "https://openalex.org/W4405129212",
+  "https://openalex.org/W4405725241",
+  "https://openalex.org/W4405808475",
+  "https://openalex.org/W4405913711",
+  "https://openalex.org/W4406445713",
+  "https://openalex.org/W4406734152",
+  "https://openalex.org/W4406780564",
+  "https://openalex.org/W4406957875",
+  "https://openalex.org/W4407277941",
+  "https://openalex.org/W4407422615",
+  "https://openalex.org/W4407919539",
+  "https://openalex.org/W4408578382",
+  "https://openalex.org/W4408981410",
+  "https://openalex.org/W4408997089",
+  "https://openalex.org/W4410144799",
+  "https://openalex.org/W4410419724",
+  "https://openalex.org/W4410811330",
+  "https://openalex.org/W4411064874",
+  "https://openalex.org/W4412426505",
+  "https://openalex.org/W4413164211",
+  "https://openalex.org/W4413772755",
+  "https://openalex.org/W4414653335",
+  "https://openalex.org/W4414922846"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "This": [
+   0
+  ],
+  "review": [
+   1
+  ],
+  "synthesizes": [
+   2
+  ],
+  "four": [
+   3
+  ],
+  "decades": [
+   4
+  ],
+  "of": [
+   5
+  ],
+  "scientific": [
+   6
+  ],
+  "and": [
+   7,
+   16,
+   27,
+   39,
+   44,
+   59,
+   70,
+   74,
+   80,
+   86,
+   93,
+   104,
+   116,
+   123,
+   135,
+   152
+  ],
+  "industrial": [
+   8
+  ],
+  "developments": [
+   9
+  ],
+  "in": [
+   10,
+   89,
+   141
+  ],
+  "packaging": [
+   11,
+   127
+  ],
+  "glass,": [
+   12
+  ],
+  "integrating": [
+   13
+  ],
+  "structural,": [
+   14
+  ],
+  "technological,": [
+   15
+  ],
+  "sustainability": [
+   17
+  ],
+  "perspectives.": [
+   18
+  ],
+  "Glass": [
+   19
+  ],
+  "remains": [
+   20
+  ],
+  "the": [
+   21
+  ],
+  "benchmark": [
+   22
+  ],
+  "material": [
+   23,
+   137
+  ],
+  "for": [
+   24,
+   98,
+   149
+  ],
+  "inert,": [
+   25
+  ],
+  "transparent,": [
+   26
+  ],
+  "fully": [
+   28
+  ],
+  "recyclable": [
+   29
+  ],
+  "containment,": [
+   30
+  ],
+  "yet": [
+   31
+  ],
+  "its": [
+   32
+  ],
+  "scope": [
+   33
+  ],
+  "has": [
+   34
+  ],
+  "expanded": [
+   35
+  ],
+  "from": [
+   36
+  ],
+  "conventional": [
+   37
+  ],
+  "bottles": [
+   38
+  ],
+  "vials": [
+   40
+  ],
+  "to": [
+   41,
+   101
+  ],
+  "advanced": [
+   42
+  ],
+  "functional": [
+   43
+  ],
+  "electronic": [
+   45
+  ],
+  "encapsulation.": [
+   46
+  ],
+  "Packaging": [
+   47
+  ],
+  "glasses": [
+   48
+  ],
+  "are": [
+   49,
+   96
+  ],
+  "classified": [
+   50
+  ],
+  "into": [
+   51
+  ],
+  "five": [
+   52
+  ],
+  "main": [
+   53
+  ],
+  "families-soda-lime,": [
+   54
+  ],
+  "borosilicate,": [
+   55
+  ],
+  "aluminosilicate,": [
+   56
+  ],
+  "recycled": [
+   57
+  ],
+  "(cullet-rich),": [
+   58
+  ],
+  "functional/electronic-and": [
+   60
+  ],
+  "compared": [
+   61
+  ],
+  "across": [
+   62
+  ],
+  "key": [
+   63
+  ],
+  "domains:": [
+   64
+  ],
+  "mechanical,": [
+   65
+  ],
+  "thermal,": [
+   66
+  ],
+  "chemical,": [
+   67
+  ],
+  "optical,": [
+   68
+  ],
+  "barrier,": [
+   69
+  ],
+  "hermetic.": [
+   71
+  ],
+  "Quantitative": [
+   72
+  ],
+  "tables": [
+   73
+  ],
+  "normalized": [
+   75
+  ],
+  "diagrams": [
+   76
+  ],
+  "illustrate": [
+   77
+  ],
+  "how": [
+   78
+  ],
+  "compositional": [
+   79
+  ],
+  "processing": [
+   81
+  ],
+  "trends": [
+   82
+  ],
+  "govern": [
+   83
+  ],
+  "structure,": [
+   84
+  ],
+  "processability,": [
+   85
+  ],
+  "performance.": [
+   87
+  ],
+  "Advances": [
+   88
+  ],
+  "forming,": [
+   90
+  ],
+  "surface": [
+   91
+  ],
+  "engineering,": [
+   92
+  ],
+  "melting": [
+   94
+  ],
+  "practice": [
+   95
+  ],
+  "analyzed": [
+   97
+  ],
+  "their": [
+   99
+  ],
+  "contributions": [
+   100
+  ],
+  "lightweighting,": [
+   102
+  ],
+  "durability,": [
+   103
+  ],
+  "decarbonization.": [
+   105
+  ],
+  "Sustainability": [
+   106
+  ],
+  "is": [
+   107
+  ],
+  "addressed": [
+   108
+  ],
+  "through": [
+   109
+  ],
+  "cullet": [
+   110
+  ],
+  "utilization,": [
+   111
+  ],
+  "energy": [
+   112,
+   153
+  ],
+  "demand,": [
+   113
+  ],
+  "life-cycle": [
+   114
+  ],
+  "indicators,": [
+   115
+  ],
+  "regulatory": [
+   117
+  ],
+  "alignment,": [
+   118
+  ],
+  "defining": [
+   119
+  ],
+  "pathways": [
+   120
+  ],
+  "toward": [
+   121
+  ],
+  "circular": [
+   122
+  ],
+  "low-carbon": [
+   124
+  ],
+  "production.": [
+   125
+  ],
+  "Overall,": [
+   126
+  ],
+  "glass": [
+   128,
+   143
+  ],
+  "emerges": [
+   129
+  ],
+  "as": [
+   130
+  ],
+  "a": [
+   131
+  ],
+  "circular,": [
+   132
+  ],
+  "chemically": [
+   133
+  ],
+  "stable,": [
+   134
+  ],
+  "traceable": [
+   136
+  ],
+  "system,": [
+   138
+  ],
+  "while": [
+   139
+  ],
+  "advances": [
+   140
+  ],
+  "high-integrity": [
+   142
+  ],
+  "formulations": [
+   144
+  ],
+  "now": [
+   145
+  ],
+  "support": [
+   146
+  ],
+  "hermetic": [
+   147
+  ],
+  "encapsulation": [
+   148
+  ],
+  "diagnostic,": [
+   150
+  ],
+  "electronic,": [
+   151
+  ],
+  "devices.": [
+   154
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 4
+  }
+ ],
+ "updated_date": "2026-09-15T07:32:03.291174",
+ "created_date": "2026-01-28T00:00:00"
+}

@@ -1,0 +1,1343 @@
+{
+ "id": "https://openalex.org/W2199704400",
+ "doi": "https://doi.org/10.1145/2907049",
+ "title": "Printed Perforated Lampshades for Continuous Projective Images",
+ "display_name": "Printed Perforated Lampshades for Continuous Projective Images",
+ "publication_year": 2016,
+ "publication_date": "2016-06-29",
+ "ids": {
+  "openalex": "https://openalex.org/W2199704400",
+  "doi": "https://doi.org/10.1145/2907049",
+  "mag": "2199704400"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/2907049",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/2907049",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S185367456",
+   "display_name": "ACM Transactions on Graphics",
+   "issn_l": "0730-0301",
+   "issn": [
+    "0730-0301",
+    "1557-7368"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319798",
+   "host_organization_name": "Association for Computing Machinery",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319798"
+   ],
+   "host_organization_lineage_names": [
+    "Association for Computing Machinery"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "ACM Transactions on Graphics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5050618062",
+    "display_name": "Haisen Zhao",
+    "orcid": "https://orcid.org/0000-0002-6389-1045",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6389-1045"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154099455",
+     "display_name": "Shandong University",
+     "ror": "https://ror.org/0207yh398",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Haisen Zhao",
+   "raw_affiliation_strings": [
+    "Shandong University, Shandong Province, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shandong University, Shandong Province, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5001198088",
+    "display_name": "Lin L\u00fc",
+    "orcid": "https://orcid.org/0000-0001-5881-892X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5881-892X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154099455",
+     "display_name": "Shandong University",
+     "ror": "https://ror.org/0207yh398",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Lin Lu",
+   "raw_affiliation_strings": [
+    "Shandong University, Shandong Province, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shandong University, Shandong Province, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100669427",
+    "display_name": "Li\u2010Yi Wei",
+    "orcid": "https://orcid.org/0000-0002-1076-6339",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1076-6339"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154099455",
+     "display_name": "Shandong University",
+     "ror": "https://ror.org/0207yh398",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yuan Wei",
+   "raw_affiliation_strings": [
+    "Shandong University, Shandong Province, P.R. China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-1076-6339",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shandong University, Shandong Province, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5091260693",
+    "display_name": "Dani Lischinski",
+    "orcid": "https://orcid.org/0000-0002-6191-0361",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-6191-0361"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I197251160",
+     "display_name": "Hebrew University of Jerusalem",
+     "ror": "https://ror.org/03qxff017",
+     "country_code": "IL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I197251160"
+     ]
+    }
+   ],
+   "countries": [
+    "IL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dani Lischinski",
+   "raw_affiliation_strings": [
+    "The Hebrew University of Jerusalem, Jerusalem, Israel"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "The Hebrew University of Jerusalem, Jerusalem, Israel",
+     "institution_ids": [
+      "https://openalex.org/I197251160"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5074974298",
+    "display_name": "Andrei Sharf",
+    "orcid": "https://orcid.org/0000-0002-3963-4508",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3963-4508"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I124227911",
+     "display_name": "Ben-Gurion University of the Negev",
+     "ror": "https://ror.org/05tkyf982",
+     "country_code": "IL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I124227911"
+     ]
+    }
+   ],
+   "countries": [
+    "IL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Andrei Sharf",
+   "raw_affiliation_strings": [
+    "Ben-Gurion University, Beer-Sheva, Israel"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Ben-Gurion University, Beer-Sheva, Israel",
+     "institution_ids": [
+      "https://openalex.org/I124227911"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5036688260",
+    "display_name": "Daniel Cohen\u2010Or",
+    "orcid": "https://orcid.org/0000-0001-6777-7445",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6777-7445"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I16391192",
+     "display_name": "Tel Aviv University",
+     "ror": "https://ror.org/04mhzgx49",
+     "country_code": "IL",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I16391192"
+     ]
+    }
+   ],
+   "countries": [
+    "IL"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Daniel Cohen-Or",
+   "raw_affiliation_strings": [
+    "Tel Aviv University, Tel Aviv, Israel"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Tel Aviv University, Tel Aviv, Israel",
+     "institution_ids": [
+      "https://openalex.org/I16391192"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5010714340",
+    "display_name": "Baoquan Chen",
+    "orcid": "https://orcid.org/0000-0003-4702-036X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4702-036X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154099455",
+     "display_name": "Shandong University",
+     "ror": "https://ror.org/0207yh398",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Baoquan Chen",
+   "raw_affiliation_strings": [
+    "Shandong University, Shandong Province, P.R. China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shandong University, Shandong Province, P.R. China",
+     "institution_ids": [
+      "https://openalex.org/I154099455"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 2.4832,
+ "has_fulltext": false,
+ "cited_by_count": 40,
+ "citation_normalized_percentile": {
+  "value": 0.90113423,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "35",
+  "issue": "5",
+  "first_page": "1",
+  "last_page": "11"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10531",
+  "display_name": "Advanced Vision and Imaging",
+  "score": 0.9995999932289124,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1707",
+   "display_name": "Computer Vision and Pattern Recognition"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10531",
+   "display_name": "Advanced Vision and Imaging",
+   "score": 0.9995999932289124,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10638",
+   "display_name": "Optical measurement and interference techniques",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.9991999864578247,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/grayscale",
+   "display_name": "Grayscale",
+   "score": 0.7554879784584045
+  },
+  {
+   "id": "https://openalex.org/keywords/tilt",
+   "display_name": "Tilt (camera)",
+   "score": 0.7144513726234436
+  },
+  {
+   "id": "https://openalex.org/keywords/tessellation",
+   "display_name": "Tessellation (computer graphics)",
+   "score": 0.664584755897522
+  },
+  {
+   "id": "https://openalex.org/keywords/radius",
+   "display_name": "RADIUS",
+   "score": 0.6302809715270996
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.5888736248016357
+  },
+  {
+   "id": "https://openalex.org/keywords/inscribed-figure",
+   "display_name": "Inscribed figure",
+   "score": 0.5806300044059753
+  },
+  {
+   "id": "https://openalex.org/keywords/tube",
+   "display_name": "Tube (container)",
+   "score": 0.5467693209648132
+  },
+  {
+   "id": "https://openalex.org/keywords/voronoi-diagram",
+   "display_name": "Voronoi diagram",
+   "score": 0.5416029691696167
+  },
+  {
+   "id": "https://openalex.org/keywords/embedding",
+   "display_name": "Embedding",
+   "score": 0.5377485752105713
+  },
+  {
+   "id": "https://openalex.org/keywords/geometry",
+   "display_name": "Geometry",
+   "score": 0.5312027335166931
+  },
+  {
+   "id": "https://openalex.org/keywords/surface",
+   "display_name": "Surface (topology)",
+   "score": 0.4971449673175812
+  },
+  {
+   "id": "https://openalex.org/keywords/orientation",
+   "display_name": "Orientation (vector space)",
+   "score": 0.44644686579704285
+  },
+  {
+   "id": "https://openalex.org/keywords/shell",
+   "display_name": "Shell (structure)",
+   "score": 0.42668014764785767
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.37594717741012573
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.30287474393844604
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.2704890966415405
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.23355987668037415
+  },
+  {
+   "id": "https://openalex.org/keywords/artificial-intelligence",
+   "display_name": "Artificial intelligence",
+   "score": 0.1432238519191742
+  },
+  {
+   "id": "https://openalex.org/keywords/pixel",
+   "display_name": "Pixel",
+   "score": 0.10582619905471802
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C78201319",
+   "wikidata": "https://www.wikidata.org/wiki/Q685727",
+   "display_name": "Grayscale",
+   "level": 3,
+   "score": 0.7554879784584045
+  },
+  {
+   "id": "https://openalex.org/C2779844322",
+   "wikidata": "https://www.wikidata.org/wiki/Q2919140",
+   "display_name": "Tilt (camera)",
+   "level": 2,
+   "score": 0.7144513726234436
+  },
+  {
+   "id": "https://openalex.org/C43817857",
+   "wikidata": "https://www.wikidata.org/wiki/Q9357547",
+   "display_name": "Tessellation (computer graphics)",
+   "level": 2,
+   "score": 0.664584755897522
+  },
+  {
+   "id": "https://openalex.org/C178635117",
+   "wikidata": "https://www.wikidata.org/wiki/Q747499",
+   "display_name": "RADIUS",
+   "level": 2,
+   "score": 0.6302809715270996
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.5888736248016357
+  },
+  {
+   "id": "https://openalex.org/C44074806",
+   "wikidata": "https://www.wikidata.org/wiki/Q1066790",
+   "display_name": "Inscribed figure",
+   "level": 2,
+   "score": 0.5806300044059753
+  },
+  {
+   "id": "https://openalex.org/C2777551473",
+   "wikidata": "https://www.wikidata.org/wiki/Q2093072",
+   "display_name": "Tube (container)",
+   "level": 2,
+   "score": 0.5467693209648132
+  },
+  {
+   "id": "https://openalex.org/C24881265",
+   "wikidata": "https://www.wikidata.org/wiki/Q757267",
+   "display_name": "Voronoi diagram",
+   "level": 2,
+   "score": 0.5416029691696167
+  },
+  {
+   "id": "https://openalex.org/C41608201",
+   "wikidata": "https://www.wikidata.org/wiki/Q980509",
+   "display_name": "Embedding",
+   "level": 2,
+   "score": 0.5377485752105713
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.5312027335166931
+  },
+  {
+   "id": "https://openalex.org/C2776799497",
+   "wikidata": "https://www.wikidata.org/wiki/Q484298",
+   "display_name": "Surface (topology)",
+   "level": 2,
+   "score": 0.4971449673175812
+  },
+  {
+   "id": "https://openalex.org/C16345878",
+   "wikidata": "https://www.wikidata.org/wiki/Q107472979",
+   "display_name": "Orientation (vector space)",
+   "level": 2,
+   "score": 0.44644686579704285
+  },
+  {
+   "id": "https://openalex.org/C2781052500",
+   "wikidata": "https://www.wikidata.org/wiki/Q2230313",
+   "display_name": "Shell (structure)",
+   "level": 2,
+   "score": 0.42668014764785767
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.37594717741012573
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.30287474393844604
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.2704890966415405
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.23355987668037415
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.1432238519191742
+  },
+  {
+   "id": "https://openalex.org/C160633673",
+   "wikidata": "https://www.wikidata.org/wiki/Q355198",
+   "display_name": "Pixel",
+   "level": 2,
+   "score": 0.10582619905471802
+  },
+  {
+   "id": "https://openalex.org/C38652104",
+   "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+   "display_name": "Computer security",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1145/2907049",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/2907049",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S185367456",
+    "display_name": "ACM Transactions on Graphics",
+    "issn_l": "0730-0301",
+    "issn": [
+     "0730-0301",
+     "1557-7368"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Graphics",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/11",
+   "score": 0.75,
+   "display_name": "Sustainable cities and communities"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2973564456",
+   "display_name": "\u57fa\u4e8e\u591a\u4f20\u611f\u4fe1\u606f\u7684\u5927\u5c3a\u5ea6\u573a\u666f\u9ad8\u7ef4\u5efa\u6a21\u4e0e\u8868\u8fbe",
+   "funder_award_id": "61232011",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321001",
+   "display_name": "National Natural Science Foundation of China",
+   "ror": "https://ror.org/01h0zpd94"
+  },
+  {
+   "id": "https://openalex.org/F4320322252",
+   "display_name": "Israel Science Foundation",
+   "ror": "https://ror.org/04sazxf24"
+  }
+ ],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 34,
+ "referenced_works": [
+  "https://openalex.org/W58221471",
+  "https://openalex.org/W82934484",
+  "https://openalex.org/W99031737",
+  "https://openalex.org/W103825802",
+  "https://openalex.org/W642459236",
+  "https://openalex.org/W1511752462",
+  "https://openalex.org/W1836705036",
+  "https://openalex.org/W1964996990",
+  "https://openalex.org/W1982620439",
+  "https://openalex.org/W1984609374",
+  "https://openalex.org/W1995866471",
+  "https://openalex.org/W2005828997",
+  "https://openalex.org/W2006045909",
+  "https://openalex.org/W2018515743",
+  "https://openalex.org/W2024205859",
+  "https://openalex.org/W2049153601",
+  "https://openalex.org/W2056267614",
+  "https://openalex.org/W2065653612",
+  "https://openalex.org/W2070639429",
+  "https://openalex.org/W2082231847",
+  "https://openalex.org/W2102493018",
+  "https://openalex.org/W2124131428",
+  "https://openalex.org/W2147326417",
+  "https://openalex.org/W2151045871",
+  "https://openalex.org/W2151833588",
+  "https://openalex.org/W2158474074",
+  "https://openalex.org/W2292422544",
+  "https://openalex.org/W2293760838",
+  "https://openalex.org/W2566725313",
+  "https://openalex.org/W2616163540",
+  "https://openalex.org/W2917557921",
+  "https://openalex.org/W4232242135",
+  "https://openalex.org/W4237303689",
+  "https://openalex.org/W4238005791"
+ ],
+ "related_works": [
+  "https://openalex.org/W1997141012",
+  "https://openalex.org/W1516845492",
+  "https://openalex.org/W1978501764",
+  "https://openalex.org/W2005041861",
+  "https://openalex.org/W2013420653",
+  "https://openalex.org/W2180734429",
+  "https://openalex.org/W2371724110",
+  "https://openalex.org/W4288022670",
+  "https://openalex.org/W4206423751",
+  "https://openalex.org/W2053576657"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0
+  ],
+  "present": [
+   1
+  ],
+  "a": [
+   2,
+   27,
+   34,
+   59,
+   135,
+   160,
+   191,
+   196,
+   203
+  ],
+  "technique": [
+   3,
+   155
+  ],
+  "for": [
+   4
+  ],
+  "designing": [
+   5
+  ],
+  "three-dimensional-": [
+   6
+  ],
+  "(3D)": [
+   7
+  ],
+  "printed": [
+   8
+  ],
+  "perforated": [
+   9
+  ],
+  "lampshades": [
+   10
+  ],
+  "that": [
+   11,
+   43
+  ],
+  "project": [
+   12
+  ],
+  "continuous": [
+   13,
+   69
+  ],
+  "grayscale": [
+   14,
+   29
+  ],
+  "images": [
+   15
+  ],
+  "onto": [
+   16
+  ],
+  "the": [
+   17,
+   21,
+   24,
+   40,
+   44,
+   48,
+   52,
+   55,
+   68,
+   72,
+   76,
+   80,
+   84,
+   87,
+   99,
+   102,
+   104,
+   107,
+   110,
+   117,
+   126,
+   142,
+   164,
+   169,
+   173,
+   178,
+   206
+  ],
+  "surrounding": [
+   18
+  ],
+  "walls.": [
+   19
+  ],
+  "Given": [
+   20
+  ],
+  "geometry": [
+   22
+  ],
+  "of": [
+   23,
+   36,
+   47,
+   75,
+   86,
+   101,
+   106,
+   131,
+   153,
+   158,
+   163,
+   172,
+   183,
+   210
+  ],
+  "lampshade": [
+   25,
+   127
+  ],
+  "and": [
+   26,
+   71,
+   109,
+   145,
+   201
+  ],
+  "target": [
+   28,
+   56,
+   77
+  ],
+  "image,": [
+   30
+  ],
+  "our": [
+   31,
+   154
+  ],
+  "method": [
+   32
+  ],
+  "computes": [
+   33
+  ],
+  "distribution": [
+   35,
+   167
+  ],
+  "tiny": [
+   37
+  ],
+  "holes": [
+   38,
+   53,
+   118
+  ],
+  "over": [
+   39,
+   125,
+   195
+  ],
+  "shell,": [
+   41,
+   103
+  ],
+  "such": [
+   42
+  ],
+  "combined": [
+   45
+  ],
+  "footprints": [
+   46
+  ],
+  "light": [
+   49,
+   132
+  ],
+  "emanating": [
+   50
+  ],
+  "through": [
+   51,
+   134
+  ],
+  "form": [
+   54
+  ],
+  "image": [
+   57,
+   78
+  ],
+  "on": [
+   58,
+   98
+  ],
+  "nearby": [
+   60
+  ],
+  "diffuse": [
+   61
+  ],
+  "surface.": [
+   62,
+   128
+  ],
+  "Our": [
+   63
+  ],
+  "objective": [
+   64
+  ],
+  "is": [
+   65,
+   187
+  ],
+  "to": [
+   66,
+   79
+  ],
+  "approximate": [
+   67
+  ],
+  "tones": [
+   70
+  ],
+  "spatial": [
+   73
+  ],
+  "detail": [
+   74
+  ],
+  "extent": [
+   81
+  ],
+  "possible": [
+   82
+  ],
+  "within": [
+   83
+  ],
+  "constraints": [
+   85
+  ],
+  "fabrication": [
+   88
+  ],
+  "process.": [
+   89
+  ],
+  "To": [
+   90
+  ],
+  "ensure": [
+   91
+  ],
+  "structural": [
+   92
+  ],
+  "integrity,": [
+   93
+  ],
+  "there": [
+   94
+  ],
+  "are": [
+   95,
+   119
+  ],
+  "lower": [
+   96
+  ],
+  "bounds": [
+   97
+  ],
+  "thickness": [
+   100
+  ],
+  "radii": [
+   105
+  ],
+  "holes,": [
+   108
+  ],
+  "minimal": [
+   111
+  ],
+  "distances": [
+   112
+  ],
+  "between": [
+   113
+  ],
+  "adjacent": [
+   114
+  ],
+  "holes.": [
+   115
+  ],
+  "Thus,": [
+   116
+  ],
+  "realized": [
+   120
+  ],
+  "as": [
+   121,
+   175,
+   177
+  ],
+  "thin": [
+   122
+  ],
+  "tubes": [
+   123
+  ],
+  "distributed": [
+   124
+  ],
+  "The": [
+   129,
+   151
+  ],
+  "amount": [
+   130
+  ],
+  "passing": [
+   133
+  ],
+  "single": [
+   136
+  ],
+  "tube": [
+   137,
+   204
+  ],
+  "may": [
+   138
+  ],
+  "be": [
+   139
+  ],
+  "controlled": [
+   140
+  ],
+  "by": [
+   141,
+   146,
+   189
+  ],
+  "tube\u2019s": [
+   143
+  ],
+  "radius": [
+   144
+  ],
+  "its": [
+   147
+  ],
+  "orientation": [
+   148
+  ],
+  "(tilt": [
+   149
+  ],
+  "angle).": [
+   150
+  ],
+  "core": [
+   152
+  ],
+  "thus": [
+   156
+  ],
+  "consists": [
+   157
+  ],
+  "determining": [
+   159
+  ],
+  "suitable": [
+   161
+  ],
+  "configuration": [
+   162
+  ],
+  "tubes:": [
+   165
+  ],
+  "their": [
+   166
+  ],
+  "across": [
+   168
+  ],
+  "relevant": [
+   170
+  ],
+  "portion": [
+   171
+  ],
+  "lampshade,": [
+   174
+  ],
+  "well": [
+   176
+  ],
+  "parameters": [
+   179
+  ],
+  "(radius,": [
+   180
+  ],
+  "tilt": [
+   181
+  ],
+  "angle)": [
+   182
+  ],
+  "each": [
+   184,
+   211
+  ],
+  "tube.": [
+   185
+  ],
+  "This": [
+   186
+  ],
+  "achieved": [
+   188
+  ],
+  "computing": [
+   190
+  ],
+  "capacity-constrained": [
+   192
+  ],
+  "Voronoi": [
+   193
+  ],
+  "tessellation": [
+   194,
+   212
+  ],
+  "suitably": [
+   197
+  ],
+  "defined": [
+   198
+  ],
+  "density": [
+   199
+  ],
+  "function": [
+   200
+  ],
+  "embedding": [
+   202
+  ],
+  "inside": [
+   205
+  ],
+  "maximal": [
+   207
+  ],
+  "inscribed": [
+   208
+  ],
+  "circle": [
+   209
+  ],
+  "cell.": [
+   213
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 16
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-09-24T07:57:37.273135",
+ "created_date": "2025-10-10T00:00:00"
+}

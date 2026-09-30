@@ -1,0 +1,965 @@
+{
+ "id": "https://openalex.org/W2151045871",
+ "doi": "https://doi.org/10.1145/1531326.1531338",
+ "title": "Fabricating microgeometry for custom surface reflectance",
+ "display_name": "Fabricating microgeometry for custom surface reflectance",
+ "publication_year": 2009,
+ "publication_date": "2009-07-27",
+ "ids": {
+  "openalex": "https://openalex.org/W2151045871",
+  "doi": "https://doi.org/10.1145/1531326.1531338",
+  "mag": "2151045871"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1145/1531326.1531338",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1145/1531326.1531338",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S185367456",
+   "display_name": "ACM Transactions on Graphics",
+   "issn_l": "0730-0301",
+   "issn": [
+    "0730-0301",
+    "1557-7368"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-3",
+    "norway-2"
+   ],
+   "host_organization": "https://openalex.org/P4310319798",
+   "host_organization_name": "Association for Computing Machinery",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319798"
+   ],
+   "host_organization_lineage_names": [
+    "Association for Computing Machinery"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "ACM Transactions on Graphics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5016878682",
+    "display_name": "Tim Weyrich",
+    "orcid": "https://orcid.org/0000-0002-4322-8844",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4322-8844"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I45129253",
+     "display_name": "University College London",
+     "ror": "https://ror.org/02jx3x895",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I124357947",
+      "https://openalex.org/I45129253"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tim Weyrich",
+   "raw_affiliation_strings": [
+    "University College London"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University College London",
+     "institution_ids": [
+      "https://openalex.org/I45129253"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5000811147",
+    "display_name": "Pieter Peers",
+    "orcid": "https://orcid.org/0000-0001-7621-9808",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7621-9808"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1174212",
+     "display_name": "University of Southern California",
+     "ror": "https://ror.org/03taz7m60",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I1174212"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Pieter Peers",
+   "raw_affiliation_strings": [
+    "University of Southern California"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Southern California",
+     "institution_ids": [
+      "https://openalex.org/I1174212"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5018010391",
+    "display_name": "Wojciech Matusik",
+    "orcid": "https://orcid.org/0000-0003-0212-5643",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0212-5643"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1306409833",
+     "display_name": "Adobe Systems (United States)",
+     "ror": "https://ror.org/059tvcg64",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1306409833"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Wojciech Matusik",
+   "raw_affiliation_strings": [
+    "Adobe Systems, Inc"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Adobe Systems, Inc",
+     "institution_ids": [
+      "https://openalex.org/I1306409833"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5021634773",
+    "display_name": "Szymon M. Rusinkiewicz",
+    "orcid": "https://orcid.org/0000-0002-4253-2588",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-4253-2588"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I20089843",
+     "display_name": "Princeton University",
+     "ror": "https://ror.org/00hx57361",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I20089843"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Szymon Rusinkiewicz",
+   "raw_affiliation_strings": [
+    "Princeton University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Princeton University",
+     "institution_ids": [
+      "https://openalex.org/I20089843"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 20.7684,
+ "has_fulltext": false,
+ "cited_by_count": 133,
+ "citation_normalized_percentile": {
+  "value": 0.99270592,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "28",
+  "issue": "3",
+  "first_page": "1",
+  "last_page": "6"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10481",
+  "display_name": "Computer Graphics and Visualization Techniques",
+  "score": 0.9994000196456909,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1704",
+   "display_name": "Computer Graphics and Computer-Aided Design"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10481",
+   "display_name": "Computer Graphics and Visualization Techniques",
+   "score": 0.9994000196456909,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1704",
+    "display_name": "Computer Graphics and Computer-Aided Design"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11211",
+   "display_name": "3D Surveying and Cultural Heritage",
+   "score": 0.9973000288009644,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11245",
+   "display_name": "Advanced Numerical Analysis Techniques",
+   "score": 0.9947999715805054,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/bidirectional-reflectance-distribution-function",
+   "display_name": "Bidirectional reflectance distribution function",
+   "score": 0.9399979114532471
+  },
+  {
+   "id": "https://openalex.org/keywords/surface",
+   "display_name": "Surface (topology)",
+   "score": 0.7516703605651855
+  },
+  {
+   "id": "https://openalex.org/keywords/reflectivity",
+   "display_name": "Reflectivity",
+   "score": 0.6349726915359497
+  },
+  {
+   "id": "https://openalex.org/keywords/ranging",
+   "display_name": "Ranging",
+   "score": 0.6329466104507446
+  },
+  {
+   "id": "https://openalex.org/keywords/aggregate",
+   "display_name": "Aggregate (composite)",
+   "score": 0.6278145909309387
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.6043215990066528
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-graphics",
+   "display_name": "Computer graphics (images)",
+   "score": 0.42639997601509094
+  },
+  {
+   "id": "https://openalex.org/keywords/field",
+   "display_name": "Field (mathematics)",
+   "score": 0.42129093408584595
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.3022170960903168
+  },
+  {
+   "id": "https://openalex.org/keywords/geometry",
+   "display_name": "Geometry",
+   "score": 0.2784252166748047
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.23441845178604126
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.1457209587097168
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.1326931118965149
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.09679111838340759
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C151596937",
+   "wikidata": "https://www.wikidata.org/wiki/Q856980",
+   "display_name": "Bidirectional reflectance distribution function",
+   "level": 3,
+   "score": 0.9399979114532471
+  },
+  {
+   "id": "https://openalex.org/C2776799497",
+   "wikidata": "https://www.wikidata.org/wiki/Q484298",
+   "display_name": "Surface (topology)",
+   "level": 2,
+   "score": 0.7516703605651855
+  },
+  {
+   "id": "https://openalex.org/C108597893",
+   "wikidata": "https://www.wikidata.org/wiki/Q663650",
+   "display_name": "Reflectivity",
+   "level": 2,
+   "score": 0.6349726915359497
+  },
+  {
+   "id": "https://openalex.org/C115051666",
+   "wikidata": "https://www.wikidata.org/wiki/Q6522493",
+   "display_name": "Ranging",
+   "level": 2,
+   "score": 0.6329466104507446
+  },
+  {
+   "id": "https://openalex.org/C4679612",
+   "wikidata": "https://www.wikidata.org/wiki/Q866298",
+   "display_name": "Aggregate (composite)",
+   "level": 2,
+   "score": 0.6278145909309387
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.6043215990066528
+  },
+  {
+   "id": "https://openalex.org/C121684516",
+   "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+   "display_name": "Computer graphics (images)",
+   "level": 1,
+   "score": 0.42639997601509094
+  },
+  {
+   "id": "https://openalex.org/C9652623",
+   "wikidata": "https://www.wikidata.org/wiki/Q190109",
+   "display_name": "Field (mathematics)",
+   "level": 2,
+   "score": 0.42129093408584595
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.3022170960903168
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.2784252166748047
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.23441845178604126
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.1457209587097168
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.1326931118965149
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.09679111838340759
+  },
+  {
+   "id": "https://openalex.org/C202444582",
+   "wikidata": "https://www.wikidata.org/wiki/Q837863",
+   "display_name": "Pure mathematics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C76155785",
+   "wikidata": "https://www.wikidata.org/wiki/Q418",
+   "display_name": "Telecommunications",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 5,
+ "locations": [
+  {
+   "id": "doi:10.1145/1531326.1531338",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1145/1531326.1531338",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S185367456",
+    "display_name": "ACM Transactions on Graphics",
+    "issn_l": "0730-0301",
+    "issn": [
+     "0730-0301",
+     "1557-7368"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-3",
+     "norway-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319798",
+    "host_organization_name": "Association for Computing Machinery",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319798"
+    ],
+    "host_organization_lineage_names": [
+     "Association for Computing Machinery"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "ACM Transactions on Graphics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:CiteSeerX.psu:10.1.1.153.2174",
+   "is_oa": false,
+   "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.2174",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://www.cs.princeton.edu/gfx/pubs/Weyrich_2009_FMF/weyrich09fabricating-lowres.pdf",
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:CiteSeerX.psu:10.1.1.222.4065",
+   "is_oa": false,
+   "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.222.4065",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://graphics.csail.mit.edu/%7Ewojciech/MicrofacetFab/MicrofacetFab.pdf",
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:CiteSeerX.psu:10.1.1.954.3620",
+   "is_oa": false,
+   "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.954.3620",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "http://ict.usc.edu/pubs/Fabricating%20Microgeometry%20for%20Custom%20Surface%20Reflectance.pdf",
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:120587",
+   "is_oa": false,
+   "landing_page_url": "http://discovery.ucl.ac.uk/120587/",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400024",
+    "display_name": "UCL Discovery (University College London)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I45129253",
+    "host_organization_name": "University College London",
+    "host_organization_lineage": [
+     "https://openalex.org/I45129253"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "ACM Transactions on Graphics (Proc. SIGGRAPH 2009) , 28 (3) (2009)",
+   "raw_type": "Article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 0.5,
+   "display_name": "Sustainable cities and communities",
+   "id": "https://metadata.un.org/sdg/11"
+  }
+ ],
+ "x_sdgs": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G3972719916",
+   "display_name": null,
+   "funder_award_id": "CCF-0347427CCF-0702580",
+   "funder_id": "https://openalex.org/F4320337387",
+   "funder_display_name": "Division of Computing and Communication Foundations"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306076",
+   "display_name": "National Science Foundation",
+   "ror": "https://ror.org/021nxhr62"
+  },
+  {
+   "id": "https://openalex.org/F4320337387",
+   "display_name": "Division of Computing and Communication Foundations",
+   "ror": "https://ror.org/01mng8331"
+  },
+  {
+   "id": "https://openalex.org/F4320338281",
+   "display_name": "Army Research Office",
+   "ror": "https://ror.org/05epdh915"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 24,
+ "referenced_works": [
+  "https://openalex.org/W75556296",
+  "https://openalex.org/W1494645067",
+  "https://openalex.org/W1557590941",
+  "https://openalex.org/W1562694409",
+  "https://openalex.org/W1571968405",
+  "https://openalex.org/W1965432793",
+  "https://openalex.org/W1969780147",
+  "https://openalex.org/W2010811529",
+  "https://openalex.org/W2011681858",
+  "https://openalex.org/W2019187323",
+  "https://openalex.org/W2071411501",
+  "https://openalex.org/W2088909704",
+  "https://openalex.org/W2095243368",
+  "https://openalex.org/W2098525067",
+  "https://openalex.org/W2104587129",
+  "https://openalex.org/W2123689357",
+  "https://openalex.org/W2141155330",
+  "https://openalex.org/W2144323660",
+  "https://openalex.org/W2146714796",
+  "https://openalex.org/W2150925892",
+  "https://openalex.org/W2160203169",
+  "https://openalex.org/W2161446118",
+  "https://openalex.org/W2170608748",
+  "https://openalex.org/W3156741330"
+ ],
+ "related_works": [
+  "https://openalex.org/W1996671438",
+  "https://openalex.org/W4382897192",
+  "https://openalex.org/W2063805703",
+  "https://openalex.org/W2611841783",
+  "https://openalex.org/W2010071472",
+  "https://openalex.org/W4384112194",
+  "https://openalex.org/W2000112597",
+  "https://openalex.org/W2774256758",
+  "https://openalex.org/W2026859948",
+  "https://openalex.org/W2765253738"
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   39,
+   61
+  ],
+  "propose": [
+   1
+  ],
+  "a": [
+   2,
+   12,
+   20,
+   24,
+   28,
+   45,
+   57,
+   63
+  ],
+  "system": [
+   3,
+   17
+  ],
+  "for": [
+   4,
+   44
+  ],
+  "manufacturing": [
+   5
+  ],
+  "physical": [
+   6
+  ],
+  "surfaces": [
+   7
+  ],
+  "that,": [
+   8
+  ],
+  "in": [
+   9
+  ],
+  "aggregate,": [
+   10
+  ],
+  "exhibit": [
+   11
+  ],
+  "desired": [
+   13
+  ],
+  "surface": [
+   14,
+   37,
+   55
+  ],
+  "appearance.": [
+   15
+  ],
+  "Our": [
+   16
+  ],
+  "begins": [
+   18
+  ],
+  "with": [
+   19,
+   75
+  ],
+  "user": [
+   21
+  ],
+  "specification": [
+   22
+  ],
+  "of": [
+   23,
+   36,
+   65,
+   70
+  ],
+  "BRDF,": [
+   25
+  ],
+  "or": [
+   26
+  ],
+  "simply": [
+   27
+  ],
+  "highlight": [
+   29
+  ],
+  "shape,": [
+   30
+  ],
+  "and": [
+   31,
+   47,
+   51
+  ],
+  "infers": [
+   32
+  ],
+  "the": [
+   33,
+   54
+  ],
+  "required": [
+   34
+  ],
+  "distribution": [
+   35
+  ],
+  "slopes.": [
+   38
+  ],
+  "sample": [
+   40
+  ],
+  "this": [
+   41
+  ],
+  "distribution,": [
+   42
+  ],
+  "optimize": [
+   43
+  ],
+  "maximally-continuous": [
+   46
+  ],
+  "valley-minimizing": [
+   48
+  ],
+  "height": [
+   49
+  ],
+  "field,": [
+   50
+  ],
+  "finally": [
+   52
+  ],
+  "mill": [
+   53
+  ],
+  "using": [
+   56
+  ],
+  "computer-controlled": [
+   58
+  ],
+  "machine": [
+   59
+  ],
+  "tool.": [
+   60
+  ],
+  "demonstrate": [
+   62
+  ],
+  "variety": [
+   64
+  ],
+  "surfaces,": [
+   66
+  ],
+  "ranging": [
+   67
+  ],
+  "from": [
+   68
+  ],
+  "reproductions": [
+   69
+  ],
+  "measured": [
+   71
+  ],
+  "BRDFs": [
+   72
+  ],
+  "to": [
+   73
+  ],
+  "materials": [
+   74
+  ],
+  "unconventional": [
+   76
+  ],
+  "highlights.": [
+   77
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 15
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 14
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 18
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 14
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

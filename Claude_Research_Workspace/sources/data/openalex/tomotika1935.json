@@ -1,0 +1,1350 @@
+{
+ "id": "https://openalex.org/W1991659480",
+ "doi": "https://doi.org/10.1098/rspa.1935.0104",
+ "title": "On the instability of a cylindrical thread of a viscous liquid surrounded by another viscous fluid",
+ "display_name": "On the instability of a cylindrical thread of a viscous liquid surrounded by another viscous fluid",
+ "publication_year": 1935,
+ "publication_date": "1935-06-01",
+ "ids": {
+  "openalex": "https://openalex.org/W1991659480",
+  "doi": "https://doi.org/10.1098/rspa.1935.0104",
+  "mag": "1991659480"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1098/rspa.1935.0104",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1098/rspa.1935.0104",
+  "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1935.0104",
+  "source": {
+   "id": "https://openalex.org/S4210212881",
+   "display_name": "Proceedings of the Royal Society of London A Mathematical and Physical Sciences",
+   "issn_l": "0080-4630",
+   "issn": [
+    "0080-4630",
+    "2053-9169"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/P4310319787",
+   "host_organization_name": "Royal Society",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319787"
+   ],
+   "host_organization_lineage_names": [
+    "Royal Society"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the Royal Society of London. Series A - Mathematical and Physical Sciences",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "bronze",
+  "oa_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1935.0104",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5028745832",
+    "display_name": "S. Tomotika",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "S. Tomotika",
+   "raw_affiliation_strings": [
+    "Google Scholar  Find this author on PubMed"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Google Scholar  Find this author on PubMed",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5028745832"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 4.76,
+ "has_fulltext": false,
+ "cited_by_count": 1090,
+ "citation_normalized_percentile": {
+  "value": 0.91525424,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "150",
+  "issue": "870",
+  "first_page": "322",
+  "last_page": "337"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11379",
+  "display_name": "Rheology and Fluid Dynamics Studies",
+  "score": 0.925000011920929,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1507",
+   "display_name": "Fluid Flow and Transfer Processes"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/15",
+   "display_name": "Chemical Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11379",
+   "display_name": "Rheology and Fluid Dynamics Studies",
+   "score": 0.925000011920929,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1507",
+    "display_name": "Fluid Flow and Transfer Processes"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/15",
+    "display_name": "Chemical Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/mechanics",
+   "display_name": "Mechanics",
+   "score": 0.7004956007003784
+  },
+  {
+   "id": "https://openalex.org/keywords/viscous-liquid",
+   "display_name": "Viscous liquid",
+   "score": 0.6782389283180237
+  },
+  {
+   "id": "https://openalex.org/keywords/instability",
+   "display_name": "Instability",
+   "score": 0.6233779788017273
+  },
+  {
+   "id": "https://openalex.org/keywords/drag",
+   "display_name": "Drag",
+   "score": 0.5654526948928833
+  },
+  {
+   "id": "https://openalex.org/keywords/newtonian-fluid",
+   "display_name": "Newtonian fluid",
+   "score": 0.5142692923545837
+  },
+  {
+   "id": "https://openalex.org/keywords/inertia",
+   "display_name": "Inertia",
+   "score": 0.49659281969070435
+  },
+  {
+   "id": "https://openalex.org/keywords/physics",
+   "display_name": "Physics",
+   "score": 0.48588961362838745
+  },
+  {
+   "id": "https://openalex.org/keywords/cylinder",
+   "display_name": "Cylinder",
+   "score": 0.45822083950042725
+  },
+  {
+   "id": "https://openalex.org/keywords/compressibility",
+   "display_name": "Compressibility",
+   "score": 0.4167692959308624
+  },
+  {
+   "id": "https://openalex.org/keywords/viscosity",
+   "display_name": "Viscosity",
+   "score": 0.41509008407592773
+  },
+  {
+   "id": "https://openalex.org/keywords/classical-mechanics",
+   "display_name": "Classical mechanics",
+   "score": 0.3702163100242615
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematics",
+   "display_name": "Mathematics",
+   "score": 0.26326945424079895
+  },
+  {
+   "id": "https://openalex.org/keywords/thermodynamics",
+   "display_name": "Thermodynamics",
+   "score": 0.2496001422405243
+  },
+  {
+   "id": "https://openalex.org/keywords/geometry",
+   "display_name": "Geometry",
+   "score": 0.13344472646713257
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C57879066",
+   "wikidata": "https://www.wikidata.org/wiki/Q41217",
+   "display_name": "Mechanics",
+   "level": 1,
+   "score": 0.7004956007003784
+  },
+  {
+   "id": "https://openalex.org/C71351571",
+   "wikidata": "https://www.wikidata.org/wiki/Q7935890",
+   "display_name": "Viscous liquid",
+   "level": 2,
+   "score": 0.6782389283180237
+  },
+  {
+   "id": "https://openalex.org/C207821765",
+   "wikidata": "https://www.wikidata.org/wiki/Q405372",
+   "display_name": "Instability",
+   "level": 2,
+   "score": 0.6233779788017273
+  },
+  {
+   "id": "https://openalex.org/C72921944",
+   "wikidata": "https://www.wikidata.org/wiki/Q206621",
+   "display_name": "Drag",
+   "level": 2,
+   "score": 0.5654526948928833
+  },
+  {
+   "id": "https://openalex.org/C294558",
+   "wikidata": "https://www.wikidata.org/wiki/Q366968",
+   "display_name": "Newtonian fluid",
+   "level": 2,
+   "score": 0.5142692923545837
+  },
+  {
+   "id": "https://openalex.org/C110407247",
+   "wikidata": "https://www.wikidata.org/wiki/Q122508",
+   "display_name": "Inertia",
+   "level": 2,
+   "score": 0.49659281969070435
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.48588961362838745
+  },
+  {
+   "id": "https://openalex.org/C203311528",
+   "wikidata": "https://www.wikidata.org/wiki/Q34132",
+   "display_name": "Cylinder",
+   "level": 2,
+   "score": 0.45822083950042725
+  },
+  {
+   "id": "https://openalex.org/C84655787",
+   "wikidata": "https://www.wikidata.org/wiki/Q8067817",
+   "display_name": "Compressibility",
+   "level": 2,
+   "score": 0.4167692959308624
+  },
+  {
+   "id": "https://openalex.org/C127172972",
+   "wikidata": "https://www.wikidata.org/wiki/Q128709",
+   "display_name": "Viscosity",
+   "level": 2,
+   "score": 0.41509008407592773
+  },
+  {
+   "id": "https://openalex.org/C74650414",
+   "wikidata": "https://www.wikidata.org/wiki/Q11397",
+   "display_name": "Classical mechanics",
+   "level": 1,
+   "score": 0.3702163100242615
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.26326945424079895
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.2496001422405243
+  },
+  {
+   "id": "https://openalex.org/C2524010",
+   "wikidata": "https://www.wikidata.org/wiki/Q8087",
+   "display_name": "Geometry",
+   "level": 1,
+   "score": 0.13344472646713257
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1098/rspa.1935.0104",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1098/rspa.1935.0104",
+   "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1935.0104",
+   "source": {
+    "id": "https://openalex.org/S4210212881",
+    "display_name": "Proceedings of the Royal Society of London A Mathematical and Physical Sciences",
+    "issn_l": "0080-4630",
+    "issn": [
+     "0080-4630",
+     "2053-9169"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/P4310319787",
+    "host_organization_name": "Royal Society",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319787"
+    ],
+    "host_organization_lineage_names": [
+     "Royal Society"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the Royal Society of London. Series A - Mathematical and Physical Sciences",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1098/rspa.1935.0104",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1098/rspa.1935.0104",
+  "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1935.0104",
+  "source": {
+   "id": "https://openalex.org/S4210212881",
+   "display_name": "Proceedings of the Royal Society of London A Mathematical and Physical Sciences",
+   "issn_l": "0080-4630",
+   "issn": [
+    "0080-4630",
+    "2053-9169"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/P4310319787",
+   "host_organization_name": "Royal Society",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319787"
+   ],
+   "host_organization_lineage_names": [
+    "Royal Society"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the Royal Society of London. Series A - Mathematical and Physical Sciences",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": false
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W1991659480.pdf"
+ },
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W1993902987",
+  "https://openalex.org/W2054848238",
+  "https://openalex.org/W656742801",
+  "https://openalex.org/W2009602738",
+  "https://openalex.org/W160058284",
+  "https://openalex.org/W1978688638",
+  "https://openalex.org/W2325645958",
+  "https://openalex.org/W2150091113",
+  "https://openalex.org/W2003325769",
+  "https://openalex.org/W2759266969"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "1\u2014The": [
+   1
+  ],
+  "dynamical": [
+   2
+  ],
+  "theory": [
+   3
+  ],
+  "of": [
+   4,
+   7,
+   12,
+   20,
+   31,
+   49,
+   60,
+   68,
+   75,
+   82,
+   101,
+   114,
+   119,
+   133,
+   137,
+   156,
+   176,
+   187,
+   215,
+   217,
+   225,
+   229,
+   240,
+   248,
+   250,
+   263,
+   266,
+   271,
+   285,
+   288,
+   296,
+   313,
+   326,
+   363,
+   367,
+   370,
+   375,
+   387,
+   397,
+   414
+  ],
+  "the": [
+   5,
+   18,
+   29,
+   32,
+   40,
+   47,
+   50,
+   57,
+   61,
+   66,
+   73,
+   80,
+   85,
+   90,
+   99,
+   135,
+   138,
+   142,
+   150,
+   154,
+   157,
+   169,
+   174,
+   177,
+   185,
+   188,
+   213,
+   218,
+   222,
+   226,
+   233,
+   261,
+   264,
+   269,
+   283,
+   286,
+   289,
+   292,
+   297,
+   304,
+   311,
+   317,
+   341,
+   359,
+   365,
+   368,
+   385,
+   395,
+   402,
+   405,
+   408,
+   415,
+   425
+  ],
+  "instability": [
+   6,
+   171
+  ],
+  "a": [
+   8,
+   104,
+   115,
+   164,
+   237,
+   241,
+   324,
+   361,
+   371,
+   376
+  ],
+  "long": [
+   9,
+   116,
+   372
+  ],
+  "cylindrical": [
+   10,
+   117,
+   219,
+   373
+  ],
+  "column": [
+   11,
+   41,
+   51,
+   118,
+   168,
+   406
+  ],
+  "an": [
+   13,
+   120,
+   276
+  ],
+  "incompressible": [
+   14,
+   121
+  ],
+  "perfect": [
+   15
+  ],
+  "liquid": [
+   16,
+   123,
+   167,
+   243,
+   290,
+   299,
+   378,
+   403
+  ],
+  "under": [
+   17,
+   384,
+   394,
+   427
+  ],
+  "action": [
+   19,
+   386
+  ],
+  "capillary": [
+   21
+  ],
+  "force": [
+   22
+  ],
+  "has": [
+   23,
+   124,
+   160,
+   202,
+   255
+  ],
+  "been": [
+   24,
+   126,
+   436
+  ],
+  "given": [
+   25
+  ],
+  "by": [
+   26,
+   79,
+   128,
+   221,
+   235,
+   380,
+   407,
+   438
+  ],
+  "Rayleigh,": [
+   27,
+   129
+  ],
+  "neglecting": [
+   28,
+   153
+  ],
+  "effect": [
+   30,
+   136,
+   155,
+   224,
+   396,
+   413,
+   434
+  ],
+  "surrounding": [
+   33,
+   139,
+   298,
+   409
+  ],
+  "fluid.": [
+   34,
+   140,
+   411
+  ],
+  "According": [
+   35
+  ],
+  "to": [
+   36,
+   88,
+   94,
+   144,
+   294,
+   309,
+   358,
+   419
+  ],
+  "his": [
+   37,
+   272,
+   441
+  ],
+  "results,": [
+   38
+  ],
+  "if": [
+   39
+  ],
+  "becomes": [
+   42
+  ],
+  "varicose": [
+   43
+  ],
+  "with": [
+   44,
+   65,
+   149,
+   184,
+   208,
+   348
+  ],
+  "wave-length": [
+   45,
+   175
+  ],
+  "\u03bb,": [
+   46
+  ],
+  "equilibrium": [
+   48,
+   369
+  ],
+  "is": [
+   52,
+   92,
+   179,
+   300,
+   417
+  ],
+  "unstable,": [
+   53
+  ],
+  "provided": [
+   54
+  ],
+  "\u03bb": [
+   55,
+   102,
+   107,
+   193
+  ],
+  "exceed": [
+   56
+  ],
+  "circumference": [
+   58
+  ],
+  "2\u03c0a": [
+   59
+  ],
+  "cylinder,": [
+   62,
+   189
+  ],
+  "in": [
+   63,
+   84,
+   182,
+   244,
+   279,
+   344,
+   424,
+   440
+  ],
+  "accordance": [
+   64
+  ],
+  "result": [
+   67
+  ],
+  "Plateau\u2019s": [
+   69
+  ],
+  "statical": [
+   70
+  ],
+  "theory;": [
+   71
+  ],
+  "and": [
+   72,
+   152
+  ],
+  "degree": [
+   74
+  ],
+  "instability,": [
+   76
+  ],
+  "as": [
+   77,
+   391,
+   393,
+   430
+  ],
+  "indicated": [
+   78
+  ],
+  "value": [
+   81,
+   100
+  ],
+  "q": [
+   83
+  ],
+  "exponential": [
+   86
+  ],
+  "eqt": [
+   87
+  ],
+  "which": [
+   89,
+   306
+  ],
+  "motion": [
+   91
+  ],
+  "assumed": [
+   93
+  ],
+  "be": [
+   95,
+   145
+  ],
+  "proportional,": [
+   96
+  ],
+  "depends": [
+   97
+  ],
+  "upon": [
+   98,
+   212,
+   260
+  ],
+  "reaching": [
+   103
+  ],
+  "maximum": [
+   105,
+   170
+  ],
+  "when": [
+   106,
+   173,
+   192,
+   282
+  ],
+  "=": [
+   108,
+   194
+  ],
+  "4.51": [
+   109
+  ],
+  "\u00d7": [
+   110
+  ],
+  "2a.": [
+   111
+  ],
+  "The": [
+   112,
+   412
+  ],
+  "case": [
+   113,
+   281
+  ],
+  "viscous": [
+   122,
+   166,
+   227,
+   242,
+   252,
+   377,
+   382,
+   398,
+   410
+  ],
+  "also": [
+   125
+  ],
+  "discussed": [
+   127
+  ],
+  "again": [
+   130
+  ],
+  "leaving": [
+   131
+  ],
+  "out": [
+   132
+  ],
+  "consideration": [
+   134
+  ],
+  "Assuming": [
+   141
+  ],
+  "viscosity": [
+   143,
+   287
+  ],
+  "very": [
+   146,
+   165,
+   180
+  ],
+  "great": [
+   147
+  ],
+  "compared": [
+   148
+  ],
+  "inertia": [
+   151
+  ],
+  "latter,": [
+   158
+  ],
+  "he": [
+   159,
+   274
+  ],
+  "shown": [
+   161
+  ],
+  "that": [
+   162,
+   295,
+   302
+  ],
+  "for": [
+   163
+  ],
+  "occurs": [
+   172
+  ],
+  "varicosity": [
+   178
+  ],
+  "large": [
+   181
+  ],
+  "comparison": [
+   183
+  ],
+  "radius": [
+   186
+  ],
+  "i.": [
+   190
+  ],
+  "e.,": [
+   191
+  ],
+  "\u221e": [
+   195
+  ],
+  "theoretically.": [
+   196
+  ],
+  "Quite": [
+   197
+  ],
+  "recently": [
+   198
+  ],
+  "G.": [
+   199,
+   353
+  ],
+  "I.": [
+   200,
+   354
+  ],
+  "Taylor": [
+   201,
+   355
+  ],
+  "made": [
+   203
+  ],
+  "interesting": [
+   204,
+   277,
+   350
+  ],
+  "experimental": [
+   205
+  ],
+  "researches,": [
+   206
+  ],
+  "together": [
+   207
+  ],
+  "some": [
+   209,
+   421
+  ],
+  "theoretical": [
+   210
+  ],
+  "investigations,": [
+   211
+  ],
+  "mode": [
+   214
+  ],
+  "formation": [
+   216,
+   265
+  ],
+  "thread": [
+   220,
+   293,
+   319,
+   374
+  ],
+  "disruptive": [
+   223
+  ],
+  "drag": [
+   228
+  ],
+  "one": [
+   230,
+   280
+  ],
+  "fluid": [
+   231,
+   383
+  ],
+  "on": [
+   232,
+   401
+  ],
+  "other,": [
+   234
+  ],
+  "putting": [
+   236
+  ],
+  "small": [
+   238,
+   327
+  ],
+  "drop": [
+   239
+  ],
+  "definable": [
+   245
+  ],
+  "shearing": [
+   246
+  ],
+  "fields": [
+   247
+  ],
+  "flow": [
+   249,
+   314
+  ],
+  "another": [
+   251
+  ],
+  "liquid.": [
+   253
+  ],
+  "He": [
+   254
+  ],
+  "thus": [
+   256
+  ],
+  "thrown": [
+   257
+  ],
+  "much": [
+   258
+  ],
+  "light": [
+   259
+  ],
+  "mechanism": [
+   262
+  ],
+  "emulsions.": [
+   267
+  ],
+  "In": [
+   268,
+   346
+  ],
+  "course": [
+   270
+  ],
+  "experiments": [
+   273
+  ],
+  "observed": [
+   275
+  ],
+  "phenomenon,": [
+   278,
+   351
+  ],
+  "ratio": [
+   284
+  ],
+  "forming": [
+   291
+  ],
+  "0.91,": [
+   301
+  ],
+  "after": [
+   303
+  ],
+  "apparatus": [
+   305,
+   342
+  ],
+  "was": [
+   307,
+   315,
+   343
+  ],
+  "used": [
+   308
+  ],
+  "produce": [
+   310
+  ],
+  "field": [
+   312
+  ],
+  "stopped": [
+   316
+  ],
+  "final": [
+   318
+  ],
+  "gradually": [
+   320
+  ],
+  "broke": [
+   321
+  ],
+  "up": [
+   322
+  ],
+  "into": [
+   323
+  ],
+  "number": [
+   325
+  ],
+  "drops": [
+   328
+  ],
+  "spaced": [
+   329
+  ],
+  "at": [
+   330
+  ],
+  "nearly": [
+   331
+  ],
+  "regular": [
+   332
+  ],
+  "intervals,": [
+   333
+  ],
+  "although": [
+   334
+  ],
+  "it": [
+   335
+  ],
+  "had": [
+   336,
+   435
+  ],
+  "seemed": [
+   337
+  ],
+  "quite": [
+   338
+  ],
+  "stable": [
+   339
+  ],
+  "while": [
+   340
+  ],
+  "motion.": [
+   345
+  ],
+  "connection": [
+   347
+  ],
+  "this": [
+   349
+  ],
+  "Professor": [
+   352
+  ],
+  "kindly": [
+   356
+  ],
+  "suggested": [
+   357
+  ],
+  "writer": [
+   360
+  ],
+  "problem": [
+   362
+  ],
+  "investigating": [
+   364
+  ],
+  "character": [
+   366
+  ],
+  "surrounded": [
+   379
+  ],
+  "an\u00adother": [
+   381
+  ],
+  "interfacial": [
+   388
+  ],
+  "surface": [
+   389
+  ],
+  "tension": [
+   390
+  ],
+  "well": [
+   392
+  ],
+  "forces": [
+   399
+  ],
+  "acting": [
+   400
+  ],
+  "inside": [
+   404
+  ],
+  "latter": [
+   416
+  ],
+  "expected": [
+   418
+  ],
+  "play": [
+   420
+  ],
+  "important": [
+   422
+  ],
+  "role": [
+   423
+  ],
+  "phenomenon": [
+   426
+  ],
+  "con\u00adsideration,": [
+   428
+  ],
+  "although,": [
+   429
+  ],
+  "mentioned": [
+   431
+  ],
+  "already,": [
+   432
+  ],
+  "its": [
+   433
+  ],
+  "neglected": [
+   437
+  ],
+  "Rayleigh": [
+   439
+  ],
+  "investigation.": [
+   442
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 27
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 25
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 22
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 20
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 38
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 46
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 31
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 52
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 52
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 35
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 34
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 34
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 37
+  }
+ ],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2016-06-24T00:00:00"
+}

@@ -1,0 +1,1191 @@
+{
+ "id": "https://openalex.org/W4405941182",
+ "doi": "https://doi.org/10.3390/mi16010029",
+ "title": "Temperature Control of Quartz-Glass Melting Areas in Laser Additive Manufacturing",
+ "display_name": "Temperature Control of Quartz-Glass Melting Areas in Laser Additive Manufacturing",
+ "relevance_score": 1335.9359,
+ "publication_year": 2024,
+ "publication_date": "2024-12-28",
+ "ids": {
+  "openalex": "https://openalex.org/W4405941182",
+  "doi": "https://doi.org/10.3390/mi16010029",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/39858685"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/mi16010029",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/mi16010029",
+  "pdf_url": "https://www.mdpi.com/2072-666X/16/1/29/pdf?version=1735376719",
+  "source": {
+   "id": "https://openalex.org/S96702057",
+   "display_name": "Micromachines",
+   "issn_l": "2072-666X",
+   "issn": [
+    "2072-666X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Micromachines",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2072-666X/16/1/29/pdf?version=1735376719",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5100394952",
+    "display_name": "Jing Chen",
+    "orcid": "https://orcid.org/0000-0003-0429-6518"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19820366",
+     "display_name": "Chinese Academy of Sciences",
+     "ror": "https://ror.org/034t30j35",
+     "country_code": "CN",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I19820366"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210165038",
+     "display_name": "University of Chinese Academy of Sciences",
+     "ror": "https://ror.org/05qbk4x57",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jing Chen",
+   "raw_affiliation_strings": [
+    "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+    "University of Chinese Academy of Sciences, Beijing 100049, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+     "institution_ids": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing 100049, China",
+     "institution_ids": [
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101988593",
+    "display_name": "Zeping Lv",
+    "orcid": "https://orcid.org/0009-0005-5074-7000"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19820366",
+     "display_name": "Chinese Academy of Sciences",
+     "ror": "https://ror.org/034t30j35",
+     "country_code": "CN",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I19820366"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210165038",
+     "display_name": "University of Chinese Academy of Sciences",
+     "ror": "https://ror.org/05qbk4x57",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Zeping Lv",
+   "raw_affiliation_strings": [
+    "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+    "University of Chinese Academy of Sciences, Beijing 100049, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+     "institution_ids": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing 100049, China",
+     "institution_ids": [
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5049444068",
+    "display_name": "Xuanjia Zhang",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19820366",
+     "display_name": "Chinese Academy of Sciences",
+     "ror": "https://ror.org/034t30j35",
+     "country_code": "CN",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I19820366"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Xuanjia Zhang",
+   "raw_affiliation_strings": [
+    "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+     "institution_ids": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5072269262",
+    "display_name": "Tao Xu",
+    "orcid": "https://orcid.org/0000-0002-4228-4895"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19820366",
+     "display_name": "Chinese Academy of Sciences",
+     "ror": "https://ror.org/034t30j35",
+     "country_code": "CN",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I19820366"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tao Xu",
+   "raw_affiliation_strings": [
+    "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+     "institution_ids": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5039209940",
+    "display_name": "Yuntao Cheng",
+    "orcid": "https://orcid.org/0000-0002-2718-7464"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I19820366",
+     "display_name": "Chinese Academy of Sciences",
+     "ror": "https://ror.org/034t30j35",
+     "country_code": "CN",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I19820366"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210128284",
+     "display_name": "Institute of Optics and Electronics, Chinese Academy of Sciences",
+     "ror": "https://ror.org/02bn68w95",
+     "country_code": "CN",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210165038",
+     "display_name": "University of Chinese Academy of Sciences",
+     "ror": "https://ror.org/05qbk4x57",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Yuntao Cheng",
+   "raw_affiliation_strings": [
+    "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+    "University of Chinese Academy of Sciences, Beijing 100049, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-2718-7464",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Lightweight Optics and Advanced Materials Technology Center, Institute of Optics and Electronics, Chinese Academy of Sciences, Chengdu 610209, China",
+     "institution_ids": [
+      "https://openalex.org/I19820366",
+      "https://openalex.org/I4210128284"
+     ]
+    },
+    {
+     "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing 100049, China",
+     "institution_ids": [
+      "https://openalex.org/I4210165038"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5039209940"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I19820366",
+  "https://openalex.org/I4210128284",
+  "https://openalex.org/I4210165038"
+ ],
+ "apc_list": {
+  "value": 2600,
+  "currency": "CHF",
+  "value_usd": 2955
+ },
+ "apc_paid": {
+  "value": 2600,
+  "currency": "CHF",
+  "value_usd": 2955
+ },
+ "fwci": 1.186,
+ "has_fulltext": true,
+ "cited_by_count": 9,
+ "citation_normalized_percentile": {
+  "value": 0.75114239,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 98,
+  "max": 99
+ },
+ "biblio": {
+  "volume": "16",
+  "issue": "1",
+  "first_page": "29",
+  "last_page": "29"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10705",
+  "display_name": "Additive Manufacturing Materials and Processes",
+  "score": 0.9990000128746033,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9990000128746033,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9729999899864197,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.963100016117096,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/quartz",
+   "display_name": "Quartz",
+   "score": 0.8462873697280884
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.74543297290802
+  },
+  {
+   "id": "https://openalex.org/keywords/microstructure",
+   "display_name": "Microstructure",
+   "score": 0.6997509598731995
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.5394587516784668
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-sintering",
+   "display_name": "Selective laser sintering",
+   "score": 0.5377690196037292
+  },
+  {
+   "id": "https://openalex.org/keywords/temperature-control",
+   "display_name": "Temperature control",
+   "score": 0.49569880962371826
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.49100664258003235
+  },
+  {
+   "id": "https://openalex.org/keywords/selective-laser-melting",
+   "display_name": "Selective laser melting",
+   "score": 0.47123321890830994
+  },
+  {
+   "id": "https://openalex.org/keywords/laser-power-scaling",
+   "display_name": "Laser power scaling",
+   "score": 0.425744891166687
+  },
+  {
+   "id": "https://openalex.org/keywords/flat-glass",
+   "display_name": "Flat glass",
+   "score": 0.41906648874282837
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.3544045090675354
+  },
+  {
+   "id": "https://openalex.org/keywords/mechanical-engineering",
+   "display_name": "Mechanical engineering",
+   "score": 0.15867239236831665
+  },
+  {
+   "id": "https://openalex.org/keywords/sintering",
+   "display_name": "Sintering",
+   "score": 0.14465796947479248
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2779870107",
+   "wikidata": "https://www.wikidata.org/wiki/Q43010",
+   "display_name": "Quartz",
+   "level": 2,
+   "score": 0.8462873697280884
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.74543297290802
+  },
+  {
+   "id": "https://openalex.org/C87976508",
+   "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+   "display_name": "Microstructure",
+   "level": 2,
+   "score": 0.6997509598731995
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.5394587516784668
+  },
+  {
+   "id": "https://openalex.org/C54237361",
+   "wikidata": "https://www.wikidata.org/wiki/Q428412",
+   "display_name": "Selective laser sintering",
+   "level": 3,
+   "score": 0.5377690196037292
+  },
+  {
+   "id": "https://openalex.org/C536315585",
+   "wikidata": "https://www.wikidata.org/wiki/Q7698332",
+   "display_name": "Temperature control",
+   "level": 2,
+   "score": 0.49569880962371826
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.49100664258003235
+  },
+  {
+   "id": "https://openalex.org/C26796778",
+   "wikidata": "https://www.wikidata.org/wiki/Q2267983",
+   "display_name": "Selective laser melting",
+   "level": 3,
+   "score": 0.47123321890830994
+  },
+  {
+   "id": "https://openalex.org/C200649887",
+   "wikidata": "https://www.wikidata.org/wiki/Q17154544",
+   "display_name": "Laser power scaling",
+   "level": 3,
+   "score": 0.425744891166687
+  },
+  {
+   "id": "https://openalex.org/C96170274",
+   "wikidata": "https://www.wikidata.org/wiki/Q1426151",
+   "display_name": "Flat glass",
+   "level": 2,
+   "score": 0.41906648874282837
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.3544045090675354
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.15867239236831665
+  },
+  {
+   "id": "https://openalex.org/C2777581544",
+   "wikidata": "https://www.wikidata.org/wiki/Q844613",
+   "display_name": "Sintering",
+   "level": 2,
+   "score": 0.14465796947479248
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.3390/mi16010029",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/mi16010029",
+   "pdf_url": "https://www.mdpi.com/2072-666X/16/1/29/pdf?version=1735376719",
+   "source": {
+    "id": "https://openalex.org/S96702057",
+    "display_name": "Micromachines",
+    "issn_l": "2072-666X",
+    "issn": [
+     "2072-666X"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Micromachines",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:39858685",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39858685",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Micromachines",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:11767920",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11767920",
+   "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11767920/pdf/micromachines-16-00029.pdf",
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Micromachines (Basel)",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:7648245d91b8400d95b42b1fe3f744b7",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/7648245d91b8400d95b42b1fe3f744b7",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Micromachines, Vol 16, Iss 1, p 29 (2024)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/mi16010029",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/mi16010029",
+  "pdf_url": "https://www.mdpi.com/2072-666X/16/1/29/pdf?version=1735376719",
+  "source": {
+   "id": "https://openalex.org/S96702057",
+   "display_name": "Micromachines",
+   "issn_l": "2072-666X",
+   "issn": [
+    "2072-666X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Micromachines",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.8199999928474426
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4405941182.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4405941182.grobid-xml"
+ },
+ "referenced_works_count": 24,
+ "referenced_works": [
+  "https://openalex.org/W776618452",
+  "https://openalex.org/W2003974530",
+  "https://openalex.org/W2019215344",
+  "https://openalex.org/W2034128628",
+  "https://openalex.org/W2073960187",
+  "https://openalex.org/W2085678466",
+  "https://openalex.org/W2094555117",
+  "https://openalex.org/W2301735841",
+  "https://openalex.org/W2316969502",
+  "https://openalex.org/W2374838608",
+  "https://openalex.org/W2500681551",
+  "https://openalex.org/W2518635189",
+  "https://openalex.org/W2532929093",
+  "https://openalex.org/W2760795079",
+  "https://openalex.org/W2891416922",
+  "https://openalex.org/W2944707826",
+  "https://openalex.org/W3119212144",
+  "https://openalex.org/W3134904038",
+  "https://openalex.org/W3211006278",
+  "https://openalex.org/W4308431151",
+  "https://openalex.org/W4320487118",
+  "https://openalex.org/W4396821059",
+  "https://openalex.org/W4401929871",
+  "https://openalex.org/W6699248120"
+ ],
+ "related_works": [
+  "https://openalex.org/W2043301592",
+  "https://openalex.org/W2371231369",
+  "https://openalex.org/W2594807567",
+  "https://openalex.org/W2379872238",
+  "https://openalex.org/W2192772080",
+  "https://openalex.org/W2046235983",
+  "https://openalex.org/W4212793954",
+  "https://openalex.org/W2145238645",
+  "https://openalex.org/W3089211387",
+  "https://openalex.org/W3141210842"
+ ],
+ "abstract_inverted_index": {
+  "Direct": [
+   0
+  ],
+  "energy": [
+   1
+  ],
+  "deposition": [
+   2
+  ],
+  "is": [
+   3
+  ],
+  "an": [
+   4
+  ],
+  "additive": [
+   5,
+   47,
+   74
+  ],
+  "technology": [
+   6,
+   18
+  ],
+  "that": [
+   7
+  ],
+  "can": [
+   8
+  ],
+  "quickly": [
+   9
+  ],
+  "manufacture": [
+   10
+  ],
+  "irregularly": [
+   11
+  ],
+  "shaped": [
+   12
+  ],
+  "quartz-glass": [
+   13,
+   46
+  ],
+  "devices.": [
+   14
+  ],
+  "Based": [
+   15
+  ],
+  "on": [
+   16,
+   52
+  ],
+  "this": [
+   17
+  ],
+  "and": [
+   19,
+   38,
+   68,
+   77,
+   96,
+   118
+  ],
+  "coaxial": [
+   20
+  ],
+  "laser/wire": [
+   21
+  ],
+  "feeding,": [
+   22
+  ],
+  "open-loop": [
+   23
+  ],
+  "tests": [
+   24
+  ],
+  "were": [
+   25,
+   86
+  ],
+  "conducted": [
+   26
+  ],
+  "under": [
+   27
+  ],
+  "different": [
+   28
+  ],
+  "process": [
+   29
+  ],
+  "parameters.": [
+   30
+  ],
+  "A": [
+   31
+  ],
+  "closed-loop": [
+   32
+  ],
+  "temperature": [
+   33,
+   44,
+   80,
+   100
+  ],
+  "control": [
+   34,
+   56,
+   81,
+   101
+  ],
+  "system": [
+   35
+  ],
+  "was": [
+   36,
+   50,
+   122
+  ],
+  "designed": [
+   37
+  ],
+  "built": [
+   39
+  ],
+  "for": [
+   40,
+   58
+  ],
+  "the": [
+   41,
+   64,
+   72,
+   79,
+   83,
+   99,
+   103,
+   113,
+   119
+  ],
+  "molten": [
+   42
+  ],
+  "pool": [
+   43
+  ],
+  "in": [
+   45,
+   63
+  ],
+  "manufacturing.": [
+   48
+  ],
+  "It": [
+   49
+  ],
+  "based": [
+   51
+  ],
+  "a": [
+   53
+  ],
+  "PID": [
+   54
+  ],
+  "(proportional-integral-derivative)": [
+   55
+  ],
+  "algorithm": [
+   57
+  ],
+  "adjusting": [
+   59
+  ],
+  "laser": [
+   60,
+   91
+  ],
+  "power.": [
+   61
+  ],
+  "Changes": [
+   62
+  ],
+  "macroscopic": [
+   65
+  ],
+  "morphology,": [
+   66
+  ],
+  "microstructure,": [
+   67
+  ],
+  "other": [
+   69
+  ],
+  "qualities": [
+   70
+  ],
+  "of": [
+   71,
+   82,
+   93,
+   102,
+   112
+  ],
+  "final": [
+   73
+  ],
+  "result": [
+   75
+  ],
+  "before": [
+   76
+  ],
+  "after": [
+   78
+  ],
+  "quartz": [
+   84,
+   116
+  ],
+  "glass": [
+   85
+  ],
+  "examined.": [
+   87
+  ],
+  "Relative": [
+   88
+  ],
+  "to": [
+   89
+  ],
+  "constant": [
+   90
+  ],
+  "powers": [
+   92
+  ],
+  "120": [
+   94
+  ],
+  "W": [
+   95
+  ],
+  "140": [
+   97
+  ],
+  "W,": [
+   98
+  ],
+  "multi-pass": [
+   104
+  ],
+  "single-layer": [
+   105
+  ],
+  "lateral": [
+   106
+  ],
+  "additives": [
+   107
+  ],
+  "produced": [
+   108,
+   115
+  ],
+  "dense": [
+   109
+  ],
+  "surface": [
+   110
+  ],
+  "microstructures": [
+   111
+  ],
+  "additively": [
+   114
+  ],
+  "glass,": [
+   117
+  ],
+  "molding": [
+   120
+  ],
+  "quality": [
+   121
+  ],
+  "better.": [
+   123
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 4
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 5
+  }
+ ],
+ "updated_date": "2026-09-05T08:02:43.246662",
+ "created_date": "2025-10-10T00:00:00"
+}

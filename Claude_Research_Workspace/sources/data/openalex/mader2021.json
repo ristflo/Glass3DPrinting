@@ -1,0 +1,1636 @@
+{
+ "id": "https://openalex.org/W3206551585",
+ "doi": "https://doi.org/10.1002/advs.202103180",
+ "title": "Melt\u2010Extrusion\u2010Based Additive Manufacturing of Transparent Fused Silica Glass",
+ "display_name": "Melt\u2010Extrusion\u2010Based Additive Manufacturing of Transparent Fused Silica Glass",
+ "publication_year": 2021,
+ "publication_date": "2021-10-20",
+ "ids": {
+  "openalex": "https://openalex.org/W3206551585",
+  "doi": "https://doi.org/10.1002/advs.202103180",
+  "mag": "3206551585",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/34668342"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1002/advs.202103180",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1002/advs.202103180",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202103180",
+  "source": {
+   "id": "https://openalex.org/S2737737698",
+   "display_name": "Advanced Science",
+   "issn_l": "2198-3844",
+   "issn": [
+    "2198-3844"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "ki-jl-2",
+    "medline",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Advanced Science",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "datacite",
+  "doaj",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202103180",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5015183242",
+    "display_name": "Markus Mader",
+    "orcid": "https://orcid.org/0000-0003-2479-0679",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2479-0679"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I161046081",
+     "display_name": "University of Freiburg",
+     "ror": "https://ror.org/0245cg223",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Markus Mader",
+   "raw_affiliation_strings": [
+    "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+    "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+    "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2479-0679",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5059184934",
+    "display_name": "Leonhard Hambitzer",
+    "orcid": "https://orcid.org/0000-0001-7032-9918",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7032-9918"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I161046081",
+     "display_name": "University of Freiburg",
+     "ror": "https://ror.org/0245cg223",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Leonhard Hambitzer",
+   "raw_affiliation_strings": [
+    "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5060342028",
+    "display_name": "Phillip Schlautmann",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Phillip Schlautmann",
+   "raw_affiliation_strings": [
+    "3D\u2010Figo GmbH  Lippestra\u00dfe 20 Salzkotten 33154 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "3D\u2010Figo GmbH  Lippestra\u00dfe 20 Salzkotten 33154 Germany",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5080370114",
+    "display_name": "Sophie Jenne",
+    "orcid": "https://orcid.org/0000-0003-3158-6422",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-3158-6422"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I161046081",
+     "display_name": "University of Freiburg",
+     "ror": "https://ror.org/0245cg223",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Sophie Jenne",
+   "raw_affiliation_strings": [
+    "Gisela and Erwin Sick Chair of Micro\u2010optics Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "Gisela and Erwin Sick Chair of Micro-optics, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Gisela and Erwin Sick Chair of Micro\u2010optics Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Gisela and Erwin Sick Chair of Micro-optics, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5067374965",
+    "display_name": "Christian Greiner",
+    "orcid": "https://orcid.org/0000-0001-8079-336X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8079-336X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Christian Greiner",
+   "raw_affiliation_strings": [
+    "Institute for Applied Materials (IAM) Karlsruhe Institute of Technology (KIT)  Karlsruhe 76131 Germany",
+    "Institute for Applied Materials (IAM), Karlsruhe Institute of Technology (KIT), Karlsruhe, 76131 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Applied Materials (IAM) Karlsruhe Institute of Technology (KIT)  Karlsruhe 76131 Germany",
+     "institution_ids": []
+    },
+    {
+     "raw_affiliation_string": "Institute for Applied Materials (IAM), Karlsruhe Institute of Technology (KIT), Karlsruhe, 76131 Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5042757450",
+    "display_name": "F. W. Hirth",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I102335020",
+     "display_name": "Karlsruhe Institute of Technology",
+     "ror": "https://ror.org/04t3en479",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I102335020",
+      "https://openalex.org/I1305996414"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Florian Hirth",
+   "raw_affiliation_strings": [
+    "Institute for Applied Materials (IAM) Karlsruhe Institute of Technology (KIT)  Karlsruhe 76131 Germany",
+    "Institute for Applied Materials (IAM), Karlsruhe Institute of Technology (KIT), Karlsruhe, 76131 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Applied Materials (IAM) Karlsruhe Institute of Technology (KIT)  Karlsruhe 76131 Germany",
+     "institution_ids": []
+    },
+    {
+     "raw_affiliation_string": "Institute for Applied Materials (IAM), Karlsruhe Institute of Technology (KIT), Karlsruhe, 76131 Germany",
+     "institution_ids": [
+      "https://openalex.org/I102335020"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5038426363",
+    "display_name": "Dorothea Helmer",
+    "orcid": "https://orcid.org/0000-0003-0295-9701",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0295-9701"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I161046081",
+     "display_name": "University of Freiburg",
+     "ror": "https://ror.org/0245cg223",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210142012",
+     "display_name": "Glassomer (Germany)",
+     "ror": "https://ror.org/044k3e410",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142012"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dorothea Helmer",
+   "raw_affiliation_strings": [
+    "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+    "Glassomer GmbH  Georges\u2010K\u00f6hler\u2010Allee 103 Freiburg 79110 Germany",
+    "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies, Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+    "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+    "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Glassomer GmbH  Georges\u2010K\u00f6hler\u2010Allee 103 Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210142012"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies, Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5003035772",
+    "display_name": "Frederik Kotz",
+    "orcid": "https://orcid.org/0000-0001-8376-154X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-8376-154X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I161046081",
+     "display_name": "University of Freiburg",
+     "ror": "https://ror.org/0245cg223",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210142012",
+     "display_name": "Glassomer (Germany)",
+     "ror": "https://ror.org/044k3e410",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142012"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Frederik Kotz\u2010Helmer",
+   "raw_affiliation_strings": [
+    "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+    "Glassomer GmbH  Georges\u2010K\u00f6hler\u2010Allee 103 Freiburg 79110 Germany",
+    "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+    "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-8376-154X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Glassomer GmbH  Georges\u2010K\u00f6hler\u2010Allee 103 Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210142012"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5089234340",
+    "display_name": "Bastian Ernst Rapp",
+    "orcid": "https://orcid.org/0000-0002-3955-0291",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3955-0291"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I161046081",
+     "display_name": "University of Freiburg",
+     "ror": "https://ror.org/0245cg223",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210142012",
+     "display_name": "Glassomer (Germany)",
+     "ror": "https://ror.org/044k3e410",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210142012"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Bastian E. Rapp",
+   "raw_affiliation_strings": [
+    "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+    "Glassomer GmbH  Georges\u2010K\u00f6hler\u2010Allee 103 Freiburg 79110 Germany",
+    "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+    "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies, Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+    "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+    "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF) Albert Ludwig University of Freiburg  Freiburg 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Glassomer GmbH  Georges\u2010K\u00f6hler\u2010Allee 103 Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210142012"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering NeptunLab Department of Microsystems Engineering (IMTEK) Albert Ludwig University of Freiburg  Freiburg 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "FIT Freiburg Center of Interactive Materials and Bioinspired Technologies, Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Freiburg Materials Research Center (FMF), Albert Ludwig University of Freiburg, Freiburg, 79104 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Laboratory of Process Engineering, NeptunLab, Department of Microsystems Engineering (IMTEK), Albert Ludwig University of Freiburg, Freiburg, 79110 Germany",
+     "institution_ids": [
+      "https://openalex.org/I161046081"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5003035772"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I161046081",
+  "https://openalex.org/I4210142012"
+ ],
+ "apc_list": {
+  "value": 5000,
+  "currency": "USD",
+  "value_usd": 5000
+ },
+ "apc_paid": {
+  "value": 3962,
+  "currency": "EUR",
+  "value_usd": 4273
+ },
+ "fwci": 2.1563,
+ "has_fulltext": true,
+ "cited_by_count": 54,
+ "citation_normalized_percentile": {
+  "value": 0.86820454,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "8",
+  "issue": "23",
+  "first_page": "e2103180",
+  "last_page": "e2103180"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9997000098228455,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9997000098228455,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12570",
+   "display_name": "Photopolymerization techniques and applications",
+   "score": 0.9779999852180481,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1605",
+    "display_name": "Organic Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/16",
+    "display_name": "Chemistry"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11190",
+   "display_name": "3D Printing in Biomedical Research",
+   "score": 0.9599999785423279,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/extrusion",
+   "display_name": "Extrusion",
+   "score": 0.9193816184997559
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.841173529624939
+  },
+  {
+   "id": "https://openalex.org/keywords/stereolithography",
+   "display_name": "Stereolithography",
+   "score": 0.7806737422943115
+  },
+  {
+   "id": "https://openalex.org/keywords/fused-deposition-modeling",
+   "display_name": "Fused deposition modeling",
+   "score": 0.7276988625526428
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.5859981775283813
+  },
+  {
+   "id": "https://openalex.org/keywords/nanocomposite",
+   "display_name": "Nanocomposite",
+   "score": 0.5718140006065369
+  },
+  {
+   "id": "https://openalex.org/keywords/3d-printing",
+   "display_name": "3D printing",
+   "score": 0.5615113973617554
+  },
+  {
+   "id": "https://openalex.org/keywords/thermoplastic",
+   "display_name": "Thermoplastic",
+   "score": 0.503018319606781
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.4907001256942749
+  },
+  {
+   "id": "https://openalex.org/keywords/extrusion-moulding",
+   "display_name": "Extrusion moulding",
+   "score": 0.4793887138366699
+  },
+  {
+   "id": "https://openalex.org/keywords/plastics-extrusion",
+   "display_name": "Plastics extrusion",
+   "score": 0.4537140130996704
+  },
+  {
+   "id": "https://openalex.org/keywords/polymer",
+   "display_name": "Polymer",
+   "score": 0.4321151077747345
+  },
+  {
+   "id": "https://openalex.org/keywords/inkwell",
+   "display_name": "Inkwell",
+   "score": 0.4290230870246887
+  },
+  {
+   "id": "https://openalex.org/keywords/polymerization",
+   "display_name": "Polymerization",
+   "score": 0.4108225405216217
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2778958987",
+   "wikidata": "https://www.wikidata.org/wiki/Q139143",
+   "display_name": "Extrusion",
+   "level": 2,
+   "score": 0.9193816184997559
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.841173529624939
+  },
+  {
+   "id": "https://openalex.org/C2779154291",
+   "wikidata": "https://www.wikidata.org/wiki/Q1022471",
+   "display_name": "Stereolithography",
+   "level": 2,
+   "score": 0.7806737422943115
+  },
+  {
+   "id": "https://openalex.org/C2780329122",
+   "wikidata": "https://www.wikidata.org/wiki/Q18349149",
+   "display_name": "Fused deposition modeling",
+   "level": 3,
+   "score": 0.7276988625526428
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.5859981775283813
+  },
+  {
+   "id": "https://openalex.org/C92880739",
+   "wikidata": "https://www.wikidata.org/wiki/Q2639556",
+   "display_name": "Nanocomposite",
+   "level": 2,
+   "score": 0.5718140006065369
+  },
+  {
+   "id": "https://openalex.org/C524769229",
+   "wikidata": "https://www.wikidata.org/wiki/Q229367",
+   "display_name": "3D printing",
+   "level": 2,
+   "score": 0.5615113973617554
+  },
+  {
+   "id": "https://openalex.org/C2781247691",
+   "wikidata": "https://www.wikidata.org/wiki/Q380677",
+   "display_name": "Thermoplastic",
+   "level": 2,
+   "score": 0.503018319606781
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.4907001256942749
+  },
+  {
+   "id": "https://openalex.org/C21538904",
+   "wikidata": "https://www.wikidata.org/wiki/Q4165682",
+   "display_name": "Extrusion moulding",
+   "level": 3,
+   "score": 0.4793887138366699
+  },
+  {
+   "id": "https://openalex.org/C97103648",
+   "wikidata": "https://www.wikidata.org/wiki/Q2738101",
+   "display_name": "Plastics extrusion",
+   "level": 2,
+   "score": 0.4537140130996704
+  },
+  {
+   "id": "https://openalex.org/C521977710",
+   "wikidata": "https://www.wikidata.org/wiki/Q81163",
+   "display_name": "Polymer",
+   "level": 2,
+   "score": 0.4321151077747345
+  },
+  {
+   "id": "https://openalex.org/C109693293",
+   "wikidata": "https://www.wikidata.org/wiki/Q1496072",
+   "display_name": "Inkwell",
+   "level": 2,
+   "score": 0.4290230870246887
+  },
+  {
+   "id": "https://openalex.org/C44228677",
+   "wikidata": "https://www.wikidata.org/wiki/Q181898",
+   "display_name": "Polymerization",
+   "level": 3,
+   "score": 0.4108225405216217
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 6,
+ "locations": [
+  {
+   "id": "doi:10.1002/advs.202103180",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1002/advs.202103180",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202103180",
+   "source": {
+    "id": "https://openalex.org/S2737737698",
+    "display_name": "Advanced Science",
+    "issn_l": "2198-3844",
+    "issn": [
+     "2198-3844"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-1",
+     "ki-jl-2",
+     "medline",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320595",
+    "host_organization_name": "Wiley",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320595"
+    ],
+    "host_organization_lineage_names": [
+     "Wiley"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Advanced Science",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:EVASTAR-Karlsruhe.de:1000139369",
+   "is_oa": true,
+   "landing_page_url": "https://publikationen.bibliothek.kit.edu/1000139369",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401992",
+    "display_name": "Repository KITopen (Karlsruhe Institute of Technology)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I102335020",
+    "host_organization_name": "Karlsruhe Institute of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I102335020"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Advanced Science, 8 (23), Art.-Nr. 2103180",
+   "raw_type": "info:eu-repo/semantics/article"
+  },
+  {
+   "id": "pmid:34668342",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34668342",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:8655167",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8655167",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Adv Sci (Weinh)",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:092eb5c949504d40b8a96bf64b10a5ed",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/092eb5c949504d40b8a96bf64b10a5ed",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Advanced Science, Vol 8, Iss 23, Pp n/a-n/a (2021)",
+   "raw_type": "article"
+  },
+  {
+   "id": "doi:10.5445/ir/1000139369",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.5445/ir/1000139369",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S7407052948",
+    "display_name": "KITopen",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I102335020",
+    "host_organization_name": "Karlsruhe Institute of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I102335020"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": null,
+   "raw_type": "article-journal"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1002/advs.202103180",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1002/advs.202103180",
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202103180",
+  "source": {
+   "id": "https://openalex.org/S2737737698",
+   "display_name": "Advanced Science",
+   "issn_l": "2198-3844",
+   "issn": [
+    "2198-3844"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "ki-jl-2",
+    "medline",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320595",
+   "host_organization_name": "Wiley",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320595"
+   ],
+   "host_organization_lineage_names": [
+    "Wiley"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Advanced Science",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.5299999713897705,
+   "display_name": "Industry, innovation and infrastructure"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2826288967",
+   "display_name": null,
+   "funder_award_id": "816006",
+   "funder_id": "https://openalex.org/F4320334678",
+   "funder_display_name": "European Research Council"
+  },
+  {
+   "id": "https://openalex.org/G434337789",
+   "display_name": null,
+   "funder_award_id": "HORIZON2020",
+   "funder_id": "https://openalex.org/F4320320300",
+   "funder_display_name": "European Commission"
+  },
+  {
+   "id": "https://openalex.org/G5039288378",
+   "display_name": "Herstellung und Analyse von Spezialgl\u00e4sern mit Hilfe von Siliziumdioxidnanokompositen",
+   "funder_award_id": "455798326",
+   "funder_id": "https://openalex.org/F4320320879",
+   "funder_display_name": "Deutsche Forschungsgemeinschaft"
+  },
+  {
+   "id": "https://openalex.org/G5090764095",
+   "display_name": null,
+   "funder_award_id": "2193/1390951807",
+   "funder_id": "https://openalex.org/F4320320879",
+   "funder_display_name": "Deutsche Forschungsgemeinschaft"
+  },
+  {
+   "id": "https://openalex.org/G6317100148",
+   "display_name": null,
+   "funder_award_id": "816006",
+   "funder_id": "https://openalex.org/F4320320300",
+   "funder_display_name": "European Commission"
+  },
+  {
+   "id": "https://openalex.org/G7669910551",
+   "display_name": "EXC 2193: Lebende, adaptive und energieautonome Materialsysteme (livMatS)",
+   "funder_award_id": "390951807",
+   "funder_id": "https://openalex.org/F4320320879",
+   "funder_display_name": "Deutsche Forschungsgemeinschaft"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320309895",
+   "display_name": "Carl-Zeiss-Stiftung",
+   "ror": "https://ror.org/03ng4kg22"
+  },
+  {
+   "id": "https://openalex.org/F4320320300",
+   "display_name": "European Commission",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320320879",
+   "display_name": "Deutsche Forschungsgemeinschaft",
+   "ror": "https://ror.org/018mejw64"
+  },
+  {
+   "id": "https://openalex.org/F4320334678",
+   "display_name": "European Research Council",
+   "ror": "https://ror.org/0472cxd90"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W3206551585.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W3206551585.grobid-xml"
+ },
+ "referenced_works_count": 34,
+ "referenced_works": [
+  "https://openalex.org/W1518783225",
+  "https://openalex.org/W1967160592",
+  "https://openalex.org/W1971870134",
+  "https://openalex.org/W1975049747",
+  "https://openalex.org/W1978064734",
+  "https://openalex.org/W1978923859",
+  "https://openalex.org/W1983118335",
+  "https://openalex.org/W2027137968",
+  "https://openalex.org/W2030553397",
+  "https://openalex.org/W2050141114",
+  "https://openalex.org/W2086187432",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2319334792",
+  "https://openalex.org/W2503161491",
+  "https://openalex.org/W2595589086",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W2608969361",
+  "https://openalex.org/W2724418474",
+  "https://openalex.org/W2782951201",
+  "https://openalex.org/W2793234350",
+  "https://openalex.org/W2793424836",
+  "https://openalex.org/W2795372384",
+  "https://openalex.org/W2802481875",
+  "https://openalex.org/W2804611663",
+  "https://openalex.org/W2805380591",
+  "https://openalex.org/W2891465991",
+  "https://openalex.org/W2899794813",
+  "https://openalex.org/W2944803542",
+  "https://openalex.org/W2953890006",
+  "https://openalex.org/W3049242838",
+  "https://openalex.org/W3118742912",
+  "https://openalex.org/W3146972801",
+  "https://openalex.org/W3206551585",
+  "https://openalex.org/W4250867965"
+ ],
+ "related_works": [
+  "https://openalex.org/W2201226327",
+  "https://openalex.org/W1998524096",
+  "https://openalex.org/W2802457820",
+  "https://openalex.org/W2384464911",
+  "https://openalex.org/W2886162102",
+  "https://openalex.org/W2609499725",
+  "https://openalex.org/W4223990904",
+  "https://openalex.org/W3200088187",
+  "https://openalex.org/W1837023323",
+  "https://openalex.org/W2900621920"
+ ],
+ "abstract_inverted_index": {
+  "In": [
+   0
+  ],
+  "recent": [
+   1
+  ],
+  "years,": [
+   2
+  ],
+  "additive": [
+   3
+  ],
+  "manufacturing": [
+   4,
+   46
+  ],
+  "(AM)": [
+   5
+  ],
+  "of": [
+   6,
+   47,
+   62,
+   70,
+   101
+  ],
+  "glass": [
+   7,
+   92,
+   104
+  ],
+  "has": [
+   8
+  ],
+  "attracted": [
+   9
+  ],
+  "great": [
+   10
+  ],
+  "interest": [
+   11
+  ],
+  "in": [
+   12
+  ],
+  "academia": [
+   13
+  ],
+  "and": [
+   14,
+   78,
+   95
+  ],
+  "industry,": [
+   15
+  ],
+  "yet": [
+   16
+  ],
+  "it": [
+   17
+  ],
+  "is": [
+   18,
+   74
+  ],
+  "still": [
+   19
+  ],
+  "mostly": [
+   20
+  ],
+  "limited": [
+   21
+  ],
+  "to": [
+   22,
+   90,
+   114
+  ],
+  "liquid": [
+   23
+  ],
+  "nanocomposite-based": [
+   24
+  ],
+  "approaches": [
+   25
+  ],
+  "for": [
+   26,
+   60,
+   131
+  ],
+  "stereolithography,": [
+   27
+  ],
+  "two-photon": [
+   28
+  ],
+  "polymerization,": [
+   29
+  ],
+  "or": [
+   30,
+   51
+  ],
+  "direct": [
+   31
+  ],
+  "ink": [
+   32
+  ],
+  "writing.": [
+   33
+  ],
+  "Melt-extrusion-based": [
+   34
+  ],
+  "processes,": [
+   35,
+   55
+  ],
+  "such": [
+   36
+  ],
+  "as": [
+   37,
+   126,
+   128
+  ],
+  "fused": [
+   38,
+   64,
+   72,
+   79
+  ],
+  "deposition": [
+   39,
+   81
+  ],
+  "modeling": [
+   40
+  ],
+  "(FDM),": [
+   41
+  ],
+  "which": [
+   42
+  ],
+  "will": [
+   43,
+   98
+  ],
+  "allow": [
+   44
+  ],
+  "facile": [
+   45
+  ],
+  "large": [
+   48
+  ],
+  "thin-walled": [
+   49
+  ],
+  "components": [
+   50
+  ],
+  "simple": [
+   52
+  ],
+  "multimaterial": [
+   53
+  ],
+  "printing": [
+   54,
+   100
+  ],
+  "are": [
+   56,
+   88
+  ],
+  "so": [
+   57
+  ],
+  "far": [
+   58
+  ],
+  "inaccessible": [
+   59,
+   103
+  ],
+  "AM": [
+   61,
+   69
+  ],
+  "transparent": [
+   63,
+   71,
+   91
+  ],
+  "silica": [
+   65,
+   73,
+   85
+  ],
+  "glass.": [
+   66
+  ],
+  "Here,": [
+   67
+  ],
+  "melt-extrusion-based": [
+   68
+  ],
+  "introduced": [
+   75
+  ],
+  "by": [
+   76
+  ],
+  "FDM": [
+   77
+  ],
+  "feedstock": [
+   80
+  ],
+  "(FFD)": [
+   82
+  ],
+  "using": [
+   83,
+   93,
+   122
+  ],
+  "thermoplastic": [
+   84
+  ],
+  "nanocomposites": [
+   86
+  ],
+  "that": [
+   87
+  ],
+  "converted": [
+   89
+  ],
+  "debinding": [
+   94
+  ],
+  "sintering.": [
+   96
+  ],
+  "This": [
+   97
+  ],
+  "enable": [
+   99
+  ],
+  "previously": [
+   102
+  ],
+  "structures": [
+   105
+  ],
+  "like": [
+   106
+  ],
+  "high-aspect-ratio": [
+   107
+  ],
+  "(>480)": [
+   108
+  ],
+  "vessels": [
+   109
+  ],
+  "with": [
+   110
+  ],
+  "wall": [
+   111
+  ],
+  "thicknesses": [
+   112
+  ],
+  "down": [
+   113
+  ],
+  "250": [
+   115
+  ],
+  "\u00b5m,": [
+   116
+  ],
+  "delicate": [
+   117
+  ],
+  "parts": [
+   118
+  ],
+  "including": [
+   119
+  ],
+  "overhanging": [
+   120
+  ],
+  "features": [
+   121
+  ],
+  "polymer": [
+   123
+  ],
+  "support": [
+   124
+  ],
+  "structures,": [
+   125
+  ],
+  "well": [
+   127
+  ],
+  "dual": [
+   129
+  ],
+  "extrusion": [
+   130
+  ],
+  "multicolored": [
+   132
+  ],
+  "glasses.": [
+   133
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 12
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 7
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-22T06:50:58.402377",
+ "created_date": "2025-10-10T00:00:00"
+}

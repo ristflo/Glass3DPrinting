@@ -1,0 +1,2699 @@
+{
+  "project": "Molten glass additive manufacturing",
+  "initial_research_date": "2026-09-26",
+  "integration_date": "2026-09-30",
+  "method": "Scoped primary-source technical review; duplicate source records retain their independent evidence provenance. Bibliography n.d. means no verified publication date; source ledger retains null dates.",
+  "sources": [
+    {
+      "id": "acad_klein2015",
+      "title": "Additive Manufacturing of Optically Transparent Glass",
+      "authors": [
+        "John Klein",
+        "Michael Stern",
+        "Giorgia Franchin",
+        "Markus Kayser",
+        "Chikara Inamura",
+        "Shreya Dave",
+        "James C. Weaver",
+        "Peter Houk",
+        "Paolo Colombo",
+        "Maria Yang",
+        "Neri Oxman"
+      ],
+      "year": 2015,
+      "doi_or_url": "10.1089/3dp.2015.0021",
+      "doi": "10.1089/3dp.2015.0021",
+      "url": "https://doi.org/10.1089/3dp.2015.0021",
+      "publisher": "SAGE Publications",
+      "volume": "2",
+      "summary": "Reservoir-fed molten glass extrusion; foundational G3DP demonstration.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_klein2015"
+    },
+    {
+      "id": "acad_inamura2018",
+      "title": "Additive Manufacturing of Transparent Glass Structures",
+      "authors": [
+        "Chikara Inamura",
+        "Michael Stern",
+        "Daniel Lizardo",
+        "Peter Houk",
+        "Neri Oxman"
+      ],
+      "year": 2018,
+      "doi_or_url": "10.1089/3dp.2018.0157",
+      "doi": "10.1089/3dp.2018.0157",
+      "url": "https://doi.org/10.1089/3dp.2018.0157",
+      "publisher": "SAGE Publications",
+      "volume": "5",
+      "summary": "G3DP2 integrates three thermal zones and four-axis motion; architectural assembly demonstration.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_inamura2018"
+    },
+    {
+      "id": "acad_liu2022",
+      "title": "Investigation of glass bonding and multi-layer deposition during filament-based glass 3D printing",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.3389/fmats.2022.978861",
+      "doi": "10.3389/fmats.2022.978861",
+      "url": "https://doi.org/10.3389/fmats.2022.978861",
+      "publisher": "Frontiers Media SA",
+      "volume": "9",
+      "summary": "KTH/Nobula symmetric laser heating of fused silica filament; repeatable multilayer wall deposition.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_liu2022"
+    },
+    {
+      "id": "acad_witzendorff2018",
+      "title": "Additive manufacturing of glass: CO2-Laser glass deposition printing",
+      "authors": [
+        "Philipp von Witzendorff",
+        "Leonhard Pohl",
+        "Oliver Suttmann",
+        "Peter Heinrich",
+        "Achim Heinrich",
+        "Jörg Zander",
+        "Holger Bragard",
+        "Stefan Kaierle"
+      ],
+      "year": 2018,
+      "doi_or_url": "10.1016/j.procir.2018.08.109",
+      "doi": "10.1016/j.procir.2018.08.109",
+      "url": "https://doi.org/10.1016/j.procir.2018.08.109",
+      "publisher": "Elsevier BV",
+      "volume": "74",
+      "summary": "Laser Zentrum Hannover quartz filament deposition with CO2 laser and moving substrate.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_witzendorff2018"
+    },
+    {
+      "id": "acad_baudet2019",
+      "title": "3D-printing of arsenic sulfide chalcogenide glasses",
+      "authors": [
+        "E. Baudet",
+        "Y. Ledemi",
+        "P. Larochelle",
+        "S. Morency",
+        "Y. Messaddeq"
+      ],
+      "year": 2019,
+      "doi_or_url": "10.1364/OME.9.002307",
+      "doi": "10.1364/OME.9.002307",
+      "url": "https://doi.org/10.1364/OME.9.002307",
+      "publisher": "Optica Publishing Group",
+      "volume": "9",
+      "summary": "Laval direct extrusion of arsenic sulfide chalcogenide glass; not a silicate process.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_baudet2019"
+    },
+    {
+      "id": "acad_nguyen2017",
+      "title": "3D‐Printed Transparent Glass",
+      "authors": [
+        "Du T. Nguyen",
+        "Cameron Meyers",
+        "Timothy D. Yee",
+        "Nikola A. Dudukovic",
+        "Joel F. Destino",
+        "Cheng Zhu",
+        "Eric B. Duoss",
+        "Theodore F. Baumann",
+        "Tayyab Suratwala",
+        "James E. Smay",
+        "Rebecca Dylla‐Spears"
+      ],
+      "year": 2017,
+      "doi_or_url": "10.1002/adma.201701181",
+      "doi": "10.1002/adma.201701181",
+      "url": "https://doi.org/10.1002/adma.201701181",
+      "publisher": "Wiley",
+      "volume": "29",
+      "summary": "LLNL direct ink writing followed by thermal densification; not molten deposition.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_nguyen2017"
+    },
+    {
+      "id": "acad_destino2018",
+      "title": "3D Printed Optical Quality Silica and Silica–Titania Glasses from Sol–Gel Feedstocks",
+      "authors": [
+        "Joel F. Destino",
+        "Nikola A. Dudukovic",
+        "Michael A. Johnson",
+        "Du T. Nguyen",
+        "Timothy D. Yee",
+        "Garth C. Egan",
+        "April M. Sawvel",
+        "William A. Steele",
+        "Theodore F. Baumann",
+        "Eric B. Duoss",
+        "Tayyab Suratwala",
+        "Rebecca Dylla‐Spears"
+      ],
+      "year": 2018,
+      "doi_or_url": "10.1002/admt.201700323",
+      "doi": "10.1002/admt.201700323",
+      "url": "https://doi.org/10.1002/admt.201700323",
+      "publisher": "Wiley",
+      "volume": "3",
+      "summary": "Sol-gel feedstocks, direct ink writing, thermal processing, and optical characterization.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_destino2018"
+    },
+    {
+      "id": "acad_chen2025",
+      "title": "Temperature Control of Quartz-Glass Melting Areas in Laser Additive Manufacturing",
+      "authors": [
+        "Jing Chen",
+        "Zeping Lv",
+        "Xuanjia Zhang",
+        "Tao Xu",
+        "Yuntao Cheng"
+      ],
+      "year": 2025,
+      "doi_or_url": "10.3390/mi16010029",
+      "doi": "10.3390/mi16010029",
+      "url": "https://doi.org/10.3390/mi16010029",
+      "publisher": "MDPI AG",
+      "volume": "16",
+      "summary": "Closed-loop laser power control for quartz glass deposition; issue year 2025, online 2024-12-28.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_chen2025"
+    },
+    {
+      "id": "acad_chhadeh2026",
+      "title": "The effect of toolpath design on the mechanical strength of additively manufactured glass components",
+      "authors": [
+        "Philipp Amir Chhadeh",
+        "Emanuel Nowak",
+        "Dylan Vlahopoulos",
+        "Matthias Seel",
+        "Nick Birbilis"
+      ],
+      "year": 2026,
+      "doi_or_url": "10.1038/s44334-026-00072-1",
+      "doi": "10.1038/s44334-026-00072-1",
+      "url": "https://doi.org/10.1038/s44334-026-00072-1",
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": "3",
+      "summary": "TU Darmstadt/Deakin four-point bend experiments link toolpath and heat retention to mechanical performance.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_chhadeh2026"
+    },
+    {
+      "id": "acad_stern2024",
+      "title": "Advancing Sustainable 3D Printing: The Feasibility of Recycled Glass as a Building Material With Additive Manufacturing",
+      "authors": [
+        "Michael Stern",
+        "Ethan Townsend",
+        "Daniel Massimino",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.47982/cgc.9.583",
+      "doi": "10.47982/cgc.9.583",
+      "url": "https://doi.org/10.47982/cgc.9.583",
+      "publisher": "Stichting OpenAccess Foundation",
+      "volume": "9",
+      "summary": "Evenline/MIT tests recycled container and float glass printability; not TU Delft apparatus.",
+      "evidence_type": "peer-reviewed primary research",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_stern2024"
+    },
+    {
+      "id": "acad_mitproject",
+      "title": "Glass I",
+      "authors": [
+        "MIT Media Lab"
+      ],
+      "year": 2015,
+      "doi_or_url": "https://www.media.mit.edu/projects/g3p/overview/",
+      "url": "https://www.media.mit.edu/projects/g3p/overview/",
+      "publisher": "MIT Media Lab",
+      "summary": "Historical two-chamber G3DP architecture and nozzle description; project page differs in material terminology from author manuscript.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_mitproject"
+    },
+    {
+      "id": "acad_schott2023",
+      "title": "TIE-27: Stress in optical glass",
+      "authors": [
+        "SCHOTT"
+      ],
+      "year": 2023,
+      "doi_or_url": "https://media.schott.com/api/public/content/d33171e170af4b94a8e49b11d758258e?v=610aa3b1",
+      "url": "https://media.schott.com/api/public/content/d33171e170af4b94a8e49b11d758258e?v=610aa3b1",
+      "publisher": "SCHOTT",
+      "summary": "August 2023 technical note: annealing, stress optics, geometry dependence and birefringence.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_schott2023"
+    },
+    {
+      "id": "acad_heraeus",
+      "title": "Glass Manufacturing Equipment",
+      "authors": [
+        "Heraeus Precious Metals"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.heraeus-precious-metals.com/en/products-solutions/category/precious-metal-components/glass-manufacturing-equipment/",
+      "url": "https://www.heraeus-precious-metals.com/en/products-solutions/category/precious-metal-components/glass-manufacturing-equipment/",
+      "publisher": "Heraeus Precious Metals",
+      "summary": "Undated manufacturer technical guidance accessed 2026; platinum alloys and composition-dependent equipment selection, not AM printer validation.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "acad_heraeus"
+    },
+    {
+      "id": "acad_delft",
+      "title": "F. Oikonomopoulou: Research outputs",
+      "authors": [
+        "TU Delft"
+      ],
+      "year": null,
+      "doi_or_url": "https://research.tudelft.nl/en/persons/f-oikonomopoulou/",
+      "url": "https://research.tudelft.nl/en/persons/f-oikonomopoulou/",
+      "publisher": "TU Delft",
+      "summary": "Institutional directory verifies structural/cast glass and collaboration with Telesilla Bristogianni; no direct printer identification.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "acad_delft"
+    },
+    {
+      "id": "acad_ikts",
+      "title": "Additive glass shaping improves selectivity of photomultipliers",
+      "authors": [
+        "Fraunhofer IKTS"
+      ],
+      "year": 2022,
+      "doi_or_url": "https://www.ikts.fraunhofer.de/en/blog/additive-glass-shaping-improves-selectivity-of-photomultipliers.html",
+      "url": "https://www.ikts.fraunhofer.de/en/blog/additive-glass-shaping-improves-selectivity-of-photomultipliers.html",
+      "publisher": "Fraunhofer IKTS",
+      "summary": "Glass-filled filament printing and subsequent sintering for photomultiplier-related parts; indirect route.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_ikts"
+    },
+    {
+      "id": "acad_isc",
+      "title": "3D-printed optics for individualized mass production",
+      "authors": [
+        "Fraunhofer ISC"
+      ],
+      "year": 2019,
+      "doi_or_url": "https://www.isc.fraunhofer.de/en/press-and-media/press-releases/3d-printed-optics-for-individualized-mass-production.html",
+      "url": "https://www.isc.fraunhofer.de/en/press-and-media/press-releases/3d-printed-optics-for-individualized-mass-production.html",
+      "publisher": "Fraunhofer ISC",
+      "summary": "ISC/IOF ORMOCER hybrid polymer optics, not equivalent to fully inorganic molten glass.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_isc"
+    },
+    {
+      "id": "acad_ipt",
+      "title": "3DHeat: Hybrid Additive Manufacturing of Molding Tools for Glass Molding",
+      "authors": [
+        "Fraunhofer IPT"
+      ],
+      "year": 2025,
+      "doi_or_url": "https://www.ipt.fraunhofer.de/en/projects/3dheat.html",
+      "url": "https://www.ipt.fraunhofer.de/en/projects/3dheat.html",
+      "publisher": "Fraunhofer IPT",
+      "summary": "2025-2027 project prints metal tools for glass molding; not direct printing of glass.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_ipt"
+    },
+    {
+      "id": "acad_kthrise",
+      "title": "Laser based 3D printing and processing: SSF financed research",
+      "authors": [
+        "KTH Royal Institute of Technology"
+      ],
+      "year": 2019,
+      "doi_or_url": "https://www.aphys.kth.se/lamp/research/laserphysics/research/laser-based-3d-print",
+      "url": "https://www.aphys.kth.se/lamp/research/laserphysics/research/laser-based-3d-print",
+      "publisher": "KTH",
+      "summary": "Institutional evidence of KTH/NTNU/RISE Acreo collaboration; contact Michel Fokine on historical page.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_kthrise"
+    },
+    {
+      "id": "acad_lavalproject",
+      "title": "Additive manufacturing of glasses for the fabrication of optical components: Summer 2025 internship",
+      "authors": [
+        "Universite Laval LRIO"
+      ],
+      "year": 2025,
+      "doi_or_url": "https://lrio.copl.ulaval.ca/images/E25-Stage-Fabrication_verre.pdf",
+      "url": "https://lrio.copl.ulaval.ca/images/E25-Stage-Fabrication_verre.pdf",
+      "publisher": "Universite Laval",
+      "summary": "Nanocomposite vat photopolymerization followed by thermal treatment and optical finishing; separate from chalcogenide extrusion.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "canonical_citation": "acad_lavalproject"
+    },
+    {
+      "id": "acad_mcgill",
+      "title": "Engineering human-scale perfusable tissues for diabetes cell therapy using 3D printing",
+      "authors": [
+        "McGill University"
+      ],
+      "year": null,
+      "doi_or_url": "https://escholarship.mcgill.ca/concern/theses/sf268c17j",
+      "url": "https://escholarship.mcgill.ca/concern/theses/sf268c17j",
+      "publisher": "McGill University",
+      "summary": "Repository item retrieved in 2026 concerns carbohydrate/sugar glass; excluded from inorganic molten-glass evidence. Publication year not verified.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "acad_mcgill"
+    },
+    {
+      "id": "acad_nagaoka",
+      "title": "Research publications: Takayuki Komatsu",
+      "authors": [
+        "Nagaoka University of Technology"
+      ],
+      "year": null,
+      "doi_or_url": "https://etigo.nagaokaut.ac.jp/koudoka/prmt/komatsu.html",
+      "url": "https://etigo.nagaokaut.ac.jp/koudoka/prmt/komatsu.html",
+      "publisher": "Nagaoka University of Technology",
+      "summary": "Historical institutional glass/crystal hybrid research page; molten deposition apparatus and current leadership not verified.",
+      "evidence_type": "institutional or manufacturer primary webpage",
+      "accessed": "2026-09-26",
+      "ledger_origin": "academic_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "acad_nagaoka"
+    },
+    {
+      "id": "com_evenline",
+      "title": "Technology: Molten Glass 3D Printer",
+      "authors": [
+        "Evenline"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.evenline.co/technology",
+      "url": "https://www.evenline.co/technology",
+      "publisher": "Evenline",
+      "summary": "Supplier specification: Mark III; 325 x 325 x 380 mm; operating 2000 F, not maximum rating; ceramic nozzle and overnight separate cooling.",
+      "evidence_type": "manufacturer claim",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "com_evenline"
+    },
+    {
+      "id": "com_evenlinepeople",
+      "title": "People",
+      "authors": [
+        "Evenline"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.evenline.co/people",
+      "url": "https://www.evenline.co/people",
+      "publisher": "Evenline",
+      "summary": "Michael Stern identified as founder and lead.",
+      "evidence_type": "manufacturer corporate record",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "com_evenlinepeople"
+    },
+    {
+      "id": "com_masonry",
+      "title": "Additive manufacturing of interlocking glass masonry units",
+      "authors": [
+        "Daniel Massimino",
+        "Charlotte Folinus",
+        "Ethan Townsend",
+        "Michael Stern",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "https://doi.org/10.1007/s40940-024-00279-8",
+      "url": "https://doi.org/10.1007/s40940-024-00279-8",
+      "publisher": "Springer Nature",
+      "summary": "Research on Evenline G3DP3 and interlocking masonry specimens; company-affiliated authors, not independent product qualification.",
+      "evidence_type": "peer-reviewed experiment",
+      "accessed": "2026-09-26",
+      "doi": "10.1007/s40940-024-00279-8",
+      "volume": "9",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_masonry"
+    },
+    {
+      "id": "com_mitbricks",
+      "title": "Engineers 3D print sturdy glass bricks for building structures",
+      "authors": [
+        "Jennifer Chu"
+      ],
+      "year": 2024,
+      "doi_or_url": "https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-building-structures",
+      "url": "https://meche.mit.edu/news-media/engineers-3d-print-sturdy-glass-bricks-building-structures",
+      "publisher": "Massachusetts Institute of Technology",
+      "summary": "Institutional account of tested masonry and strongest configurations using separately manufactured interlocks.",
+      "evidence_type": "institutional research account",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_mitbricks"
+    },
+    {
+      "id": "com_maple",
+      "title": "Maple Glass Printing",
+      "authors": [
+        "Monash University"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.monash.edu/monash-innovation/impact/generator-founders/maple-glass-printing",
+      "url": "https://www.monash.edu/monash-innovation/impact/generator-founders/maple-glass-printing",
+      "publisher": "Monash University",
+      "summary": "Company listing with research, education, architecture and art targets; no current specifications or price.",
+      "evidence_type": "institutional venture record",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "com_maple"
+    },
+    {
+      "id": "com_maplepatent",
+      "title": "Three-dimensional printing system",
+      "authors": [
+        "Nick Birbilis",
+        "Darren Robert Feenstra",
+        "Tony Koutsonikolas"
+      ],
+      "year": 2023,
+      "doi_or_url": "https://patents.google.com/patent/AU2021289614A1/en",
+      "url": "https://patents.google.com/patent/AU2021289614A1/en",
+      "publisher": "IP Australia; mirrored by Google Patents",
+      "summary": "AU2021289614A1: Maple assignee and heated-nozzle invention disclosure; publication does not verify current machine sales or grant status.",
+      "evidence_type": "patent disclosure",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_maplepatent"
+    },
+    {
+      "id": "com_nobulateam",
+      "title": "Nobula",
+      "authors": [
+        "KTH Royal Institute of Technology"
+      ],
+      "year": 2022,
+      "doi_or_url": "https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863",
+      "url": "https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-12/nobula-1.1026863",
+      "publisher": "KTH",
+      "summary": "Team Michael Fokine, Chunxin Liu, Taras Oriekhov and subsequent Sting participation.",
+      "evidence_type": "institutional venture record",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_nobulateam"
+    },
+    {
+      "id": "com_nobulainvest",
+      "title": "Ny investering i Nobula3D",
+      "authors": [
+        "KTH Holding"
+      ],
+      "year": 2022,
+      "doi_or_url": "https://kthventures.se/blog-posts/ny-investering-i-nobula3d",
+      "url": "https://kthventures.se/blog-posts/ny-investering-i-nobula3d",
+      "publisher": "KTH Ventures",
+      "summary": "May 5 2022 investment announcement, amount undisclosed; two patent filings claimed as of announcement.",
+      "evidence_type": "investor primary record",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_nobulainvest"
+    },
+    {
+      "id": "com_nobulagrant",
+      "title": "Nobula -- Breaking the glass ceiling in Additive Manufacturing through laser-assisted glass 3D printing",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2025,
+      "doi_or_url": "https://cordis.europa.eu/project/id/190122644",
+      "url": "https://cordis.europa.eu/project/id/190122644",
+      "publisher": "CORDIS",
+      "summary": "EU contribution EUR 2499875; project cost EUR 3571250; 2023-08-01 through 2026-04-30. Performance descriptions are applicant statements, not measurements.",
+      "evidence_type": "grant administrative record",
+      "accessed": "2026-09-26",
+      "doi": "10.3030/190122644",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_nobulagrant"
+    },
+    {
+      "id": "com_liu",
+      "title": "Rapid Fabrication of Silica Microlens Arrays via Glass 3D Printing",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Cherrie Lee",
+        "Clarissa M. Harvey",
+        "Michael Fokine"
+      ],
+      "year": 2024,
+      "doi_or_url": "https://doi.org/10.1089/3dp.2022.0112",
+      "url": "https://doi.org/10.1089/3dp.2022.0112",
+      "publisher": "Mary Ann Liebert",
+      "summary": "Fused silica microlens fabrication with Nobula Zero; authors include Nobula affiliations. Laser postprocessing reported.",
+      "evidence_type": "peer-reviewed experiment",
+      "accessed": "2026-09-26",
+      "doi": "10.1089/3dp.2022.0112",
+      "volume": "11",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_liu"
+    },
+    {
+      "id": "com_nobula",
+      "title": "Glass fabrication, redefined",
+      "authors": [
+        "Nobula3D AB"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.nobula3d.com/",
+      "url": "https://www.nobula3d.com/",
+      "publisher": "Nobula3D AB",
+      "summary": "Live 2026 page describes laser-built glass; accessible 17-line page contains no numerical specifications or prices.",
+      "evidence_type": "manufacturer claim",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "com_nobula"
+    },
+    {
+      "id": "com_glassomerhistory",
+      "title": "About us",
+      "authors": [
+        "Glassomer GmbH"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.glassomer.com/company/about-us.html",
+      "url": "https://www.glassomer.com/company/about-us.html",
+      "publisher": "Glassomer GmbH",
+      "summary": "Corporate timeline: founded Karlsruhe 2018, moved Freiburg; composite-material and parts production.",
+      "evidence_type": "manufacturer corporate record",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "com_glassomerhistory"
+    },
+    {
+      "id": "com_glassomer",
+      "title": "Home: fused silica components and Glassomer technology",
+      "authors": [
+        "Glassomer GmbH"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.glassomer.com/",
+      "url": "https://www.glassomer.com/",
+      "publisher": "Glassomer GmbH",
+      "summary": "Room-temperature shaping of silica-organic composites; optical and microfluidic offerings, grant acknowledgment 967328.",
+      "evidence_type": "manufacturer claim",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "publication_date_note": "Undated or unverified publication date; access date retained separately.",
+      "canonical_citation": "com_glassomer"
+    },
+    {
+      "id": "com_upnano",
+      "title": "Novel Process for 3D-Printing Macro-sized Fused silica Parts with Hi-Res Features",
+      "authors": [
+        "UpNano GmbH"
+      ],
+      "year": 2024,
+      "doi_or_url": "https://www.upnano.com/novel-process-for-3d-printing-macro-sized-fused-silica-parts-with-hi-res-features/",
+      "url": "https://www.upnano.com/novel-process-for-3d-printing-macro-sized-fused-silica-parts-with-hi-res-features/",
+      "publisher": "UpNano GmbH",
+      "summary": "2024-07-23 NanoOne/UpQuartz collaboration: 600 C debinding, 1300 C sintering, about 30% shrinkage, small ferrules and filters.",
+      "evidence_type": "manufacturer process claim",
+      "accessed": "2026-09-26",
+      "ledger_origin": "commercial_sources",
+      "canonical_citation": "com_upnano"
+    },
+    {
+      "id": "phys_tomotika",
+      "title": "On the instability of a cylindrical thread of a viscous liquid surrounded by another viscous fluid",
+      "authors": [
+        "S. Tomotika"
+      ],
+      "year": 1935,
+      "doi": "10.1098/rspa.1935.0104",
+      "doi_or_url": "https://doi.org/10.1098/rspa.1935.0104",
+      "url": "https://doi.org/10.1098/rspa.1935.0104",
+      "publisher": "The Royal Society",
+      "volume": "150",
+      "journal": "Proceedings of the Royal Society of London. Series A - Mathematical and Physical Sciences",
+      "pages": "322-337",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_tomotika"
+    },
+    {
+      "id": "phys_rayleigh",
+      "title": "On The Instability Of Jets",
+      "authors": [
+        "Lord Rayleigh"
+      ],
+      "year": 1878,
+      "doi": "10.1112/plms/s1-10.1.4",
+      "doi_or_url": "https://doi.org/10.1112/plms/s1-10.1.4",
+      "url": "https://doi.org/10.1112/plms/s1-10.1.4",
+      "publisher": "Wiley",
+      "volume": "s1-10",
+      "journal": "Proceedings of the London Mathematical Society",
+      "pages": "4-13",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_rayleigh"
+    },
+    {
+      "id": "phys_boro",
+      "title": "BOROFLOAT 33: Thermal Properties",
+      "authors": [
+        "SCHOTT"
+      ],
+      "year": null,
+      "doi_or_url": "https://media.schott.com/api/public/content/4fd51376b9d54a68b47be78fadfdd32d?download=true&v=1fc0ea9c",
+      "url": "https://media.schott.com/api/public/content/4fd51376b9d54a68b47be78fadfdd32d?download=true&v=1fc0ea9c",
+      "publisher": "SCHOTT",
+      "summary": "Manufacturer reference points; nominal values, not measured AM performance.",
+      "evidence_type": "manufacturer datasheet",
+      "local_path": "sources/papers/phys_boro.pdf",
+      "sha256": "e2d3d6e602bba060d832d5406297a6e56a29b24beba7d79acdbebc1a11eba9e5",
+      "accessed": "2026-09-26",
+      "status": "downloaded and parsed",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_boro",
+      "bytes": 46486
+    },
+    {
+      "id": "phys_inamura",
+      "title": "Additive Manufacturing of Transparent Glass Structures",
+      "authors": [
+        "Chikara Inamura",
+        "Michael Stern",
+        "Daniel Lizardo",
+        "Peter Houk",
+        "Neri Oxman"
+      ],
+      "year": 2018,
+      "doi": "10.1089/3dp.2018.0157",
+      "doi_or_url": "https://doi.org/10.1089/3dp.2018.0157",
+      "url": "https://doi.org/10.1089/3dp.2018.0157",
+      "publisher": "SAGE Publications",
+      "volume": "5",
+      "journal": "3D Printing and Additive Manufacturing",
+      "pages": "269-283",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "acad_inamura2018"
+    },
+    {
+      "id": "phys_kotz",
+      "title": "Three-dimensional printing of transparent fused silica glass",
+      "authors": [
+        "Frederik Kotz",
+        "Karl Arnold",
+        "Werner Bauer",
+        "Dieter Schild",
+        "Nico Keller",
+        "Kai Sachsenheimer",
+        "Tobias M. Nargang",
+        "Christiane Richter",
+        "Dorothea Helmer",
+        "Bastian E. Rapp"
+      ],
+      "year": 2017,
+      "doi": "10.1038/nature22061",
+      "doi_or_url": "https://doi.org/10.1038/nature22061",
+      "url": "https://doi.org/10.1038/nature22061",
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": "544",
+      "journal": "Nature",
+      "pages": "337-339",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_kotz"
+    },
+    {
+      "id": "phys_datsiou",
+      "title": "Additive manufacturing of glass with laser powder bed fusion",
+      "authors": [
+        "Kyriaki Corinna Datsiou",
+        "Ehab Saleh",
+        "Fiona Spirrett",
+        "Ruth Goodridge",
+        "Ian Ashcroft",
+        "Dave Eustice"
+      ],
+      "year": 2019,
+      "doi": "10.1111/jace.16440",
+      "doi_or_url": "https://doi.org/10.1111/jace.16440",
+      "url": "https://doi.org/10.1111/jace.16440",
+      "publisher": "Wiley",
+      "volume": "102",
+      "journal": "Journal of the American Ceramic Society",
+      "pages": "4410-4414",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_datsiou"
+    },
+    {
+      "id": "phys_toombs",
+      "title": "Volumetric additive manufacturing of silica glass with microscale computed axial lithography",
+      "authors": [
+        "Joseph T. Toombs",
+        "Manuel Luitz",
+        "Caitlyn C. Cook",
+        "Sophie Jenne",
+        "Chi Chung Li",
+        "Bastian E. Rapp",
+        "Frederik Kotz-Helmer",
+        "Hayden K. Taylor"
+      ],
+      "year": 2022,
+      "doi": "10.1126/science.abm6459",
+      "doi_or_url": "https://doi.org/10.1126/science.abm6459",
+      "url": "https://doi.org/10.1126/science.abm6459",
+      "publisher": "American Association for the Advancement of Science (AAAS)",
+      "volume": "376",
+      "journal": "Science",
+      "pages": "308-312",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_toombs"
+    },
+    {
+      "id": "phys_silica",
+      "title": "HPFS 7979, 7980, 8655 Fused Silica: Optical Materials Product Information",
+      "authors": [
+        "Corning"
+      ],
+      "year": 2025,
+      "publication_date_note": "November 2025, printed on page 8 of the archived manufacturer datasheet; verified 2026-09-30.",
+      "doi_or_url": "https://www.corning.com/media/worldwide/csm/documents/HPFS_Product_Brochure_All_Grades_2025_11.pdf",
+      "url": "https://www.corning.com/media/worldwide/csm/documents/HPFS_Product_Brochure_All_Grades_2025_11.pdf",
+      "publisher": "Corning",
+      "summary": "Manufacturer reference points; nominal values, not measured AM performance.",
+      "evidence_type": "manufacturer datasheet",
+      "local_path": "sources/papers/phys_silica.pdf",
+      "sha256": "983279414caa1582ab603ae1a1897261456f1193372e3a2c2cc9956b882cdd2d",
+      "accessed": "2026-09-26",
+      "status": "downloaded and parsed",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_silica",
+      "bytes": 1291431
+    },
+    {
+      "id": "phys_masonry",
+      "title": "Additive manufacturing of interlocking glass masonry units",
+      "authors": [
+        "Daniel Massimino",
+        "Ethan Townsend",
+        "Charlotte Folinus",
+        "Michael Stern",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi": "10.1007/s40940-024-00279-8",
+      "doi_or_url": "https://doi.org/10.1007/s40940-024-00279-8",
+      "url": "https://doi.org/10.1007/s40940-024-00279-8",
+      "publisher": "Springer Science and Business Media LLC",
+      "volume": "9",
+      "journal": "Glass Structures &amp; Engineering",
+      "pages": "397-417",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "com_masonry"
+    },
+    {
+      "id": "phys_klein",
+      "title": "Additive Manufacturing of Optically Transparent Glass",
+      "authors": [
+        "John Klein",
+        "Michael Stern",
+        "Giorgia Franchin",
+        "Markus Kayser",
+        "Chikara Inamura",
+        "Shreya Dave",
+        "James C. Weaver",
+        "Peter Houk",
+        "Paolo Colombo",
+        "Maria Yang",
+        "Neri Oxman"
+      ],
+      "year": 2015,
+      "doi": "10.1089/3dp.2015.0021",
+      "doi_or_url": "https://doi.org/10.1089/3dp.2015.0021",
+      "url": "https://doi.org/10.1089/3dp.2015.0021",
+      "publisher": "SAGE Publications",
+      "volume": "2",
+      "journal": "3D Printing and Additive Manufacturing",
+      "pages": "92-105",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "acad_klein2015"
+    },
+    {
+      "id": "phys_ar",
+      "title": "AR-GLAS: Tubing and Rod of Special Glass",
+      "authors": [
+        "SCHOTT"
+      ],
+      "year": null,
+      "doi_or_url": "https://media.schott.com/api/public/content/79a671737b4a4833aa91c99f68c4b5a3?v=eb1ee445",
+      "url": "https://media.schott.com/api/public/content/79a671737b4a4833aa91c99f68c4b5a3?v=eb1ee445",
+      "publisher": "SCHOTT",
+      "summary": "Manufacturer reference points; nominal values, not measured AM performance.",
+      "evidence_type": "manufacturer datasheet",
+      "local_path": "sources/papers/phys_ar.pdf",
+      "sha256": "90362fb965bb5ca6e24038414d4fa9466638fda036ce6f3190cd7f41f87fec79",
+      "accessed": "2026-09-26",
+      "status": "downloaded and parsed",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "phys_ar",
+      "bytes": 651972
+    },
+    {
+      "id": "phys_liu",
+      "title": "Investigation of glass bonding and multi-layer deposition during filament-based glass 3D printing",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi": "10.3389/fmats.2022.978861",
+      "doi_or_url": "https://doi.org/10.3389/fmats.2022.978861",
+      "url": "https://doi.org/10.3389/fmats.2022.978861",
+      "publisher": "Frontiers Media SA",
+      "volume": "9",
+      "journal": "Frontiers in Materials",
+      "pages": "",
+      "summary": "Primary publication; Crossref metadata checked. Claim-specific reading documented in the monograph and research notes.",
+      "evidence_type": "primary research",
+      "accessed": "2026-09-26",
+      "status": "metadata verified",
+      "ledger_origin": "physics_sources",
+      "canonical_citation": "acad_liu2022"
+    },
+    {
+      "id": "asset_klein2015",
+      "title": "Additive Manufacturing of Optically Transparent Glass",
+      "authors": [
+        "John P. Klein",
+        "Michael C. Stern",
+        "Giorgia Franchin",
+        "Markus Kayser",
+        "Chikara Inamura",
+        "Shreya H. Dave",
+        "James C. Weaver",
+        "Peter Houk",
+        "Paolo Angelo Colombo",
+        "Maria C. Yang",
+        "Neri Oxman"
+      ],
+      "year": 2015,
+      "doi_or_url": "10.1089/3dp.2015.0021",
+      "doi": "10.1089/3dp.2015.0021",
+      "url": "https://dspace.mit.edu/handle/1721.1/101831",
+      "publisher": "3D Printing and Additive Manufacturing",
+      "summary": "G3DP: first molten soda-lime glass material-extrusion printer; kiln cartridge ~1040 C, AZS nozzle, annealing chamber",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2015_Klein_Additive_Manufacturing_of_Optically_Transparent_Glass.pdf",
+      "sha256": "965e89dde4a850a655938f9e667e09110e4187c4ffa0dc59c64ddfa49b019a20",
+      "bytes": 238023,
+      "pages": 18,
+      "extracted_characters": 51550,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_klein2015"
+    },
+    {
+      "id": "asset_inamura2018",
+      "title": "Additive Manufacturing of Transparent Glass Structures",
+      "authors": [
+        "Chikara Inamura",
+        "Michael C. Stern",
+        "Daniel Lizardo",
+        "Peter Houk",
+        "Neri Oxman"
+      ],
+      "year": 2018,
+      "doi_or_url": "10.1089/3dp.2018.0157",
+      "doi": "10.1089/3dp.2018.0157",
+      "url": "https://dspace.mit.edu/bitstreams/7dbd523f-a0c1-4274-94e1-a370ca822c2c/download",
+      "publisher": "3D Printing and Additive Manufacturing",
+      "summary": "G3DP2: industrial-scale molten glass AM, 3-zone thermal control, 4-axis motion, 3 m columns Milan 2017",
+      "evidence_type": "academic_pdf",
+      "license": "MIT repository copy; PDF contains personal-use notice; no blanket redistribution permission asserted",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2018_Inamura_Additive_Manufacturing_of_Transparent_Glass_Structures.pdf",
+      "sha256": "58d7dc5a2d02e43fb00c75a03d8af0304b09e42f6bf7a4b0bd8bb9ba2c6ca282",
+      "bytes": 1456931,
+      "pages": 16,
+      "extracted_characters": 60347,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_inamura2018"
+    },
+    {
+      "id": "asset_mit2024masonry",
+      "title": "Additive manufacturing of interlocking glass masonry units",
+      "authors": [
+        "Daniel Massimino",
+        "Ethan Townsend",
+        "Charlotte M. Folinus",
+        "M. B. Stern",
+        "Kaitlyn P. Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s40940-024-00279-8",
+      "doi": "10.1007/s40940-024-00279-8",
+      "url": "https://link.springer.com/content/pdf/10.1007/s40940-024-00279-8.pdf",
+      "publisher": "Glass Structures & Engineering",
+      "summary": "Evenline G3DP3 recycled-glass interlocking masonry units; compressive strength data 3.6-118 MPa",
+      "evidence_type": "academic_pdf",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2024_Massimino_Additive_manufacturing_of_interlocking_g.pdf",
+      "sha256": "0d1825d958414e01566e21c2e78997418927296a122c2d5f03a5847771969e7d",
+      "bytes": 2601184,
+      "pages": 21,
+      "extracted_characters": 77589,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "Creative Commons licence, unless indicated otherwise in a credit",
+        "a copy of this licence, visit http://creativecommons.org/licenses/"
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_mit2024masonry"
+    },
+    {
+      "id": "asset_witzendorff2018",
+      "title": "Additive manufacturing of glass: CO2-Laser glass deposition printing",
+      "authors": [
+        "Philipp von Witzendorff",
+        "Leonhard Pohl",
+        "Oliver Suttmann",
+        "P. Heinrich",
+        "Achim Heinrich",
+        "Jörg Zander",
+        "Holger Bragard",
+        "Stefan Kaierle"
+      ],
+      "year": 2018,
+      "doi_or_url": "10.1016/j.procir.2018.08.109",
+      "doi": "10.1016/j.procir.2018.08.109",
+      "url": "https://repo.uni-hannover.de/bitstreams/baee6a93-3205-4ec1-897e-f30abaa371ff/download",
+      "publisher": "Procedia CIRP",
+      "summary": "LGD: CO2-laser melting of fused silica fibre; feed rate / power / velocity window",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2018_Witzendorff_Additive_manufacturing_of_glass_CO2_Lase.pdf",
+      "sha256": "05c25b3ac4e8de1ce0b3291f4087013ea196bb4f86c07d94d4a1b83d535fdfbd",
+      "bytes": 605114,
+      "pages": 4,
+      "extracted_characters": 12419,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "2212-8271 © 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ",
+        "(https://creativecommons.org/licenses/by-nc-nd/4.0/)",
+        "© 2018 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ",
+        "(https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_witzendorff2018"
+    },
+    {
+      "id": "asset_lgd2024homog",
+      "title": "Experimental investigation on the surface and volume homogeneity of additive manufactured fused silica components in the Laser Glass Deposition process",
+      "authors": [
+        "Khodor Sleiman",
+        "Katharina Rettschlag",
+        "Peter Jäschke",
+        "Stefan Kaierle"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1016/j.procir.2024.08.116",
+      "doi": "10.1016/j.procir.2024.08.116",
+      "url": "https://repo.uni-hannover.de/bitstreams/db679f92-1741-4b6e-91f1-c91758598483/download",
+      "publisher": "Procedia CIRP",
+      "summary": "Surface/volume homogeneity (bubbles, striae) of LGD fused silica parts",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2024_Sleiman_Experimental_investigation_on_the_surfac.pdf",
+      "sha256": "94330e25244879d61d7d091a251c586d56ab1aae89473c98c04f960087542928",
+      "bytes": 791495,
+      "pages": 4,
+      "extracted_characters": 17600,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)",
+        "This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)"
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_lgd2024homog"
+    },
+    {
+      "id": "asset_kth2022bonding",
+      "title": "Investigation of glass bonding and multi-layer deposition during filament-based glass 3D printing",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.3389/fmats.2022.978861",
+      "doi": "10.3389/fmats.2022.978861",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmats.2022.978861/pdf",
+      "publisher": "Frontiers in Materials",
+      "summary": "Filament-based CO2 laser glass 3D printing: interlayer bonding and multilayer deposition, 196 um fused silica filament",
+      "evidence_type": "academic_pdf",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2022_Liu_Investigation_of_glass_bonding_and_multi.pdf",
+      "sha256": "baf04bf17f5a308083a9f474c82ed53171353bf5be26bcbf6cf322bab81d5ae7",
+      "bytes": 2473525,
+      "pages": 10,
+      "extracted_characters": 36543,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "Commons Attribution License (CC BY)."
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_kth2022bonding"
+    },
+    {
+      "id": "asset_datsiou2019",
+      "title": "Additive manufacturing of glass with laser powder bed fusion",
+      "authors": [
+        "Kyriaki Corinna Datsiou",
+        "Ehab Saleh",
+        "Fiona Spirrett",
+        "Ruth Goodridge",
+        "Ian Ashcroft",
+        "Dave Eustice"
+      ],
+      "year": 2019,
+      "doi_or_url": "10.1111/jace.16440",
+      "doi": "10.1111/jace.16440",
+      "url": "https://eprints.whiterose.ac.uk/144780/13/Datsiou_et_al-2019-Journal_of_the_American_Ceramic_Society.pdf",
+      "publisher": "Journal of the American Ceramic Society",
+      "summary": "LPBF of soda-lime glass in commercial system, processing window",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2019_Datsiou_Additive_manufacturing_of_glass_with_las.pdf",
+      "sha256": "350f3fa81b62ca495868f59ae772311defce1000e7b72f1a4609923d17a929f0",
+      "bytes": 639166,
+      "pages": 5,
+      "extracted_characters": 23160,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original "
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_datsiou2019"
+    },
+    {
+      "id": "asset_datsiou2021",
+      "title": "Laser powder bed fusion of soda lime silica glass: Optimisation of processing parameters and evaluation of part properties",
+      "authors": [
+        "Kyriaki Corinna Datsiou",
+        "Fiona Spirrett",
+        "Ian Ashcroft",
+        "Marlin Magallanes",
+        "Steven D. R. Christie",
+        "Ruth Goodridge"
+      ],
+      "year": 2021,
+      "doi_or_url": "10.1016/j.addma.2021.101880",
+      "doi": "10.1016/j.addma.2021.101880",
+      "url": "https://uhra.herts.ac.uk/id/eprint/9377/1/1_s2.0_S2214860421000452_main.pdf",
+      "publisher": "Additive manufacturing",
+      "summary": "LPBF soda-lime glass parameter optimisation, density, roughness, strength",
+      "evidence_type": "academic_pdf",
+      "license": "CC BY 4.0",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2021_Datsiou_Laser_powder_bed_fusion_of_soda_lime_sil.pdf",
+      "sha256": "80945dc6e8dce7e90dade9aea031aa1693a1d7d3bd2da9b9b65c02567238b65e",
+      "bytes": 5502195,
+      "pages": 10,
+      "extracted_characters": 46706,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "2214-8604/© 2021 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_datsiou2021"
+    },
+    {
+      "id": "asset_spirrett2023",
+      "title": "Powder‐fed directed energy deposition of soda lime silica glass on glass substrates",
+      "authors": [
+        "Fiona Spirrett",
+        "Kyriaki Corinna Datsiou",
+        "Marlin Magallanes",
+        "Ian Ashcroft",
+        "Ruth Goodridge"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.1111/jace.18638",
+      "doi": "10.1111/jace.18638",
+      "url": "https://uhra.herts.ac.uk/id/eprint/10451/1/Journal_of_the_American_Ceramic_Society_-_2022_-_Spirrett_-_Powder_fed_directed_energy_deposition_of_soda_lime_silica_glass.pdf",
+      "publisher": "Journal of the American Ceramic Society",
+      "summary": "Powder-fed DED of soda-lime silica glass on glass substrates",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2022_Spirrett_Powder_fed_directed_energy_deposition_of.pdf",
+      "sha256": "81e6bba5f478d7f31c1c0a86cf5dffc944bb3848b18b7b61f12dc06fa882a7f4",
+      "bytes": 2117752,
+      "pages": 14,
+      "extracted_characters": 56361,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the",
+        "nd-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "nd-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "nd-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "nd-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License"
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_spirrett2023"
+    },
+    {
+      "id": "asset_slmsim2024",
+      "title": "A simulation model of selective laser melting (SLM) of glass silica monolayer",
+      "authors": [
+        "Wanrui Zhang"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s00170-024-13076-y",
+      "doi": "10.1007/s00170-024-13076-y",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00170-024-13076-y.pdf",
+      "publisher": "The International Journal of Advanced Manufacturing Technology",
+      "summary": "Simulation model of SLM of silica glass monolayer",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2024_Zhang_A_simulation_model_of_selective_laser_me.pdf",
+      "sha256": "1defefe6280fbc971e413350fe05e17144b0bda3bda614583f7199723b441ffa",
+      "bytes": 2064224,
+      "pages": 11,
+      "extracted_characters": 34272,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "Open Access  This article is licensed under a Creative Commons Attri-",
+        "provide a link to the Creative Commons licence, and indicate if changes ",
+        "included in the article's Creative Commons licence, unless indicated ",
+        "the article's Creative Commons licence and your intended use is not "
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_slmsim2024"
+    },
+    {
+      "id": "asset_toombs2022",
+      "title": "Volumetric additive manufacturing of silica glass with microscale computed axial lithography",
+      "authors": [
+        "Joseph T. Toombs",
+        "Manuel Luitz",
+        "Caitlyn C. Cook",
+        "Sophie Jenne",
+        "Chi Chung Li",
+        "Bastian Ernst Rapp",
+        "Frederik Kotz",
+        "Hayden Taylor"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.1126/science.abm6459",
+      "doi": "10.1126/science.abm6459",
+      "url": "https://arxiv.org/pdf/2110.01651",
+      "publisher": "Science",
+      "summary": "Volumetric computed axial lithography of silica glass",
+      "evidence_type": "academic_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2022_Toombs_Volumetric_additive_manufacturing_of_sil.pdf",
+      "sha256": "349a2e82183bc68be0af7e746e998902313b9939b589c86bac63f1db2b79d0d2",
+      "bytes": 4981374,
+      "pages": 42,
+      "extracted_characters": 51225,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [],
+      "version": "arXiv preprint with supplementary information; journal metadata refers to Science publication",
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_toombs2022"
+    },
+    {
+      "id": "asset_solgel2025",
+      "title": "Sol-gel technologies for additive manufacturing glass materials",
+      "authors": [
+        "Mamta Murthi",
+        "Joel F. Destino"
+      ],
+      "year": 2025,
+      "doi_or_url": "10.1007/s10971-025-06664-1",
+      "doi": "10.1007/s10971-025-06664-1",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10971-025-06664-1.pdf",
+      "publisher": "Journal of Sol-Gel Science and Technology",
+      "summary": "Sol-gel technologies for AM of glass",
+      "evidence_type": "review_pdf",
+      "license": "Open-access repository copy; see original article terms",
+      "provenance": "Copied from prior local archive; original acquisition URL retained. PDF title and page parsing checked in current run.",
+      "accessed": "2026-09-26",
+      "local_path": "sources/papers/2025_Murthi_Sol_gel_technologies_for_additive_manufa.pdf",
+      "sha256": "b14ee1754bcc9189eb6fbed901b1e2ae21538dcac43f4bc6e11e2ed2c3d4e6fa",
+      "bytes": 3465266,
+      "pages": 15,
+      "extracted_characters": 70599,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [
+        "Creative Commons license, 2010, Wiley; e, f Reproduced from [29],",
+        "under Creative Commons license 2011, Optica",
+        "under Creative Commons license, 2020, American Association for the",
+        "Open Access This article is licensed under a Creative Commons",
+        "source, provide a link to the Creative Commons licence, and indicate if"
+      ],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_solgel2025"
+    },
+    {
+      "id": "asset_patent_US10266442B2",
+      "title": "Methods and apparatus for additive manufacturing of glass",
+      "authors": [
+        "John Klein",
+        "Giorgia Franchin",
+        "Michael Stern",
+        "Markus Kayser",
+        "Chikara Inamura",
+        "Shreya Dave",
+        "Neri Oxman",
+        "Peter Houk"
+      ],
+      "year": 2019,
+      "doi_or_url": "https://patents.google.com/patent/US10266442B2/en",
+      "url": "https://patentimages.storage.googleapis.com/74/86/c4/4858833d28af73/US10266442.pdf",
+      "publisher": "Published patent specification",
+      "summary": "MIT; molten glass deposition apparatus",
+      "evidence_type": "patent_pdf",
+      "license": "Published patent document; no blanket reuse license asserted",
+      "http_status": 200,
+      "accessed": "2026-09-26",
+      "local_path": "sources/patents/US10266442B2.pdf",
+      "sha256": "7581f90447be135c73b4936d07b275bba7ce6ef6347043402860ac53a0b9c325",
+      "bytes": 3600377,
+      "pages": 34,
+      "extracted_characters": 119143,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_patent_US10266442B2"
+    },
+    {
+      "id": "asset_patent_AU2021289614A1",
+      "title": "Three-dimensional printing system",
+      "authors": [
+        "Nick Birbilis",
+        "Darren Robert Feenstra",
+        "Tony Koutsonikolas"
+      ],
+      "year": 2023,
+      "doi_or_url": "https://patents.google.com/patent/AU2021289614A1/en",
+      "url": "https://patentimages.storage.googleapis.com/ae/74/26/8df18a31728485/AU2021289614A1.pdf",
+      "publisher": "Published patent specification",
+      "summary": "Maple Glass Printing; filament-fed heated nozzle",
+      "evidence_type": "patent_pdf",
+      "license": "Published patent document; no blanket reuse license asserted",
+      "http_status": 200,
+      "accessed": "2026-09-26",
+      "local_path": "sources/patents/AU2021289614A1.pdf",
+      "sha256": "f65ca567ab91a618ecdc2b74a2bca23238d5fd243498d6866835b87c95eeb43b",
+      "bytes": 2668743,
+      "pages": 60,
+      "extracted_characters": 99570,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_patent_AU2021289614A1"
+    },
+    {
+      "id": "asset_patent_WO2020118157A1",
+      "title": "Engineered feedstocks for additive manufacture of glass",
+      "authors": [
+        "Rebecca Dylla-Spears",
+        "Tayyab I. Suratwala",
+        "Nikola Dudukovic",
+        "Tyler Fears",
+        "Fang Qian",
+        "Koroush Sasan",
+        "Joel Destino"
+      ],
+      "year": 2020,
+      "doi_or_url": "https://patents.google.com/patent/WO2020118157A1/en",
+      "url": "https://patentimages.storage.googleapis.com/9e/04/14/45bdff95d6da30/WO2020118157A1.pdf",
+      "publisher": "Published patent specification",
+      "summary": "LLNL engineered ink/feedstock route; distinguish from molten deposition",
+      "evidence_type": "patent_pdf",
+      "license": "Published patent document; no blanket reuse license asserted",
+      "http_status": 200,
+      "accessed": "2026-09-26",
+      "local_path": "sources/patents/WO2020118157A1.pdf",
+      "sha256": "da853e5170042159c4959bec304234397aa7027b2c4ef5ea0cffdf0d83f32346",
+      "bytes": 4775075,
+      "pages": 91,
+      "extracted_characters": 180,
+      "status": "PDF integrity verified; all pages parsed",
+      "license_evidence": [],
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_patent_WO2020118157A1"
+    },
+    {
+      "id": "asset_liu2022_fig1",
+      "title": "Four-beam CO2 laser filament deposition schematic",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.3389/fmats.2022.978861",
+      "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g001.jpg",
+      "doi": "10.3389/fmats.2022.978861",
+      "summary": "Unmodified figure from the open-access article; caption checked against article text.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-26",
+      "local_path": "sources/media/Liu2022_Figure1.jpg",
+      "sha256": "98106561bf523bd5a2b216f8e7d7f9917f8a2db26e98db1878255aaabc1d34d3",
+      "bytes": 30917,
+      "dimensions_pixels": [
+        498,
+        352
+      ],
+      "status": "Image integrity verified",
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_liu2022_fig1"
+    },
+    {
+      "id": "asset_liu2022_fig6",
+      "title": "Microscopy of glass deposition and bonding",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.3389/fmats.2022.978861",
+      "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g006.jpg",
+      "doi": "10.3389/fmats.2022.978861",
+      "summary": "Unmodified figure from the open-access article; caption checked against article text.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-26",
+      "local_path": "sources/media/Liu2022_Figure6.jpg",
+      "sha256": "1e2ff946530a8111b5b2f549191c6e2773ba8212be27dad80bd309f1920e18be",
+      "bytes": 130050,
+      "dimensions_pixels": [
+        941,
+        920
+      ],
+      "status": "Image integrity verified",
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_liu2022_fig6"
+    },
+    {
+      "id": "asset_massimino2024_fig1",
+      "title": "Evenline G3DP3 glass printer",
+      "authors": [
+        "Daniel Massimino",
+        "Ethan Townsend",
+        "Charlotte Folinus",
+        "Michael Stern",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s40940-024-00279-8",
+      "doi": "10.1007/s40940-024-00279-8",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig1_HTML.png",
+      "summary": "Unmodified article figure; article Creative Commons statement applies absent an individual exclusion.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-26",
+      "local_path": "sources/media/Massimino2024_Figure1.png",
+      "sha256": "1b2ecf06dcbd5d7cb2bf23f2ba318bb562e6956dc36eaf418d3fc9384151db06",
+      "bytes": 1355836,
+      "dimensions_pixels": [
+        874,
+        1213
+      ],
+      "status": "Image integrity verified",
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_massimino2024_fig1"
+    },
+    {
+      "id": "asset_massimino2024_fig2",
+      "title": "Interlocking glass masonry wall before mechanical tests",
+      "authors": [
+        "Daniel Massimino",
+        "Ethan Townsend",
+        "Charlotte Folinus",
+        "Michael Stern",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s40940-024-00279-8",
+      "doi": "10.1007/s40940-024-00279-8",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig2_HTML.png",
+      "summary": "Unmodified article figure; article Creative Commons statement applies absent an individual exclusion.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-26",
+      "local_path": "sources/media/Massimino2024_Figure2.png",
+      "sha256": "ac5f15c88ac2386cc0a7ee529767823e5892371bc82957396d55d44139beaff6",
+      "bytes": 1738417,
+      "dimensions_pixels": [
+        1371,
+        772
+      ],
+      "status": "Image integrity verified",
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_massimino2024_fig2"
+    },
+    {
+      "id": "asset_video_mit_glass_i",
+      "title": "GLASS / G3DP",
+      "authors": [
+        "MIT Mediated Matter Group"
+      ],
+      "year": 2015,
+      "doi_or_url": "https://vimeo.com/136764796",
+      "url": "https://vimeo.com/136764796",
+      "summary": "Official process demonstration; page identity checked by source/discovery record. Streaming playback not tested.",
+      "evidence_type": "video_link",
+      "license": "Link only; no video copied",
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:Matter-glass-printer.webm",
+      "http_status": 200,
+      "status": "HTTP checked; playback not verified",
+      "final_url": "https://vimeo.com/136764796",
+      "accessed": "2026-09-26",
+      "local_path": null,
+      "sha256": null,
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_video_mit_glass_i"
+    },
+    {
+      "id": "asset_video_mit_glass_ii",
+      "title": "GLASS II / G3DP2",
+      "authors": [
+        "MIT Mediated Matter Group"
+      ],
+      "year": 2017,
+      "doi_or_url": "https://vimeo.com/211778198",
+      "url": "https://vimeo.com/211778198",
+      "summary": "Official process demonstration; page identity checked by source/discovery record. Streaming playback not tested.",
+      "evidence_type": "video_link",
+      "license": "Link only; no video copied",
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:GLASS_II_-_Mediated_Matter.webm",
+      "http_status": 200,
+      "status": "HTTP checked; playback not verified",
+      "final_url": "https://vimeo.com/211778198",
+      "accessed": "2026-09-26",
+      "local_path": null,
+      "sha256": null,
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_video_mit_glass_ii"
+    },
+    {
+      "id": "asset_video_maple_demo",
+      "title": "3D Glass Printing | Inside Maple Glass Printing",
+      "authors": [
+        "Maple Glass Printing"
+      ],
+      "year": 2023,
+      "doi_or_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "summary": "Official process demonstration; page identity checked by source/discovery record. Streaming playback not tested.",
+      "evidence_type": "video_link",
+      "license": "Link only; no video copied",
+      "discovery_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "http_status": 200,
+      "status": "HTTP checked; playback not verified",
+      "final_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "accessed": "2026-09-26",
+      "local_path": null,
+      "sha256": null,
+      "ledger_origin": "asset_sources",
+      "canonical_citation": "asset_video_maple_demo"
+    },
+    {
+      "id": "asset_liu2022_fig1_audit_20260929",
+      "title": "Four-beam CO2 laser filament deposition schematic",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.3389/fmats.2022.978861",
+      "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g001.jpg",
+      "doi": "10.3389/fmats.2022.978861",
+      "summary": "Four-beam CO2-laser heating of a glass filament during deposition (Liu, Oriekhov and Fokine, 2022, Fig. 1). Reproduced without modification, CC BY 4.0.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-29",
+      "local_path": "sources/media/Liu2022_Figure1.jpg",
+      "sha256": "98106561bf523bd5a2b216f8e7d7f9917f8a2db26e98db1878255aaabc1d34d3",
+      "bytes": 30917,
+      "dimensions_pixels": [
+        498,
+        352
+      ],
+      "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+      "original_id": "asset_liu2022_fig1",
+      "recommended_caption": "Four-beam CO2-laser heating of a glass filament during deposition (Liu, Oriekhov and Fokine, 2022, Fig. 1). Reproduced without modification, CC BY 4.0.",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_liu2022_fig1_audit_20260929"
+    },
+    {
+      "id": "asset_liu2022_fig6_audit_20260929",
+      "title": "Microscopy of glass deposition and bonding",
+      "authors": [
+        "Chunxin Liu",
+        "Taras Oriekhov",
+        "Michael Fokine"
+      ],
+      "year": 2022,
+      "doi_or_url": "10.3389/fmats.2022.978861",
+      "url": "https://www.frontiersin.org/files/Articles/978861/fmats-09-978861-HTML/image_m/fmats-09-978861-g006.jpg",
+      "doi": "10.3389/fmats.2022.978861",
+      "summary": "Top views (A) and cross-sections (B) of deposited glass lines at 10–100 mm/min, with laser power varied as in the source article (Liu, Oriekhov and Fokine, 2022, Fig. 6). Reproduced without modification, CC BY 4.0.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-29",
+      "local_path": "sources/media/Liu2022_Figure6.jpg",
+      "sha256": "1e2ff946530a8111b5b2f549191c6e2773ba8212be27dad80bd309f1920e18be",
+      "bytes": 130050,
+      "dimensions_pixels": [
+        941,
+        920
+      ],
+      "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+      "original_id": "asset_liu2022_fig6",
+      "recommended_caption": "Top views (A) and cross-sections (B) of deposited glass lines at 10–100 mm/min, with laser power varied as in the source article (Liu, Oriekhov and Fokine, 2022, Fig. 6). Reproduced without modification, CC BY 4.0.",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_liu2022_fig6_audit_20260929"
+    },
+    {
+      "id": "asset_massimino2024_fig1_audit_20260929",
+      "title": "Evenline G3DP3 glass printer",
+      "authors": [
+        "Daniel Massimino",
+        "Ethan Townsend",
+        "Charlotte Folinus",
+        "Michael Stern",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s40940-024-00279-8",
+      "doi": "10.1007/s40940-024-00279-8",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig1_HTML.png",
+      "summary": "G3DP3 apparatus: the build chamber lies behind the glazed doors, below the furnace and crucible (Massimino et al., 2024, Fig. 1). Reproduced without modification, CC BY 4.0.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-29",
+      "local_path": "sources/media/Massimino2024_Figure1.png",
+      "sha256": "1b2ecf06dcbd5d7cb2bf23f2ba318bb562e6956dc36eaf418d3fc9384151db06",
+      "bytes": 1355836,
+      "dimensions_pixels": [
+        874,
+        1213
+      ],
+      "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+      "original_id": "asset_massimino2024_fig1",
+      "recommended_caption": "G3DP3 apparatus: the build chamber lies behind the glazed doors, below the furnace and crucible (Massimino et al., 2024, Fig. 1). Reproduced without modification, CC BY 4.0.",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_massimino2024_fig1_audit_20260929"
+    },
+    {
+      "id": "asset_massimino2024_fig2_audit_20260929",
+      "title": "Interlocking glass masonry wall before mechanical tests",
+      "authors": [
+        "Daniel Massimino",
+        "Ethan Townsend",
+        "Charlotte Folinus",
+        "Michael Stern",
+        "Kaitlyn Becker"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s40940-024-00279-8",
+      "doi": "10.1007/s40940-024-00279-8",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00279-8/MediaObjects/40940_2024_279_Fig2_HTML.png",
+      "summary": "Manufactured masonry units arranged as a wall before mechanical testing (Massimino et al., 2024, Fig. 2). Reproduced without modification, CC BY 4.0.",
+      "evidence_type": "figure",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "accessed": "2026-09-29",
+      "local_path": "sources/media/Massimino2024_Figure2.png",
+      "sha256": "ac5f15c88ac2386cc0a7ee529767823e5892371bc82957396d55d44139beaff6",
+      "bytes": 1738417,
+      "dimensions_pixels": [
+        1371,
+        772
+      ],
+      "status": "Image decoded and visually inspected; caption matched to primary PDF; article license checked; no individual figure exclusion found",
+      "original_id": "asset_massimino2024_fig2",
+      "recommended_caption": "Manufactured masonry units arranged as a wall before mechanical testing (Massimino et al., 2024, Fig. 2). Reproduced without modification, CC BY 4.0.",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_massimino2024_fig2_audit_20260929"
+    },
+    {
+      "id": "asset_chhadeh2026",
+      "title": "The effect of toolpath design on the mechanical strength of additively manufactured glass components",
+      "authors": [
+        "Philipp Amir Chhadeh",
+        "Emanuel Nowak",
+        "Dylan Vlahopoulos",
+        "Matthias Seel",
+        "Nick Birbilis"
+      ],
+      "year": 2026,
+      "doi_or_url": "10.1038/s44334-026-00072-1",
+      "url": "https://www.nature.com/articles/s44334-026-00072-1.pdf",
+      "local_path": "sources/papers/2026_Chhadeh_Toolpath_Design_Mechanical_Strength.pdf",
+      "license": "CC BY-NC-ND 4.0; https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "summary": "Primary four-point bending study of filament-extruded soda-lime glass. Toolpath and layer orientation affected mechanical performance; thermal-history explanation is a proposed mechanism. The paper is not a qualification standard.",
+      "status": "Downloaded from publisher; PDF signature and all 11 pages parsed; license checked on final page",
+      "evidence_type": "academic_pdf",
+      "accessed": "2026-09-29",
+      "bytes": 8548160,
+      "sha256": "74545fa11e33c618d07ead0eeb9108277a10fee212437dc4858b5c16b892bb5c",
+      "pages": 11,
+      "extracted_characters": 45619,
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_chhadeh2026"
+    },
+    {
+      "id": "asset_efferz2024_fig2",
+      "title": "Photoelastic images near a chamfered tempered-glass edge",
+      "authors": [
+        "Lena Efferz",
+        "Christian Schuler",
+        "Geralt Siebert"
+      ],
+      "year": 2024,
+      "doi_or_url": "10.1007/s40940-024-00270-3",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40940-024-00270-3/MediaObjects/40940_2024_270_Fig2_HTML.png",
+      "local_path": "sources/media/Efferz2024_Figure2.png",
+      "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+      "summary": "Intensity (a) and isochromatic (b) images near the chamfered edge of 10 mm fully tempered glass; marked points lie 1.0 and 1.6 mm from the edge. Efferz, Schuler and Siebert (2024), Fig. 2, CC BY 4.0, reproduced without modification. This is conventional tempered glass, not an additively manufactured specimen.",
+      "recommended_caption": "Intensity (a) and isochromatic (b) images near the chamfered edge of 10 mm fully tempered glass; marked points lie 1.0 and 1.6 mm from the edge. Efferz, Schuler and Siebert (2024), Fig. 2, CC BY 4.0, reproduced without modification. This is conventional tempered glass, not an additively manufactured specimen.",
+      "status": "Downloaded; image decoded and visually checked against publisher Figure 2 caption; article reuse terms checked, no figure-specific exclusion found",
+      "evidence_type": "figure",
+      "accessed": "2026-09-29",
+      "source_page": "https://link.springer.com/article/10.1007/s40940-024-00270-3",
+      "bytes": 68277,
+      "sha256": "4f79319bcdd25a788f5d29d7328e592a1f82fbeef73d5c1f90b178c8d1b1276e",
+      "dimensions_pixels": [
+        873,
+        640
+      ],
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_efferz2024_fig2"
+    },
+    {
+      "id": "asset_video_mit_glass_i_audit_20260929",
+      "title": "GLASS / G3DP",
+      "authors": [
+        "MIT Mediated Matter Group"
+      ],
+      "year": 2015,
+      "doi_or_url": "https://vimeo.com/136764796",
+      "url": "https://vimeo.com/136764796",
+      "summary": "Link only. HTTP 200 returned a script-driven page without a title; identity relies on the earlier discovery record.",
+      "evidence_type": "video_link",
+      "license": "Link only; no video copied",
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:Matter-glass-printer.webm",
+      "http_status": 200,
+      "status": "HTTP checked; streaming playback and captions not verified",
+      "final_url": "https://vimeo.com/136764796",
+      "accessed": "2026-09-29",
+      "local_path": null,
+      "sha256": null,
+      "original_id": "asset_video_mit_glass_i",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_video_mit_glass_i_audit_20260929"
+    },
+    {
+      "id": "asset_video_mit_glass_ii_audit_20260929",
+      "title": "GLASS II / G3DP2",
+      "authors": [
+        "MIT Mediated Matter Group"
+      ],
+      "year": 2017,
+      "doi_or_url": "https://vimeo.com/211778198",
+      "url": "https://vimeo.com/211778198",
+      "summary": "Link only. HTTP 200 returned a script-driven page without a title; identity relies on the earlier discovery record.",
+      "evidence_type": "video_link",
+      "license": "Link only; no video copied",
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:GLASS_II_-_Mediated_Matter.webm",
+      "http_status": 200,
+      "status": "HTTP checked; streaming playback and captions not verified",
+      "final_url": "https://vimeo.com/211778198",
+      "accessed": "2026-09-29",
+      "local_path": null,
+      "sha256": null,
+      "original_id": "asset_video_mit_glass_ii",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_video_mit_glass_ii_audit_20260929"
+    },
+    {
+      "id": "asset_video_maple_demo_audit_20260929",
+      "title": "3D Glass Printing | Inside Maple Glass Printing",
+      "authors": [
+        "Maple Glass Printing"
+      ],
+      "year": 2023,
+      "doi_or_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "summary": "Link only. YouTube page title matches expected video.",
+      "evidence_type": "video_link",
+      "license": "Link only; no video copied",
+      "discovery_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "http_status": 200,
+      "status": "HTTP checked; streaming playback and captions not verified",
+      "final_url": "https://www.youtube.com/watch?v=CSw0Kw6M8i0",
+      "accessed": "2026-09-29",
+      "local_path": null,
+      "sha256": null,
+      "original_id": "asset_video_maple_demo",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_video_maple_demo_audit_20260929"
+    },
+    {
+      "id": "asset_video_memphis_polariscope",
+      "title": "Polariscope",
+      "authors": [
+        "University of Memphis, Department of Physics and Materials Science"
+      ],
+      "year": null,
+      "doi_or_url": "https://www.youtube.com/watch?v=IefRrdTmlbA",
+      "url": "https://www.youtube.com/watch?v=IefRrdTmlbA",
+      "local_path": null,
+      "license": "Link only; no redistribution license asserted; no video copied",
+      "summary": "Direct video embedded by the university in its stress-birefringence demonstration page. Educational demonstration; it does not establish stress magnitudes in printed glass.",
+      "status": "University embed identity verified and YouTube page returned HTTP 200 with title Polariscope; playback and specimen material not independently verified",
+      "evidence_type": "video_link",
+      "accessed": "2026-09-29",
+      "discovery_url": "https://www.memphis.edu/physics/demonstrations/polariscope.php",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_video_memphis_polariscope"
+    },
+    {
+      "id": "asset_lazos_photoelastic_attempt",
+      "title": "Photoelasticity and color on a stressed glass plate",
+      "authors": [
+        "Takis lazos"
+      ],
+      "year": 2013,
+      "doi_or_url": "https://commons.wikimedia.org/wiki/File:Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Photoelasticity_and_color_on_a_stressed_glass_plate.jpg",
+      "local_path": null,
+      "license": "CC BY-SA 4.0 per Commons original-author file page; https://creativecommons.org/licenses/by-sa/4.0/",
+      "summary": "Possible illustration of clamped glass viewed between crossed polarizers; not used in report because download failed. Efferz Figure 2 supplies the photoelastic image instead.",
+      "status": "File-page attribution and license verified with web reader; binary acquisition returned HTTP 403",
+      "evidence_type": "failed_acquisition",
+      "accessed": "2026-09-29",
+      "ledger_origin": "asset_addendum",
+      "canonical_citation": "asset_lazos_photoelastic_attempt"
+    }
+  ],
+  "file_inventory": [
+    {
+      "path": "artifacts/compile_output.txt",
+      "bytes": 2377,
+      "sha256": "bb9286a612e45efe41b95847a4744ad2568bd7358d5c721597916535a0f8a2d4"
+    },
+    {
+      "path": "artifacts/IMPLEMENTATION_PLAN.md",
+      "bytes": 2103,
+      "sha256": "0165630d0d13615192947bb73515ee39ea5d2ab66aaf4a76dfdb7c1fac586f23"
+    },
+    {
+      "path": "artifacts/link_validation.json",
+      "bytes": 24102,
+      "sha256": "d8091b574e78f2471652d660e05f5a2186d2db41abaa48a46194828af983db95"
+    },
+    {
+      "path": "artifacts/pdf_inspection.json",
+      "bytes": 8198,
+      "sha256": "6cf2a12ccdde7296497ad32dcad64af3fa1461c1f1e46f9ddb7d95b26c93c745"
+    },
+    {
+      "path": "artifacts/resume_root_baseline_20260930.json",
+      "bytes": 473,
+      "sha256": "68d97dc8b286ff95d5955866d79c1a52eff9b9bc2e1c20e810d4fa3cae994796"
+    },
+    {
+      "path": "artifacts/root_baseline.json",
+      "bytes": 538,
+      "sha256": "f0c18ad6541c3345131db6ac10a44262e4575cdebaf098e839f42827e42dc510"
+    },
+    {
+      "path": "artifacts/TASK_LIST.md",
+      "bytes": 2209,
+      "sha256": "d56313ec522fbb3b87d8e69b35aca5111f1a3f1ea164d30217402a278454626e"
+    },
+    {
+      "path": "artifacts/validation.json",
+      "bytes": 4752,
+      "sha256": "c11bbf5e7ef90482d0eba76cd5e2eb7c319ae2def014b6c0ae3ac70a7ee70355"
+    },
+    {
+      "path": "artifacts/VERIFICATION_WALKTHROUGH.md",
+      "bytes": 8789,
+      "sha256": "4dc5f14d4ae5c367602eee292f775e0d88a5f8acbb2087a904771df54666441c"
+    },
+    {
+      "path": "artifacts/visual_review.json",
+      "bytes": 746,
+      "sha256": "9af958a4986e48706f2b9f13ddf0d07420c616004e8c4835fb861623a108e243"
+    },
+    {
+      "path": "latex/build/main.aux",
+      "bytes": 20256,
+      "sha256": "15504affba66130a64e54ad4a8ea4c01bb081a18c2adbf8b08c8d54baea7998c"
+    },
+    {
+      "path": "latex/build/main.bbl",
+      "bytes": 16157,
+      "sha256": "15b980a298e3f7c5cd9066f689104c0ad197ecce8a954a2ef0abf3ceb6837ac8"
+    },
+    {
+      "path": "latex/build/main.blg",
+      "bytes": 194,
+      "sha256": "f7f776f61e365e48ef4e36e855330a84656940380f2bed652c3c9060f7936d1a"
+    },
+    {
+      "path": "latex/build/main.log",
+      "bytes": 30019,
+      "sha256": "404ecf41691189888be409704e240527967733374256f45dcf6e3c10859600a8"
+    },
+    {
+      "path": "latex/build/main.out",
+      "bytes": 10674,
+      "sha256": "853b272d9a9da38851dbe6931dfa94409a5bd82071edef463a3f14eac1053a5e"
+    },
+    {
+      "path": "latex/build/main.pdf",
+      "bytes": 1845736,
+      "sha256": "2bb29674f6ca9e6d90daf61050c8a959b9f8f12505e39ba9eb0cfc9fe7925303"
+    },
+    {
+      "path": "latex/build/main.toc",
+      "bytes": 4013,
+      "sha256": "ce7d8b343887080db2f3097f58091296b2b86dfa2a46b0f4f91c282cfe507b23"
+    },
+    {
+      "path": "latex/figures/Efferz2024_Figure2.png",
+      "bytes": 68277,
+      "sha256": "4f79319bcdd25a788f5d29d7328e592a1f82fbeef73d5c1f90b178c8d1b1276e"
+    },
+    {
+      "path": "latex/figures/flow_sensitivity.pdf",
+      "bytes": 18457,
+      "sha256": "94787256f30187256551523d328cda3ab1790edbcaf7ca7c1e0dfe8a83f3560c"
+    },
+    {
+      "path": "latex/figures/flow_sensitivity.png",
+      "bytes": 205963,
+      "sha256": "2e3f7a05c0733cac4f0311d34db4a71b4fb2f4a89a9f772a7137a403be13730f"
+    },
+    {
+      "path": "latex/figures/Liu2022_Figure1.jpg",
+      "bytes": 30917,
+      "sha256": "98106561bf523bd5a2b216f8e7d7f9917f8a2db26e98db1878255aaabc1d34d3"
+    },
+    {
+      "path": "latex/figures/Liu2022_Figure6.jpg",
+      "bytes": 130050,
+      "sha256": "1e2ff946530a8111b5b2f549191c6e2773ba8212be27dad80bd309f1920e18be"
+    },
+    {
+      "path": "latex/figures/Massimino2024_Figure1.png",
+      "bytes": 1355836,
+      "sha256": "1b2ecf06dcbd5d7cb2bf23f2ba318bb562e6956dc36eaf418d3fc9384151db06"
+    },
+    {
+      "path": "latex/figures/Massimino2024_Figure2.png",
+      "bytes": 1738417,
+      "sha256": "ac5f15c88ac2386cc0a7ee529767823e5892371bc82957396d55d44139beaff6"
+    },
+    {
+      "path": "latex/figures/process_architecture.pdf",
+      "bytes": 16485,
+      "sha256": "68cf41faae1c972d73100c7de209a18d531a9f84312f14c78808897c6b4eb57e"
+    },
+    {
+      "path": "latex/figures/process_architecture.png",
+      "bytes": 89886,
+      "sha256": "e8ba357a870d60928142e6a341695e421d823debc4970254ddf040c95bd1fa78"
+    },
+    {
+      "path": "latex/figures/viscosity_residuals.pdf",
+      "bytes": 18284,
+      "sha256": "66d14224db6606b31f79f97cea14f66e2dd80ad5f26e030324541264ab62c436"
+    },
+    {
+      "path": "latex/figures/viscosity_residuals.png",
+      "bytes": 120725,
+      "sha256": "9d54c6211ab2ee17d016d2ae16541c9b94c118fadd8ff2c234a9aa2c1626e4f4"
+    },
+    {
+      "path": "latex/figures/viscosity_vft.pdf",
+      "bytes": 29642,
+      "sha256": "8cd540fabad0ee80611ba66d37006a19a92c0a99465f4643e3523016e3130f92"
+    },
+    {
+      "path": "latex/figures/viscosity_vft.png",
+      "bytes": 308936,
+      "sha256": "49f078ee87b8db1b5d52fd2345c44fe6e9d84dab5c3cf0d2e90e07348b8b5705"
+    },
+    {
+      "path": "latex/main.tex",
+      "bytes": 3245,
+      "sha256": "c9b010db31673f81519e054eef19f98673ed9442db81031a77d5c41ce5d1b7d3"
+    },
+    {
+      "path": "latex/references.bib",
+      "bytes": 16096,
+      "sha256": "6d5c42852502c9dc9217ec4458484d39d8e0ce055a2b5dc6afb1c2774a032949"
+    },
+    {
+      "path": "latex/sections/01_introduction_taxonomy.tex",
+      "bytes": 8289,
+      "sha256": "d4b255ff23c9a7848555c45a3d65b317b7519cec323fce3958bb6faa2f9e472a"
+    },
+    {
+      "path": "latex/sections/02_rheology_thermal_materials_physics.tex",
+      "bytes": 10040,
+      "sha256": "1708367058ac9445e4b5c709ef39fbc3d2cd58e27c3da8c2a71e0340e7643671"
+    },
+    {
+      "path": "latex/sections/03_nozzle_mechanics_hardware_kinematics.tex",
+      "bytes": 7451,
+      "sha256": "4ecfddeb2c64f8e2a73edd8d910831029970849c4e126cae5f532a5d4fc85962"
+    },
+    {
+      "path": "latex/sections/04_in_situ_thermal_management_annealing.tex",
+      "bytes": 6317,
+      "sha256": "5b5eb25fd989c87e0f4b261431b1ad58978910367c3bbbe291a28036444be0e5"
+    },
+    {
+      "path": "latex/sections/05_defect_mechanisms_optical_quality.tex",
+      "bytes": 7676,
+      "sha256": "fb6b9773791d2a36031be8508b80ee8f05211faca6c687b01dd93e5fbf545b67"
+    },
+    {
+      "path": "latex/sections/06_academic_landscape_directory.tex",
+      "bytes": 6634,
+      "sha256": "8bb49af6c1d543558551f781dcfd96b6ada09d8ac5fd2bc870238d930e276bc3"
+    },
+    {
+      "path": "latex/sections/07_commercial_systems_market_economics.tex",
+      "bytes": 12151,
+      "sha256": "62a70ccf97f8c5dffb7f7abe6e8882232a8459f0d5ad24854b5643b8b24f4219"
+    },
+    {
+      "path": "latex/sections/08_open_frontiers_research_roadmap.tex",
+      "bytes": 8000,
+      "sha256": "671debe1a0b4e644925f356e5b49cf34ea6e664b0c8aa835981b3963f00bc202"
+    },
+    {
+      "path": "latex/sections/viscosity_table.tex",
+      "bytes": 276,
+      "sha256": "2511eb6ee3886cc4945cb79df20d6bac2f0cf9972e6bbbd040509051c1534e6f"
+    },
+    {
+      "path": "notes/academic_notes/academic_references.bib",
+      "bytes": 8159,
+      "sha256": "1865eb9833a65cc548da15d9ce5f2e0e3a51adc3d9caa87413192d64cf54876b"
+    },
+    {
+      "path": "notes/academic_notes/evidence_summary.md",
+      "bytes": 12138,
+      "sha256": "fde61738e0adbfa10d1504eabb68069fac72f3b650612f0e8d3049b13e954473"
+    },
+    {
+      "path": "notes/academic_notes/final_review_20260930.md",
+      "bytes": 7028,
+      "sha256": "d3d8666a9fb54f8a37ba63dfc6ee2253f20da2e2a1930eb46bffaa0a8cab6c35"
+    },
+    {
+      "path": "notes/academic_notes/model_validation.md",
+      "bytes": 2101,
+      "sha256": "7009e620b97bc020c40098626fd2922516367f81351164d83e665a7ddbdb272d"
+    },
+    {
+      "path": "notes/academic_notes/review_20260929.md",
+      "bytes": 5868,
+      "sha256": "418175904dfbbec59329c69656b59ea0e29384cea1124e17cc8f808ca19cf7d0"
+    },
+    {
+      "path": "notes/commercial_notes/commercial_references.bib",
+      "bytes": 4327,
+      "sha256": "2a8b2b344b5f1cd91f55644d782539fe46353a56c70d6ff57af569087cbdb2d5"
+    },
+    {
+      "path": "notes/commercial_notes/README.md",
+      "bytes": 1957,
+      "sha256": "265310fcb62efdabc075cddb3223e1a07fcc1e7847ff5a851eaccc816ac4da6d"
+    },
+    {
+      "path": "notes/summaries/media_captions.md",
+      "bytes": 4772,
+      "sha256": "60900de3cf4d33be4d9bdd20a7e9ac0db33172a0b111d5b82bca443bad721f2c"
+    },
+    {
+      "path": "output/executive_summary.md",
+      "bytes": 3862,
+      "sha256": "3cbaad9af35651a8aca271dd1cd85f08c86ff8cc60b1f72ccd566bfc9429c2b8"
+    },
+    {
+      "path": "output/glass_3d_printing_sota_monograph.pdf",
+      "bytes": 1845736,
+      "sha256": "2bb29674f6ca9e6d90daf61050c8a959b9f8f12505e39ba9eb0cfc9fe7925303"
+    },
+    {
+      "path": "output/master_source_index.csv",
+      "bytes": 38802,
+      "sha256": "e45422ab70be9e01116d749e92dcd6a6b911299674ad26bf58dfb3988425bcc3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3913,
+      "sha256": "e53f583e129887f08424a9e8f1b234a8270ea335d9e2f533a79271c680a73eac"
+    },
+    {
+      "path": "scripts/analysis/commercial_economics.py",
+      "bytes": 1628,
+      "sha256": "e83f6f663803f807d1c35e873f706ec9edf365bf9dd064f6ffd6609f7fcb4e91"
+    },
+    {
+      "path": "scripts/analysis/engineering_models.py",
+      "bytes": 3260,
+      "sha256": "e388e35479d6fe9a10419e3e2f76a153e503b806b6af3d087b046ac7ccc31554"
+    },
+    {
+      "path": "scripts/analysis/plot_viscosity.py",
+      "bytes": 5595,
+      "sha256": "6aee6d3c17f4a29525b26628b5f62d6d7b124a83f7be58636db85e53da7efe91"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "bytes": 1874,
+      "sha256": "dea77d949972044a3b9e5fdfe951d9c6cc7d69c541228f3f45eff1275078dbd6"
+    },
+    {
+      "path": "scripts/processors/build_academic_sources.py",
+      "bytes": 7951,
+      "sha256": "3436362e06a802dc68db121c9656c1e69234b385b8b31d4dc8ee416479e3787f"
+    },
+    {
+      "path": "scripts/processors/build_asset_addendum.py",
+      "bytes": 7267,
+      "sha256": "c10a2a79bd781a37dfbbd0cc437de47d825f846f0d65c3b8a5a890710c2e04b4"
+    },
+    {
+      "path": "scripts/processors/finalize_audit.py",
+      "bytes": 8549,
+      "sha256": "2566e1515a3a66bfb01ed7c8e379e51bbc9271eb6078ff3b8f34fe944779c2b3"
+    },
+    {
+      "path": "scripts/processors/inspect_pdf.py",
+      "bytes": 2415,
+      "sha256": "af8fc3dd5e5f55257ff8a9ae3916e7e71472dbb308bee2300a21067e1df7edb1"
+    },
+    {
+      "path": "scripts/processors/integrate.py",
+      "bytes": 5102,
+      "sha256": "78806735f3429e45a7e29d74048459fa6edefb38db0af4f0f5afe84119080805"
+    },
+    {
+      "path": "scripts/processors/package.py",
+      "bytes": 4163,
+      "sha256": "9763edaa67e17744748bde228b335a2bb1da6af5cbf8e29c4bdb781fa7a8aa48"
+    },
+    {
+      "path": "scripts/processors/verify.py",
+      "bytes": 5358,
+      "sha256": "029a5aa7cc98c4ca742107b9bedf1bf472a53ba000d6c9628d2a4024ac8bcdc8"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 151,
+      "sha256": "c8633864fde8213074d1541771b54c26ab76d566f59e434e3b9cb31d9c4dfc2f"
+    },
+    {
+      "path": "scripts/scrapers/acquire_assets.py",
+      "bytes": 9490,
+      "sha256": "edf34001fb368d0c863d5847383b3f649cf95bc64a81d7bcd4e3d2195e130cba"
+    },
+    {
+      "path": "scripts/scrapers/extend_assets.py",
+      "bytes": 3844,
+      "sha256": "e06133cc3ff55cb0f6eb1333420a933aa81e770847bd545673430c149255a8cd"
+    },
+    {
+      "path": "scripts/scrapers/physics_sources.py",
+      "bytes": 3500,
+      "sha256": "40202551363eee1efbb121bc863e065ceede5577cfc19860eeabe0456ab2d0da"
+    },
+    {
+      "path": "sources/data/acad_baudet2019_crossref.json",
+      "bytes": 19166,
+      "sha256": "e8a01c75d2fd9d1fc84023fa54483accb243191efb7357d81f048f5a220b9ebf"
+    },
+    {
+      "path": "sources/data/acad_chen2025_crossref.json",
+      "bytes": 15312,
+      "sha256": "9e2d2e8997cdf082eeee5eb16ac685497fafc23d35a8efe1fb9737367c89aa7b"
+    },
+    {
+      "path": "sources/data/acad_chhadeh2026_crossref.json",
+      "bytes": 13136,
+      "sha256": "6b416832ca34eab8290d238a577dc400cf85118538a81f344fcd926951673da0"
+    },
+    {
+      "path": "sources/data/acad_destino2018_crossref.json",
+      "bytes": 17980,
+      "sha256": "b4541311110624d472981f0f2efb97d85629a9fb46347cdd243e08b7c15ff7b7"
+    },
+    {
+      "path": "sources/data/acad_inamura2018_crossref.json",
+      "bytes": 12526,
+      "sha256": "aba9cc85df5cd5b91827923093c6de10a891ed8f806b1aeb45d38cc76e685aa4"
+    },
+    {
+      "path": "sources/data/acad_klein2015_crossref.json",
+      "bytes": 17765,
+      "sha256": "21aa2caf9853ba51e85d4f4beda1ba4b3158143444cda0286c5ed9c44b6c8d70"
+    },
+    {
+      "path": "sources/data/acad_liu2022_crossref.json",
+      "bytes": 14339,
+      "sha256": "93cbd32fda6612a81c4aeeb63d25311228f5c38d78c93beb98876621e976cb0e"
+    },
+    {
+      "path": "sources/data/acad_nguyen2017_crossref.json",
+      "bytes": 13721,
+      "sha256": "3e31cc99a934e828d5763bfdf380933d589259a6449e290bedf8745066deefee"
+    },
+    {
+      "path": "sources/data/acad_stern2024_crossref.json",
+      "bytes": 5754,
+      "sha256": "25ef4a8e8f5f79db33b6f103dd2b20dea07225bc93af2cadabb3b6a6a24daac0"
+    },
+    {
+      "path": "sources/data/acad_witzendorff2018_crossref.json",
+      "bytes": 9607,
+      "sha256": "02d27926c0738ff78f445d3f676fae0b5689ebeadcf036b33465f3925b4ce513"
+    },
+    {
+      "path": "sources/data/academic_sources.json",
+      "bytes": 14558,
+      "sha256": "06bd206e05112ac05f909ba8cd54932e54d1bc445b4505062e9ffdabe61df1ac"
+    },
+    {
+      "path": "sources/data/asset_addendum.json",
+      "bytes": 13200,
+      "sha256": "2a0810b8469e991224588abbc7d6dd73ecafd233888b46ab8a89c17477d0f6a6"
+    },
+    {
+      "path": "sources/data/asset_http/chhadeh2026.html",
+      "bytes": 322971,
+      "sha256": "f42a9a713dd7f1157cfc9c76117ba85786c9df536451133446a98b4d2a8aebdd"
+    },
+    {
+      "path": "sources/data/asset_http/efferz2024.html",
+      "bytes": 3126,
+      "sha256": "3df518f81505ef50e09d540c8e6b76927bf3366bbddfd6d098513b384c980ea5"
+    },
+    {
+      "path": "sources/data/asset_http/efferz_20260929.html",
+      "bytes": 408599,
+      "sha256": "9e50a139ab3c15640fcc018817d459e6022f68338a7ffe963212427f960cce53"
+    },
+    {
+      "path": "sources/data/asset_http/maple_20260929.html",
+      "bytes": 1280600,
+      "sha256": "8a3b9170a48532d2a9db23e225f6ceadded523eb8fcd5da4965deef2b0f842f1"
+    },
+    {
+      "path": "sources/data/asset_http/maple_demo.html",
+      "bytes": 1270674,
+      "sha256": "1102c1e6d28607fd51fa5f973e3d4a2509d7650de92847030a5a75a212e5b811"
+    },
+    {
+      "path": "sources/data/asset_http/massimino2024.html",
+      "bytes": 3126,
+      "sha256": "3df518f81505ef50e09d540c8e6b76927bf3366bbddfd6d098513b384c980ea5"
+    },
+    {
+      "path": "sources/data/asset_http/memphis_20260929.html",
+      "bytes": 29972,
+      "sha256": "382c686853257a30af7105ce10e8c232ac0e0494bcc526ffe1f412bd976217e0"
+    },
+    {
+      "path": "sources/data/asset_http/mit1_20260929.html",
+      "bytes": 8234,
+      "sha256": "5de49e63af157236045c765629424e07d2c978cd5cb3b49ba146cdca35ced7c6"
+    },
+    {
+      "path": "sources/data/asset_http/mit2_20260929.html",
+      "bytes": 8234,
+      "sha256": "87a10fcba72307c6d93f9530f1135aa86d5415a0450a1e66abca022bfb890e54"
+    },
+    {
+      "path": "sources/data/asset_http/mit_glass_i.html",
+      "bytes": 7761,
+      "sha256": "7dd478399c917c85ddfa7f34afa76f6b15e92e6023ce1f8e48cb7bb47ca03136"
+    },
+    {
+      "path": "sources/data/asset_http/mit_glass_ii.html",
+      "bytes": 7761,
+      "sha256": "7dd478399c917c85ddfa7f34afa76f6b15e92e6023ce1f8e48cb7bb47ca03136"
+    },
+    {
+      "path": "sources/data/asset_http/photo_20260929.html",
+      "bytes": 127,
+      "sha256": "06e320e86ecae040cde8c09ddf5509e7e4cc61c3f50a0749634d38847211cc02"
+    },
+    {
+      "path": "sources/data/asset_http/photo_original_20260929.html",
+      "bytes": 127,
+      "sha256": "06e320e86ecae040cde8c09ddf5509e7e4cc61c3f50a0749634d38847211cc02"
+    },
+    {
+      "path": "sources/data/asset_http/polar_video_20260929.html",
+      "bytes": 1218950,
+      "sha256": "f402ec8e485af1ce27355a5873d9f8da2e15c01855aec5aac75aad11fff34447"
+    },
+    {
+      "path": "sources/data/asset_http/status_20260929.json",
+      "bytes": 2050,
+      "sha256": "32cbad18b957333944162fb5d60278b8fa5c383a24010f4b031873e885dd2135"
+    },
+    {
+      "path": "sources/data/asset_http/umd_20260929.html",
+      "bytes": 37049,
+      "sha256": "02b229e38585d55af787ddf7f036890af7ff7fdc4d329e8bb837c9b5b1805cea"
+    },
+    {
+      "path": "sources/data/asset_sources.json",
+      "bytes": 27713,
+      "sha256": "8bd814b44eb52c07e8896208882265633d01c0e3d510dd4d033d1bbdce0bb9fe"
+    },
+    {
+      "path": "sources/data/citation_aliases.json",
+      "bytes": 180,
+      "sha256": "bee995c537662f35b0151f3abc7bf1652b8b7ecf84b9d5a3c13357148420a315"
+    },
+    {
+      "path": "sources/data/commercial_economics.csv",
+      "bytes": 842,
+      "sha256": "bde18c0ae48aa915798e632265348ea5b5e4f7147e415c2c250037a46ab3f080"
+    },
+    {
+      "path": "sources/data/commercial_sources.json",
+      "bytes": 8161,
+      "sha256": "79d1d76bc6695b00f503e94f1848ad3476508ec811a0069909cc42df14d0c833"
+    },
+    {
+      "path": "sources/data/engineering_results.json",
+      "bytes": 1266,
+      "sha256": "7b19fb9a9282df620e7bf2364e428a2224f7e0b6c4f86bcb8d664e731acfd25b"
+    },
+    {
+      "path": "sources/data/phys_ar.txt",
+      "bytes": 11889,
+      "sha256": "c6ddc7c63d12f22a6d41906078e0fe50abffce185162e489d37f4d034695bdf2"
+    },
+    {
+      "path": "sources/data/phys_boro.txt",
+      "bytes": 2353,
+      "sha256": "6f3384c6c3bf8ef278736b0c4b89fab865f1d058a51badc87b1529dca26d48d7"
+    },
+    {
+      "path": "sources/data/phys_datsiou_crossref.json",
+      "bytes": 9253,
+      "sha256": "6b484d6103baf64744115f87ae2c42bce4888449defcad6ff7f73d097f242069"
+    },
+    {
+      "path": "sources/data/phys_inamura_crossref.json",
+      "bytes": 9906,
+      "sha256": "bbfe0ffe54886066aecd27626433243cbdbef0cf0cfd6226f5efd75219c2faf6"
+    },
+    {
+      "path": "sources/data/phys_klein_crossref.json",
+      "bytes": 13189,
+      "sha256": "136404fa9feb6a13bc970f21d18005904d47ca28d1c1807acf60358cd14a6562"
+    },
+    {
+      "path": "sources/data/phys_kotz_crossref.json",
+      "bytes": 12012,
+      "sha256": "1e10985a538b4d055131888216445079a6eb1e6703073be901c934b344c9ab35"
+    },
+    {
+      "path": "sources/data/phys_liu_crossref.json",
+      "bytes": 10674,
+      "sha256": "656cc7224ecfa20f4d1f061fd43f2604ab95fddb18a501ba041d15be1ab90523"
+    },
+    {
+      "path": "sources/data/phys_masonry_crossref.json",
+      "bytes": 18669,
+      "sha256": "05890ade22a853ab7b2f56b4b77aa6e2757cc8809d72b06df392a552bbd63eff"
+    },
+    {
+      "path": "sources/data/phys_rayleigh_crossref.json",
+      "bytes": 2407,
+      "sha256": "6c94ea972ee8ef1bcade7d73bfdc7ea6b8a525c28c9572bcb866b8b535366b5f"
+    },
+    {
+      "path": "sources/data/phys_silica.txt",
+      "bytes": 12546,
+      "sha256": "69bf1ce2a5482cdabb4d807d15c8cf505ddd3817cc420cf1583c3cbdd9490ece"
+    },
+    {
+      "path": "sources/data/phys_tomotika_crossref.json",
+      "bytes": 5374,
+      "sha256": "9ffd2cdb225a3a355406bbdd7d8a4bde98240bbbfffa8384f6f069f503bf569e"
+    },
+    {
+      "path": "sources/data/phys_toombs_crossref.json",
+      "bytes": 10886,
+      "sha256": "9a2134a42c1006a752c0aa94d4a2431c76ab0fbfa5f80bb9dbfb9ef47535c744"
+    },
+    {
+      "path": "sources/data/physics_sources.json",
+      "bytes": 10055,
+      "sha256": "735de38be09ef0de420249ea3f25a737e8b7daa152f9b4ede115111d953741c7"
+    },
+    {
+      "path": "sources/data/text/2015_Klein_Additive_Manufacturing_of_Optically_Transparent_Glass.txt",
+      "bytes": 52597,
+      "sha256": "76df964b7124b88f6d4cda593692b014e7f9f87a049ed793f47c77e8be16b0c7"
+    },
+    {
+      "path": "sources/data/text/2018_Inamura_Additive_Manufacturing_of_Transparent_Glass_Structures.txt",
+      "bytes": 62060,
+      "sha256": "cc9acf68e0fef81bca5d70a4172d739517b3534b2d0ba2592db57ddd6d8084c5"
+    },
+    {
+      "path": "sources/data/text/2018_Witzendorff_Additive_manufacturing_of_glass_CO2_Lase.txt",
+      "bytes": 12756,
+      "sha256": "19b41768f14c1553d858ae2d037618fdf7cfd024b06c6c506df873577c4830d8"
+    },
+    {
+      "path": "sources/data/text/2019_Datsiou_Additive_manufacturing_of_glass_with_las.txt",
+      "bytes": 23972,
+      "sha256": "94420bfe20aa9ae7e614de1d218cb71d1beff4f8578e9697e797811a9f544260"
+    },
+    {
+      "path": "sources/data/text/2021_Datsiou_Laser_powder_bed_fusion_of_soda_lime_sil.txt",
+      "bytes": 47892,
+      "sha256": "ca9733f31319cf57ab6b705130274b282a3bea558b441d429eb91246b03a2f68"
+    },
+    {
+      "path": "sources/data/text/2022_Liu_Investigation_of_glass_bonding_and_multi.txt",
+      "bytes": 37572,
+      "sha256": "eec6efe283e0875a3a75e87356614637e0fc7b7a1bcaa53ddb3be5de103e0c3b"
+    },
+    {
+      "path": "sources/data/text/2022_Spirrett_Powder_fed_directed_energy_deposition_of.txt",
+      "bytes": 57596,
+      "sha256": "693ade773618693dc411cd265c19d29450945e68b792948a6babe4e0dbbe9efd"
+    },
+    {
+      "path": "sources/data/text/2022_Toombs_Volumetric_additive_manufacturing_of_sil.txt",
+      "bytes": 54192,
+      "sha256": "6e7418a216bf936b5923316b6955506cd52af9e2f7c56f066a14bb55c7443433"
+    },
+    {
+      "path": "sources/data/text/2024_Massimino_Additive_manufacturing_of_interlocking_g.txt",
+      "bytes": 80048,
+      "sha256": "39092193196545c979c9f9726eba46add4c35b3b3f9ca8b2cd9d607bf89d4c10"
+    },
+    {
+      "path": "sources/data/text/2024_Sleiman_Experimental_investigation_on_the_surfac.txt",
+      "bytes": 18011,
+      "sha256": "a8bd616f611626b05f863d77bd7e102ea21d8fc2ab8bf1a61a8782daa8c2840d"
+    },
+    {
+      "path": "sources/data/text/2024_Zhang_A_simulation_model_of_selective_laser_me.txt",
+      "bytes": 36000,
+      "sha256": "871f012e16a91302a4b462024d62d12664e6621f9093048985767d98acce4e0f"
+    },
+    {
+      "path": "sources/data/text/2025_Murthi_Sol_gel_technologies_for_additive_manufa.txt",
+      "bytes": 72824,
+      "sha256": "e82cd4a6edfbae94bb31dad41a91b4e6817deb02669d3b21743a4d6a261b9655"
+    },
+    {
+      "path": "sources/data/text/2026_Chhadeh_Toolpath_Design_Mechanical_Strength.txt",
+      "bytes": 46874,
+      "sha256": "7b84500a9fe54e06b708dfb25f47755aa5ad99624772bddb7fa0a586751cc2e4"
+    },
+    {
+      "path": "sources/data/text/AU2021289614A1.txt",
+      "bytes": 101392,
+      "sha256": "778aa86f008aa7d0a8ecc40af3daf4b665809593cb6493a60798368169067f60"
+    },
+    {
+      "path": "sources/data/text/US10266442B2.txt",
+      "bytes": 124091,
+      "sha256": "e3c58d34e092b305f9568b3e7d061d105a3a2c35ba3f6228b929296b58cd85d4"
+    },
+    {
+      "path": "sources/data/text/WO2020118157A1.txt",
+      "bytes": 360,
+      "sha256": "f3af91aaced8225c7f33cea1972c3aa86e75dd0ee9fbf19c6af12034a740b0fd"
+    },
+    {
+      "path": "sources/data/viscosity_inputs.json",
+      "bytes": 862,
+      "sha256": "f555376ff6fb013af5b85fb1b74af2ab0841e8acb7e30c55cfb61ed026f4c478"
+    },
+    {
+      "path": "sources/data/viscosity_results.json",
+      "bytes": 3924,
+      "sha256": "c6d5c488b6b2147b5bbb0075004cb225818dc6b827743ddcf6537754b662b2b9"
+    },
+    {
+      "path": "sources/data/viscosity_thresholds.csv",
+      "bytes": 975,
+      "sha256": "f85969ce72006df8eecc57b0b00e18c6d5797e847397706e2a45a8a921405293"
+    },
+    {
+      "path": "sources/media/Efferz2024_Figure2.png",
+      "bytes": 68277,
+      "sha256": "4f79319bcdd25a788f5d29d7328e592a1f82fbeef73d5c1f90b178c8d1b1276e"
+    },
+    {
+      "path": "sources/media/Liu2022_Figure1.jpg",
+      "bytes": 30917,
+      "sha256": "98106561bf523bd5a2b216f8e7d7f9917f8a2db26e98db1878255aaabc1d34d3"
+    },
+    {
+      "path": "sources/media/Liu2022_Figure6.jpg",
+      "bytes": 130050,
+      "sha256": "1e2ff946530a8111b5b2f549191c6e2773ba8212be27dad80bd309f1920e18be"
+    },
+    {
+      "path": "sources/media/Massimino2024_Figure1.png",
+      "bytes": 1355836,
+      "sha256": "1b2ecf06dcbd5d7cb2bf23f2ba318bb562e6956dc36eaf418d3fc9384151db06"
+    },
+    {
+      "path": "sources/media/Massimino2024_Figure2.png",
+      "bytes": 1738417,
+      "sha256": "ac5f15c88ac2386cc0a7ee529767823e5892371bc82957396d55d44139beaff6"
+    },
+    {
+      "path": "sources/papers/2015_Klein_Additive_Manufacturing_of_Optically_Transparent_Glass.pdf",
+      "bytes": 238023,
+      "sha256": "965e89dde4a850a655938f9e667e09110e4187c4ffa0dc59c64ddfa49b019a20"
+    },
+    {
+      "path": "sources/papers/2018_Inamura_Additive_Manufacturing_of_Transparent_Glass_Structures.pdf",
+      "bytes": 1456931,
+      "sha256": "58d7dc5a2d02e43fb00c75a03d8af0304b09e42f6bf7a4b0bd8bb9ba2c6ca282"
+    },
+    {
+      "path": "sources/papers/2018_Witzendorff_Additive_manufacturing_of_glass_CO2_Lase.pdf",
+      "bytes": 605114,
+      "sha256": "05c25b3ac4e8de1ce0b3291f4087013ea196bb4f86c07d94d4a1b83d535fdfbd"
+    },
+    {
+      "path": "sources/papers/2019_Datsiou_Additive_manufacturing_of_glass_with_las.pdf",
+      "bytes": 639166,
+      "sha256": "350f3fa81b62ca495868f59ae772311defce1000e7b72f1a4609923d17a929f0"
+    },
+    {
+      "path": "sources/papers/2021_Datsiou_Laser_powder_bed_fusion_of_soda_lime_sil.pdf",
+      "bytes": 5502195,
+      "sha256": "80945dc6e8dce7e90dade9aea031aa1693a1d7d3bd2da9b9b65c02567238b65e"
+    },
+    {
+      "path": "sources/papers/2022_Liu_Investigation_of_glass_bonding_and_multi.pdf",
+      "bytes": 2473525,
+      "sha256": "baf04bf17f5a308083a9f474c82ed53171353bf5be26bcbf6cf322bab81d5ae7"
+    },
+    {
+      "path": "sources/papers/2022_Spirrett_Powder_fed_directed_energy_deposition_of.pdf",
+      "bytes": 2117752,
+      "sha256": "81e6bba5f478d7f31c1c0a86cf5dffc944bb3848b18b7b61f12dc06fa882a7f4"
+    },
+    {
+      "path": "sources/papers/2022_Toombs_Volumetric_additive_manufacturing_of_sil.pdf",
+      "bytes": 4981374,
+      "sha256": "349a2e82183bc68be0af7e746e998902313b9939b589c86bac63f1db2b79d0d2"
+    },
+    {
+      "path": "sources/papers/2024_Massimino_Additive_manufacturing_of_interlocking_g.pdf",
+      "bytes": 2601184,
+      "sha256": "0d1825d958414e01566e21c2e78997418927296a122c2d5f03a5847771969e7d"
+    },
+    {
+      "path": "sources/papers/2024_Sleiman_Experimental_investigation_on_the_surfac.pdf",
+      "bytes": 791495,
+      "sha256": "94330e25244879d61d7d091a251c586d56ab1aae89473c98c04f960087542928"
+    },
+    {
+      "path": "sources/papers/2024_Zhang_A_simulation_model_of_selective_laser_me.pdf",
+      "bytes": 2064224,
+      "sha256": "1defefe6280fbc971e413350fe05e17144b0bda3bda614583f7199723b441ffa"
+    },
+    {
+      "path": "sources/papers/2025_Murthi_Sol_gel_technologies_for_additive_manufa.pdf",
+      "bytes": 3465266,
+      "sha256": "b14ee1754bcc9189eb6fbed901b1e2ae21538dcac43f4bc6e11e2ed2c3d4e6fa"
+    },
+    {
+      "path": "sources/papers/2026_Chhadeh_Toolpath_Design_Mechanical_Strength.pdf",
+      "bytes": 8548160,
+      "sha256": "74545fa11e33c618d07ead0eeb9108277a10fee212437dc4858b5c16b892bb5c"
+    },
+    {
+      "path": "sources/papers/phys_ar.pdf",
+      "bytes": 651972,
+      "sha256": "90362fb965bb5ca6e24038414d4fa9466638fda036ce6f3190cd7f41f87fec79"
+    },
+    {
+      "path": "sources/papers/phys_boro.pdf",
+      "bytes": 46486,
+      "sha256": "e2d3d6e602bba060d832d5406297a6e56a29b24beba7d79acdbebc1a11eba9e5"
+    },
+    {
+      "path": "sources/papers/phys_silica.pdf",
+      "bytes": 1291431,
+      "sha256": "983279414caa1582ab603ae1a1897261456f1193372e3a2c2cc9956b882cdd2d"
+    },
+    {
+      "path": "sources/patents/AU2021289614A1.pdf",
+      "bytes": 2668743,
+      "sha256": "f65ca567ab91a618ecdc2b74a2bca23238d5fd243498d6866835b87c95eeb43b"
+    },
+    {
+      "path": "sources/patents/US10266442B2.pdf",
+      "bytes": 3600377,
+      "sha256": "7581f90447be135c73b4936d07b275bba7ce6ef6347043402860ac53a0b9c325"
+    },
+    {
+      "path": "sources/patents/WO2020118157A1.pdf",
+      "bytes": 4775075,
+      "sha256": "da853e5170042159c4959bec304234397aa7027b2c4ef5ea0cffdf0d83f32346"
+    }
+  ],
+  "packaged_at_utc": "2026-09-30T09:18:15.848827+00:00",
+  "inventory_note": "All packaged files except MANIFEST.json itself. Archive excludes scripts/tmp, __pycache__, ZIP files and the external artifacts/package_validation.json receipt, which hashes the final ZIP."
+}

@@ -1,0 +1,1020 @@
+{
+ "id": "https://openalex.org/W4402441708",
+ "doi": "https://doi.org/10.1016/j.procir.2024.08.116",
+ "title": "Experimental investigation on the surface and volume homogeneity of additive manufactured fused silica components in the Laser Glass Deposition process",
+ "display_name": "Experimental investigation on the surface and volume homogeneity of additive manufactured fused silica components in the Laser Glass Deposition process",
+ "relevance_score": 1280.5806,
+ "publication_year": 2024,
+ "publication_date": "2024-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4402441708",
+  "doi": "https://doi.org/10.1016/j.procir.2024.08.116"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.procir.2024.08.116",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.procir.2024.08.116",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2898565713",
+   "display_name": "Procedia CIRP",
+   "issn_l": "2212-8271",
+   "issn": [
+    "2212-8271"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Procedia CIRP",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "diamond",
+  "oa_url": "https://doi.org/10.1016/j.procir.2024.08.116",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5031354985",
+    "display_name": "Khodor Sleiman",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Khodor Sleiman",
+   "raw_affiliation_strings": [
+    "Cluster of Excellence PhoenixD (Photonics, Optics and Engineering \u2013 Innovation Across Disciplines), Hannover, Germany",
+    "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Cluster of Excellence PhoenixD (Photonics, Optics and Engineering \u2013 Innovation Across Disciplines), Hannover, Germany",
+     "institution_ids": []
+    },
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5048870031",
+    "display_name": "Katharina Rettschlag",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Katharina Rettschlag",
+   "raw_affiliation_strings": [
+    "Cluster of Excellence PhoenixD (Photonics, Optics and Engineering \u2013 Innovation Across Disciplines), Hannover, Germany",
+    "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Cluster of Excellence PhoenixD (Photonics, Optics and Engineering \u2013 Innovation Across Disciplines), Hannover, Germany",
+     "institution_ids": []
+    },
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5033303252",
+    "display_name": "Peter J\u00e4schke",
+    "orcid": "https://orcid.org/0009-0007-7398-9699"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Peter J\u00e4schke",
+   "raw_affiliation_strings": [
+    "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5073961687",
+    "display_name": "Stefan Kaierle",
+    "orcid": "https://orcid.org/0000-0002-7415-5094"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I114112103",
+     "display_name": "Leibniz University Hannover",
+     "ror": "https://ror.org/0304hq317",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I114112103"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210102034",
+     "display_name": "Laser Zentrum Hannover",
+     "ror": "https://ror.org/01gkym270",
+     "country_code": "DE",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I4210102034"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Stefan Kaierle",
+   "raw_affiliation_strings": [
+    "Cluster of Excellence PhoenixD (Photonics, Optics and Engineering \u2013 Innovation Across Disciplines), Hannover, Germany",
+    "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany",
+    "Leibniz Universit\u00e4t Hannover, Institute for Transport and Automation Technology, An der Universit\u00e4t 2, 30823 Garbsen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Cluster of Excellence PhoenixD (Photonics, Optics and Engineering \u2013 Innovation Across Disciplines), Hannover, Germany",
+     "institution_ids": []
+    },
+    {
+     "raw_affiliation_string": "Laser Zentrum Hannover e.V., Hollerithallee 8, 30419 Hannover, Germany",
+     "institution_ids": [
+      "https://openalex.org/I4210102034"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Leibniz Universit\u00e4t Hannover, Institute for Transport and Automation Technology, An der Universit\u00e4t 2, 30823 Garbsen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I114112103"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5031354985"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I4210102034"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.4351,
+ "has_fulltext": true,
+ "cited_by_count": 4,
+ "citation_normalized_percentile": {
+  "value": 0.53715557,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 91,
+  "max": 98
+ },
+ "biblio": {
+  "volume": "124",
+  "issue": null,
+  "first_page": "275",
+  "last_page": "278"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10783",
+  "display_name": "Additive Manufacturing and 3D Printing Technologies",
+  "score": 0.9983999729156494,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10783",
+   "display_name": "Additive Manufacturing and 3D Printing Technologies",
+   "score": 0.9983999729156494,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10705",
+   "display_name": "Additive Manufacturing Materials and Processes",
+   "score": 0.9902999997138977,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10732",
+   "display_name": "Laser Material Processing Techniques",
+   "score": 0.9521999955177307,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2206",
+    "display_name": "Computational Mechanics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/homogeneity",
+   "display_name": "Homogeneity (statistics)",
+   "score": 0.9177074432373047
+  },
+  {
+   "id": "https://openalex.org/keywords/materials-science",
+   "display_name": "Materials science",
+   "score": 0.7160472273826599
+  },
+  {
+   "id": "https://openalex.org/keywords/deposition",
+   "display_name": "Deposition (geology)",
+   "score": 0.606048583984375
+  },
+  {
+   "id": "https://openalex.org/keywords/silica-glass",
+   "display_name": "Silica glass",
+   "score": 0.5670400857925415
+  },
+  {
+   "id": "https://openalex.org/keywords/laser",
+   "display_name": "Laser",
+   "score": 0.49029114842414856
+  },
+  {
+   "id": "https://openalex.org/keywords/volume",
+   "display_name": "Volume (thermodynamics)",
+   "score": 0.4103408753871918
+  },
+  {
+   "id": "https://openalex.org/keywords/composite-material",
+   "display_name": "Composite material",
+   "score": 0.4003511667251587
+  },
+  {
+   "id": "https://openalex.org/keywords/optics",
+   "display_name": "Optics",
+   "score": 0.3140489161014557
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.1109236478805542
+  },
+  {
+   "id": "https://openalex.org/keywords/geology",
+   "display_name": "Geology",
+   "score": 0.0753084123134613
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C142259097",
+   "wikidata": "https://www.wikidata.org/wiki/Q5891314",
+   "display_name": "Homogeneity (statistics)",
+   "level": 2,
+   "score": 0.9177074432373047
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7160472273826599
+  },
+  {
+   "id": "https://openalex.org/C64297162",
+   "wikidata": "https://www.wikidata.org/wiki/Q1987070",
+   "display_name": "Deposition (geology)",
+   "level": 3,
+   "score": 0.606048583984375
+  },
+  {
+   "id": "https://openalex.org/C3020492233",
+   "wikidata": "https://www.wikidata.org/wiki/Q2122463",
+   "display_name": "Silica glass",
+   "level": 2,
+   "score": 0.5670400857925415
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.49029114842414856
+  },
+  {
+   "id": "https://openalex.org/C20556612",
+   "wikidata": "https://www.wikidata.org/wiki/Q4469374",
+   "display_name": "Volume (thermodynamics)",
+   "level": 2,
+   "score": 0.4103408753871918
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.4003511667251587
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.3140489161014557
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.1109236478805542
+  },
+  {
+   "id": "https://openalex.org/C127313418",
+   "wikidata": "https://www.wikidata.org/wiki/Q1069",
+   "display_name": "Geology",
+   "level": 0,
+   "score": 0.0753084123134613
+  },
+  {
+   "id": "https://openalex.org/C2816523",
+   "wikidata": "https://www.wikidata.org/wiki/Q180184",
+   "display_name": "Sediment",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C119857082",
+   "wikidata": "https://www.wikidata.org/wiki/Q2539",
+   "display_name": "Machine learning",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.procir.2024.08.116",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.procir.2024.08.116",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2898565713",
+    "display_name": "Procedia CIRP",
+    "issn_l": "2212-8271",
+    "issn": [
+     "2212-8271"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Procedia CIRP",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:repo.uni-hannover.de:123456789/19635",
+   "is_oa": true,
+   "landing_page_url": "https://repo.uni-hannover.de/handle/123456789/19635",
+   "pdf_url": "https://repo.uni-hannover.de/bitstreams/db679f92-1741-4b6e-91f1-c91758598483/download",
+   "source": {
+    "id": "https://openalex.org/S4306401575",
+    "display_name": "Institutional Repository of Leibniz Universit\u00e4t Hannover (Leibniz Universit\u00e4t Hannover)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I114112103",
+    "host_organization_name": "Leibniz University Hannover",
+    "host_organization_lineage": [
+     "https://openalex.org/I114112103"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Procedia CIRP",
+   "raw_type": "doc-type:Article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.procir.2024.08.116",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.procir.2024.08.116",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2898565713",
+   "display_name": "Procedia CIRP",
+   "issn_l": "2212-8271",
+   "issn": [
+    "2212-8271"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Procedia CIRP",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G3050172075",
+   "display_name": "EXC 2122: PhoenixD: Photonics, Optics, and Engineering \u2013 Innovation Across Disciplines",
+   "funder_award_id": "390833453",
+   "funder_id": "https://openalex.org/F4320320879",
+   "funder_display_name": "Deutsche Forschungsgemeinschaft"
+  },
+  {
+   "id": "https://openalex.org/G3200601016",
+   "display_name": null,
+   "funder_award_id": "(EXC 2122",
+   "funder_id": "https://openalex.org/F4320320879",
+   "funder_display_name": "Deutsche Forschungsgemeinschaft"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320320879",
+   "display_name": "Deutsche Forschungsgemeinschaft",
+   "ror": "https://ror.org/018mejw64"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 9,
+ "referenced_works": [
+  "https://openalex.org/W2048647203",
+  "https://openalex.org/W2169134071",
+  "https://openalex.org/W2261489731",
+  "https://openalex.org/W2559774699",
+  "https://openalex.org/W2606979403",
+  "https://openalex.org/W3119812215",
+  "https://openalex.org/W4212979137",
+  "https://openalex.org/W4308841924",
+  "https://openalex.org/W4320487118"
+ ],
+ "related_works": [
+  "https://openalex.org/W1999392235",
+  "https://openalex.org/W2075537321",
+  "https://openalex.org/W2055668825",
+  "https://openalex.org/W2059493168",
+  "https://openalex.org/W2371593620",
+  "https://openalex.org/W2156037511",
+  "https://openalex.org/W2572678357",
+  "https://openalex.org/W2019481703",
+  "https://openalex.org/W2024930283",
+  "https://openalex.org/W1568996612"
+ ],
+ "abstract_inverted_index": {
+  "Laser": [
+   0
+  ],
+  "Glass": [
+   1
+  ],
+  "Deposition": [
+   2
+  ],
+  "is": [
+   3,
+   20,
+   42,
+   56
+  ],
+  "an": [
+   4,
+   65
+  ],
+  "additive": [
+   5
+  ],
+  "manufacturing": [
+   6
+  ],
+  "method": [
+   7
+  ],
+  "to": [
+   8,
+   26
+  ],
+  "produce": [
+   9
+  ],
+  "individualized": [
+   10
+  ],
+  "structural": [
+   11
+  ],
+  "components": [
+   12,
+   115
+  ],
+  "out": [
+   13
+  ],
+  "of": [
+   14,
+   76,
+   99,
+   108,
+   129
+  ],
+  "glass.": [
+   15
+  ],
+  "A": [
+   16
+  ],
+  "CO": [
+   17
+  ],
+  "2": [
+   18
+  ],
+  "laser": [
+   19
+  ],
+  "utilized": [
+   21
+  ],
+  "as": [
+   22,
+   95
+  ],
+  "a": [
+   23,
+   35,
+   46,
+   60,
+   126
+  ],
+  "heat": [
+   24
+  ],
+  "source": [
+   25
+  ],
+  "melt": [
+   27
+  ],
+  "fused": [
+   28,
+   80
+  ],
+  "silica": [
+   29,
+   81
+  ],
+  "filaments": [
+   30
+  ],
+  "and": [
+   31,
+   73,
+   102,
+   122,
+   125
+  ],
+  "transform": [
+   32
+  ],
+  "them": [
+   33
+  ],
+  "into": [
+   34,
+   49
+  ],
+  "formable": [
+   36
+  ],
+  "viscous": [
+   37,
+   54
+  ],
+  "state.": [
+   38
+  ],
+  "The": [
+   39,
+   53
+  ],
+  "fiber": [
+   40
+  ],
+  "filament": [
+   41,
+   55
+  ],
+  "fed": [
+   43
+  ],
+  "laterally": [
+   44
+  ],
+  "under": [
+   45
+  ],
+  "defined": [
+   47
+  ],
+  "angle": [
+   48
+  ],
+  "the": [
+   50,
+   71,
+   77,
+   106,
+   109
+  ],
+  "process": [
+   51
+  ],
+  "zone.": [
+   52
+  ],
+  "deposited": [
+   57
+  ],
+  "layer-by-layer": [
+   58
+  ],
+  "using": [
+   59
+  ],
+  "3-axis": [
+   61
+  ],
+  "linear": [
+   62
+  ],
+  "system": [
+   63
+  ],
+  "with": [
+   64,
+   116
+  ],
+  "integrated": [
+   66
+  ],
+  "rotational": [
+   67
+  ],
+  "axis.": [
+   68
+  ],
+  "To": [
+   69
+  ],
+  "investigate": [
+   70
+  ],
+  "surface": [
+   72,
+   96,
+   127
+  ],
+  "volume": [
+   74,
+   118
+  ],
+  "quality": [
+   75
+  ],
+  "additively": [
+   78
+  ],
+  "manufactured": [
+   79
+  ],
+  "components,": [
+   82
+  ],
+  "fully": [
+   83,
+   112
+  ],
+  "dense": [
+   84,
+   113
+  ],
+  "test": [
+   85
+  ],
+  "specimens": [
+   86
+  ],
+  "are": [
+   87
+  ],
+  "analyzed": [
+   88
+  ],
+  "in": [
+   89
+  ],
+  "this": [
+   90
+  ],
+  "paper.": [
+   91
+  ],
+  "Quality": [
+   92
+  ],
+  "characteristics": [
+   93
+  ],
+  "such": [
+   94
+  ],
+  "roughness,": [
+   97
+  ],
+  "formation": [
+   98
+  ],
+  "boundary": [
+   100,
+   123
+  ],
+  "layers": [
+   101,
+   124
+  ],
+  "optical": [
+   103
+  ],
+  "transparency": [
+   104
+  ],
+  "constitute": [
+   105
+  ],
+  "focus": [
+   107
+  ],
+  "investigations.": [
+   110
+  ],
+  "Consequently,": [
+   111
+  ],
+  "glass": [
+   114
+  ],
+  "homogeneous": [
+   117
+  ],
+  "structures": [
+   119
+  ],
+  "without": [
+   120
+  ],
+  "pores": [
+   121
+  ],
+  "roughness": [
+   128
+  ],
+  "less": [
+   130
+  ],
+  "than": [
+   131
+  ],
+  "30": [
+   132
+  ],
+  "nm": [
+   133
+  ],
+  "were": [
+   134
+  ],
+  "printed": [
+   135
+  ],
+  "successfully.": [
+   136
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 3
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-08-13T07:04:57.449891",
+ "created_date": "2025-10-10T00:00:00"
+}

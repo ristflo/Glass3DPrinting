@@ -1,0 +1,27 @@
+{
+  "papers": [
+    {
+      "id": "klein2015additive",
+      "title": "Additive manufacturing of optically transparent glass",
+      "authors": "Klein, John et al.",
+      "year": 2015
+    },
+    {
+      "id": "oxman2015glass",
+      "title": "Glass I (G3DP)",
+      "authors": "Oxman, Neri et al.",
+      "year": 2015
+    },
+    {
+      "id": "inamura2018g3dp2",
+      "title": "G3DP2: A new era of architectural glass 3D printing",
+      "authors": "Inamura, Chikara et al.",
+      "year": 2018
+    }
+  ],
+  "patents": [],
+  "media": [],
+  "video_links": [
+    "https://www.youtube.com/watch?v=1ptjwqEiTIE"
+  ]
+}

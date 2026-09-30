@@ -1,0 +1,20 @@
+note: "version 2" Tectonic command-line interface activated
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+warning: sections/05_open_problems_research_frontiers:26: Overfull \hbox (9.09225pt too wide) in paragraph at lines 25--26
+warning: sections/06_academic_landscape_map:17: Overfull \hbox (8.5649pt too wide) in paragraph at lines 16--17
+note: Running BibTeX on main.aux ...
+note: warnings were issued by BibTeX; use --print and/or --keep-logs for details.
+note: Rerunning TeX because bibtex was run ...
+warning: sections/05_open_problems_research_frontiers:26: Overfull \hbox (9.09225pt too wide) in paragraph at lines 25--26
+warning: sections/06_academic_landscape_map:17: Overfull \hbox (8.5649pt too wide) in paragraph at lines 16--17
+note: Rerunning TeX because "main.toc" changed ...
+warning: sections/05_open_problems_research_frontiers:26: Overfull \hbox (9.09225pt too wide) in paragraph at lines 25--26
+warning: sections/06_academic_landscape_map:17: Overfull \hbox (8.5649pt too wide) in paragraph at lines 16--17
+note: Rerunning TeX because "main.toc" changed ...
+warning: sections/05_open_problems_research_frontiers:26: Overfull \hbox (9.09225pt too wide) in paragraph at lines 25--26
+warning: sections/06_academic_landscape_map:17: Overfull \hbox (8.5649pt too wide) in paragraph at lines 16--17
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: Writing `build\main.pdf` (929.888671875 KiB)
+note: Skipped writing 4 intermediate files (use --keep-intermediates to keep them)
